@@ -5345,7 +5345,7 @@ metafile = true
 
 [[files]]
 file = "mods/cyclic.pw.toml"
-hash = "75d7b0f1d40fcc294ac06d7eb7aae8303ef3bf5b333959cf481d52209922eaf3"
+hash = "715c5f09d3f5c078a7a5c37d449255287d66e0fd96ac1a13bc8783aed886138e"
 metafile = true
 
 [[files]]
@@ -6380,7 +6380,7 @@ metafile = true
 
 [[files]]
 file = "mods/naturalist.pw.toml"
-hash = "68e814010cf2df9f5e2ed54d305bf969ea6441494c1bc6d33f7095304c8584e4"
+hash = "460aa138b0374ab1541c372493ac95d9237c62ab063941f0cdf93dd22dd2455f"
 metafile = true
 
 [[files]]
