@@ -3276,7 +3276,7 @@ metafile = true
 
 [[files]]
 file = "mods/alchemylib.pw.toml"
-hash = "955439ec563b809ad1c8d23fa3f65878029060b4461e31f54a6380e11ddd4a81"
+hash = "91dde3c792f2fa01c8d5609cb42ea8dade89518805caca8aac157ca3b2d6cb17"
 metafile = true
 
 [[files]]
