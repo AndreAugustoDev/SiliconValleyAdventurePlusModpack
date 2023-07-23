@@ -2,11 +2,11 @@
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
-  global.blueskies.forEach(metal => {
-    event.add(`forge:raw_materials/${metal}`, `blue_skies:raw_${metal}`)
-  })
-})
+//ServerEvents.tags('item', event => {
+//  global.blueskies.forEach(metal => {
+//    event.add(`forge:raw_materials/${metal}`, `blue_skies:raw_${metal}`)
+//  })
+//})
 
 ServerEvents.recipes(event => {
   if (global.devLogging) {

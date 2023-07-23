@@ -1,7 +1,5 @@
-ServerEvents.recipes(e=> {
-    e.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot'})
-  
-    //oil is oil
+ServerEvents.recipes(e => {
+    // Oil is oil
     e.custom({
         type: "ad_astra:fuel_conversion",
         input: "#forge:crude_oil",

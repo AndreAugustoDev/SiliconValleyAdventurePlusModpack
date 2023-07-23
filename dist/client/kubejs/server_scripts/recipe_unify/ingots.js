@@ -2,11 +2,11 @@
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
-  ['falsite', 'ventium', 'horizonite'].forEach(metal => {
-    event.add(`forge:ingots/${metal}`, `blue_skies:${metal}_ingot`)
-  })
-})
+//ServerEvents.tags('item', event => {
+//  ['falsite', 'ventium', 'horizonite'].forEach(metal => {
+//    event.add(`forge:ingots/${metal}`, `blue_skies:${metal}_ingot`)
+//  })
+//})
 
 ServerEvents.recipes(event => {
   if (global.devLogging) {

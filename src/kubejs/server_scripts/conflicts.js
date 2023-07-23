@@ -1,7 +1,7 @@
-ServerEvents.tags('item', event => {
-  // event.add('blue_skies:planks', /blue_skies:.+?_planks/)
-  event.add('byg:planks', /byg:.+?_planks/)
-})
+//ServerEvents.tags('item', event => {
+//  //event.add('blue_skies:planks', /blue_skies:.+?_planks/)
+//  event.add('byg:planks', /byg:.+?_planks/)
+//})
 
 ServerEvents.recipes(event => {
   /* Fix Overlapping Recipes
@@ -15,6 +15,7 @@ ServerEvents.recipes(event => {
     event.shaped(Item.of(out), ['   ', '   ', 'aaa'], { a: Ingredient.of(input) }).noMirror().noShrink().id(`kubejs:${recipe.getId().replace(':', '/')}`)
     event.remove({ id: recipe.getId() })
   })
+
   // Wool slabs
   event.forEachRecipe({ type: 'minecraft:crafting_shaped', id: /absentbydesign:slab_wool_.+/ }, recipe => {
     let out = recipe.json.get('result')
@@ -34,32 +35,6 @@ ServerEvents.recipes(event => {
   event.shaped('constructionwand:iron_wand', ['  C', ' S ', 'S  '], { C: '#forge:ingots/iron', S: '#forge:rods/wooden' }).noMirror().id(`kubejs:constructionwand/iron_wand`)
 
   let planks = Ingredient.of('#minecraft:planks')
-  // Blue Skies tools
-  //let bsplanks = planks.subtract(Ingredient.of('#blue_skies:planks'))
-  //event.forEachRecipe({ id: /minecraft:wooden_(hoe|shovel|pickaxe|sword|axe)/ }, recipe => {
-  //  let json = recipe.json
-  //  let key = json.get('key')
-  //  key.add('X', bsplanks.toJson())
-  //  json.add('key', key)
-  //  recipe.json = json
-  //})
-  //event.forEachRecipe({ id: 'minecraft:stick' }, recipe => {
-  //  let json = recipe.json
-  //  let key = json.get('key')
-  //  key.add('#', bsplanks.toJson())
-  //  json.add('key', key)
-  //  recipe.json = json
-  //})
-  //
-  //let cobble = Ingredient.of('#quark:stone_tool_materials').subtract(Ingredient.of('#blue_skies:cobblestone'))
-  //event.forEachRecipe({ id: /quark:tweaks\/crafting\/utility\/tools\/stone_(hoe|shovel|pickaxe|sword|axe)/ }, recipe => {
-  //  let json = recipe.json
-  //  let key = json.get('key')
-  //  key.add('X', cobble.toJson())
-  //  json.add('key', key)
-  //  recipe.json = json
-  //})
-
   // So many crafting tables
   let tablePlanks = planks.subtract(Ingredient.of('#byg:planks'))
   event.forEachRecipe({ id: 'minecraft:crafting_table' }, recipe => {

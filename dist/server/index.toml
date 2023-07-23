@@ -1261,6 +1261,10 @@ file = "config/immersiveengineering-client.toml"
 hash = "25bacd32f5216731e434ab709229030bb94d44c25d707c681c6b4f749e828695"
 
 [[files]]
+file = "config/integrateddynamics-common.toml"
+hash = "754f38490f0934ef3724f22cf47d08666c6cdecc04f56ddbf54fe2b8869fe742"
+
+[[files]]
 file = "config/inventoryhud-client.toml"
 hash = "ca2d00211b3240ab871a882b4cf9ce4158169c3c40e47eda4c580ebfe5df8b09"
 
@@ -1431,6 +1435,14 @@ hash = "b65368263129182f77b1b478b2fd0ffe3188c078129911b38cd203e43b487b1f"
 [[files]]
 file = "config/rubidium_extras.toml"
 hash = "fa99e67ac5844bb32472abbb152e8ac56b3af0f3e5c046aa2875ec2f818d9323"
+
+[[files]]
+file = "config/sebastrnlib-client.toml"
+hash = "ad66f214f945f5d0850f22b9f5df50e698e980781bb34539b63532055e8027fd"
+
+[[files]]
+file = "config/sebastrnlib-server.toml"
+hash = "ef9ccd78c4a36aa927926ab86d44f5bf128e1b3bc6d5c865afe6276a6509d1e1"
 
 [[files]]
 file = "config/securitycraft-client.toml"
@@ -2725,6 +2737,10 @@ file = "defaultconfigs/immersiveengineering-client.toml"
 hash = "25bacd32f5216731e434ab709229030bb94d44c25d707c681c6b4f749e828695"
 
 [[files]]
+file = "defaultconfigs/integrateddynamics-common.toml"
+hash = "754f38490f0934ef3724f22cf47d08666c6cdecc04f56ddbf54fe2b8869fe742"
+
+[[files]]
 file = "defaultconfigs/inventoryhud-client.toml"
 hash = "ca2d00211b3240ab871a882b4cf9ce4158169c3c40e47eda4c580ebfe5df8b09"
 
@@ -2895,6 +2911,14 @@ hash = "b65368263129182f77b1b478b2fd0ffe3188c078129911b38cd203e43b487b1f"
 [[files]]
 file = "defaultconfigs/rubidium_extras.toml"
 hash = "fa99e67ac5844bb32472abbb152e8ac56b3af0f3e5c046aa2875ec2f818d9323"
+
+[[files]]
+file = "defaultconfigs/sebastrnlib-client.toml"
+hash = "ad66f214f945f5d0850f22b9f5df50e698e980781bb34539b63532055e8027fd"
+
+[[files]]
+file = "defaultconfigs/sebastrnlib-server.toml"
+hash = "ef9ccd78c4a36aa927926ab86d44f5bf128e1b3bc6d5c865afe6276a6509d1e1"
 
 [[files]]
 file = "defaultconfigs/securitycraft-client.toml"
@@ -3314,7 +3338,7 @@ hash = "e14c014769604d397917bf42fc738905a6436da06c0a0bd535bdb4b16eafda8a"
 
 [[files]]
 file = "kubejs/client_scripts/chemlib_compat.json"
-hash = "748bbbc8cda5aa86f2d053f40e9e191093c18d71c731a148eab5894c062cde16"
+hash = "cf9322d5be7509e2e7809d8d90fd396e31293cdd86f94d4bde67686f894c484b"
 
 [[files]]
 file = "kubejs/client_scripts/jei_hide.js"
@@ -4514,7 +4538,7 @@ hash = "9728c2c40648a3808664da993a4d1f3ad44836c120a111bd7a4c1155c9f51b18"
 
 [[files]]
 file = "kubejs/server_scripts/conflicts.js"
-hash = "601491ec7eb035c387d354adb47f96b743d95d9c337aa381a08089d25d3cd1fd"
+hash = "2b75593c00146a51990e6ad0239a8e18f320fd350a1a584d28a6118c425c8e50"
 
 [[files]]
 file = "kubejs/server_scripts/erroring_recipes.js"
@@ -4522,7 +4546,7 @@ hash = "796e81753ad8cf0eddf11f5a30f2fc78a31157f05a9c85cec22aeb066c77b312"
 
 [[files]]
 file = "kubejs/server_scripts/mods/ad_astra/ad_astra.js"
-hash = "77c2cfed89e920b2f59395a461fd6d7a85cf954e6db19da73fe25695f8a388e7"
+hash = "34961e86120ae06eeb5c2fe0beb56fcb11a91b0c61a3f6333c1f27211c4fb93a"
 
 [[files]]
 file = "kubejs/server_scripts/mods/allthemodium/armor_upgrades.js"
@@ -4533,8 +4557,44 @@ file = "kubejs/server_scripts/mods/allthemodium/piglich_heart.js"
 hash = "851559116251f8f0d52d28385de326928f43bdb0c6029af4ff94cbbfaf2b75eb"
 
 [[files]]
+file = "kubejs/server_scripts/mods/atm/atm_alloy_tools.js"
+hash = "a372392a018537ac885813a6016a001b2ba9849c90838177183e6541a3697382"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/atm_alloys.js"
+hash = "7d8a178e9020a45b41accec068a43930cbb9cf242b5879c20ccb20a84d853678"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/atm_shard.js"
+hash = "8255420f26a154d5801af866181aab80ff309874a682790e16fbbc18b191919f"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/atm_star.js"
+hash = "e8d879c292ed28ec03fad1b48ebe156738b820ef3bed1512c41e4ea391e5fa00"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/atm_star_creative.js"
+hash = "ee40eff9c0af5b24865d8817faa492eaf7455389fd23161668a509bb3a256bfd"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/att_items.js"
+hash = "46b252406b9ca2e9dc806dd123b7809aa45e6d2e36416a36f1249f5e49af5059"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/mini_portals.js"
+hash = "63e20ee276ea2860914d846b593c034ed080d4210469f4ee102f2ccabbed0660"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/music_discs.js"
+hash = "f787b28df5a53af64f791c711cf8cfb12a71acf5b8178f1074c880928ec037c5"
+
+[[files]]
+file = "kubejs/server_scripts/mods/atm/patrick_star.js"
+hash = "dd606ef96913e40840be51789e10601d66b2efb2868c50869be84b39f713dd1e"
+
+[[files]]
 file = "kubejs/server_scripts/mods/chemlib/blocks.js"
-hash = "ef653b2d6badfdff42dc9ce59bae44cb343f1f0890c7748fea90a92b042355f4"
+hash = "bcc38bf53963686df5c66ebfa0cd044aa4b1dccece8e272446cbb394b3af91fb"
 
 [[files]]
 file = "kubejs/server_scripts/mods/create/crushed_platinum.js"
@@ -4598,7 +4658,7 @@ hash = "430e08fedd61407ad1973d84a2ae93e4ce89e6c7170c77e86e590f7bb1c24b60"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/_before.js"
-hash = "2a7fd57f24ec0ecf06185224b8fb7aaa89c36c6fe0c4bf50bd0feb99e3239949"
+hash = "df08e579bf625b24934f4e7366150ac2838ce3034d4f46ed658898de05a1cfb7"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/dust.js"
@@ -4610,11 +4670,11 @@ hash = "1b0f102305d21da9fd183bd48d51c0a2ac7401d1f0472116cdfc0c30894d2392"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/ingots.js"
-hash = "73ce9b048c42326f1b95a66561c9451ce5b7b9d2b444094c9ec63e88adc6cedb"
+hash = "d36184daaad43f41bebd8b4a35f5a2610faa5f6c0a78e80e96f3b9d5d2577860"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/nuggets.js"
-hash = "7dfe5c5f50e794d6c66578ded127e05aab8f7b634944d19c5faeab8f561b8758"
+hash = "4e3eb20d0eb34dd7332031004b019f8a76dacc1b3f3b6ff497dbfa66357201d1"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/plates.js"
@@ -4622,7 +4682,7 @@ hash = "19076b7ce381299a08d5e859349c516070f239c3ccecee7f446ff9644f5580f0"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/raw_materials.js"
-hash = "4a302a5c7cab1b7c79486e2b4e38bde346e5568fe39ba8d09ac3bbf2ca160532"
+hash = "54dfcbafe6f2b86bbca1a877dfadb7fb02b4192ff434f5b9f9ce6b3cf486e222"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/rods.js"
@@ -4630,7 +4690,7 @@ hash = "f3b8772d3537f335d7ee01d9efdcf6b8e6766362564caaeff09f97691954b5e8"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/storage_blocks.js"
-hash = "1d41e2ae428f44ade709dfa8a6c9d0a1828d41d7ca3fb2d980248cfa9c71faed"
+hash = "29a8e3e029639faab2f4c180d4a2e26c399f43cf10bb15ec735280b4f14ade12"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/wires.js"
@@ -4638,7 +4698,7 @@ hash = "0ed569bd14aa731eeb817ae354a2175e462e36e247c769edfe983830858fb506"
 
 [[files]]
 file = "kubejs/server_scripts/recipes_fix.js"
-hash = "052013cdd031907f1e2985e30fdbda50b8d10b6bdb81a89b72395cbf9c4947b2"
+hash = "ce199074602163e34ec03bcd9b3fa943969cfc4703ef7e739c62fe2d1901baae"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -6091,7 +6151,7 @@ metafile = true
 
 [[files]]
 file = "mods/mega-cells.pw.toml"
-hash = "b9a5d3eb9124b3e932746bd288233f2eabd72cf9b8e99a6bd453dd0d042deab0"
+hash = "8edb7cbef0743f313f114b135bbd79f8628c190e4c363f4306aba217a75a9f6a"
 metafile = true
 
 [[files]]

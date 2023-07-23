@@ -2,14 +2,14 @@
 // Written by EnigmaQuip as a post almost unified recipe generation script for missing recipes
 
 // Missing tags for unify
-ServerEvents.tags('item', event => {
-  event.add('forge:storage_blocks/raw_aluminum', 'xycraft_world:aluminum_raw_block')
-  global.blueskies.forEach(metal => {
-    event.add(`forge:storage_blocks/raw_${metal}`, `blue_skies:raw_${metal}_block`)
-    event.add(`forge:storage_blocks/${metal}`, `blue_skies:${metal}_block`)
-    event.add(`forge:storage_blocks/raw_materials`, `blue_skies:raw_${metal}_block`)
-  })
-})
+//ServerEvents.tags('item', event => {
+//  event.add('forge:storage_blocks/raw_aluminum', 'xycraft_world:aluminum_raw_block')
+//  global.blueskies.forEach(metal => {
+//    event.add(`forge:storage_blocks/raw_${metal}`, `blue_skies:raw_${metal}_block`)
+//    event.add(`forge:storage_blocks/${metal}`, `blue_skies:${metal}_block`)
+//    event.add(`forge:storage_blocks/raw_materials`, `blue_skies:raw_${metal}_block`)
+//  })
+//})
 
 ServerEvents.recipes(event => {
   if (global.devLogging) {

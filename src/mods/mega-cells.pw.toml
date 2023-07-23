@@ -1,13 +1,13 @@
 name = "MEGA Cells"
-filename = "megacells-forge-2.0.0-1.19.2.jar"
+filename = "megacells-forge-2.0.1-1.19.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "8cec6c5075128a8a4ce52b5b3bbf2cef8d15c67d"
+hash = "7496bd04de289975c9fcfcc8d7be68f6c32e7c21"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4613944
+file-id = 4660665
 project-id = 622112

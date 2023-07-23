@@ -26,16 +26,16 @@ global['alloys'] = [
     'brass'
 ]
 
-global['blueskies'] = [
-    'aquite',
-    'charoite',
-    'falsite',
-    'horizonite',
-    'ventium'
-]
+//global['blueskies'] = [
+//    'aquite',
+//    'charoite',
+//    'falsite',
+//    'horizonite',
+//    'ventium'
+//]
 
-global['ingredientCheck'] = function(itemstack, json) {
-    if(json.has('tag')) {
+global['ingredientCheck'] = function (itemstack, json) {
+    if (json.has('tag')) {
         let tag = json.get('tag').getAsString()
         if (AlmostUnified.getItemIds(tag).contains(itemstack.id)) { return true }
     } else if (json.has('item')) {

@@ -2,7 +2,7 @@ const ItemRegistry = Java.loadClass('com.smashingmods.chemlib.registry.ItemRegis
 
 // List Gen
 /*
-    /chemlibhelper
+    /chemlibcompat
     OP permission required
     only should need to be run on mod changes,
     generates a new chemlib_compat.json file
