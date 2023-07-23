@@ -1,0 +1,13 @@
+name = "Superior Shields"
+filename = "superiorshields-1.19.2-3.0.2-all.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2393c41038fb1e56521d9238389fde40b7062391"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4644481
+project-id = 311785

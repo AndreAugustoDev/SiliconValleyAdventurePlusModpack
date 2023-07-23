@@ -1,0 +1,13 @@
+name = "Ex Naturae"
+filename = "ExNaturae-1.19.2-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ce797f43eacb01ff6b540e317c7f67b7c42590a1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4637379
+project-id = 482122

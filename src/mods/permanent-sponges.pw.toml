@@ -1,0 +1,13 @@
+name = "Permanent Sponges [Forge & Fabric]"
+filename = "PermanentSponges-v4.0.0-1.19.2-Forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3cec7c81d5d24b1bb5af6176dfccf1d3537e8f0c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4499048
+project-id = 852664

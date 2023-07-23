@@ -1,0 +1,4653 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tools_and_armors"
+	group: "76C22988F9A7C9CE"
+	icon: "minecraft:smithing_table"
+	id: "7DF29C3F2F6E37A7"
+	order_index: 1
+	quest_links: [
+		{
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "153F0CB735613587"
+			linked_quest: "16C5FCE84691F4C8"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			id: "53F71BC3DB8AEBB7"
+			linked_quest: "48B93DB363CE1030"
+			x: 9.0d
+			y: -1.5d
+		}
+	]
+	quests: [
+		{
+			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
+			icon: "xps:block_xp_obelisk"
+			id: "0CC7532B8B2A8CE1"
+			rewards: [
+				{
+					count: 2
+					id: "3C1123D105BB4F9E"
+					item: "minecraft:experience_bottle"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "46E6BF668C762009"
+					item: "autoworkstations:iron_auto_experience_orb_vacuum"
+					type: "item"
+				}
+			]
+			subtitle: "Enchanting Efficiency"
+			tasks: [
+				{
+					id: "260A111C1C0494FC"
+					item: "xps:block_xp_obelisk"
+					type: "item"
+				}
+				{
+					id: "4E46640D594FA420"
+					item: "xps:xp_remover"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
+			id: "55B8FA4F61766389"
+			rewards: [
+				{
+					id: "17A8E81556A46C11"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "24E55B49340A00E4"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Everlasting Longevity!"
+			tasks: [{
+				id: "117A4C4E9825D1D5"
+				item: "dragonloot:dragon_anvil"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -5.5d
+		}
+		{
+			id: "7CE1C59E24D74956"
+			tasks: [{
+				id: "0E443BEF9778E174"
+				title: "Mysterious Enchanting"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			id: "34DEACDC7379FC9C"
+			tasks: [{
+				id: "4A45FCA51F1332CF"
+				title: "Armory"
+				type: "checkmark"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			id: "4474122B9055556A"
+			rewards: [{
+				id: "37CD1988E03F3301"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Harness the true strength of a dragon."
+			tasks: [
+				{
+					id: "769E2A9208669904"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "467B95A9F1D99BF9"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "527BF213C210A227"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D387D2774BA5548"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Armory of Dragon"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The Gilded Netherite Armor is the upgraded netherite armor with a gilded netherite fragment."
+				""
+				"If the player wears all four parts of the armor, they'll be able to press default key “v” to activate the armor indicated by a glowing red layer on the armor."
+				""
+				"It will grant fire resistance, less receiving damage and lasts for 1 minute indicated by a small fire resistance symbol above the experience level symbol."
+			]
+			id: "4B90FC8A63D0B1C7"
+			rewards: [{
+				id: "5BF7FC45CD754552"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "More durable than the netherite set and has a full set ability."
+			tasks: [
+				{
+					id: "2292EC4F55DA9F87"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47F753303AEE6CED"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7194E71C215AD56C"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6DF1BD1FE372F484"
+					item: {
+						Count: 1b
+						id: "adventurez:stone_golem_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6Gilded Netherite"
+			x: -6.5d
+			y: -0.5d
+		}
+		{
+			id: "5634A71766CD1F50"
+			rewards: [{
+				id: "5289F782426E8E34"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "28C422A1D5941A26"
+					item: "techreborn:quantum_helmet"
+					type: "item"
+				}
+				{
+					id: "392450668DDF398D"
+					item: "techreborn:quantum_chestplate"
+					type: "item"
+				}
+				{
+					id: "479D31F572A9A8D9"
+					item: "techreborn:quantum_leggings"
+					type: "item"
+				}
+				{
+					id: "732F070C69644393"
+					item: "techreborn:quantum_boots"
+					type: "item"
+				}
+			]
+			title: "&bQuantum Armory"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"The Modular Armor is, on its own, not much, but when you install modules, it can become very powerful!"
+				""
+				"Notice that installing modules cost time and some energy!"
+			]
+			id: "6A9CB8ACD55FCEDC"
+			rewards: [{
+				id: "7CAE1DC5677271E2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 8090608
+						Loot: "aof:loot_bags/ind_rev/rare"
+						Name: "Industrial Revolution Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Smash modules on it!"
+			tasks: [
+				{
+					id: "087552207B74F1E5"
+					item: "indrev:modular_armor_helmet"
+					type: "item"
+				}
+				{
+					id: "26E9D7AA847C3B55"
+					item: "indrev:modular_armor_chest"
+					type: "item"
+				}
+				{
+					id: "22C590372F470831"
+					item: "indrev:modular_armor_legs"
+					type: "item"
+				}
+				{
+					id: "57E0EF787993F34C"
+					item: "indrev:modular_armor_boots"
+					type: "item"
+				}
+			]
+			title: "Modular Armory"
+			x: -8.5d
+			y: -0.5d
+		}
+		{
+			id: "6FF9412D210ED9A0"
+			tasks: [{
+				id: "2546AAD7CEF0B52E"
+				title: "Tools"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Drill could be used as a replacement for Iron Pickaxe and Iron Shovel. It will cost 50 Energy to break one block."
+				""
+				"Chainsaw could be used as a replacement for Iron Axe. It will cost 50 Energy to break one block."
+				""
+				"Rock Cutter is a Diamond like tool with Silk Touch enchantment. It has 10k Energy storage. It uses Energy instead of durability to break a block. It will cost 10 Energy to break one block."
+			]
+			id: "648CF30D6BD4B672"
+			rewards: [{
+				id: "6AEF0795DD69015B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/common"
+						Name: "Tech Reborn Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37A6BF82350F6D67"
+					item: "techreborn:basic_drill"
+					type: "item"
+				}
+				{
+					id: "575B791B1C7C5B96"
+					item: "techreborn:basic_chainsaw"
+					type: "item"
+				}
+				{
+					id: "7CCAD584C6A3181D"
+					item: "techreborn:basic_jackhammer"
+					type: "item"
+				}
+			]
+			title: "Basic Tools"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Advanced Drill is an advanced version of Basic Drill and works same as Diamond Pickaxe or Diamond Shovel."
+				""
+				"Advanced Chainsaw is a more advanced chainsaw compare to Basic Chainsaw."
+				""
+				"Advanced Jackhammer is a more advanced version of Basic Jackhammer. Advanced Jackhammer is capable of 3×3 mining when set to active."
+			]
+			id: "6AE7DC5C4EAA80D1"
+			rewards: [{
+				id: "125708B6C63FE0EC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "75D4313D545D39EA"
+					item: "techreborn:advanced_drill"
+					type: "item"
+				}
+				{
+					id: "7C77FE53F355197F"
+					item: "techreborn:advanced_chainsaw"
+					type: "item"
+				}
+				{
+					id: "7CF6572E22B6BF98"
+					item: "techreborn:advanced_jackhammer"
+					type: "item"
+				}
+			]
+			title: "Advanced Tools"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Industrial Drill is a most powerfull drill. It can do AOE mining in 3×3 area. It has 1.000.000 Energy storage. "
+				""
+				"Industrial Chainsaw is a top tier chainsaw.  It has 1M Energy storage. Chainsaw could be used as a replacement for Diamond Axe and able to chop down whole tree at once. It will cost 150 Energy to break one block."
+				""
+				"Industrial Jackhammer is a top tier JackHammer.  It has 1M energy storage.  Industrial Jackhammer is capable of 3×3 and 5×5 AoE mining when set to active. It will cost 150 energy to break one block."
+			]
+			id: "452F58D2DE64AEF2"
+			rewards: [{
+				id: "47F626BCB68466B9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/epic"
+						Name: "Tech Reborn Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58B08C50B624FF8A"
+					item: "techreborn:industrial_drill"
+					type: "item"
+				}
+				{
+					id: "74360AC1FE02FBFC"
+					item: "techreborn:industrial_chainsaw"
+					type: "item"
+				}
+				{
+					id: "16C57BEF50132A3E"
+					item: "techreborn:industrial_jackhammer"
+					type: "item"
+				}
+			]
+			title: "Industrial Tools"
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			id: "3E7CEEF327CBF2C9"
+			rewards: [
+				{
+					id: "4FF40DCACF465EEA"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "59F4CFB5E82CE391"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 8090608
+							Loot: "aof:loot_bags/ind_rev/rare"
+							Name: "Industrial Revolution Rare Lootbag"
+							Type: "RARE"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "1102F56B2BC01C77"
+					item: "indrev:mining_drill_mk1"
+					type: "item"
+				}
+				{
+					id: "256169B8925E1B36"
+					item: "indrev:mining_drill_mk2"
+					type: "item"
+				}
+				{
+					id: "65121343CF7A8E11"
+					item: "indrev:mining_drill_mk3"
+					type: "item"
+				}
+				{
+					id: "75BE1260F1D9597F"
+					item: "indrev:mining_drill_mk4"
+					type: "item"
+				}
+			]
+			title: "Mining Drills"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: ["Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
+			id: "6160A63652B8EFF4"
+			rewards: [{
+				id: "6561E62042E6A408"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Universal tool that combines Pickaxe, Axe, Shovel, Shear and even Swords in one simple rod."
+			tasks: [{
+				id: "58473B198D86EDB4"
+				item: "techreborn:omni_tool"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: ["Scales are dropped by killing the Ender Dragon."]
+			id: "479504FB2E6BD096"
+			rewards: [{
+				id: "6D5FFDA78DA7C2AF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Harness the true strength of a dragon."
+			tasks: [
+				{
+					id: "1BE2723855D07C57"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3562B1F370563F1D"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63668DD03E4738C8"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "543FEC8547FA8231"
+					item: {
+						Count: 1b
+						id: "dragonloot:dragon_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&5Dragon's Tools"
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			description: ["Craft any hammer to complete quest."]
+			id: "3E1BD5FD71DA188F"
+			rewards: [{
+				id: "7086B5DBD59D0B25"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "3x3 Mining on your doorstep."
+			tasks: [{
+				id: "4EC108912435CAA7"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "vanilla-hammers"
+					}
+				}
+				type: "item"
+			}]
+			title: "Hammers"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "7F2C5E52F421EFA4"
+			rewards: [{
+				id: "42FDF72FBF1D3CB9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Will break surrounding leaf blocks depending on the tool."
+			tasks: [{
+				id: "5921E50226F36F8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:item_group"
+					tag: {
+						value: "harvest_scythes.machetes"
+					}
+				}
+				type: "item"
+			}]
+			title: "Machetes"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Right clicking with a scythe will harvest (and replant) nearby crops in a certain range based on the tool, if those crops are fully grown."
+				""
+				"Right clicking on dirt/grass turns it into farmland like a normal hoe."
+				""
+				"Some scythes will harvest in a circular shape, whilst others will harvest in a square shape, based on their tier."
+				""
+				"There is also a scythe-only enchant \"Crop Reaper\" that increases their range."
+			]
+			id: "12F99775AAF5CF0D"
+			rewards: [{
+				id: "47EBFB0E03093BAA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Harvest crops in a range!"
+			tasks: [{
+				id: "2DE7CB67A7293F74"
+				item: {
+					Count: 1b
+					id: "itemfilters:item_group"
+					tag: {
+						value: "harvest_scythes.scythes"
+					}
+				}
+				type: "item"
+			}]
+			title: "Scythes"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			id: "046D949F5D2E8121"
+			tasks: [{
+				id: "30AE5E32E7605A8B"
+				title: "Weaponry"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "4A54E5FCF8A1DC70"
+			rewards: [{
+				id: "59F3A9CB53A46200"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Harness the true strength of a dragon."
+			tasks: [{
+				id: "39E86E5AA0F13FEC"
+				item: {
+					Count: 1b
+					id: "dragonloot:dragon_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Dragon's Sword"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"The Saber requires power to work, every hit done to an entity will cost 150 Energy."
+				""
+				"The nano saber requires being active to work."
+				""
+				"To toggle the active state the user must shift-right click."
+				""
+				"A chat message will appear saying the new mod that the weapon is in."
+			]
+			id: "617E844B05CE90B1"
+			rewards: [{
+				id: "5F2154BE0D880FA6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 3706623
+						Loot: "aof:loot_bags/tech_reborn/rare"
+						Name: "Tech Reborn Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "An advanced weapon that can be used against hostile mobs, or players."
+			tasks: [{
+				id: "675E9188FD6A0D80"
+				item: {
+					Count: 1b
+					id: "techreborn:nanosaber"
+					tag: {
+						isActive: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"These paxels can break the same blocks as any tool, and can have upgrades added to them by opening their inventory with shift right-click, adding new abilities and traits."
+				""
+				"They also won't break when they reach 0 durability, instead becoming unusable until repaired, so you won't lose any hard-earned enchantments."
+			]
+			id: "2299839425AC7A7C"
+			rewards: [{
+				id: "2B2FA397AE3E4B65"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "All in One!"
+			tasks: [{
+				id: "2C729788E9A2341E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "piercingpaxels:wooden_paxel"
+							}
+							{
+								Count: 1b
+								id: "piercingpaxels:stone_paxel"
+							}
+							{
+								Count: 1b
+								id: "piercingpaxels:gold_paxel"
+							}
+							{
+								Count: 1b
+								id: "piercingpaxels:iron_paxel"
+							}
+							{
+								Count: 1b
+								id: "piercingpaxels:diamond_paxel"
+							}
+							{
+								Count: 1b
+								id: "piercingpaxels:netherite_paxel"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Paxels"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"The portal charm will allow the wearer to walk through portals instantly."
+				""
+				"The sleep charm allows the wearer to instantly fall asleep in beds. It will also slowly reduce the insomnia counter which will prevent phantoms from spawning and attacking you."
+				""
+				"The experience charm will decrease the pickup delay of experience orbs. It will also slightly increase the amount of experience dropped when killing mobs or mining blocks that drop EXP."
+				""
+				"The gluttony charm will allow the wearer to eat food without delay."
+				""
+				"All charms can be worn as trinkets."
+			]
+			id: "01284ADBE6215CDA"
+			rewards: [{
+				id: "3B8B4867AAF687FE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A practice or expression believed to have magic powers."
+			tasks: [{
+				id: "2B8A2B40BC775BA0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "darkutils:charms"
+					}
+				}
+				type: "item"
+			}]
+			title: "Charms"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&b- Weapon Variants"
+				"14+ unique weapon variants, each with differing playstyles and attack animations."
+				""
+				"&b- Artifact Weapons"
+				"Uncraftable, Rare, Powerful! Opening any chest throughout your journey, yields a chance to obtain unique weaponry with powerful abilities."
+				""
+				"&6Complete this quest by obtaining anything from Simply Swords."
+			]
+			id: "1483785B7AB31D50"
+			rewards: [{
+				id: "053F7C57AC37331D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Songs of War!"
+			tasks: [{
+				id: "6A6187665842803C"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "simplyswords"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Simply Swords"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			id: "1ED890593F24F38E"
+			rewards: [
+				{
+					id: "46EA70B16FB3C30A"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 16103753
+							Loot: "aof:loot_bags/misc/artifacts"
+							Name: "Artifact Lootbag"
+							Type: "LEGENDARY"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "268C0F767FE99415"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Every Netherite tier has its own unique properties."
+			tasks: [{
+				id: "4E024304E5571B41"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "advancednetherite:tiers/tools"
+					}
+				}
+				type: "item"
+			}]
+			title: "&cAdvanced Netherite"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "5360AD36130556F1"
+			rewards: [{
+				id: "60329C0182098AC9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Every Netherite tier has its own unique properties."
+			tasks: [{
+				id: "02E45E6F060E78A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "advancednetherite:tiers/armor"
+					}
+				}
+				type: "item"
+			}]
+			title: "&cAdvanced Netherite"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "6FE82B056B9D5278"
+			rewards: [{
+				id: "15A48D98A3A07D5A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You feel the true power of the Warden!"
+			tasks: [
+				{
+					id: "6853F896140DA75D"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "739AA67C7CF54B42"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C562A9B6BE7ABBC"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6438936D2F204B76"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bArmory of the Warden"
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "4708176A593FED8E"
+			rewards: [{
+				id: "72A8F6ACD64F169D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You feel the true power of the Warden!"
+			tasks: [{
+				id: "0927DAA4356F7BC1"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bWeaponry of the Warden"
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			id: "288427611306980C"
+			rewards: [{
+				id: "56DB91E0B79296FE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gardener? Nah, more like... Wardener!"
+			tasks: [
+				{
+					id: "36D7ADD6901AF6B0"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B1A04BA8490BCA1"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "73939E99C820CF6E"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6067BF3E4C26D592"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bTools of the Warden"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "3EF4008570E39A69"
+			rewards: [{
+				id: "656CDA4B0980A08C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The curse be upon you!"
+			tasks: [{
+				id: "7E189263194E0AEA"
+				item: {
+					Count: 1b
+					id: "minecells:cursed_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
+			]
+			id: "190AAC2F6972F7F5"
+			rewards: [{
+				id: "391CE9DA0621A374"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Made in the Portal to Alfheim."
+			tasks: [
+				{
+					id: "4C6AB6D5042007A3"
+					item: {
+						Count: 1b
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B4B03CC77C16C6C"
+					item: {
+						Count: 1b
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34F7E59D5CD9E652"
+					item: {
+						Count: 1b
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62B5BBA0C6F83BC2"
+					item: {
+						Count: 1b
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dElementium Armory"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "363DB468A1A058A5"
+			rewards: [{
+				id: "5195321048DB671D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Made out of Iron and Mana."
+			tasks: [
+				{
+					id: "41EF839C6CBD1D46"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4BE8D10446EABF59"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1FE1FA43151054D7"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61100CA9FA6B5873"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Manasteel Armory"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			description: [
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
+			]
+			id: "4E444297FF007085"
+			rewards: [{
+				id: "34F3629BA3CA0B33"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Made via an infusion ritual."
+			tasks: [
+				{
+					id: "4A4F2B1C03958466"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27B62B714FAEA3BD"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2DC181F1326B4F52"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C358EF03BDA9A26"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aTerrasteel Armory"
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "5AF64BF5243975AF"
+			rewards: [{
+				id: "7675E1C3ED198A38"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "08B2950F08DED9A4"
+					item: {
+						Count: 1b
+						id: "botania:terra_pick"
+						tag: {
+							Damage: 0
+							mana: 9999
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21240AFABFE3B5D9"
+					item: {
+						Count: 1b
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&aTools of Terra"
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "50C008D3436ABB92"
+			rewards: [{
+				id: "00F73EFB4ACC868A"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "72DA7DC44F4D1996"
+					item: {
+						Count: 1b
+						id: "botania:elementium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7499B2FBB484DF0E"
+					item: {
+						Count: 1b
+						id: "botania:elementium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47875AEF8506182B"
+					item: {
+						Count: 1b
+						id: "botania:elementium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "157079529DD87474"
+					item: {
+						Count: 1b
+						id: "botania:elementium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dElementium Tools"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "000BD68B21C41D01"
+			rewards: [{
+				id: "542D5CC7AD76D14C"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "422F17773B3C13AC"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C10486E89C23816"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "168A78CDA196D756"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "658CDFAFF6DA34C5"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&9Manasteel Tools"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "32233BEB6AE9E947"
+			rewards: [{
+				id: "74C603B644207D77"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "779967E5AD25ADE2"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			id: "4A05E1190A6C5966"
+			rewards: [{
+				id: "7237AA903B3D2F54"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7361641BBFAB6C03"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "2FEEF5A238263435"
+			rewards: [{
+				id: "115CA2540A9DE6DE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/legendary"
+						Name: "Magic Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01F1DCEA67FE05C3"
+				item: {
+					Count: 1b
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
+			id: "32E248D17D62CD77"
+			rewards: [{
+				id: "4C0ABE6B0C7DC0A4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dirty Stick MK II"
+			tasks: [{
+				id: "641BC92D2FF17187"
+				item: "botania:skydirt_rod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
+			id: "4EBE5A8FE4B15CB9"
+			rewards: [{
+				id: "06D59D2A702930E5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Keep the ocean clean!"
+			tasks: [{
+				id: "63A68C2B17AF5041"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
+			id: "329E614261EC9018"
+			rewards: [{
+				id: "63A33ED0F3DD04EF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Smoothing Brush in Survival"
+			tasks: [{
+				id: "21260F354C10E9F4"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			description: [
+				"The Rod of the Shifting Crust is an incredibly useful tool that allows you to swap blocks on a surface with other blocks from your inventory."
+				""
+				"Other staffs listed in this chapter allow you to use mana to replace blocks with blocks generated with mana."
+			]
+			id: "0A519CF699C1BDD0"
+			rewards: [{
+				id: "3EAC8E6D507D9D82"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Shift your block of choice."
+			tasks: [{
+				id: "49D129B1B88B23A2"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Much like the Rod of the Lands, this rod allows you to place Cobblestone by consuming mana."
+				""
+				"Like its dirty cousin, it also provides the Rod of the Shifting Crust with Cobblestone for swapping."
+			]
+			id: "423A5AB8348C0CD6"
+			rewards: [{
+				id: "6450FD99366072C9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It's cobbling time!"
+			tasks: [{
+				id: "3949E9AA1BCF14C8"
+				item: "botania:cobble_rod"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"A simple tool that allows you to place dirt blocks using mana."
+				""
+				"This isn't useful in and of itself, but when paired with the wand of the shifting crust, it provides dirt to swap blocks with."
+			]
+			id: "434206AF0E90059C"
+			rewards: [{
+				id: "05709BC79426C6CA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Dirty Stick"
+			tasks: [{
+				id: "7D3A6E4C075B5230"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			id: "271443097B299EA6"
+			tasks: [{
+				id: "59DCAC34315E17C2"
+				title: "Botania Utils"
+				type: "checkmark"
+			}]
+			x: -0.023809523809518396d
+			y: -5.714285714285715d
+		}
+		{
+			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
+			id: "73F332AF6C323A45"
+			subtitle: "Blocks as far as the eye can see!"
+			tasks: [{
+				id: "055E3D0AEAA7FDAF"
+				title: "Block Variations"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Reforging increases the luck for getting better item tiers."
+				""
+				"&bLeft Slot: &rTiering Item Material (if non exist, default flint."
+				""
+				"&bMiddle Slot: &rTiering Item"
+				""
+				"&bRight Slot: &rAmethyst Shard"
+				""
+				"Has to be &6fully repaired &rbefore able to be reforged,"
+			]
+			id: "5A8981F961E8F587"
+			rewards: [{
+				count: 2
+				id: "77F993309D9699D9"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			subtitle: "Reforge your gear at the anvil for a better item tier."
+			tasks: [{
+				id: "63100BA3D5F72238"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			title: "Reforging"
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			id: "20590694D4E968E5"
+			rewards: [
+				{
+					count: 2
+					id: "047226F0D8C83CDC"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3C4C0254D3BD20A6"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "679A82195820DD3C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Dictionary of Blocks!"
+			tasks: [
+				{
+					id: "7C0C5DFFDA6CF278"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "6841E9D9111CD3AC"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "149B650D0459938A"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "069216973C7B2413"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "549AE6E4D6A2270E"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "5CD6E54374B7569D"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "18307F38CFFA64BD"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&nThis mod offers the following items:"
+				""
+				"&6- &bEscape Rope"
+				"A way to easily teleport your way out of caves."
+				""
+				"&6- &bEnergized Hearthstone"
+				"A way to teleport to your personal respawn anchor or bed (Hearthstone) or any set location in the world!"
+				""
+				"&6- &bNo Soliciting! Sign"
+				"A way to block certain pesky intruders from spawning near you."
+				""
+				"&6- &bTemporal Pouch"
+				"A way to tick accelerate blocks, Time-in-a-Bottle style."
+				""
+				"&6- &bSacred Salt, Balm and Salve"
+				"A way to stop mobs from spawning near you temporarily, enabling you to mine in peace."
+				""
+				"&6- &bLabeling Tool"
+				"A way to rename your items on the go without consuming tons of experience."
+			]
+			id: "60C16E7A0EFDC894"
+			rewards: [{
+				id: "1C57FB344694A453"
+				item: "luggage:luggage"
+				type: "item"
+			}]
+			subtitle: "With a hint of laziness."
+			tasks: [{
+				id: "3C9086896DDA3D22"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "gag"
+					}
+				}
+				type: "item"
+			}]
+			title: "Gadgets Against Grind"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"&nThis mod offers the following:"
+				""
+				"&6- &bUpgrades"
+				"Using the &bModification Table &ryou're able to apply a wide variety of different ugprades like &6Fortune&r, &6Silk Touch&r, &6Magnet&r, &6Radius&r, &6Range&r."
+			]
+			id: "7E305E92B03C349B"
+			rewards: [{
+				id: "7C5E88C549045810"
+				item: "mininggadgets:upgrade_efficiency_1"
+				type: "item"
+			}]
+			subtitle: "A quick change of pace in mining."
+			tasks: [
+				{
+					id: "697B9435D9A1D6E2"
+					item: {
+						Count: 1b
+						id: "mininggadgets:mininggadget_simple"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "393CCCAADEFD84AF"
+					item: "mininggadgets:modificationtable"
+					type: "item"
+				}
+			]
+			title: "Mining Gadgets"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			id: "076B3F5320293FE0"
+			rewards: [
+				{
+					count: 64
+					id: "4BBA79DCA765A8E0"
+					item: "minecraft:crimson_planks"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27E7FC95DA2B4EBC"
+					item: "minecraft:warped_planks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BC0A92230004F22"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			subtitle: "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
+			tasks: [{
+				id: "296ACC0506A2EB75"
+				item: "rechiseled:chisel"
+				type: "item"
+			}]
+			title: "Rechiseled"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "211D391784362B95"
+			rewards: [{
+				id: "4BDA8644B2708A9F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Picks a random block from your hotbar and places it down."
+			tasks: [{
+				id: "4D3EA229CF840468"
+				item: "trowel:trowel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -5.0d
+		}
+		{
+			description: ["Like, we all believe in the magic of technology; it feels so permanent but, just like that, it's gone."]
+			icon: "unstabletools:unstable_chestplate"
+			id: "28E8F86212EBDA57"
+			rewards: [{
+				id: "1D53477B6DA6CD62"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Isn't it weird to think that everything is so unstable?"
+			tasks: [
+				{
+					id: "2E33AD0FD46437A3"
+					item: "unstabletools:unstable_helmet"
+					type: "item"
+				}
+				{
+					id: "77E68ADF138C5857"
+					item: "unstabletools:unstable_chestplate"
+					type: "item"
+				}
+				{
+					id: "48162590FB8E044E"
+					item: "unstabletools:unstable_leggings"
+					type: "item"
+				}
+				{
+					id: "793C68B1BB7EA3B9"
+					item: "unstabletools:unstable_boots"
+					type: "item"
+				}
+			]
+			title: "Unstable Armor"
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			description: [
+				"&eBotania&r offers 3 Tiers of Armor. The first one being the &bManasteel Armor&r"
+				""
+				"This offers you the same armor as Iron Armor does, but it comes with the benefit of reduced Mana Cost when using Botania Tools"
+				""
+				"Also, this Armor can be repaired with Mana"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:manasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "259284393AC3DFDB"
+			rewards: [
+				{
+					id: "66CF7EDF14391D6D"
+					item: "botania:starfield"
+					type: "item"
+				}
+				{
+					id: "0F7CD1B8EBBA6631"
+					item: "botania:floating_jaded_amaranthus"
+					type: "item"
+				}
+				{
+					id: "30DDD90921142E38"
+					item: {
+						Count: 1b
+						id: "botania:mana_tablet"
+						tag: {
+							mana: 500000
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6DA6E9094BE842FA"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5743190095C0D068"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47E1214ADD83AEFC"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "63A14BE815213A56"
+					item: {
+						Count: 1b
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Armor"
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"After tossing some &6Manasteel&r into the Elven Portal and you will obtain some &bElementium&r"
+				""
+				"This can be used to make some better Armor"
+				""
+				"In addition to the effects of &6Manasteel Armor&r, the &bElementium Armor&r also spawns Pixies when you are getting attacked"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:elementium_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "27EF40FA9363DFAB"
+			rewards: [
+				{
+					id: "5DFA14699B5DF6FF"
+					table_id: 7483574547536166713L
+					title: "Random Rune"
+					type: "random"
+				}
+				{
+					count: 2
+					id: "349B08A36C2B5BC9"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3B8E6A29DEADBCE9"
+					item: "botania:spark"
+					type: "item"
+				}
+				{
+					id: "586A1CB745B7AEF8"
+					item: "botania:spark_upgrade_dominant"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "73F2D9B65047ED95"
+					item: {
+						Count: 1b
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "443193728E22D207"
+					item: {
+						Count: 1b
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E732E7E795ED4B6"
+					item: {
+						Count: 1b
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "441D992AE089EF5B"
+					item: {
+						Count: 1b
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elementium Armor"
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["259284393AC3DFDB"]
+			description: [
+				"As final tier of Armor from &eBotania&r we have the &bTerrasteel Armor Set&r"
+				""
+				"This gives various buffs to the player, which are all located in the tooltip of the Armor"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "botania:terrasteel_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30110A86F1740614"
+			rewards: [
+				{
+					id: "4AA2F28550F33CDB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "352DB32B62A2559F"
+					item: "botania:overgrowth_seed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C2DE6CB4641DA3A"
+					table_id: 7483574547536166713L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "347915DF599C6EDC"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1009D61850422FFF"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "534644395C5E2478"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671CC0E2D3F5B63D"
+					item: {
+						Count: 1b
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrasteel Armor"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"I'm sure you'll be able to make one of these."
+				""
+				"I'd be concerned if you can't!"
+			]
+			id: "1D5F417637C8DA57"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5B4C9E1FAA337624"
+				table_id: 8339261241703954627L
+				type: "random"
+			}]
+			subtitle: "Surprisingly butter-proof..."
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2945F5399D24C2EA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:swords"
+					}
+				}
+				title: "Vanilla Swords"
+				type: "item"
+			}]
+			title: "A sharp long butter knife"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"High damage and unbreakable."
+				""
+				"You just... have to craft it, don't let the &6Unstable Ingots&r explode"
+			]
+			id: "43815686D219F056"
+			subtitle: "Unstably Stable"
+			tasks: [{
+				id: "197DE3C359F7445F"
+				item: "unstabletools:unstable_sword"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"An upgraded Sword compared to the &6Manasteel Sword&r"
+				""
+				"It does the same amount of base damage, but in addtion, it has a chance to spawn Pixies when hitting entities"
+			]
+			id: "1F508246A6BFE47C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "689C5508E2C300F1"
+				table_id: 7483574547536166713L
+				type: "random"
+			}]
+			tasks: [{
+				id: "386C96867407692A"
+				item: {
+					Count: 1b
+					id: "botania:elementium_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Your magical counterpart to an &6Iron Sword&r"
+				""
+				"This &bManasteel Sword&r does have the benefit, that it can easily be repaired with Mana"
+			]
+			id: "3B31C0560EA14112"
+			tasks: [{
+				id: "09A5B58C1E788A55"
+				item: {
+					Count: 1b
+					id: "botania:manasteel_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			description: ["A somewhat cheap sword that uses RF instead of durability!"]
+			id: "3175A8350A2A9475"
+			subtitle: "Electrifying!"
+			tasks: [{
+				id: "167FB0203FBA6EF2"
+				item: {
+					Count: 1b
+					id: "redstone_arsenal:flux_sword"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&eForceCraft&r offers it's own Tools and Weapons"
+				""
+				"which can be enhanced with a &6Force Infuser&r. If you craft a &bForce Sword&r you get the Infuser for free"
+				"What a Bargain!"
+			]
+			id: "3D7B8BF00DCA05A8"
+			rewards: [
+				{
+					id: "0A647482FE709C49"
+					table_id: 8339261241703954627L
+					title: "Some Snacks"
+					type: "random"
+				}
+				{
+					id: "75EDD972D2698D0C"
+					item: "forcecraft:infuser"
+					type: "item"
+				}
+			]
+			subtitle: "May the Force be with you!"
+			tasks: [{
+				id: "40FC994799303FF7"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							bane: 0
+							bleed: 0
+							camo: 0b
+							ender: 0b
+							force: 0
+							freezing: 0b
+							heat: 0b
+							light: 0b
+							luck: 0
+							lumber: 0b
+							rainbow: 0b
+							sharp: 0
+							sight: 0b
+							silk: 0b
+							speed: 0
+							sturdy: 0
+							treasure: 0b
+							wing: 0b
+						}
+					}
+					id: "forcecraft:force_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Inspired by Terraria, the &eBotania&r Developer added the Terra Blade"
+				""
+				"This Sword has the same damage value as a &6Diamond Sword&r but, it also shoots out a Mana Burst"
+			]
+			id: "47DF3EC606491CA6"
+			rewards: [
+				{
+					id: "2E229C0D2D43F3F9"
+					item: "botania:rainbow_rod"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "264AE9022E536882"
+					table_id: 7483574547536166713L
+					type: "random"
+				}
+			]
+			subtitle: "Have you tried Terraria yet?"
+			tasks: [{
+				id: "6E4C3E16AA3DDD56"
+				item: {
+					Count: 1b
+					id: "botania:terra_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47DF3EC606491CA6"]
+			description: ["So uh... Everyone who crafts it."]
+			hide: true
+			id: "59B2C6DB0015809F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A69DFE9E93F73F2"
+					table_id: 7483574547536166713L
+					type: "random"
+				}
+				{
+					id: "6335544E372CDEA5"
+					item: {
+						Count: 1b
+						id: "botania:tiny_potato"
+						tag: {
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Tazz\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Only those as powerful as vazkii can wield such a sword"
+			tasks: [{
+				id: "2873980A49B805B4"
+				item: {
+					Count: 1b
+					id: "botanicadds:mana_stealer_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"Crafting this &bForce Armor&r may, or may not show you the Jedi's way"
+				""
+				"As &2Yoda&r likes to say"
+				""
+				"&o“Adventure. Excitement. A Jedi craves not these things.”&r"
+				""
+				""
+				"Luckily, you aren't a Jedi."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+				id: "forcecraft:force_chest"
+				tag: {
+					Damage: 0
+					forcecraft: {
+						bane: 0
+						bleed: 0
+						camo: 0b
+						ender: 0b
+						force: 0
+						freezing: 0b
+						heat: 0b
+						light: 0b
+						luck: 0
+						lumber: 0b
+						rainbow: 0b
+						sharp: 0
+						sight: 0b
+						silk: 0b
+						speed: 0
+						sturdy: 0
+						treasure: 0b
+						wing: 0b
+					}
+				}
+			}
+			id: "7A550BCBD0313361"
+			rewards: [{
+				id: "0BB7839B012B48CF"
+				item: {
+					Count: 1b
+					id: "forcecraft:force_mitt"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "\"Hello there!\" - General Kenobi"
+			tasks: [
+				{
+					id: "3E9264E81B07A3AA"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1515AC8F03D9965E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_chest"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C3CE3332C143597"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_legs"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E219A4B0D1790C6"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Force Armor"
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Using &6Flux-Infused Gems&r to create these powerful Armor allows you to power it up with &6Forge Energy"
+				""
+				"This will make it more durable and give better defense."
+				""
+				"Be sure to recharge it from time to time!"
+			]
+			icon: {
+				Count: 1b
+				id: "redstone_arsenal:flux_chestplate"
+				tag: { }
+			}
+			id: "7B45BB89451CEDF2"
+			rewards: [{
+				id: "37CA13F58DB001A8"
+				item: {
+					Count: 1b
+					id: "thermal:flux_capacitor"
+					tag: { }
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "792C73FDE6DBBA7C"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_helmet"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2B82C78D956563CA"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_chestplate"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "0F58074C3CA5FC1D"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_leggings"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "507176A2ACD50C00"
+					item: {
+						Count: 1b
+						id: "redstone_arsenal:flux_boots"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Flux-Infused Armor"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"In most packs, you start off with some basic &bArmor&r"
+				""
+				"&eFTB Skies&r is no exception. Craft some &bVanilla Armor&r and reap your rewards"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7E50B56096FD1C14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2E4B797F58B9C50E"
+					table_id: 8339261241703954627L
+					type: "random"
+				}
+				{
+					id: "594AD4166F57EAD7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Good Ol' Vanilla"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4A07FBBFA6A44FE9"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:helmets"
+						}
+					}
+					title: "Vanilla Helmets"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "130294F4BD020310"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:chestplates"
+						}
+					}
+					title: "Vanilla Chestplate"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "4DEA78414493554D"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:leggings"
+						}
+					}
+					title: "Vanilla Leggings"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "58BA7B7775DBB063"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:boots"
+						}
+					}
+					title: "Vanilla Boots"
+					type: "item"
+				}
+			]
+			title: "Vanilla Armor"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "48393A42961854CA"
+			tasks: [{
+				id: "5672D113A307FB5D"
+				item: "mekanism:meka_tool"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Various Mods, like &eCyclic and Thermal Expansion&r offer their own set of &bArmor&r"
+				""
+				"Might be worth a shot to check them out!"
+			]
+			icon: {
+				Count: 1b
+				id: "mekanismtools:lapis_lazuli_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "55D45B42D79AFCFC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63C0AAA30D32358C"
+				table_id: 2037149495147763474L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "40913CB9758B7490"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cyclic:crystal_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:bronze_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:lapis_lazuli_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:osmium_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_glowstone_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_obsidian_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:steel_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:emerald_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:glowing_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Modded Helmets"
+					type: "item"
+				}
+				{
+					id: "25D2BD889E8A3731"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanismtools:bronze_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:lapis_lazuli_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:osmium_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_glowstone_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_obsidian_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:steel_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:crystal_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:emerald_chestplate"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Modded Chestplates"
+					type: "item"
+				}
+				{
+					id: "273846153D9187EC"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "cyclic:crystal_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:emerald_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:bronze_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:lapis_lazuli_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:osmium_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_glowstone_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_obsidian_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:steel_leggings"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Modded Leggings"
+					type: "item"
+				}
+				{
+					id: "68EAC82CF60AB8F6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanismtools:bronze_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:lapis_lazuli_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:osmium_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_glowstone_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:refined_obsidian_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "mekanismtools:steel_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:crystal_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "cyclic:emerald_boots"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Modded Boots"
+					type: "item"
+				}
+			]
+			title: "Generic Armors"
+			x: -7.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Various Mods, like &eCyclic and Thermal Expansion&r offer their own set of &bTools and Weapons&r"
+				""
+				"Might be worth a shot to check them out!"
+			]
+			icon: {
+				Count: 1b
+				id: "mekanismtools:lapis_lazuli_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "426BF0A0C294EE1A"
+			rewards: [
+				{
+					id: "24760283FB9BC30C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "354505A9334C6BF6"
+					table_id: 8339261241703954627L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "50746954B1452F66"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:lapis_lazuli_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:steel_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:netherbrick_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:sandstone_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:amethyst_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:copper_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "cyclic:emerald_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Modded Swords"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "3D10C460E2678694"
+			tasks: [{
+				id: "55FF714255672B44"
+				item: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"A powered tool capable of mining blocks from a distance."
+				""
+				"Danger: Class 4 Laser Device. Avoid eye or skin exposure."
+				""
+				"Notable Upgrades"
+				""
+				"● Torch Placer"
+				"● Area Mining"
+				"● Silk Touch"
+				"● Fortune"
+				"● Filterable Void Upgrade"
+				"● Magnet Upgrade"
+			]
+			icon: {
+				Count: 1b
+				id: "mininggadgets:mininggadget"
+				tag: {
+					energy: 1000000
+				}
+			}
+			id: "000000000000045F"
+			rewards: [
+				{
+					id: "000000000000067D"
+					item: "mininggadgets:upgrade_light_placer"
+					title: "Upgrade: Light Placer"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "5250004E72E142FC"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Frickin' Laser Beams"
+			tasks: [
+				{
+					id: "0000000000000460"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_simple"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_fancy"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Mining Gadget"
+					type: "item"
+				}
+				{
+					id: "00000000000006F2"
+					item: "mininggadgets:modificationtable"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["000000000000045C"]
+			description: [
+				"There is no dedicated vein miner mod in Enigmatica 9 since we’ve got a variety of very cool tools that offer the same features and more."
+				""
+				"AoE Mining? Vein Mining? Spooky Mining at a Distance? Yeah, we’ve got that. "
+				""
+				"The following quests will help highlight some of the more notable options. Enjoy!"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "358FAB3D482C463A"
+			rewards: [{
+				id: "014468D2F53971A4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CD75EE826F64FBA"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
+				title: "Craft Any Tool"
+				type: "item"
+			}]
+			title: "Vein Miner?"
+			x: -13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"Starting at the Diamond tier of drill bit, the Pneumatic Jackhammer is capable of vein mining ores and wood. It’s got a number of other modes as well to help with clearing an area in a more controlled fashion. "
+				""
+				"At the Netherite tier, it gains the ability vein mine any block, if desired. "
+			]
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:jackhammer"
+				tag: {
+					DigMode: "MODE_1X1"
+					DrillBit: "DIAMOND"
+					UpgradeCache: {
+						speed: 10
+						volume: 25
+					}
+					UpgradeInventory: {
+						Items: [
+							{
+								Count: 25b
+								Slot: 0
+								id: "pneumaticcraft:volume_upgrade"
+							}
+							{
+								Count: 10b
+								Slot: 1
+								id: "pneumaticcraft:speed_upgrade"
+							}
+						]
+						Size: 9
+					}
+					"pneumaticcraft:air": 1200000
+				}
+			}
+			id: "22C47015134927C0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "103EB2CE0DC06A32"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "542C15675D324C67"
+					item: "pneumaticcraft:jackhammer"
+					type: "item"
+				}
+				{
+					id: "1F0A6109EB36227B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "pneumaticcraft:drill_bit_diamond"
+								}
+								{
+									Count: 1b
+									id: "pneumaticcraft:drill_bit_netherite"
+								}
+							]
+						}
+					}
+					title: "Drill Bits"
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"With Vein Mining Units installed, the Meka-Tool gains the ability to vein mine ores and logs. It may optionally be toggled to apply to any block."
+				""
+				"Additionally, the Blasting Unit allows it to mine a large area up to 9x9, with the radius and all other options configured in the Module Tweaker menu."
+			]
+			icon: {
+				Count: 1b
+				id: "mekanism:meka_tool"
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "16000000"
+						}]
+						modules: {
+							"mekanism:blasting_unit": {
+								amount: 4
+								blast_radius: 4
+								enabled: 1b
+								renderHUD: 1b
+							}
+						}
+					}
+				}
+			}
+			id: "38BE45BB19761236"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "3748DAA3600EA73A"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "5026F7A1A9F2EB37"
+					item: "mekanism:meka_tool"
+					type: "item"
+				}
+				{
+					id: "02280355939542A7"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mekanism:module_vein_mining_unit"
+								}
+								{
+									Count: 1b
+									id: "mekanism:module_blasting_unit"
+								}
+							]
+						}
+					}
+					title: "Mining Modules"
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: ["When applied to an Axe, the Chainsaw enchantment will cause the axe to fell entire trees, rather than a single block at a time. "]
+			icon: "thermal:saw_blade"
+			id: "5864F8263845E294"
+			tasks: [{
+				id: "5814B6BA778CE9C1"
+				title: "Chainsaw Enchantment"
+				type: "checkmark"
+			}]
+			title: "Chainsaw"
+			x: -14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: ["The Skyseeker’s Handaxe natively has the ability to chop whole trees, making short work of any logging operation. "]
+			id: "7BC5D8F606BBCF19"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "418FF73BC209465E"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "566D752356DBBA46"
+				item: {
+					Count: 1b
+					id: "naturesaura:sky_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"Included with the Novice’s Spellbook is the Glyph of Break, which is used for any sort of block breaking. "
+				""
+				"Available at Tier 2, the Glyph of Fell acts on Trees, Mushrooms, Cactus, or any other vegetation, cutting them down in one swift action. "
+				""
+				"Apply the Glyph of AOE after either of these glyphs to increase the number of blocks they will break. "
+				""
+				"Example: Touch > Fell or Break > AOE x8"
+			]
+			icon: {
+				Count: 1b
+				id: "ars_nouveau:creative_spell_book"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 2
+						flavor: ""
+						spell_count: 10
+						spells: {
+							spell0: {
+								name: "Grow"
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_grow"
+									size: 2
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 25
+								}
+							}
+							spell1: {
+								name: ""
+								recipe: {
+									part0: "ars_elemental:glyph_homing_projectile"
+									part1: "ars_nouveau:glyph_freeze"
+									part2: "ars_nouveau:glyph_cold_snap"
+									part3: "ars_nouveau:glyph_cold_snap"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:glyph_amplify"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 167
+									g: 25
+									r: 80
+								}
+							}
+							spell2: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_fell"
+									part2: "ars_nouveau:glyph_aoe"
+									part3: "ars_nouveau:glyph_aoe"
+									part4: "ars_nouveau:glyph_aoe"
+									part5: "ars_nouveau:glyph_aoe"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_aoe"
+									part8: "ars_nouveau:glyph_aoe"
+									part9: "ars_nouveau:glyph_aoe"
+									size: 10
+								}
+								sound: {
+									pitch: 0.01f
+									soundTag: {
+										id: "ars_nouveau:tempestry_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 25
+									r: 30
+								}
+							}
+							spell3: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_aoe"
+									part2: "ars_nouveau:glyph_aoe"
+									part3: "ars_nouveau:glyph_aoe"
+									part4: "ars_nouveau:glyph_aoe"
+									part5: "ars_nouveau:glyph_aoe"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_split"
+									part8: "ars_nouveau:glyph_split"
+									part9: "ars_nouveau:glyph_lightning"
+									size: 10
+								}
+								sound: {
+									pitch: 1.67f
+									soundTag: {
+										id: "ars_nouveau:tempestry_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 255
+								}
+							}
+							spell4: {
+								name: "Launch"
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_launch"
+									part2: "ars_nouveau:glyph_heal"
+									size: 3
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 1
+									g: 90
+									r: 255
+								}
+							}
+							spell5: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_redstone_signal"
+									size: 2
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 255
+									r: 25
+								}
+							}
+							spell6: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_snare"
+									part2: "ars_nouveau:glyph_crush"
+									size: 3
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 1
+									g: 74
+									r: 150
+								}
+							}
+							spell7: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_split"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_nouveau:glyph_harm"
+									part5: "ars_nouveau:glyph_extend_time"
+									part6: "ars_nouveau:glyph_hex"
+									part7: "ars_elemental:glyph_poison_spores"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_extend_time"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 25
+									g: 255
+									r: 25
+								}
+							}
+							spell8: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_self"
+									part1: "ars_elemental:glyph_poison_spores"
+									part2: "ars_nouveau:glyph_extend_time"
+									part3: "ars_nouveau:glyph_extend_time"
+									part4: "ars_nouveau:glyph_extend_time"
+									part5: "ars_nouveau:glyph_extend_time"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+								}
+							}
+							spell9: {
+								name: "Storm"
+								recipe: {
+									part0: "ars_nouveau:glyph_orbit"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_split"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_elemental:glyph_poison_spores"
+									part5: "ars_elemental:glyph_poison_spores"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 255
+									g: 25
+									r: 30
+								}
+							}
+						}
+					}
+				}
+			}
+			id: "45033F9829C5B4CD"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "39E9528BE6DAB579"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "58118046B9EA3E0E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:novice_spell_book"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:apprentice_spell_book"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:archmage_spell_book"
+								}
+							]
+						}
+					}
+					title: "Spellbooks"
+					type: "item"
+				}
+				{
+					id: "2B24FDC5DFF2DAC8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ars_nouveau:glyph_fell"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:glyph_break"
+								}
+							]
+						}
+					}
+					title: "Glyph of Fell or Break"
+					type: "item"
+				}
+			]
+			title: "Spells"
+			x: -13.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"Upgrades to basic Shovels and Hammers, these tools mine a 3x3 area. "
+				""
+				"Apply Power of the Depth to them to the depth of mining. Each level of the enchant will cause the tool to mine another block deep."
+			]
+			icon: {
+				Count: 1b
+				id: "simplytools:diamond_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0F002D99C31CFE24"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "7FEA0293136D2491"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "71303CACE8C59A83"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplytools:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "simplytools:diamond_excavator"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Excavators"
+				type: "item"
+			}]
+			x: -12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: ["The Fluxbore and Fluxsaw both accept Integral Components and Radial Upgrades, allowing them to break blocks in ever increasing areas."]
+			icon: {
+				Count: 1b
+				id: "thermal:flux_drill"
+				tag: {
+					Augments: [
+						{
+							Count: 1b
+							id: "thermal:upgrade_augment_3"
+						}
+						{
+							Count: 1b
+							id: "thermal:area_radius_augment"
+						}
+						{
+							Count: 1b
+							id: "thermal:area_radius_augment"
+						}
+						{
+							Count: 1b
+							id: "thermal:area_radius_augment"
+						}
+					]
+					Energy: 155200
+					Mode: 3
+					Properties: {
+						BaseMod: 4.0f
+						Radius: 3.0f
+					}
+				}
+			}
+			id: "67FD5585D8CD2765"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "249BCC9ECEB1E87E"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "3FAE666199A97D9A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "thermal:flux_drill"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "thermal:flux_saw"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Flux Tools"
+					type: "item"
+				}
+				{
+					id: "4111141B841E6A8F"
+					item: "thermal:area_radius_augment"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: ["With each level of charge, the Infinity Drill and Infinity Saw work in ever increasing areas. The Drill works in a simple radius around the point of mining, while the Saw cuts trees from the top down in a large area. "]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:infinity_drill"
+				tag: {
+					CanCharge: 1b
+					Energy: 9223372036854775807L
+					Fluid: {
+						Amount: 1000000
+						FluidName: "biofuel"
+					}
+					Selected: "ARTIFACT"
+					Special: 1b
+				}
+			}
+			id: "1F4190DCDEF9B680"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "49EF6BF284B65CD2"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "059E1E3CF687C2DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_saw"
+								tag: {
+									CanCharge: 1b
+									Energy: 0L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "POOR"
+									Special: 0b
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:infinity_drill"
+								tag: {
+									CanCharge: 1b
+									Energy: 0L
+									Fluid: {
+										Amount: 0
+										FluidName: "biofuel"
+									}
+									Selected: "POOR"
+									Special: 0b
+								}
+							}
+						]
+					}
+				}
+				title: "Infinity Tools"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["358FAB3D482C463A"]
+			description: [
+				"The Mining Drill and Buzzsaw both operate with liquid fuels, accepting most liquid fuels in the pack. "
+				""
+				"The Drill itself is capable of up to a 3x3 mining area, while the Buzzsaw will attempt to cut down whole trees. "
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0
+								id: "immersiveengineering:drillhead_steel"
+							}
+							{
+								Count: 1b
+								Slot: 1
+								id: "immersiveengineering:toolupgrade_drill_waterproof"
+							}
+							{
+								Count: 1b
+								Slot: 2
+								id: "immersiveengineering:toolupgrade_drill_lube"
+							}
+							{
+								Count: 1b
+								Slot: 3
+								id: "immersiveengineering:toolupgrade_drill_capacity"
+							}
+						]
+						Size: 5
+					}
+				}
+				id: "immersiveengineering:drill"
+				tag: {
+					Fluid: {
+						Amount: 4000
+						FluidName: "immersiveengineering:biodiesel"
+					}
+					singleBlockMode: 0b
+					upgrades: {
+						capacity: 2000
+						oiled: 1b
+						waterproof: 1b
+					}
+				}
+			}
+			id: "6FF4663931B0B2B2"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "451D4EF8E99423F4"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "4061A95BBD1A9E42"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 5
+										}
+									}
+									id: "immersiveengineering:buzzsaw"
+									tag: { }
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: {
+											Items: [ ]
+											Size: 5
+										}
+									}
+									id: "immersiveengineering:drill"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Engineer's Tools"
+					type: "item"
+				}
+				{
+					id: "0BBB71A8A1CDD7FD"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "immersiveengineering:drillhead_iron"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:drillhead_steel"
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:sawblade"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "immersiveengineering:rockcutter"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Drills and Sawblades"
+					type: "item"
+				}
+			]
+			x: -15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000045C"]
+			description: [
+				"Ever wish you could start building a platform in the sky without having to nerd-pole your way up there? "
+				""
+				"Well, if you can't fly you may still need that nerd-pole. If you can, however, grab a bottle of cloud to act as a starting point for the platform. "
+				""
+				"Using a glass bottle between y192 and y196 will get you a Bottled Cloud. Right-Clicking the air again will place the cloud, allowing other blocks to be placed against it. It will disappear after a few moments, but will go back into your bottle on it's own if another block is placed against it in time. "
+			]
+			hide_dependency_lines: true
+			id: "322E9DDDEE1623E3"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "43188DFF0C8F9DDC"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Head in the Clouds"
+			tasks: [{
+				id: "2AF9B5D1BACA4A59"
+				item: "quark:bottled_cloud"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000045C"]
+			description: [
+				"Creeping Creepers got you down? Zealous Zombies getting all up in your face? Salacious Skeletons just won’t let you mine in peace?"
+				""
+				"Get a shield! But not just any shield, Superior Shields are worn in Curio slots and protect their wearer automatically, even from dastardly attacks from behind. "
+				""
+				"Superior Shields have three important stats that determine how well they protect:"
+				""
+				"● Hit Points"
+				"The number of hearts of damage they’re capable of blocking before needing to recharge."
+				""
+				"● Recharge Rate"
+				"The number of seconds it takes to recharge half a shield. "
+				""
+				"● Recharge Delay"
+				"Time in seconds without taking damage before the shield begins to recharge."
+				""
+				"All together, these stats mean that a shield will only be effective in situations where the bearer is not under constant assault, once the Hit Points are diminished, the bearer needs to move away from danger to allow them to recharge. So, they’re excellent for those unexpected attacks, but won’t keep you alive forever. "
+				""
+				"In addition to their basic stats, they may also be enchanted with a number of interesting effects, such as curing the bearer of all potion effects when the shield is depleted or applying Poison to anything that damages the shield. "
+			]
+			hide_dependency_lines: true
+			id: "2C96F74E20442E7A"
+			min_width: 300
+			rewards: [
+				{
+					id: "7F9E5B553D8A3A92"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "superiorshields:quickened"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "58C2D15E139FF54E"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "superiorshields:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0A580EBE0BEE52D0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "superiorshields:shield"
+					}
+				}
+				title: "Superior Shields"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"Many mods add a variety of very useful tools that can be easy to overlook. These quests won't cover everything, but will serve to highlight some of the more notable options not otherwise covered in other quest chapters."
+				""
+				"Note: Most tools and armor have been Tagged for easier search in JEI. Search for the following categories to discover more:"
+				""
+				"● $armor"
+				"● $armor/helm"
+				"● $armor/chest"
+				"● $armor/leggings"
+				"● $armor/boots"
+				""
+				"● $tools"
+				"● $tools/pickaxe"
+				"● $tools/shovel"
+				"● $tools/axe"
+				"● $tools/hoe"
+				"● $tools/multi-tool"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "076E0355A262FC45"
+			rewards: [{
+				id: "0000000000000CA4"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1EDF7F5D2B905572"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
+				title: "Any Tool"
+				type: "item"
+			}]
+			title: "Tools and Armor"
+			x: -13.5d
+			y: -3.000000000000001d
+		}
+	]
+	title: "Tools and Armory"
+}

@@ -1,0 +1,13 @@
+name = "EMC Baubles"
+filename = "emcbaubles-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "49fc72f445bdb428c78ba97b626b135e25675b33"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4496993
+project-id = 399700

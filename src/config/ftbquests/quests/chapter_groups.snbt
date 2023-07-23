@@ -1,0 +1,16 @@
+{
+	chapter_groups: [
+		{ id: "729FF814D7E0104B", title: "Let's Start" }
+		{ id: "1CF541D7529DA9CF", title: "Main Questline" }
+		{ id: "33A417364C0A17FE", title: "&lLogistics&r &b⌹" }
+		{ id: "76C22988F9A7C9CE", title: "&lUtilities&r &9⚒" }
+		{ id: "0815C5D80307ECDF", title: "&l&eTechnology ⚡" }
+		{ id: "1039AC171AB01709", title: "&lMagic&r &d✡" }
+		{ id: "59C90AA1B128306B", title: "&l&5Dimensions" }
+		{ id: "799D8360B26E9792", title: "&l&bOddities" }
+		{ id: "6614EE2378B8AFB9", title: "&l&3Resources&r" }
+		{ id: "752CDE464613A1ED", title: "Exploration" }
+		{ id: "330DFD8D42289441", title: "&l&4Mobs&r &6☠" }
+		{ id: "68600EAD109C5034", title: "End Game" }
+	]
+}

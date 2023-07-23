@@ -1,0 +1,13 @@
+name = "Entangled Fix"
+filename = "entangledfix-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "42f2cf80d81d42f7168c74e73307d9868915e934"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4019140
+project-id = 682925

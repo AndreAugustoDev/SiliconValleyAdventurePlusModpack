@@ -1,0 +1,13 @@
+name = "Ex Nihilo: Sequentia - Thermal Addon"
+filename = "ExNihiloThermal-1.19.2-4.2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88a5aad8c12b21f54a11bd02f6fa0cc1d1f444e3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597783
+project-id = 445226

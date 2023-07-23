@@ -1,0 +1,2315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra2"
+	group: "76C22988F9A7C9CE"
+	icon: {
+		Count: 1b
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			"double/basic_hammer_left_material": "basic_hammer/iron"
+			"double/basic_hammer_right_material": "basic_hammer/iron"
+			"double/basic_handle_material": "basic_handle/spruce"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_hammer_left"
+			"double/head_right": "double/basic_hammer_right"
+		}
+	}
+	id: "0000000000000772"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Tetra is a tool mod that allows you to make powerful modular tools."
+				""
+				"This chapter will show you which tools are available and how you obtain them."
+				""
+				""
+				"The first step is to make a Tetra Hammer and smack a Vanilla Crafting Table with it!"
+				""
+				"To make Tetra tools, you need a hammer, and occasionally other tools."
+				""
+				"The Wooden Hammer is a tier 1 Hammer, which means it will allow you to craft tools out of the most basic materials."
+				""
+				"The higher tier hammer you have, the more materials you can make your tools out of."
+				""
+				""
+				"Note: Non-vanilla Crafting Tables can be converted to vanilla through crafting."
+			]
+			id: "0000000000000773"
+			rewards: [
+				{
+					id: "39F65BDA5177E85F"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+						}
+					}
+					title: "Wooden Hammer"
+					type: "item"
+				}
+				{
+					id: "03886F2576AD52A2"
+					item: "farmersdelight:hamburger"
+					title: "Hamburger"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Hammer time!"
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "0000000000000BE7"
+				type: "advancement"
+			}]
+			title: "Tier 1"
+			x: -2.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"The Holosphere has information about every material, tool and upgrade available in Tetra."
+				""
+				""
+				"The Eye of Ender is for an upgrade which allows you to find Forges a bit easier, just put the Holosphere in your Workbench to apply it."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:holo"
+				tag: {
+					"holo/core": "holo/core"
+					"holo/core_material": "frame/dim"
+					"holo/frame": "holo/frame"
+					"holo/frame_material": "core/ancient"
+				}
+			}
+			id: "0000000000000775"
+			optional: true
+			rewards: [{
+				id: "69AD60623D627E41"
+				item: "minecraft:ender_eye"
+				title: "Eye of Ender"
+				type: "item"
+			}]
+			subtitle: "It's your only hope!"
+			tasks: [{
+				id: "5B29A14C1C3C10E1"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+					}
+				}
+				type: "item"
+			}]
+			title: "Holosphere"
+			x: -1.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0000000000000783"]
+			description: [
+				"Crates and Containers can be found in the underground Forges found deep beneath cold biomes."
+				""
+				"Hit the highlighted areas on crates and containers with the correct tools to break them open."
+			]
+			id: "0000000000000777"
+			optional: true
+			rewards: [{
+				id: "1C00329639087B01"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "diamond"
+			subtitle: "I don't mean to pry, but..."
+			tasks: [{
+				advancement: "tetra:spelunking/containers"
+				criterion: ""
+				icon: "tetra:forged_container"
+				id: "2C364F1E8AB29C73"
+				type: "advancement"
+			}]
+			title: "Salvage"
+			x: 0.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"Put a vanilla bow in the Workbench to get started."
+				""
+				"The vanilla bow is called a straight bow in Tetra. It has medium damage/velocity, and medium draw speed."
+				""
+				"Tip: Integrity comes from the bowstring"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_bow"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-449486007
+						118443153
+						-1822806901
+						-231257592
+					]
+					Damage: 0
+					HideFlags: 1
+					"bow/basic_string_material": "basic_string/string"
+					"bow/stave": "bow/straight_stave"
+					"bow/straight_stave_material": "straight_stave/spruce"
+					"bow/string": "bow/basic_string"
+					honing_progress: 80
+					id: "4d98622b-b92e-4de0-b3c7-4c35c2513c73"
+				}
+			}
+			id: "000000000000077F"
+			optional: true
+			rewards: [
+				{
+					count: 64
+					id: "3AFDF213B5E54D0C"
+					item: "archers_paradox:training_arrow"
+					title: "Training Arrow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "24B6EAB0E872C7B8"
+					item: "archers_paradox:explosive_arrow"
+					title: "Explosive Arrow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2CE5150C1B3C029A"
+					item: {
+						Count: 1b
+						id: "minecraft:tipped_arrow"
+						tag: {
+							Potion: "minecraft:strong_slowness"
+						}
+					}
+					title: "Arrow of Slowness"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "760BA0EEF1A6C59D"
+					item: "minecraft:arrow"
+					title: "Arrow"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/bow_upgrade"
+				criterion: ""
+				id: "6FC950FB40813280"
+				type: "advancement"
+			}]
+			title: "Bows"
+			x: -7.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["0000000000000883"]
+			description: [
+				"After you eventually find a Forge Hammer underground, you'll need 2 Full Thermal Cells and 2 Upgrades to activate it."
+				""
+				"Place a Workbench below the powered Forge Hammer, and you'll gain access to its Hammering abilities."
+				""
+				"Note: The Forge Hammer is craftable in Enigmatica, in case you'd rather not go looking for it. You'll be missing out on loot though!"
+			]
+			id: "0000000000000781"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+				icon: "kubejs:miners_delight"
+				id: "6F3AB671A96DA949"
+				player_command: false
+				title: "Miner's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "tetra:spelunking/hammer_fix"
+				criterion: ""
+				icon: "tetra:hammer_base"
+				id: "7346BE7936AA083F"
+				type: "advancement"
+			}]
+			title: "The Forge"
+			x: -2.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0000000000000883"]
+			description: [
+				"Upgrade your Forge Hammer!"
+				""
+				"Most Forge Upgrades can only be found in the Ancient Forges found underneath cold Biomes."
+				"You can add up to a maximum of 2 Upgrades to a single Forge Hammer."
+				""
+				"Combustion Chamber: + 1 Hammer Tier"
+				""
+				"Insulated Plate: + Efficiency"
+				""
+				"Planar Stabilizer: + Stats when used for forging purposes"
+			]
+			id: "0000000000000783"
+			rewards: [{
+				count: 16
+				id: "1890394BFE05DD2A"
+				item: "thermal:earth_grenade"
+				title: "Tectonic Grenade"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1504F16AFB62F8B5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "tetra:forge_hammer_upgrades"
+					}
+				}
+				title: "Any tetra:forge_hammer_upgrades"
+				type: "item"
+			}]
+			title: "Forge Upgrades"
+			x: -1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0000000000000777"]
+			description: ["You can find all sorts of junk lying around Ancient Forges, and a lot of it can be used as Tool, Weapon or Belt parts. They're better than most other parts."]
+			id: "0000000000000785"
+			optional: true
+			rewards: [{
+				id: "6C7202E2C9A59FD9"
+				item: {
+					Count: 1b
+					id: "tetra:magmatic_cell"
+					tag: {
+						Damage: 128
+					}
+				}
+				title: "Thermal Cell"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					consume_items: false
+					id: "64C3ED3D919ABC9B"
+					item: "tetra:forged_mesh"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D815BB328753519"
+					item: "tetra:metal_scrap"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7EADEA81EF456880"
+					item: "tetra:quick_latch"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1E5ABA0815844D5F"
+					item: "tetra:forged_beam"
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49F8B94B4F61167A"
+					item: "tetra:forged_bolt"
+					type: "item"
+				}
+			]
+			title: "Useful Junk"
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: [
+				"0000000000000781"
+				"0000000000000883"
+			]
+			description: [
+				"Thermal Cells are the batteries of the Forge Hammer."
+				""
+				"You can recharge them in a Transfer Unit, when it's configured correctly. "
+				""
+				""
+				"Note: Thermal Cells are also craftable."
+			]
+			id: "34D211403E0EDB85"
+			rewards: [
+				{
+					id: "4992D7BC125A2DDB"
+					item: "minecraft:lava_bucket"
+					title: "Lava Bucket"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+					icon: "kubejs:blacksmiths_delight"
+					id: "0000000000000AA4"
+					player_command: false
+					title: "Blacksmith's Delight"
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "546F05A303D77263"
+				item: {
+					Count: 1b
+					id: "tetra:magmatic_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Thermal Cells"
+			x: -3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["0000000000000777"]
+			description: [
+				"The Stonecutter is a special tool that breaks an area in a slashing motion."
+				""
+				"The area mined can be increased through Efficiency."
+			]
+			icon: "tetra:stonecutter"
+			id: "000000000000078B"
+			optional: true
+			rewards: [{
+				id: "11C1F8532C0A1DFC"
+				item: "tetra:planar_stabilizer"
+				title: "Planar Stabilizer"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tetra:spelunking/stonecutter"
+				criterion: ""
+				icon: "tetra:stonecutter"
+				id: "69B64D8868372617"
+				type: "advancement"
+			}]
+			title: "Hack N' Slash"
+			x: 1.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["0000000000000777"]
+			description: ["The Earthpiercer is a multi-purpose tool that acts both as a Pickaxe and Shovel."]
+			icon: "tetra:earthpiercer"
+			id: "000000000000078D"
+			optional: true
+			rewards: [{
+				id: "1942FBD72DAA7BFE"
+				item: "tetra:combustion_chamber"
+				title: "Combustion Chamber"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				advancement: "tetra:spelunking/earthpiercer"
+				criterion: ""
+				icon: "tetra:earthpiercer"
+				id: "1D7969DA16D46837"
+				type: "advancement"
+			}]
+			title: "Earthpiercer"
+			x: 1.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["0000000000000775"]
+			description: [
+				"Here's a short breakdown of some key aspects of Tetra:"
+				""
+				"- Integrity"
+				"The higher Integrity your tool has, the better materials you can upgrade it with."
+				"Integrity can be increased by changing parts, such as Handles, Bindings and Bowstrings."
+				""
+				"- Honing "
+				"Tetra tools are honed as you use them - Every level of honing allows you to improve the tool in some way."
+				""
+				"- Settling"
+				"Integrity is increased when a part settles, which happens when you've used the tool for some time. "
+				""
+				"Note: A few materials never settle."
+			]
+			id: "430EE5B71EBCB0FC"
+			optional: true
+			rewards: [{
+				id: "0000000000000CA6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				icon: "minecraft:book"
+				id: "57CC8B1ECF79EB70"
+				title: "Tetras Tool Leveling"
+				type: "checkmark"
+			}]
+			title: "Tetras Tool Leveling"
+			x: 0.5d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"Put your Hammer in the Workbench and replace both heads with any kind of Stone, which will upgrade it to a tier 2 Hammer."
+				""
+				"This is where the Wooden Hammer you got as a quest reward comes in handy!"
+			]
+			id: "37290D1B75A534A0"
+			rewards: [
+				{
+					count: 8
+					id: "5C3445D7AF0F9ECA"
+					item: "emendatusenigmatica:copper_chunk"
+					title: "Copper Chunk"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+					icon: "kubejs:blacksmiths_delight"
+					id: "2750AE9F52EBDF91"
+					player_command: false
+					title: "Blacksmith's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Bird-poo Hammer"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_2"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/diorite"
+						"double/basic_hammer_right_material": "basic_hammer/diorite"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "5985C724CD2588C2"
+				type: "advancement"
+			}]
+			title: "Tier 2"
+			x: -2.5d
+			y: -18.0d
+		}
+		{
+			description: [
+				"This one is a bit tricky - You need to change every part of the hammer this time, as the tier 3 hammer heads require higher integrity."
+				""
+				"Replace the Handle with Wood or Bones, which will give you the integrity you need to upgrade the hammer heads to Iron."
+				""
+				"Note: If you want to use Wood as the handle, you will need an Axe to perform the upgrade."
+			]
+			id: "3212D39F6DEB3459"
+			rewards: [
+				{
+					count: 8
+					id: "46549A99D30999AE"
+					item: "emendatusenigmatica:osmium_chunk"
+					title: "Osmium Chunk"
+					type: "item"
+				}
+				{
+					id: "1230F4CCBE8FB8C3"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					title: "Splash Potion of Fire Resistance"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+					icon: "kubejs:blacksmiths_delight"
+					id: "0000000000000AA2"
+					player_command: false
+					title: "Blacksmith's Delight"
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "2039021D2A91D319"
+				type: "advancement"
+			}]
+			title: "Tier 3"
+			x: -2.5d
+			y: -17.0d
+		}
+		{
+			description: ["For the 4th tier you'll need to venture into the Nether to gather Blackstone for the hammer head upgrades."]
+			id: "0000000000000883"
+			rewards: [
+				{
+					id: "2E34D964B43804EC"
+					item: "minecraft:end_rod"
+					title: "End Rod"
+					type: "item"
+				}
+				{
+					id: "556C84178ABB896B"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 2s
+							}]
+						}
+					}
+					title: "Unbreaking II"
+					type: "item"
+				}
+				{
+					id: "2160B64C3E0CD57B"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:long_swiftness"
+						}
+					}
+					title: "Splash Potion of Swiftness"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+					icon: "kubejs:blacksmiths_delight"
+					id: "0000000000000AA3"
+					player_command: false
+					title: "Blacksmith's Delight"
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/blackstone"
+						"double/basic_hammer_right_material": "basic_hammer/blackstone"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "0000000000000884"
+				type: "advancement"
+			}]
+			title: "Tier 4"
+			x: -2.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"0000000000000787"
+				"0000000000000781"
+				"0000000000000783"
+			]
+			description: [
+				"Obsidian will get you to Tier 5."
+				""
+				"If you need higher integrity, try out an End Rod as a handle."
+				""
+				"Be warned, an End Rod handle may have… unfortunate side effects when near Endermen. Use with caution."
+			]
+			id: "0000000000000885"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+				icon: "kubejs:alchemists_delight"
+				id: "79AA11F5D18675B5"
+				player_command: false
+				title: "Alchemist's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_5"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/obsidian"
+						"double/basic_hammer_right_material": "basic_hammer/obsidian"
+						"double/basic_handle_material": "basic_handle/iron"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "0000000000000886"
+				type: "advancement"
+			}]
+			title: "Tier 5"
+			x: -2.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0000000000000885"]
+			dependency_requirement: "all_started"
+			description: [
+				"Netherite Ingots will get you to tier 6. "
+				""
+				"You're basically a walking Forge, Congratulations!"
+			]
+			id: "0000000000000887"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					icon: "kubejs:miners_delight"
+					id: "69578C4FE40208F0"
+					player_command: false
+					title: "Miner's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+					icon: "kubejs:blacksmiths_delight"
+					id: "0000000000000AA5"
+					player_command: false
+					title: "Blacksmith's Delight"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_6"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/netherite"
+						"double/basic_hammer_right_material": "basic_hammer/netherite"
+						"double/basic_handle_material": "basic_handle/forged_beam"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+					}
+				}
+				id: "0000000000000889"
+				type: "advancement"
+			}]
+			title: "Tier 6"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["The pickaxe head can be used for mining. "]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					honing_progress: 420
+					id: "d1957dfc-8bb6-4c06-b2e4-57e2b16e51a1"
+				}
+			}
+			id: "000000000000091A"
+			optional: true
+			rewards: [{
+				id: "4A698E5DB6B55B62"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1F0DF3D6A609951D"
+				type: "checkmark"
+			}]
+			title: "Pickaxe"
+			x: -8.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["The axe can be used to break wooden blocks and for stripping logs. Double Axe Heads provides additional Damage."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_axe_left_material": "basic_axe/iron"
+					"double/basic_axe_right_material": "basic_axe/iron"
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 267
+					"double/head_left": "double/basic_axe_left"
+					"double/head_left/settle_progress": 312
+					"double/head_right": "double/basic_axe_right"
+					"double/head_right/settle_progress": 312
+					honing_progress: 405
+					id: "a4454037-4ed3-4097-830f-ffe6ce0ae4ae"
+				}
+			}
+			id: "000000000000091C"
+			optional: true
+			rewards: [{
+				id: "53D9B54BAA80D436"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "61ED8BC6AF45F24B"
+				type: "checkmark"
+			}]
+			title: "Greataxe"
+			x: -7.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["Craft a sickle which can be used to cut down plants in an area."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/butt_right_material": "butt/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/sickle_left"
+					"double/head_right": "double/butt_right"
+					"double/sickle_left_material": "sickle/iron"
+					honing_progress: 350
+					id: "d2081dac-2d1e-4bf9-8e2b-04ee005c3b57"
+				}
+			}
+			id: "000000000000091E"
+			optional: true
+			rewards: [{
+				id: "539A25D50CAD2A0C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6FD04FCC0E6888AB"
+				type: "checkmark"
+			}]
+			title: "Sickle"
+			x: -8.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["The hoe can be used for harvesting plants and for tilling soil. "]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/butt_right_material": "butt/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/hoe_left"
+					"double/head_right": "double/butt_right"
+					"double/hoe_left_material": "hoe/iron"
+					honing_progress: 350
+					id: "3c9e2cea-4c55-4fd7-92de-ce022978f338"
+				}
+			}
+			id: "0000000000000920"
+			optional: true
+			rewards: [{
+				id: "624CAB5E5D2DA218"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "70909C6DBA27F8C3"
+				type: "checkmark"
+			}]
+			title: "Hoe"
+			x: -8.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["The claw can be used for prying things open and to quickly break most wooden blocks."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/butt_right_material": "butt/iron"
+					"double/claw_left_material": "claw/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/claw_left"
+					"double/head_right": "double/butt_right"
+					honing_progress: 350
+					id: "ea5da86c-af2f-4a72-9d40-d0a3166ae754"
+				}
+			}
+			id: "0000000000000922"
+			optional: true
+			rewards: [{
+				id: "5ED1F423A8753583"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "26E2A848B4DB6CA9"
+				type: "checkmark"
+			}]
+			title: "Claw"
+			x: -7.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["The adze can be used for digging and for chopping wood."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/adze_left_material": "adze/iron"
+					"double/adze_right_material": "adze/iron"
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 222
+					"double/head_left": "double/adze_left"
+					"double/head_left/settle_progress": 267
+					"double/head_right": "double/adze_right"
+					"double/head_right/settle_progress": 267
+					honing_progress: 360
+					id: "55b8bb81-4330-4e2c-bc75-a47e54a318f7"
+				}
+			}
+			id: "0000000000000924"
+			optional: true
+			rewards: [{
+				id: "254C3897B57555BA"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6B4B99323EFA2F6A"
+				type: "checkmark"
+			}]
+			title: "Adze"
+			x: -6.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"Double headed tools can be made from either Axes or Pickaxes. "
+				""
+				"They're the main work tools, and offer capabilities such as tilling land, chopping wood and mining."
+				""
+				"You can mix-and-match heads, so you can have a tool that's good at both breaking dirt and stone, it's up to you!"
+			]
+			id: "0000000000000926"
+			optional: true
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "1F7D07F7C37B11C5"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000928"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/pickaxe"
+					}
+				}
+				title: "Any Pickaxe"
+				type: "item"
+			}]
+			title: "Double Headed Tools"
+			x: -7.0d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: ["Single headed tools are Shovels and Spears, useful for digging and killing things respectively."]
+			id: "0000000000000929"
+			optional: true
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "2FE847363DE6B964"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000937"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/shovel"
+					}
+				}
+				title: "Any forge:tools/shovel"
+				type: "item"
+			}]
+			title: "Single Headed Tools"
+			x: -4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["0000000000000929"]
+			description: ["Spears offer high damage and slow speed. They double as a digging implement."]
+			id: "000000000000092B"
+			optional: true
+			rewards: [{
+				id: "0000000000000AA1"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "000000000000092C"
+				item: {
+					Count: 1b
+					id: "tetra:modular_single"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						honing_progress: 112
+						id: "43afce20-b42c-4a69-ae56-75b73098c8c4"
+						"single/basic_handle_material": "basic_handle/stick"
+						"single/handle": "single/basic_handle"
+						"single/head": "single/spearhead"
+						"single/spearhead_material": "spearhead/iron"
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"Useful for hurting things, and slaying stuff!"
+				""
+				"Tetra swords can be made from ordinary swords."
+			]
+			id: "000000000000092D"
+			optional: true
+			rewards: [{
+				id: "1F95F06C0BCABBCB"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				title: "Splash Potion of Night Vision"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000938"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:weapons/sword"
+					}
+				}
+				title: "Any Melee Weapon"
+				type: "item"
+			}]
+			title: "Swords"
+			x: -7.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["000000000000092D"]
+			description: ["A Basic Blade with balanced damage and speed."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 240
+					id: "209ed4c3-710d-4fa7-a348-9a154c64d3e1"
+					"sword/basic_blade_material": "basic_blade/iron"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/basic_blade"
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/guard": "sword/makeshift_guard"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/makeshift_guard_material": "makeshift_guard/iron"
+					"sword/pommel": "sword/decorative_pommel"
+				}
+			}
+			id: "000000000000092F"
+			optional: true
+			rewards: [{
+				id: "281C735C64C82265"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0EEF890D2BDF7BEB"
+				type: "checkmark"
+			}]
+			title: "Sword"
+			x: -8.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["000000000000092D"]
+			description: ["A Heavy Blade with high damage but a decreased attack speed."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 305
+					id: "f6f69a81-a541-4b84-ac7c-54f89e920f32"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/heavy_blade"
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/guard": "sword/makeshift_guard"
+					"sword/heavy_blade_material": "heavy_blade/iron"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/makeshift_guard_material": "makeshift_guard/iron"
+					"sword/pommel": "sword/decorative_pommel"
+				}
+			}
+			id: "0000000000000931"
+			optional: true
+			rewards: [{
+				id: "0000000000000A15"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1F7EC62D69769EA4"
+				type: "checkmark"
+			}]
+			title: "Greatsword"
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["000000000000092D"]
+			description: ["A machete can be used to cut down web and some types of plants in an area."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 240
+					id: "4c6517a2-901a-4a1c-9ae8-5a9c5e65de4f"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/machete"
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/guard": "sword/makeshift_guard"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/machete_material": "machete/iron"
+					"sword/makeshift_guard_material": "makeshift_guard/iron"
+					"sword/pommel": "sword/decorative_pommel"
+				}
+			}
+			id: "0000000000000933"
+			optional: true
+			rewards: [{
+				id: "0000000000000A16"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5569F523E0F3184F"
+				type: "checkmark"
+			}]
+			title: "Machete"
+			x: -7.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["000000000000092D"]
+			description: ["A light and short blade that can be used for crafting and for offhand attacks. "]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 240
+					id: "faf748d7-05aa-43b5-a0ba-d107574b9a3b"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/short_blade"
+					"sword/decorative_pommel_material": "decorative_pommel/iron"
+					"sword/guard": "sword/makeshift_guard"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/makeshift_guard_material": "makeshift_guard/iron"
+					"sword/pommel": "sword/decorative_pommel"
+					"sword/short_blade_material": "short_blade/iron"
+				}
+			}
+			id: "0000000000000935"
+			optional: true
+			rewards: [{
+				id: "1C24FF1D5328FC96"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "497323D78520136A"
+				type: "checkmark"
+			}]
+			title: "Shortblade"
+			x: -6.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: ["Tetra Shields are made from the basic vanilla shield."]
+			id: "0000000000000939"
+			optional: true
+			rewards: [{
+				id: "0000000000000A39"
+				item: {
+					Count: 1b
+					id: "botania:brew_flask"
+					tag: {
+						brewKey: "botania:absorption"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "000000000000093A"
+				item: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						AS_Amulet_Holder: [I;
+							-449486007
+							118443153
+							-1822806901
+							-231257592
+						]
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Shield"
+			x: -4.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"The Belt has all sorts of convenient upgrades to make your life easier. It can store things so you can grab them quickly - Hold B to access the belt's inventory."
+				""
+				"Integrity is based on the Belt part itself, and can be made out of the following, in order of worst to best:"
+				"- String"
+				"- Wool"
+				"- Leather"
+				"- Iron"
+				"- Shulker Shells"
+				""
+				"Note: You will need to progress through each tier to upgrade."
+				""
+				"Tip: You can put the Belt in your Belt slot."
+			]
+			id: "000000000000093B"
+			optional: true
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "60D64B0D930BFFD3"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000093C"
+				item: {
+					Count: 1b
+					id: "tetra:modular_toolbelt"
+					tag: {
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "Rope"
+			x: -0.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["0000000000000773"]
+			description: [
+				"Place the Rack next to a Workbench and a Hammer on the Rack, and you'll have access to its hammer tier you use the Workbench."
+				""
+				"This works for all Tetra tools."
+				""
+				"Note: It still uses durability."
+			]
+			id: "000000000000093D"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "0000000000000CA7"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "000000000000093E"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			title: "Great Rack"
+			x: -1.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["0000000000000926"]
+			description: ["Used as the back side of single sided tools, typically yields faster swing speed than double sided tools. Can sometimes be used for hammering if crafted from a sturdy material. "]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_handle_material": "basic_handle/oak"
+					"double/basic_pickaxe_left_material": "basic_pickaxe/iron"
+					"double/butt_right_material": "butt/iron"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_pickaxe_left"
+					"double/head_right": "double/butt_right"
+					honing_progress: 350
+					id: "fd08d2ae-e0ac-4e93-a50b-16ac777271f4"
+				}
+			}
+			id: "377533A27A9D0615"
+			optional: true
+			rewards: [{
+				id: "1066BC57AA9C1D0F"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "07D191C9758C2C64"
+				type: "checkmark"
+			}]
+			title: "Butt"
+			x: -6.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["0000000000000939"]
+			description: ["Bucklers provide a passive toughness bonus but cannot be used to block."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_shield"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 112
+					id: "06b9d4cd-dafc-40c2-95e3-9d5b811e96c9"
+					"shield/basic_grip_material": "basic_grip/iron"
+					"shield/buckler_material": "buckler/iron"
+					"shield/grip": "shield/basic_grip"
+					"shield/plate": "shield/buckler"
+				}
+			}
+			id: "121F68AA8BC6C2BC"
+			optional: true
+			rewards: [{
+				id: "7083F81BB48BD303"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "659F07B674EFEC9C"
+				type: "checkmark"
+			}]
+			title: "Buckler"
+			x: -5.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["0000000000000939"]
+			description: ["Heaters can block for a limited time before going on cooldown."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_shield"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 112
+					id: "2aba9732-8da4-4b90-b7ec-8bf34dd08e59"
+					"shield/basic_grip_material": "basic_grip/iron"
+					"shield/grip": "shield/basic_grip"
+					"shield/heater_material": "heater/iron"
+					"shield/plate": "shield/heater"
+				}
+			}
+			id: "6D301D9D47A68F7B"
+			optional: true
+			rewards: [{
+				id: "7AAF556FBC281D15"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "5DE68ED728257FDD"
+				type: "checkmark"
+			}]
+			title: "Heater Shield"
+			x: -4.5d
+			y: -26.0d
+		}
+		{
+			dependencies: ["0000000000000939"]
+			description: ["Tower shields can block indefinitely with no cooldown but uses more integrity than other types of shields."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_shield"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					honing_progress: 112
+					id: "6a393be1-1a24-4788-91ee-b97c693906a5"
+					"shield/basic_grip_material": "basic_grip/iron"
+					"shield/grip": "shield/basic_grip"
+					"shield/plate": "shield/tower"
+					"shield/tower_material": "tower/iron"
+				}
+			}
+			id: "17CAAD34C7039681"
+			optional: true
+			rewards: [{
+				id: "7D96D912E3225B16"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "404BEEE8809F1E9C"
+				type: "checkmark"
+			}]
+			title: "Tower Shield"
+			x: -3.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["000000000000077F"]
+			description: ["The Longbow has high damage/velocity, but slow draw speed."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_bow"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-449486007
+						118443153
+						-1822806901
+						-231257592
+					]
+					Damage: 0
+					HideFlags: 1
+					"bow/basic_string_material": "basic_string/string"
+					"bow/long_stave_material": "long_stave/spruce"
+					"bow/stave": "bow/long_stave"
+					"bow/string": "bow/basic_string"
+					honing_progress: 80
+					id: "a9746499-767b-4322-9bfa-e5a0b91eb6fc"
+				}
+			}
+			id: "5D6C6C0060169EFD"
+			optional: true
+			rewards: [{
+				id: "4E4EADA786DE1419"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6677EFF613F72266"
+				type: "checkmark"
+			}]
+			title: "Longbow"
+			x: -7.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["000000000000077F"]
+			description: ["The Recurve Bow has low damage/velocity, but fast draw speed."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_bow"
+				tag: {
+					AS_Amulet_Holder: [I;
+						-449486007
+						118443153
+						-1822806901
+						-231257592
+					]
+					Damage: 0
+					HideFlags: 1
+					"bow/basic_string_material": "basic_string/string"
+					"bow/recurve_stave_material": "recurve_stave/spruce"
+					"bow/stave": "bow/recurve_stave"
+					"bow/string": "bow/basic_string"
+					honing_progress: 112
+					id: "c507b5f7-5d4d-4224-b8d8-fb7c5a9a670e"
+				}
+			}
+			id: "0000000000000A35"
+			optional: true
+			rewards: [{
+				id: "0000000000000A3A"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "0000000000000A36"
+				type: "checkmark"
+			}]
+			title: "Recurve Bow"
+			x: -8.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["0000000000000775"]
+			description: [
+				"Tetra tools can be enchanted. You enchant them by placing an Enchanted Book in an Enchant slot, much like how you upgrade a part."
+				""
+				"The Tool's Magic Capacity determines how many/how powerful enchants the tool can have. "
+				""
+				"Warning: If you use more Magic Capacity than the tool has, bad things may happen."
+			]
+			id: "0000000000000A3B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "0000000000000A3D"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "3EC1C04A30A56748"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Enchanting"
+			x: -1.0d
+			y: -23.5d
+		}
+		{
+			dependencies: ["0000000000000777"]
+			description: ["When the Chthonic Extractor is applied as the second head to a tool, the tool will be able to mine in a 3 by 3 area!"]
+			id: "0000000000000FB9"
+			optional: true
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "0000000000000FBB"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "0000000000000FBA"
+				item: "tetra:chthonic_extractor"
+				type: "item"
+			}]
+			title: "3x3 Mining!"
+			x: 0.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["0000000000000887"]
+			description: ["We've added a few extra Hammer tiers, to allow making the most advanced Tetra tools, bows in particular."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_hammer_left_material": "basic_hammer/starmetal"
+					"double/basic_hammer_right_material": "basic_hammer/starmetal"
+					"double/basic_handle_material": "basic_handle/end_rod"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 205
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_left/settle_progress": 708
+					"double/head_right": "double/basic_hammer_right"
+					"double/head_right/settle_progress": 708
+					honing_progress: 470
+					id: "b262f1bb-de92-4835-a8ed-783e131c5dd9"
+				}
+			}
+			id: "03E874538CC29EAF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+				icon: "kubejs:blacksmiths_delight"
+				id: "59B2B9FCD1E15324"
+				player_command: false
+				title: "Blacksmith's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "019F3FE0B1C8CDEB"
+				item: "astralsorcery:starmetal_ingot"
+				type: "item"
+			}]
+			title: "Tier 7"
+			x: -4.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["03E874538CC29EAF"]
+			description: ["We've added a few extra Hammer tiers, to allow making the most advanced Tetra tools, bows in particular."]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_hammer_left_material": "basic_hammer/sky"
+					"double/basic_hammer_right_material": "basic_hammer/sky"
+					"double/basic_handle_material": "basic_handle/end_rod"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 175
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_left/settle_progress": 592
+					"double/head_right": "double/basic_hammer_right"
+					"double/head_right/settle_progress": 592
+					honing_progress: 410
+					id: "595b6b9f-c12d-42f7-bb35-e12a0acaaa25"
+				}
+			}
+			id: "6021E8E72AD98AB6"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+				icon: "kubejs:blacksmiths_delight"
+				id: "49D9C81C252CD109"
+				player_command: false
+				title: "Blacksmith's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				count: 2L
+				id: "665CC8BF12C14289"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			title: "Tier 8"
+			x: -5.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["6021E8E72AD98AB6"]
+			description: [
+				"We've added a few extra Hammer tiers, to allow making the most advanced Tetra tools."
+				""
+				"... an Alfsteel Recurve Bow for example."
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_hammer_left_material": "basic_hammer/alfsteel"
+					"double/basic_hammer_right_material": "basic_hammer/alfsteel"
+					"double/basic_handle_material": "basic_handle/end_rod"
+					"double/handle": "double/basic_handle"
+					"double/handle/settle_progress": 120
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_left/settle_progress": 1068
+					"double/head_right": "double/basic_hammer_right"
+					"double/head_right/settle_progress": 1068
+					honing_progress: 665
+					id: "e771cd1b-c641-4b37-bbd9-e805f1c75dc2"
+				}
+			}
+			id: "5DA0E2DDC46C8721"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_blacksmiths_delight"
+				icon: "kubejs:blacksmiths_delight"
+				id: "25764538285A2048"
+				player_command: false
+				title: "Blacksmith's Delight"
+				type: "command"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				count: 2L
+				id: "4F7E103E546BD020"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			title: "Tier 9"
+			x: -6.0d
+			y: -12.75d
+		}
+		{
+			description: [
+				"&eTetra&r is a very powerful &6modular tool and weapon crafting mod&r."
+				""
+				"Using the crafting methods described here, you'll be able to create &6highly customized tools&r that can be further enhanced and enchanted."
+				""
+				"Craft one of these &blow-tier Hammers&r, and use it on a vanilla Crafting Table to get a &6Workbench&r, where tools are modified and created."
+				""
+				"This will also give you the &6Holosphere&r, Tetra's in-game manual."
+				""
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/granite"
+					"double/basic_hammer_right_material": "basic_hammer/granite"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "c2783bc8-6f22-4f62-b464-80cb96403556"
+				}
+			}
+			id: "7B5E1E34A52272B7"
+			min_width: 250
+			rewards: [
+				{
+					id: "0AFE231D56B36C23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4F80209B76808F44"
+					item: "minecraft:crafting_table"
+					type: "item"
+				}
+			]
+			subtitle: "It's not a fish, it's a hammer"
+			tasks: [{
+				id: "229A28C4A434C9F4"
+				type: "checkmark"
+			}]
+			title: "Tetra Time!"
+			x: 2.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"Tetra tools are made by &6modifying vanilla tools&r, done by inserting them into the Workbench. You don't craft tools; you &6swap parts of existing ones&r instead."
+				""
+				"Certain tool parts require you &6have a specific tool, of a specific level, in your inventory&r. For example, to modify a Stone Hammer (which is a tier 2 Hammer) so it's made of Iron instead (a tier 3 Hammer material), you need to have another tier 2 Hammer in your inventory."
+				""
+				"There are a ton of parts to mix and match; &6experiment and find what's best for you&r!"
+			]
+			id: "0C168C37CABC6E6D"
+			min_width: 275
+			rewards: [
+				{
+					id: "0C565355BF227BBE"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2203830B8C64768F"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E2ADAAC6223FCB6"
+					item: "tetra:geode"
+					type: "item"
+				}
+				{
+					id: "31CFABC20CA836E4"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "6052d54f-37a4-4c7f-b1ff-d7957f9fb2e1"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Swapping parts"
+			tasks: [{
+				advancement: "tetra:upgrades/root"
+				criterion: ""
+				id: "18F9AEDBFF67586B"
+				type: "advancement"
+			}]
+			title: "Basic Tinkering"
+			x: 4.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"&6Wood&r and &6Stone Hammers&r are tier 1 and tier 2 Hammers respectively, but can be crafted directly."
+				""
+				"Rather, to be more accurate, they are &ctier 0 and 1&r. However, using the same material for both Heads increases the level by one."
+				""
+				"The &bIron&r Hammer&r is tier 2, but if both heads are made of iron they get synergy bonus and the hammer becomes &6tier 3&r."
+				""
+				"To install these heads, a &6Tier 2 Hammer&r must be in your inventory."
+				""
+				"The task need a Hammer with both Iron Hammer heads, the rest of the parts do not matter. "
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/iron"
+					"double/basic_hammer_right_material": "basic_hammer/iron"
+					"double/basic_handle_material": "basic_handle/spruce"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "2e064b20-ae8c-4c9b-97f1-dd68189d29d8"
+				}
+			}
+			id: "7A2134E2313DA601"
+			min_width: 250
+			rewards: [
+				{
+					id: "4964A3B5EBEC05BA"
+					item: "tetra:pristine_lapis"
+					type: "item"
+				}
+				{
+					id: "49214F6C52B15CAF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "This is my Hammer-making Hammer!"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_3"
+				criterion: ""
+				id: "317A37661C027ED4"
+				type: "advancement"
+			}]
+			title: "Tier 3 Hammer"
+			x: 5.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7A2134E2313DA601"]
+			description: [
+				"&bBlackstone&r is a tier 3 hammer material, which means using it twice makes a &6tier 4 Hammer&r."
+				""
+				"There are several ways to get Blackstone, the easiest being a &6Material Generator Pedestal&r on a Block of Coal."
+			]
+			id: "37DEE4FAA1C55F2A"
+			rewards: [
+				{
+					id: "2C9376C8B6C85AD3"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "266726308FEC2C22"
+					item: "tetra:pristine_diamond"
+					type: "item"
+				}
+			]
+			subtitle: "Bringing the hammer down"
+			tasks: [{
+				advancement: "tetra:upgrades/hammer_4"
+				criterion: ""
+				id: "2AD906700CAF7106"
+				type: "advancement"
+			}]
+			title: "Tier 4 Hammer"
+			x: 7.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"Tetra crafting can become a bit of a mess, with &6needing multiple tools&r to perform various functions all &6in your inventory&r at the same time."
+				""
+				"By placing a &bRack&r near your Workbench, you can have the tool-crafting tools there instead!"
+			]
+			id: "7660A510D6F907CF"
+			rewards: [{
+				id: "6398B08017214F6A"
+				item: "sophisticatedbackpacks:everlasting_upgrade"
+				type: "item"
+			}]
+			subtitle: "Rackem up!"
+			tasks: [{
+				id: "1355D3C2933A6E8F"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"&bChopping Tools&r are needed in many recipes."
+				""
+				"The easiest way to make one is to simply &6replace the Axe Head&r on a vanilla Iron Axe with another Iron Axe Head."
+			]
+			id: "0BD14780566B2D09"
+			subtitle: "And my axe!"
+			tasks: [{
+				id: "553A6A9B83C4EEA6"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Tier 4 Chopping Tool"
+			x: 7.0d
+			y: -18.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"Many advanced recipes need a &bTier 3+ Short Blade&r to act as a cutting tool. "
+				""
+				"The easiest way to make one is by taking a &6vanilla Diamond Sword&r and swapping out the blade with a &6Diamond Shortblade&r."
+			]
+			id: "67F60A1D1D021B0F"
+			rewards: [{
+				id: "4410BFB7FB3F8ECE"
+				item: {
+					Count: 1b
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:looting"
+								lvl: 3s
+							}
+							{
+								id: "apotheosis:scavenger"
+								lvl: 1s
+							}
+							{
+								id: "farmersdelight:backstabbing"
+								lvl: 5s
+							}
+							{
+								id: "minecraft:sharpness"
+								lvl: 5s
+							}
+						]
+						RepairCost: 15
+						display: {
+							Name: "{\"text\":\"Tazz's Chef Knife\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Tier 4 Cutting Tool"
+			tasks: [{
+				advancement: "tetra:upgrades/sword_upgrade"
+				criterion: ""
+				id: "446818C6591C0DA1"
+				type: "advancement"
+			}]
+			title: "Diamond Shortblade"
+			x: 7.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"Tetra tools can be &6enchanted&r, either in the &bEnchanting Table&r or by installing an Enchanted Book onto a tool part."
+				""
+				"Different parts have different &6magic capacity&r - it's best to &cavoid exceeding it&r, as it can have adverse effects..."
+			]
+			id: "65EEF0E9EC1C20B7"
+			rewards: [
+				{
+					id: "18A3E37CCB68BDDF"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F198DA50FE744F6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Enchanting with Tetra"
+			tasks: [{
+				id: "3C6D43DB2151F417"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0C168C37CABC6E6D"]
+			description: [
+				"You'll notice in the Workbench menu, your tool has &6several stats important for upgrading it&r. These are Integrity, Honing, and Settling."
+				""
+				"&bSettling&r is the easiest, and happens naturally over time. As you &6use the tool&r, it will gradually settle. A fully settled tool has a &6lower integrity cost&r."
+				""
+				"&bHoning&r is increased the same way, but will &6boost a tool part&r when honed."
+				""
+				"&bIntegrity&r is basically the &6maximum overall complexity&r of the tool. Better tool parts have higher integrity cost, and you &ccannot exceed max&r. Increasing Settling and Honing will allow for more Integrity to be used."
+			]
+			icon: "minecraft:experience_bottle"
+			id: "1CC51CEE8959C798"
+			min_width: 250
+			rewards: [
+				{
+					id: "079AE213B928F1D5"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "602F6992C6461D98"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Take it to the limit!"
+			tasks: [{
+				id: "50FE36617524BB4C"
+				title: "Tool Leveling"
+				type: "checkmark"
+			}]
+			title: "Tool Leveling"
+			x: 5.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: ["&bThermal Cells&r can be installed on two sides of the Forge Hammer to &6power it&r, allowing for higher tier tools and weapons."]
+			id: "044639C4BCE3DDAC"
+			rewards: [{
+				id: "4158502AA3BA6BB0"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Get a Thermal Cell"
+			tasks: [{
+				id: "4023D940550E6644"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -21.0d
+		}
+		{
+			dependencies: ["37DEE4FAA1C55F2A"]
+			description: [
+				"In order to progress beyond T4 tools, you'll need several new devices. First and foremost is the &bForge Hammer&r."
+				""
+				"Normally, you'd find these hidden deep underground, but that's not really an option here. Instead, &6purchase one from a Tier 5 Armorer Villager&r. Place a Blast Furnace to set the Villager's profession."
+				""
+				"The Forge Hammer must be placed &62 blocks above the Workbench&r."
+				""
+				"The Forge Hammer can have &6upgrades&r installed. Use a &6Claw&r tool to remove them."
+			]
+			id: "0A2B186A4949E04D"
+			min_width: 275
+			rewards: [
+				{
+					id: "7334248DF9B9009C"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							HideFlags: 1
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/butt_right_material": "butt/stone"
+							"double/claw_left_material": "claw/diamond"
+							"double/handle": "double/basic_handle"
+							"double/handle/settle_progress": 277
+							"double/head_left": "double/claw_left"
+							"double/head_left:arrested": 0
+							"double/head_right": "double/butt_right"
+							honing_progress: 288
+							id: "1be95ba9-1be5-49b6-b21b-f4503065bd3e"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4452ADC393F50072"
+					item: "tetra:pristine_emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Tools of Legend"
+			tasks: [{
+				id: "113819B092225F4B"
+				item: "tetra:hammer_base"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0A2B186A4949E04D"]
+			description: [
+				"To reach &6Tier 7&r, the Forge Hammer alone isn't enough."
+				""
+				"You'll need to upgrade it with both the &bCombustion Chamber&r as well as the &bLubrication Dispenser&r."
+			]
+			icon: "tetra:combustion_chamber"
+			id: "1C41C855ED97D901"
+			rewards: [{
+				id: "164461A301927233"
+				item: "tetra:planar_stabilizer"
+				type: "item"
+			}]
+			subtitle: "Ultimate Form Forge!"
+			tasks: [
+				{
+					id: "6EE7365B9A175238"
+					item: "tetra:combustion_chamber"
+					type: "item"
+				}
+				{
+					id: "63E655486F4C883C"
+					item: "tetra:lubricant_dispenser"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["7B5E1E34A52272B7"]
+			description: [
+				"&bScrolls&r, which can be found in chests in villages, &6unlock new crafting options in the Workbench&r when placed nearby."
+				""
+				"Multiple Scrolls can be placed in the same block."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:gem_expertise"]
+							glyphs: [
+								14
+								13
+								14
+								15
+							]
+							intricate: 0b
+							key: "gem_expertise"
+							material: 0
+							ribbon: "2bffee"
+						}]
+					}
+				}
+			}
+			id: "2194412E88EF922C"
+			subtitle: "Elder ones, even"
+			tasks: [{
+				id: "3DBA2AD2EF5E81D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "tetra:scroll_rolled"
+							tag: {
+								BlockEntityTag: {
+									data: [{
+										effects: ["tetra:gem_expertise"]
+										glyphs: [
+											14
+											13
+											14
+											15
+										]
+										intricate: 0b
+										key: "gem_expertise"
+										material: 0
+										ribbon: "2bffee"
+									}]
+								}
+							}
+						}]
+					}
+				}
+				title: "Scrolls"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -18.0d
+		}
+	]
+	title: "Tetra"
+}

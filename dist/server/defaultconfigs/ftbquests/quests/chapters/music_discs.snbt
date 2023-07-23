@@ -1,0 +1,1459 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "music_discs"
+	group: "799D8360B26E9792"
+	icon: "minecraft:jukebox"
+	id: "56FF7EACDDBD34B9"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide: true
+			id: "34025AE70E5B2066"
+			size: 1.5d
+			tasks: [{
+				id: "6A6023614C34918C"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			id: "56597C68262A8025"
+			tasks: [{
+				id: "6419C7CF37FED98B"
+				item: {
+					Count: 1b
+					id: "additionaladditions:pocket_jukebox"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.4999999999999999d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "69EC09D9EAD0C855"
+			tasks: [{
+				id: "18FC687C131C1B54"
+				item: "minecraft:music_disc_stal"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5000000000000004d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5CE48738B3209C5D"
+			tasks: [{
+				id: "7A50D4F767AA05F8"
+				item: "minecraft:music_disc_mellohi"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.600000000000001d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "722154AC2C0AC0BD"
+			tasks: [{
+				id: "1BF91CBEF6901E27"
+				item: "minecraft:music_disc_mall"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.600000000000001d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "410F43C881FFC6A9"
+			tasks: [{
+				id: "026E781344450B0C"
+				item: "minecraft:music_disc_far"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.699999999999999d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "414B9DEED9F79286"
+			tasks: [{
+				id: "2300E6498BBA8486"
+				item: "minecraft:music_disc_chirp"
+				type: "item"
+			}]
+			x: 0.4999999999999999d
+			y: -3.599999999999999d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "32AE35B3F2589734"
+			tasks: [{
+				id: "1B07998C60CF2E33"
+				item: "minecraft:music_disc_blocks"
+				type: "item"
+			}]
+			x: 1.5000000000000004d
+			y: -4.6999999999999975d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "13BF80E6E0E1F9E7"
+			tasks: [{
+				id: "1DC211CA5140ABBA"
+				item: "minecraft:music_disc_cat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.700000000000001d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "67D773661BFA144C"
+			tasks: [{
+				id: "181B7D921B3C3333"
+				item: "minecraft:music_disc_13"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.799999999999999d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "28088E01EC40DCA2"
+			tasks: [{
+				id: "4695DFC9BE796DB7"
+				item: "minecraft:music_disc_pigstep"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.800000000000001d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "01D323C73D4EB523"
+			tasks: [{
+				id: "3D7FD8B8BEB75331"
+				item: "minecraft:music_disc_5"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.8000000000000025d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6D98D9F96F97459C"
+			tasks: [{
+				id: "77DF5BD191187563"
+				item: "minecraft:music_disc_otherside"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.900000000000002d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "300F5F43B1F9048A"
+			tasks: [{
+				id: "6F1C08F221E01F34"
+				item: "minecraft:music_disc_wait"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.900000000000002d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0799B6DFF6F2FD7E"
+			tasks: [{
+				id: "180655BA8407C239"
+				item: "minecraft:music_disc_11"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.900000000000002d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "64F507577DD1807B"
+			tasks: [{
+				id: "142EC1E88DF7E35E"
+				item: "minecraft:music_disc_ward"
+				type: "item"
+			}]
+			x: 1.0000000000000002d
+			y: -8.000000000000002d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "318363C1B2C419A8"
+			tasks: [{
+				id: "352E72738DC7627E"
+				item: "minecraft:music_disc_strad"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.000000000000002d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "406621517A041529"
+			tasks: [{
+				id: "35150963FFBE17E2"
+				item: "betterend:music_disc_eo_dracona"
+				type: "item"
+			}]
+			x: -1.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "38246879A8639506"
+			tasks: [{
+				id: "2CCC20DFD2A4A624"
+				item: "betterend:music_disc_endseeker"
+				type: "item"
+			}]
+			x: -1.9000000000000008d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "750E74442DF83771"
+			tasks: [{
+				id: "7A3F2D406BC1D9DD"
+				item: "betterend:music_disc_grasping_at_stars"
+				type: "item"
+			}]
+			x: -1.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "74E6813FCC20D7FC"
+			tasks: [{
+				id: "4D340988AAD8F459"
+				item: "betterend:music_disc_strange_and_alien"
+				type: "item"
+			}]
+			x: -2.899999999999999d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2D3289BCDD70E57E"
+			tasks: [{
+				id: "5BF10EAC6785F03B"
+				item: "additionaladditions:music_disc_1507"
+				type: "item"
+			}]
+			x: -2.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "38EFFCF9709DE8AF"
+			tasks: [{
+				id: "79064AA394EF9FDC"
+				item: "additionaladditions:music_disc_1007"
+				type: "item"
+			}]
+			x: -2.8999999999999995d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "61A00FA05FBF5017"
+			tasks: [{
+				id: "0EC98793FC6A8820"
+				item: "additionaladditions:music_disc_0308"
+				type: "item"
+			}]
+			x: -3.9000000000000017d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2384A0C146729843"
+			tasks: [{
+				id: "136B00E56AC9FC52"
+				item: "wardentools:music_disc_fizz"
+				type: "item"
+			}]
+			x: -3.9000000000000017d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6217944B79265D18"
+			tasks: [{
+				id: "7A3D77E98173C621"
+				item: "wardentools:music_disc_astray_archipelago"
+				type: "item"
+			}]
+			x: -3.9000000000000017d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "63F9369605B864A5"
+			tasks: [{
+				id: "71E39A4BC3894320"
+				item: "the_bumblezone:music_disc_honey_bee_rat_faced_boy"
+				type: "item"
+			}]
+			x: -4.900000000000006d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5DCA8D661CC6A944"
+			tasks: [{
+				id: "764816135E1FDD82"
+				item: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov"
+				type: "item"
+			}]
+			x: -4.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "66D0D0F40EC6656F"
+			tasks: [{
+				id: "11BCE72AABC4E84E"
+				item: "spectrum:music_disc_spectrum_theme"
+				type: "item"
+			}]
+			x: -4.900000000000004d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "53B4C31E4799B8AE"
+			tasks: [{
+				id: "4F6B8A161C196024"
+				item: "morediscs:music_disc_soul"
+				type: "item"
+			}]
+			x: 2.8999999999999995d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "64A4767CD5DFC30E"
+			tasks: [{
+				id: "343E845EA4A9779C"
+				item: "morediscs:music_disc_shroom"
+				type: "item"
+			}]
+			x: 2.9000000000000004d
+			y: -2.0000000000000004d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5D5BECB690D1E7A4"
+			tasks: [{
+				id: "6BE47261A96B276B"
+				item: "morediscs:music_disc_activate"
+				type: "item"
+			}]
+			x: 2.8999999999999995d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0F5D44EC6BBC027E"
+			tasks: [{
+				id: "058B4CE73A23DC5B"
+				item: "morediscs:music_disc_rain"
+				type: "item"
+			}]
+			x: 1.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "572647279FB7FC48"
+			tasks: [{
+				id: "05280AAD628AEF58"
+				item: "morediscs:music_disc_rain"
+				type: "item"
+			}]
+			x: 3.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "03BA462BC7D4EEA9"
+			tasks: [{
+				id: "555E4DFC52BDB325"
+				item: "morediscs:music_disc_silence"
+				type: "item"
+			}]
+			x: 3.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5813AFC030E37CE3"
+			tasks: [{
+				id: "4DF997D3E8F558E6"
+				item: "morediscs:music_disc_omen"
+				type: "item"
+			}]
+			x: 3.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "596E40974D6BFD23"
+			tasks: [{
+				id: "506B65955896E110"
+				item: "morediscs:music_disc_tall"
+				type: "item"
+			}]
+			x: 4.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7D65AE85706510D3"
+			tasks: [{
+				id: "5897E3103618F072"
+				item: "morediscs:music_disc_test"
+				type: "item"
+			}]
+			x: 4.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2968EB72335E770A"
+			tasks: [{
+				id: "0FC32496228C9721"
+				item: "morediscs:music_disc_mesa_depth"
+				type: "item"
+			}]
+			x: 4.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5CB50184BB4FA19E"
+			tasks: [{
+				id: "60B6776698F7C4BC"
+				item: "morediscs:music_disc_nostalg"
+				type: "item"
+			}]
+			x: 5.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2DD4CFCB05D22DC4"
+			tasks: [{
+				id: "1F4A0F91DC55DD2B"
+				item: "morediscs:music_disc_shallow"
+				type: "item"
+			}]
+			x: 5.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1257E9E01B7DF971"
+			tasks: [{
+				id: "3DC3CE23F83908A6"
+				item: "morediscs:music_disc_aggressionegression"
+				type: "item"
+			}]
+			x: 5.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5129A612ED6CEB8D"
+			tasks: [{
+				id: "60EA227FD5EDF86C"
+				item: "morediscs:music_disc_clouds"
+				type: "item"
+			}]
+			x: 6.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "46E3386FAB18736D"
+			tasks: [{
+				id: "721C91F4F116D646"
+				item: "morediscs:music_disc_squiggles"
+				type: "item"
+			}]
+			x: 6.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "044E746323AC3B78"
+			tasks: [{
+				id: "43AC1FC205B9CA2B"
+				item: "morediscs:music_disc_chorus"
+				type: "item"
+			}]
+			x: 6.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "16D8C71FC17D0428"
+			tasks: [{
+				id: "25C107CDBAE557F1"
+				item: "morediscs:music_disc_droopylovesjean"
+				type: "item"
+			}]
+			x: 7.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "318CD86424994D62"
+			tasks: [{
+				id: "039C02F42E63DF05"
+				item: "morediscs:music_disc_scopophobia"
+				type: "item"
+			}]
+			x: 7.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "529E8EE39A4E30F9"
+			tasks: [{
+				id: "0CB3208CCAD66B95"
+				item: "morediscs:music_disc_reloaded"
+				type: "item"
+			}]
+			x: 7.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "41B77CA6994D07BD"
+			tasks: [{
+				id: "162A350D693C3A29"
+				item: "morediscs:music_disc_sand"
+				type: "item"
+			}]
+			x: 8.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "3C52A694D8A3A439"
+			tasks: [{
+				id: "615FB3907F8EE240"
+				item: "morediscs:music_disc_potion_of_swiftness"
+				type: "item"
+			}]
+			x: 8.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "3D1DBA976F777354"
+			tasks: [{
+				id: "2C2742370622E6EC"
+				item: "morediscs:music_disc_hue"
+				type: "item"
+			}]
+			x: 8.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "71E7ADA017BFD57E"
+			tasks: [{
+				id: "0D3F52BFC012B563"
+				item: "morediscs:music_disc_range"
+				type: "item"
+			}]
+			x: 9.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7C7FCF0E06F878C7"
+			tasks: [{
+				id: "424B5652091DC57B"
+				item: "morediscs:music_disc_chop"
+				type: "item"
+			}]
+			x: 9.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2BC6B229162F8E39"
+			tasks: [{
+				id: "73CC28D4D2AC7F3F"
+				item: "morediscs:music_disc_anti"
+				type: "item"
+			}]
+			x: 9.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7979D34C3BD47EE0"
+			tasks: [{
+				id: "1C97208A4E240EDB"
+				item: "morediscs:music_disc_ravage"
+				type: "item"
+			}]
+			x: 10.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0472FCD6489B37BD"
+			tasks: [{
+				id: "4114A18299DAF8F1"
+				item: "morediscs:music_disc_seeds"
+				type: "item"
+			}]
+			x: 10.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1A38CAC769D47211"
+			tasks: [{
+				id: "392D28137A3B5886"
+				item: "morediscs:music_disc_tide"
+				type: "item"
+			}]
+			x: 10.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5DD11ABF437C5839"
+			tasks: [{
+				id: "4A526A9FF6DDB1DF"
+				item: "morediscs:music_disc_vengeful"
+				type: "item"
+			}]
+			x: 11.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "27FD4474A43B40B1"
+			tasks: [{
+				id: "64C803A129962573"
+				item: "morediscs:music_disc_warden"
+				type: "item"
+			}]
+			x: 11.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6585C1490F58F736"
+			tasks: [{
+				id: "4C14A3F8BD70354B"
+				item: "morediscs:music_disc_mangrove_swamp"
+				type: "item"
+			}]
+			x: 11.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "12506F5239CD1967"
+			tasks: [{
+				id: "724FF86BAC7A5709"
+				item: "morediscs:music_disc_witherdance"
+				type: "item"
+			}]
+			x: 12.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "677A6C98B20A19CE"
+			tasks: [{
+				id: "2F72682F37D86948"
+				item: "morediscs:music_disc_blazetrap"
+				type: "item"
+			}]
+			x: 12.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "169FC78E153F8616"
+			tasks: [{
+				id: "3FEC0E996631DDA8"
+				item: "morediscs:music_disc_chill"
+				type: "item"
+			}]
+			x: 12.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6E3FBC849A8AD917"
+			tasks: [{
+				id: "68A8FB82D43546BE"
+				item: "morediscs:music_disc_disc"
+				type: "item"
+			}]
+			x: 13.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "341A828DDAD5BD98"
+			tasks: [{
+				id: "50AFD12B252C6A2B"
+				item: "morediscs:music_disc_dive"
+				type: "item"
+			}]
+			x: 13.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1903F625A5109D99"
+			tasks: [{
+				id: "0F8E23A529092017"
+				item: "morediscs:music_disc_dreams"
+				type: "item"
+			}]
+			x: 13.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7AAE7880D48315BD"
+			tasks: [{
+				id: "6EBDF5363AC12D18"
+				item: "morediscs:music_disc_raid"
+				type: "item"
+			}]
+			x: 14.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "07CFA462E3F07460"
+			tasks: [{
+				id: "41259C3EA71F4927"
+				item: "morediscs:music_disc_sound"
+				type: "item"
+			}]
+			x: 14.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0823D01AB5D87250"
+			tasks: [{
+				id: "2ED218FF0947F8B8"
+				item: "morediscs:music_disc_victory"
+				type: "item"
+			}]
+			x: 14.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "65E63668C3B7BC6F"
+			tasks: [{
+				id: "403EF5E3799063F0"
+				item: "morediscs:music_disc_justyhebeginning"
+				type: "item"
+			}]
+			x: 15.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "61F73B7215B03FAD"
+			tasks: [{
+				id: "6B6F553F50E461B6"
+				item: "morediscs:music_disc_drowned_anthem"
+				type: "item"
+			}]
+			x: 15.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "03FEE7D3D0359BB3"
+			tasks: [{
+				id: "10B43D6BEB3D7399"
+				item: "morediscs:music_disc_dear_diary"
+				type: "item"
+			}]
+			x: 15.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "4A959BF1DB344269"
+			tasks: [{
+				id: "2B95FCDDA82FB4FF"
+				item: "morediscs:music_disc_flight_of_the_voids_ship"
+				type: "item"
+			}]
+			x: 16.900000000000006d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7DA8936CEDA7CF80"
+			tasks: [{
+				id: "06DAEA35EA2FD737"
+				item: "morediscs:music_disc_warped_forest"
+				type: "item"
+			}]
+			x: 16.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "3BA5B6CF6873E009"
+			tasks: [{
+				id: "1AFB416FF987E2F4"
+				item: "morediscs:music_disc_void"
+				type: "item"
+			}]
+			x: 16.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "150DE919358D7728"
+			tasks: [{
+				id: "6CE6C7E245E1E48B"
+				item: "morediscs:music_disc_passion"
+				type: "item"
+			}]
+			x: 17.900000000000006d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "469AA78002FC51FA"
+			tasks: [{
+				id: "28A18C0C768724D5"
+				item: "morediscs:music_disc_stridehop"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5776A6313946A00B"
+			tasks: [{
+				id: "737DDF4EB0791720"
+				item: "morediscs:music_disc_avian"
+				type: "item"
+			}]
+			x: 17.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "441E86C0665003B3"
+			tasks: [{
+				id: "15ACC37726A60A56"
+				item: "morediscs:music_disc_before"
+				type: "item"
+			}]
+			x: 18.900000000000006d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "189590A697C94943"
+			tasks: [{
+				id: "4E64D140F7682AAF"
+				item: "morediscs:music_disc_jungler"
+				type: "item"
+			}]
+			x: 18.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1BA18E723CF9D043"
+			tasks: [{
+				id: "7F73A44C61396D16"
+				item: "morediscs:music_disc_aether"
+				type: "item"
+			}]
+			x: 18.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "188535CC37E40118"
+			tasks: [{
+				id: "2AC647F4533D9CE4"
+				item: "morediscs:music_disc_technobladeneverdiesatleastinourhearts"
+				type: "item"
+			}]
+			x: 19.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2EE23EAD78BEECAC"
+			tasks: [{
+				id: "600F513C132167E1"
+				item: "morediscs:music_disc_waves"
+				type: "item"
+			}]
+			x: 19.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6810CFF50EC09889"
+			tasks: [{
+				id: "6D0D6B1928B71888"
+				item: "morediscs:music_disc_forest"
+				type: "item"
+			}]
+			x: 19.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1C12D724AF531163"
+			tasks: [{
+				id: "3DBB81CDA0687699"
+				item: "morediscs:music_disc_intothejungle"
+				type: "item"
+			}]
+			x: 20.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "482C9D03F641BA36"
+			tasks: [{
+				id: "1217A77988AB7D41"
+				item: "morediscs:music_disc_thespeedrunner"
+				type: "item"
+			}]
+			x: 20.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1C2570BFC7BA7F63"
+			tasks: [{
+				id: "615B9086069DE352"
+				item: "morediscs:music_disc_theunfinishedsymphony"
+				type: "item"
+			}]
+			x: 20.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7C6DE8BD2B7D96C0"
+			tasks: [{
+				id: "671A1C0B2B7C00E6"
+				item: "morediscs:music_disc_enderwalk"
+				type: "item"
+			}]
+			x: 21.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "1D848D8E4CEBBC0C"
+			tasks: [{
+				id: "67B57DCC34128E2C"
+				item: "morediscs:music_disc_tearsofjoy"
+				type: "item"
+			}]
+			x: 21.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2DA68D9A42883387"
+			tasks: [{
+				id: "3904C7E1EAABA0A4"
+				item: "morediscs:music_disc_sky"
+				type: "item"
+			}]
+			x: 21.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6E434F60DEBF4ED4"
+			tasks: [{
+				id: "56F46053D08FF64F"
+				item: "morediscs:music_disc_alternatedimension"
+				type: "item"
+			}]
+			x: 22.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0E82FCF8433E70ED"
+			tasks: [{
+				id: "61B7154724F6C887"
+				item: "morediscs:music_disc_castle"
+				type: "item"
+			}]
+			x: 22.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "3B533D526782080E"
+			tasks: [{
+				id: "37AAD715839A917A"
+				item: "morediscs:music_disc_ancientruins"
+				type: "item"
+			}]
+			x: 22.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2350423FE60B4D0C"
+			tasks: [{
+				id: "5E250A936F6A1B47"
+				item: "morediscs:music_disc_desert"
+				type: "item"
+			}]
+			x: 23.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "112B4FBA32BF0547"
+			tasks: [{
+				id: "4E66ACE4BA801FBF"
+				item: "morediscs:music_disc_planettech"
+				type: "item"
+			}]
+			x: 23.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "7DC69EDEBD6A9F53"
+			tasks: [{
+				id: "3AADF57EB69E3D73"
+				item: "morediscs:music_disc_42"
+				type: "item"
+			}]
+			x: 23.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "6D6DC33A01728CFE"
+			tasks: [{
+				id: "40D4E8E6F935D3A6"
+				item: "morediscs:music_disc_retri"
+				type: "item"
+			}]
+			x: 24.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "414633C665061FF6"
+			tasks: [{
+				id: "6A470E9C69D8EC6F"
+				item: "morediscs:music_disc_lgm"
+				type: "item"
+			}]
+			x: 24.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "227522CC881D46D7"
+			tasks: [{
+				id: "02CBED6178BC9F3F"
+				item: "morediscs:music_disc_scorched"
+				type: "item"
+			}]
+			x: 24.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "69B39F15F683CA86"
+			tasks: [{
+				id: "55554905CA3AD5B0"
+				item: "morediscs:music_disc_submerge"
+				type: "item"
+			}]
+			x: 25.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0FB83FB1030D0E4F"
+			tasks: [{
+				id: "451FE1AA9EDB084A"
+				item: "morediscs:music_disc_spiral"
+				type: "item"
+			}]
+			x: 25.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "2465F844C1D199B2"
+			tasks: [{
+				id: "58A16BD12DCA100D"
+				item: "morediscs:music_disc_rainbows"
+				type: "item"
+			}]
+			x: 25.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "4C9B50F5917C36F1"
+			tasks: [{
+				id: "7C12A50B37505EB8"
+				item: "morediscs:music_disc_mush_roam"
+				type: "item"
+			}]
+			x: 26.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "0F0565D321DD3225"
+			tasks: [{
+				id: "240AE1D6BB1E5E51"
+				item: "morediscs:music_disc_left_shift"
+				type: "item"
+			}]
+			x: 26.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5C9329D9AD743C3B"
+			tasks: [{
+				id: "764113AB951FB1B9"
+				item: "morediscs:music_disc_thesyndicate"
+				type: "item"
+			}]
+			x: 26.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "348D93E98549AD73"
+			tasks: [{
+				id: "69F346D7136F7350"
+				item: "morediscs:music_disc_weepingsouls"
+				type: "item"
+			}]
+			x: 27.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5F32A06C5FED5253"
+			tasks: [{
+				id: "3C4AA21648623268"
+				item: "morediscs:music_disc_strikethemdown"
+				type: "item"
+			}]
+			x: 27.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "5944F092C0B8CF59"
+			tasks: [{
+				id: "4655BC0A0B352496"
+				item: "morediscs:music_disc_amethyzied"
+				type: "item"
+			}]
+			x: 27.9d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "607DD963C63921F2"
+			tasks: [{
+				id: "2FE119ED044676CA"
+				item: "morediscs:music_disc_thebrightside"
+				type: "item"
+			}]
+			x: 28.9d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			hide: false
+			hide_dependency_lines: true
+			id: "224327AD19F71FD4"
+			tasks: [{
+				id: "00E372C891529554"
+				item: "morediscs:music_disc_thedarkside"
+				type: "item"
+			}]
+			x: 28.9d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34025AE70E5B2066"]
+			dependency_requirement: "all_started"
+			hide: false
+			hide_dependency_lines: true
+			id: "74DD12C29247C9BC"
+			tasks: [{
+				id: "41FBA1717587AB53"
+				item: "morediscs:music_disc_thelostsoul"
+				type: "item"
+			}]
+			x: 28.9d
+			y: -2.0d
+		}
+	]
+	title: "Music Discs"
+}

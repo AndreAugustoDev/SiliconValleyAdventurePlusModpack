@@ -1,0 +1,13 @@
+name = "Ex Nihilo: Sequentia - Mekanism Addon"
+filename = "ExNihiloMekanism-1.19.2-4.2.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1255755ca445c9597b0bc1649151b0f441b9e66c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4597763
+project-id = 430787

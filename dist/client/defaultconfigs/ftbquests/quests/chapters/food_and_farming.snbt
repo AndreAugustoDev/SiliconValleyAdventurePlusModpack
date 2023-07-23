@@ -1,0 +1,3434 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food_and_farming"
+	group: "6614EE2378B8AFB9"
+	icon: "minecraft:cake"
+	id: "05E614FDA677D85E"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cake.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5102040816326507d
+			y: -3.0714285714285765d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat.png"
+			rotation: -90.0d
+			width: 1.0d
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/wheat_seeds.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.48979591836734215d
+			y: -2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "minecraft:textures/block/birch_sapling.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "croptopia:textures/item/cantaloupe_seed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "farmersdelight:textures/item/apple_cider.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cooked_chicken.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/cooked_porkchop.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "aquaculture:textures/item/catfish.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "atm:textures/questpics/food_and_farming.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 0.5d
+			y: -5.5d
+		}
+	]
+	order_index: 0
+	quest_links: [
+		{
+			id: "6FC42A7981C9C221"
+			linked_quest: "00000000000015DB"
+			shape: "diamond"
+			size: 1.25d
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "1EDB5B4E14FB50AE"
+			linked_quest: "45F83C2750F70F9B"
+			shape: "diamond"
+			size: 1.25d
+			x: 0.5d
+			y: 4.0d
+		}
+	]
+	quests: [
+		{
+			description: [
+				"Welcome to the Food and Farming chapter!"
+				""
+				"Here, you'll find different ways for you to grow and make food!"
+			]
+			icon: "minecraft:emerald"
+			id: "1827DEEA2DF1B144"
+			rewards: [
+				{
+					id: "28C108EC59F6E7D9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "2EFEA345691F570D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Getting Started"
+			tasks: [{
+				id: "07603A90CCCB3627"
+				title: "Food and Farming"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43021923E220CF68"]
+			description: ["Let's gather some seeds."]
+			id: "72717D1135486D7F"
+			rewards: [
+				{
+					id: "37CC4C9D02D00F80"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+				{
+					id: "3EF6CC70CA664541"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Block Hand 1, Block Grass 0"
+			tasks: [{
+				count: 8L
+				id: "73B6ED422F9292D1"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "Punch the Grass."
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18EADBAFC932F864"]
+			description: ["Let's gather some pieces of wool!"]
+			icon: "minecraft:white_wool"
+			id: "3EA883C0BB7BD38F"
+			rewards: [
+				{
+					id: "59024F65DCEB9DAA"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "1609AC17930BA465"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Whose fleece was....rainbow?"
+			tasks: [{
+				count: 3L
+				icon: "minecraft:white_wool"
+				id: "7F08D4E77359BF4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
+				type: "item"
+			}]
+			title: "Mary had a Little Lamb"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "18EADBAFC932F864"
+			rewards: [{
+				id: "68AA10BF3AA0408A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3A9869856B3E9D54"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It's Clippin' Time"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"We're not here to sing, we're here to start a farm."
+				""
+				"You can probably do both, but this section is all about the animals!"
+			]
+			icon: "forbidden_arcanus:edelwood_chicken_bucket"
+			id: "64E7BE89C13E8BD0"
+			rewards: [
+				{
+					id: "5B42654580B2A641"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "1B17BDD6981E6E51"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "\"Old MacDonald Had A Farm\" was actually made for an Opera show."
+			tasks: [{
+				id: "33F002BBF566E12F"
+				title: "Farm Hand"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			description: ["I don't wanna know how you got these."]
+			id: "635620A03E3505BF"
+			rewards: [
+				{
+					id: "7914440DB4E0A801"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0B497B4A001CFFC0"
+					item: "minecraft:leather"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "5824C93C84312142"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "But....Cows can't be sheared..."
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3EA883C0BB7BD38F"]
+			description: [
+				"Markets provide you with a villager than can sell you anything, if you have the right amount of emeralds."
+				""
+				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
+			]
+			id: "1F114EB0AAB86DB4"
+			rewards: [
+				{
+					id: "2A90BE5DD251767D"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "72142B51809511CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "The villager has more than one way to spawn"
+			tasks: [{
+				id: "1AFEBED0226CEBC1"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			title: "AllTheFarm7"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64E7BE89C13E8BD0"]
+			description: [
+				"The classic Lead. Use this to get animals into your farm area."
+				""
+				"This isn't the same thing found in paint."
+			]
+			id: "2E9C035EEE7E5C34"
+			rewards: [{
+				id: "04DF879E17A497AD"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Get along little doggy."
+			tasks: [{
+				id: "63282E8604721F13"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			title: "We're doing this the old fashioned way."
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["635620A03E3505BF"]
+			description: [
+				"Find a cow and Right Click it with a bucket."
+				""
+				"Seriously, why no bulls?"
+			]
+			id: "73B8A70240E6070E"
+			rewards: [
+				{
+					count: 3
+					id: "6680B692C05EDB9F"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "486994911F40FA8D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Why aren't there any bulls in the game?"
+			tasks: [{
+				id: "19A9C679111A90BC"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "Find a cow. Milk the cow. Profit."
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2E9C035EEE7E5C34"]
+			description: [
+				"Chickens will lay these naturally. I guess it's not really considered naturally..."
+				""
+				"I guess the chickens are just getting... &oEggs-ercise!!!&r."
+				""
+				":)"
+			]
+			id: "1D2EF12FD7FDD217"
+			rewards: [
+				{
+					count: 2
+					id: "75D8B76E11F272AC"
+					item: "croptopia:scrambled_eggs"
+					type: "item"
+				}
+				{
+					id: "25D2B3D4AE631792"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "or am I?"
+			tasks: [{
+				count: 3L
+				id: "46974912B1E8E78B"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			title: "I'm not gonna make an Egg pun."
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "1697CC05D08B388D"
+			rewards: [
+				{
+					id: "7A84544510F1D4EE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6ABAD303E8397549"
+					item: "croptopia:fried_chicken"
+					type: "item"
+				}
+			]
+			subtitle: "How else do you think Fried Chicken is made?"
+			tasks: [
+				{
+					count: 10L
+					id: "264B00606E5BE374"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "763031D0E9F0850C"
+					item: "minecraft:chicken"
+					type: "item"
+				}
+			]
+			title: "The Chickens Must Go"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:wooden_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "43021923E220CF68"
+			rewards: [
+				{
+					count: 2
+					id: "70556C33AE952F49"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "116FA96039FC2359"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			subtitle: "Just wait until you get machines for this."
+			tasks: [{
+				id: "78772A2785AE9DD2"
+				title: "The Planter"
+				type: "checkmark"
+			}]
+			x: -1.5749999999999997d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			id: "0A1C2A7A8617D3E4"
+			rewards: [
+				{
+					count: 2
+					id: "6EE0FD0DCE6CEEDE"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "6DB38B87B2BB0B70"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Speedrunners Love This Stuff"
+			tasks: [{
+				count: 3L
+				id: "6890EB2819D88073"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Wheat."
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "659A903F97F93BE2"
+			rewards: [
+				{
+					count: 2
+					id: "1C449D2589FD1836"
+					item: "croptopia:toast"
+					type: "item"
+				}
+				{
+					id: "382B2B8DF207F44F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Quick and Simple"
+			tasks: [{
+				count: 3L
+				id: "03C7F9CB0DDB2D9B"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			title: "The Bread of Life"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			description: [
+				"You'll find hemp seeds pretty fast."
+				""
+				"If you plant these, you can use the fiber to make string!"
+			]
+			id: "5A51E26D66D1273B"
+			rewards: [
+				{
+					count: 5
+					id: "797D1693F61CB94B"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					id: "6A184032CC7F6E17"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Who needs spiders anyway?"
+			tasks: [
+				{
+					id: "76B0E810B050B149"
+					item: "immersiveengineering:seed"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "3CAD3464D21B46B2"
+					item: "immersiveengineering:hemp_fiber"
+					type: "item"
+				}
+			]
+			title: "Hemp Seeds"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			description: ["Find some sugar cane!"]
+			id: "361DFDB1E1352D6B"
+			rewards: [
+				{
+					id: "2D2FC5CA58E15FD7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "193719E857969260"
+					item: "minecraft:sugar"
+					type: "item"
+				}
+			]
+			subtitle: "This grows to the sky now."
+			tasks: [{
+				count: 10L
+				id: "6118A776B40507B7"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Sugar Sugar."
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5A51E26D66D1273B"]
+			description: ["Use the Industrial Hemp to create string."]
+			id: "1CBEB3ABB4260CC2"
+			rewards: [
+				{
+					id: "0F2D2091EF6DF6B9"
+					item: "thermal:flax_seeds"
+					type: "item"
+				}
+				{
+					id: "3AE014AE6CF77A06"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "35864460DFF78192"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "String from Seeds!"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000015DB"]
+			description: [
+				"Let the strainer do the work for you."
+				""
+				"Will need a strainer on top as well as water."
+			]
+			id: "209F7EBAF2553694"
+			optional: true
+			rewards: [
+				{
+					id: "0B6E1DC53AE8C688"
+					item: {
+						Count: 1b
+						id: "waterstrainer:strainer_fisherman_solid"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "180E1B7467508157"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "718F49C264557FA3"
+					item: "waterstrainer:strainer_base"
+					type: "item"
+				}
+				{
+					id: "08E4C5476E141A0A"
+					item: {
+						Count: 1b
+						id: "waterstrainer:strainer_fisherman"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Auto Fishing!"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"659A903F97F93BE2"
+				"1D48298525EEADC9"
+			]
+			description: ["Time to bake a cake, if you've got some milk and eggs ready."]
+			id: "0893EFCAC7031FEA"
+			rewards: [
+				{
+					id: "2C168199050CC470"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "7F528DE479E680AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1AA73DEFAA50FDF6"
+				item: "minecraft:cake"
+				type: "item"
+			}]
+			title: "You can have your Cake and Eat it too."
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["361DFDB1E1352D6B"]
+			description: ["You should have everything you need already."]
+			id: "1D48298525EEADC9"
+			rewards: [
+				{
+					count: 3
+					id: "7EAE8BCBABAA8B89"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "04AB9DC101FCAB74"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Pour some sugar on me."
+			tasks: [{
+				count: 3L
+				id: "56CAB3D2E3421C7C"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "You so sweet."
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"These little pots can hold dirt and a sapling. Over time, the sapling will grow and can be harvested for items."
+				""
+				"It can also store upgrades that can automate the process!"
+			]
+			id: "3EE9BBAA3CC677D9"
+			rewards: [
+				{
+					id: "31596E31ACAD3F86"
+					item: "bonsaitrees3:bonsaipot"
+					type: "item"
+				}
+				{
+					id: "7FF31034CF18FECE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "TINY FARMS, HUGE OUTPUTS"
+			tasks: [{
+				id: "5799AA816722352D"
+				item: "bonsaitrees3:bonsaipot"
+				type: "item"
+			}]
+			title: "Tree Harvesting"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A78CF3396654D01"]
+			description: ["Placing an Axe or a Book with an Efficiency Enchant decreases the total growth time in the Bonsai Pot."]
+			id: "0BFBB64E405A0F41"
+			optional: true
+			rewards: [{
+				id: "67197E1F4B94A8E4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4C7C96FE727113C7"
+				title: "Efficiency Upgrade"
+				type: "checkmark"
+			}]
+			title: "Efficiency Upgrade"
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6A78CF3396654D01"]
+			description: ["Placing an Axe or a Book with a Silk Touch Enchant produces extra items on certain trees in the Bonsai Pot."]
+			id: "698A7F6155FB2701"
+			optional: true
+			rewards: [{
+				id: "2069BCF252C96FB1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "04D9023F39A3C28C"
+				title: "Silk Touch Upgrade"
+				type: "checkmark"
+			}]
+			title: "Silk Touch Upgrade"
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6A78CF3396654D01"]
+			description: ["Placing an Axe or Book with a Fortune Enchant will increase the drop chance and number of items in the loot pool."]
+			id: "6B02C78840493D86"
+			rewards: [{
+				id: "7C5DC33A2DF9BBFF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "648BD06BDD4E9FA0"
+				title: "Fortune Upgrade"
+				type: "checkmark"
+			}]
+			title: "Fortune Upgrade"
+			x: 7.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3EE9BBAA3CC677D9"]
+			description: ["Placing an Axe in the upgrade slots will auto-harvest the sapling in the Bonsai Pot."]
+			id: "6A78CF3396654D01"
+			rewards: [{
+				id: "39C18E89F20AFF2E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2765968DC1064C12"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Auto-Harvesting"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3EE9BBAA3CC677D9"]
+			description: ["Adding a Hopper to the upgrades will auto-output items into an inventory below the Bonsai Pot."]
+			id: "05AEC9254D603D3F"
+			rewards: [{
+				id: "38C4DF87A3110171"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "38029100E1D9BF3F"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			title: "Auto-Output Upgrade"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3EE9BBAA3CC677D9"]
+			description: ["Placing a Beehive in the Bonsai Pot will allow the saplings to produce Fruit."]
+			id: "51D678DB7193FB2E"
+			rewards: [
+				{
+					count: 2
+					id: "45880BD8C223F87B"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "23A80E239D7FC6E1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "3B13E9F87DA783F2"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "Fruit Upgrade"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &bCutting Board&r and &bKnife&r are the basic tools for preparing more advanced food items."
+				""
+				"Slice down plants and meats into more delicate cuts to make better foods."
+			]
+			icon: {
+				Count: 1b
+				id: "farmersdelight:flint_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4B2D10549BFDBAA8"
+			rewards: [
+				{
+					id: "4ADD02847D387A89"
+					item: "farmersdelight:cutting_board"
+					type: "item"
+				}
+				{
+					id: "0C81C3335E39F505"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Knives Out!"
+			tasks: [{
+				id: "5A063EEC779EFCA6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "farmersdelight:tools/knives"
+					}
+				}
+				title: "Any #farmersdelight:tools/knives"
+				type: "item"
+			}]
+			title: "Chop Chop"
+			x: 8.005952380952365d
+			y: 11.0d
+		}
+		{
+			description: ["&bShears&r are useful for harvesting Grass and Leaves, which can be put to use in the Composter or the Sifter."]
+			icon: {
+				Count: 1b
+				id: "cyclic:shears_flint"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "12CA64E217BE66C5"
+			rewards: [
+				{
+					count: 4
+					id: "3E0D90A3ADF4A0F4"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "17DE902BF595E8E6"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+			]
+			subtitle: "Shears for food and fun"
+			tasks: [{
+				id: "7AE03AE4335F69ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:shears_flint"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:shears"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Shears"
+				type: "item"
+			}]
+			x: 7.005952380952365d
+			y: 8.5d
+		}
+		{
+			description: [
+				"There doesn't seem to be any animals nearby, nor anywhere for them to spawn. You should probably &6give them somewhere to&r."
+				""
+				"Animals can spawn on &6grass that can see daylight&r, if it's &6at least 24 blocks away&r. Where do they come from? Who knows!"
+				""
+				"[\"\",\"There's also an \",{\"text\":\"event\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4E44C546CAEDD703\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Events quest\"]}},\" that can randomly force a mob to spawn on nearby well-lit grass.\"]"
+				""
+				"Finally, you can use the &eSpirits&r mod to force specific mobs to spawn."
+			]
+			icon: "statues:pig_statue"
+			id: "48C01F1AF6F0E6C3"
+			min_width: 275
+			rewards: [
+				{
+					count: 2
+					id: "2C2ABFC4B3694A11"
+					item: "energeticsheep:energetic_sheep_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "77AF021733FA085E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								bane: 0
+								bleed: 0
+								camo: 0b
+								ender: 0b
+								force: 0
+								freezing: 0b
+								heat: 0b
+								light: 0b
+								luck: 0
+								lumber: 0b
+								rainbow: 0b
+								sharp: 0
+								sight: 0b
+								silk: 0b
+								speed: 0
+								sturdy: 0
+								treasure: 0b
+								wing: 0b
+							}
+						}
+						id: "forcecraft:force_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Animal farm"
+			tasks: [
+				{
+					icon: "statues:pig_statue"
+					id: "544F43C465758EAE"
+					observe_type: 5
+					timer: 0L
+					title: "Look at a Pig"
+					to_observe: "minecraft:pig"
+					type: "observation"
+				}
+				{
+					icon: "statues:cow_statue"
+					id: "58BA2CDE23C90AFC"
+					observe_type: 5
+					timer: 0L
+					title: "Look at a cow"
+					to_observe: "minecraft:cow"
+					type: "observation"
+				}
+				{
+					icon: "statues:sheep_statue_white"
+					id: "39EEF41EFDA8452C"
+					observe_type: 5
+					timer: 0L
+					title: "Look at a sheep"
+					to_observe: "minecraft:sheep"
+					type: "observation"
+				}
+			]
+			title: "E I E I O"
+			x: 5.505952380952365d
+			y: 9.5d
+		}
+		{
+			description: [
+				"You can fairly easily craft a rudimentary &bBeehive&r, which is alright for housing whatever Bees you can attract."
+				""
+				"It's a good idea to upgrade it into an &6Advanced Beehive&r, which can be harvested without angering its tenants."
+				""
+				"You can &6lure and breed Bees&r from events using Poppies!"
+			]
+			id: "3077F6F55816FCCB"
+			rewards: [
+				{
+					id: "6397B2C5F3DDADAD"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "284B7A38712B42E3"
+					item: "minecraft:oak_planks"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CC61B1F8BE5A5F8"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					id: "47FB662AF2C95714"
+					item: "productivebees:expansion_box_oak"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "Buzzin and Beeing"
+			tasks: [{
+				id: "5D7D5ADE212057A1"
+				item: "minecraft:beehive"
+				type: "item"
+			}]
+			title: "Busy Busy Bees"
+			x: 5.5d
+			y: 11.130952380952365d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"&bRice&r is grown by &6using Rice on Dirt with one Water source on top&r."
+				""
+				"Once the rice is fully grown, right-click it with a &6Knife&r to harvest!"
+			]
+			id: "294B5757C4FB3B96"
+			rewards: [
+				{
+					id: "3A274F30E9D6CAFC"
+					item: "farmersdelight:cooked_rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "585B9CEE616B6245"
+					item: "farmersdelight:rice"
+					type: "item"
+				}
+			]
+			subtitle: "But where are the seeds?"
+			tasks: [{
+				id: "15D8168B12DC1C15"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			title: "Rice is Nice!"
+			x: 7.505952380952365d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"The basic &bBurger Patty&r is a good starting point for using the Cutting Board. Eat as wide a variety as possible to get more hearts!"
+				""
+				"The &6Lunchbox&r allows you to &6carry a variety of food&r. You can eat directly from it, rather than cluttering your inventory."
+			]
+			id: "5DB55A645B23E187"
+			rewards: [{
+				id: "759569287AEFC446"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 7
+						}
+					}
+					id: "cyclic:lunchbox"
+					tag: {
+						count_empty: 7
+						count_max: 7
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5CBA0EA80DEE7815"
+				item: "farmersdelight:minced_beef"
+				type: "item"
+			}]
+			x: 8.505952380952365d
+			y: 12.0d
+		}
+		{
+			dependencies: ["12CA64E217BE66C5"]
+			description: ["You can shear Sheep for &bWool&r, which is useful for several recipes."]
+			icon: "minecraft:pink_wool"
+			id: "13635FDBEE715232"
+			rewards: [
+				{
+					count: 16
+					id: "385B8FEED466E3F6"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					id: "5E1AD4EFD8AED458"
+					item: "farmersdelight:mutton_wrap"
+					type: "item"
+				}
+			]
+			subtitle: "Favorable Floof"
+			tasks: [{
+				id: "0F1DD696BC6E47C3"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:wool"
+					}
+				}
+				title: "Wool"
+				type: "item"
+			}]
+			x: 8.505952380952365d
+			y: 8.5d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: ["The &bMarket&r will allow you to &6buy most seeds&r."]
+			id: "7E0D03CC88893072"
+			rewards: [
+				{
+					id: "472493B96E653358"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "1D97E72A35C68116"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "This little piggie..."
+			tasks: [{
+				id: "44720097257BDE5F"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 10.005952380952365d
+			y: 8.5d
+		}
+		{
+			description: [
+				"Working the land by hoeing Dirt near Water will create Farmland for crops."
+				""
+				"You can use Bone Meal (or equivalents) to speed the process up. It may be worth looking in to automating farms as well."
+				""
+				"For more information, see the Create, Industrial Foregoing, and Thermal Expansion chapters."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3DF1A7356E7509D8"
+			rewards: [
+				{
+					count: 16
+					id: "009DB0D8EBFB94F0"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0EFCC380B752E793"
+					item: "thermal:phytogro"
+					type: "item"
+				}
+				{
+					id: "4CDE0185F4CD22C3"
+					item: "hexerei:flowering_lily_pad"
+					type: "item"
+				}
+			]
+			subtitle: "Don't waste diamonds on..."
+			tasks: [{
+				id: "0522B00F831B9099"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools/hoes"
+					}
+				}
+				title: "Hoes"
+				type: "item"
+			}]
+			x: 11.505952380952365d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3DF1A7356E7509D8"]
+			description: [
+				"&bWheat&r is one of the most versatile crops. From Bread to Cakes, it's a staple."
+				""
+				"Expand your farm from here with a variety of different crops."
+			]
+			id: "4FEA5AEC781ED77B"
+			rewards: [
+				{
+					id: "4C9B2D147EDDB47E"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3073414003A537B0"
+					item: "minecraft:egg"
+					type: "item"
+				}
+			]
+			subtitle: "Let it grow, let it Growwww"
+			tasks: [{
+				id: "3781DE5AD2729E50"
+				item: "minecraft:wheat"
+				title: "Crops"
+				type: "item"
+			}]
+			title: "Wheat and other crops"
+			x: 13.005952380952365d
+			y: 8.5d
+		}
+		{
+			dependencies: ["50EFB401A48753F2"]
+			description: ["The &bStove&r is an improved &6Campfire&r, as it can cook &66 foods&r at once instead of 4."]
+			id: "5F7BEBA1F135CBB0"
+			rewards: [
+				{
+					id: "5C8112DC5D3E915A"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "55C3FE8EF69AC594"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Stove"
+			tasks: [{
+				id: "5A0E19B8EE53EC6E"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 11.505952380952365d
+			y: 10.0d
+		}
+		{
+			dependencies: ["50EFB401A48753F2"]
+			description: ["The &bCooking Pot&r is a unique cooking appliance that allows you to &6make several new recipes&r, like Soups, Stews, and Roasts!"]
+			id: "69DDC6F0AACEB07F"
+			rewards: [
+				{
+					id: "2BD166C023C2A31E"
+					item: {
+						Count: 1b
+						id: "farmersdelight:skillet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "445350D784A282F6"
+					item: "farmersdelight:raw_pasta"
+					type: "item"
+				}
+				{
+					id: "17EE31F0DF3F386D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Cooking Pot"
+			tasks: [{
+				id: "1362616DF5A0E4B6"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 13.005952380952365d
+			y: 10.0d
+		}
+		{
+			description: [
+				"A &6diverse diet&r will &bgrant you bonus hearts&r! Use the &6Food Book&r to keep track of what foods you've eaten, and how many you have left until your next heart."
+				""
+				"In addition, some of the higher tier foods will &6grant you buffs&r when eaten!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "4B4D41B1C4E9E331"
+			rewards: [
+				{
+					id: "275F7F104E6F527A"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "1253D2CA672AD609"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "Not to be confused with Master Chief"
+			tasks: [
+				{
+					id: "042FE5357EA5F540"
+					title: "Master Chef"
+					type: "checkmark"
+				}
+				{
+					id: "3455DC5854CECDAA"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+			]
+			title: "Master Chef"
+			x: 10.005952380952365d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"Cutting down Pork Chops will make &bBacon&r, which many consider the best cut of meat. Others may not, but they're wrong."
+				""
+				"Note: You can also obtain Bacon by using &6Force Shears&r on a pig, but do so at your own risk."
+			]
+			id: "120112D868F06CF4"
+			rewards: [
+				{
+					id: "0F7AED7252FEA2F1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "556FCF5E7877938D"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+			]
+			subtitle: "And I'll put it in a pancake"
+			tasks: [{
+				id: "536A65A25A8B4208"
+				item: "farmersdelight:bacon"
+				type: "item"
+			}]
+			title: "Makin Bacon"
+			x: 9.005952380952365d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["Raw Chicken can be sliced into &bChicken Cuts&r, and the Eggs can be collected and used for even more options."]
+			id: "5F344CD63CE4DBC6"
+			rewards: [
+				{
+					id: "2412B02642EDB0EA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "72AB6160DBA97098"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "46E686FD405EF175"
+					item: "farmingforblockheads:chicken_nest"
+					type: "item"
+				}
+			]
+			subtitle: "Chicken Nuggies"
+			tasks: [{
+				id: "4B7D97227BA07791"
+				item: "farmersdelight:chicken_cuts"
+				type: "item"
+			}]
+			x: 7.505952380952365d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: ["Raw Fish can be sliced down to more useful cuts to make a nice alternative source of meat."]
+			icon: "farmersdelight:salmon_slice"
+			id: "75A4AEB8D85EB1FE"
+			rewards: [
+				{
+					id: "435BDEFB1C477C3D"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+				{
+					id: "019798C076B7EF9D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "That's what Sashimi Said"
+			tasks: [{
+				id: "70F7293855D49C4A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:salmon_slice"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:cod_slice"
+							}
+						]
+					}
+				}
+				title: "Fish Slices"
+				type: "item"
+			}]
+			x: 8.505952380952365d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4B2D10549BFDBAA8"]
+			description: [
+				"Sheep provide a nice source of &bMutton&r as well as Wool."
+				""
+				"It can be broken down further on the Cutting Board to make some gourmet meals!"
+			]
+			id: "6ABC2056CD5C7149"
+			rewards: [
+				{
+					id: "139EDB0D82C75B38"
+					item: "farmersdelight:cooked_mutton_chops"
+					type: "item"
+				}
+				{
+					id: "460AA4395485E336"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "A Mutton for Punishment"
+			tasks: [{
+				id: "234C3AD8C56144EA"
+				item: "farmersdelight:mutton_chops"
+				type: "item"
+			}]
+			x: 7.005952380952365d
+			y: 11.0d
+		}
+		{
+			dependencies: ["13635FDBEE715232"]
+			description: [
+				"&bBeds&r will allow you to set your spawn, in addition to passing the night into day."
+				""
+				"The &6Rain Shield&r provided by the quest reward will &6completely disable rain&r around it, for those who hate a nice rainy afternoon."
+			]
+			icon: "minecraft:red_bed"
+			id: "171711B42DD99511"
+			rewards: [
+				{
+					id: "5E77A0CB3F1AC595"
+					item: "rainshield:rain_shield"
+					type: "item"
+				}
+				{
+					id: "0D1DA3A70D577088"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "What dreams may come"
+			tasks: [{
+				id: "7CBCB6F326179DBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Beds"
+				type: "item"
+			}]
+			title: "For in this sleep..."
+			x: 8.505952380952365d
+			y: 7.0d
+		}
+		{
+			hide: true
+			id: "0DC385FAC6B8F5B0"
+			tasks: [{
+				id: "728BFFBE8B4B23E5"
+				item: "croptosis:potash"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 14.0d
+		}
+		{
+			hide: true
+			id: "6F7798F6D4D94BE8"
+			tasks: [{
+				id: "0B8009A06ECBFB69"
+				item: "croptosis:rotten_pile"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			hide: true
+			id: "2695E596732FC2A4"
+			tasks: [{
+				id: "05BC5CBA1DBA80CD"
+				item: "croptosis:feather_meal"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			hide: true
+			id: "17E6C123D3D65800"
+			tasks: [{
+				id: "6B58E7B5727C7474"
+				item: "croptosis:iron_watering_can"
+				type: "item"
+			}]
+			x: -0.3000000000000078d
+			y: 12.700000000000001d
+		}
+		{
+			dependencies: ["17E6C123D3D65800"]
+			id: "4A772B99CD435285"
+			tasks: [{
+				id: "1B1D1DA9554C9268"
+				item: "croptosis:gold_watering_can"
+				type: "item"
+			}]
+			x: -0.8000000000000043d
+			y: 11.200000000000001d
+		}
+		{
+			dependencies: ["4A772B99CD435285"]
+			id: "2BF9CB319CF8BF36"
+			tasks: [{
+				id: "082F5B0CAE531489"
+				item: "croptosis:diamond_watering_can"
+				type: "item"
+			}]
+			x: -1.3000000000000043d
+			y: 12.700000000000001d
+		}
+		{
+			dependencies: ["2BF9CB319CF8BF36"]
+			id: "25B54342BD246BAE"
+			tasks: [{
+				id: "2026A4E3B185A04B"
+				item: "croptosis:netherite_watering_can"
+				type: "item"
+			}]
+			x: -1.8000000000000043d
+			y: 11.200000000000001d
+		}
+		{
+			dependencies: ["40B43AE849F4B6EA"]
+			id: "15D31BA45964DF32"
+			tasks: [{
+				id: "6C00C6BE0CE36AC7"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:netherite_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.799999999999988d
+			y: 11.200000000000006d
+		}
+		{
+			dependencies: ["0C313E3A7BD39CC3"]
+			id: "40B43AE849F4B6EA"
+			tasks: [{
+				id: "7AD0C972C5041CA2"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:diamond_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.299999999999988d
+			y: 12.7d
+		}
+		{
+			dependencies: ["590595B265F4BBC2"]
+			id: "0C313E3A7BD39CC3"
+			tasks: [{
+				id: "641E09414BCDEA0E"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:golden_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.799999999999988d
+			y: 11.200000000000006d
+		}
+		{
+			dependencies: ["5327C8A1B77BC42F"]
+			id: "590595B265F4BBC2"
+			tasks: [{
+				id: "4DA2E87C427E686B"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:iron_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.299999999999988d
+			y: 12.7d
+		}
+		{
+			dependencies: ["4AFE073305AB7539"]
+			id: "5327C8A1B77BC42F"
+			tasks: [{
+				id: "29C8F6E210EEDD00"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:stone_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.799999999999988d
+			y: 11.200000000000006d
+		}
+		{
+			hide: true
+			id: "4AFE073305AB7539"
+			tasks: [{
+				id: "68D2F593E4A541E3"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:wooden_scythe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.299999999999988d
+			y: 12.7d
+		}
+		{
+			dependencies: ["7FF61367595091CA"]
+			id: "1240974B59EE05EF"
+			tasks: [{
+				id: "75FF7EF214B9B95B"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:netherite_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.799999999999992d
+			y: 11.200000000000001d
+		}
+		{
+			dependencies: ["7CA94100ECEE3B1B"]
+			id: "7FF61367595091CA"
+			tasks: [{
+				id: "61D8A24EA147D9DB"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:diamond_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.299999999999992d
+			y: 12.7d
+		}
+		{
+			dependencies: ["79BDA08AE89153F2"]
+			id: "7CA94100ECEE3B1B"
+			tasks: [{
+				id: "6C96650FEF8C9EB0"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:golden_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.799999999999997d
+			y: 11.200000000000001d
+		}
+		{
+			dependencies: ["46C7DC757481F1C2"]
+			id: "79BDA08AE89153F2"
+			tasks: [{
+				id: "7EB572A51819CDBA"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.2999999999999936d
+			y: 12.7d
+		}
+		{
+			dependencies: ["52E7C9D432952332"]
+			id: "46C7DC757481F1C2"
+			tasks: [{
+				id: "35F24B8CB0943B02"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:stone_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.7999999999999936d
+			y: 11.200000000000001d
+		}
+		{
+			hide: true
+			id: "52E7C9D432952332"
+			tasks: [{
+				id: "1AB0DA8DB3EB5A07"
+				item: {
+					Count: 1b
+					id: "harvest_scythes:wooden_machete"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.2999999999999936d
+			y: 12.7d
+		}
+		{
+			hide: true
+			id: "7905BFCF3A5CCFE2"
+			tasks: [{
+				id: "12D60F49F580A1D7"
+				item: "croparia:elematilius"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7905BFCF3A5CCFE2"]
+			id: "2718B4748C4B0497"
+			tasks: [{
+				id: "18D9AC1030F785B5"
+				item: "croparia:croparia"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2718B4748C4B0497"]
+			id: "2D7B577ACE6802B5"
+			tasks: [{
+				id: "35829137CA805716"
+				item: "croparia:croparia2"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2D7B577ACE6802B5"]
+			id: "715CB2C2F1F476E3"
+			tasks: [{
+				id: "65CF175C74850605"
+				item: "croparia:croparia3"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["715CB2C2F1F476E3"]
+			id: "265CE4F5E0D54A5A"
+			tasks: [{
+				id: "37792C55554185F7"
+				item: "croparia:croparia4"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["265CE4F5E0D54A5A"]
+			id: "4793A3243BEE2DC1"
+			tasks: [{
+				id: "6A266B4C6D061610"
+				item: "croparia:croparia5"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4793A3243BEE2DC1"]
+			id: "5E1047740C47EB2E"
+			tasks: [{
+				id: "0EF636969C9C4D9E"
+				item: "croparia:croparia6"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E1047740C47EB2E"]
+			id: "744FACC49E18CADA"
+			tasks: [{
+				id: "1A1BCDB329B17B28"
+				item: "croparia:croparia7"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7905BFCF3A5CCFE2"]
+			id: "225D73794EF218A0"
+			tasks: [{
+				id: "4E20E08BA1936082"
+				item: "plantinajar:plant_jar"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7905BFCF3A5CCFE2"]
+			id: "2CCCC00DC2A05F33"
+			tasks: [{
+				id: "4A6DCC7E2BBE33AB"
+				item: "botanypots:white_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2CCCC00DC2A05F33"]
+			id: "2D181DEFA4351C41"
+			tasks: [{
+				id: "43181C720515A344"
+				item: "botanypots:white_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2CCCC00DC2A05F33"]
+			id: "46A7B168CF6B4A3A"
+			tasks: [{
+				id: "31DFDE70BDE2A380"
+				item: "botanypotstiers:elite_white_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["054075E51CCA480C"]
+			id: "5BEB7814CC735E95"
+			tasks: [{
+				id: "76426837626616AC"
+				item: "botanypotstiers:ultra_white_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3D287EA0D2F96D05"]
+			id: "5717447FFF91ACFB"
+			tasks: [{
+				id: "7C582A4A993E12C9"
+				item: "botanypotstiers:creative_white_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2D181DEFA4351C41"]
+			id: "054075E51CCA480C"
+			tasks: [{
+				id: "1F3FCD86FD507A23"
+				item: "botanypotstiers:elite_white_terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["46A7B168CF6B4A3A"]
+			id: "3D287EA0D2F96D05"
+			tasks: [{
+				id: "37BD18C6E4A668BC"
+				item: "botanypotstiers:ultra_white_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5BEB7814CC735E95"]
+			id: "6EDD76EE8BD945B2"
+			tasks: [{
+				id: "34AC88FE5AB46CAE"
+				item: "botanypotstiers:creative_white_terracotta_botany_pot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			id: "5B803C332D0E88E8"
+			rewards: [{
+				id: "5E35F94DE3A702F8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "346AF1543438BA37"
+				item: "croptosis:iron_watering_can"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5B803C332D0E88E8"]
+			id: "0E6CA30A3A1E9C0E"
+			rewards: [{
+				id: "2F9087623B7FE099"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BC037866A5AC9C0"
+				item: "croptosis:gold_watering_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0E6CA30A3A1E9C0E"]
+			id: "21767F1AC3ADE57C"
+			rewards: [{
+				id: "67780DE6932FEC07"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "002F12D8ABAF5E60"
+				item: "croptosis:diamond_watering_can"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["21767F1AC3ADE57C"]
+			id: "6A00700C50BAC492"
+			rewards: [{
+				id: "7E5EFBAB647DBE6B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AEAC9DFBE07D472"
+				item: "croptosis:netherite_watering_can"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["68213B32C7BFE139"]
+			id: "4F297154AC9975DE"
+			rewards: [{
+				id: "30B43FEE57C05A9D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Complete Kitchen Basics to unlock."
+			tasks: [{
+				id: "04801BAC52C4D589"
+				title: "Chocolatier"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "44D61369427B7CBF"
+			rewards: [{
+				id: "2093038894F551F3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BD84ECACCA0532F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Make one of the following chocolates"
+				type: "item"
+			}]
+			title: "Chocolates"
+			x: -4.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "462400176C496619"
+			rewards: [{
+				id: "0333FB9EBB3237EE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "718A6342D32D08B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:caramel_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:caramel_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:caramel_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Make one of the following caramel chocolates."
+				type: "item"
+			}]
+			title: "Caramel Chocolates"
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "6E695CDB88595C14"
+			rewards: [{
+				id: "20F15010745679E8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41951260044C57ED"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:praline_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:praline_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:praline_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "One of the following praline chocolates please."
+				type: "item"
+			}]
+			title: "Praline Chocolates"
+			x: -2.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "499F0B9E154906D1"
+			rewards: [{
+				id: "3BCA4387814BA155"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4877A20E85423EB9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:strawberry_cream_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:strawberry_cream_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:strawberry_cream_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Strawberry Cream Chocolates"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "386E6C390DCA4396"
+			rewards: [{
+				id: "1EF482C0A6C4B8CC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E4BF8959E4A3E10"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:cookie_cream_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:cookie_cream_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:cookie_cream_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Cookies and Cream Chocolates"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "7CCC7BD0E8ED4CD9"
+			rewards: [{
+				id: "1FF3C2D7752B7662"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E94C45C84C6B669"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:mixed_nuts_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:mixed_nuts_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:mixed_nuts_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Mixed Nuts Chocolates"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "10991316EBAA848B"
+			rewards: [{
+				id: "4F3E113CA3A466C1"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7AB2C45EA0AEEC7D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:coconut_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:coconut_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:coconut_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Coconut Chocolates"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "2B615789D96C0145"
+			rewards: [{
+				id: "0DBFC36CE7B13890"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4864F7EAE005ED98"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:peanut_butter_dark_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:peanut_butter_milk_chocolate"
+							}
+							{
+								Count: 1b
+								id: "cacao:peanut_butter_white_chocolate"
+							}
+						]
+					}
+				}
+				title: "Peanutbutter Chocolates"
+				type: "item"
+			}]
+			title: "Peanut Butter Chocolates"
+			x: -4.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["4F297154AC9975DE"]
+			id: "6B74004F5A77C4CA"
+			rewards: [{
+				id: "459AB8D8AEBC6F8A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42763C68172B38A8"
+				item: "cacao:golden_chocolate"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 20.0d
+		}
+		{
+			dependencies: ["14232EC9A68EA81F"]
+			id: "45365D50305561ED"
+			rewards: [{
+				id: "596E57E6AB93902C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "148B208FE981E8FD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cacao:dark_chocolate_covered_apple"
+							}
+							{
+								Count: 1b
+								id: "cacao:milk_chocolate_covered_apple"
+							}
+							{
+								Count: 1b
+								id: "cacao:white_chocolate_covered_apple"
+							}
+						]
+					}
+				}
+				title: "Chocolate covered Apples"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4F297154AC9975DE"]
+			id: "2DD7C5E31A20DCA8"
+			rewards: [{
+				id: "5C8637E10C28A949"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7135D82B25C19185"
+				item: "croptopia:chocolate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["4F297154AC9975DE"]
+			id: "14232EC9A68EA81F"
+			rewards: [{
+				id: "5413D1D085F10221"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "69224B57D6B12ED6"
+				item: "cacao:silicon_mold"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["4F297154AC9975DE"]
+			id: "766ED2D94E9B68D8"
+			rewards: [{
+				id: "5C67CB1649452A41"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "45FBB667A3A59DDA"
+				item: "cacao:manual_food_grinder"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["766ED2D94E9B68D8"]
+			id: "6F7C48824D22FD8A"
+			rewards: [{
+				id: "67138E52B3CE8986"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2AEDEFDACE573297"
+				item: "cacao:filter_cloth"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["69A2425C77C5ED94"]
+			id: "0C7E4C11315D4E3E"
+			rewards: [{
+				id: "1609312D3674F6C2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AFC17ADC90E9960"
+				item: "cacao:cacao_nibs"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6F7C48824D22FD8A"]
+			id: "69A2425C77C5ED94"
+			rewards: [{
+				id: "7AA0EF4A758AEB57"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1A6FAEB9E7262A9D"
+				item: "cacao:cacao_mass_bucket"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0C7E4C11315D4E3E"]
+			id: "22108D5335DFF265"
+			rewards: [{
+				id: "378CFBA5507E1C83"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D3530B0991FE312"
+				item: "cacao:cacao_mass_bottle"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["22108D5335DFF265"]
+			id: "6F95909ACAEC0CDE"
+			rewards: [{
+				id: "7E97497E8A79BAD0"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4C892E2A6DB0EB17"
+				item: "cacao:cacao_butter_bottle"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6B74004F5A77C4CA"]
+			id: "4F5F490A5E0B0342"
+			rewards: [{
+				id: "5E7F1D69E0DF320E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Some would say nutella is better than gold."
+			tasks: [{
+				id: "1C9BDC7F43E09D84"
+				item: "cacao:nutella"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 20.5d
+		}
+		{
+			id: "410FB4729B618584"
+			rewards: [{
+				id: "618D3D6691206E76"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Create your very own wine and cider at home."
+			tasks: [{
+				id: "184E3808D9E7B770"
+				title: "Vinery"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["410FB4729B618584"]
+			description: [
+				"If you cant find any a &6Wandering Winemaker&r will make visit from time to time maybe offering some seeds."
+				""
+				"&bSeeds&r can also rarely be found by cutting grass or in villages."
+			]
+			id: "47A3FB7F90B01FAA"
+			rewards: [{
+				id: "39B15E6ADF8048C5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gather your first grapes and grape seeds."
+			tasks: [{
+				id: "571400BC3D2B2843"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "vinery:grape"
+					}
+				}
+				type: "item"
+			}]
+			title: "Grapes"
+			x: 5.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["47A3FB7F90B01FAA"]
+			description: ["After harvesting your first &bGrapes&r can either just eat them or put them into a &bPot &rand crush them by &6jumping and walking&r around in it."]
+			id: "4FD91B87D0A73D36"
+			rewards: [{
+				id: "015B409E79788FFA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "May the crushin begin!"
+			tasks: [{
+				id: "195A16F63D6287F5"
+				item: "vinery:grapevine_pot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4FD91B87D0A73D36"]
+			id: "08F9B4F3EAB3658D"
+			rewards: [{
+				id: "16F45EFDF4D46042"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Extract the Grapejuice from the Pot."
+			tasks: [
+				{
+					id: "595D01274BCBD948"
+					item: {
+						Count: 1b
+						id: "vinery:red_grapejuice_wine_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "00885C009B1D916D"
+					item: {
+						Count: 1b
+						id: "vinery:white_grapejuice_wine_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Grapejuices"
+			x: 4.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["410FB4729B618584"]
+			description: [
+				"Filled &bWinebottles&r can be &6refined&r in a &bBarrel&r by using extra ingredients such as &bSweetberries&r, &bHoney&r and so on."
+				""
+				"Different sort of &bGrapejuice&r and ingredients result in different kinds of &bWines&r."
+			]
+			id: "2D36A0323AAF2D5C"
+			rewards: [{
+				id: "4CF06BD12C69CFE5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Used to age Grapejuice into Wine or Aples into Cider."
+			tasks: [{
+				id: "0897663BE35E577E"
+				item: "vinery:fermentation_barrel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["295F800520044C23"]
+			id: "498C5FC0C852D17C"
+			rewards: [{
+				id: "33D0674025ABA22F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Squish apples by using the press to get Mashed Apples."
+			tasks: [{
+				id: "69499CE180432F93"
+				item: "vinery:wine_press"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["410FB4729B618584"]
+			id: "295F800520044C23"
+			rewards: [{
+				id: "27CC833E19FF9978"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Pies, creates, cider and - of course - apple wine!"
+			tasks: [{
+				id: "2B966C9D0BF8B246"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			title: "Apples"
+			x: 8.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["498C5FC0C852D17C"]
+			id: "172968A234803DC0"
+			rewards: [{
+				id: "00920E1F9D0B5D73"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Made from Apple Mash."
+			tasks: [{
+				id: "609C60FEADFD6712"
+				item: {
+					Count: 1b
+					id: "vinery:apple_juice"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "0F7B54CE6A27E6FF"
+			rewards: [{
+				id: "0D3AC740173DD4FE"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "47437B5E4D0958EF"
+				item: {
+					Count: 1b
+					id: "vinery:apple_cider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "5E8F972A09F7B8F6"
+			rewards: [{
+				id: "2F98A318A47FB772"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E418BC433AB35DF"
+				item: {
+					Count: 1b
+					id: "vinery:kelp_cider"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "0D5810103EDA7183"
+			rewards: [{
+				id: "524DACC864A900C4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6BCB473539F52F6D"
+				item: {
+					Count: 1b
+					id: "vinery:apple_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "44FD73D3FCC38DBD"
+			rewards: [{
+				id: "7EACD7C6CB1C236B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADE29333EF060C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:chenet_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:king_danis_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:noir_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:bolvar_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:cherry_wine"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Red Wine"
+			x: 4.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "6F43ADF8FE22159E"
+			rewards: [{
+				id: "4AF40489D0BE14B5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "58C0D976214B2EC3"
+				item: {
+					Count: 1b
+					id: "vinery:jellie_wine"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["2D36A0323AAF2D5C"]
+			id: "1F0EB09B3C1F1249"
+			rewards: [{
+				id: "4C74A54C13751E10"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6064AB5B922ACC53"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:clark_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:mellohi_wine"
+							}
+							{
+								Count: 1b
+								id: "vinery:solaris_wine"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "White Wine"
+			x: 6.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["410FB4729B618584"]
+			id: "0665112D8E104BBB"
+			rewards: [{
+				id: "58A90EC9B4F615AC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Make your favorite wine of choice a decor."
+			tasks: [{
+				id: "61D6C29FA3CCD689"
+				item: "vinery:wine_box"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 18.5d
+		}
+		{
+			dependencies: ["410FB4729B618584"]
+			id: "479D2D1966C75C85"
+			rewards: [{
+				id: "4AAB3900BBFEAEE8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Storage for Wine Bottles."
+			tasks: [{
+				id: "30F2CD3AE7937413"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "vinery:wine_rack_1"
+							}
+							{
+								Count: 1b
+								id: "vinery:wine_rack_2"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Wine Bottle Storage"
+			x: 8.0d
+			y: 18.5d
+		}
+	]
+	title: "Food and Farming"
+}

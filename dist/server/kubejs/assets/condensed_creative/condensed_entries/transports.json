@@ -1,0 +1,12 @@
+{
+  "transportation": {
+    "condensed_creative:boats": {
+      "base_item": "minecraft:oak_boat",
+      "item_tag": "minecraft:boats"
+    },
+    "condensed_creative:rails": {
+      "base_item": "minecraft:rail",
+      "block_tag": "minecraft:rails"
+    }
+  }
+}

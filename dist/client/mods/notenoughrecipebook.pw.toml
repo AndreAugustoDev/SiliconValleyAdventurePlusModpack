@@ -1,0 +1,13 @@
+name = "Not Enough Recipe Book [NERB]"
+filename = "nerb-1.19.2-0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "abb2c137078ff7f532aaa9522b231f14ec4dd305"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4205715
+project-id = 738663

@@ -1,0 +1,36 @@
+{
+  "building_blocks": {
+    "condensed_creative:quark_vertical_slabs": {
+      "base_item": "quark:oak_vertical_slab",
+      "block_tag": "quark:vertical_slabs"
+    }
+  },
+  "misc": {
+    "condensed_creative:quark_runes": {
+      "base_item": "quark:blank_rune",
+      "item_tag": "quark:runes"
+    },
+    "condensed_creative:quark_shards": {
+      "base_item": "quark:clear_shard",
+      "item_tag": "quark:shards"
+    }
+  },
+  "decorations": {
+    "condensed_creative:quark_hedges": {
+      "base_item": "quark:oak_hedge",
+      "item_tag": "quark:hedges"
+    },
+    "condensed_creative:quark_hollow_logs": {
+      "base_item": "quark:hollow_oak_log",
+      "item_tag": "quark:hollow_logs"
+    },
+    "condensed_creative:quark_posts": {
+      "base_item": "quark:oak_post",
+      "item_tag": "quark:posts"
+    },
+    "condensed_creative:quark_stools": {
+      "base_item": "quark:white_stool",
+      "item_tag": "quark:stools"
+    }
+  }
+}

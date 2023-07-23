@@ -1,0 +1,3572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "farmers_delight"
+	group: "6614EE2378B8AFB9"
+	icon: "farmersdelight:stove"
+	id: "00000000000000C2"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 2.0d
+		hover: [ ]
+		image: "farmersdelight:textures/block/cutting_board.png"
+		rotation: -90.0d
+		width: 2.0d
+		x: -1.0d
+		y: 4.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["731B6ECB5FED58CF"]
+			description: [
+				"This will allow you to start creating a number of drinks. By right clicking on this with a variety of grown products the process can begin."
+				"The brewing barrel will bubble while working, but when this stops right clicking with an empty glass bottle will give you your new treat."
+				"The following quests give you some drinks to try."
+				""
+				"Specific alcohol beverages will grant unique effects when consumed. However, when consumed too much, a random negative effect will be placed on the player."
+				"Potential random negative effects: Weakness, Blindness, Wither, Mining fatigue, Hunger, Poison, Unluck"
+			]
+			id: "00000000000001B9"
+			rewards: [
+				{
+					id: "000000000000040C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "000000000000040D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "00000000000001BA"
+				item: "simplefarming:brewing_barrel"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001BB"
+			rewards: [
+				{
+					id: "00000000000003FC"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "68B34D55E6E75060"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001BC"
+				item: "simplefarming:barley"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000001BB"]
+			id: "00000000000001BD"
+			rewards: [
+				{
+					id: "00000000000003F7"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "233ED617B2FA58D4"
+					type: "custom"
+				}
+			]
+			subtitle: "Strength"
+			tasks: [{
+				id: "00000000000001BE"
+				item: "simplefarming:beer"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001BF"
+			rewards: [
+				{
+					id: "000000000000040B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "30322CC603C27CD5"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001C0"
+				item: "simplefarming:cassava"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000001BF"]
+			id: "00000000000001C1"
+			rewards: [
+				{
+					id: "5A72F4DCC1761C50"
+					item: "minecraft:sea_pickle"
+					type: "item"
+				}
+				{
+					id: "4C44CECD136F90F8"
+					type: "custom"
+				}
+			]
+			subtitle: "Jump boost"
+			tasks: [{
+				id: "00000000000001C2"
+				item: "simplefarming:cauim"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001C3"
+			rewards: [
+				{
+					id: "0000000000000407"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7FF9387CB736DCAA"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001C4"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000001C3"]
+			id: "00000000000001C5"
+			rewards: [
+				{
+					count: 3
+					id: "171A49598587C569"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "1CE310888A9B2756"
+					type: "custom"
+				}
+			]
+			subtitle: "Luck"
+			tasks: [{
+				id: "00000000000001C6"
+				item: "simplefarming:cider"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"00000000000001DB"
+				"00000000000001B9"
+			]
+			id: "00000000000001C7"
+			rewards: [
+				{
+					id: "0000000000000406"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					id: "7F5267BFFE0A10D9"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001C8"
+				item: "simplefarming:grapes"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00000000000001C7"]
+			id: "00000000000001C9"
+			rewards: [
+				{
+					id: "00000000000003F8"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "1A92233584448C81"
+					type: "custom"
+				}
+			]
+			subtitle: "Regeneration"
+			tasks: [{
+				id: "00000000000001CA"
+				item: "simplefarming:wine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001CB"
+			rewards: [
+				{
+					id: "0000000000000408"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "23B5674DAF3D4512"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001CC"
+				item: "simplefarming:cactus_fruit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00000000000001CB"]
+			id: "00000000000001CD"
+			rewards: [
+				{
+					id: "148BC25AB370BE07"
+					item: "minecraft:peony"
+					type: "item"
+				}
+				{
+					id: "045EE82CA397138F"
+					type: "custom"
+				}
+			]
+			subtitle: "Health boost"
+			tasks: [{
+				id: "00000000000001CE"
+				item: "simplefarming:tiswin"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000FEA"]
+			id: "00000000000001D1"
+			rewards: [
+				{
+					id: "00000000000003FB"
+					item: "simplefarming:turnip_beetroot_gratin"
+					type: "item"
+				}
+				{
+					id: "0D9F88E74A0C5C48"
+					type: "custom"
+				}
+			]
+			subtitle: "Haste"
+			tasks: [{
+				id: "00000000000001D2"
+				item: "simplefarming:mead"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001D3"
+			rewards: [
+				{
+					id: "0000000000000409"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14CD814EE3761607"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001D4"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000001D3"]
+			id: "00000000000001D5"
+			rewards: [
+				{
+					id: "4283ABB55FA2DB52"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "3AF62A62333D9F39"
+					type: "custom"
+				}
+			]
+			subtitle: "Absorption"
+			tasks: [{
+				id: "00000000000001D6"
+				item: "simplefarming:whiskey"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "00000000000001D7"
+			rewards: [
+				{
+					id: "000000000000040A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0C35F1036502FD67"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000001D8"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Potato"
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00000000000001D7"]
+			id: "00000000000001D9"
+			rewards: [
+				{
+					id: "067AD493F9449C70"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+				{
+					id: "47B4EAB7D95EFF98"
+					type: "custom"
+				}
+			]
+			subtitle: "Resistance"
+			tasks: [{
+				id: "00000000000001DA"
+				item: "simplefarming:vodka"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 7.0d
+		}
+		{
+			description: ["Grapes will grow into a small bush that must then have a fence piece attached to the upper bush piece to grow grapes."]
+			icon: "simplefarming:grape_seeds"
+			id: "00000000000001DB"
+			rewards: [
+				{
+					count: 3
+					id: "00000000000003FA"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "57C0E4CA1527C22C"
+					type: "custom"
+				}
+			]
+			tasks: [
+				{
+					id: "00000000000001DC"
+					item: "simplefarming:grape_seeds"
+					type: "item"
+				}
+				{
+					id: "00000000000001DD"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:fences"
+						}
+					}
+					title: "Fence"
+					type: "item"
+				}
+			]
+			title: "Grape Grower"
+			x: 12.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			description: ["Will prevent crops from being trampled in a 10 block radius."]
+			id: "000000000000035D"
+			rewards: [
+				{
+					count: 6
+					id: "71E4FC9550BED06A"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7088C57B08D84144"
+					item: "simplefarming:cumin_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "000000000000035E"
+				item: "simplefarming:scarecrow"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000374"
+			rewards: [
+				{
+					id: "0000000000000436"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6ACCF5139B32CF78"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000375"
+				item: "simplefarming:spinach_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000376"
+			rewards: [
+				{
+					id: "0000000000000437"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "30DEEAA04151B51D"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000377"
+				item: "simplefarming:squash_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000378"
+			rewards: [
+				{
+					id: "0000000000000438"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2D9F5A4AC0CBA092"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000379"
+				item: "simplefarming:sweet_potato_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000037A"
+			rewards: [
+				{
+					id: "0000000000000439"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "25FD707198151B9F"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000037B"
+				item: "simplefarming:tomato_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000037C"
+			rewards: [
+				{
+					id: "000000000000043A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "65D0E1312F20B0EA"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000037D"
+				item: "simplefarming:turnip_seeds"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000037E"
+			rewards: [
+				{
+					id: "000000000000043B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7C108E915697585C"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000037F"
+				item: "simplefarming:yam_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000380"
+			rewards: [
+				{
+					id: "0000000000000441"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4F421A84A15230C5"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000381"
+				item: "simplefarming:soybean_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000382"
+			rewards: [
+				{
+					id: "0000000000000445"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "182890FCACA25609"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000383"
+				item: "simplefarming:cassava_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000384"
+			rewards: [
+				{
+					id: "000000000000042F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "6F83CC2DAE6A5140"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000385"
+				item: "simplefarming:carrot_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000386"
+			rewards: [
+				{
+					id: "000000000000042B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5978067940B0EDDB"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000387"
+				item: "simplefarming:cantaloupe_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000388"
+			rewards: [
+				{
+					id: "00000000000003C6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "169CA6CEB9E155B9"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000389"
+				item: "simplefarming:broccoli_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000038A"
+			rewards: [
+				{
+					id: "00000000000003C7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "56B61BC8A129CC73"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000038B"
+				item: "simplefarming:barley_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000038C"
+			rewards: [
+				{
+					id: "000000000000042C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "10E9234DD152BED5"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000038D"
+				item: "simplefarming:sunflower_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000038E"
+			rewards: [
+				{
+					id: "0000000000000430"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "1B32F9BC4F70C7C5"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000038F"
+				item: "simplefarming:quinoa_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000390"
+			rewards: [
+				{
+					id: "000000000000043E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4E4D4FBC5EE7E318"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000391"
+				item: "simplefarming:cumin_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000392"
+			rewards: [
+				{
+					id: "0000000000000435"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "07D8E5089FE3A17E"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000393"
+				item: "simplefarming:cotton_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000394"
+			rewards: [
+				{
+					id: "0000000000000448"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D3A828479105DF4"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000395"
+				item: "simplefarming:corn_seeds"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000396"
+			rewards: [
+				{
+					id: "000000000000043F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "440DC01EEC65E097"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000397"
+				item: "simplefarming:oat_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "0000000000000398"
+			rewards: [
+				{
+					id: "0000000000000440"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "13FB6BAA6CE7A88D"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000399"
+				item: "simplefarming:lettuce_seeds"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000039A"
+			rewards: [
+				{
+					id: "000000000000043C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2CC314BE7011F3E3"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000039B"
+				item: "simplefarming:kenaf_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000039C"
+			rewards: [
+				{
+					id: "0000000000000442"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7516A42E1E211A02"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000039D"
+				item: "simplefarming:honeydew_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "000000000000039E"
+			rewards: [
+				{
+					id: "0000000000000446"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "503994207C6D3C3B"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "000000000000039F"
+				item: "simplefarming:ginger_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003A0"
+			rewards: [
+				{
+					id: "0000000000000447"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "25166C0C1AB934D7"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003A1"
+				item: "simplefarming:eggplant_seeds"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003A2"
+			rewards: [
+				{
+					id: "0000000000000443"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "012CFC183CB38958"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003A3"
+				item: "simplefarming:cucumber_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003A4"
+			rewards: [
+				{
+					id: "000000000000043D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "16D531F88146D8DA"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003A5"
+				item: "simplefarming:rye_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003A6"
+			rewards: [
+				{
+					id: "0000000000000434"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "547CD6EA31CF9160"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003A7"
+				item: "simplefarming:rice_seeds"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003A8"
+			rewards: [
+				{
+					id: "0000000000000444"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0D02B4271E8ADBF3"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003A9"
+				item: "simplefarming:radish_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003AA"
+			rewards: [
+				{
+					id: "0000000000000433"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "035D19F6AD7A7193"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "015C02C788C0B1EC"
+				item: "simplefarming:potato_seeds"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "5317758FCD29DB25"
+			rewards: [
+				{
+					id: "0000000000000432"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "09B27FF74FEA8BE9"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003AD"
+				item: "simplefarming:pepper_seeds"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003AE"
+			rewards: [
+				{
+					id: "0000000000000431"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "47BB5915A2ABF3E9"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003AF"
+				item: "simplefarming:peanut_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003B0"
+			rewards: [
+				{
+					id: "000000000000042E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "0B42ECF9C74E07F0"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003B1"
+				item: "simplefarming:pea_seeds"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "55BA868C945A421A"
+			rewards: [
+				{
+					id: "00000000000003C9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "3D5B709208202BB6"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003B3"
+				item: "simplefarming:onion_seeds"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "00000000000003B4"
+			rewards: [
+				{
+					id: "00000000000003C8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "263D3736D6493CF8"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003B5"
+				item: "simplefarming:sorghum_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "3AEFE01692A67057"
+			rewards: [
+				{
+					id: "000000000000042D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "4CD0E58769D3BF57"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "00000000000003B7"
+				item: "simplefarming:zucchini_seeds"
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000001B9"]
+			id: "0000000000000FEA"
+			rewards: [
+				{
+					id: "0000000000001320"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "695FF020D88099E7"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "0000000000000FEB"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			description: [
+				"The following are your basic crops that will always be handy when you are hungry."
+				""
+				"The quests following the initial crops give a basic recipe to help keep you fed but look to JEI for more complex and fullfilling recipes."
+			]
+			icon: "minecraft:farmland"
+			id: "0000000000000FC0"
+			rewards: [{
+				id: "6A96DE85B76A3635"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000FC1"
+				type: "checkmark"
+			}]
+			title: "Basic Farming"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["I am supposed to beat a root?"]
+			id: "0000000000000FC6"
+			rewards: [{
+				id: "0000000000001321"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FC7"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Desert adventure time."]
+			id: "0000000000000FC2"
+			rewards: [{
+				id: "0000000000001323"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 12L
+				id: "0000000000000FC3"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			title: "Cacti"
+			x: -7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000FC6"]
+			id: "0000000000000FC8"
+			rewards: [{
+				id: "0000000000001335"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0000000000000FC9"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000FC8"]
+			id: "0000000000000FE6"
+			rewards: [{
+				id: "0000000000001336"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0000000000000FE7"
+				item: "minecraft:beetroot_soup"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["00000000000000C9"]
+			id: "0000000000000FE8"
+			rewards: [{
+				id: "0000000000001337"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "0000000000000FE9"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000000C5"]
+			description: ["Get to growing!"]
+			id: "00000000000000C9"
+			rewards: [
+				{
+					id: "0000000000000169"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ensorcellation:furrowing"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000016A"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "ensorcellation:weeding"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "000000000000032B"
+					item: "minecraft:paper"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CA"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			title: "Wheatabix"
+			x: -8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You will come across a lot of these from grass."]
+			id: "00000000000000C5"
+			rewards: [{
+				id: "0000000000000178"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "00000000000000C6"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You don't have jack on me Mr. Pumpkin!"]
+			id: "0000000000000FD4"
+			rewards: [{
+				id: "0000000000001326"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FD5"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0000000000000FD4"]
+			id: "0000000000000FDC"
+			rewards: [{
+				id: "0000000000001339"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FDD"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["00000000000000CD"]
+			id: "0000000000000FDE"
+			rewards: [{
+				id: "0000000000001333"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 8L
+				id: "0000000000000FDF"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Should be able to nab some of these to get you started from a village."]
+			id: "00000000000000CD"
+			rewards: [
+				{
+					id: "0000000000000188"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "000000000000033F"
+					item: "minecraft:cake"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "00000000000000CE"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			title: "Potato, Potatoe"
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Should be able to find a few of these in villages as well."]
+			id: "0000000000000FD0"
+			rewards: [{
+				id: "0000000000001322"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD1"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "Carrots"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000FD0"]
+			id: "1FA146104659E072"
+			rewards: [
+				{
+					id: "63D6563373CAB1DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2036ECE79D1E6BC0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "331DF550FCA05A44"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmersdelight:carrot_crate"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1FA146104659E072"]
+			id: "7D269CB37BDFB0A1"
+			rewards: [
+				{
+					id: "3240C41F0846CA1E"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "2C7DAC075364452A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "5E3C38EBFA2B2106"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "farmersdelight:carrot_crate"
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			description: ["The skin of the innocent..... oh boy that sounds bad....."]
+			id: "0000000000000FE2"
+			rewards: [{
+				id: "000000000000133C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FE3"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["000000000000072E"]
+			description: ["Man I will be able to write so much stuff on this."]
+			id: "0000000000000FCE"
+			rewards: [{
+				id: "000000000000133B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 3L
+				id: "0000000000000FCF"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Let those stalks reach for the sky!"]
+			id: "000000000000072E"
+			rewards: [
+				{
+					count: 5
+					id: "0000000000000734"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "0000000000001327"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "000000000000072F"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			title: "Sugar or Paper?"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["000000000000072E"]
+			id: "0000000000000FC4"
+			rewards: [{
+				id: "000000000000133A"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 16L
+				id: "0000000000000FC5"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			title: "Sugar"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["You are going to have to travel to the great white north to find some of these delicous berries."]
+			id: "0000000000000FD8"
+			rewards: [{
+				id: "0000000000001329"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD9"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			title: "Sweet Berries"
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["22E18643E07DD4EA"]
+			id: "3DC57F999F6E5629"
+			rewards: [{
+				id: "7EBF3F3B020955CC"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "uncommon_loot_crate"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "30D0116213A45892"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000001154"]
+			id: "22E18643E07DD4EA"
+			rewards: [{
+				id: "0B5BD8BBD71E3367"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7BFF0D0902CDA1C4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:bamboo_block"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			id: "0000000000001154"
+			rewards: [{
+				id: "0000000000001324"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000001155"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000FC0"]
+			description: ["Nether fortress mold."]
+			id: "0000000000000FD6"
+			rewards: [{
+				id: "0000000000001328"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				count: 64L
+				id: "0000000000000FD7"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			title: "Hell Wart"
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0000000000000FD2"
+				"483F3EDE19B17BD6"
+			]
+			id: "0000000000000FDA"
+			rewards: [{
+				id: "0000000000001338"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "0000000000000FDB"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0000000000000FC0"
+				"483F3EDE19B17BD6"
+			]
+			description: ["Have to eat some melons to make some melons."]
+			id: "0000000000000FD2"
+			rewards: [{
+				id: "0000000000001325"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0000000000000FD3"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000FC2"]
+			description: ["Give your base some flair."]
+			id: "00000000000000D3"
+			rewards: [{
+				id: "0000000000000142"
+				item: "minecraft:flower_pot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00000000000000D4"
+				item: "quark:midori_block"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0000000000000FDA"
+				"483F3EDE19B17BD6"
+			]
+			id: "643748DB082D7133"
+			rewards: [
+				{
+					id: "5B3FDF4050EBAC89"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "430C45D743551205"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				count: 64L
+				id: "3EA584B4BA8DD977"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "minecraft:melon"
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 3.0d
+		}
+		{
+			description: ["Eggs o'plenty!"]
+			id: "000000000000132B"
+			rewards: [{
+				id: "000000000000133D"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				consume_items: true
+				count: 16L
+				id: "000000000000132C"
+				item: "minecraft:egg"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			id: "731B6ECB5FED58CF"
+			rewards: [{
+				id: "47AB2F5DB312431F"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "4FBCDE67E6F88203"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops/rice"
+					}
+				}
+				title: "Any #forge:crops/rice"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["731B6ECB5FED58CF"]
+			id: "728BBD0E207A04D4"
+			rewards: [{
+				id: "730BEFE6801A28E4"
+				type: "custom"
+			}]
+			subtitle: "Speed"
+			tasks: [{
+				id: "4BA9756AB4D4480B"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:sake"
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "4DBC257325271F05"
+			rewards: [{
+				id: "4E22BBB31830A667"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "5B0FFDC13A51CFB4"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:apple_sapling"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "18B707A4F9CAFCCD"
+			rewards: [{
+				id: "3E1975B21A02AB3E"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "472327EADF41FE79"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:apricot_sapling"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "6BF1782E4D3190C4"
+			rewards: [{
+				id: "78D5E7E22CC5D269"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "6A18AC686E4362BE"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:banana_sapling"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "380034B488151723"
+			rewards: [{
+				id: "4E1E04649AAA54F4"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "6F2DD89BE2BF9572"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:cherry_sapling"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "1BB4F34C4F379011"
+			rewards: [{
+				id: "3952D5B9AE4D67E2"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "293C72C2B69A9CC0"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:mango_sapling"
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "5783CB232F47DF02"
+			rewards: [{
+				id: "0A25B48480340B4C"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "14924FF0C5903980"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:olive_sapling"
+				}
+				type: "item"
+			}]
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "203EA3A246FA97A5"
+			rewards: [{
+				id: "672AE490C2FB099F"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "16C2470FE2AB698C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:orange_sapling"
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "1EAEC4ABF22E4A03"
+			rewards: [{
+				id: "4B7EB7333DB25C23"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "1D5E2B7B18F07510"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:pear_sapling"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "4E02906154C82272"
+			rewards: [{
+				id: "457AB350553AFDED"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "55C6026DFBA0EA28"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:plum_sapling"
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "7449574D5D388409"
+			rewards: [{
+				id: "29596CA7A0488930"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "7DD67E9BD77B553A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:blackberry_bush"
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7449574D5D388409"
+				"483F3EDE19B17BD6"
+			]
+			id: "057BC98E0047488C"
+			rewards: [{
+				id: "38965718E534F1F7"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "6DC076A0E510D23D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:blackberries"
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "775B777702F7C8D7"
+			rewards: [{
+				id: "713519BAD5874EBF"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "24459731EFC3757D"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:blueberry_bush"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"775B777702F7C8D7"
+				"483F3EDE19B17BD6"
+			]
+			id: "2DEAD492033E3E58"
+			rewards: [{
+				id: "72EFEF4BE463E031"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "03B306ADDAE46857"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:blueberries"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "3A015D7D51ACFF69"
+			rewards: [{
+				id: "47C142A1A0A4B3B9"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "1C62AEEFB2BCAC1A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:raspberry_bush"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"3A015D7D51ACFF69"
+				"483F3EDE19B17BD6"
+			]
+			id: "4A56CFC6CBB01B2C"
+			rewards: [{
+				id: "5ADAA1C7EDB9E3B8"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "36CDD32CA6525076"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:raspberries"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["483F3EDE19B17BD6"]
+			id: "46F77E7A9F224275"
+			rewards: [{
+				id: "0147F8A50F6C1B4A"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "5ADB1DB6312430FC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:strawberry_bush"
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"46F77E7A9F224275"
+				"483F3EDE19B17BD6"
+			]
+			id: "0C36CEE2F3AFABD3"
+			rewards: [{
+				id: "40B89C74B757A931"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "72D1EA41EBDCEE40"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "simplefarming:strawberries"
+				}
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				""
+				"- Any animals you slay using a Knife are guaranteed to drop secondary items, such as Leather and Feathers;"
+				""
+				"- Grassy plants (grass, wheat, rice etc) cut with a Knife will occasionally yield Straw, a firm and useful fiber;"
+				""
+				"- They act as a modest melee weapon: swings faster than a sword for lesser damage;"
+				""
+				"- Later on, they are also useful for cutting and portioning ingredients when preparing meals."
+			]
+			id: "06FCFD49B9DC5C59"
+			rewards: [{
+				id: "1B694323AEFC9E27"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
+			tasks: [{
+				id: "325414C7C64C34F1"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06FCFD49B9DC5C59"]
+			id: "028FAF610E83646D"
+			rewards: [{
+				id: "47B29E45FA44FE0B"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "08BA65E1FA0D98C9"
+				item: {
+					Count: 1b
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["06FCFD49B9DC5C59"]
+			description: [
+				"Using a Knife on grassy plants will yield Straw, a useful building and composting material. Early on, it's best used to craft some Ropes."
+				""
+			]
+			id: "447D1005B0881D70"
+			rewards: [{
+				id: "781101BAF9A6BD96"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12722207D34CA838"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["028FAF610E83646D"]
+			id: "1201103F5FC0E441"
+			rewards: [
+				{
+					id: "3B0A1ED7888489F5"
+					item: "aquaculture:box"
+					type: "item"
+				}
+				{
+					id: "28C463BBE05C5CC2"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "35D540E73DE01D44"
+				item: {
+					Count: 1b
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["447D1005B0881D70"]
+			id: "29CD2BA25DD2395B"
+			rewards: [{
+				id: "41BAD0330BAEC100"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			subtitle: "Can be used as a replacement for Leather"
+			tasks: [{
+				id: "4192F72A6804831B"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["447D1005B0881D70"]
+			description: [
+				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
+				""
+				"Rich Soil cannot be directly crafted. To make it, you must craft Organic Compost and place it into the world, letting it decompose over time."
+				""
+				"Organic Compost will decompose more easily under sunlight and moisture from nearby water, but doesn't actually hydrate like farmland. It can also be gently accelerated by placing activators next to it, in a 3x3x3 area centered on itself."
+				""
+				"Currently, the following blocks behave as activators for Organic Compost:"
+				"- Brown and Red Mushrooms, and their Colonies;"
+				"- Podzol and Mycelium;"
+				"- Other blocks of Organic Compost;"
+				"- Rich Soil, normal or tilled."
+			]
+			id: "56D3BC7D09F900CA"
+			rewards: [{
+				id: "3868E5AC6AFC1217"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D4707A71CD44077"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["447D1005B0881D70"]
+			description: [
+				"Ropes are essentially reverse scaffolding: the can be continuously deployed downward from the same spot, and can be climbed without collision. This allows players to safely descend or ascend high altitudes, such as ravines or mountains."
+				""
+				"When placing Rope, you can use more ropes against the first one to deploy them downward. This will continuously extend a column of rope down to the bottom-most Y-level possible, allowing for easy and controllable descents into chasms, ravines or from high locations."
+				""
+				"To suppress rope deployment, simply sneak while placing it. If there's no space underneath to deploy, it will also place normally."
+			]
+			id: "27E4CBB51DBD27CD"
+			rewards: [{
+				id: "180CFD2E2371FBF5"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52366E5C113F92FE"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1201103F5FC0E441"]
+			id: "0025624788BAAD2A"
+			rewards: [
+				{
+					id: "605D71A1FE5F83FB"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+				{
+					id: "76585A912D3F13DC"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "56FC2F11AF962177"
+				item: {
+					Count: 1b
+					id: "farmersdelight:diamond_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0025624788BAAD2A"]
+			id: "0277464EB3D23D4B"
+			rewards: [
+				{
+					id: "25A7E5370448A6A0"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+				{
+					id: "2D434F325A5CEC9D"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EB8FF180AB8D37E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "6C2B43C22E0E1315"
+				item: {
+					Count: 1b
+					id: "farmersdelight:netherite_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["29CD2BA25DD2395B"]
+			description: [
+				"Baskets can be placed facing any of the six cardinal directions, and will even work upside down. Items colliding with its open face will be captured and stored in its inventory."
+				""
+				"It has the same inventory size as a Chest or Barrel, but lacks the ability to actively transfer items between blocks, such as extracting from, or inserting into, adjacent inventories. Other item-transferring blocks can interact with a Basket normally."
+			]
+			id: "4E2850F4670F5763"
+			rewards: [{
+				id: "03E3997CD197FE12"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "materials_monsters"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Container block that can capture dropped items through its open side, like a Hopper."
+			tasks: [{
+				id: "4103C981852AA608"
+				item: "farmersdelight:basket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["56D3BC7D09F900CA"]
+			description: [
+				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
+				"Rich Soil can be tilled into Rich Farmland through the use of hoes. Rich Farmland is immune to mob trampling and won't unravel to Melons or Pumpkins, but requires hydration in order to boost crops."
+				""
+				"Mushrooms planted on Rich Soil under sufficient darkness will eventually form a Mushroom Colony. Such colonies will grow from 2 to 5 mushroom caps over time, dropping them when harvested."
+			]
+			id: "1729A82B2351DE53"
+			rewards: [
+				{
+					id: "5DFF93BF5E61BECD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "15FDF1C12591F0B7"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			subtitle: "Enhanced type of dirt, more fertile and durable to the elements."
+			tasks: [{
+				id: "5229C5BEC0FE4C1B"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["27E4CBB51DBD27CD"]
+			description: ["Fully absorbs your fall without dealing damage."]
+			id: "22E1A465FAF7EAA2"
+			rewards: [
+				{
+					id: "2820EBBBFA117AD2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "23850B15A830AB3C"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2E02EF01A2AC0E72"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			description: [
+				"Can also hold double plants"
+				""
+				"Can be placed in the middle of a block or to the side in all directions"
+			]
+			id: "2E1B89E9BF294870"
+			rewards: [{
+				id: "7FD6ADCD2BEC0D62"
+				type: "custom"
+			}]
+			subtitle: "Like a flower pot but can hold up to 3 plants"
+			tasks: [{
+				id: "2BA3453DBB17F1B8"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flower_box"
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1ECE1542EEE8BAC9"]
+			id: "3F871E9C0C55331C"
+			rewards: [{
+				id: "36CF81EA8847540E"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "06AE78C781B69CFC"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:planter_rich"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1ECE1542EEE8BAC9"
+				"483F3EDE19B17BD6"
+			]
+			id: "50B189F2FBEAF4CC"
+			rewards: [{
+				id: "14A108925B7E6022"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "3F1A4F29C2F52F39"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:planter_rich_soul"
+				}
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.5d
+		}
+		{
+			description: ["Also prevent the crop from being trampled"]
+			id: "1ECE1542EEE8BAC9"
+			rewards: [{
+				id: "0D04E6E05AED9726"
+				type: "custom"
+			}]
+			subtitle: "Can support any plant or crop without the need of water, useful for nether farms"
+			tasks: [{
+				id: "76CF688A80F55D51"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:planter"
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.5d
+		}
+		{
+			hide: true
+			id: "097E44CE2A686D2B"
+			tasks: [{
+				id: "44227CC75D99CEC9"
+				item: {
+					Count: 1b
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["097E44CE2A686D2B"]
+			id: "7D916BB04FC8C26F"
+			size: 1.5d
+			tasks: [{
+				id: "63B5888B7CFDFF7A"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			hide: true
+			id: "7A9E16E2C76A9705"
+			tasks: [{
+				id: "4778B37EFC07E091"
+				item: "farmersdelight:stove"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7A9E16E2C76A9705"]
+			id: "5F3D03AFC18EE72F"
+			tasks: [{
+				id: "6904B73DF51A1AD1"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			hide: true
+			id: "627A59E7F847BB40"
+			tasks: [{
+				id: "4FCB12F624D50A82"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["627A59E7F847BB40"]
+			id: "773CAC5A8E850DAD"
+			tasks: [{
+				id: "660EDDC8AA6A3A2C"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["773CAC5A8E850DAD"]
+			id: "4B705991EFCC0EDD"
+			tasks: [
+				{
+					id: "7B5800C80EC62B07"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					id: "2C064914D63326BD"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+			]
+			title: "Mushroom Colonies"
+			x: 14.0d
+			y: -3.5d
+		}
+		{
+			hide: true
+			id: "083334CD2B300860"
+			tasks: [
+				{
+					id: "68D379D96F07B76A"
+					item: "farmersdelight:roast_chicken_block"
+					type: "item"
+				}
+				{
+					id: "50F4366B9164EA68"
+					item: "farmersdelight:honey_glazed_ham_block"
+					type: "item"
+				}
+				{
+					id: "72DD7712B1C10BEE"
+					item: "farmersdelight:shepherds_pie_block"
+					type: "item"
+				}
+			]
+			title: "Huge meals"
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4B705991EFCC0EDD"
+				"5F3D03AFC18EE72F"
+			]
+			id: "0C7C5867373C0CC6"
+			tasks: [{
+				id: "4F6C5F404DBE1A78"
+				item: "farmersdelight:stuffed_pumpkin_block"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"7D916BB04FC8C26F"
+				"625DEA3AF13B6552"
+			]
+			id: "23437C7E33C71D1E"
+			tasks: [
+				{
+					id: "57F31E70CEBBD6F5"
+					item: "farmersdelight:apple_pie_slice"
+					type: "item"
+				}
+				{
+					id: "555A71EBAD7344D4"
+					item: "farmersdelight:sweet_berry_cheesecake_slice"
+					type: "item"
+				}
+				{
+					id: "232211263B108E93"
+					item: "farmersdelight:chocolate_pie_slice"
+					type: "item"
+				}
+				{
+					id: "3AB4A9DAC45E0DCA"
+					item: "farmersdelight:cake_slice"
+					type: "item"
+				}
+			]
+			title: "Pie slices"
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0F746C6F14897204"]
+			id: "625DEA3AF13B6552"
+			tasks: [
+				{
+					id: "12A1435D560D5AD7"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "63BDAFDCA4749FA6"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "5C3552D080FA5123"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
+			title: "Pies"
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			hide: true
+			id: "1BBC001FB267B394"
+			tasks: [{
+				id: "41A41C448404833E"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1BBC001FB267B394"
+				"5F3D03AFC18EE72F"
+			]
+			id: "74650181597F1AB9"
+			tasks: [
+				{
+					id: "67DEF8453274E3C4"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+				{
+					id: "77436DE3447F19B1"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					id: "3389B20A43B3778E"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "7C4FD6A7BD3EEC8F"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+			]
+			title: "Pasta are delicious"
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			hide: true
+			id: "62C64252FB7FBBA8"
+			tasks: [
+				{
+					id: "643BDCA1B42AA5A5"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "710BD9B8668EFB55"
+					item: "farmersdelight:chicken_sandwich"
+					type: "item"
+				}
+				{
+					id: "550E8130C45F2D4D"
+					item: "farmersdelight:hamburger"
+					type: "item"
+				}
+				{
+					id: "7E611FE01A68D61D"
+					item: "farmersdelight:bacon_sandwich"
+					type: "item"
+				}
+			]
+			title: "Sandwiches'n Burgers"
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D916BB04FC8C26F"]
+			id: "76EF45960A8BFACD"
+			tasks: [
+				{
+					id: "1BD47ACD27B6134F"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+				{
+					id: "6231C9F5559F86BB"
+					item: "farmersdelight:cooked_cod_slice"
+					type: "item"
+				}
+				{
+					id: "37E0BB2CFE11D317"
+					item: "farmersdelight:cooked_bacon"
+					type: "item"
+				}
+				{
+					id: "02A900E5A201E2F1"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+				{
+					id: "17679F63CA9522A6"
+					item: "farmersdelight:beef_patty"
+					type: "item"
+				}
+			]
+			title: "Slicy"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			hide: true
+			id: "0F746C6F14897204"
+			tasks: [{
+				id: "1134769F3C1CFA6A"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["5F3D03AFC18EE72F"]
+			id: "403AD739A10E62B4"
+			tasks: [
+				{
+					id: "29156A6A756A6E4D"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					id: "45F64A9BCE0A9DD4"
+					item: "farmersdelight:cabbage_rolls"
+					type: "item"
+				}
+			]
+			title: "Cabbages are awesome"
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			hide: true
+			id: "54C34E3C38194EE4"
+			tasks: [
+				{
+					id: "2C47F0DB823A4C33"
+					item: "croptopia:cucumber_salad"
+					type: "item"
+				}
+				{
+					id: "418F954FD0E94D96"
+					item: "croptopia:caesar_salad"
+					type: "item"
+				}
+				{
+					id: "67D080B20B729CE8"
+					item: "croptopia:veggie_salad"
+					type: "item"
+				}
+				{
+					id: "7D117074E9B59420"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					id: "0C5F83994ED7E1DA"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "1BFCF482566527E9"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+			]
+			title: "Salads"
+			x: 7.0d
+			y: -2.0d
+		}
+		{
+			hide: true
+			id: "49A785AC8B9A666F"
+			tasks: [
+				{
+					id: "0EEABC397BC4B249"
+					item: "farmersdelight:dog_food"
+					type: "item"
+				}
+				{
+					id: "1197390686FFD0C5"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			title: "Animal Food"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5F3D03AFC18EE72F"]
+			id: "1FAEA6633C3C396F"
+			tasks: [
+				{
+					id: "6E34FA882DD463A9"
+					item: "farmersdelight:pumpkin_soup"
+					type: "item"
+				}
+				{
+					id: "68947B790F6C3EF7"
+					item: "farmersdelight:vegetable_soup"
+					type: "item"
+				}
+				{
+					id: "56FC6876AEB49D43"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					id: "2FDD1FE4EE5C2AC3"
+					item: "farmersdelight:beef_stew"
+					type: "item"
+				}
+				{
+					id: "0278CF94A215D6AA"
+					item: "farmersdelight:chicken_soup"
+					type: "item"
+				}
+				{
+					id: "46F5F6E4F67356A7"
+					item: "farmersdelight:fried_rice"
+					type: "item"
+				}
+				{
+					id: "594DF8A7D92F2F43"
+					item: "farmersdelight:baked_cod_stew"
+					type: "item"
+				}
+			]
+			title: "Stews'n Soups"
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			id: "210C7B26E2D85627"
+			rewards: [{
+				id: "6B82A89AB4FB2CA7"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D9F9D499E5CE19B"
+				item: "farmersdelight:beef_stew"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 1.5d
+		}
+		{
+			id: "55C29372761230D3"
+			rewards: [{
+				id: "6B88D4DA27D1A028"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "713E63D9B89E8134"
+				item: "farmersdelight:chicken_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"55C29372761230D3"
+				"37AA8C2B0C3AA1F2"
+				"449410724E7BEEBE"
+				"2101F61C1D473438"
+				"210C7B26E2D85627"
+				"1AD31F8DCDD75836"
+				"5AD4991F7FFA6CA2"
+			]
+			id: "5F9620B9B3C0CCC2"
+			rewards: [{
+				id: "13011E945B7CC86D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Good for when it's cold.. or anytime."
+			tasks: [{
+				id: "447C4FDE941FC01C"
+				title: "Soups"
+				type: "checkmark"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "1AD31F8DCDD75836"
+			rewards: [{
+				id: "6083270B7BC8D220"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63FC5B92886A99C4"
+				item: "farmersdelight:vegetable_soup"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			id: "5AD4991F7FFA6CA2"
+			rewards: [{
+				id: "4A2097C3B30CB8FF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D404FDB11C7C55E"
+				item: "farmersdelight:pumpkin_soup"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			id: "37AA8C2B0C3AA1F2"
+			rewards: [{
+				id: "19719393DA92EC43"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "220C287EA8EA4D01"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "2101F61C1D473438"
+			rewards: [{
+				id: "68DA3F74C974DCBF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51A2D639CA7DAC1E"
+				item: "farmersdelight:fish_stew"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "449410724E7BEEBE"
+			rewards: [{
+				id: "12A05B56768D1A39"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B7C4E95E20B48B4"
+				item: "farmersdelight:baked_cod_stew"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"6EC94755C311050D"
+				"6EBC0ABD9C874BA6"
+				"71F994F2EE1FC296"
+				"5D33A043CA96DBF6"
+				"14ACA6BB3BA124F6"
+				"2ABE5C79A9FE92DE"
+			]
+			id: "3CEB2302C39CD6FE"
+			rewards: [{
+				id: "4A50DBB4679EA2FB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "622FFD90716D2A45"
+				title: "Grains"
+				type: "checkmark"
+			}]
+			x: 18.5d
+			y: 4.5d
+		}
+		{
+			id: "2ABE5C79A9FE92DE"
+			rewards: [{
+				id: "717F1E685218E7B1"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0791A7F3A31813FD"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			id: "14ACA6BB3BA124F6"
+			rewards: [{
+				id: "39CE16CA5528E8F6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "519F5355E13C0482"
+				item: "farmersdelight:pasta_with_meatballs"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 3.0d
+		}
+		{
+			id: "5D33A043CA96DBF6"
+			rewards: [{
+				id: "322B9353D56BB031"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B107852452FB3FE"
+				item: "farmersdelight:pasta_with_mutton_chop"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			id: "6EC94755C311050D"
+			rewards: [{
+				id: "1C44FF5B2DB1E5F1"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B7C7FC520F2C25A"
+				item: "farmersdelight:rice_bag"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 6.0d
+		}
+		{
+			id: "6EBC0ABD9C874BA6"
+			rewards: [{
+				id: "7FE21CC40DA909A3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "34F12C7D645E0DB3"
+				item: "farmersdelight:cooked_rice"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.5d
+		}
+		{
+			id: "71F994F2EE1FC296"
+			rewards: [{
+				id: "5BC29EE1788EEBC1"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0513DA54B544E113"
+				item: "farmersdelight:fried_rice"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			disable_toast: true
+			hide: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "483F3EDE19B17BD6"
+			invisible: true
+			tasks: [{
+				id: "2AC49B5650E76827"
+				type: "custom"
+			}]
+			title: "PLACEHOLDER"
+			x: 1.5d
+			y: -8.0d
+		}
+	]
+	title: "Farmer's Delight"
+}

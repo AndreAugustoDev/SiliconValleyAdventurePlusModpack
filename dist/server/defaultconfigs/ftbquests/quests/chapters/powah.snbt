@@ -1,0 +1,5898 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	filename: "powah"
+	group: "0815C5D80307ECDF"
+	icon: "powah:energy_cell_nitro"
+	id: "2A6EBEEBAB882679"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_basic"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_basic_tiny"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_hardened"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_blazing"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_niotic"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_spirited"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_nitro"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_nitro"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 17.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_spirited"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 16.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_niotic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 15.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_blazing"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_hardened"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_basic"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 12.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/capacitor_basic_tiny"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 2.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "ftbquests:block/barrier_open"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/nitro_crystal_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.5d
+			y: 19.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "ftbquests:tasks/input_only"
+			rotation: 0.0d
+			width: 3.0d
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			alpha: 150
+			click: ""
+			color: 0
+			corner: false
+			dev: false
+			height: 10.0d
+			hover: [ ]
+			image: "ftbquests:textures/shapes/square/outline.png"
+			order: -1
+			rotation: 0.0d
+			width: 24.0d
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.025d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 12.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 13.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 14.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 15.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 17.0d
+		}
+		{
+			alpha: 200
+			click: ""
+			corner: false
+			dev: false
+			height: 0.1d
+			hover: [ ]
+			image: "minecraft:block/black_concrete"
+			rotation: 0.0d
+			width: 22.0d
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.9d
+			hover: [ ]
+			image: "atm:textures/questpics/powah/text/storage_text.png"
+			rotation: 0.0d
+			width: 2.3019230769230767d
+			x: -2.5d
+			y: 10.75d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "atm:textures/questpics/powah/text/generation_text.png"
+			rotation: 0.0d
+			width: 3.3600000000000003d
+			x: 5.5d
+			y: 10.7d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "atm:textures/questpics/powah/text/useful_items_text.png"
+			rotation: 0.0d
+			width: 3.908823529411765d
+			x: -6.5d
+			y: 10.7d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.75d
+			hover: [ ]
+			image: "atm:textures/questpics/powah/text/transfer_text.png"
+			rotation: 0.0d
+			width: 2.6029411764705883d
+			x: 1.5d
+			y: 10.7d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:block/niotic_crystal_block"
+			rotation: 45.0d
+			width: 1.0d
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/uraninite_raw"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/uraninite_raw"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: 18.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/uraninite_raw"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "powah:item/uraninite_raw"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.5d
+			y: 18.5d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9Powah&r is a tech mod that's all about generating, storing, and transmitting &dPower&r. Ranging from basic FE generation to &aReactors&r that produce &b250k FE/t&r, Powah has you covered!"
+				""
+				"To get started, go out and mine some &aUraninite&r!"
+			]
+			icon: "powah:book"
+			id: "6B2027DA7AA6FF34"
+			rewards: [
+				{
+					id: "344F5D87627A95C7"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "0A20CAF72F0E3E11"
+					item: {
+						Count: 1b
+						id: "powah:wrench"
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "3C45AF8C3DC5A45E"
+				item: "powah:uraninite_raw"
+				type: "item"
+			}]
+			title: "&aWelcome to&r &9Powah&r!!!"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6B2027DA7AA6FF34"]
+			description: [
+				"Almost every single machine you can make in the mod will require a &9Dielectric Casing&r."
+				""
+				"You'll need to make the &bPaste&r first, as well as some &aRods&r to progress!"
+			]
+			hide_dependency_lines: false
+			icon: "powah:dielectric_casing"
+			id: "7E92ED270C67FDE5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5FC5C0DBD1862334"
+					table_id: 4236052250335530963L
+					type: "random"
+				}
+				{
+					id: "4E8234C1477A2822"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					count: 16L
+					id: "21FC6D010E5D5360"
+					item: "powah:dielectric_paste"
+					type: "item"
+				}
+				{
+					id: "499AF83C86984D26"
+					item: "powah:dielectric_casing"
+					type: "item"
+				}
+			]
+			title: "Starting with Dielectric Mats"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7E92ED270C67FDE5"]
+			description: [
+				"In the beginning, you can get by with creating the &7Starter&r and &bBasic&r tier machines using Iron, but you'll eventually need to create energized mats using the &9Energizing Orb&r."
+				""
+				"The &9Energizing Orb&r will energize items using nearby &aEnergizing Rods&r within a 9x9 area around it, creating better materials for you to use to progress through the &eTiers&r in Powah."
+				""
+				"To power the orb, you'll need to attach Energizing Rods to energy cables that are being supplied with energy. If you want the Orb to energize faster, either make more rods, upgrade to higher tier rods, or both! To see if the Rods are connected, set your &aWrench&r to link mode and you can link any Rod to the Orb."
+				""
+				"{image:atm:textures/questpics/powah/powah_energizing.png width:200 height:200 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "powah:energizing_orb"
+			id: "3DDF87A1E5F5D009"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "336EF3D109FC4797"
+					table_id: 299590067093682297L
+					type: "random"
+				}
+				{
+					id: "5C3D57C7B5555A75"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "37FB7E3C8FD03825"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "36E378BF22554E0A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:energy_cable_starter"
+								}
+								{
+									Count: 1b
+									id: "powah:energy_cable_basic"
+								}
+							]
+						}
+					}
+					title: "Energy Cables"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "17F07D6404668DE6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:energizing_rod_starter"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_basic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_hardened"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_blazing"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_niotic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_spirited"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_nitro"
+								}
+							]
+						}
+					}
+					title: "Energizing Rods"
+					type: "item"
+				}
+			]
+			title: "The &9Energizing Orb&r"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: [
+				"One of the best options for \"Passive Power\", the &9Thermal Generator&r will produce FE when placed over a &cHeat Source&r and given a steady supply of water."
+				""
+				"There are currently 3 blocks you can place this over: a Magma block which produces the lowest, a lava source block which is a little better, or a &cBlock of Blazing Crystal&r, which provides the most heat. "
+			]
+			id: "52E59FCB39D66BCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "274AC988966524C0"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "6DB5053765546C84"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6D3CE4788C112806"
+				item: "powah:thermo_generator_starter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["The &7Furnator&r will burn items like coal and wood to produce FE."]
+			id: "3D5F87F8E6B89C1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32274A92CA7E0D29"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "1CEDF4B842E6FFAD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "7071C57ACD94C9F5"
+				item: "powah:furnator_starter"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["The Solar Panel generates FE when given direct access to the sun. However, you can use a &7Lens of Ender&r to ignore blocks in its way."]
+			id: "7678B5DD1339833E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EB0904004F389DA"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "65F43EC6BDE0870D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2B3E7BB9F4D228A7"
+				item: "powah:solar_panel_starter"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["The &cMagmator&r will generate FE when supplied with Lava."]
+			id: "0FD62827710F0AC6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "18B81A476AAD7918"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "6500F8A1FD7CDE98"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "58D16A3D3A480A37"
+				item: "powah:magmator_starter"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: [
+				"The &9Reactor&r is a 3x4x3 multiblock generator that burns &aUrananite&r as fuel to produce FE."
+				""
+				"To build it, you'll need to make a total of 36 Reactor Blocks. While holding 36 in hand, placing one block will auto-build the reactor. Make sure to clear out some room first!"
+				""
+				"You'll want to cool the reactor down for it to create more FE, and you can do this with either solid or liquid &bcoolant&r. To use a solid coolant, you'll also need to give it some liquid coolant as well. &bDry Ice&r makes for a great solid coolant! (Note: 1 Water Bucket will do)"
+				""
+				"You can also increase the FE generation by keeping the fuel buffer full, as well as adding both Coal and Redstone to the Reactor. Using Blocks of either will also work!"
+			]
+			id: "1B0087400B0B8B49"
+			min_width: 300
+			rewards: [
+				{
+					id: "09E5711FA8136C96"
+					item: "powah:dry_ice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "33E63DBBE49D7134"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "784A4CD06F2BCFC3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "576DD3980CD97FBC"
+				item: "powah:reactor_starter"
+				type: "item"
+			}]
+			title: "Reactor (Starter)"
+			x: 6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7D52DD751DDADA1B"
+				"6D88C19F47D0D469"
+			]
+			description: [
+				"&5Ender Gates&r are used to transfer power wirelessly to and from an adjacent block into the &7Ender Network&r."
+				""
+				"Think of these like wireless access points to your wireless network of power."
+				""
+				"Note: You can only add &apower storage capacity&r using an Ender Cell."
+			]
+			id: "3CB6DC5B09C62CFE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A70A4688D512DDF"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "112DC3F34CCB36B2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "185C323B23AA0983"
+				item: "powah:ender_gate_starter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["The basic cables for transferring power."]
+			id: "7D52DD751DDADA1B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45B43FBEBBDF09B0"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "6DE8006788293478"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "72A59D5484D75032"
+				item: "powah:energy_cable_starter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: [
+				"The &9Player Transmitter&r will charge a player's items wirelessly. You must first bind this to a player using a &9Binding Card&r. This is the basic card which allows the transmitter to only work in the same dimension. You can upgrade this by using a &dBinding Card (Dimensional)&r instead. "
+				""
+				"Note: To get a Player Aerial Pearl, use an Aerial Pearl on a Zombie or Husk."
+			]
+			icon: "powah:player_transmitter_starter"
+			id: "677365A816994C8B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C1253E7B75722C1"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "224C0B9104AF03F3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "71BD7D345E670234"
+					item: "powah:player_transmitter_starter"
+					type: "item"
+				}
+				{
+					id: "1F929F1DF23460AE"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:binding_card"
+								}
+								{
+									Count: 1b
+									id: "powah:binding_card_dim"
+								}
+							]
+						}
+					}
+					title: "Binding Cards"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["The &9Energy Hopper&r will charge any chargeable item inside of the inventory of the block it is pointed to, like a chest."]
+			id: "5BCA3F716348ECCD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E890AE83AC01458"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "199E2B2A88D2387E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "3C2CFE54F8372650"
+				item: "powah:energy_hopper_starter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["This block will drain FE from any charged item."]
+			id: "33816AF0E699F19F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37AE24D2704ED63C"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "56697E45AA1BD3B3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "43B03D8E251B44DD"
+				item: "powah:energy_discharger_starter"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: [
+				"The &9Power Bank&r of Powah."
+				""
+				"These can also be used to upgrade the total power storage capacity of your wireless &7Ender Networks&r."
+			]
+			id: "78202A1CF5D86B94"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CEC3181F7E55CBD"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "659E6EAE16475B52"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "096413BFA9FB2C10"
+				item: "powah:energy_cell_starter"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"78202A1CF5D86B94"
+				"61A8FAEC4FF18449"
+				"6D88C19F47D0D469"
+			]
+			dependency_requirement: "one_completed"
+			description: ["The &5Ender Cell&r will store power for a channel in your &7Ender Network&r. To increase the power capacity of the network, right click on the Ender Cell to open up the interface, then add either a &aBattery&r or an &9Energy Cell&r to increase the overall capacity."]
+			hide_dependency_lines: true
+			id: "700F3FF7C23D0C0F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "769305364E781D9A"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "6F3E93B1DB1203CC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "30E35BC580349772"
+				item: "powah:ender_cell_starter"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3DDF87A1E5F5D009"]
+			hide_dependency_lines: true
+			id: "5E090C9BB4DAA5D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55FA38592D091DE5"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "72826C337A2463CA"
+					type: "xp"
+					xp: 25
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7D5E27F786265E83"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "Tier: &aEnergized&r"
+			x: -0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3DDF87A1E5F5D009"]
+			hide_dependency_lines: true
+			id: "562BD37539EE318E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7A69EACB23126AFC"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "32888D2D1DEDA263"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "1976C5DCCE8E84BD"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			title: "Tier: &cBlazing&r"
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3DDF87A1E5F5D009"]
+			hide_dependency_lines: true
+			id: "7D7983F39E6E818D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2C64F84E3E5A0266"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "4CB9B25219AECE2F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "pentagon"
+			tasks: [{
+				id: "64F9B19C093FEEF6"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			title: "Tier: &9Niotic&r"
+			x: -0.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3DDF87A1E5F5D009"]
+			hide_dependency_lines: true
+			id: "25EFC21A3C48E0B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05BB1CA3278200D4"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "0012C27504547683"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "216E5B85948E6E87"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			title: "Tier: &2Spirited&r"
+			x: -0.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3DDF87A1E5F5D009"]
+			hide_dependency_lines: true
+			id: "4F1FFC02F4EAA2E6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DE001DB521BBA33"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "2FF6315546889CC7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "2BA798C77C6F3011"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			title: "Tier: &4Nitro&r"
+			x: -0.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["These can be used to charge items in your inventory, or can be used to increase the overall power capacity of an &7Ender Network&r channel."]
+			id: "61A8FAEC4FF18449"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14433FED493BD66D"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "7984927D6A54E393"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1D02EF09FDC433ED"
+				item: {
+					Count: 1b
+					id: "powah:battery_starter"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66ECC26BC81D0093"]
+			hide_dependency_lines: true
+			id: "5A07C7A54D40FBE2"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11D419594731E761"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "076EBFB074989F80"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "13A1F6468574ED2A"
+				item: "powah:energy_discharger_basic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5BCA3F716348ECCD"
+				"66ECC26BC81D0093"
+			]
+			id: "35F885A046EAE246"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26A866150CB96015"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "5ED5D54F02F272AE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "66DEF2F1E882F41E"
+				item: "powah:energy_hopper_basic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"677365A816994C8B"
+				"66ECC26BC81D0093"
+			]
+			id: "740F314EE6242C13"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "548EB9CCF7F1E732"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "72A188DBD0297AF3"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "5ED7B42C22BCD280"
+				item: "powah:player_transmitter_basic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"61A8FAEC4FF18449"
+				"66ECC26BC81D0093"
+			]
+			id: "04F11E192A334E3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77086CA1AA324197"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "48654FB654C4FFB6"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "64BF6A3821454638"
+				item: {
+					Count: 1b
+					id: "powah:battery_basic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3DDF87A1E5F5D009"
+				"66ECC26BC81D0093"
+			]
+			hide_dependency_lines: true
+			id: "0C481BA4C1CC0237"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1C883044138DABFB"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "13014E6A147F6EBC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "08187D03C13CC05A"
+				item: "powah:ender_cell_basic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"78202A1CF5D86B94"
+				"7E92ED270C67FDE5"
+				"66ECC26BC81D0093"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "66FA15A92DC655DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "333ECD3397C2E8CA"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "298D2BB87179CA21"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "166247828A9C16E2"
+				item: "powah:energy_cell_basic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"7D52DD751DDADA1B"
+				"66ECC26BC81D0093"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "5A708BF4F5091959"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6E2746A7CE4F8A12"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "3F9F58064210F179"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6FFB4F8A40315B4F"
+				item: "powah:energy_cable_basic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5A708BF4F5091959"
+				"66ECC26BC81D0093"
+			]
+			id: "69D82C33347D360D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4531E9D99F71B91A"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "1F197E801453094D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2519EA38B1E3AA6F"
+				item: "powah:ender_gate_basic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0FD62827710F0AC6"
+				"66ECC26BC81D0093"
+			]
+			id: "0E3A9D5E1E8AAF89"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "499F3C25175C255E"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "20192640360C0972"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "18DA813AAFFAB349"
+				item: "powah:magmator_basic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"3D5F87F8E6B89C1B"
+				"66ECC26BC81D0093"
+			]
+			id: "67DE5F982629BB34"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "460E0C6416E0A064"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "77DA676A51B424B1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2920C14299A40CD7"
+				item: "powah:furnator_basic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"52E59FCB39D66BCF"
+				"66ECC26BC81D0093"
+			]
+			id: "60F5DC851FCFF1B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3E8225EF3DBD897E"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "060D1AD152581ECD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "414DD76E288A6CF7"
+				item: "powah:thermo_generator_basic"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1B0087400B0B8B49"
+				"66ECC26BC81D0093"
+			]
+			id: "5F6152CF085D75D6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "695DE6AE9A9329F2"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "57B3E1679990C2B0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "18847CA551A72B03"
+				item: "powah:reactor_basic"
+				type: "item"
+			}]
+			title: "Reactor (Basic)"
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"7678B5DD1339833E"
+				"66ECC26BC81D0093"
+			]
+			id: "7890A1478121D2CD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2637536BE8BBC147"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "3A6C46220F774D35"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "487DA52CCD1741A3"
+				item: "powah:solar_panel_basic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5E090C9BB4DAA5D4"]
+			hide_dependency_lines: true
+			id: "534485E8185B71C3"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "257264EBB15C1550"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "26EBA6D243FC8A09"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "040A94FEA0038444"
+				item: "powah:energy_discharger_hardened"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"35F885A046EAE246"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "04930767C52C7CC2"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E5C1D3C7ABF9D17"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "4F497079C6C19EBE"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "5B3DDFB23CA6C703"
+				item: "powah:energy_hopper_hardened"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"740F314EE6242C13"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "7444B85503DE2C53"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "07CBEA27B6841428"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "4B8A79E2928C6072"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "764E430B973B8BD9"
+				item: "powah:player_transmitter_hardened"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"04F11E192A334E3F"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "604AB95A7600B150"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A1DC827A01398E4"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "1C2A869A69144585"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "4FB89D5C29752C55"
+				item: {
+					Count: 1b
+					id: "powah:battery_hardened"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"66FA15A92DC655DE"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "7FEE780F37A1322E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "597278B13B0DCE91"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "1CB63C1741CAE50B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "672A18DBFAA84594"
+				item: "powah:energy_cell_hardened"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E090C9BB4DAA5D4"]
+			hide_dependency_lines: true
+			id: "331498A68D110F81"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4F124694464385D9"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "368C8CAD13698AB8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "5E8665A0E3D4A148"
+				item: "powah:ender_cell_hardened"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5A708BF4F5091959"
+				"5E090C9BB4DAA5D4"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "029922AB09F8C76A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46C596393E36A96B"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "33E7F0C466941D67"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "43621F44015EB06D"
+				item: "powah:energy_cable_hardened"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"029922AB09F8C76A"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "5D594154819DD145"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15561179FA3DA02E"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "38CAEE3F16B26CEB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "5333BF78E072B674"
+				item: "powah:ender_gate_hardened"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"0E3A9D5E1E8AAF89"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "6ED2F8A8DEED417D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37E91B34E25F494D"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "71BF900C83503328"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "2AA92A1DCA9C3CAF"
+				item: "powah:magmator_hardened"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"67DE5F982629BB34"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "2AE17A935862BCBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56DB84169DD497F9"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "0F62C43192364B78"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "297B24A480069307"
+				item: "powah:furnator_hardened"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"60F5DC851FCFF1B2"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "6230C6884B800689"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3BC3FB37A2F3B9C8"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "679396D0CC02A060"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "1FAA953BA925186C"
+				item: "powah:thermo_generator_hardened"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"5F6152CF085D75D6"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "05B0A7D0B991050F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1713B3EA72A983CB"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "298FF735E0518BDD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "60AF685179E1AB4B"
+				item: "powah:reactor_hardened"
+				type: "item"
+			}]
+			title: "Reactor (Hardened)"
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"7890A1478121D2CD"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "6C8148B3AE0A2222"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F06DF97F7F5C468"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "02E45FFD4554B630"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "11F169284433B9B7"
+				item: "powah:solar_panel_hardened"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"604AB95A7600B150"
+				"562BD37539EE318E"
+			]
+			id: "79421463F01ED2D7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "399E51AED917E377"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "5D1E0C5F63B02C2C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "022DA80D4ABA1C00"
+				item: {
+					Count: 1b
+					id: "powah:battery_blazing"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["562BD37539EE318E"]
+			hide_dependency_lines: true
+			id: "13FDBA4BC4514F58"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49FD98A963240BF5"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "495A35BBE79525E0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "0E9A11E8D18F4183"
+				item: "powah:energy_discharger_blazing"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"04930767C52C7CC2"
+				"562BD37539EE318E"
+			]
+			id: "04811BA420B80046"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "75514E5D42839B97"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "76BC2C5552C75D1A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3F987D5B5E9410DF"
+				item: "powah:energy_hopper_blazing"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7444B85503DE2C53"
+				"562BD37539EE318E"
+			]
+			id: "1D80E6C3327AB376"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E5B513A15344949"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "37434D0CC9A5B0E4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "23562B6B16954B2E"
+				item: "powah:player_transmitter_blazing"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["562BD37539EE318E"]
+			hide_dependency_lines: true
+			id: "564F731F0F3E5AEC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4995ADDF96D62FC9"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "6B9F589C2E8BC325"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "798970D8B1A023B8"
+				item: "powah:ender_cell_blazing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"7FEE780F37A1322E"
+				"562BD37539EE318E"
+			]
+			id: "25088F06228F8561"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B2072A45F758E4C"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "60BE5AA8BA68AA39"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "50B61EC144D1832F"
+				item: "powah:energy_cell_blazing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"029922AB09F8C76A"
+				"562BD37539EE318E"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "0C5936697C9B3716"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "049B68462787BAFD"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "55AAD824064689CB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2A02CDC7FDC41BD1"
+				item: "powah:energy_cable_blazing"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"0C5936697C9B3716"
+				"562BD37539EE318E"
+			]
+			id: "1F55B2FA187F63DD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "28804F9A97A3E425"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "22B65065260F8A5F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "1F8C7940E92E8229"
+				item: "powah:ender_gate_blazing"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"6ED2F8A8DEED417D"
+				"562BD37539EE318E"
+			]
+			id: "0C7D0AB254DF8CF1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "62814A9FA8AC2592"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "2721ED866794D71C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3F7EBFC46DB90461"
+				item: "powah:magmator_blazing"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"2AE17A935862BCBF"
+				"562BD37539EE318E"
+			]
+			id: "323F7A0C4FAC28D0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EEB2D20FA794E4D"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "7128821934715B0C"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2E5070E71CCEDADE"
+				item: "powah:furnator_blazing"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"6230C6884B800689"
+				"562BD37539EE318E"
+			]
+			id: "44C1315098B9CF3F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72A14865203125D7"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "17B757FE2EAEA913"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "33E55040BA517135"
+				item: "powah:thermo_generator_blazing"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"05B0A7D0B991050F"
+				"562BD37539EE318E"
+			]
+			id: "6754612E9AD4B9C0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EC728FD9C8F05B4"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "62477697CA962B0F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "6CA9B3DA3B774238"
+				item: "powah:reactor_blazing"
+				type: "item"
+			}]
+			title: "Reactor (Blazing)"
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"6C8148B3AE0A2222"
+				"562BD37539EE318E"
+			]
+			id: "7C34EED27A9737D4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53872D4056C7D9D8"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "4BCF7E68022B30ED"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6F667F3C54316DA3"
+				item: "powah:solar_panel_blazing"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["7D7983F39E6E818D"]
+			hide_dependency_lines: true
+			id: "555566F1148F5229"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A18165C0855BF42"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "6A9E1326A8A119F5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "04410F1240964912"
+				item: "powah:energy_discharger_niotic"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["04811BA420B80046"]
+			id: "5A8DE0C7D4F28E05"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14975DBB973B9595"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "7041E7242D3861A0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "5E09C884ABD4A22F"
+				item: "powah:energy_hopper_niotic"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["1D80E6C3327AB376"]
+			id: "2DD9994665799747"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7BE32CBC4F2E912D"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "6E4CC4AEC9D8721A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "7FB09E6585E098BB"
+				item: "powah:player_transmitter_niotic"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["79421463F01ED2D7"]
+			id: "03798EF7AB47BB3D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "10E7F35B7262EA37"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "6A8D144C5BA3D081"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "732BEE5909694731"
+				item: {
+					Count: 1b
+					id: "powah:battery_niotic"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7D7983F39E6E818D"]
+			hide_dependency_lines: true
+			id: "1CCCA214865526F3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "26824E0692C7CD6E"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "375C89AC95AC1F3B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2FE8500140D5D2E8"
+				item: "powah:ender_cell_niotic"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["25088F06228F8561"]
+			id: "6EFB4BF8110F2712"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "336DE088F93C2773"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "43505AB66A3199A4"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6B0A0DA8C0C79568"
+				item: "powah:energy_cell_niotic"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0C5936697C9B3716"
+				"7D7983F39E6E818D"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "68B604EF40198B8D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4777EDFDBBE22036"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "2A076AC00542C7CD"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "73D0B49F46505EB0"
+				item: "powah:energy_cable_niotic"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["68B604EF40198B8D"]
+			id: "584BD9A6F7594867"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "553724173203A123"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "782038EC955F66DE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6947E1FB9DF4719A"
+				item: "powah:ender_gate_niotic"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0C7D0AB254DF8CF1"]
+			id: "03442045ED56068F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A4A2AA7E595FEB5"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "22599F0527EEA03D"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "0AD625D068474E21"
+				item: "powah:magmator_niotic"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["323F7A0C4FAC28D0"]
+			id: "24EE138780C43447"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09289D5CE0C59DF4"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "285C49BA853D2FCB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "436D9B4714379730"
+				item: "powah:furnator_niotic"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["44C1315098B9CF3F"]
+			id: "28EE8C172F9DF5C1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "141433821E0AA5EF"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "61A665E0362576F0"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3507C8B858D39314"
+				item: "powah:thermo_generator_niotic"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6754612E9AD4B9C0"]
+			id: "0FFF2BEE5D8EBE12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "093558B6D3AD8663"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "7DAAF18666B1C847"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "011563130B58F561"
+				item: "powah:reactor_niotic"
+				type: "item"
+			}]
+			title: "Reactor (Niotic)"
+			x: 6.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7C34EED27A9737D4"]
+			id: "39386F88CB38CF36"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33464F89B8D1FB7E"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "5486B9D0023A62EB"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "56504998BB4B686E"
+				item: "powah:solar_panel_niotic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["7E92ED270C67FDE5"]
+			hide_dependency_lines: true
+			id: "6D88C19F47D0D469"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "06074E4D85E9625E"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "27DAD35DC7E2C8C4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "1BAC364D2AF426D3"
+				item: "powah:capacitor_basic_tiny"
+				type: "item"
+			}]
+			title: "Tier: &7Tiny&r"
+			x: -0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["7E92ED270C67FDE5"]
+			hide_dependency_lines: true
+			id: "66ECC26BC81D0093"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "72AD97ECD624C9F1"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "4384750DCCD8BCAC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3027F7F9B0D0EB88"
+				item: "powah:capacitor_basic"
+				type: "item"
+			}]
+			title: "Tier: &bBasic&r"
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["03798EF7AB47BB3D"]
+			id: "63E57D2745D24761"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E00D9EA078233CE"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "1D3A0A467A2F1DB2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "064EE05D48DAFC60"
+				item: {
+					Count: 1b
+					id: "powah:battery_spirited"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["2DD9994665799747"]
+			id: "11F0D662FF4DC335"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0869AE48992AACA7"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "0CDDF00FD7A96C58"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5409500542236E1A"
+				item: "powah:player_transmitter_spirited"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["5A8DE0C7D4F28E05"]
+			id: "18B20F4F27F37197"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0354276CBFD56D27"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "3CCEF8B4922C5AD9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0BB591BF32031D66"
+				item: "powah:energy_hopper_spirited"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["25EFC21A3C48E0B6"]
+			hide_dependency_lines: true
+			id: "0536D7B41964FE38"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B55A38A45331C60"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "49AED7663FF7E87A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "26D5E58095BD9A31"
+				item: "powah:energy_discharger_spirited"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["25EFC21A3C48E0B6"]
+			hide_dependency_lines: true
+			id: "486356E189081ADC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7123F500A918DB75"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "617FF7989E95A7FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "60A94CD9FA76AF4B"
+				item: "powah:ender_cell_spirited"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["6EFB4BF8110F2712"]
+			id: "4449AD53BCE797E1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14DFF6417C3A2982"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "576792D73AB84741"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "355DD6351F004027"
+				item: "powah:energy_cell_spirited"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"68B604EF40198B8D"
+				"25EFC21A3C48E0B6"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "379EBE12E3F61679"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4628C572883B4735"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "6258FB9CBCB92B8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "112F14F2CFAAE9B7"
+				item: "powah:energy_cable_spirited"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["379EBE12E3F61679"]
+			id: "335927C2D234451A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7870CE9274C8B1E9"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "057CE0117FCA9D7E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5AA3BDCABBC5E9C1"
+				item: "powah:ender_gate_spirited"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["03442045ED56068F"]
+			id: "36B14701D95C3C21"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "03ADA0DDF99F29A6"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "6380B215B854230B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E611F9024AF2142"
+				item: "powah:magmator_spirited"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["24EE138780C43447"]
+			id: "5A7C92F05AF39FDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "612FB730577BC7F4"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "12D1549AD6F0AE28"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "69E6F047C9CE65D5"
+				item: "powah:furnator_spirited"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["28EE8C172F9DF5C1"]
+			id: "637A8E4BBF108417"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "33E8FCF6F8E7CB05"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "7E79681CBAAC299B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "32F356FA79D13349"
+				item: "powah:thermo_generator_spirited"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["0FFF2BEE5D8EBE12"]
+			id: "341486C9F277FEB7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FD775B49FC7AD8C"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "3B76ED3D475D74E5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "31C9199965D38CAB"
+				item: "powah:reactor_spirited"
+				type: "item"
+			}]
+			title: "Reactor (Spirited)"
+			x: 6.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["39386F88CB38CF36"]
+			id: "760F80E1C273C0AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "046DDDDCAAF2BCEB"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "4296AEDE69358AC9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6A76F943F5E6E2E7"
+				item: "powah:solar_panel_spirited"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"11F0D662FF4DC335"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "348FEC9A50C2E62E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "461364E687D0F236"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "2AFB6334D91B8FD7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "3FE9AB0CAE241A22"
+				item: "powah:player_transmitter_nitro"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4F1FFC02F4EAA2E6"]
+			hide_dependency_lines: true
+			id: "24510A5C98703C84"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4854D191BA53A416"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "57B8413287334672"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "5526935A94E25966"
+				item: "powah:energy_discharger_nitro"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"18B20F4F27F37197"
+				"4F1FFC02F4EAA2E6"
+			]
+			hide_dependency_lines: true
+			id: "41DC771674A6C387"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45CDC85FB4C3A138"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "423D4566074A0A55"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "01ABA3DA3EFD0C2A"
+				item: "powah:energy_hopper_nitro"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"63E57D2745D24761"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "7EBA36EF1858F428"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32898EFFF794C2B0"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "29DA52B9C2CC7AC6"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "053841A23C52379F"
+				item: {
+					Count: 1b
+					id: "powah:battery_nitro"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4F1FFC02F4EAA2E6"]
+			id: "3B28A8BA318D438F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "477548F6982B6299"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "47E25C76BF619695"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4FBBE996E440514A"
+				item: "powah:ender_cell_nitro"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"4449AD53BCE797E1"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "503CD7E104C8BA5D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78E1CECA051B681A"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "4AC330025BE2F012"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "6B9FC8EDB5ED952E"
+				item: "powah:energy_cell_nitro"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"379EBE12E3F61679"
+				"4F1FFC02F4EAA2E6"
+			]
+			dependency_requirement: "one_completed"
+			id: "3CD1F9E00E33C6C9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "521099624333DE1E"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "737998404DAF6FD5"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "25DA30BFB0E2C71B"
+				item: "powah:energy_cable_nitro"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"3CD1F9E00E33C6C9"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "44F016F465082C55"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "68A1E17843A0B791"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "601F715D79D3E748"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "09770035C196D36D"
+				item: "powah:ender_gate_nitro"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"36B14701D95C3C21"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "4E67DE071FC9D80D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1279B07A8A80FEF8"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "41A64BC8DF294061"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "36A675359DAB88CA"
+				item: "powah:magmator_nitro"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"5A7C92F05AF39FDB"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "129F6987E144B048"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1E983232CF2EF67B"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "58FFEDCA3B80E811"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4030018C42DCB948"
+				item: "powah:furnator_nitro"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"637A8E4BBF108417"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "71D08D1C8EA4C631"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08E9287775B53FFD"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "290D33D880E718A3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "7E8AFD4455E17266"
+				item: "powah:thermo_generator_nitro"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"341486C9F277FEB7"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "61DCECE1FC38E151"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "32D20D1E95358153"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "68856C5C7FBB49D4"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "3EA18C3E289956AE"
+				item: "powah:reactor_nitro"
+				type: "item"
+			}]
+			title: "Reactor (Nitro)"
+			x: 6.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"760F80E1C273C0AD"
+				"4F1FFC02F4EAA2E6"
+			]
+			id: "393050BEA59F1570"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7160C8F86CD5C89D"
+					table_id: 1432029627393651571L
+					type: "random"
+				}
+				{
+					id: "0D5273DE2F25A977"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "0E6B0D7B3BAC9760"
+				item: "powah:solar_panel_nitro"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"7E92ED270C67FDE5"
+				"6D88C19F47D0D469"
+			]
+			description: ["Used to energize items using the Energizing Orb."]
+			hide_dependency_lines: true
+			id: "1C273D9E046FD18A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DEB4C0CFE7C4D29"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "601B548099153FD8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2E74430108DE6170"
+				item: "powah:energizing_rod_starter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"1C273D9E046FD18A"
+				"66ECC26BC81D0093"
+			]
+			id: "4EA69350A20B0B5B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A843A787074F467"
+					table_id: 5411577453178694060L
+					type: "random"
+				}
+				{
+					id: "0C561DF80C2D9A8A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1B8D93C482A9186D"
+				item: "powah:energizing_rod_basic"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"4EA69350A20B0B5B"
+				"5E090C9BB4DAA5D4"
+			]
+			id: "09DECE4E7977D852"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "15E6315BB25D077E"
+					table_id: 323217218064538611L
+					type: "random"
+				}
+				{
+					id: "4C7355E80870AA3E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "11BF64326BEABFF4"
+				item: "powah:energizing_rod_hardened"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"09DECE4E7977D852"
+				"562BD37539EE318E"
+			]
+			id: "172B0296F87D6725"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7809EE77DCB57F35"
+					table_id: 2050559670769664902L
+					type: "random"
+				}
+				{
+					id: "5C502AD7902DECF1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "4FF7B35FC042EDA3"
+				item: "powah:energizing_rod_blazing"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: [
+				"172B0296F87D6725"
+				"7D7983F39E6E818D"
+			]
+			id: "270B5EA3E710A209"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44E183EC5FAFAACD"
+					table_id: 5644430283229160518L
+					type: "random"
+				}
+				{
+					id: "1F35D42EC2F4A0A6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "4779D480ED4EB6E9"
+				item: "powah:energizing_rod_niotic"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"270B5EA3E710A209"
+				"25EFC21A3C48E0B6"
+			]
+			id: "69E572EA56B3B31D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46BB2C3AB315B384"
+					table_id: 5896103029501993867L
+					type: "random"
+				}
+				{
+					id: "4D3A6B1A529D586F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "11FD956A8B254218"
+				item: "powah:energizing_rod_spirited"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"69E572EA56B3B31D"
+				"4F1FFC02F4EAA2E6"
+			]
+			hide_dependency_lines: true
+			id: "2C9EE7BE03767976"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F7F46D78D1EC985"
+					type: "random"
+				}
+				{
+					id: "084A23000B1F4C8A"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "4AC121B4951DE6E9"
+				item: "powah:energizing_rod_nitro"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["34CB6C162F5ABA54"]
+			description: ["Capacitors are one of the basic units required for crafting in Powah, and are used in any machine the needs to transfer or store energy."]
+			id: "48D9BC5F27EB7EFC"
+			rewards: [{
+				id: "19FC42004CE4ACF0"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "I have to make how many of these!?"
+			tasks: [{
+				id: "244F4D657A724BD7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:capacitor_basic_tiny"
+							}
+							{
+								Count: 1b
+								id: "powah:capacitor_basic"
+							}
+						]
+					}
+				}
+				title: "Basic Capacitor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			description: [
+				"Powah is a powerful tech mod that centers around transfering, storing and producing large amounts of Powah."
+				""
+				"Dielectric paste is the base for much of what you'll be working with, insulating your high power electrical equipment from your fingies"
+			]
+			id: "34CB6C162F5ABA54"
+			rewards: [
+				{
+					id: "6672CBBA98D952AA"
+					item: "powah:book"
+					type: "item"
+				}
+				{
+					id: "48B3296F55328CBE"
+					item: {
+						Count: 1b
+						id: "powah:wrench"
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D6B696EB3A61233"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 14731911
+							Loot: "aof:loot_bags/powah/common"
+							Name: "Powah! Common Lootbag"
+							Type: "COMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Getting Started"
+			tasks: [{
+				id: "12EFACEEF2CB7BB2"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["72868D5235EEB1D1"]
+			description: ["While there aren't many inventory items in Powah that require energy, the batteries from Powah are quite helpful in helping you power your tools from other mods, like Industrial Revolution or Tech Reborn."]
+			id: "6E73A1FC54068F9D"
+			rewards: [{
+				id: "65518AA5E8ECF7D0"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The power of the sun in the palm of my hand"
+			tasks: [{
+				id: "7C11C6028FA55AD5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:battery_starter"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_basic"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_hardened"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_blazing"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_niotic"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_spirited"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "powah:battery_nitro"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Battery"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["72868D5235EEB1D1"]
+			description: ["Energy cells are a great way to store energy and redistribute it later when your machines need it most."]
+			id: "63E3FE37529D0653"
+			rewards: [{
+				id: "039CAD1A22774986"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Big Box Storin'"
+			tasks: [{
+				id: "02FE38964253A488"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_cell_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Cell"
+				type: "item"
+			}]
+			title: "Energy Cells"
+			x: 11.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["48D9BC5F27EB7EFC"]
+			description: [
+				"The energizer is used to infuse 1 or more items with energy to create a new item"
+				""
+				"Multiple infusers allow you to infuse the item(s) with energy faster and therefore craft faster, very useful when making items that require a large amount of infused energy"
+			]
+			id: "3AAEDB182C3919CC"
+			rewards: [{
+				id: "189E7C1448EBEB75"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Light 'em up boys"
+			tasks: [
+				{
+					id: "3A877A84B52510B5"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					id: "07D998F67B8E9745"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:energizing_rod_starter"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_basic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_hardened"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_blazing"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_niotic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_spirited"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_nitro"
+								}
+							]
+						}
+					}
+					title: "Energizing Rod"
+					type: "item"
+				}
+			]
+			title: "Energizing"
+			x: 17.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["Energized steel is a crafting material made from gold and iron, used as a base for the Hardened level of machinery in Powah"]
+			id: "4768DD5F60DE3F4A"
+			rewards: [{
+				id: "034C40BA404D4DFA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hard as ... Steel?"
+			tasks: [{
+				id: "147B469C5C23C57F"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["Blazing crystals are made from a material you would never suspect: Blaze powder. Its used as the material for the blazing tier of machines"]
+			id: "4D86F088280981A2"
+			rewards: [{
+				id: "2160D5AD476713DB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sizzle pop"
+			tasks: [{
+				id: "5907F70C58C684D5"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["Niotic crystals are made from Diamonds, and are a key component for the Niotic tier of machines"]
+			id: "0DBF3DBFA978291D"
+			rewards: [{
+				id: "2F4802C8A8F47A08"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/epic"
+						Name: "Powah! Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Blue Crystals :)"
+			tasks: [{
+				id: "40F2DC6B69FD7D07"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["This resource uses emeralds, and is necessary for the Spirited level of machines"]
+			id: "45E782AC2C3E97EE"
+			rewards: [{
+				id: "61F58E9782C28446"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/epic"
+						Name: "Powah! Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "I thought Spirits were blue"
+			tasks: [{
+				id: "151572FE22F1BD41"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 16.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["Nitro crystals are materials required for the highest tier of machinery, Nitro, and are made with Nether Stars and redstone. If used properly they will also enable you to use animated emojis in chat."]
+			id: "5F4CDC52244B937E"
+			rewards: [{
+				id: "6282C39A0E7F5D3D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/legendary"
+						Name: "Powah! Legendary Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Now only $2.99!"
+			tasks: [{
+				id: "0FA248D18B3B6AB8"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 17.5d
+		}
+		{
+			dependencies: [
+				"5D08158FE91F8A63"
+				"48D9BC5F27EB7EFC"
+			]
+			description: [
+				"Reactors are powerful generators that enable you to make varying amounts of energy from Uranite that you can find underground."
+				""
+				"You'll need 36 to form the multiblock. Rightclicking the ground with 36 reactor blocks will automatically form the reactor."
+			]
+			id: "435B42806E447D20"
+			rewards: [{
+				id: "479A964FC6EB434D"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "RADIOACTIVE RADIOACTIVE WOAHaaOAAh"
+			tasks: [{
+				count: 36L
+				id: "32F11CA22D877230"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:reactor_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_nitro"
+							}
+						]
+					}
+				}
+				title: "Reactor"
+				type: "item"
+			}]
+			title: "Reactors"
+			x: 14.5d
+			y: 17.5d
+		}
+		{
+			description: ["Uranite is a resource you can find underground, and is a required component for creating and fueling a Powah reactor"]
+			id: "5D08158FE91F8A63"
+			rewards: [{
+				id: "1B27386FE4C091A0"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This seems unsafe"
+			tasks: [{
+				id: "62B7B724197D88C5"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["22E4363ECF659C5B"]
+			description: ["Ender Cells are part of an wireless network of energy. You can add ender cells to expand the capacity of your network."]
+			id: "70197A6164010B19"
+			rewards: [{
+				id: "76F183A92789C904"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Call your Carrier"
+			tasks: [{
+				id: "2EC3E158BE82E999"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:ender_cell_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_nitro"
+							}
+						]
+					}
+				}
+				title: "Ender Cell"
+				type: "item"
+			}]
+			title: "Ender Cells"
+			x: 16.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3AAEDB182C3919CC"]
+			description: ["The ender core is the base of a frequency based wireless energy network. You can tap into the network or add energy to it using blocks made from this core"]
+			id: "22E4363ECF659C5B"
+			rewards: [{
+				id: "3FC9BE8BD8A05E10"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Energy! Now on 5G"
+			tasks: [{
+				id: "4DD0E201A56082AA"
+				item: "powah:ender_core"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 13.5d
+		}
+		{
+			description: ["Powah is quite a powerful mod that will quickly makes your machines full of power. You'll want to find a way to store energy both on the go and in your base to make a more effective setup."]
+			id: "72868D5235EEB1D1"
+			subtitle: "Zzzt Zzzt"
+			tasks: [{
+				id: "2ABFE7FABC8CAD49"
+				title: "Energy Storage"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["718CD4D1272E5DD3"]
+			description: ["This generator generates energy by harnessing energy from a heat source underneath it and consuming a liquid coolant."]
+			id: "28290CA40D704C6B"
+			rewards: [{
+				id: "0C62EE01DB5CE5B5"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bring on da Heat!"
+			tasks: [{
+				id: "29E65C4BDBDF7F65"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:thermo_generator_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_nitro"
+							}
+						]
+					}
+				}
+				title: "Thermo Generator"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["718CD4D1272E5DD3"]
+			description: ["This generator can create energy by burning liquid fuels."]
+			id: "4E09AA1CA6FF2AD4"
+			rewards: [{
+				id: "54B8CA4496D74966"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Fluid Flux"
+			tasks: [{
+				id: "3236CFA20A013269"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:magmator_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_nitro"
+							}
+						]
+					}
+				}
+				title: "Magmator"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["718CD4D1272E5DD3"]
+			description: ["This extremely unique generator creates energy from burning item fuel."]
+			id: "3093AD7CAFEA9113"
+			rewards: [{
+				id: "4A94D0274ADE9199"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Haven't seen one of these before."
+			tasks: [{
+				id: "59EC736AD9AF7F8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:furnator_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_nitro"
+							}
+						]
+					}
+				}
+				title: "Furnator"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["718CD4D1272E5DD3"]
+			description: ["A simple sheet of metal that generates energy from the power of the sun."]
+			id: "644DEDB36A0827D7"
+			rewards: [{
+				id: "3ACC311027719B86"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Photosynthesis \\o/"
+			tasks: [{
+				id: "1D3ADC1945CD78B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:solar_panel_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_nitro"
+							}
+						]
+					}
+				}
+				title: "Solar Panel"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["48D9BC5F27EB7EFC"]
+			description: ["Powah cables help you transfer large amounts of energy to and from generators and machines."]
+			id: "28C0FEFEEC51B963"
+			rewards: [{
+				id: "7106F5020C92D855"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/common"
+						Name: "Powah! Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "YAMTAC (Yet another mod that adds cables)"
+			tasks: [{
+				id: "4DC73CF40FA3BCAD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_cable_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Cable"
+				type: "item"
+			}]
+			title: "Energy Cables"
+			x: 14.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["22E4363ECF659C5B"]
+			description: [
+				"The Ender gate is an item that allows you to tap into you ender network to input or output energy."
+				""
+				"Its cheaper than ender cells, making it better for transfer to your machines, but doesn't have an internal capacity so it will not increase your ender network's capacity"
+			]
+			id: "277D203450B35083"
+			rewards: [{
+				id: "5EC7F4DF91964C90"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Downloading..."
+			tasks: [{
+				id: "2D1D8A371C3653DE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:ender_gate_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_nitro"
+							}
+						]
+					}
+				}
+				title: "Ender Gate"
+				type: "item"
+			}]
+			title: "Ender Gates"
+			x: 17.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E0D6F1DDD305855"]
+			description: [
+				"This machine allows you to drain the energy found inside of any energy holding item that supports extraction."
+				""
+				"It'll store the energy in an internal buffer, and allows you to extract it to distribute into your nearby machines."
+			]
+			id: "74F0AD6CC49C1CF6"
+			rewards: [{
+				id: "765EC647D774674C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Energy Draino"
+			tasks: [{
+				id: "5217531A148059EF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_discharger_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Discharger"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["4E0D6F1DDD305855"]
+			description: ["This nifty little machine will insert energy into energy containing items found in a container on the output face of an energy hopper"]
+			id: "47B76A23E66EA846"
+			rewards: [{
+				id: "576EF2E667A51455"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sidecar Energy"
+			tasks: [{
+				id: "3ACC4487665F8FCC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_hopper_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Hopper"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4E0D6F1DDD305855"]
+			description: [
+				"The player transmitter is a useful block that emits energy and beams it straight into your hands."
+				""
+				"It wirelessly charges items in your armor slots or hand slots of a linked player."
+			]
+			id: "75BE62C479A3DDAB"
+			rewards: [{
+				id: "11482DD40581C651"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 14731911
+						Loot: "aof:loot_bags/powah/rare"
+						Name: "Powah! Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bluetooh could never"
+			tasks: [{
+				id: "6F978E3B646765B5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:player_transmitter_starter"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:player_transmitter_nitro"
+							}
+						]
+					}
+				}
+				title: "Player Transmitter"
+				type: "item"
+			}]
+			x: 24.5d
+			y: 13.5d
+		}
+		{
+			id: "4E0D6F1DDD305855"
+			tasks: [{
+				id: "4C9742E00DB6B275"
+				title: "Item Charging"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 13.5d
+		}
+		{
+			id: "718CD4D1272E5DD3"
+			tasks: [{
+				id: "3F96255BD6DC5A4B"
+				title: "Energy Generation"
+				type: "checkmark"
+			}]
+			x: 23.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"3AAEDB182C3919CC"
+				"28C0FEFEEC51B963"
+				"48D9BC5F27EB7EFC"
+				"34CB6C162F5ABA54"
+				"6E73A1FC54068F9D"
+				"28290CA40D704C6B"
+				"3093AD7CAFEA9113"
+				"63E3FE37529D0653"
+				"45E782AC2C3E97EE"
+				"70197A6164010B19"
+				"718CD4D1272E5DD3"
+				"644DEDB36A0827D7"
+				"4768DD5F60DE3F4A"
+				"22E4363ECF659C5B"
+				"4D86F088280981A2"
+				"0DBF3DBFA978291D"
+				"5F4CDC52244B937E"
+				"72868D5235EEB1D1"
+				"75BE62C479A3DDAB"
+				"4E0D6F1DDD305855"
+				"74F0AD6CC49C1CF6"
+				"277D203450B35083"
+				"5D08158FE91F8A63"
+				"47B76A23E66EA846"
+				"4E09AA1CA6FF2AD4"
+				"435B42806E447D20"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:powah"
+					}
+				}
+			}
+			id: "48383E9EB2256146"
+			rewards: [{
+				id: "60DC9A5FFB9F7481"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:powah"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "1E17339264668ACB"
+				title: "&4Powah 100%"
+				type: "checkmark"
+			}]
+			x: 19.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"As the name implies, Powah! is all about generating, storing, and transmitting power through various means. "
+				""
+				"In addition, it offers a few unique mechanics and a variety of new materials to go along with its various tiers. Read along to discover more. "
+			]
+			hide: true
+			icon: "powah:book"
+			id: "0D94C10EB96053E5"
+			min_width: 250
+			rewards: [{
+				id: "413EB9C7629D2B60"
+				item: {
+					Count: 1b
+					id: "powah:wrench"
+					tag: {
+						PowahWrenchNBT: { }
+					}
+				}
+				title: "Wrench"
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "4C763494FAB6F8A2"
+				item: "powah:dielectric_paste"
+				type: "item"
+			}]
+			title: "Powah!"
+			x: 19.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["000000000000016F"]
+			description: ["An energy generating mod would hardly be complete without some ways to transmit and store it. Powah comes with everything from personal batteries to charge held items to cables and in world storage cells. "]
+			hide_dependency_lines: true
+			icon: "powah:dielectric_casing"
+			id: "0000000000000172"
+			min_width: 300
+			shape: "hexagon"
+			tasks: [{
+				id: "112F2336BA13572A"
+				item: "powah:dielectric_casing"
+				type: "item"
+			}]
+			title: "Getting Started: Logistics and Storage"
+			x: 24.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["146BB956A5575B4D"]
+			description: [
+				"Operating on all sorts of basic Furnace fuel, Furnators generate respectable energy starting out and are a great way to obtain a little extra power from materials that might otherwise be considered waste. "
+				""
+				"Each tier of Furnator will generate the same amount of energy per fuel, they’ll just do so quicker. So, while a Nitro Furnator can generate some decent energy, it will consume fuel very quickly to do so. "
+			]
+			hide_dependency_lines: true
+			icon: "powah:furnator_nitro"
+			id: "0000000000000176"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "5E3F15DD86AD5FCB"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000177"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:furnator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:furnator_nitro"
+							}
+						]
+					}
+				}
+				title: "Furnators"
+				type: "item"
+			}]
+			title: "Furnator"
+			x: 14.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["0000000000000172"]
+			description: [
+				"Simple cables to get energy from one place to another without fuss. "
+				""
+				"The portion of a cable that connects to a machine may be Right-Clicked to adjust it or make it Redstone sensitive. "
+			]
+			hide_dependency_lines: true
+			id: "000000000000017C"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "3A56EB973797BC59"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "powah:energy_cable_nitro"
+				id: "000000000000017D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_cable_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cable_nitro"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Cables"
+				type: "item"
+			}]
+			title: "Energy Cables"
+			x: 25.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["146BB956A5575B4D"]
+			description: [
+				"A sort of geothermal generator, the Magmator generates energy from hot fluids such as Lava. "
+				""
+				"Each tier of Magmator will generate the same amount of energy per bucket of fuel, they’ll just do so quicker. So, while a Nitro Magmator can generate some decent energy, it will consume fuel very quickly to do so."
+			]
+			hide_dependency_lines: true
+			icon: "powah:magmator_nitro"
+			id: "000000000000017E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "074EB4DE8F4FF559"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000017F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:magmator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:magmator_nitro"
+							}
+						]
+					}
+				}
+				title: "Magmators"
+				type: "item"
+			}]
+			title: "Magmator"
+			x: 13.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["146BB956A5575B4D"]
+			description: [
+				"A thermoelectric generator that requires a heat differential to generate energy. The Thermo Generator should be placed on a hot block of some sort and coolant should be piped into it. "
+				""
+				"The heat source itself will never be consumed, but the coolant is used up slowly over time. "
+				""
+				"Check Uses on the Thermo Generator in JEI to see all available heat sources and coolants. "
+			]
+			hide_dependency_lines: true
+			icon: "powah:thermo_generator_nitro"
+			id: "0000000000000180"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000064D"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000181"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:thermo_generator_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:thermo_generator_nitro"
+							}
+						]
+					}
+				}
+				title: "Thermo Generators"
+				type: "item"
+			}]
+			title: "Thermo Generator"
+			x: 16.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["146BB956A5575B4D"]
+			description: ["Only operating half of the day, Solar Panels still make an excellent power source for certain applications"]
+			hide_dependency_lines: true
+			id: "0000000000000182"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000028A"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000183"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:solar_panel_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:solar_panel_nitro"
+							}
+						]
+					}
+				}
+				title: "Solar Panels"
+				type: "item"
+			}]
+			title: "Solar Panel"
+			x: 15.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["0000000000000182"]
+			description: ["When applied to a Solar Panel, a Lens of Ender will allow it to see the sun even while deep underground. It still won’t operate at night, but at least it can be brought inside or hidden. "]
+			id: "0000000000000184"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000064C"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000185"
+				item: "powah:lens_of_ender"
+				type: "item"
+			}]
+			title: "Lens of Ender"
+			x: 15.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["Powerful fuel for use in Reactors, though its high cost to craft means lower tier Reactors may operate at a net loss. "]
+			id: "0000000000000186"
+			rewards: [{
+				count: 16
+				id: "2F952BDC96B6C978"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0000000000000187"
+				item: "powah:uraninite"
+				type: "item"
+			}]
+			title: "Uraninite"
+			x: 19.5d
+			y: 23.0d
+		}
+		{
+			dependencies: ["146BB956A5575B4D"]
+			description: [
+				"Reactors are large multiblock generators that consume multiple inputs to operate efficiently. "
+				""
+				"First, and most importantly is the actual fuel, Uraninite. Each piece represents 100mb in the fuel gauge and the Reactor performs best when the fuel gauge is full. Dropping a single piece of fuel in, versus filling the gauge will result in dramatically lower output per fuel, so try to keep it full while running."
+				""
+				"Next comes coolant. Running the reactor generates heat that must be dissipated. To do this, the reactor needs both Solid and Liquid coolants. Checking Uses on a Reactor Block in JEI will show what counts for each. The Liquid Coolants are not consumed, but the Solid Coolants are. "
+				""
+				"Finally, the Reactor accepts two regulator materials, Carbon which helps the Reactor run more efficiently, and Redstone which will allow it to produce more energy per tick, though less efficiently."
+				""
+				"The Carbon gauge accepts the same inputs as a Furnace or Furnator; Charcoal is likely the easiest to supply endlessly. "
+				""
+				"Building a Reactor is as simple as holding a stack of 36 blocks and placing one. The rest of them will place automatically."
+			]
+			hide_dependency_lines: true
+			icon: "powah:reactor_nitro"
+			id: "773224AE9F38080B"
+			min_width: 300
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "2D695290477D3526"
+					player_command: false
+					title: "Powah Loot Box"
+					type: "command"
+				}
+				{
+					count: 16
+					id: "3171C436450BF2F4"
+					item: "powah:dry_ice"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 36L
+				id: "0000000000000189"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:reactor_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:reactor_nitro"
+							}
+						]
+					}
+				}
+				title: "Reactors"
+				type: "item"
+			}]
+			title: "Reactor"
+			x: 16.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["000000000000016F"]
+			description: [
+				"Powah introduces just a few types of machines, but multiple tiers of each. Obtaining higher tiers requires more powerful materials which are made with the Energizing Orb."
+				""
+				"The Orb may be operated by hand or via automation, accepting items from any sort of pipe or conveyance. Once items are inserted, they may not be removed via automation until the craft completes, simplifying automated crafting considerably. Items may be removed by hand at any time, however."
+				""
+				"Energy for the craft requires Energizing Rods placed around the Orb. These must be placed on some form of energy cable or battery. The rods themselves may be up to six blocks from the Orb and do not require line of sight; they’ll happily shoot their lasers through any block. "
+				""
+				"Rods will automatically link to the nearest Orb when placed but may be re-linked to another Orb manually with a Wrench. Sneak Right-Click the Wrench in the air to change it to Link mode."
+				""
+				"As energy costs increase for higher tier materials, higher tier Rods are recommended to increase the energy delivery rate, though it’s also viable to simply add more Rods. "
+			]
+			hide_dependency_lines: true
+			icon: "powah:energizing_orb"
+			id: "000000000000018C"
+			min_width: 250
+			rewards: [{
+				count: 2
+				id: "741327C6405C8EBD"
+				item: "powah:energizing_rod_basic"
+				title: "Energizing Rod (Basic)"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "000000000000018D"
+					item: "powah:energizing_orb"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "419CA1A9077ABC63"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:energizing_rod_basic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_hardened"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_blazing"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_niotic"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_spirited"
+								}
+								{
+									Count: 1b
+									id: "powah:energizing_rod_nitro"
+								}
+							]
+						}
+					}
+					title: "Energizing Rods"
+					type: "item"
+				}
+			]
+			title: "Getting Started: Energizing"
+			x: 19.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["0000000000000172"]
+			description: [
+				"Simple tiered energy storage that doubles as an item charger. "
+				""
+				"Each side may be configured separately and the whole Cell may be made Redstone sensitive. "
+			]
+			hide_dependency_lines: true
+			icon: "powah:energy_cell_nitro"
+			id: "000000000000018E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "000000000000028E"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000018F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_cell_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_cell_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Cells"
+				type: "item"
+			}]
+			title: "Energy Cell"
+			x: 23.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["000000000000018E"]
+			description: [
+				"Ender Cells are the basis for cross dimensional and wireless power transfer. "
+				""
+				"Each Cell may be linked to one of up to twelve channels per player, with each channel having separate storage capacities. When first initialized, a channel will have no energy capacity of its own and Batteries or Energy Cells must be added to it. With the Interface open, Shift Right-Click Cells or Batteries to add them to the selected Channel. Each will add its full capacity as well as transfer any stored energy into the Channel. "
+				""
+				"This is a perfect way to recycle and condense any extra energy storage lying around. "
+			]
+			icon: "powah:ender_cell_nitro"
+			id: "0000000000000190"
+			min_width: 300
+			rewards: [{
+				id: "0000000000000226"
+				item: "powah:energy_cell_hardened"
+				title: "Energy Cell (Hardened)"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000191"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:ender_cell_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_cell_nitro"
+							}
+						]
+					}
+				}
+				title: "Ender Cells"
+				type: "item"
+			}]
+			title: "Ender Cell"
+			x: 23.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["0000000000000172"]
+			description: [
+				"Carrying around a battery is an excellent way to keep powered equipment charged on the go, but what if we could regain that inventory slot? The Player Transmitter allows precisely that by remotely charging any items in the owner’s inventory. "
+				""
+				"To set the owner, craft a Binding Card and Right-Click the card in the air. Doing so will bind the card to that player. The card may then be inserted into the Player Transmitter to configure it."
+			]
+			hide_dependency_lines: true
+			icon: "powah:player_transmitter_nitro"
+			id: "0000000000000192"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "412F7E623B9019B8"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [
+				{
+					id: "0000000000000193"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "powah:player_transmitter_basic"
+								}
+								{
+									Count: 1b
+									id: "powah:player_transmitter_hardened"
+								}
+								{
+									Count: 1b
+									id: "powah:player_transmitter_blazing"
+								}
+								{
+									Count: 1b
+									id: "powah:player_transmitter_niotic"
+								}
+								{
+									Count: 1b
+									id: "powah:player_transmitter_spirited"
+								}
+								{
+									Count: 1b
+									id: "powah:player_transmitter_nitro"
+								}
+							]
+						}
+					}
+					title: "Player Transmitter"
+					type: "item"
+				}
+				{
+					id: "0000000000000224"
+					item: "powah:binding_card"
+					type: "item"
+				}
+			]
+			title: "Player Transmitter"
+			x: 24.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["0000000000000190"]
+			description: [
+				"Only one Ender Cell is truly required per channel. More can certainly be used, but they’re considerably more expensive than the alternative, Ender Gates. "
+				""
+				"Like Ender Cells, Ender Gates may be linked to a Channel in their interface. They can be used both for input and output to and from the Ender Network. "
+				""
+				"Unlike an Ender Cell, however, more storage may not be added to the Ender Network from a Gate. This may only be done at a Cell. "
+			]
+			icon: "powah:ender_gate_nitro"
+			id: "0000000000000194"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "51F5753437957980"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000195"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:ender_gate_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:ender_gate_nitro"
+							}
+						]
+					}
+				}
+				title: "Ender Gates"
+				type: "item"
+			}]
+			title: "Ender Gate"
+			x: 23.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["0000000000000192"]
+			description: ["An ordinary Binding Card will only work within the same dimension as the Player Transmitter. By upgrading it to a Dimensional Card, however, the Player can enjoy wireless charging from anywhere. "]
+			id: "0000000000000198"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "7620E5B8D0F50293"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000199"
+				item: "powah:binding_card_dim"
+				type: "item"
+			}]
+			title: "Dimensional Binding Card"
+			x: 24.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["After the Basic tier comes Hardened, the first tier requiring energized materials. "]
+			id: "000000000000019A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "09CDE670DE70DDAE"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000019B"
+				item: "powah:steel_energized"
+				type: "item"
+			}]
+			title: "Energized Steel"
+			x: 18.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["The first of several crystalline materials required by Powah, Blazing Crystals retain enormous heat and double as a decent heat source for Thermo Generators. "]
+			id: "000000000000019C"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "15BA1F3744D7C2CF"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000019D"
+				item: "powah:crystal_blazing"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["As costs increase, so to do the rewards, with Niotic tier machines operating much more quickly."]
+			id: "000000000000019E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "68CD30E38E3F5BF1"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000019F"
+				item: "powah:crystal_niotic"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 24.5d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["The penultimate tier of materials, Spirited is quite powerful in its own right. But with the right materials we can go further still. "]
+			id: "00000000000001A0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "37664B9288E40001"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "00000000000001A1"
+				item: "powah:crystal_spirited"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 24.0d
+		}
+		{
+			dependencies: ["000000000000018C"]
+			description: ["Using incredibly rare materials to craft, Nitro represents the highest tier of Powah."]
+			id: "00000000000001A2"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000294"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "00000000000001A3"
+				item: "powah:crystal_nitro"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 23.0d
+		}
+		{
+			dependencies: ["0000000000000172"]
+			description: ["Energy Hoppers effectively convert a simple chest into a mass charging inventory. Simply place it against a chest or other inventory; any powered items inside will be charged up in short order. "]
+			hide_dependency_lines: true
+			icon: "powah:energy_hopper_nitro"
+			id: "414387508B9644C8"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "4D1C32404BCA93FF"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0993F0AC43F031C2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_hopper_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_hopper_nitro"
+							}
+						]
+					}
+				}
+				title: "Energy Hoppers"
+				type: "item"
+			}]
+			title: "Energy Hoppers"
+			x: 25.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["0000000000000172"]
+			description: ["Energy Dischargers will rapidly drain the energy stored in Batteries, allowing it to be fed into machines. While perhaps less useful when compared to Ender Cells, they still allow for long range and rapid transport of energy by shipping Batteries around. "]
+			hide_dependency_lines: true
+			icon: "powah:energy_discharger_nitro"
+			id: "0DADA0DB59C7F1B3"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/powah/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "4884AAB9BEA3FB71"
+				player_command: false
+				title: "Powah Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5C293198033B6C0D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "powah:energy_discharger_basic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_hardened"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_blazing"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_niotic"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_spirited"
+							}
+							{
+								Count: 1b
+								id: "powah:energy_discharger_nitro"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Energy Discharger"
+			x: 26.0d
+			y: 24.5d
+		}
+		{
+			dependencies: ["000000000000016F"]
+			description: ["Powah offers five different generators, each situationally useful. Consider the application wisely when choosing which to use. "]
+			hide_dependency_lines: true
+			id: "146BB956A5575B4D"
+			shape: "hexagon"
+			tasks: [{
+				id: "6124DA30CE1586E0"
+				item: "powah:capacitor_basic_large"
+				type: "item"
+			}]
+			title: "Getting Started: Power Generation"
+			x: 15.0d
+			y: 22.0d
+		}
+	]
+	title: "Powah"
+}

@@ -1,0 +1,13 @@
+name = "Move Boats"
+filename = "moveboats-1.19.2-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1dbd76b49b2285b610745231033900c5e4dedc32"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4328827
+project-id = 344801

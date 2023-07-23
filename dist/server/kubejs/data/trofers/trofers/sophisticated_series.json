@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "accent": "#c45b34",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 2.5
+    },
+    "scale": 1.0
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "sophisticatedbackpacks:backpack",
+    "count": 1
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.20
+  },
+  "name": {
+    "color": "#c45b34",
+    "text": "Sophisticated Series Trophy"
+  }
+}

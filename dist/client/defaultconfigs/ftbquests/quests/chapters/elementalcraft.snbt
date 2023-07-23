@@ -1,0 +1,2952 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "elementalcraft"
+	group: "1039AC171AB01709"
+	icon: "elementalcraft:purecrystal"
+	id: "4351A2B2F092D7AF"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to &aElementalCraft&f!"
+				""
+				"The &eElementopedia&f is your go-to guide for learning all about this mod!"
+				""
+				"Killing mobs will grant you one of 4 &9Element Shards&r. These are used to create all of the items within the mod."
+				""
+				"Note: You can search up which mobs drop shards in JEI."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "elementalcraft:element_book"
+				}
+			}
+			id: "55F12D063F9D9430"
+			rewards: [
+				{
+					id: "740DFA8F51630C10"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3FA0B0C68D368B75"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "elementalcraft:element_book"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "391334D14FE58A70"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:shards"
+					}
+				}
+				title: "Any #elementalcraft:shards"
+				type: "item"
+			}]
+			title: "ElementalCraft"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55F12D063F9D9430"]
+			id: "04C3CDC36ED3DA81"
+			rewards: [{
+				count: 2
+				id: "4070E931A1327998"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73DD538F07BAF5B0"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E029A2BA469F42D"]
+			description: [
+				"The &eelement extractor&f will extract element out of the element sources that are generated throughout the world. The extractor must be placed directly below the source while also on top of an &eelement container&f."
+				""
+				"The &eelement evaporator&f turns elemental shards into element. Must be placed ontop of a container"
+			]
+			id: "023C2C0632BC0934"
+			rewards: [{
+				id: "0602E484B1FD2ADB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4F879853AC71119A"
+					item: "elementalcraft:extractor"
+					type: "item"
+				}
+				{
+					id: "44A01683531707A4"
+					item: "elementalcraft:evaporator"
+					type: "item"
+				}
+			]
+			title: "Getting Elements"
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["04C3CDC36ED3DA81"]
+			id: "1AC819882704B814"
+			rewards: [{
+				count: 4
+				id: "58989F867695C769"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E9FE2D6EA484356"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E029A2BA469F42D"]
+			description: ["Must be placed on top of an element container."]
+			id: "06AAC66822DE0F2C"
+			rewards: [{
+				id: "252A2D00EB5429FC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5DB67FC59A760562"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1AC819882704B814"]
+			id: "5E029A2BA469F42D"
+			rewards: [{
+				id: "660C1E9798CF4734"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "187FFED3F1787FFA"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			title: "Small Elemental Storage"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06AAC66822DE0F2C"]
+			id: "12BBC87D40762F6E"
+			rewards: [{
+				id: "2D618CF175F89CDE"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "2EBC4AE6123DAECC"
+					item: "elementalcraft:firecrystal"
+					type: "item"
+				}
+				{
+					id: "6528028151D7D157"
+					item: "elementalcraft:watercrystal"
+					type: "item"
+				}
+				{
+					id: "7B2016E40EE73614"
+					item: "elementalcraft:earthcrystal"
+					type: "item"
+				}
+				{
+					id: "515BCE0EAD3B6531"
+					item: "elementalcraft:aircrystal"
+					type: "item"
+				}
+			]
+			title: "Crystals"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06AAC66822DE0F2C"]
+			id: "3CCD6DAB7EEA5CC6"
+			rewards: [
+				{
+					count: 10
+					id: "0D975F4C41C65456"
+					item: "elementalcraft:whiterock"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "53E1C65EC9819C11"
+					item: "elementalcraft:burnt_glass"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3DA54DFAD8B1BF0D"
+					item: "elementalcraft:whiterock"
+					type: "item"
+				}
+				{
+					id: "0A11DB2D2D331404"
+					item: "elementalcraft:burnt_glass"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06AAC66822DE0F2C"]
+			id: "5E25F6AE2AFF8E7D"
+			rewards: [{
+				count: 8
+				id: "66EFD5A5705354FE"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "688574510ACAAEFD"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			id: "765DB60D1D074BD9"
+			rewards: [{
+				count: 8
+				id: "4C8C23965698E907"
+				item: "elementalcraft:elementpipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6109E2771BDAF398"
+				item: "elementalcraft:elementpipe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75692ECC829EB1CB"]
+			id: "2B4D6CED2D33C18C"
+			rewards: [{
+				count: 2
+				id: "5D91309AE8303A3F"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "679E5B4830572CD2"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5E25F6AE2AFF8E7D"
+				"12BBC87D40762F6E"
+			]
+			dependency_requirement: "all_started"
+			id: "590E8784699B7906"
+			rewards: [{
+				id: "6E01EC0DC8A3E1C1"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [
+				{
+					id: "0898309D2B8DFE06"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								element_amount: 0
+								element_capacity: 10000
+								element_type: "fire"
+							}
+						}
+						id: "elementalcraft:element_holder_fire"
+						tag: {
+							Damage: 1000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10EC251BDCF6518A"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								element_amount: 0
+								element_capacity: 10000
+								element_type: "water"
+							}
+						}
+						id: "elementalcraft:element_holder_water"
+						tag: {
+							Damage: 1000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6261CD24C4296CAF"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								element_amount: 0
+								element_capacity: 10000
+								element_type: "earth"
+							}
+						}
+						id: "elementalcraft:element_holder_earth"
+						tag: {
+							Damage: 1000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2676C9F4870761A5"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								element_amount: 0
+								element_capacity: 10000
+								element_type: "air"
+							}
+						}
+						id: "elementalcraft:element_holder_air"
+						tag: {
+							Damage: 1000
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38BE24143BDFC058"]
+			id: "258D1A080B2468BE"
+			rewards: [{
+				id: "581608B5B0CB6A13"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "1AFE41ED1E968F69"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							air: 0
+							earth: 0
+							fire: 0
+							water: 0
+						}
+					}
+					id: "elementalcraft:pure_element_holder"
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["765DB60D1D074BD9"]
+			id: "07405FDC188781AC"
+			rewards: [{
+				id: "25717A5F6DBA7509"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "78D4C60E278C7ED0"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["07405FDC188781AC"]
+			id: "15D76014F814293F"
+			rewards: [{
+				count: 4
+				id: "1BE815F3587B3653"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D754B223EC99D18"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CCD6DAB7EEA5CC6"]
+			id: "7455A5A37851FDCE"
+			tasks: [{
+				id: "5F7477533451048D"
+				item: "elementalcraft:minor_rune_slate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CCD6DAB7EEA5CC6"]
+			id: "1DA052230F2FDEDE"
+			tasks: [{
+				id: "665A40B7F4690EE0"
+				item: "elementalcraft:rune_slate"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3CCD6DAB7EEA5CC6"]
+			id: "77AEDB523C826BBE"
+			tasks: [{
+				id: "7DAFA0CE24BD1EBA"
+				item: "elementalcraft:major_rune_slate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "752B0D21B14401B6"
+			tasks: [{
+				id: "6169DCBDE0DE0260"
+				item: "elementalcraft:crystallizer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			description: ["Cooks like a normal furnace, but uses fire element for fuel."]
+			id: "3A7EFD9387B8F82E"
+			tasks: [{
+				id: "676756585356242C"
+				item: "elementalcraft:firefurnace"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "38BE24143BDFC058"
+			rewards: [{
+				count: 2
+				id: "244BD7AE0472FBB1"
+				item: "elementalcraft:fireite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "41499C37C7CF8715"
+				item: "elementalcraft:fireite_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F4183F5ECEB474"]
+			id: "79A2E00852D325F1"
+			tasks: [{
+				id: "224C2FF59F14422D"
+				item: "elementalcraft:purecrystal"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			id: "75692ECC829EB1CB"
+			rewards: [{
+				id: "76E7D92DAE18ACE0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1EEAEA5E6FD664B8"
+				item: "elementalcraft:spell_desk"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "3BCA018127338FB0"
+			tasks: [{
+				id: "4950626E0901447E"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:gravelfall"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "5E243EE0B2FFB719"
+			tasks: [{
+				id: "7773F831FCBA795D"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:stonewall"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "416A4873FBAAB9AE"
+			tasks: [{
+				id: "4B9A62AB3C3052C1"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:fireball"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "6A6A829F67D627B8"
+			tasks: [{
+				id: "6DE64F851CC7571D"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:item_pull"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "6509F875ECEC6030"
+			tasks: [{
+				id: "492D275487D205C1"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:ender_strike"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "252BC8CD496A081E"
+			tasks: [{
+				id: "60802E269F3CE1E1"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:animal_growth"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "2DD8CB6A1D1C4D43"
+			tasks: [{
+				id: "4E21D1FB997D8F3B"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:tree_fall"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "7AF451031B1D5488"
+			tasks: [{
+				id: "25E815D3229A392D"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:purification"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "2FFCF4312E0CE5F7"
+			tasks: [{
+				id: "158EECB964B7750F"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:ripening"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "346F498A7B79EF67"
+			tasks: [{
+				id: "61E260B912A50AA9"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:flame_cleave"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "2E32330FF8E73040"
+			tasks: [{
+				id: "6F6D0C9C13A9FAA2"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:dash"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "7E0E794E7522CD8A"
+			tasks: [{
+				id: "58AF4EF910B68A2C"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:silk_vein"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "2186762AF3A78AD6"
+			tasks: [{
+				id: "74D742A186A3A692"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:translocation"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "57A800201D1E1756"
+			tasks: [{
+				id: "384DA078CE847BCB"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:heal"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "3F7C5FA4A74FE5AB"
+			tasks: [{
+				id: "39AB32EE0B4F1174"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:speed"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "5D7BE29E1927A80D"
+			tasks: [{
+				id: "1BE524BFD5849BC8"
+				item: {
+					Count: 1b
+					id: "elementalcraft:scroll"
+					tag: {
+						elementalcraft: {
+							spell: "elementalcraft:inferno"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2B4D6CED2D33C18C"]
+			id: "7A22166B8FE8FCBE"
+			rewards: [{
+				id: "405601E17E990ED1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "19E1DAC72ED749A5"
+					item: {
+						Count: 1b
+						id: "elementalcraft:spell_book"
+						tag: {
+							Damage: 100
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E2791803EDCDD5B"
+					item: "elementalcraft:focus"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "72F4183F5ECEB474"
+			tasks: [
+				{
+					id: "6F6A447A45406252"
+					item: "elementalcraft:pureinfuser"
+					type: "item"
+				}
+				{
+					id: "191BB9F3A9380970"
+					item: "elementalcraft:pedestal_fire"
+					type: "item"
+				}
+				{
+					id: "1550B4BA6B455367"
+					item: "elementalcraft:pedestal_water"
+					type: "item"
+				}
+				{
+					id: "09A87AD7683D1FC0"
+					item: "elementalcraft:pedestal_earth"
+					type: "item"
+				}
+				{
+					id: "36AF12C9ACC1E3C5"
+					item: "elementalcraft:pedestal_air"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "020AF1B40EF414AC"
+			tasks: [{
+				id: "71BB450DA300FF37"
+				item: "elementalcraft:shrine_upgrade_core"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["765DB60D1D074BD9"]
+			id: "2049298DC63A1C32"
+			rewards: [{
+				id: "0CA3906B6B6C7C72"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "10EEDACCF6392A72"
+				item: "elementalcraft:shrinebase"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "5E74268C61AA96AD"
+			rewards: [{
+				id: "2F2DD64F9A40A024"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "3F85803C79181790"
+					item: "elementalcraft:reservoir_fire"
+					type: "item"
+				}
+				{
+					id: "3BFEE9D7B18D202E"
+					item: "elementalcraft:reservoir_water"
+					type: "item"
+				}
+				{
+					id: "126333AF3AF55777"
+					item: "elementalcraft:reservoir_earth"
+					type: "item"
+				}
+				{
+					id: "5897C466F0360692"
+					item: "elementalcraft:reservoir_air"
+					type: "item"
+				}
+			]
+			title: "Huge Elemental Storage"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["752B0D21B14401B6"]
+			id: "0F20543E53A575D3"
+			tasks: [
+				{
+					id: "07139C08B4F7BC53"
+					item: "elementalcraft:crude_fire_gem"
+					type: "item"
+				}
+				{
+					id: "5C2272D870A5E018"
+					item: "elementalcraft:crude_water_gem"
+					type: "item"
+				}
+				{
+					id: "0A94008E6B85C1AD"
+					item: "elementalcraft:crude_earth_gem"
+					type: "item"
+				}
+				{
+					id: "440342A7F02CEBB4"
+					item: "elementalcraft:crude_air_gem"
+					type: "item"
+				}
+			]
+			title: "Crude Gems"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["752B0D21B14401B6"]
+			id: "27B2CCD46FDC0269"
+			tasks: [
+				{
+					id: "312FB3F394BBA161"
+					item: "elementalcraft:fine_fire_gem"
+					type: "item"
+				}
+				{
+					id: "4B87353B00A1BE23"
+					item: "elementalcraft:fine_water_gem"
+					type: "item"
+				}
+				{
+					id: "68930901BA2D59AA"
+					item: "elementalcraft:fine_earth_gem"
+					type: "item"
+				}
+				{
+					id: "17B766A75E58CFCB"
+					item: "elementalcraft:fine_air_gem"
+					type: "item"
+				}
+			]
+			title: "Fine Gems"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["752B0D21B14401B6"]
+			id: "471CADB8CDD73DF7"
+			tasks: [
+				{
+					id: "09D7F75F14783151"
+					item: "elementalcraft:pristine_fire_gem"
+					type: "item"
+				}
+				{
+					id: "558B099F9D9E3F11"
+					item: "elementalcraft:pristine_water_gem"
+					type: "item"
+				}
+				{
+					id: "1994671C31AA1FCE"
+					item: "elementalcraft:pristine_earth_gem"
+					type: "item"
+				}
+				{
+					id: "51F66A8A17712FBF"
+					item: "elementalcraft:pristine_air_gem"
+					type: "item"
+				}
+			]
+			title: "Pristine Gems"
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["38BE24143BDFC058"]
+			id: "77164B76E8E364D3"
+			tasks: [{
+				id: "7C64FE584173C07A"
+				item: "elementalcraft:binder_improved"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "6AFB420A3A13E01B"
+			tasks: [{
+				id: "48B02663E4C10C46"
+				item: "elementalcraft:extractor_improved"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "65B9E035FBFAB5C5"
+			tasks: [{
+				id: "5CEE35C984468B00"
+				item: "elementalcraft:fireblastfurnace"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			id: "5A46DB43D2EB0A0C"
+			tasks: [{
+				id: "71AB051EB788D0D9"
+				item: "elementalcraft:purifier"
+				type: "item"
+			}]
+			title: "Elemental Ore Doubling"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "7F44314F8D2C5EFE"
+			tasks: [{
+				id: "13465C6A08CBDE11"
+				item: "elementalcraft:shrine_upgrade_acceleration"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "3EC57E7AEB8B180D"
+			tasks: [{
+				id: "339EAAE0AE2DFA2B"
+				item: "elementalcraft:shrine_upgrade_range"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "1D32E97B7E2CD468"
+			tasks: [{
+				id: "7F3BAAC295303FAE"
+				item: "elementalcraft:shrine_upgrade_capacity"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "5C8FC75AC9E25336"
+			tasks: [{
+				id: "3F72C7CDF8662010"
+				item: "elementalcraft:shrine_upgrade_efficiency"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "677F6EE94DAD368A"
+			tasks: [{
+				id: "72BEABD21FB88557"
+				item: "elementalcraft:shrine_upgrade_strength"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "592F787FC535D89F"
+			tasks: [{
+				id: "19117A31614C1A40"
+				item: "elementalcraft:shrine_upgrade_optimization"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "1DB35A769F0B708D"
+			tasks: [{
+				id: "74A52E6AC1076246"
+				item: "elementalcraft:shrine_upgrade_fortune"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "5B2C28D29A8B2F90"
+			tasks: [{
+				id: "662336D78F045040"
+				item: "elementalcraft:shrine_upgrade_silk_touch"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "10A74403865E904A"
+			tasks: [{
+				id: "21003DFC637E2049"
+				item: "elementalcraft:shrine_upgrade_planting"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "2966504648A04626"
+			tasks: [{
+				id: "39F74A1E1CA97788"
+				item: "elementalcraft:shrine_upgrade_boneless_growth"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "66DA377810C83CE7"
+			tasks: [{
+				id: "39A1AB5F4A66803E"
+				item: "elementalcraft:shrine_upgrade_pickup"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "62BE5B2454D65C07"
+			tasks: [{
+				id: "39C8D08B6FD43BAD"
+				item: "elementalcraft:shrine_upgrade_nectar"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "0D003C5489FEB1A0"
+			tasks: [{
+				id: "17EBA3723255C0DE"
+				item: "elementalcraft:shrine_upgrade_stem_pollination"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "7EE915BA6E7DE783"
+			tasks: [{
+				id: "63EE822562EA1F4B"
+				item: "elementalcraft:shrine_upgrade_mystical_grove"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["020AF1B40EF414AC"]
+			id: "7366AD64E572D077"
+			tasks: [{
+				id: "547AE2E211F4FDE6"
+				item: "elementalcraft:shrine_upgrade_protection"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "40A3E0995C929460"
+			tasks: [{
+				id: "725BCB85495AFFE4"
+				item: "elementalcraft:vacuumshrine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "37A317BE486ACD1D"
+			tasks: [{
+				id: "7AB81D785437C32F"
+				item: "elementalcraft:growthshrine"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "18B53DD0FE2941D2"
+			tasks: [{
+				id: "729F79267E762F77"
+				item: "elementalcraft:harvestshrine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "76FC0AA0EA0C4F6B"
+			tasks: [{
+				id: "52BE15D8AEF1D23B"
+				item: "elementalcraft:lavashrine"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "2C0A723788608A4F"
+			tasks: [{
+				id: "35ADFEB4D56E9BDE"
+				item: "elementalcraft:oreshrine"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "0314A1A2286836FA"
+			tasks: [{
+				id: "5DB6B839F7CF652B"
+				item: "elementalcraft:overloadshrine"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "3D6B4CAFA3ADBA32"
+			tasks: [{
+				id: "4370DC163AEF925A"
+				item: "elementalcraft:sweetshrine"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "2335C4D7B727B056"
+			tasks: [{
+				id: "57CA3FD9E4D9263B"
+				item: "elementalcraft:enderlockshrine"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "6AA775269C69DB79"
+			tasks: [{
+				id: "1829ED2E48C945EB"
+				item: "elementalcraft:breedingshrine"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "605D8111F250E9E1"
+			tasks: [{
+				id: "6BBD8C8519AF9741"
+				item: "elementalcraft:groveshrine"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2049298DC63A1C32"]
+			id: "0C907086EBBE1903"
+			tasks: [{
+				id: "2991780A02564E86"
+				item: "elementalcraft:firepylon"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "2183B485136B8C3F"
+			tasks: [{
+				id: "0CF5A81136FBE933"
+				item: "elementalcraft:solar_synthesizer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "437F160DA20BFCD3"
+			tasks: [
+				{
+					id: "774769860A139471"
+					item: "elementalcraft:inscriber"
+					type: "item"
+				}
+				{
+					id: "7D32B666AE917C34"
+					item: {
+						Count: 1b
+						id: "elementalcraft:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["437F160DA20BFCD3"]
+			description: [""]
+			hide_text_until_complete: true
+			id: "09A85BC5D3DA51CE"
+			rewards: [{
+				id: "54F425725DE3A06B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "5ADABF1F97B0DF65"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:wii"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "2B52FE4D4A70E2DA"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:fus"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "3442E09D52543E37"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:zod"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Speed Runes"
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["437F160DA20BFCD3"]
+			id: "0D7CBD67D7FC122F"
+			rewards: [{
+				id: "4E3E28E1D94E6F4B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "2C7C05C89386742D"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:claptrap"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "454565C9174BA435"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:bombadil"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "74A65C7753C85DF4"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:tzeentch"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Luck Runes"
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["437F160DA20BFCD3"]
+			id: "3499148B2D92C467"
+			rewards: [{
+				id: "2236A3E5E629CA15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "0020AEC7B33E2CA7"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:manx"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "107464BB6EDB6FE5"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:jita"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+				{
+					id: "30B4C23E8010CB4C"
+					item: {
+						Count: 1b
+						id: "elementalcraft:rune"
+						tag: {
+							elementalcraft: {
+								rune: "elementalcraft:tano"
+							}
+						}
+					}
+					match_nbt: true
+					type: "item"
+				}
+			]
+			title: "Preservation Runes"
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72F4183F5ECEB474"]
+			description: ["Can withstand explosions and the Wither."]
+			id: "5619EF8C3300D184"
+			tasks: [{
+				id: "6EA510E798086178"
+				item: "elementalcraft:purerock"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A22166B8FE8FCBE"]
+			dependency_requirement: "all_started"
+			id: "3FFF4844A0878D85"
+			rewards: [{
+				id: "66299890367C6043"
+				type: "xp"
+				xp: 300
+			}]
+			tasks: [{
+				id: "4B53FD127ACEE889"
+				item: {
+					Count: 1b
+					id: "elementalcraft:staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15D76014F814293F"]
+			id: "61BCE8789E5D74D5"
+			tasks: [{
+				id: "69396F98DFB75A68"
+				item: "elementalcraft:elementpipe_improved"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55F12D063F9D9430"]
+			description: ["These shards are dropped by killing specific mobs. JEI can tell you which mobs to kill for which element."]
+			id: "429F22F05FFB0D58"
+			rewards: [
+				{
+					count: 5
+					id: "5F6BAB0AEE87266E"
+					item: "elementalcraft:fire_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5305342A53641482"
+					item: "elementalcraft:water_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "21091F682DCE99DD"
+					item: "elementalcraft:earth_shard"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1FEECA82DACBC0AE"
+					item: "elementalcraft:air_shard"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "046309D209C3A5EC"
+					item: "elementalcraft:fire_shard"
+					type: "item"
+				}
+				{
+					id: "0163D87ADD9A42C7"
+					item: "elementalcraft:water_shard"
+					type: "item"
+				}
+				{
+					id: "0C673A98F5007338"
+					item: "elementalcraft:earth_shard"
+					type: "item"
+				}
+				{
+					id: "583825E7072144A1"
+					item: "elementalcraft:air_shard"
+					type: "item"
+				}
+			]
+			title: "Element Shards"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79A2E00852D325F1"]
+			description: ["Allows you to move elemental sources."]
+			id: "790C9DF5B7692647"
+			rewards: [{
+				id: "0B083F6853CB6FC1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06D362C5F37D2341"
+				item: {
+					Count: 1b
+					id: "elementalcraft:receptacle_empty"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Source Receptacle"
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38BE24143BDFC058"]
+			description: ["Same as the source receptacle, but with more durability."]
+			id: "50A68211EB317434"
+			rewards: [{
+				id: "22078A9A10DBFC15"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "214A99E3FFBA6F09"
+				item: {
+					Count: 1b
+					id: "elementalcraft:receptacle_improved_empty"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Improved Source Receptacle"
+			x: 16.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2183B485136B8C3F"]
+			id: "26E5D8FBCF04704E"
+			tasks: [
+				{
+					id: "30226E61D288503C"
+					item: {
+						Count: 1b
+						id: "elementalcraft:fire_lense"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D72EFA0638CE4FF"
+					item: {
+						Count: 1b
+						id: "elementalcraft:water_lense"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD6EA6148CB4A98"
+					item: {
+						Count: 1b
+						id: "elementalcraft:earth_lense"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26C73696E8CAACFB"
+					item: {
+						Count: 1b
+						id: "elementalcraft:air_lense"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E25F6AE2AFF8E7D"]
+			description: ["Can grind up materials"]
+			id: "7E4783E17F86720E"
+			tasks: [{
+				id: "4AF2B7CBBC1EB65C"
+				item: "elementalcraft:air_mill"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"These &bInert Crystals&r are normally found in ores buried deep below the surface, but there isn't exactly a surface here them to be buried under."
+				""
+				"Instead, get them by &6sifting Crushed Netherrack&r through a magically-attuned Mesh."
+			]
+			id: "406DF8081DE4CB77"
+			rewards: [{
+				id: "053D7B034D873A5D"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "elementalcraft:element_book"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The path of the elements"
+			tasks: [{
+				id: "6E59466AC4B75CE5"
+				item: "elementalcraft:inert_crystal"
+				type: "item"
+			}]
+			title: "Inert Elemental Source"
+			x: 19.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["406DF8081DE4CB77"]
+			description: ["By making the &bContained Crystal&r, you can enhance its conductivity and make it more receptive to elemental energies."]
+			id: "3374D031A5C7F7A3"
+			rewards: [
+				{
+					count: 4
+					id: "6E0200987B0BE45C"
+					item: "elementalcraft:contained_crystal"
+					type: "item"
+				}
+				{
+					id: "31B1C317C376339D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Not-so-inert Crystals"
+			tasks: [{
+				id: "549EE4FFC4CA6465"
+				item: "elementalcraft:contained_crystal"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"&bElement Source&r can be found naturally generating over random bits of sky, or in &6sky village chests&r."
+				""
+				"Placed Sources are &6color-coded to their elemental affinity&r."
+				""
+				"Placing a block inside a Source will &cdelete it&r."
+			]
+			id: "62B4B3DA99712C14"
+			min_width: 275
+			rewards: [
+				{
+					id: "7426B55B1C980388"
+					item: "elementalcraft:source_analysis_glass"
+					type: "item"
+				}
+				{
+					id: "722634BF3D42E5DD"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "fire"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A9F3E8C748B6398"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "water"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D412F3DB951A31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "air"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D34D8D182A57461"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: { }
+						}
+						id: "elementalcraft:receptacle"
+						tag: {
+							element_type: "earth"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Elementary Watson!"
+			tasks: [{
+				id: "4D1247F2A80436F7"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			title: "The Source of the Elements"
+			x: 17.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3374D031A5C7F7A3"]
+			description: [
+				"Elemental energy needs to be captured to be used."
+				""
+				"Place an &bElement Extractor&r directly below an Element Source, and an &bElement Container&r below it."
+				""
+				"The Extractor will begin collecting the energy, and storing it in the Container. &cExtracting too much&r will cause it to cease functioning until it recovers over time."
+			]
+			icon: "elementalcraft:extractor"
+			id: "0C21F4686511B5A8"
+			rewards: [
+				{
+					count: 8
+					id: "481A5C8337D36C41"
+					item: "elementalcraft:elementpipe_impaired"
+					type: "item"
+				}
+				{
+					id: "3CF7A1828CBEFD4F"
+					item: "elementalcraft:small_container"
+					type: "item"
+				}
+			]
+			subtitle: "Make an Element Extractor"
+			tasks: [
+				{
+					id: "50EA261D85CF08C1"
+					item: "elementalcraft:extractor"
+					type: "item"
+				}
+				{
+					id: "5CF33A7ECE0FE84B"
+					item: "elementalcraft:small_container"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			x: 20.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6788A53BF6922535"]
+			description: [
+				"To begin &6crafting with elemental energy&r, you'll need an &bElement Infuser&r."
+				""
+				"Like all instruments in the mod, the Infuser &6needs an Element Container beneath itself&r."
+				""
+				"Insert the ingredient item into the Infuser, and it will use the element in its Container to craft it into something new."
+			]
+			id: "58CB67E60F61A0BF"
+			rewards: [{
+				id: "236DE3C6FE5DF209"
+				item: "elementalcraft:small_container"
+				type: "item"
+			}]
+			subtitle: "Infusing Energy"
+			tasks: [{
+				id: "6D3BEB4DD5970B15"
+				item: "elementalcraft:infuser"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58CB67E60F61A0BF"]
+			description: [
+				"By infusing Inert Crystal with element, you can create &bElemental Crystals&r."
+				""
+				"These are used in several crafting recipes."
+			]
+			icon: "elementalcraft:aircrystal"
+			id: "0BABF76A0832C7C9"
+			rewards: [
+				{
+					id: "7C964ECC84C3A32B"
+					item: "elementalcraft:firecrystal"
+					type: "item"
+				}
+				{
+					id: "4EA950FB61D2886D"
+					item: "elementalcraft:earthcrystal"
+					type: "item"
+				}
+				{
+					id: "6D0E8BE10C340F7B"
+					item: "elementalcraft:aircrystal"
+					type: "item"
+				}
+				{
+					id: "2FCF880A65EFED6A"
+					item: "elementalcraft:watercrystal"
+					type: "item"
+				}
+			]
+			subtitle: "Crystalized Primal Energy"
+			tasks: [{
+				id: "6982B0DABB8033E9"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:firecrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:earthcrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:aircrystal"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:watercrystal"
+							}
+						]
+					}
+				}
+				title: "Elemental Crystals"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58CB67E60F61A0BF"]
+			description: ["Infusing Iron with elemental water will produce &bDrenched Iron&r, which is more malleable and receptive to elemental tinkering."]
+			id: "02EE17E62B428C6B"
+			rewards: [
+				{
+					count: 8
+					id: "26CD95ED7A82908D"
+					item: "elementalcraft:drenched_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "0FCBA41E769C6F4B"
+					item: "statues:drowned_statue"
+					type: "item"
+				}
+			]
+			subtitle: "Drenched Metal, not Rust!"
+			tasks: [{
+				id: "60C9049082490CC8"
+				item: "elementalcraft:drenched_iron_ingot"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"The full-sized &bElement Container&r can store &6100,000&r of an element, compared to the Small Container's 1000."
+				""
+				"Otherwise, it works the same."
+			]
+			id: "484583FE5B31EB72"
+			subtitle: "Make an Element Container"
+			tasks: [{
+				id: "3A7745A7D3EE9219"
+				item: "elementalcraft:container"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["484583FE5B31EB72"]
+			description: [
+				"The &bElemental Binder&r uses much more elemental energy, and &6must be placed on a full-sized Container&r."
+				""
+				"The Binder is used to &6craft multiple items together&r, along with elemental energy."
+				""
+				"&6Place the ingredients in order&r, starting at the top and going clockwise. It'll use up elemental energy and then complete the craft once it's used enough."
+			]
+			id: "390296764004FF09"
+			rewards: [
+				{
+					count: 8
+					id: "6613375CF762DAD1"
+					item: "elementalcraft:drenched_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2EAE69F4FFFE459A"
+					item: "elementalcraft:burnt_glass"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "310D639A85603CE7"
+					item: "elementalcraft:whiterock"
+					type: "item"
+				}
+			]
+			subtitle: "Make an Element Binder"
+			tasks: [{
+				id: "401B29D69DEE31BA"
+				item: "elementalcraft:binder"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["390296764004FF09"]
+			description: ["&bSwift Alloy&r is a higher-end resource for crafting."]
+			id: "506D851AFD0ABF56"
+			rewards: [
+				{
+					count: 4
+					id: "490B7F9F3F13D518"
+					item: "elementalcraft:swift_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "109018AE95E3EE2C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3A43EE2E35848C9D"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+			]
+			subtitle: "Swift as a coursing river..."
+			tasks: [{
+				id: "60CCD9F1575192C3"
+				item: "elementalcraft:swift_alloy_ingot"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: [
+				"The &bPure Infuser&r is used to craft some of the more advanced recipes in the mod. It is used to &6craft all 4 elements together&r with items."
+				""
+				"Place each of the four &bPedestals&r around it, with one block between. Provide each Pedestal its element using Element Pipes."
+				""
+				"Place the item ingredients on the correct Pedestals according to the recipe, and it will be crafted."
+			]
+			icon: "elementalcraft:pureinfuser"
+			id: "1F069A8F79A2BFB4"
+			min_width: 250
+			subtitle: "By our powers combined"
+			tasks: [
+				{
+					id: "1C5D7A0B507F4148"
+					item: "elementalcraft:pureinfuser"
+					type: "item"
+				}
+				{
+					id: "45277089A491E269"
+					item: "elementalcraft:pedestal_fire"
+					type: "item"
+				}
+				{
+					id: "23633C8A64FD7534"
+					item: "elementalcraft:pedestal_water"
+					type: "item"
+				}
+				{
+					id: "37B179F36686ADED"
+					item: "elementalcraft:pedestal_earth"
+					type: "item"
+				}
+				{
+					id: "60D174CBBDC6DB4A"
+					item: "elementalcraft:pedestal_air"
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["390296764004FF09"]
+			description: [
+				"&bSpringaline&r can be crafted one at a time in the &6Binder&r."
+				""
+				"You can also craft it into a &6Springaline Cluster&r and then mine it with Fortune to multiply it."
+			]
+			id: "0C9AC0881A6A95BE"
+			rewards: [{
+				id: "6549FCE026613F64"
+				item: "elementalcraft:springaline_cluster"
+				type: "item"
+			}]
+			subtitle: "My Springaline, My Springaline"
+			tasks: [{
+				id: "67BBC02811468243"
+				item: "elementalcraft:springaline_shard"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"0C9AC0881A6A95BE"
+				"506D851AFD0ABF56"
+			]
+			description: ["The &bSource Stabilizer&r can be placed on a Source to &6prevent it from being broken&r. It also slightly boosts their recovery rate."]
+			id: "378C30FDC434951C"
+			rewards: [
+				{
+					id: "5C5476A9DC099D6A"
+					item: "elementalcraft:source"
+					type: "item"
+				}
+				{
+					id: "2F6E3E36920AD4ED"
+					item: "elementalcraft:source_stabilizer"
+					type: "item"
+				}
+			]
+			subtitle: "Hold it together..."
+			tasks: [{
+				id: "539FDD157DE011A9"
+				item: "elementalcraft:source_stabilizer"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["The &bImproved Element Extractor&r pulls element at a much faster rate."]
+			id: "34C5844081BEEB4E"
+			subtitle: "The Big Suck"
+			tasks: [{
+				id: "080BAE43093D5E3B"
+				item: "elementalcraft:extractor_improved"
+				type: "item"
+			}]
+			x: 23.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"02EE17E62B428C6B"
+				"0BABF76A0832C7C9"
+			]
+			description: ["The &bFire Furnace&r utilizes the fire element to &6smelt items&r at an accelerated rate."]
+			icon: "elementalcraft:firefurnace"
+			id: "4A3FCC75874B828F"
+			rewards: [
+				{
+					id: "64B4D1E79B813E62"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:inferno"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "136ABDD7A963B1FA"
+					item: "statues:marshmallow_golden"
+					type: "item"
+				}
+			]
+			subtitle: "Now we're cooking with gas!"
+			tasks: [{
+				id: "512D0162A1894682"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:firefurnace"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:fireblastfurnace"
+							}
+						]
+					}
+				}
+				title: "Fire Furnace"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: ["The &bGem Crystallizer&r will use a &6Pure Crystal&r to infuse an element into a Diamond, creating an &6Elemental Gem&r."]
+			id: "19750F792AE3093F"
+			tasks: [{
+				id: "0208E31B826495D5"
+				item: "elementalcraft:crystallizer"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["30E0AA2412E909CC"]
+			description: ["The &bSpell Desk&r is used to create &6Spells&r, which perform a variety of functions."]
+			id: "66175A6C5CB63C39"
+			rewards: [{
+				count: 16
+				id: "22449A8BD5BF0124"
+				item: "elementalcraft:scroll_paper"
+				type: "item"
+			}]
+			subtitle: "At least it's not research!"
+			tasks: [{
+				id: "28428C434E5CE22A"
+				item: "elementalcraft:spell_desk"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["66175A6C5CB63C39"]
+			description: [
+				"Each &bSpell Scroll&r says what it needs in its tooltip."
+				""
+				"See the &6Elementopedia&r for details on each spell&r."
+			]
+			icon: {
+				Count: 1b
+				id: "elementalcraft:scroll"
+				tag: {
+					elementalcraft: {
+						spell: "elementalcraft:fireball"
+					}
+				}
+			}
+			id: "49EDE3DDAE796798"
+			rewards: [{
+				id: "53AC20E8E653E0A8"
+				item: "elementalcraft:focus"
+				type: "item"
+			}]
+			subtitle: "FIREBALL!!!!!!!"
+			tasks: [{
+				id: "522BAFC746DCBBC4"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "elementalcraft:spell_holders"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:tag"
+										tag: {
+											value: "elementalcraft:spell_cast_tools"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "Spell Scrolls"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"&bElement Holders&r hold elemental energy."
+				""
+				"This can be used to &6power Spells&r, or transport it to other devices."
+				""
+				"To store elemental energy, right-click a Source or sneak right-click a Container. To release it, right-click a Container."
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						element_amount: 0
+						element_capacity: 10000
+						element_type: "earth"
+					}
+				}
+				id: "elementalcraft:element_holder_earth"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "30E0AA2412E909CC"
+			rewards: [
+				{
+					id: "6B5C078FD3F5C0D4"
+					item: "elementalcraft:pristine_fire_gem"
+					type: "item"
+				}
+				{
+					id: "209A3C4BEAD7FB33"
+					item: "elementalcraft:pristine_water_gem"
+					type: "item"
+				}
+				{
+					id: "7C953C7398783816"
+					item: "elementalcraft:pristine_air_gem"
+					type: "item"
+				}
+			]
+			subtitle: "Spell Energy"
+			tasks: [{
+				id: "1BEDEBC027E2F85E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "fire"
+									}
+								}
+								id: "elementalcraft:element_holder_fire"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "water"
+									}
+								}
+								id: "elementalcraft:element_holder_water"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "earth"
+									}
+								}
+								id: "elementalcraft:element_holder_earth"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										element_amount: 0
+										element_capacity: 10000
+										element_type: "air"
+									}
+								}
+								id: "elementalcraft:element_holder_air"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Element Holders"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19750F792AE3093F"]
+			description: [
+				"&bElemental Displacement Plates&r are used to &6move Element Sources&r."
+				""
+				"Place the Plate one block below a Source of its type, then right-click it. After a bit, the Source will be contained in a &bSource Receptacle&r, which can be used to place the Source."
+			]
+			icon: "elementalcraft:source_displacement_plate_water"
+			id: "43A8F862784D28F8"
+			rewards: [{
+				count: 4
+				id: "77CD29C5E0EC5982"
+				item: "elementalcraft:source"
+				type: "item"
+			}]
+			subtitle: "Moving Source"
+			tasks: [
+				{
+					id: "78C0778B36353DC9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_fire"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_earth"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_air"
+								}
+								{
+									Count: 1b
+									id: "elementalcraft:source_displacement_plate_water"
+								}
+							]
+						}
+					}
+					title: "Source Displacement Plates"
+					type: "item"
+				}
+				{
+					id: "02BE046047C570A3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "water"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "fire"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "earth"
+									}
+								}
+								{
+									Count: 1b
+									ForgeCaps: {
+										Parent: { }
+									}
+									id: "elementalcraft:receptacle"
+									tag: {
+										element_type: "air"
+									}
+								}
+							]
+						}
+					}
+					title: "Source Receptacles"
+					type: "item"
+				}
+			]
+			title: "Elemental Displacement"
+			x: 22.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["&bPure Rock&r is incredibly resiliant, and is &6Wither-proof&r."]
+			id: "37AFE52AC86371A0"
+			rewards: [
+				{
+					count: 16
+					id: "5FC5434B43C835F2"
+					item: "elementalcraft:purerock"
+					type: "item"
+				}
+				{
+					id: "7639879C5D611F24"
+					item: "elementalcraft:purecrystal"
+					type: "item"
+				}
+			]
+			subtitle: "Pure Protection"
+			tasks: [{
+				id: "21FE10CD79AC24BF"
+				item: "elementalcraft:purerock"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F069A8F79A2BFB4"]
+			description: ["The &bGrimoire&r can hold &6up to 100 Spell Scrolls&r! You cannot cast from it, however."]
+			id: "7ECBF9C6F7FB3185"
+			rewards: [
+				{
+					id: "3CCDA41A66DE66CC"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:speed"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "435B7A97646AB354"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:heal"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2581305EC1E43B46"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:animal_growth"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1BCB1CF049D79633"
+					item: {
+						Count: 1b
+						id: "elementalcraft:scroll"
+						tag: {
+							elementalcraft: {
+								spell: "elementalcraft:shockwave"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Endless book of spells"
+			tasks: [{
+				id: "4EC6ED1EFD2BFB1D"
+				item: "elementalcraft:spell_book"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["02EE17E62B428C6B"]
+			description: [
+				"&bShrines&r use a specific element to &6change the world around them&r in some way."
+				""
+				"For example, they might &6make Lava&r, &6disable teleports&r, &6spawn mobs&r, etc, depending on the Shrine."
+				""
+				"Shrines do not need an Element Container, they instead accept element directly via Element Pipes."
+			]
+			icon: "elementalcraft:shrinebase"
+			id: "41EFDC4A7911A5CF"
+			rewards: [
+				{
+					id: "33EEDD6070433C8A"
+					item: "elementalcraft:sweetshrine"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "304A26D718CEF328"
+					item: "elementalcraft:elementpipe"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6C00E0385D0373B1"
+					item: {
+						Count: 1b
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:oily"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Redistributed Elemental Wealth"
+			tasks: [
+				{
+					id: "5CEF2AC6E6AF8105"
+					item: "elementalcraft:shrinebase"
+					type: "item"
+				}
+				{
+					id: "7B08389527969D7C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "elementalcraft:shrines"
+						}
+					}
+					title: "Shrines"
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0C21F4686511B5A8"]
+			description: [
+				"&bElement Pipes&r move elements between Containers."
+				""
+				"Click on a Pipe connection to toggle it, or to make it pull from the Container it's on."
+			]
+			icon: "elementalcraft:elementpipe_impaired"
+			id: "6788A53BF6922535"
+			rewards: [{
+				count: 16
+				id: "2B6DB64284486F80"
+				item: "elementalcraft:elementpipe_impaired"
+				type: "item"
+			}]
+			subtitle: "Make an Element Pipe"
+			tasks: [{
+				id: "1681A5E4C32C4DFE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_impaired"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe"
+							}
+							{
+								Count: 1b
+								id: "elementalcraft:elementpipe_improved"
+							}
+						]
+					}
+				}
+				title: "Element Pipes"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["49EDE3DDAE796798"]
+			description: [
+				"&bSpell foci&r can &6hold multiple spells&r."
+				""
+				"Add a Spell to a focus by &6combining them in an Anvil&r. Cycle through by scrolling while sneaking."
+			]
+			icon: "elementalcraft:focus"
+			id: "786D87D9202EA4D8"
+			subtitle: "Battlemage"
+			tasks: [{
+				id: "46208466A95A25CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:spell_cast_tools"
+					}
+				}
+				title: "Spell Foci"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["41EFDC4A7911A5CF"]
+			description: [
+				"&bShrine Upgrades&r increase the power of the Shrine they are placed on, in some way."
+				""
+				"Many only work on a specific Shrine; see the &6Elementopedia&r for a list of each."
+			]
+			icon: "elementalcraft:shrine_upgrade_crystal_growth"
+			id: "4E182563697445E6"
+			subtitle: "REMEMBER ME"
+			tasks: [{
+				id: "6E832E5E1CE44E45"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "elementalcraft:shrine_upgrades"
+					}
+				}
+				title: "Shrine Upgrades"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["506D851AFD0ABF56"]
+			description: [
+				"&bRunes&r are basically &6upgrades&r for instruments."
+				""
+				"Place the &bRune Inscriber&r on an Element Container, insert the ingredients, and then use and &ohold&r a &bRune Inscription Chisel&r to craft the Rune."
+			]
+			icon: "elementalcraft:inscriber"
+			id: "607F958A95AD26B7"
+			rewards: [{
+				id: "288C0E320808E839"
+				item: {
+					Count: 1b
+					id: "elementalcraft:rune"
+					tag: {
+						elementalcraft: {
+							rune: "elementalcraft:fus"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Instrument Upgrades"
+			tasks: [
+				{
+					id: "02E64EDFEBBA1A78"
+					item: "elementalcraft:inscriber"
+					type: "item"
+				}
+				{
+					id: "5CBF23389794CFCB"
+					item: {
+						Count: 1b
+						id: "elementalcraft:chisel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7417B542829B693C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "elementalcraft:rune"
+								tag: {
+									elementalcraft: {
+										rune: "elementalcraft:tano"
+									}
+								}
+							}]
+						}
+					}
+					title: "Runes"
+					type: "item"
+				}
+			]
+			x: 23.5d
+			y: 4.0d
+		}
+	]
+	title: "ElementalCraft"
+}

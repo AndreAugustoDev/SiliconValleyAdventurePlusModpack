@@ -1,0 +1,36 @@
+{
+  "entries": [
+    {
+      "item": "ad_astra:desh_ingot",
+      "emc": 1024
+    },
+    {
+      "item": "ad_astra:calorite_ingot",
+      "emc": 4096
+    },
+    {
+      "item": "ad_astra:ostrum_ingot",
+      "emc": 2048
+    },
+    {
+      "item": "ad_astra:permafrost",
+      "emc": 16
+    },
+    {
+      "item": "ad_astra:moon_sand",
+      "emc": 16
+    },
+    {
+      "item": "ad_astra:mars_sand",
+      "emc": 16
+    },
+    {
+      "item": "ad_astra:glacio_stone",
+      "emc": 16
+    },
+    {
+      "item": "ad_astra:mercury_stone",
+      "emc": 16
+    }
+  ]
+}

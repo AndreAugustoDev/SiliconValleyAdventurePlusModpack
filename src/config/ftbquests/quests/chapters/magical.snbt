@@ -1,0 +1,144 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magical"
+	group: "33A417364C0A17FE"
+	icon: "botania:corporea_index"
+	id: "1E2BFC921C6BD0BB"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["33FF06F93A9B4510"]
+			description: [
+				"&bCorporea Sparks&r are the first part of &6Corporea networks&r, which allow you to &6request items from connected inventories&r. Networks can only handle &6active requests&r, nothing is done passively, nor can it ever &oadd&r items to the network."
+				""
+				"Corporea Sparks automatically &6connect to other nearby Corporea Sparks of the same color&r, which can be changed using dyes. Each network also requires a single &bMaster Corporea Spark&r."
+				""
+				"Corporea Sparks can &6access items in the inventory directly below them&r. This does &cnot&r apply to the Master Corporea Spark, which has to be placed on an inventory but cannot access it... for some reason."
+			]
+			icon: "botania:corporea_spark_master"
+			id: "69DE3088CD8EE75E"
+			min_width: 325
+			rewards: [{
+				count: 3
+				id: "4D1EC21D8967977E"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			subtitle: "Magical Digital Storage"
+			tasks: [
+				{
+					id: "7BDADA5B8D1D33BE"
+					item: "botania:corporea_spark"
+					type: "item"
+				}
+				{
+					id: "10BF64E787A0D9BC"
+					item: "botania:corporea_spark_master"
+					type: "item"
+				}
+			]
+			title: "Corporea Networks"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"The &bCorporea Crystal Cube&r can be right-clicked with an item, and it will &6display the amount of that item is in the network&r."
+				""
+				"Comparators will also emit a signal based on the amount of that item available."
+			]
+			id: "5D32A57D9BA2851E"
+			subtitle: "Clairvoyant Storage"
+			tasks: [{
+				id: "6F0E9B02EDC669E2"
+				item: "botania:corporea_crystal_cube"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"When given a &6redstone signal&r, the &bCorporea Funnel&r will request an item from its Corporea network&r and insert it into the inventory 1 or 2 blocks below itself, or drop it on the ground."
+				""
+				"Place a &6filled Item Frame&r on it to set which item is requested. Rotate it once to pull 2, again for 4, then 8, 16, 32, and 64. If it has multiple Item Frames, it will choose a random one to request."
+			]
+			id: "48462142316EC808"
+			subtitle: "Redstone Request"
+			tasks: [{
+				id: "72C42A8EEF2E8ACB"
+				item: "botania:corporea_funnel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48462142316EC808"]
+			description: [
+				"The &bCorporea Interceptor&r will emit a redstone pulse when the item in an Item Frame placed on it is requested, but none are available."
+				""
+				"This can be used in tandem with the &6Corporea Funnel&r to craft items that you are out of. For example, place a 1x1 &6Crafty Crate&r, place a &6Hopper&r aimed at it, place a &6Corporea Funnel&r with a Spark and an Item Frame (with Stone placed in it), and then place a &6Corporea Interceptor&r with a Spark and an Item Frame with a Button on top of &othat&r."
+				""
+				"When a Button is requested but none are available, the Interceptor will emit a Redstone Pulse, this activates the Funnel, which will send the Stone to the Crafty Crate, &6which will craft the Button and drop it out the bottom&r."
+				""
+				"An &6unfortunate limitation&r of this is that you can only request one at a time. You can rotate the Funnel's Item Frame to increase this, but it will still always craft that amount."
+			]
+			id: "0979860E89A3AD7F"
+			min_width: 325
+			subtitle: "Autocrafting, Kinda"
+			tasks: [{
+				id: "583234D4E85265A7"
+				item: "botania:corporea_interceptor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0979860E89A3AD7F"]
+			description: [
+				"The &bCorporea Retainer&r is placed next to a Corporea Interceptor and will remember if the Interceptor... intercepts. If it gets a signal after this, it will forget and the thing that requested the Interceptor's item will request it again."
+				""
+				"For a use-case example, &6place the Retainer next to the Interceptor from the previous quest&r. Place a Corporea Crystal Cube monitoring Buttons nearby, and point a Comparator from it to the Retainer."
+				""
+				"Now, when a Button is requested while none are available, the Interceptor will emit a signal which yada yada, eventually crafting a Button, putting it somewhere in the network, which will let the Crystal Cube know, which will tell the Retainer, &6which will send the newly crafted Button back to the thing that requested it&r."
+			]
+			id: "5F038BF46205DC9C"
+			min_width: 325
+			subtitle: "Hold It!"
+			tasks: [{
+				id: "1302DC1342279E4C"
+				item: "botania:corporea_retainer"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69DE3088CD8EE75E"]
+			description: [
+				"When near the &bCorporea Index&r, you can &6say in chat&r an item and the amount to request it from inventories connected to the Corporea Spark on top of it."
+				""
+				"You can ask for \"&632 Stone&r\" or \"&6half a stack of stone&r\" and both will work."
+				""
+				"Since the Index technically doesn't have an inventory, you can place the Master Corporea Spark on it without losing any functionality."
+			]
+			id: "473F60B947745A57"
+			subtitle: "Voice Command"
+			tasks: [{
+				id: "481D8038C0EB0E18"
+				item: "botania:corporea_index"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+	]
+	title: "Magical"
+}

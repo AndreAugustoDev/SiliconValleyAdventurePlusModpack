@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "laserio"
+	group: "0815C5D80307ECDF"
+	icon: "laserio:laser_node"
+	id: "0042BD2208B770D5"
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&bFluid Cards&r allow Laser Nodes to &6move liquids&r."]
+			id: "14F51A9FF3170F6C"
+			rewards: [{
+				id: "57538128204F4A3E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Liquid Lasers"
+			tasks: [{
+				id: "3A8D7765E12CC30E"
+				item: "laserio:card_fluid"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&bEnergy Cards&r allow Laser Nodes to &6move energy&r."]
+			id: "496655108E39C219"
+			rewards: [{
+				id: "4B9CE5AAA059C621"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Energy Lasers"
+			tasks: [{
+				id: "35B1228B2FF8F268"
+				item: "laserio:card_energy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eLaserIO&r intelligently teleports items between inventories, without needing to have a path of pipes."
+				""
+				"[\"The mod has a very good \",{\"text\":\"Patchouli\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-patchouli-book @s laserio:laseriobook\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open LaserIO guidebook\"]}}, \" book, which I suggest you read.\"]"
+			]
+			id: "6323D7F042738A45"
+			rewards: [
+				{
+					id: "11D52D3263D9D435"
+					item: "laserio:laser_wrench"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2F7643D68DBA3943"
+					item: "laserio:logic_chip_raw"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Laser IO"
+			tasks: [{
+				id: "41CCFB5940195DCC"
+				item: "laserio:logic_chip"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&bItem Cards&r allow Laser Nodes to &6move items&r."]
+			id: "40ABE3BB05559ED2"
+			rewards: [
+				{
+					id: "30FE2B7F02C987FC"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "0D6BA881B724E2C1"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "58A44492717F9723"
+					item: "laserio:card_item"
+					type: "item"
+				}
+				{
+					id: "1A0CF744CC399BB0"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+						id: "laserio:card_holder"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Item Lasers"
+			tasks: [{
+				id: "2987BF7B656DC9A5"
+				item: "laserio:card_item"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: ["&bCard Overclockers&r make Cards work faster."]
+			id: "0E202986F8B806A2"
+			shape: "diamond"
+			subtitle: "Card Upgrade"
+			tasks: [{
+				id: "51D7778D67B7CC0F"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6323D7F042738A45"]
+			description: [
+				"&bLaser Nodes&r can interact with adjacent inventories using &6Cards&r. Insert a Card into the side of the Node that's facing the block."
+				""
+				"In the Node's GUI, right-click a Card to configure it. This GUI is fairly complex, so reading &6LaserIO 101&r is highly recommended."
+				""
+				"When a Card is set to extract, items etc are sent to any Cards on its network and &6channel&r that are set to Insert."
+			]
+			id: "10971979B3BC1A85"
+			rewards: [{
+				count: 4
+				id: "5F4732E48F2F676B"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Pipes are for suckers"
+			tasks: [{
+				id: "5D61AF01DB93B160"
+				item: "laserio:laser_node"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"10971979B3BC1A85"
+				"6323D7F042738A45"
+			]
+			description: ["&bNode Overclockers&r let more Cards work at the same time."]
+			id: "5AF145540133130C"
+			shape: "diamond"
+			subtitle: "Node Upgrade"
+			tasks: [{
+				id: "5EB02D398EAD9CBC"
+				item: "laserio:overclocker_node"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["10971979B3BC1A85"]
+			description: ["&bFilters&r can be inserted into Cards to filter what they move."]
+			id: "1536EADBA48A808B"
+			rewards: [
+				{
+					id: "6921A24E56702B3F"
+					item: {
+						Count: 1b
+						id: "laserio:filter_basic"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79F4C7448273B715"
+					item: {
+						Count: 1b
+						id: "laserio:filter_count"
+						tag: {
+							counts: [
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 0
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 1
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 2
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 3
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 4
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 5
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 6
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 7
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 8
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 9
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 10
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 11
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 12
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 13
+								}
+								{
+									Count: 0
+									MBAmount: 0
+									Slot: 14
+								}
+							]
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EDB9D925AF9D0DE"
+					item: {
+						Count: 1b
+						id: "laserio:filter_tag"
+						tag: {
+							tags: [ ]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094F538DE9245DEF"
+					item: {
+						Count: 1b
+						id: "laserio:filter_mod"
+						tag: {
+							inv: {
+								Items: [ ]
+								Size: 15
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E01103306B74E64"
+				item: {
+					Count: 1b
+					id: "laserio:filter_basic"
+					tag: {
+						inv: {
+							Items: [ ]
+							Size: 15
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "LaserIO"
+}

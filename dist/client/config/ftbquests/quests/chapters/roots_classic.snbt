@@ -1,0 +1,686 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "roots_classic"
+	group: "1039AC171AB01709"
+	icon: "rootsclassic:old_root"
+	id: "12EFCF1D120BE1D2"
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Break some grass to find an old root, and craft it with any 'stone' and 3 seeds to begin!"]
+			id: "56C2AE408143823B"
+			subtitle: "Druidic magic, a blast from the past. Welcome to Roots Classic."
+			tasks: [{
+				id: "2541CBBE79F6C1F8"
+				item: "rootsclassic:runic_tablet"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56C2AE408143823B"]
+			id: "021B0F6A78416169"
+			tasks: [
+				{
+					id: "7355A9639BC2E91A"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+				{
+					id: "420565E67FCFCD40"
+					item: "rootsclassic:elderberry"
+					type: "item"
+				}
+				{
+					id: "58B4181F9F78563C"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					id: "225B947AE0B69242"
+					item: "rootsclassic:blackcurrant"
+					type: "item"
+				}
+				{
+					id: "7B3D399286A15DCE"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					id: "4C4C9A19A353ACF4"
+					item: "rootsclassic:redcurrant"
+					type: "item"
+				}
+			]
+			title: "Wild Bounties"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56C2AE408143823B"]
+			description: [
+				"verdant sprigs sprout among the crops of the mortal people"
+				"From the shrooms of hell come bulbs of infernal nature"
+				"Eye of the draaaagon comes from the flower shot by an arrow"
+			]
+			id: "3D285BABCE219BDD"
+			tasks: [
+				{
+					id: "3B6814883D8FC4AA"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+				{
+					id: "387588C139FAC966"
+					item: "rootsclassic:infernal_bulb"
+					type: "item"
+				}
+				{
+					id: "1D72C1AF2771D946"
+					item: "rootsclassic:dragons_eye"
+					type: "item"
+				}
+			]
+			title: "Luck of the straw"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56C2AE408143823B"]
+			id: "342BEE9591B9C2DF"
+			tasks: [
+				{
+					id: "58759705B218AD68"
+					item: {
+						Count: 1b
+						id: "rootsclassic:bark_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "289C9D62E7BD63D5"
+					item: "rootsclassic:oak_bark"
+					type: "item"
+				}
+				{
+					id: "7D7831B6EE8A33A5"
+					item: "rootsclassic:birch_bark"
+					type: "item"
+				}
+				{
+					id: "229895C7B25B5DFD"
+					item: "rootsclassic:spruce_bark"
+					type: "item"
+				}
+				{
+					id: "17DAD76D300D90FB"
+					item: "rootsclassic:jungle_bark"
+					type: "item"
+				}
+				{
+					id: "19C766AFB32D2311"
+					item: "rootsclassic:acacia_bark"
+					type: "item"
+				}
+				{
+					id: "2FCDBC7E75B5D80B"
+					item: "rootsclassic:dark_oak_bark"
+					type: "item"
+				}
+			]
+			title: "My name is Charlie Barkin'"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["56C2AE408143823B"]
+			id: "42B8D4F2DD76B5B2"
+			rewards: [{
+				id: "76403225CF5761F6"
+				item: "rootsclassic:whitecurrant"
+				type: "item"
+			}]
+			subtitle: "Spellmaking"
+			tasks: [
+				{
+					id: "5CA6AAE7A5308A60"
+					item: "rootsclassic:imbuer"
+					type: "item"
+				}
+				{
+					id: "4D9A27E0B5B5F137"
+					item: "rootsclassic:mortar"
+					type: "item"
+				}
+				{
+					id: "632762F35E789D80"
+					item: "rootsclassic:pestle"
+					type: "item"
+				}
+			]
+			title: "Crushing flowers"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42B8D4F2DD76B5B2"]
+			description: [
+				"add these four ingredients to the mortar, crush with a pestle and an old root to create a spell powder. Add the powder to the imbuer, add a stick, and receive a staff. "
+				"Adding other objects, like verdant sprigs, can increase stats of the spell powder. See the Runic Tablet"
+			]
+			id: "73DF37D1F9F6CD4B"
+			rewards: [{
+				id: "66FC17A63A03E17D"
+				item: "rootsclassic:redcurrant"
+				type: "item"
+			}]
+			subtitle: "Blow away thy enemy"
+			tasks: [
+				{
+					id: "1B83440F36060694"
+					item: "minecraft:dandelion"
+					type: "item"
+				}
+				{
+					id: "24B852A9197E6498"
+					item: "minecraft:string"
+					type: "item"
+				}
+				{
+					id: "01911A75F270D6CE"
+					item: "minecraft:feather"
+					type: "item"
+				}
+				{
+					id: "3C91B1F2700A6562"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+				{
+					id: "1FDBBAFDDFAB57A6"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			title: "Dandelion Winds"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D285BABCE219BDD"]
+			id: "186393ACBC9BF50E"
+			tasks: [
+				{
+					id: "38AFF74A61898AB0"
+					item: "rootsclassic:altar"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2C86459CD1DC4263"
+					item: "rootsclassic:mundane_standing_stone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6BA2AF00CAA4CA8B"
+					item: "rootsclassic:brazier"
+					type: "item"
+				}
+			]
+			title: "Harnessing the druid's power"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["186393ACBC9BF50E"]
+			id: "3447BBB95F790D47"
+			tasks: [{
+				count: 4L
+				id: "24AE8F157A854EE6"
+				item: "rootsclassic:attuned_standing_stone"
+				type: "item"
+			}]
+			title: "Stronger Magic Stones"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3447BBB95F790D47"]
+			id: "1754F6AB4FF543E8"
+			tasks: [
+				{
+					id: "1F1DF3525BE2DCEA"
+					item: {
+						Count: 1b
+						id: "rootsclassic:wildwood_mask"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3CA2AB7F578C2F25"
+					item: {
+						Count: 1b
+						id: "rootsclassic:wildwood_plate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79861C64F7566F08"
+					item: {
+						Count: 1b
+						id: "rootsclassic:wildwood_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9A2272D3BB4B90"
+					item: {
+						Count: 1b
+						id: "rootsclassic:wildwood_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ent's Armor"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3447BBB95F790D47"]
+			id: "71690420D9E8BF41"
+			tasks: [
+				{
+					id: "74507ACFE9B48107"
+					item: {
+						Count: 1b
+						id: "rootsclassic:sylvan_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "368D0DE847614A69"
+					item: {
+						Count: 1b
+						id: "rootsclassic:sylvan_robe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7562735B0FC8802E"
+					item: {
+						Count: 1b
+						id: "rootsclassic:sylvan_tunic"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C873DFD1856D137"
+					item: {
+						Count: 1b
+						id: "rootsclassic:sylvan_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Druid's Garb"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3447BBB95F790D47"]
+			id: "036EADB5D0134DFC"
+			subtitle: "Verdant sprigs and gold revive wooden tools to a self repairing iron variant"
+			tasks: [
+				{
+					id: "7676A446DAEB879D"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2917A37C72DBDCD9"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30050D4F6138DB21"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6550ACFAEC3C3EA3"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37AA56704DF7D4A5"
+					item: {
+						Count: 1b
+						id: "rootsclassic:living_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools of the Living...Dead?"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3447BBB95F790D47"]
+			id: "1834BDF81E5D86D2"
+			subtitle: "A stronger staff requires a stronger magic... life."
+			tasks: [{
+				id: "11BF8DDCED51F77F"
+				item: "rootsclassic:crystal_staff"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36FC54892394351B"]
+			icon: "rootsclassic:radiant_daisy"
+			id: "23984BD59A12F8C5"
+			rewards: [{
+				id: "5025BB2002279E90"
+				item: "rootsclassic:growth_powder"
+				type: "item"
+			}]
+			subtitle: "See the runic tablet to create the radiant daisy"
+			tasks: [
+				{
+					id: "25F5A880B9C3B084"
+					item: "rootsclassic:radiant_daisy"
+					type: "item"
+				}
+				{
+					id: "5839E381B3729841"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+				{
+					id: "5ECF65B63493D382"
+					item: "rootsclassic:nightshade"
+					type: "item"
+				}
+				{
+					id: "3B8F66FD163D4FC1"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "769768CB2C6D6C92"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			title: "Moonbeam"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36FC54892394351B"]
+			description: ["Creating the flare orchid will let you be Combustion Man."]
+			icon: "rootsclassic:flare_orchid"
+			id: "2EB8F3871A4CBD5C"
+			rewards: [{
+				id: "22FD6AAAC113F8A9"
+				item: "rootsclassic:mutating_powder"
+				type: "item"
+			}]
+			subtitle: "BOOM! "
+			tasks: [
+				{
+					id: "1F5D4B91D171B575"
+					item: "rootsclassic:flare_orchid"
+					type: "item"
+				}
+				{
+					id: "418CF0564534E334"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "4DEEF64A2E59454F"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "3EEA21F7EC8E368E"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "6344E89084D5FC6A"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			title: "Combusk-eer, combustion"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["36FC54892394351B"]
+			icon: "rootsclassic:midnight_bloom"
+			id: "26F31DAFF98D96E1"
+			rewards: [{
+				id: "57432C2B243C98F4"
+				item: "rootsclassic:spell_powder"
+				type: "item"
+			}]
+			subtitle: "Stop time... create the midnight bloom."
+			tasks: [
+				{
+					id: "3D32A0692E169B5D"
+					item: "rootsclassic:midnight_bloom"
+					type: "item"
+				}
+				{
+					id: "3FF77C34B913550A"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "406E457AD294438D"
+					item: "minecraft:dragon_breath"
+					type: "item"
+				}
+				{
+					id: "7E5A61C5333DEB1A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "0E493A650E4DA365"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
+			title: "Freeze Frame - Time Magic"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["167FBE370CA975B8"]
+			id: "36FC54892394351B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E74A2598B16AE87"
+				table_id: 493550106172164909L
+				type: "random"
+			}]
+			subtitle: "Withers kill things, but this makes things."
+			tasks: [{
+				id: "250E6C9D0E360146"
+				item: "rootsclassic:mutating_powder"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42B8D4F2DD76B5B2"]
+			id: "167FBE370CA975B8"
+			rewards: [{
+				id: "527FADEC7C1E448A"
+				item: "simplehats:zigzagwitchhat"
+				type: "item"
+			}]
+			subtitle: "so I killed a witch to make this druidic bonemeal."
+			tasks: [{
+				id: "119A14FC0B060527"
+				item: "rootsclassic:growth_powder"
+				type: "item"
+			}]
+			title: "I hate skeletons."
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42B8D4F2DD76B5B2"]
+			id: "7EE7AA8427A63D9C"
+			rewards: [{
+				id: "0956C893AA899A41"
+				item: "rootsclassic:old_root"
+				type: "item"
+			}]
+			subtitle: "Mining with magic. Add POTENCY modifiers to increase the strength, starts as an iron pickaxe."
+			tasks: [
+				{
+					id: "121C9FB5E6B2DCF9"
+					item: "minecraft:azure_bluet"
+					type: "item"
+				}
+				{
+					id: "06220F2CDEB164D9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "188C5BE00DE9A62B"
+					item: "minecraft:spruce_sapling"
+					type: "item"
+				}
+				{
+					id: "5ADDDB2728888455"
+					item: "rootsclassic:whitecurrant"
+					type: "item"
+				}
+			]
+			title: "Shatter'd"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3447BBB95F790D47"]
+			description: ["There's also one thats a lightshow."]
+			id: "0F707C4131737E01"
+			subtitle: "Attuned standing stones can be altered for producing various effects."
+			tasks: [
+				{
+					id: "21E4F4016CE05479"
+					item: "rootsclassic:vacuum_standing_stone"
+					type: "item"
+				}
+				{
+					id: "056CDAFEBA6B0C09"
+					item: "rootsclassic:repulsor_standing_stone"
+					type: "item"
+				}
+				{
+					id: "39B86F9423F6B1AB"
+					item: "rootsclassic:accelerator_standing_stone"
+					type: "item"
+				}
+				{
+					id: "31903BDC98581053"
+					item: "rootsclassic:entangler_standing_stone"
+					type: "item"
+				}
+				{
+					id: "6FB11B06C191E71B"
+					item: "rootsclassic:igniter_standing_stone"
+					type: "item"
+				}
+				{
+					id: "1D2BDC74F1C0383D"
+					item: "rootsclassic:grower_standing_stone"
+					type: "item"
+				}
+				{
+					id: "72681B366B37D286"
+					item: "rootsclassic:healer_standing_stone"
+					type: "item"
+				}
+				{
+					id: "77F01F9AD4516072"
+					item: "rootsclassic:aesthetic_standing_stone"
+					type: "item"
+				}
+			]
+			title: "Standing Stones on Employment"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Satisfying the itch of druid's nature magic."]
+	title: "Roots Classic"
+}

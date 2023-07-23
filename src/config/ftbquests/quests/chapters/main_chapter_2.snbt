@@ -1,0 +1,2436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "main_chapter_2"
+	group: "1CF541D7529DA9CF"
+	icon: "mekanismgenerators:wind_generator"
+	id: "48A6C9B3B637CB2C"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.5d
+			hover: ["Power"]
+			image: "rftoolspower:textures/block/monitor/power_monitor5.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 12.5d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/block/redstone_torch.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/block/redstone_torch.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/item/redstone.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/item/redstone.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/item/diamond.png"
+			rotation: 15.0d
+			width: 0.5d
+			x: 14.51275510204082d
+			y: 1.7984693877550981d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "minecraft:textures/block/oxeye_daisy.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/block/nether_portal.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 14.489795918367356d
+			y: 2.6020408163265287d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:textures/item/dragon_breath.png"
+			rotation: -30.0d
+			width: 1.0d
+			x: 23.5d
+			y: 5.0d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "5A7BE7BB6C780376"
+		linked_quest: "4193303999597249"
+		x: 14.5d
+		y: 1.0d
+	}]
+	quests: [
+		{
+			description: ["You should have a Coal Generator ready to go!"]
+			icon: "mekanismgenerators:wind_generator"
+			id: "158241A356BC2001"
+			rewards: [{
+				id: "4DD2A37CCE1493B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "The Basics"
+			tasks: [{
+				id: "45AB71674BC88874"
+				title: "Getting Started: Part 2 - Basic Power"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["158241A356BC2001"]
+			description: [
+				"Let's make a Metallurgic Infuser."
+				""
+				"This machine allows us to make several materials needed to make a renewable energy source, the Wind Generator."
+				""
+				"Place the Infuser beside the Coal Generator to give it power."
+			]
+			id: "5127AEEEFB19C438"
+			rewards: [
+				{
+					id: "19972510ACACB28D"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "07451E4737DF4EFA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "To Create More Power"
+			tasks: [{
+				id: "79D1D3C0BE57CB97"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Using Our Power"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5127AEEEFB19C438"]
+			description: [
+				"Let's get the materials needed for the Wind Generator."
+				""
+				"Start by placing a piece of redstone in the far left slot, and a piece of iron in the middle-left slot. This will make an Infused Alloy."
+				""
+				"To make the control circuit, you'll need 2 pieces of redstone and an Osmium Ingot."
+				""
+				"Use these pieces to make 2 Energy Tablets."
+			]
+			id: "5CC3A38E5EC6B432"
+			rewards: [
+				{
+					count: 3
+					id: "785C4F4F94586C2B"
+					item: "alltheores:osmium_ingot"
+					type: "item"
+				}
+				{
+					id: "1A30B827797AC088"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Getting the Parts"
+			tasks: [
+				{
+					count: 5L
+					id: "0DF85C1E601DC6DF"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "16A1F05D67351A57"
+					item: "mekanism:basic_control_circuit"
+					type: "item"
+				}
+				{
+					id: "18120AD4B4E7D4FD"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+				{
+					id: "64C323AE69864516"
+					item: "mekanism:energy_tablet"
+					type: "item"
+				}
+			]
+			title: "Wind Generator: Part 1"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5CC3A38E5EC6B432"]
+			description: [
+				"Use the parts from the previous quest to create your first Wind Generator!"
+				""
+				"Wind Generators need to be placed in view of the sky, and the higher they are placed, the more power it generates!"
+				""
+				"*Note: If the noise is too much, you can install the muffling upgrade into the Generator."
+			]
+			id: "3B0F743619501040"
+			rewards: [
+				{
+					count: 3
+					id: "0F4AC925CA924F5F"
+					item: "mekanism:alloy_infused"
+					type: "item"
+				}
+				{
+					id: "63EE58DB9AA1C48F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "133E3259306AE6CC"
+					item: "mekanism:upgrade_muffling"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "We're the future now."
+			tasks: [{
+				id: "793510A2F4ADC8D5"
+				item: "mekanismgenerators:wind_generator"
+				type: "item"
+			}]
+			title: "Renewable Energy!"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"We'll need a way to transfer our power from our Wind Generator."
+				""
+				"Go ahead and make yourself some Energy Pipez and a Pipe Wrench. You'll need the pipe wrench to get the pipe to extract power."
+				""
+				"*Note: To tell the pipe to \"extract\" the power, shift right click on the pipe connected to the Wind Generator."
+				""
+			]
+			id: "45F136F5001088A6"
+			rewards: [
+				{
+					count: 8
+					id: "34B3C6AB7626C5F4"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "5F38A42EC22F6942"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Cheap Pipez"
+			tasks: [
+				{
+					count: 16L
+					id: "55C23E61C8DFEABE"
+					item: "pipez:energy_pipe"
+					type: "item"
+				}
+				{
+					id: "3A5272A238725B34"
+					item: "pipez:wrench"
+					type: "item"
+				}
+			]
+			title: "Connecting Power"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3B0F743619501040"]
+			description: [
+				"The Pulverizer is a basic Thermal Expansion machine used to process 1 raw ore into 1 dust, with a 25% chance to create another dust. This usually means about 25% more ingots."
+				""
+				"Make sure to connect power to it!"
+				""
+				"*Note: These can also be upgraded."
+			]
+			id: "68D92BCE3F8ED72E"
+			rewards: [
+				{
+					count: 4
+					id: "09D4345F3B590A56"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "693441C21F3C89B7"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "150AD9B8D2EAD77F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Throwback to the Macerator from IC2"
+			tasks: [{
+				id: "18CB340768BB6653"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			title: "Leaving it up to Chance!"
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["75660320BF33B27F"]
+			description: [
+				"This is the first Jetpack we'll make. It doesn't hold a charge for very long though."
+				""
+				"Make sure to upgrade it quickly!"
+				""
+				"Note: Because of NBT issues, you'll need to look the recipe up in JEI rather than clicking the item. "
+			]
+			id: "6651896BDD7315CA"
+			rewards: [
+				{
+					count: 3
+					id: "3421DCBFC8E8E13F"
+					item: "ironjetpacks:basic_coil"
+					type: "item"
+				}
+				{
+					id: "0B9F9BF8013C47C2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Look Ma! I'm Flying!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+				id: "4FBACD44C6B9E86D"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Id: "ironjetpacks:wood"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Wood Jetpack"
+				type: "item"
+			}]
+			title: "Our First Flight"
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75660320BF33B27F"]
+			description: [
+				"This chargeable item can place blocks for you."
+				""
+				"To use, make sure you find the \"settings\" keybind in your keybind settings, under the Building Gadget category."
+			]
+			id: "6CD733DD7A14ACE0"
+			optional: true
+			rewards: [
+				{
+					id: "6241E6AAF7684694"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F0EF3A9E9E1D826"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sorry, Building Wands."
+			tasks: [{
+				id: "18E29C0A87A1E900"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Best Building Tool"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"426A73789DA85B69"
+				"21D0047AAD19AE5A"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Iron Furnace can be upgraded all the way to Unobtainium."
+				""
+				"It's time for an upgrade!"
+			]
+			id: "6C1BC11941F3D831"
+			rewards: [
+				{
+					id: "7EEBD4070E207124"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+				{
+					id: "076B2F8297274B0E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2254F92C82DD3521"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "066FCA0ADED1A3D9"
+				item: "ironfurnaces:gold_furnace"
+				type: "item"
+			}]
+			title: "Upgrading Our Smelting Machine"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			id: "3E29F5EA45A682EB"
+			optional: true
+			rewards: [{
+				id: "1ACB7C85C154F985"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Converts to a Blast Furnace"
+			tasks: [{
+				id: "57E1F8DF4278DB94"
+				item: "ironfurnaces:augment_blasting"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			id: "73A3142738A397E4"
+			optional: true
+			rewards: [{
+				id: "0A6B8AC0892B89C7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Smokes Food"
+			tasks: [{
+				id: "019AD3142A608CBD"
+				item: "ironfurnaces:augment_smoking"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			id: "7D79CDF05889123C"
+			optional: true
+			rewards: [{
+				id: "144CF0CD8D4492FC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "GO FASTER!"
+			tasks: [{
+				id: "2E53E721BD88F3BD"
+				item: "ironfurnaces:augment_speed"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			id: "24DACE4928E0D663"
+			optional: true
+			rewards: [{
+				id: "0BA24CBDB256842A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Better Fuel Efficiency"
+			tasks: [{
+				id: "1E4EBEA59DC6A351"
+				item: "ironfurnaces:augment_fuel"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"All Pipez can be upgraded with pipe upgrades."
+				""
+				"To add the pipe upgrade, shift right click on the pipe that is currently set to extract."
+			]
+			id: "6C4C4E1159435872"
+			rewards: [
+				{
+					id: "518EEB046EB530A9"
+					item: "pipez:basic_upgrade"
+					type: "item"
+				}
+				{
+					id: "008E0ABF229A0BA4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			subtitle: "Increase our pipe output"
+			tasks: [{
+				id: "40C11420B866D700"
+				item: "pipez:basic_upgrade"
+				type: "item"
+			}]
+			title: "Pipe Upgrades"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			description: [
+				"Now it's time to find some diamonds. We'll need this to get some obsidian to head to the Nether."
+				""
+				"Note: Other Gems work like Ruby, Peridot, etc. They have a mining level of Obsidian."
+				""
+				"You probably already have diamonds at this point too."
+			]
+			id: "02741CEF39418AD5"
+			rewards: [
+				{
+					id: "3F73E0662C49FC78"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0A8E7A0EF9BAF22E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BE075E662664BB8"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "3F1152CD61CA14D4"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "The Search for Diamonds Begins!"
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["02741CEF39418AD5"]
+			description: ["It's time to grab some obsidian and get to the Nether!"]
+			id: "2504339F8EC5ED40"
+			rewards: [
+				{
+					id: "430C4A0736D22B61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "687705A6AB922E73"
+					item: "minecraft:quartz"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C9115DA6E0A2DC9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "Speedrunners are already there."
+			tasks: [
+				{
+					count: 10L
+					id: "1CB75F661B0551FB"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "0E84EC9D6E59A880"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					criterion: ""
+					id: "1C5BF45C8E5ADCDA"
+					type: "advancement"
+				}
+			]
+			title: "To the Nether!"
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2504339F8EC5ED40"]
+			description: [
+				"Keep a lookout for some Crimson Iron."
+				""
+				"With Crimson Iron, you can craft yourself Crimson Steel, which is the next level for the Mining Progression."
+				""
+				"Note: Crimson Steel Tip Upgrades from Silent Gear adds Autosmelt to tools!"
+			]
+			id: "395A941E8329DC03"
+			rewards: [
+				{
+					count: 4
+					id: "4D1F61D1F87E355E"
+					item: "silentgear:crimson_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "10D47E833F152CFB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Iron of the Nether"
+			tasks: [{
+				count: 16L
+				id: "5807A87CB496A1FE"
+				item: "silentgear:raw_crimson_iron"
+				type: "item"
+			}]
+			title: "Find some Crimson Iron"
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2504339F8EC5ED40"]
+			description: [
+				"Blaze rods and Blaze Powders are vital for progression."
+				""
+				"If you find a spawner, you can make a Cardboard Box from Mekanism and use it to take the spawner home!"
+			]
+			id: "33606D198F94A5D4"
+			rewards: [
+				{
+					count: 4
+					id: "39F7E7226367A402"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "29D36D2FB7E37DDA"
+					item: "tconstruct:blaze_head"
+					type: "item"
+				}
+				{
+					id: "25CF96AC9640F17E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Also great for Tool Rods in Silent Gear"
+			tasks: [
+				{
+					count: 4L
+					id: "6D8822ABFCC0BC5F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "00ED5ADE6C39D2F3"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+			]
+			title: "What in the Blazes"
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6797F26BC9A3EFB6"]
+			description: [
+				"The &aTeleport Pad&r is how you get to the &bMining dimension&r, as well as the &bOther&r."
+				""
+				"To get to the &bMining dimension&r, place the teleport pad in the overworld and Shift-Right Click with empty hand."
+				""
+				"To go to the &bOther&r, do the same thing but in the &bNether&r."
+			]
+			id: "566C8877E6427AF5"
+			rewards: [
+				{
+					count: 2
+					id: "3627B69A0987FFF3"
+					item: "allthemodium:allthemodium_nugget"
+					type: "item"
+				}
+				{
+					id: "4C1E35562F025EBB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A4FE9132A43CF86"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Dimensional Travel"
+			tasks: [{
+				id: "193F1F4CD0ECE84C"
+				item: "allthemodium:teleport_pad"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["33606D198F94A5D4"]
+			description: [
+				"To make potions, you'll need some Blaze Rods and Blaze Powder."
+				""
+				"You'll need this if you want to make yourself OreSight potions!"
+			]
+			id: "133C5CD738593F3A"
+			rewards: [
+				{
+					count: 3
+					id: "0EF92F1A636D3572"
+					item: "minecraft:glass_bottle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "3A2275B6567E6753"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					id: "4FE8D65416D87A92"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Brewin' Up Some Trouble"
+			tasks: [
+				{
+					id: "5F635D455C9B1507"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "1E3255C3736E55DF"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:mundane"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Potions Master"
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02741CEF39418AD5"]
+			description: ["You can now make yourself an Enchanting Table!"]
+			id: "645BDED2DDFA1DE7"
+			rewards: [
+				{
+					count: 3
+					id: "7DBCFA47828054EB"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "29F5A6860AE2816A"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "27AFD2C424D2A8D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4D919BAE706C7369"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "Enchanting Time"
+			x: 15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["21AC905C9C026364"]
+			description: [
+				"With these items, you can now make yourself DiamondSight potions!"
+				""
+				"Use these to make a Charm of Diamondsight!"
+			]
+			id: "08B8A9F5A938440E"
+			rewards: [
+				{
+					id: "5ECF000930C1B6A6"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "007EE8D1FF7B6001"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Doesn't work with Shaders"
+			tasks: [{
+				count: 3L
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				id: "146A35934C53F894"
+				item: {
+					Count: 1b
+					id: "itemfilters:strong_nbt"
+					tag: {
+						value: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+				}
+				title: "DiamondSight Potions"
+				type: "item"
+			}]
+			title: "X-Ray Potions"
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["133C5CD738593F3A"]
+			description: [
+				"To craft OreSight potions, you'll need to make a Mortar and Pestle. Use these to make Ender Powder, which is needed to make the ore powder for the potions."
+				""
+				"Using these 3 items, combine with a diamond in a crafting table to get Diamond Powder. Put this in a furnace, and you'll get the calcinated powder."
+			]
+			id: "21AC905C9C026364"
+			rewards: [
+				{
+					id: "5FFC5BF378A7086C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "375BD8D6D45946C7"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 3
+					id: "725059E7D67BD23B"
+					item: "potionsmaster:ender_powder"
+					type: "item"
+				}
+			]
+			subtitle: "Ore... Powder?"
+			tasks: [
+				{
+					id: "7090A38CB28DA145"
+					item: "potionsmaster:tile_mortar"
+					type: "item"
+				}
+				{
+					id: "1A8162792C1C3481"
+					item: "potionsmaster:pestle"
+					type: "item"
+				}
+				{
+					id: "405F4F4D884EBE7D"
+					item: "potionsmaster:calcinateddiamond_powder"
+					type: "item"
+				}
+				{
+					id: "5C7D0376F3B1DCE0"
+					item: "potionsmaster:ender_powder"
+					type: "item"
+				}
+			]
+			title: "X-Ray Potion Ingredients"
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["08B8A9F5A938440E"]
+			description: [
+				"Using the OreSight potions you've crafted, make yourself a Charm!"
+				""
+				"These last longer than potions, and can be toggled on and off."
+			]
+			id: "5BFB1E9038A02DD1"
+			rewards: [{
+				id: "63B77DF93F0976A6"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "This is also a Curio!"
+			tasks: [{
+				id: "2C5AB93D50715397"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				type: "item"
+			}]
+			title: "X-Ray Charm?"
+			x: 17.5d
+			y: -7.5d
+		}
+		{
+			id: "6C9BCBCD0EC39B02"
+			rewards: [
+				{
+					id: "2EA89F40122804F0"
+					item: "pipez:improved_upgrade"
+					type: "item"
+				}
+				{
+					id: "628256AFD90DA94F"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "144A7418058F04EB"
+				item: "pipez:improved_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["532DC2EBF0430364"]
+			description: [
+				"Now that you have the Mining world unlocked, it's time to get mining!"
+				""
+				"Emeralds spawn in every biome, as well as Allthemodium Ore!"
+			]
+			hide: true
+			id: "35FCA92D826234AE"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "10E477DCA0D3540A"
+					item: "allthemodium:allthemodium_ore"
+					type: "item"
+				}
+				{
+					id: "6EFA0042FAA67B61"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					count: 64L
+					id: "76DC07D537171C7C"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "7C90F00DE329B3D5"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7C096EDEF6A58654"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "226019B037FDD523"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03188F881BA8AF82"
+					item: "allthemodium:raw_allthemodium"
+					type: "item"
+				}
+			]
+			title: "Hidden Quest: Mining World Adventure"
+			x: 25.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2504339F8EC5ED40"]
+			id: "7071FAB260507F73"
+			rewards: [
+				{
+					count: 4
+					id: "6B1672842E1CBDD2"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "63343D3CC23D7CEB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "In the Nether...."
+			tasks: [{
+				count: 12L
+				id: "49EC17A997F21A48"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Time to Farm Ender Pearls"
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7071FAB260507F73"]
+			description: ["Make you some Eyes of Ender. You'll use these to find the End Portal!"]
+			id: "3642565C05610467"
+			rewards: [
+				{
+					count: 2
+					id: "7333B99DBC848D20"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "1CAB6E734F83F85B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "A few on us."
+			tasks: [{
+				count: 12L
+				id: "146B1C5F69069A42"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "The Quest to Find the End Portal"
+			x: 17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"3642565C05610467"
+				"3C985B0C71499C31"
+			]
+			description: [
+				"If you're reading this, you are probably either looking for the End Portal in the End Fortress, and can't find it...."
+				""
+				"Or you already found it. Congrats!"
+			]
+			id: "4EBB0D0BE35FCD68"
+			rewards: [
+				{
+					id: "1552AC8BA351EA99"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78253C205F074549"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			shape: "square"
+			subtitle: "....and Beyond!"
+			tasks: [{
+				id: "36CBEE126603940C"
+				item: "minecraft:end_stone"
+				type: "item"
+			}]
+			title: "To the End!"
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EBB0D0BE35FCD68"]
+			description: ["Head to the End and kill the Ender Dragon!"]
+			id: "3FFB052E86D481AE"
+			rewards: [
+				{
+					id: "65A4976D9057B63D"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "52969BD165465062"
+					item: {
+						Count: 1b
+						id: "minecraft:cake"
+						tag: {
+							display: {
+								Lore: ["\"I beat Minecraft, and all they gave me was this cake.\""]
+								Name: "\"Winner Cake\""
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			subtitle: "For the first time....."
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "minecraft:dragon_head"
+				id: "3CA041A6C804B8FA"
+				title: "Kill the Ender Dragon!"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&5Kill the Ender Dragon!"
+			x: 23.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3FFB052E86D481AE"]
+			description: [
+				"If you didn't know, there is more to the End than just killing the dragon."
+				""
+				"Once the dragon has been slain, you will find a weird \"structure\" with a portal between 3 blocks. Take an Ender Pearl and throw it into the portal."
+			]
+			icon: "minecraft:ender_pearl"
+			id: "663EA64A99A4435D"
+			rewards: [{
+				id: "0DD4C0DB57A3AC80"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "It's actually really pretty."
+			tasks: [{
+				id: "144999C747CD1471"
+				title: "To the REAL End"
+				type: "checkmark"
+			}]
+			x: 26.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6797F26BC9A3EFB6"]
+			description: ["Allthemodium Ingots pack a punch in terms of damage. Make sure to upgrade your weapon!"]
+			id: "3CD5DFF5ACA36566"
+			rewards: [{
+				id: "783A7DCC4DD78EEC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2B9D994AF380EB51"
+				title: "Don't Forget to Upgrade your Weapon!"
+				type: "checkmark"
+			}]
+			x: 21.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0256FFC5363F4BA6"]
+			description: [
+				"So you've defeated the Ender Dragon, obtained an Elytra, and now you've beaten Vanilla MC."
+				""
+				"What do you do now?"
+				""
+				"You take over the World, by crafting the &d&lATM Star&r."
+				""
+				"Like the questline so far? Have any suggestions for future quests? Let us know in the Discord!"
+				""
+				"&o Questline To be Continued...."
+			]
+			icon: "allthetweaks:atm_star"
+			id: "5C415EECF3D742C3"
+			rewards: [
+				{
+					id: "7F0A23BA1702578A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "701BF9E972E68AC6"
+					item: {
+						Count: 1b
+						id: "minecraft:player_head"
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-863860352
+									-241416883
+									-1794774798
+									1141039977
+								]
+								Name: "AlfredGG"
+								Properties: {
+									textures: [{
+										Signature: "wdXPfoAQeNYy1BmDxPt7vYA4ZdZRXrR7f10LrwJeMdGzk1vt6UuT/UjV5nwVwVRmfopO4SuMHlnKGCkf9xaMTlag1SRv1qoFPbL3o+wury4PNmbpQyt1aId7hD0NHubjEQde6b4ple3Xc7pX9VvSJd9lXfVW2RfjmWiDVTA/w4XK6vB14QEvfxLXvKNrBU3tSwqJY+M5T3pBipne73xRvQTYQIeLPCmLJYRDsnwyedfvgj0JACXZ3fzDGkazul7+7Q3V8/AsNtnyVZ3uO4m11as/BPu2fRV/mNgQ9gKrj0OJAlarROtpgx1Ba0A+LbuuSkzTUiyki0TQGfK/9o2b2qKlqPuqog4ZFEEwrJPlezL5ZQ+0ayrHiJn0U1C4K+e+6SyiyXc73/gK4bEWY74nvxw232kN/AKhcfykaSFxvUxS+Cj+BYqCIGAMyhzYQCWx4fQ3Fdbn+U3QqxDbxLjJejXjCrvoeGOfdkq26RUpxt52X7AVaAro04M3gnsQYWh81HfXCeGPckNzeKzeNigRZmXuZ44ljD+geO6y2IKd0Nlt2DBX6weJsEYMhoNMnVuoBarG+1iY3HB9f5IsA4+K/+BrmMOe+a+XSvjwtgpP+yxzJc8XInLa7Fwt8GKWJSA8rYrFWi0tPh4mrMn1a/rke5BXT046VbX1q/LKcTf6ano="
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTczOTkyMzYyMywKICAicHJvZmlsZUlkIiA6ICJjYzgyODk4MGYxOWM0NTRkOTUwNWU4ZjI0NDAyZTM2OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGZyZWRHRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDU1YmNkY2FkOWM5NDM2NmFhMmJmMzYyNmRhYjcwN2NjMTU2N2RmOGViNmI2ODliZmEzMGI1Mzk5MWRmYzQzIgogICAgfQogIH0KfQ=="
+									}]
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "7A4ECFAFD9600F77"
+				title: "Where"
+				type: "checkmark"
+			}]
+			title: "Where to Next?"
+			x: 29.25d
+			y: 0.75d
+		}
+		{
+			id: "1B485DEF585DC3D7"
+			rewards: [
+				{
+					id: "71C9EB318F51CE5D"
+					item: "pipez:advanced_upgrade"
+					type: "item"
+				}
+				{
+					id: "0C36AD90DEDFCACA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "10F0AAB9A51EFF5E"
+				item: "pipez:advanced_upgrade"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3B0F743619501040"]
+			description: [
+				"The Enrichment Chamber turns 3 Raw ores into 4 dusts. This gives you about 25% more ingots."
+				""
+				"Mekanism also has a progression system that helps you create a factory that can give you even MORE from your raw ore."
+			]
+			id: "1CAF7B2E2716DFC9"
+			rewards: [
+				{
+					count: 4
+					id: "28041EC25645A919"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5D5CD309340798C6"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "164D79171C7B87C4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Leads to creating an ore FACTORY."
+			tasks: [{
+				id: "51635CB41BA2CF60"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Sticking with Mekanism"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68D92BCE3F8ED72E"]
+			description: [
+				"To setup automated Ore Smelting, place your Pulverizer directly to the left of your Iron Furnace."
+				""
+				"You'll place a chest on both, and then use the Cogwheel in the Pulverizer to configure input and output. Turn the top face Blue (input) and the right face Red (Output). Make sure to press the \"Auto Eject\" and \"Auto Input\" buttons."
+				""
+				"In the Iron Furnace, you'll do the same thing, except Input from the left and Output to the top."
+				"{image:atm:textures/pulverizer_easy_setup.png width:200 height:158 align:1 fit:true}"
+			]
+			icon: "thermal:wrench"
+			id: "21D0047AAD19AE5A"
+			rewards: [
+				{
+					count: 4
+					id: "2AC2AE3B96BD4337"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "58A1D1DD73E179BD"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Sticking with Thermal Expansion"
+			tasks: [{
+				id: "2059BB32DA1A25E4"
+				title: "Automated Ore Smelting with the Pulverizer"
+				type: "checkmark"
+			}]
+			title: "Automated Ore Smelting with Thermal Expansion"
+			x: 8.6d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1CAF7B2E2716DFC9"]
+			description: [
+				"To set up automated ore smelting from Mekanism, place the Enrichment Chamber to the left of your Iron Furnace, and place a Chest on top of both."
+				""
+				"In the Enrichment Chamber, use the \"Side Config\" settings to output to the right. Make sure to press the \"Auto Eject\" button."
+				""
+				"To get items into the Enrichment Chamber, you'll need a pipe connecting the chest on top to the machine. This can be done using an Item Pipe from &aPipez&r, or a Basic Logistical Transporter pipe from &9Mekanism&r. "
+				""
+				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
+				"{image:atm:textures/mekanism_easy_setup.png width:300 height:207 align:1 fit:true}"
+			]
+			icon: "mekanism:meka_tool"
+			id: "426A73789DA85B69"
+			rewards: [
+				{
+					count: 4
+					id: "5C326454E5FF6FBC"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "11E2B0DBBE94EB18"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Factory is Coming."
+			tasks: [{
+				id: "31AC1035AD7D59C0"
+				title: "Automated Ore Smelting with Mekanism"
+				type: "checkmark"
+			}]
+			title: "Automated Ore Smelting with Mekanism"
+			x: 8.600000000000001d
+			y: 0.0d
+		}
+		{
+			dependencies: ["426A73789DA85B69"]
+			description: ["To get started with Mekanism, check out the &aMekanism&r Chapter in the &6Technology&r Group."]
+			icon: "mekanism:steel_casing"
+			id: "1704026A7437D54E"
+			rewards: [{
+				id: "4A2869CDB9AA0EF9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "38563A9A80B64C5E"
+				title: "Getting Started with Mekanism"
+				type: "checkmark"
+			}]
+			x: 8.6d
+			y: 2.5d
+		}
+		{
+			dependencies: ["21D0047AAD19AE5A"]
+			description: ["&9Thermal Expansion&r is a simple power mod! Check out the &6Thermal Series&r chapter to get started!"]
+			icon: "thermal:machine_frame"
+			id: "10EC5DF6692B0BA7"
+			rewards: [{
+				id: "6E0FCFA3C0FEADD0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Alloys are in your future."
+			tasks: [{
+				id: "0EA4A1A9D1AB8FE0"
+				title: "Getting Started with Thermal Expansion"
+				type: "checkmark"
+			}]
+			x: 8.6d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3B0F743619501040"]
+			description: [
+				"The Basic Energy Cube acts as a power bank."
+				""
+				"You can also put chargeable items on the right slot to charge them up!"
+				""
+				"That means it's time for flight!"
+			]
+			id: "75660320BF33B27F"
+			rewards: [
+				{
+					count: 2
+					id: "31F4456A30C4AD63"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "1D766EC3771739BC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Mekanism can do it all!"
+			tasks: [{
+				id: "3CE4D8E7CD65C8F0"
+				item: "mekanism:basic_energy_cube"
+				type: "item"
+			}]
+			title: "Storing Power"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			description: ["Send some Ghasts flying, collect their tears."]
+			hide: true
+			hide_dependency_lines: true
+			id: "373C124C8054C038"
+			shape: "diamond"
+			subtitle: "How many Hidden Quests are there?"
+			tasks: [{
+				count: 2L
+				id: "7E12CD0EA65D8CA8"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			title: "Hidden Quest: The Nether"
+			x: 18.29999999999999d
+			y: -2.3d
+		}
+		{
+			dependencies: ["6651896BDD7315CA"]
+			id: "160B04EF08FAA642"
+			rewards: [
+				{
+					count: 3
+					id: "4F3A8DC51CF6CF8B"
+					item: "ironjetpacks:basic_coil"
+					type: "item"
+				}
+				{
+					id: "5D3995406A494D58"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ironjetpacks:jetpack"
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+				id: "7DB9A0D32F385A93"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Id: "ironjetpacks:stone"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Stone Jetpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0256FFC5363F4BA6"]
+			description: [
+				"The &dAngel Ring&r allows the player to have Creative Flight at the cost of experience. Make sure to put it in your ring slot to free up inventory space!"
+				""
+				"You can also upgrade the ring to use power instead of exp!"
+			]
+			id: "2123E4CC2BF6636A"
+			rewards: [{
+				id: "7A3DD7B2A49C42E1"
+				table_id: 7175652334583451871L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Look Ma, I'm flying! Creatively!"
+			tasks: [{
+				id: "1543A4D42C38EC6D"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			title: "&dCreative Flight&r"
+			x: 30.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2123E4CC2BF6636A"]
+			description: [
+				"We've created ourselves creative flight, now we need creative everything else."
+				""
+				"How do we do this? By making the &dATM Star&r. This is a long journey of mastering most of the mods in the pack. Do you think you are up to it?"
+				""
+				"Stay tuned for &aPart 3: To the Star&r!"
+			]
+			hide: true
+			icon: "allthetweaks:atm_star"
+			id: "2AD3AA18585BBD3D"
+			rewards: [{
+				id: "62306CE110B531BC"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "5EB55A98F474000D"
+				title: "The &5ATM Star&r"
+				type: "checkmark"
+			}]
+			x: 33.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"41B3695203B05551"
+				"663EA64A99A4435D"
+				"181A2B5075F559BC"
+			]
+			description: [
+				"&5Unobtainium&r ore is only found in &aEnd Highland&r biomes. "
+				""
+				"Having a &aNature's Compass&r will help you find the biome!"
+			]
+			id: "596FEFBECFEDF2AF"
+			rewards: [
+				{
+					id: "230D35631ADF2C68"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:unobtainium_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "30DBC17C0B3F57FD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B54CBB0A264AECE"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			subtitle: "More like OBtainium amirite?"
+			tasks: [{
+				id: "138E008BA417D05A"
+				item: "allthemodium:unobtainium_ingot"
+				type: "item"
+			}]
+			title: "&5Unobtainium"
+			x: 26.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["75660320BF33B27F"]
+			description: [
+				"You can get early game flight by creating a Wooden Jetpack!"
+				""
+				"This is the starter jetpack, and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
+			]
+			id: "2351E0068C5BC766"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "2F18A9F186E6F0A2"
+					item: "ironjetpacks:basic_coil"
+					type: "item"
+				}
+				{
+					id: "0259DE6D6533407A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Look Ma! I'm Flying!"
+			tasks: [{
+				id: "3326A9C6BA0AA803"
+				title: "Jetpacks are your friends"
+				type: "checkmark"
+			}]
+			title: "Learning to Fly!"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["75660320BF33B27F"]
+			description: [
+				"This chargeable item can place blocks for you."
+				""
+				"To use, make sure you find the \"settings\" keybind in your keybind settings, under the Building Gadget category."
+			]
+			id: "759FD60CA05B2CBF"
+			optional: true
+			rewards: [
+				{
+					id: "74A81B1AE79141D4"
+					item: {
+						Count: 1b
+						id: "constructionwand:diamond_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "780ECDB8F0D54717"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "772A1A23C2692ECC"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Sorry, Building Wands."
+			tasks: [{
+				id: "39103756F5D92DCB"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "The Best Building Tool"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1CAF7B2E2716DFC9"]
+			description: [
+				"To set up automated ore smelting from Mekanism, place the Enrichment Chamber to the left of your Iron Furnace, and place a Chest on top of both."
+				""
+				"In the Enrichment Chamber, use the \"Side Config\" settings to output to the right. Make sure to press the \"Auto Eject\" button."
+				""
+				"To get items into the Enrichment Chamber, you'll need a pipe connecting the chest on top to the machine. This can be done using an Item Pipe from &aPipez&r, or a Basic Logistical Transporter pipe from &9Mekanism&r. "
+				""
+				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
+				""
+				"{image:atm:textures/questpics/mekanism_easy_setup.png width:150 height:100 align:1}"
+			]
+			icon: "mekanism:meka_tool"
+			id: "7B34B1A15FE4920F"
+			rewards: [
+				{
+					count: 4
+					id: "708DC050005E4049"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+				{
+					id: "1755FE2C11F689F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Factory is Coming."
+			tasks: [{
+				id: "138D88E71310B91A"
+				title: "Automated Ore Smelting with Mekanism"
+				type: "checkmark"
+			}]
+			title: "Automated Ore Smelting with Mekanism"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			description: [
+				"Converts the furnace to a factory!"
+				""
+				"This adds more slots for input and output, as well as converting the furnace to accept power instead of fuel."
+			]
+			id: "4269680A4FD1EB65"
+			optional: true
+			rewards: [
+				{
+					count: 2
+					id: "28EDCD63709F528F"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+				{
+					id: "376ECF295030E0C0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "468DF6D05B31874B"
+				item: "ironfurnaces:augment_factory"
+				type: "item"
+			}]
+			title: "The Best Upgrade for a Furnace."
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02741CEF39418AD5"]
+			id: "421B3CE0388C8B80"
+			rewards: [
+				{
+					count: 4
+					id: "226C33AA23C7C476"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "57A9FA51DB7C06D5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6680FB83D72AA488"
+					item: "ironfurnaces:augment_speed"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DA0C4A0B8FDC0FA"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "&oEven Faster"
+			tasks: [{
+				id: "6AE12AB0F0F8AB76"
+				item: "ironfurnaces:diamond_furnace"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2504339F8EC5ED40"]
+			description: [
+				"Heading into the Nether, you can find yourself some &5Ancient Debris&r to create some Netherite for an upgrade!"
+				""
+				"The best way to find Ancient Debris is to head to &aY15&r and dig around there."
+				"You can also find &5Netherite scraps&r inside of chests within the Nether."
+				""
+				"&5Netherite&r also makes a great coating for &9Silent Gear&r items."
+			]
+			id: "6121276D6C54E887"
+			rewards: [
+				{
+					id: "5E28EE490E4DEACE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6F14F5CC9C3444D5"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6108DB4573AB3FFE"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "Ancient... or something."
+			tasks: [{
+				id: "6CCC5B8A457D9833"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			title: "Netherite Upgrade"
+			x: 19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"566C8877E6427AF5"
+				"6797F26BC9A3EFB6"
+			]
+			description: [
+				"&3Vibranium&r is an end-game level ore mined from the &bNether&r or the &bOther&r."
+				""
+				"&3Vibranium&r can rarely be found in the &bNether&r in &bCrimson&r and &bWarped Forests&r, between &aY100&r to &aY123&r."
+				""
+				"It is more commonly found in &bany biome&r in the &bOther&r between &aY0&r to &aY20&r."
+			]
+			id: "181A2B5075F559BC"
+			rewards: [
+				{
+					id: "6F7871E9BD645442"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:vibranium_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34F4E657A8D89B13"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E4AB918A045B03D"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0E8AE254C6F54019"
+				item: "allthemodium:vibranium_ingot"
+				type: "item"
+			}]
+			title: "The Search For Vibranium"
+			x: 23.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"395A941E8329DC03"
+				"6121276D6C54E887"
+				"069BB135FE98DC45"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"To mine &6Allthemodium&r, you'll need a pickaxe made of &aNetherite&r or an equivalent mining level, such as &aCrimson Steel&r from &9Silent Gear&r."
+				""
+				"&6Allthemodium&r ore is found inside of the &bDeep Dark&r biomes along the cave ceilings and walls, with additional deposits in peaks above &aY170&r."
+				""
+				"It is also more abundant in the &bMining dimension&r within the &aDeepslate&r layer."
+			]
+			id: "6797F26BC9A3EFB6"
+			rewards: [
+				{
+					id: "20E05DE6A538487F"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:allthemodium_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "191D33808A654851"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "09FB84D60BCFB892"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "The First of Many"
+			tasks: [{
+				id: "25B135F5759F61B4"
+				item: "allthemodium:allthemodium_ingot"
+				type: "item"
+			}]
+			title: "Time for some REAL Ingots"
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2504339F8EC5ED40"]
+			description: [
+				"Maybe you've already stumbled upon the &dDeep Dark&r in your mining adventures. Maybe you're still looking for it."
+				""
+				"To help you find it, make yourself a &eNature's Compass&r. You can right click with it, type in the biome you are looking for, and it'll search for it for you."
+			]
+			icon: "minecraft:sculk_sensor"
+			id: "069BB135FE98DC45"
+			rewards: [
+				{
+					id: "3AA74D9DC68E58F9"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C54E6963CD1291C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "68771DF5D8A746DC"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Finding the Deep Dark"
+			x: 21.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["069BB135FE98DC45"]
+			description: [
+				"The &9Warden&r can be summoned by activating enough Sculk Shriekers."
+				""
+				"You'll find these in the Deep Dark, and can easily set them off by making noise near a Sculk Sensor."
+			]
+			id: "0B3ABC1A29FD4333"
+			rewards: [
+				{
+					id: "11397AE68D25D2F7"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					exclude_from_claim_all: true
+					id: "337F0B2E8B0F8C6B"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				advancement: "deeperdarker:main/kill_warden"
+				criterion: ""
+				id: "0C066C3D0C966D4D"
+				type: "advancement"
+			}]
+			title: "Kill the &dWarden&r"
+			x: 24.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7071FAB260507F73"]
+			description: [
+				"We'll need to start gathering some Ender Pearls to make Eyes of Ender. You'll use these to find the End Portal!"
+				""
+				"The best place to farm Ender Pearls is in the End.... but before that, you can head to the Warped Forests of the Nether to farm Enderman."
+				""
+				"Once you've made enough Ender Eyes, right click them in the overworld and they'll lead you to a Stronghold."
+			]
+			id: "3C985B0C71499C31"
+			rewards: [
+				{
+					count: 2
+					id: "2B02C18A414C23F4"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					id: "7635B77B16B9C44B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "361A14641A68C784"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "A few on us."
+			tasks: [{
+				count: 12L
+				id: "600B1468373ACCEE"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "The Quest to Find the End Portal"
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4EBB0D0BE35FCD68"]
+			description: [
+				"If you're on a server where the Ender Dragon is already killed, you'll need to resummon it."
+				""
+				"Take 4 End Crystals and place 1 on each side of the exit portal."
+			]
+			id: "59158B126FDFB0F1"
+			optional: true
+			rewards: [
+				{
+					id: "25CC991D16D65263"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34E3955DB25D0C86"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			subtitle: "In case someone has already killed it..."
+			tasks: [{
+				count: 4L
+				id: "0D6F47FC0D9D50C6"
+				item: "minecraft:end_crystal"
+				type: "item"
+			}]
+			title: "How to Resummon the Dragon"
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FFB052E86D481AE"]
+			description: [
+				"If you didn't know, there is more to the End than just killing the dragon."
+				""
+				"Once the dragon has been slain, you will find a weird \"structure\" with a portal between 3 blocks. Take an Ender Pearl and throw it into the portal."
+			]
+			icon: "minecraft:ender_pearl"
+			id: "41B3695203B05551"
+			rewards: [
+				{
+					id: "4E32F1C3A010C5ED"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B48D56534E997DB"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			subtitle: "It's actually really pretty."
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "302EC78ED565342E"
+				type: "advancement"
+			}]
+			x: 26.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"41B3695203B05551"
+				"663EA64A99A4435D"
+				"596FEFBECFEDF2AF"
+			]
+			description: [
+				"Somewhere in the &bEnd&r, you'll find a floating ship."
+				""
+				"Defeat the enemies there and make your way to the loot room, and you'll find yourself your first &aElytra&r."
+			]
+			id: "0256FFC5363F4BA6"
+			rewards: [
+				{
+					id: "7D498B44B7024C43"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "61C3376198ABD49D"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4879DC5BA352841F"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "But we have a jetpack?"
+			tasks: [{
+				id: "56853DC30AA05402"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Vanilla \"Flight\""
+			x: 27.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6C1BC11941F3D831"]
+			description: [
+				"Hook the Wireless Heat Transmitter block up to your power system. Place the receiver into the transmitter to link them, then place the receiver into your furnace as fuel."
+				""
+				"This will give you wireless power for your furnace!"
+				""
+				"You can also just make the Factory Upgrade, which is probably better. "
+			]
+			id: "48071A100E1CCB38"
+			optional: true
+			rewards: [
+				{
+					id: "102E394001AC6403"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "41D198CDFF63032F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Wireless Heat?"
+			tasks: [
+				{
+					id: "002A152D30B4F100"
+					item: "ironfurnaces:heater"
+					type: "item"
+				}
+				{
+					id: "06F1A4506CABE9D4"
+					item: "ironfurnaces:item_heater"
+					type: "item"
+				}
+			]
+			title: "Wireless Power for the Furnace!"
+			x: 10.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B0F743619501040"]
+			description: [
+				"The Enrichment Chamber turns 3 Raw ores into 4 dusts. This gives you about 25% more ingots."
+				""
+				"Mekanism also has a progression system that helps you create a factory that can give you even MORE from your raw ore."
+			]
+			id: "7FEAD5BFD404459F"
+			rewards: [
+				{
+					count: 4
+					id: "02FC9B132066C5CD"
+					item: "minecraft:raw_iron"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "72549BED35D9ED95"
+					item: "minecraft:raw_gold"
+					type: "item"
+				}
+				{
+					id: "255C851F8764EE08"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Leads to creating an ore FACTORY."
+			tasks: [{
+				id: "09425B7C9D0FB823"
+				item: "mekanism:enrichment_chamber"
+				type: "item"
+			}]
+			title: "Sticking with Mekanism"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["566C8877E6427AF5"]
+			description: [
+				"&bThe Other&r is a dangerous place. Make sure to be prepared!"
+				""
+				"You'll find a ton of ore in the &bOther&r."
+				"It's filled to the brim with amazing ore generation, as well as &bAncient Forests&r."
+				""
+				"The berries you can find growing from the vines are great food sources, and they also give you &dNight Vision&r!"
+				""
+				"This is also where you'll find &6Pigliches&r."
+				"You'll need their hearts!!!"
+			]
+			id: "2991AD54AA6DBA8D"
+			rewards: [
+				{
+					count: 8
+					id: "3EDAE13AA50D2D81"
+					item: "allthemodium:ancient_soulberries"
+					type: "item"
+				}
+				{
+					id: "054E80C4844E96A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5E7513670965C129"
+				item: "allthemodium:ancient_stone"
+				type: "item"
+			}]
+			title: "The Other"
+			x: 23.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["566C8877E6427AF5"]
+			description: [
+				"The Mining Dimension is the perfect place to mine. Hence the name!"
+				""
+				"It's also a great place to test out mods, as you spawn on completely level land."
+				""
+				"It's also a great place for your Mek reactors, as long as it doesn't get reset often. "
+			]
+			icon: "allthemodium:alloy_pick"
+			id: "532DC2EBF0430364"
+			rewards: [{
+				id: "3B9FB682D87AC128"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "15CDA22BD2F24529"
+				title: "The Mining Dimension"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: -1.5d
+		}
+	]
+	title: "&a&dThe End Is Just The Beginning"
+}

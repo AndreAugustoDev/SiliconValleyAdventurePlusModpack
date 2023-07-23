@@ -1,0 +1,6394 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "industrial_foregoing"
+	group: "0815C5D80307ECDF"
+	icon: "industrialforegoing:common_black_hole_unit"
+	id: "193F91842D2ED7D9"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to &aIndustrial Foregoing&f!"]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "industrialforegoing:industrial_foregoing"
+				}
+			}
+			id: "55820773BDD5319D"
+			rewards: [{
+				id: "0BA0661996D457DE"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-647195142
+								2010533167
+								-1243897687
+								1144171008
+							]
+							Properties: {
+								textures: [{
+									Value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWQ3YzI3M2U5N2MyNzdjNDljOTA2NWVkZGYxMDdlODdlYTc3NWM4N2IyYzlmZWEwOTIyNTUwNTE5MDJhYzRhIn19fQ=="
+								}]
+							}
+						}
+						display: {
+							Name: "{\"text\":\"BovineShaman\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "1997E42FA9EA414C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E616DB197387C86"]
+			description: [
+				"Extracts latex from logs."
+				""
+				"Check JEI for acceptable logs and latex amounts."
+			]
+			id: "0EC2053B191C55C6"
+			rewards: [{
+				id: "2D3F9D6C16FE7EAF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CEAE2B50AD7C5ED"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["55820773BDD5319D"]
+			id: "6E616DB197387C86"
+			rewards: [{
+				id: "31C7A99204AFBBF7"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "62D9743FABC21813"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E616DB197387C86"]
+			id: "33532408B21A5378"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "3F63CCEB0E0789AF"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3DD12A969161A5B6"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["321FA7348E532F4E"]
+			id: "6FF04DD735346BED"
+			rewards: [{
+				id: "0FB5D498F42B6185"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "163B2434699EEF1A"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E616DB197387C86"]
+			id: "339DF320DDCAD98B"
+			rewards: [
+				{
+					count: 5
+					id: "4BEE831683A26355"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "754E8997E9493E96"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5AE0559068C0050A"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+				{
+					id: "7D17F00002916197"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			title: "Item \\& Fluid Transport"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0EC2053B191C55C6"]
+			id: "321FA7348E532F4E"
+			rewards: [{
+				count: 2
+				id: "6D991DABAE36FE01"
+				item: {
+					Count: 1b
+					id: "mekanism:basic_fluid_tank"
+					tag: {
+						BlockEntityTag: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 14000
+									FluidName: "industrialforegoing:latex"
+								}
+							}]
+							ForgeCaps: { }
+							Items: [ ]
+							Security: {
+								name: "Security"
+								override: 0b
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								publicFreq: 1b
+								securityMode: 0
+							}
+							activeState: 0b
+							componentSecurity: {
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								securityMode: 0
+							}
+							currentRedstone: 15
+							editMode: 0
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+							updateDelay: 0
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 14000
+									FluidName: "industrialforegoing:latex"
+								}
+							}]
+							Items: [ ]
+							owner: [I;
+								-1699457496
+								663964002
+								-2000923315
+								-13829450
+							]
+							securityMode: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D19038D0227D7EC"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FF04DD735346BED"]
+			id: "0EA9E52B67B533DF"
+			rewards: [{
+				id: "2152C5EA52C0D06F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "66F8BD188ACD43E0"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0EA9E52B67B533DF"]
+			id: "690CFF61CE787D43"
+			rewards: [{
+				count: 5
+				id: "41FDECEBC7DDB3F6"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "77579FFDFEA734EB"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "163BEB03C415E187"
+			rewards: [{
+				id: "06BB8635159DB685"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "53836C0727B39DCF"
+					item: "industrialforegoing:common_black_hole_unit"
+					type: "item"
+				}
+				{
+					id: "15A028284A4863C1"
+					item: "industrialforegoing:common_black_hole_tank"
+					type: "item"
+				}
+			]
+			title: "Common Black Hole Storage"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "57C4A0BAE739E903"
+			tasks: [{
+				id: "47C0E765FD874FCC"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "1823CC81D613892B"
+			rewards: [{
+				id: "222D5521FF5BCB8C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4CEA3179A4BE3336"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1823CC81D613892B"]
+			id: "0E8647B8EB4AAC41"
+			rewards: [
+				{
+					id: "6AD72BC1A1F77913"
+					item: {
+						Count: 1b
+						id: "mekanism:basic_fluid_tank"
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										Amount: 14000
+										FluidName: "industrialforegoing:pink_slime"
+									}
+								}]
+								Items: [ ]
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								securityMode: 0
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D8B60F8BD60B5CB"
+					item: {
+						Count: 1b
+						id: "mekanism:basic_fluid_tank"
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										Amount: 14000
+										FluidName: "industrialforegoing:meat"
+									}
+								}]
+								Items: [ ]
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								securityMode: 0
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3F52AEF4BF3FE722"
+					item: "industrialforegoing:pink_slime_bucket"
+					type: "item"
+				}
+				{
+					id: "6F7BCA742E93DB2A"
+					item: "industrialforegoing:meat_bucket"
+					type: "item"
+				}
+			]
+			title: "Pink Slime \\& Liquid Meat"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "616CFD4078D67B51"
+			rewards: [{
+				count: 8
+				id: "6C5045E055FD5551"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AE63F706CF41E9B"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["616CFD4078D67B51"]
+			id: "3027584AA6138E6D"
+			rewards: [{
+				count: 8
+				id: "7D6160CAB260B39C"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "706E6BE855C4AE5C"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+					type: "item"
+				}
+				{
+					id: "1D7CB07E1E6F7A29"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+					type: "item"
+				}
+			]
+			title: "Conveyor Insertion \\& Extraction"
+			x: 9.8d
+			y: 1.2999999999999998d
+		}
+		{
+			dependencies: ["616CFD4078D67B51"]
+			id: "06094615950AC062"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "66A3E488F1A371C4"
+				item: "industrialforegoing:conveyor"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1F78346AC1AA58B4"
+					item: "industrialforegoing:conveyor_detection_upgrade"
+					type: "item"
+				}
+				{
+					id: "3DB99B677678BCDD"
+					item: "industrialforegoing:conveyor_bouncing_upgrade"
+					type: "item"
+				}
+				{
+					id: "1A64390CFB75F256"
+					item: "industrialforegoing:conveyor_dropping_upgrade"
+					type: "item"
+				}
+				{
+					id: "387D0194F77E1870"
+					item: "industrialforegoing:conveyor_blinking_upgrade"
+					type: "item"
+				}
+				{
+					id: "4C5292076C0A9E83"
+					item: "industrialforegoing:conveyor_splitting_upgrade"
+					type: "item"
+				}
+			]
+			title: "Other Conveyor Upgrades"
+			x: 8.8d
+			y: 2.3d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "427C3AFC0FF131CD"
+			optional: true
+			rewards: [{
+				id: "2753E05691F3DCC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "31CC6D6C9BD14E1E"
+					item: "industrialforegoing:fluid_collector"
+					type: "item"
+				}
+				{
+					id: "62B10DA5B0939647"
+					item: "industrialforegoing:fluid_placer"
+					type: "item"
+				}
+			]
+			title: "Fluids"
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "2CCFEE98FE3B2E97"
+			optional: true
+			rewards: [{
+				id: "43BDBF6B274E95D2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "796061CC713A9A91"
+					item: "industrialforegoing:block_breaker"
+					type: "item"
+				}
+				{
+					id: "294C729B9EBD7A3C"
+					item: "industrialforegoing:block_placer"
+					type: "item"
+				}
+			]
+			title: "Blocks"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "485AFAE5BBEF2FC7"
+			optional: true
+			rewards: [{
+				id: "19210F4E78C3B032"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6C73F85B66281095"
+					item: "industrialforegoing:animal_feeder"
+					type: "item"
+				}
+				{
+					id: "30C6C62788FBA50C"
+					item: "industrialforegoing:animal_rancher"
+					type: "item"
+				}
+				{
+					id: "7C6B876555C4EA90"
+					item: "industrialforegoing:animal_baby_separator"
+					type: "item"
+				}
+			]
+			title: "Animals"
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "6C001E18093FC037"
+			optional: true
+			rewards: [{
+				id: "20588A723CB45234"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3B2B3F7BC100A618"
+					item: "industrialforegoing:plant_gatherer"
+					type: "item"
+				}
+				{
+					id: "77DA9E89A314968B"
+					item: "industrialforegoing:plant_sower"
+					type: "item"
+				}
+			]
+			title: "Plants"
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "540B857F043C24D5"
+			optional: true
+			rewards: [{
+				id: "0F06B8DC62695CBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6DBD9D66E78E0D58"
+					item: "industrialforegoing:bioreactor"
+					type: "item"
+				}
+				{
+					id: "28A15B47904E918A"
+					item: "industrialforegoing:biofuel_generator"
+					type: "item"
+				}
+			]
+			title: "Bio Power"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "3E6706BC4C318A40"
+			optional: true
+			rewards: [{
+				id: "5AABE475B6A7A7E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "376F8FB39341A76F"
+					item: "industrialforegoing:sewage_composter"
+					type: "item"
+				}
+				{
+					id: "3A617FF0FF39C742"
+					item: "industrialforegoing:spores_recreator"
+					type: "item"
+				}
+			]
+			title: "Other Machines"
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			id: "4C366515E3CCB0B2"
+			tasks: [{
+				id: "381C116FAD6B2236"
+				item: "industrialforegoing:meat_feeder"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57C4A0BAE739E903"]
+			id: "3514E9C1A8C7400C"
+			rewards: [{
+				id: "3CB88390179E68C1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "719FBA82094C5EC2"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3514E9C1A8C7400C"
+				"0E8647B8EB4AAC41"
+			]
+			id: "0BCCDE24D378F260"
+			rewards: [{
+				id: "7368A06045782F5F"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "6C58377563CFA587"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "22702838FC507A2E"
+			optional: true
+			tasks: [{
+				id: "7BC5A77A97F5FEA3"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "0D2DD9AA960843A3"
+			optional: true
+			tasks: [{
+				id: "782FFDDEED06401F"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "0AD768E4CC10358C"
+			optional: true
+			tasks: [{
+				id: "183086ACEB713E82"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "605A5AC65BC7E864"
+			tasks: [{
+				id: "0B132D9A270D8A51"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "377F505175DFB790"
+			optional: true
+			tasks: [{
+				id: "54E7A3F21AE2CA54"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "45DA9A3DA47AF2F0"
+			optional: true
+			tasks: [{
+				id: "3ECC5C50C2436DB2"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "0B7E3FD8B8CB04A2"
+			tasks: [
+				{
+					id: "2A17E5658713BB56"
+					item: "industrialforegoing:simple_black_hole_unit"
+					type: "item"
+				}
+				{
+					id: "7B9445CBF7FBAF14"
+					item: "industrialforegoing:simple_black_hole_tank"
+					type: "item"
+				}
+			]
+			title: "Simple Black Hole Storage"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "224C07AC71C5F40E"
+			optional: true
+			tasks: [{
+				id: "353C9F6B5E56C76E"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "29C9EBD333E59A35"
+			optional: true
+			tasks: [{
+				id: "345746E883043F2A"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3514E9C1A8C7400C"]
+			id: "1684D52FDAAC894B"
+			optional: true
+			tasks: [{
+				id: "720D4B73408CD1F0"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0E8647B8EB4AAC41"]
+			id: "408203C29BAABA44"
+			rewards: [{
+				id: "2638272F9CC5DC85"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B1369FBDB43CED5"
+				item: "industrialforegoing:pink_slime_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"408203C29BAABA44"
+				"0BCCDE24D378F260"
+			]
+			id: "0B35172E47705205"
+			tasks: [{
+				id: "79D439E38B286B8E"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "418E57E34FFC19E1"
+			tasks: [
+				{
+					id: "21285C89735F67FC"
+					item: "industrialforegoing:ore_laser_base"
+					type: "item"
+				}
+				{
+					id: "7EB10ED3F8398FF4"
+					item: "industrialforegoing:fluid_laser_base"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "39B89950413E16A6"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "2E8E292ED596A104"
+			tasks: [{
+				id: "7B6F79D3A759D5D5"
+				item: "industrialforegoing:laser_lens10"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"2E8E292ED596A104"
+				"418E57E34FFC19E1"
+			]
+			description: [
+				"Suggestion:"
+				"Use some sort of wither-proof glass."
+			]
+			id: "7E39FB9F3E973009"
+			rewards: [{
+				id: "3F01AE70E8D45133"
+				item: {
+					Count: 1b
+					id: "mekanism:basic_fluid_tank"
+					tag: {
+						BlockEntityTag: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 14000
+									FluidName: "industrialforegoing:ether_gas"
+								}
+							}]
+							ForgeCaps: { }
+							Items: [ ]
+							Security: {
+								name: "Security"
+								override: 0b
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								publicFreq: 1b
+								securityMode: 1
+								trusted: [[I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]]
+							}
+							activeState: 0b
+							componentSecurity: {
+								owner: [I;
+									-1699457496
+									663964002
+									-2000923315
+									-13829450
+								]
+								securityMode: 0
+							}
+							currentRedstone: 15
+							editMode: 0
+							id: "mekanism:basic_fluid_tank"
+							redstone: 0b
+							updateDelay: 0
+						}
+						display: {
+							Lore: ["\"(+NBT)\""]
+						}
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									Amount: 14000
+									FluidName: "industrialforegoing:ether_gas"
+								}
+							}]
+							Items: [ ]
+							owner: [I;
+								-1699457496
+								663964002
+								-2000923315
+								-13829450
+							]
+							securityMode: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1225664C1E9E28D3"
+				item: "industrialforegoing:ether_gas_bucket"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "0F8FE6692717AA6A"
+			tasks: [{
+				id: "2FD098DEE8336866"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["7E39FB9F3E973009"]
+			id: "7B4AF35313D7D779"
+			rewards: [{
+				id: "3A2DA002948C28DF"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "0DC23FAFFD8954C2"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "1D5895CD14AB88EF"
+			tasks: [
+				{
+					id: "0F4D170395901E5C"
+					item: "industrialforegoing:advanced_black_hole_unit"
+					type: "item"
+				}
+				{
+					id: "1B5535E1F65BA9F2"
+					item: "industrialforegoing:advanced_black_hole_tank"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "65C5D30F48B77D20"
+			optional: true
+			rewards: [{
+				id: "6DFF5F139145071E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "285EB289271FF17A"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "7DC044EFFDC208D7"
+			optional: true
+			rewards: [{
+				id: "5EF23943495FF756"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4AF8DF7BC38E419B"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "014262BDF1BBA54D"
+			optional: true
+			rewards: [{
+				id: "51DAF57217E578E2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "56ACF4EA4F91E75C"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "5186CB4CD85B530C"
+			optional: true
+			rewards: [{
+				id: "5F1811CD65E2047F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1E468D6A624E64E2"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "287B47E27EBC2C18"
+			optional: true
+			tasks: [{
+				id: "4F813C90DC8DE4F0"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "776EE1F5C4565146"
+			optional: true
+			rewards: [{
+				id: "22719C30558DBF7B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6F96A800F8BDA3FD"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "3AFDE3396861A944"
+			optional: true
+			tasks: [{
+				id: "74E4102326A71945"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "4A8C60412E59E971"
+			optional: true
+			tasks: [{
+				id: "18A5C86DE82D9671"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "2DC012EF21FB359E"
+			optional: true
+			tasks: [{
+				id: "45B306381A723562"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "272E27EFE40C913A"
+			optional: true
+			rewards: [{
+				id: "02982A3B61029BA0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0D2B10E4838ACFA2"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "7CB4D47ABC295B92"
+			optional: true
+			tasks: [{
+				id: "43C5F3AECB9F88F1"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "15551AC6C68E12E0"
+			optional: true
+			tasks: [{
+				id: "532B0FD90F4D6AF6"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "393A7BA6768A3F56"
+			optional: true
+			rewards: [{
+				id: "41D2AB7FDF96F0BD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "185FE487EF5B3069"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "1BF511A13DF35C3A"
+			optional: true
+			rewards: [{
+				id: "4C75EC03132D7098"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2C993EEE2B11D440"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "38FF05B6A26DB2EC"
+			optional: true
+			rewards: [{
+				id: "00B92D4CB603062C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "04F5D3F7B29D441B"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "06F84E2C484FAC5B"
+			optional: true
+			tasks: [{
+				id: "5949367631EAD828"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "4F3EF1574F31A7E2"
+			optional: true
+			tasks: [{
+				id: "0D1F3F6898F4E776"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "2782EA80C1C74EBD"
+			optional: true
+			tasks: [{
+				id: "3EFA144FCF33A935"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0BCCDE24D378F260"]
+			id: "34AA079FFAFC64BD"
+			optional: true
+			tasks: [{
+				id: "363855E6A408A2E5"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E8647B8EB4AAC41"]
+			id: "65C147F5282E8FCD"
+			tasks: [{
+				id: "7055454F2F8936C7"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65C147F5282E8FCD"]
+			id: "41E8550FC36ABCA5"
+			rewards: [{
+				id: "1382AE5136BAB6C3"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [
+				{
+					id: "6D1A2543E374542A"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_trident"
+						tag: {
+							CanCharge: 1b
+							Channeling: 0b
+							Energy: 0L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Loyalty: 0
+							Riptide: 0
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "798860AC37F98D4E"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_drill"
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75341FD6B58D8988"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_saw"
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "291E22AEBC7FBCE2"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_hammer"
+						tag: {
+							Beheading: 0
+							CanCharge: 1b
+							Energy: 0L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A3351BC0935160A"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:infinity_backpack"
+						tag: {
+							CanCharge: 1b
+							Energy: 0L
+							Selected: "POOR"
+							Special: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "60719C4317D39E5A"
+			optional: true
+			tasks: [{
+				id: "42FC1011D077857F"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "3A97E99FEC78E9C2"
+			optional: true
+			tasks: [{
+				id: "26CFE6CE592741D6"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "7342B2669D96C509"
+			optional: true
+			tasks: [{
+				id: "077D65D9C7397844"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "28B3591BFC0FA08B"
+			tasks: [{
+				id: "12A0A25980EA485E"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "30BEF473F5C25983"
+			tasks: [
+				{
+					id: "01FE619C47E82C71"
+					item: "industrialforegoing:supreme_black_hole_unit"
+					type: "item"
+				}
+				{
+					id: "63514396DB2EEA1C"
+					item: "industrialforegoing:supreme_black_hole_tank"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			id: "4F846973EFB95FA5"
+			tasks: [{
+				id: "5A45E3CD864C4DA1"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			description: [
+				"&bMycelial Generators&r come in various tiers."
+				""
+				"These first few will generate up to 100 FE/t, but there's &omushroom&r for improvement. "
+			]
+			id: "07B1795B9802CBF9"
+			subtitle: "Make a Tier 1 Mycelial Generator"
+			tasks: [{
+				id: "3441A4158AB8F251"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_magma"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_furnace"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_frosty"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_ender"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_death"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_crimed"
+							}
+						]
+					}
+				}
+				title: "Tier 1 Mycelial Generators"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			description: ["The next tier of &bMycelial Generators&r can generate up to &61000 FE/t&r."]
+			id: "5F730466C5EF052A"
+			subtitle: "Make a Tier 2 Mycelial Generator"
+			tasks: [{
+				id: "7DC53F9E2873E731"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_slimey"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_pink"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_meatallurgic"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_magma"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_explosive"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_disenchantment"
+							}
+						]
+					}
+				}
+				title: "Tier 2 Mycelial Generators"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.0d
+		}
+		{
+			description: ["These &bMycelial Generators&r have the ability to generate up to &67,290 FE/t&r, depending on the fuel."]
+			id: "2C6EB65824B2C799"
+			subtitle: "Make a Tier 3 Mycelial Generator"
+			tasks: [{
+				id: "5B48A06BADEE3743"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_potion"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_netherstar"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:mycelial_culinary"
+							}
+						]
+					}
+				}
+				title: "Tier 3 Mycelial Generators"
+				type: "item"
+			}]
+			title: "Tier 3 Mycelial Generators"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			description: ["Industrial Foregoing provides a wide range of machines to automate various farming related tasks. From growing plants and breeding animals, to duplicating mobs and drilling for resources."]
+			hide: true
+			icon: "industrialforegoing:plastic"
+			id: "000000000000004A"
+			rewards: [
+				{
+					id: "234EA77258AE837C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 6
+					id: "63727AE711541D73"
+					item: "minecraft:iron_ingot"
+					random_bonus: 4
+					title: "Iron Ingot"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				icon: "industrialforegoing:machine_frame_pity"
+				id: "6EBA20DFD2DD25E2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:tools"
+					}
+				}
+				title: "Any Tool"
+				type: "item"
+			}]
+			title: "Industrial Foregoing"
+			x: 29.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1ABAC3F1FBB01AA9"]
+			description: ["The Fluid Extractor slowly drains the fluids from blocks placed in front of it, such as logs. Power is optional but will speed up the machine dramatically. This is the primary source of Latex used to make Rubber, a vital resource used throughout the mod. "]
+			id: "000000000000004B"
+			rewards: [{
+				count: 32
+				id: "0000000000000628"
+				item: "minecraft:acacia_log"
+				title: "Acacia Log"
+				type: "item"
+			}]
+			subtitle: "A Matter of Time"
+			tasks: [{
+				id: "000000000000004C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:fluid_extractor"
+							}
+							{
+								Count: 1b
+								id: "thermal:device_tree_extractor"
+							}
+						]
+					}
+				}
+				title: "Fluid Extractor"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000004B"]
+			description: ["By providing water, latex, and some energy, the Latex Processing Unit can reduce liquid latex down into Tiny Dry Rubber, which may then be processed further into Plastic."]
+			id: "000000000000004F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000629"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Tacking into the Wind"
+			tasks: [{
+				id: "0000000000000050"
+				item: "industrialforegoing:latex_processing_unit"
+				title: "Latex Processing Unit"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4217AB14E65F5524"]
+			description: [
+				"The Mob Slaughter Factory kills mobs and animals in its area of effect. "
+				""
+				"Entities slain in this way do not drop anything but are conveniently converted into Liquid Meat and Pink Slime, liquids with a variety of unique uses."
+			]
+			id: "0000000000000053"
+			rewards: [{
+				id: "0000000000000626"
+				item: "industrialforegoing:meat_feeder"
+				title: "Meat Feeder"
+				type: "item"
+			}]
+			subtitle: "Choose Your Pain"
+			tasks: [{
+				id: "0000000000000054"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000004F"]
+			description: [
+				"Dissolving solids in liquids is certainly a common task, in the home as much as in industry. "
+				""
+				"The Dissolution Chamber takes this process somewhat further, by dissolving the materials together and then systematically rebuilding something entirely new from the soup. "
+			]
+			id: "0000000000000057"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "000000000000062A"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Extreme Measures"
+			tasks: [{
+				id: "000000000000006B"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 28.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000057"]
+			description: [
+				"Machine Addons break down into four categories: speed, efficiency, processing, and range."
+				""
+				"Speed: Increases the operating speed of the machine"
+				""
+				"Efficiency: Reduces the energy requirements of the machine"
+				""
+				"Processing: Allows the machine to perform multiple operations per process"
+				""
+				"Range: Increases the working area of the machine"
+				""
+				"Not all machines can accept all addons. "
+			]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:range_addon11"
+				tag: {
+					TitaniumAugment: {
+						Range: 11.0f
+					}
+				}
+			}
+			id: "0000000000000076"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000631"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "In the Cards"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "industrialforegoing:range_addon11"
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+				id: "35428F7A336EE4A1"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "industrialforegoing:.*_addon"
+					}
+				}
+				title: "Any Addon"
+				type: "item"
+			}]
+			title: "Addons"
+			x: 27.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68F315FF23CD8A22"]
+			description: [
+				"A machine that rapidly disintegrates creatures in the area, storing their drops and Essence internally."
+				""
+				"It will not harm Baby Animals or Players, however, and may optionally consume the Essence it would normally produce to apply Looting to the kill. "
+			]
+			id: "000000000000007A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000636"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "The Butcher's Knife Cares Not for the Lamb's Cry"
+			tasks: [{
+				id: "000000000000007B"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7B6BB08B8455B4F9"]
+			description: [
+				"By supplying these machines with energy and Essence, they can assist in automating several Enchanting related tasks."
+				""
+				"The Enchantment Factory will randomly enchant Books and equipment."
+				""
+				"The Enchantment Applicator will apply Enchanted Books to items without increasing their repair cost."
+				""
+				"The Enchantment Extractor will remove a random enchantment from an item, preserving both the item and the enchantment by transferring it to a Book. "
+			]
+			hide_dependency_lines: false
+			id: "000000000000007C"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "0000000000000635"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+				{
+					id: "0000000000000F3B"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:essence"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+			]
+			subtitle: "Magic to Make the Sanest Man Go Mad"
+			tasks: [
+				{
+					id: "000000000000007D"
+					item: "industrialforegoing:enchantment_factory"
+					type: "item"
+				}
+				{
+					id: "0000000000000F0E"
+					item: "industrialforegoing:enchantment_applicator"
+					type: "item"
+				}
+				{
+					id: "0000000000000F0F"
+					item: "industrialforegoing:enchantment_extractor"
+					type: "item"
+				}
+			]
+			title: "Enchantment Manipulation"
+			x: 29.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7B6BB08B8455B4F9"]
+			description: [
+				"This machine is a one-stop shop for cobblestone processing. "
+				""
+				"It can generate cobblestone from lava and water, then perform up to four sequential operations, either Smelting, Crushing, 2x2 Crafting, or 3x3 Crafting, to produce a variety of final outputs. "
+				""
+				"For example, Cobble could be crushed to Gravel, then Sand, and finally smelted into Glass. "
+			]
+			hide_dependency_lines: false
+			id: "000000000000007E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000637"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Rocks and Shoals"
+			tasks: [{
+				id: "000000000000007F"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 28.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2E7ED909FEF6DD65"]
+			description: [
+				"The Bioreactor can process up to nine different types of plant-based items at once to produce Biofuel; the more slots that are filled, the higher the efficiency. "
+				""
+				"Biofuel can be used to make power with the Biofuel Generator or to run Infinity tools."
+			]
+			id: "0000000000000080"
+			rewards: [
+				{
+					count: 8
+					id: "000000000000062C"
+					item: "minecraft:beetroot"
+					title: "Beetroot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "000000000000062D"
+					item: "minecraft:carrot"
+					title: "Carrot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "000000000000062E"
+					item: "minecraft:potato"
+					title: "Potato"
+					type: "item"
+				}
+			]
+			subtitle: "Ties of Blood and Water"
+			tasks: [{
+				id: "0000000000000081"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 32.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000080"]
+			description: [
+				"A drill capable of mining out very large areas, perfect for extended mining sessions."
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Biofuel to fill it. "
+			]
+			id: "0000000000000082"
+			rewards: [
+				{
+					id: "0000000000000F36"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:biofuel"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "369D530DD7F97732"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0000000000000083"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						CanCharge: 1
+						Energy: 0
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18A9325E49C29061"]
+			description: ["By automatically applying Fertilizer or Bone Meal, the Plant Fertilizer drastically speeds up crop growth in its working area. "]
+			id: "0000000000000086"
+			rewards: [{
+				count: 16
+				id: "0000000000000634"
+				item: "industrialforegoing:fertilizer"
+				title: "Fertilizer"
+				type: "item"
+			}]
+			subtitle: "Second Chances"
+			tasks: [{
+				id: "0000000000000087"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13E239759123405E"]
+			description: [
+				"Conveyor belts move entities atop them whether that’s a mob or an item that has been dropped on it. Several types of upgrades are available such as for extracting or inserting into inventories or teleporting things short distances."
+				""
+				"Sneaking while standing on them will prevent the player from being carried along. "
+			]
+			hide_dependency_lines: false
+			icon: "industrialforegoing:conveyor"
+			id: "0000000000000088"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "000000000000062B"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Crossover"
+			tasks: [
+				{
+					id: "0000000000000089"
+					item: "industrialforegoing:conveyor"
+					type: "item"
+				}
+				{
+					id: "01B09FD0EDFB2B22"
+					item: "industrialforegoing:conveyor_insertion_upgrade"
+					type: "item"
+				}
+				{
+					id: "01365E67BE6AB26F"
+					item: "industrialforegoing:conveyor_extraction_upgrade"
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B6BB08B8455B4F9"]
+			description: [
+				"Sixteen different Mycelial Generators exist, consuming everything from pink matter and gunpowder, to enchanted items and food. They don’t produce much energy on their own, but when all sixteen are running they’ll trigger a Mycelial Reactor to begin operating as well, generating a whopping 25 million FE/t."
+				""
+				"In order to work, the Generators and Reactor must be placed by the same player. Only one set per player will work. The Reactor itself will continue to operate so long as all the Generators are producing power. "
+			]
+			hide_dependency_lines: false
+			icon: "industrialforegoing:mycelial_reactor"
+			id: "0000000000000EE3"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "00EAC9D358EBDA6E"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			shape: "gear"
+			subtitle: "The War Without, The War Within"
+			tasks: [
+				{
+					id: "0000000000000EE4"
+					item: "industrialforegoing:mycelial_reactor"
+					type: "item"
+				}
+				{
+					id: "2CEBE4EB3F8EF8FA"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "industrialforegoing:mycelial_(?!reactor$)(.*$)"
+						}
+					}
+					title: "Mycelial Generators"
+					type: "item"
+				}
+			]
+			x: 28.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000080"]
+			description: [
+				"A backpack with very deep pockets. It’s capable of holding an enormous number of items and has a built-in magnet to pick up items and XP. It can also stock-keep items in the player’s inventory, such as keeping arrows or building blocks stocked from its own storage. "
+				""
+				"When filled with Liquid Meat, it will automatically feed the player."
+			]
+			id: "0000000000000F05"
+			rewards: [
+				{
+					id: "0000000000000F37"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:biofuel"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "3468583C0AA86050"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0000000000000F06"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 32.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000080"]
+			description: [
+				"A more powerful trident capable of damaging many mobs wherever it lands. It has built in Loyalty, Riptide, and Channelling enchantments that may be toggled as desired. "
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Biofuel to fill it. "
+			]
+			id: "0000000000000F07"
+			rewards: [
+				{
+					id: "0000000000000F38"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:biofuel"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "7448C2CFAE0B9B0C"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0000000000000F08"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000080"]
+			description: [
+				"A powerful cutting tool which will rapidly remove logs in the area it is used, starting from the top of the tree it’s used on. "
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Biofuel to fill it. "
+			]
+			id: "0000000000000F09"
+			rewards: [
+				{
+					id: "0000000000000F39"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:biofuel"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "263A38AB486FB333"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "0000000000000F0A"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 31.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000000000000080"]
+			description: [
+				"A heavy melee weapon that smashes anything in the area. It comes with a built in Beheading enchantment that may be toggled on and off. "
+				""
+				"Sneak Right-Click to set its options. "
+				""
+				"Right-Click on a tank of Biofuel to fill it. "
+			]
+			id: "0000000000000F0B"
+			rewards: [
+				{
+					id: "0000000000000F3A"
+					item: {
+						Count: 1b
+						id: "industrialforegoing:common_black_hole_tank"
+						tag: {
+							BlockEntityTag: {
+								filter: {
+									Filter: { }
+									Pointer: 0
+									Type: "WHITELIST"
+								}
+								tank: {
+									Amount: 16000
+									FacingModes: {
+										BACK: "ENABLED"
+										BOTTOM: "ENABLED"
+										FRONT: "ENABLED"
+										LEFT: "ENABLED"
+										RIGHT: "ENABLED"
+										TOP: "ENABLED"
+									}
+									FluidName: "industrialforegoing:biofuel"
+								}
+							}
+						}
+					}
+					title: "Common Black Hole Tank"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "47D97D1C9814403A"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "I'm Still Worthy!"
+			tasks: [{
+				id: "0000000000000F0C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 33.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13E239759123405E"]
+			description: ["A block capable of storing big amounts of an item, you can insert or extract items by interacting with the front."]
+			hide_dependency_lines: false
+			id: "0000000000000F10"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "6600C08CC24C5889"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "industrialforegoing:supreme_black_hole_unit"
+				id: "0000000000000F11"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:common_black_hole_unit"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:pity_black_hole_unit"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:simple_black_hole_unit"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:advanced_black_hole_unit"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:supreme_black_hole_unit"
+							}
+						]
+					}
+				}
+				title: "Black Hole Units"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13E239759123405E"]
+			description: ["A block capable of storing big amounts of a fluid."]
+			hide_dependency_lines: false
+			id: "0000000000000F1A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "2538800DB4CB1107"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				icon: "industrialforegoing:supreme_black_hole_tank"
+				id: "0000000000000F1B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:common_black_hole_tank"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:pity_black_hole_tank"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:simple_black_hole_tank"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:advanced_black_hole_tank"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:supreme_black_hole_tank"
+							}
+						]
+					}
+				}
+				title: "Black Hole Tanks"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13E239759123405E"]
+			description: ["A block that can contain up to sixteen Black Hole Units or Tanks and make their contents accessible to automation."]
+			hide_dependency_lines: false
+			id: "0000000000000F24"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "05F8498BBE9C52E7"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "0000000000000F25"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000053"]
+			description: [
+				"By electrifying this questionable substance known as Liquid Meat, Mechanical Dirt can rapidly generate mobs native to the local biome. Light requirements are respected, so mobs won’t spawn on it if the room is too bright."
+				""
+				"Energy and Liquid Meat are distributed to all adjacent Mechanical Dirt blocks, allowing a single connection for each to operate a large grid of Mechanical Dirt. "
+			]
+			id: "68F315FF23CD8A22"
+			rewards: [{
+				id: "0997C2E0E6DE8F76"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:common_black_hole_tank"
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Filter: { }
+								Pointer: 0
+								Type: "WHITELIST"
+							}
+							tank: {
+								Amount: 16000
+								FacingModes: {
+									BACK: "ENABLED"
+									BOTTOM: "ENABLED"
+									FRONT: "ENABLED"
+									LEFT: "ENABLED"
+									RIGHT: "ENABLED"
+									TOP: "ENABLED"
+								}
+								FluidName: "industrialforegoing:meat"
+							}
+						}
+					}
+				}
+				title: "Common Black Hole Tank"
+				type: "item"
+			}]
+			subtitle: "A Blight Upon the Land"
+			tasks: [{
+				id: "3991AE48C18012EC"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["000000000000007A"]
+			description: [
+				"By energizing Essence in the presence of a captured mob, the Mob Duplicator will begin pumping out clones of that mob ready for culling. "
+				""
+				"It can only hold one mob at a time, but the Mob Imprisonment Tool can be easily swapped out on-demand with any sort of pipe and a little bit of Redstone logic. "
+			]
+			id: "73E9574B069570BD"
+			rewards: [{
+				id: "24B8F1EFDCF5A2D9"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				title: "Mob Imprisonment Tool"
+				type: "item"
+			}]
+			subtitle: "Dolly 2.0"
+			tasks: [{
+				id: "27D665ECBDA02E5A"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 30.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000000004A"]
+			description: ["Plastic is a critical resource for many endeavors in Industrial Foregoing. Processing it down from Latex will take some time, however, so setting up some basic automation is going to be helpful in the long run. "]
+			icon: "industrialforegoing:plastic"
+			id: "1ABAC3F1FBB01AA9"
+			rewards: [{
+				count: 8
+				id: "09CE215EADB18D6A"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6EBED7E976CA0FB3"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Getting Started: Latex Processing"
+			x: 28.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000004A"]
+			description: ["For more advanced machinery, fluids such as Liquid Meat, Pink Slime, and Ether Gas will be required. These may be obtained by processing mobs through various methods. "]
+			icon: "industrialforegoing:mob_imprisonment_tool"
+			id: "4217AB14E65F5524"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "35A7641EB7485F84"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "12AE3A01DCDEF828"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Getting Started: Mob Processing"
+			x: 30.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000004A"]
+			description: ["Industrial Foregoing comes with a variety of machines to help simplify crop farming. "]
+			icon: "minecraft:wheat"
+			id: "16D2CB00189CDD9E"
+			rewards: [{
+				count: 8
+				id: "39966E85E0E9E299"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "industrialforegoing:machine_frame_pity"
+				id: "62E58089B0388B89"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Getting Started: Farm Management"
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000004A"]
+			description: ["While it focuses more on mob and material processing, Industrial Foregoing also offers a number of tools for storing and moving items and fluids. "]
+			icon: "industrialforegoing:straw"
+			id: "13E239759123405E"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "237A67715D34F6C0"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "industrialforegoing:machine_frame_pity"
+				id: "4D862E363B06B2DF"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Storage and Logistics"
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000004A"]
+			description: ["Far from just machines, Industrial Foregoing has a number of utility tools to cover many needs."]
+			icon: "industrialforegoing:meat_feeder"
+			id: "2E7ED909FEF6DD65"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "545227BDC3D56D52"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "industrialforegoing:machine_frame_pity"
+				id: "2BA423123014C8B7"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			title: "Tools and Utility"
+			x: 32.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["13E239759123405E"]
+			description: [
+				"Transporters are small modules that can be used to, well, transport items or fluids between adjacent inventories. Their range is limited, but they can be very fast. And since more than one can go in a single block space, they can be used for easily splitting and sorting machine outputs to other inventories. "
+				""
+				"Speed Addons will make Transporters operatate more quickly, while Efficiency Addons will allow them to move more per operation."
+			]
+			hide_dependency_lines: false
+			id: "0C2C4BCB834F0FF6"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "39D92F4F432AB139"
+				player_command: false
+				title: "Rare Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "The Darkness and the Light"
+			tasks: [{
+				id: "486BA7F39E15AFF4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "industrialforegoing:item_transporter_type"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:fluid_transporter_type"
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:world_transporter_type"
+							}
+						]
+					}
+				}
+				title: "Transporters"
+				type: "item"
+			}]
+			title: "Transporters"
+			x: 22.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16D2CB00189CDD9E"]
+			description: [
+				"An excellent addition to any passive animal farm, the Sewer will slowly generate liquid Sewage from the animals in its working area. "
+				""
+				"The Sewer may also gather XP orbs and will convert them directly into Essence. "
+			]
+			id: "138CCC5EC604EBEF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "0A5DDA176392D6E1"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "What You Leave Behind"
+			tasks: [{
+				id: "1D2EDA085C10C48D"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["138CCC5EC604EBEF"]
+			description: ["A simple device for making that Sewage into something a little more useful: Fertilizer."]
+			id: "18A9325E49C29061"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "759901F1E0E1D611"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "A Matter of Perspective"
+			tasks: [{
+				id: "401D06401D348995"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 27.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["05CD61331BAB25E3"]
+			description: [
+				"The Plant Gatherer will rapidly harvest all crops in its working area, extending out in front of the machine. When harvesting, it will remove the entire crop, so coupling it with a Plant Sower is key. "
+				""
+				"As it harvests crops, it will also produce a small amount of Sludge which will need to be processed."
+				""
+				"Providing it with a small amount of Ether Gas will allow it to replant on harvest automatically."
+			]
+			id: "2AADE3F99579563F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "75698CB62EFD1F72"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			subtitle: "Reaping the Rewards"
+			tasks: [{
+				id: "31EED7D7CDC417D1"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["16D2CB00189CDD9E"]
+			description: [
+				"A handy device for replanting crops in an area. It plants seeds in an area above it, allowing it to be hidden out of sight underground. "
+				""
+				"Each input slot may be locked to a specific seed type by first placing a seed in the slot, then clicking the lock button. Each slot then corresponds to one of the colored slots on the left of the interface and to the colored dots on the top of the machine. This indicates in which area the seeds will be placed, with a single Sower easily handling up to nine unique crop plots. "
+			]
+			id: "05CD61331BAB25E3"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "7F04572BDD87A1BF"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			subtitle: "Sow Many Plants, Sow Little Time"
+			tasks: [{
+				id: "509B5025C6D86A2A"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["16D2CB00189CDD9E"]
+			description: [
+				"Hydroponics have been used to facilitate the growth of a variety of plants since their inception, growing stronger more nutrient rich foods."
+				""
+				"The Hydroponic Bed acts as any farmland, allowing most crops to be planted atop it. However, with a bit of power and water, it will speed up the crop growth dramatically. "
+				""
+				"By providing a small amount of Ether Gas, it will even automatically harvest the crop its growing. "
+			]
+			id: "12F279A5A93AAD43"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "2E9F2ABF8D261788"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			tasks: [{
+				id: "43FC4B011ABB08C9"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["16D2CB00189CDD9E"]
+			description: [
+				"It’s well known that growing mushrooms can be a tricky affair as maintaining proper growing conditions requires a fair amount of effort. "
+				""
+				"The Spores Recreator assists by maintaining those conditions internally, providing optimal growing conditions for mushrooms of all types. A small amount of Water is required for normal mushrooms, while some Lava is required for mushrooms native to the Nether. "
+			]
+			id: "63956867B89A6AF0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "34E4B9B36B6E6628"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "The Red Angel"
+			tasks: [{
+				id: "595E4F56544EC927"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2AADE3F99579563F"]
+			description: ["By refining Sludge produced by a Plant Gatherer, a number of blocks may be produced, such as Clay, Sand, and Soul Sand. "]
+			id: "218D2F91FD769BEE"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "52072317D15EFCBE"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			subtitle: "The Plot Thickens..."
+			tasks: [{
+				id: "10D08B53CA796681"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000057"]
+			description: ["It isn’t all just mob mashing… well, maybe it is? Industrial Foregoing offers a… unique take on ore processing, as well as machines to assist with extraction of said ores and other materials. "]
+			id: "7B6BB08B8455B4F9"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "37E1065325FCB784"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "industrialforegoing:machine_frame_advanced"
+				id: "3CFA15B21DDD81CE"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			title: "Advanced Material Processing"
+			x: 28.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7B6BB08B8455B4F9"]
+			description: [
+				"The meat of mobs is a truly magical substance. Not only can it be electrified to make more mobs, but when sealed up with ores for long enough, can help to soften up the rock, increasing the yields from the ore."
+				""
+				"Once Washed in Meat, the resulting concoction is passed through a Fermentation Station and finally a Sieving Machine that helps remove the metals from the rest."
+			]
+			hide_dependency_lines: false
+			id: "42D497134B15C45A"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "64C3B3C120222D87"
+				player_command: false
+				title: "Epic Industrial Foregoing Loot Box"
+				type: "command"
+			}]
+			subtitle: "Wrongs Darker Than Death or Night"
+			tasks: [
+				{
+					id: "1580CD98109E0AEC"
+					item: "industrialforegoing:washing_factory"
+					type: "item"
+				}
+				{
+					id: "07536BDDD834131E"
+					item: "industrialforegoing:fermentation_station"
+					type: "item"
+				}
+				{
+					id: "2C4CBBB27F8EEFAF"
+					item: "industrialforegoing:fluid_sieving_machine"
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B6BB08B8455B4F9"]
+			hide_dependency_lines: false
+			icon: "industrialforegoing:fluid_laser_base"
+			id: "16168AFBB631AC8A"
+			rewards: [
+				{
+					id: "5AF7F0DD1D0DFA74"
+					item: "industrialforegoing:laser_lens14"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/industrial_foregoing/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "1568C7AD4AE0329B"
+					player_command: false
+					title: "Epic Industrial Foregoing Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "If Memory Serves"
+			tasks: [
+				{
+					id: "2CC01740AB89537D"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "industrialforegoing:.*_laser_base"
+						}
+					}
+					title: "Laser Base"
+					type: "item"
+				}
+				{
+					id: "0B0AD3976C17699C"
+					item: "industrialforegoing:laser_drill"
+					type: "item"
+				}
+			]
+			title: "Laser Drilling"
+			x: 29.5d
+			y: 5.5d
+		}
+		{
+			description: [
+				"A Pity Machine Frame used in almost every IF machine."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000002A6"
+			rewards: [
+				{
+					id: "00000000000008CB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "62D87AB544C233A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a Pity Machine Frame"
+			tasks: [{
+				id: "00000000000002A7"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
+			x: 43.4d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "47293F17348AC6A9"
+			rewards: [
+				{
+					id: "00000000000008CC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "726CCBA21304C903"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Animal Rancher"
+			tasks: [{
+				id: "58CD2B8AEFF27A2D"
+				item: "industrialforegoing:animal_rancher"
+				type: "item"
+			}]
+			x: 45.9d
+			y: -2.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "3613EE4A7CB92FF0"
+			rewards: [
+				{
+					id: "00000000000008CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "75E534F771153AB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Plant Gatherer"
+			tasks: [{
+				id: "25F1D8D084B58DE8"
+				item: "industrialforegoing:plant_gatherer"
+				type: "item"
+			}]
+			x: 43.4d
+			y: -5.800000000000001d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002B0"
+			rewards: [
+				{
+					id: "00000000000008CE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "133DEA1CF76D041A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Plant Fertilizer"
+			tasks: [{
+				id: "00000000000002B1"
+				item: "industrialforegoing:plant_fertilizer"
+				type: "item"
+			}]
+			x: 39.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "2CFFC3F9114663C8"
+			rewards: [
+				{
+					id: "00000000000008CF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "726A7C0855A327E6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Plant Sower"
+			tasks: [{
+				id: "00000000000002B3"
+				item: "industrialforegoing:plant_sower"
+				type: "item"
+			}]
+			x: 44.4d
+			y: -5.4d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "6BC2A3FE95615E8D"
+			rewards: [
+				{
+					id: "00000000000008D0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "379947688273F3CE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Animal Feeder"
+			tasks: [{
+				id: "00000000000002B5"
+				item: "industrialforegoing:animal_feeder"
+				type: "item"
+			}]
+			x: 45.9d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: [
+				"Can be used to produce Pink Slime \\& Liquid Meat."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000002B6"
+			rewards: [
+				{
+					id: "00000000000008D1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1D625A125E58DC71"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Mob Slaughter Factory"
+			tasks: [{
+				id: "00000000000002B7"
+				item: "industrialforegoing:mob_slaughter_factory"
+				type: "item"
+			}]
+			x: 47.4d
+			y: -1.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002B8"
+			rewards: [
+				{
+					id: "00000000000008D2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5995D92EE245F25D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Sewer"
+			tasks: [{
+				id: "00000000000002B9"
+				item: "industrialforegoing:sewer"
+				type: "item"
+			}]
+			x: 45.9d
+			y: -0.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002BA"
+			rewards: [
+				{
+					id: "00000000000008D3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "22E6E8E1D9C0FD1D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Sewage Composter"
+			tasks: [{
+				id: "00000000000002BB"
+				item: "industrialforegoing:sewage_composter"
+				type: "item"
+			}]
+			x: 39.9d
+			y: -2.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002BC"
+			rewards: [
+				{
+					id: "00000000000008D4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "668762394DB8C59C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Animal Baby Separator"
+			tasks: [{
+				id: "00000000000002BD"
+				item: "industrialforegoing:animal_baby_separator"
+				type: "item"
+			}]
+			x: 44.9d
+			y: -4.4d
+		}
+		{
+			dependencies: [
+				"00000000000002A6"
+				"00000000000002C0"
+			]
+			description: [
+				"Used to create Tiny Dry Rubber by pumping in Latex \\& Water into the Latex Processing Unit."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000002BE"
+			rewards: [
+				{
+					id: "00000000000008D5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7820D316F15E8EE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Latex Processing Unit"
+			tasks: [{
+				id: "00000000000002BF"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 43.9d
+			y: -1.4000000000000004d
+		}
+		{
+			dependencies: ["00000000000002A6"]
+			description: [
+				"Used to produce Latex by placing Logs infront of the Fluid Extractor."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000002C0"
+			rewards: [
+				{
+					id: "00000000000008D6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "50B0E6EAE95E949B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fluid Extractor"
+			tasks: [{
+				id: "00000000000002C1"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 42.9d
+			y: -1.4000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002C2"
+			rewards: [
+				{
+					id: "00000000000008D7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "60C1FB63446818EB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Dissolution Chamber"
+			tasks: [{
+				id: "00000000000002C3"
+				item: "industrialforegoing:dissolution_chamber"
+				type: "item"
+			}]
+			x: 46.9d
+			y: -0.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002C4"
+			rewards: [
+				{
+					id: "00000000000008D8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "39E12E7F991851A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Block Breaker"
+			tasks: [{
+				id: "00000000000002C5"
+				item: "industrialforegoing:block_breaker"
+				type: "item"
+			}]
+			x: 40.9d
+			y: -2.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002C6"
+			rewards: [
+				{
+					id: "00000000000008D9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "732AA0C6C85EC80E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Biofuel Generator"
+			tasks: [{
+				id: "00000000000002C7"
+				item: "industrialforegoing:biofuel_generator"
+				type: "item"
+			}]
+			x: 46.9d
+			y: -2.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002C8"
+			rewards: [
+				{
+					id: "00000000000008DA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "16BD11DA37EA0A97"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Bioreactor"
+			tasks: [{
+				id: "00000000000002C9"
+				item: "industrialforegoing:bioreactor"
+				type: "item"
+			}]
+			x: 45.9d
+			y: 0.09999999999999964d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002CA"
+			rewards: [
+				{
+					id: "00000000000008DB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "573DA3E3CE14F384"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Spores Recreator"
+			tasks: [{
+				id: "00000000000002CB"
+				item: "industrialforegoing:spores_recreator"
+				type: "item"
+			}]
+			x: 39.9d
+			y: -1.9000000000000004d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002CC"
+			rewards: [
+				{
+					id: "00000000000008DC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "160DD67A34E6E6E0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Material StoneWork Factory"
+			tasks: [{
+				id: "00000000000002CD"
+				item: "industrialforegoing:material_stonework_factory"
+				type: "item"
+			}]
+			x: 39.4d
+			y: 9.6d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002CE"
+			rewards: [
+				{
+					id: "00000000000008DD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "256D3CFE626A704B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Sludge Refiner"
+			tasks: [{
+				id: "00000000000002CF"
+				item: "industrialforegoing:sludge_refiner"
+				type: "item"
+			}]
+			x: 40.9d
+			y: 0.09999999999999964d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002D0"
+			rewards: [
+				{
+					id: "00000000000008DE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "77A475CA7EF37C21"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Water Condensator"
+			tasks: [{
+				id: "00000000000002D1"
+				item: "industrialforegoing:water_condensator"
+				type: "item"
+			}]
+			x: 40.9d
+			y: -0.9000000000000004d
+		}
+		{
+			dependencies: [
+				"00000000000002A6"
+				"00000000000002C2"
+			]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002D2"
+			rewards: [
+				{
+					id: "00000000000008DF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "55512584F59F1260"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft Mechanical Dirt"
+			tasks: [{
+				id: "00000000000002D3"
+				item: "industrialforegoing:mechanical_dirt"
+				type: "item"
+			}]
+			x: 40.9d
+			y: 1.0999999999999996d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002D6"
+			rewards: [
+				{
+					id: "00000000000008E0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "36D4E872A0CFB6B4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Dye Mixer"
+			tasks: [{
+				id: "00000000000002D7"
+				item: "industrialforegoing:dye_mixer"
+				type: "item"
+			}]
+			x: 39.9d
+			y: -0.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002D8"
+			rewards: [
+				{
+					id: "00000000000008E1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "304E8F8207E662DC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fluid Placer"
+			tasks: [{
+				id: "00000000000002D9"
+				item: "industrialforegoing:fluid_placer"
+				type: "item"
+			}]
+			x: 41.9d
+			y: -4.4d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002DA"
+			rewards: [
+				{
+					id: "00000000000008E2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6AF334FF7D90FD4B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Resourceful Furnace"
+			tasks: [{
+				id: "00000000000002DB"
+				item: "industrialforegoing:resourceful_furnace"
+				type: "item"
+			}]
+			x: 45.9d
+			y: 1.0999999999999996d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002DC"
+			rewards: [
+				{
+					id: "00000000000008E3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "736C023A10C64686"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Mob Detector"
+			tasks: [{
+				id: "00000000000002DD"
+				item: "industrialforegoing:mob_detector"
+				type: "item"
+			}]
+			x: 46.4d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002DE"
+			rewards: [
+				{
+					id: "00000000000008E4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14BFF81083EAA1EE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Marine Fisher"
+			tasks: [{
+				id: "00000000000002DF"
+				item: "industrialforegoing:marine_fisher"
+				type: "item"
+			}]
+			x: 40.4d
+			y: 3.5999999999999996d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000002E0"
+			rewards: [
+				{
+					id: "00000000000008E5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4D0A3B29B4F9A385"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Stasis Chamber"
+			tasks: [{
+				id: "00000000000002E1"
+				item: "industrialforegoing:stasis_chamber"
+				type: "item"
+			}]
+			x: 38.9d
+			y: 10.600000000000001d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: [
+				"An Upgrade to the Pity Machine frame, used to create higher tiered machines."
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000000319"
+			rewards: [
+				{
+					id: "00000000000008E6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "58F0ACBF052E0DA8"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft a Simple Machine Frame"
+			tasks: [{
+				id: "000000000000031A"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 4.1d
+		}
+		{
+			dependencies: ["00000000000002BE"]
+			description: [
+				"Tiny Dry Rubber is acquired by putting Latex \\& Water in a Latex Processing Unit."
+				" "
+				"Latex is produced by placing a Log infront of a Fluid Extractor. It'll slowly produce Latex."
+				" "
+				"&7Reward: 5 EXP Levels"
+			]
+			id: "000000000000031D"
+			rewards: [
+				{
+					id: "00000000000008EE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "29BF0928840CBAD9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Acquire 9x Tiny Dry Rubber"
+			tasks: [{
+				count: 9L
+				id: "000000000000031E"
+				item: "industrialforegoing:tinydryrubber"
+				type: "item"
+			}]
+			x: 43.4d
+			y: -0.40000000000000036d
+		}
+		{
+			dependencies: ["000000000000031D"]
+			description: [
+				"Crafted by using the Tiny Dry Rubber produced in the Latex Processing Unit."
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000031F"
+			rewards: [
+				{
+					id: "00000000000008E7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C5D2722C7C33AC9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft some Dry Rubber"
+			tasks: [{
+				id: "0000000000000320"
+				item: "industrialforegoing:dryrubber"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 0.5999999999999996d
+		}
+		{
+			dependencies: ["000000000000031F"]
+			dependency_requirement: "all_started"
+			description: [
+				"Crafted by putting Dry Rubber in a Furnace."
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000000321"
+			rewards: [
+				{
+					id: "00000000000008E8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "533E2E2D4CC56065"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft some Plastic"
+			tasks: [{
+				id: "0000000000000322"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plastic"
+					}
+				}
+				title: "Any Plastic"
+				type: "item"
+			}]
+			title: "Plastic"
+			x: 43.4d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["00000000000002B6"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000000325"
+			optional: true
+			rewards: [
+				{
+					id: "00000000000008E9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "196F7F8199DA5BA1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			subtitle: "Acquired by piping out Pink Slime to any Tank by using Mechanical Pipes from Mekanism or anything similar."
+			tasks: [{
+				id: "0000000000000326"
+				item: "industrialforegoing:pink_slime_bucket"
+				type: "item"
+			}]
+			x: 48.9d
+			y: -1.9000000000000004d
+		}
+		{
+			dependencies: [
+				"00000000000002C2"
+				"0000000000000325"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"Pink Slime is acquired by putting the bucket of Pink Slime into the Dissolution Chamber and then putting in 1 Glass Pane."
+				""
+				"&o(Click the Pink Slime to see the recipe.)"
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000000327"
+			rewards: [
+				{
+					id: "00000000000008EA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "781B0507DA214504"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Acquire Pink Slime"
+			tasks: [{
+				id: "5D8D49C5C81542D1"
+				item: "industrialforegoing:pink_slime"
+				type: "item"
+			}]
+			x: 48.4d
+			y: -0.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: [
+				"Can be used to capture any Mob, useful for many things."
+				""
+				"The Mob Imprisonment Tool can be used as many times as you like."
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000045A"
+			optional: true
+			rewards: [
+				{
+					id: "00000000000008EB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "318E34C9F33EA4E7"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.8d
+			subtitle: "Craft a Mob Imprisonment Tool"
+			tasks: [{
+				id: "000000000000045B"
+				item: "industrialforegoing:mob_imprisonment_tool"
+				type: "item"
+			}]
+			x: 44.28d
+			y: 0.6199999999999992d
+		}
+		{
+			dependencies: ["00000000000002A6"]
+			description: [
+				"A low-tiered generator that produces a low amount of FE at a pretty slow rate."
+				""
+				"&o(Can store up to 100,000 FE internally.)"
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000045C"
+			rewards: [
+				{
+					id: "00000000000008EC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1C99455AA2A0AD45"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Pitiful Generator"
+			tasks: [{
+				id: "000000000000045D"
+				item: "industrialforegoing:pitiful_generator"
+				type: "item"
+			}]
+			x: 43.4d
+			y: -2.4000000000000004d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000000786"
+			rewards: [
+				{
+					id: "00000000000008ED"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7BE4AA0E48BF1B5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Construct an Infinity Drill"
+			tasks: [{
+				id: "0000000000000787"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_drill"
+					tag: {
+						Energy: 0
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.9d
+			y: 0.5999999999999996d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000000BEF"
+			rewards: [
+				{
+					id: "0000000000000D85"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5AF6741A77A63D91"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Infinity Saw"
+			tasks: [{
+				id: "0000000000000BF0"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_saw"
+					tag: {
+						CanCharge: 1
+						Energy: 0
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 47.4d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"An Upgrade to the Simple Machine frame, used to create even higher tiered machines."
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000104D"
+			rewards: [
+				{
+					id: "000000000000104F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "60D4DE504A63DED9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			subtitle: "Craft an Advanced Machine Frame"
+			tasks: [{
+				id: "000000000000104E"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 11.600000000000001d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000001050"
+			rewards: [
+				{
+					id: "0000000000001052"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4AC2351D22493392"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Infinity Hammer"
+			tasks: [{
+				id: "0000000000001051"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_hammer"
+					tag: {
+						Beheading: 0
+						CanCharge: 1
+						Energy: 0
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 48.9d
+			y: 2.5999999999999996d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000001053"
+			rewards: [
+				{
+					id: "0000000000001055"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5AA191F4A77DDCB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Enchantment Extractor"
+			tasks: [{
+				id: "0000000000001054"
+				item: "industrialforegoing:enchantment_extractor"
+				type: "item"
+			}]
+			x: 38.9d
+			y: 13.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000001056"
+			rewards: [
+				{
+					id: "0000000000001058"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7F8C5320578222CB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Enchantment Factory"
+			tasks: [{
+				id: "0000000000001057"
+				item: "industrialforegoing:enchantment_factory"
+				type: "item"
+			}]
+			x: 38.4d
+			y: 12.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000001059"
+			rewards: [
+				{
+					id: "000000000000105B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6AD7A97371B6F04C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Enchantment Applicator"
+			tasks: [{
+				id: "000000000000105A"
+				item: "industrialforegoing:enchantment_applicator"
+				type: "item"
+			}]
+			x: 39.9d
+			y: 14.100000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "000000000000105C"
+			rewards: [
+				{
+					id: "000000000000105E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1D866434799D502B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Enchantment Sorter"
+			tasks: [{
+				id: "000000000000105D"
+				item: "industrialforegoing:enchantment_sorter"
+				type: "item"
+			}]
+			x: 38.4d
+			y: 11.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "000000000000105F"
+			rewards: [
+				{
+					id: "0000000000001061"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6A983017E5F31F5C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Mob Crusher"
+			tasks: [{
+				id: "0000000000001060"
+				item: "industrialforegoing:mob_crusher"
+				type: "item"
+			}]
+			x: 40.4d
+			y: 9.1d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0000000000001062"
+			rewards: [
+				{
+					id: "0000000000001064"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "18D45AE7FE234837"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Potion Brewer"
+			tasks: [{
+				id: "0000000000001063"
+				item: "industrialforegoing:potion_brewer"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 8.6d
+		}
+		{
+			dependencies: ["00000000000002C0"]
+			description: [
+				"Right click a 'Fluid Extractor' with a bucket when it's at 1,000mb to get a Latex Bucket."
+				""
+				"&7- Optional."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000002A3"
+			optional: true
+			rewards: [
+				{
+					id: "00000000000002A5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "221F8950404E2B49"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Acquire a Latex Bucket"
+			tasks: [{
+				id: "00000000000002A4"
+				item: "industrialforegoing:latex_bucket"
+				type: "item"
+			}]
+			x: 42.45d
+			y: -0.40000000000000036d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "00000000000012FD"
+			rewards: [
+				{
+					id: "598E8C8FEBC4BF88"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "69F951A8563ADDC6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Hydroponic Bed"
+			tasks: [{
+				id: "00000000000012FE"
+				item: "industrialforegoing:hydroponic_bed"
+				type: "item"
+			}]
+			x: 40.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Generates FE from items burnable items like coal."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "00000000000012FF"
+			rewards: [
+				{
+					id: "000000000000132A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5D3DB5159100FDF9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Furnace Mycelial Generator"
+			tasks: [{
+				id: "0000000000001300"
+				item: "industrialforegoing:mycelial_furnace"
+				type: "item"
+			}]
+			x: 46.4d
+			y: 5.6d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Generates FE from most food items."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001303"
+			rewards: [
+				{
+					id: "165E80043CD28F57"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78C14F9F2CE93AB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Culinary Mycelial Generator"
+			tasks: [{
+				id: "0000000000001304"
+				item: "industrialforegoing:mycelial_culinary"
+				type: "item"
+			}]
+			x: 46.9d
+			y: 4.6d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Generates FE from &dPink &fitems."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001305"
+			rewards: [
+				{
+					id: "42C5FE4186F1CAC1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5CA3F77AD8289CEE"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Pink Mycelial Generator"
+			tasks: [{
+				id: "0000000000001306"
+				item: "industrialforegoing:mycelial_pink"
+				type: "item"
+			}]
+			x: 45.4d
+			y: 6.1d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Generates FE from &bIcy &fitems."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001307"
+			rewards: [
+				{
+					id: "4964409C0BC2A9A4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1227FD76B8A15018"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Frosty Mycelial Generator"
+			tasks: [{
+				id: "0000000000001308"
+				item: "industrialforegoing:mycelial_frosty"
+				type: "item"
+			}]
+			x: 41.4d
+			y: 6.1d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from deathly like mob drops / items."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001309"
+			rewards: [
+				{
+					id: "000000000000132E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14481645CCB8A7D6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Death Mycelial Generator"
+			tasks: [{
+				id: "000000000000130A"
+				item: "industrialforegoing:mycelial_death"
+				type: "item"
+			}]
+			x: 43.9d
+			y: 15.299999999999997d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from Firework Rockets."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000130B"
+			rewards: [
+				{
+					id: "000000000000132D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "070B0D8D6AB984E4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Rocket Mycelial Generator"
+			tasks: [{
+				id: "000000000000130C"
+				item: "industrialforegoing:mycelial_rocket"
+				type: "item"
+			}]
+			x: 45.9d
+			y: 14.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from Potions."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000130D"
+			rewards: [
+				{
+					id: "000000000000132F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "763308F62A4A0232"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Potion Mycelial Generator"
+			tasks: [{
+				id: "000000000000130E"
+				item: "industrialforegoing:mycelial_potion"
+				type: "item"
+			}]
+			x: 46.9d
+			y: 14.100000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from Crimson / Warped blocks, items."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000130F"
+			rewards: [
+				{
+					id: "0000000000001330"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E358B06516C717D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Crimed Mycelial Generator"
+			tasks: [{
+				id: "0000000000001310"
+				item: "industrialforegoing:mycelial_crimed"
+				type: "item"
+			}]
+			x: 47.9d
+			y: 13.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from &9Ender Pearls &f\\& &3Ender Eyes."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001311"
+			rewards: [
+				{
+					id: "0000000000001331"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5825367A25E32886"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Ender Mycelial Generator"
+			tasks: [{
+				id: "0000000000001312"
+				item: "industrialforegoing:mycelial_ender"
+				type: "item"
+			}]
+			x: 48.4d
+			y: 12.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from &dEnchanted Books&f."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001313"
+			rewards: [
+				{
+					id: "0000000000001332"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4615356E9F0C8EE1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Disenchantment Mycelial Generator"
+			tasks: [{
+				id: "0000000000001314"
+				item: "industrialforegoing:mycelial_disenchantment"
+				type: "item"
+			}]
+			x: 48.4d
+			y: 11.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE with Lava + Redstone."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001315"
+			rewards: [
+				{
+					id: "707208FBA899358D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "70EDF6BEB7155461"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Magma Mycelial Generator"
+			tasks: [{
+				id: "0000000000001316"
+				item: "industrialforegoing:mycelial_magma"
+				type: "item"
+			}]
+			x: 47.9d
+			y: 10.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Used to charge Infinity items."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001317"
+			rewards: [
+				{
+					id: "3C7FF945AF4692AD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1E12CE715159DD02"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Infinity Charger"
+			tasks: [{
+				id: "0000000000001318"
+				item: "industrialforegoing:infinity_charger"
+				type: "item"
+			}]
+			x: 46.4d
+			y: 9.1d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE with &4T&fN&4T &f\\& &7Gunpowder&f."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "0000000000001319"
+			rewards: [
+				{
+					id: "0000000000001334"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4A3EE674B006A366"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Explosive Mycelial Generator"
+			tasks: [{
+				id: "000000000000131A"
+				item: "industrialforegoing:mycelial_explosive"
+				type: "item"
+			}]
+			x: 47.4d
+			y: 9.6d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"An Upgrade to the Advanced Machine frame, used to create even higher tiered machines."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "000000000000131B"
+			rewards: [
+				{
+					id: "10BE63875E9262B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "482FC6F5773E669D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "gear"
+			size: 1.15d
+			subtitle: "Craft a Supreme Machine Frame"
+			tasks: [{
+				id: "000000000000131C"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 18.305d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"Generates FE with &6Liquid Meat&f \\& &7Ingots."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "000000000000131D"
+			rewards: [
+				{
+					count: 2
+					id: "4BDD04127E413455"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "025D868913E3D5DB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Meatallurgic Mycelial Generator"
+			tasks: [{
+				id: "000000000000131E"
+				item: "industrialforegoing:mycelial_meatallurgic"
+				type: "item"
+			}]
+			x: 45.2d
+			y: 18.5d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"Generates FE with &bNether Stars&f."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "000000000000131F"
+			rewards: [
+				{
+					count: 2
+					id: "3F2860D9BEB1D6E1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "222E3E6634B6726E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Netherstar Mycelial Generator"
+			tasks: [{
+				id: "32775E0DD1A70952"
+				item: "industrialforegoing:mycelial_netherstar"
+				type: "item"
+			}]
+			x: 44.5d
+			y: 19.6d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"Generates FE from &dDragon's Breath&7."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "794CFFAC6CF103BF"
+			rewards: [
+				{
+					count: 2
+					id: "15944FB710C55E82"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "68754AA4441C3763"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Halitotis Mycelial Generator"
+			tasks: [{
+				id: "53208C23F1E0AD4C"
+				item: "industrialforegoing:mycelial_halitosis"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 20.200000000000003d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: [
+				"Places blocks."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "2DA3921579157B7D"
+			rewards: [
+				{
+					id: "565388A88B316DE0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E9F74BAE2FFE792"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Block Placer"
+			tasks: [{
+				id: "1E748717C156AFC1"
+				item: "industrialforegoing:block_placer"
+				type: "item"
+			}]
+			x: 40.9d
+			y: -3.9000000000000004d
+		}
+		{
+			dependencies: ["0000000000000321"]
+			description: [
+				"Collects fluids."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "1E65596743F0E093"
+			rewards: [
+				{
+					id: "1D575B3EF56A2FE4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "68F8A696DC5B0807"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fluid Collector"
+			tasks: [{
+				id: "4806822F9D4A6965"
+				item: "industrialforegoing:fluid_collector"
+				type: "item"
+			}]
+			x: 42.4d
+			y: -5.4d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "0844AE84D2FC569D"
+			rewards: [
+				{
+					id: "6EB36EDEA5555E41"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "15400E4B2F20828E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Construct an Infinity Trident"
+			tasks: [{
+				id: "36195E775A2F8FBB"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_trident"
+					tag: {
+						CanCharge: 1b
+						Channeling: 0b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Loyalty: 0
+						Riptide: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 47.9d
+			y: 2.5999999999999996d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "000000000000133E"
+			rewards: [
+				{
+					id: "537074B9CE702C0A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "16150D3A9D70A887"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Construct an Infinity Backpack"
+			tasks: [{
+				id: "000000000000133F"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_backpack"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 48.9d
+			y: 0.5999999999999996d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 2,147,483,647mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "7AF42C0D038D18B1"
+			rewards: [
+				{
+					count: 2
+					id: "617945AEB0548180"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4FFF4F766B6B9792"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Supreme Black Hole Tank"
+			tasks: [{
+				id: "155202D2072571FE"
+				item: "industrialforegoing:supreme_black_hole_tank"
+				type: "item"
+			}]
+			x: 41.7d
+			y: 18.5d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"It is used to store large quantities of items, with an internal inventory capable of holding 2,147,483,647 of a single item."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "4DFA12CC86C3BA2E"
+			rewards: [
+				{
+					count: 2
+					id: "64A956F8D96BDFCD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3E816C456EAC07CC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Supreme Black Hole Unit"
+			tasks: [{
+				id: "5222F8E77891DB1A"
+				item: "industrialforegoing:supreme_black_hole_unit"
+				type: "item"
+			}]
+			x: 42.3d
+			y: 19.6d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"Each unit will accept items from the inventory slot directly above it and keep a full stack of items in the inventory slot directly below it."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "0D5AA9D81026A33E"
+			rewards: [
+				{
+					count: 2
+					id: "612964584B7E7974"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "66AEE341ED164A3C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Black Hole Controller"
+			tasks: [{
+				id: "0241F234B9F01738"
+				item: "industrialforegoing:black_hole_controller"
+				type: "item"
+			}]
+			x: 42.2d
+			y: 17.4d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			description: [
+				"Automatically places Soul Sand and Wither Skeleton Skulls needed to summon The Wither Boss."
+				""
+				"&7Reward: 2x Loot Bundle"
+			]
+			id: "1D7CE32932188142"
+			rewards: [
+				{
+					count: 2
+					id: "07A5E655002BF8CC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5546C0BF23BE54C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Wither Builder"
+			tasks: [{
+				id: "189EB244B535A4F5"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: 44.7d
+			y: 17.4d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Generates FE from Slime Balls."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "2D8F3050061CC656"
+			rewards: [{
+				id: "2A5110E9C183C957"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Craft a Slimey Mycelial Generator"
+			tasks: [{
+				id: "77EDFE92B40AFF47"
+				item: "industrialforegoing:mycelial_slimey"
+				type: "item"
+			}]
+			x: 44.9d
+			y: 14.899999999999999d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"It is used to store large quantities of items, with an internal inventory capable of holding 67,108.864 of a single item."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "41B1442728463154"
+			rewards: [
+				{
+					id: "0962FF0C6B909D28"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5F6C9D7F974E05E8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Advanced Black Hole Unit."
+			tasks: [{
+				id: "52B1F5570C7D518B"
+				item: "industrialforegoing:advanced_black_hole_unit"
+				type: "item"
+			}]
+			x: 41.9d
+			y: 14.899999999999999d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 65,536,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "48C48CD81B86EF91"
+			rewards: [
+				{
+					id: "0C2636C251E09EF8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C500101505731FA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Advanced Black Hole Tank."
+			tasks: [{
+				id: "7D4722D320169219"
+				item: "industrialforegoing:advanced_black_hole_tank"
+				type: "item"
+			}]
+			x: 40.9d
+			y: 14.600000000000001d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Used to Wash Ores."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "1345DB1E4A6C8EA4"
+			rewards: [
+				{
+					id: "6158645B48A5FC63"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6F05E7BF8DE9DAC4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Washing Factory."
+			tasks: [{
+				id: "6BFD19C647BDDC99"
+				item: "industrialforegoing:washing_factory"
+				type: "item"
+			}]
+			x: 41.4d
+			y: 8.5d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"Turns Fermented Ore Meats to Dusts."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "3FD00F6C59E723EC"
+			rewards: [
+				{
+					id: "0F52923E58DF6CB5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5E82D15A91124FCB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fluid Sieving Machine"
+			tasks: [{
+				id: "66A73338DF226996"
+				item: "industrialforegoing:fluid_sieving_machine"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 8.6d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"It is used to spawn mobs based on the type of mob trapped in a Mob Imprisonment Tool."
+				""
+				"&7Reward: 1x Loot Bundle \\& 2x Mob Imprisonment Tool."
+			]
+			id: "3679D2B4129E78E3"
+			rewards: [
+				{
+					id: "1781FB4F45C95600"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "47FA3E84624E4AAA"
+					item: "industrialforegoing:mob_imprisonment_tool"
+					type: "item"
+				}
+				{
+					id: "59C2D7B8233E77A3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Mob Duplicator."
+			tasks: [{
+				id: "5531646454E9D3F5"
+				item: "industrialforegoing:mob_duplicator"
+				type: "item"
+			}]
+			x: 42.9d
+			y: 15.299999999999997d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: [
+				"It is used with one to four Laser Drills to produce ores."
+				""
+				"Laser Lenses can be used to increase or decrease the chances of specific ores."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "5963B8D1FB6DB6D1"
+			rewards: [
+				{
+					id: "10547325EDD75BD1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2274AF734127246D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Ore Laser Base."
+			tasks: [{
+				id: "1D9768092B2CA2B7"
+				item: "industrialforegoing:ore_laser_base"
+				type: "item"
+			}]
+			x: 44.4d
+			y: 8.299999999999999d
+		}
+		{
+			dependencies: ["000000000000104D"]
+			description: ["It is used with one to four Laser Drills to produce some fluids."]
+			id: "60C674C7CA804B1B"
+			rewards: [
+				{
+					id: "24304F7FEA58061F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "78B0D8C224217F15"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fluid Laser Base"
+			tasks: [{
+				id: "2E2521425BDBB744"
+				item: "industrialforegoing:fluid_laser_base"
+				type: "item"
+			}]
+			x: 42.4d
+			y: 8.299999999999999d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 1,024,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "35E6DC0C52DD961B"
+			rewards: [
+				{
+					id: "0990FC6B5200652C"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "44CC99E8753C40DF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Simple Black Hole Tank"
+			tasks: [{
+				id: "2694D9F069FE6FF8"
+				item: "industrialforegoing:simple_black_hole_tank"
+				type: "item"
+			}]
+			x: 44.4d
+			y: 6.800000000000001d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 524,288 of a single item."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "6CC1F037AEB47E28"
+			rewards: [
+				{
+					id: "33AE3ED50A3B604B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5ABF5F357D3B6D0F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Simple Black Hole Unit"
+			tasks: [{
+				id: "78366101AC695ABD"
+				item: "industrialforegoing:simple_black_hole_unit"
+				type: "item"
+			}]
+			x: 42.4d
+			y: 6.800000000000001d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Used to convert power into Work for the Laser Base."
+				""
+				"The Laser Drill must be placed one block away from the Laser Base with the back of the machine facing the Laser Base. "
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "3420A93B38701FDD"
+			rewards: [
+				{
+					id: "290FA27EE627951B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "498B0D35F6E72EE2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Laser Drill"
+			tasks: [{
+				id: "621F6FA73F545AA6"
+				item: "industrialforegoing:laser_drill"
+				type: "item"
+			}]
+			x: 41.3d
+			y: 2.8999999999999986d
+		}
+		{
+			dependencies: ["0000000000000319"]
+			description: [
+				"Turns Raw Ore Meat to Fermented Ore Meat."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "56B7840A55ABDFC0"
+			rewards: [
+				{
+					id: "611E8D1683E1A635"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7C112D89B53A16EC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Fermentation Station"
+			tasks: [{
+				id: "496947FA603EE689"
+				item: "industrialforegoing:fermentation_station"
+				type: "item"
+			}]
+			x: 45.5d
+			y: 2.8999999999999986d
+		}
+		{
+			dependencies: [
+				"00000000000002A6"
+				"0000000000000321"
+			]
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 64,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "5E37D53E28F15E46"
+			rewards: [
+				{
+					id: "3D7702AFCB4BD1B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "28DE04A89F03B8C9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Pity Black Hole Tank"
+			tasks: [{
+				id: "53073A470D6B62A6"
+				item: "industrialforegoing:pity_black_hole_tank"
+				type: "item"
+			}]
+			x: 41.4d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"00000000000002A6"
+				"0000000000000321"
+			]
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 16,384 of a single item."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "34141E33D603C821"
+			rewards: [
+				{
+					id: "68E00EA72AF9FB9F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6135160FF1CBEFD9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Pity Black Hole Unit"
+			tasks: [{
+				id: "34C682EC74EA8BA3"
+				item: "industrialforegoing:pity_black_hole_unit"
+				type: "item"
+			}]
+			x: 45.4d
+			y: -6.0d
+		}
+		{
+			dependencies: ["00000000000002A6"]
+			description: [
+				"It is used to store large quantities of fluid, with an internal tank size of 16,000mb."
+				""
+				"Fluid can be added to the tank by right clicking with a filled Bucket, placing a Bucket in the internal inventory slot, or by piping in directly."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "48ED535D758C4BFB"
+			rewards: [
+				{
+					id: "634EA21CE472E36D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4716B21DD1F1B1C4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Common Black Hole Tank"
+			tasks: [{
+				id: "3325B7FD8292511C"
+				item: "industrialforegoing:common_black_hole_tank"
+				type: "item"
+			}]
+			x: 40.9d
+			y: -5.0d
+		}
+		{
+			dependencies: ["00000000000002A6"]
+			description: [
+				"Used to store large quantities of items, with an internal inventory capable of holding 2,048 of a single item."
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "6BE9FC7D2A2AF058"
+			rewards: [
+				{
+					id: "6BE65ED5E5F4C41E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "525C55385D353E57"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft a Common Black Hole Unit"
+			tasks: [{
+				id: "714729604DC089ED"
+				item: "industrialforegoing:common_black_hole_unit"
+				type: "item"
+			}]
+			x: 45.9d
+			y: -5.0d
+		}
+		{
+			dependencies: ["000000000000131B"]
+			id: "0626D36F7E71D1D2"
+			rewards: [{
+				count: 2
+				id: "598C8E2824394FFD"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Mycelial Reactor"
+			tasks: [{
+				id: "533DABA006160189"
+				item: "industrialforegoing:mycelial_reactor"
+				type: "item"
+			}]
+			x: 43.4d
+			y: 16.799999999999997d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "16D20DA80B805541"
+			rewards: [
+				{
+					id: "5EEA7940CFAAEBB0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "766DF3C3F1C0BF32"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Craft an Infinity Launcher"
+			tasks: [{
+				id: "69FE28B44278ED27"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_launcher"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Plunger: 0
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 49.4d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: ["&7Reward: 1x Loot Bundle"]
+			id: "4CF8978D24909515"
+			optional: true
+			rewards: [
+				{
+					id: "0D8DE4D65CE0A25B"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "79AB1E2328899EF5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "diamond"
+			subtitle: "Construct an Infinity Nuke"
+			tasks: [{
+				id: "0E0088030FC42089"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:infinity_nuke"
+					tag: {
+						CanCharge: 1b
+						Energy: 0L
+						Fluid: {
+							Amount: 0
+							FluidName: "biofuel"
+						}
+						Selected: "POOR"
+						Special: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 48.4d
+			y: 1.5999999999999996d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "2EB4BB8EF7F8B85B"
+			rewards: [
+				{
+					count: 3
+					id: "3A72F7DACB19A743"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "43F16F62DFE3C383"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 1"
+			tasks: [{
+				id: "67323CC48DDD1EFF"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon0"
+					tag: {
+						TitaniumAugment: {
+							Range: 0.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 0.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "3F74BBBF7382D628"
+			rewards: [
+				{
+					count: 3
+					id: "085B28794378BF01"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "1384D3276C1D259B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 2"
+			tasks: [{
+				id: "25F125BC838301E7"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon1"
+					tag: {
+						TitaniumAugment: {
+							Range: 1.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 0.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "76D2A6DA60C02025"
+			rewards: [
+				{
+					count: 3
+					id: "7E444F809E79750B"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "1C4D20BACD86EA1F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 3"
+			tasks: [{
+				id: "53F84BA49B7B3598"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon2"
+					tag: {
+						TitaniumAugment: {
+							Range: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 0.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "0132924983FB7CBE"
+			rewards: [
+				{
+					count: 3
+					icon: "lootbundles:fragment"
+					id: "69365CAACEDADFE5"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "26238F227654130F"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 4"
+			tasks: [{
+				id: "0BC499C020339C55"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon3"
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 1.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "7D5A64090FE22393"
+			rewards: [
+				{
+					count: 3
+					id: "25290D62BDD2018A"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "793347FAD902A9BC"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 5"
+			tasks: [{
+				id: "768BAD14484B8952"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon4"
+					tag: {
+						TitaniumAugment: {
+							Range: 4.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 1.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "42A6D196948BFABF"
+			rewards: [
+				{
+					count: 3
+					id: "7D826E0D2AD7FA4B"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "01A09BC8EFC7ABD2"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 6"
+			tasks: [{
+				id: "735F67B2ACC3C650"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon5"
+					tag: {
+						TitaniumAugment: {
+							Range: 5.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 1.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "7FA9D928D8503D71"
+			rewards: [
+				{
+					count: 3
+					id: "406B6E1E15162E9D"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "349298A27A9D22CE"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 7"
+			tasks: [{
+				id: "2F274E305C68602F"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon6"
+					tag: {
+						TitaniumAugment: {
+							Range: 6.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 2.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "49A1A4CE69E7D48A"
+			rewards: [
+				{
+					count: 3
+					id: "640F61CAC249D00C"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "78A0D19CE47A8134"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 8"
+			tasks: [{
+				id: "7C0A1D6A09217170"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon7"
+					tag: {
+						TitaniumAugment: {
+							Range: 7.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 2.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "070A43B8BF8F9CC8"
+			rewards: [
+				{
+					count: 3
+					id: "25BC48A8FA9FD939"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "7BE9EEDDAC03D694"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 9"
+			tasks: [{
+				id: "0585E944C81DDDCD"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon8"
+					tag: {
+						TitaniumAugment: {
+							Range: 8.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 2.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "7153D825FEB8107B"
+			rewards: [
+				{
+					count: 3
+					id: "4DF18BB5695C7562"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "35BE2014C5033C40"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 10"
+			tasks: [{
+				id: "334C3DAB2D9E066A"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon9"
+					tag: {
+						TitaniumAugment: {
+							Range: 9.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 36.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "44CD87753BB31D51"
+			rewards: [
+				{
+					count: 3
+					id: "3983076C43C677D2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "5658394352BC537D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 11"
+			tasks: [{
+				id: "27BBC6187A1981E5"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon10"
+					tag: {
+						TitaniumAugment: {
+							Range: 10.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to expand the working area of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "5E918FF395C75770"
+			rewards: [
+				{
+					count: 3
+					id: "4A3D9AA262B69FA2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "3694B69A30176D4B"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Range Addon Tier 12"
+			tasks: [{
+				id: "61DD46579BB0060D"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:range_addon11"
+					tag: {
+						TitaniumAugment: {
+							Range: 11.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.5d
+			y: 3.1999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to increase the processing speeds of some machines."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "2F6C6DCCE5D0CAF6"
+			rewards: [
+				{
+					count: 3
+					id: "658A3C55CABDC0F2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "072404AA3E6EC70D"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Speed Addon Tier 1"
+			tasks: [{
+				id: "69107E40CF352D1C"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:speed_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Speed: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 0.6999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Reduce progress amount to complete a task."
+				""
+				"&7Rewards: 6x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "3B6A6A20DEB07551"
+			rewards: [
+				{
+					count: 6
+					id: "2A935EEBF15D368E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "7F5C8F81804DF932"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft an Efficiency Addon Tier 2"
+			tasks: [{
+				id: "5F212D7FDC6E2FC8"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:efficiency_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 1.6999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Used to increase the processing speeds of some machines."
+				""
+				"&7Rewards: 6x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "51955482DA277822"
+			rewards: [
+				{
+					count: 6
+					id: "75D98762822045F7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "279513A7AD59B55A"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Speed Addon Tier 2"
+			tasks: [{
+				id: "7613D59BA3507453"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:speed_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 0.6999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Reduce progress amount to complete a task."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "0DFCC2761639B120"
+			rewards: [
+				{
+					count: 3
+					id: "26960816C0000CB2"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "515799E3E0D25103"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft an Efficiency Addon Tier 1"
+			tasks: [{
+				id: "686FAABC1D0E1065"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:efficiency_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.9f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 1.6999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Machines do more operations per completed task."
+				""
+				"&7Rewards: 3x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "4FE531E7897BBDD5"
+			rewards: [
+				{
+					count: 3
+					id: "457E594027EDAE8E"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "28CD5F8274553861"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Processing Addon Tier 1"
+			tasks: [{
+				id: "599610ADFF7CFF6F"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:processing_addon_1"
+					tag: {
+						TitaniumAugment: {
+							Processing: 2.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 37.0d
+			y: 2.6999999999999993d
+		}
+		{
+			dependencies: ["00000000000002C2"]
+			description: [
+				"Machines do more operations per completed task."
+				""
+				"&7Rewards: 6x Loot Bundle Fragment \\& 4 EXP Levels."
+			]
+			id: "6A924768A56D34F1"
+			rewards: [
+				{
+					count: 6
+					id: "6F65D096EBFD3C52"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "5DB53BA1C03EF266"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Processing Addon Tier 2"
+			tasks: [{
+				id: "35BC87D44C062821"
+				item: {
+					Count: 1b
+					id: "industrialforegoing:processing_addon_2"
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 38.0d
+			y: 2.6999999999999993d
+		}
+	]
+	title: "Industrial Foregoing"
+}

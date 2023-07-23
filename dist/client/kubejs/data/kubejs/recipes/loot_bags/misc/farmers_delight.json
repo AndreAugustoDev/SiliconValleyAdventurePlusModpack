@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Farmer's Delight Lootbag",
+  "color": "#59de5b",
+  "rarity": "UNCOMMON",
+  "output": {
+    "table": "kubejs:loot_bags/misc/farmersdelight"
+  }
+}

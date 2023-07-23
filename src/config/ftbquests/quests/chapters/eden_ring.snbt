@@ -1,0 +1,287 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eden_ring"
+	group: "59C90AA1B128306B"
+	icon: "minecraft:copper_block"
+	id: "17CACD65CDB7AF54"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"To create the portal to the &eEden Ring&r, you will first need 12 &n&6Waxed&r &6Blocks of Copper&r, 12 &n&6Waxed&r &6Cut Copper Stairs&r, 4 &dBlocks of Amethyst&r, 4 &dAmethyst Clusters&r, 1 &e&lGold Block&r, and a &7Flint and Steel&r."
+				""
+				"To build the portal itself, build a 3x3 platform of &6Copper Blocks&r. Replace the middle block with a &e&lGold Block&r."
+				""
+				"Surround the platform with &6Waxed Cut Copper Stairs&r, and replace the corners between the stairs with &6Copper Blocks&r."
+				""
+				"The four &6Copper Blocks &ryou just placed should then have &dAmethyst Blocks &rplaced on top, and then the &dAmethyst Clusters&r."
+				""
+				"Light the &e&lGold Block &rwith the &7Flint and Steel &rto activate the portal."
+			]
+			id: "756A4727CEB3E68C"
+			rewards: [
+				{
+					id: "6C9054F93C2AE253"
+					item: "edenring:guide_book"
+					type: "item"
+				}
+				{
+					id: "3E036B952BCAA1F4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "Click on this quest to view the description and read the portal activation guide."
+			tasks: [{
+				dimension: "edenring:edenring"
+				icon: "minecraft:copper_block"
+				id: "2B2EB624435FCD5D"
+				title: "Enter Eden Ring"
+				type: "dimension"
+			}]
+			title: "Enter &eEden Ring"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"{image:minecraft:textures/ftbquests/edenringconstruction1.png width:100 height:100 align:1}"
+				"{image:minecraft:textures/ftbquests/edenringportal1.png width:100 height:100 align:1}"
+			]
+			id: "1504A2F774F6ADBF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5255062033C272C8"
+				type: "choice"
+			}]
+			subtitle: "Eden Ring"
+			tasks: [{
+				dimension: "edenring:edenring"
+				id: "66E2B56237186FFC"
+				type: "dimension"
+			}]
+			title: "Visit the Eden Ring dimension"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "467933701A44C5F2"
+			rewards: [
+				{
+					count: 10
+					id: "58CD14DF560DB707"
+					item: "edenring:auritis_stripped_log"
+					type: "item"
+				}
+				{
+					id: "27DD046CB62D287C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "2BD3ACE2A04C811C"
+				item: "edenring:auritis_stripped_log"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "252FEBCD6A5B47E7"
+			rewards: [
+				{
+					count: 10
+					id: "371F2C2681B6BFA9"
+					item: "edenring:auritis_log"
+					type: "item"
+				}
+				{
+					id: "049E1066B50B833F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "35675DB40F1AD420"
+				item: "edenring:auritis_log"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "6564C3EA60F2BEA9"
+			rewards: [
+				{
+					count: 10
+					id: "31E3EDA3BC448CAF"
+					item: "edenring:balloon_mushroom_stripped_log"
+					type: "item"
+				}
+				{
+					id: "50C7F7AA5BADFDD3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "7CEB793090901BC4"
+				item: "edenring:balloon_mushroom_stripped_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "3C806E715E081F24"
+			rewards: [
+				{
+					count: 10
+					id: "450BFF0E11EFD24C"
+					item: "edenring:balloon_mushroom_log"
+					type: "item"
+				}
+				{
+					id: "0431A3136E7D6EBF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "2F21A79BC21B5ACE"
+				item: "edenring:balloon_mushroom_log"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "68F1E6E6E909029D"
+			rewards: [
+				{
+					count: 10
+					id: "3FECF9BABC54B466"
+					item: "edenring:pulse_tree_stripped_log"
+					type: "item"
+				}
+				{
+					id: "6635F566AE0806A4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "01D0726FE123AACE"
+				item: "edenring:pulse_tree_stripped_log"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "55C6830BF552BA55"
+			rewards: [
+				{
+					count: 10
+					id: "76CCADC7CE9A52C0"
+					item: "edenring:pulse_tree_log"
+					type: "item"
+				}
+				{
+					id: "0008DE2ADDDF1E0C"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "24259C01D54A60E9"
+				item: "edenring:pulse_tree_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "5180CA37E0B97732"
+			rewards: [
+				{
+					count: 10
+					id: "0BE9D9A06A917490"
+					item: "edenring:brain_tree_stripped_log"
+					type: "item"
+				}
+				{
+					id: "098D0849EDACA0DE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "3BBAC691F7AF7743"
+				item: "edenring:brain_tree_stripped_log"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "36ED2E0A2B3B72FD"
+			rewards: [
+				{
+					count: 10
+					id: "492F85E8D0E9578D"
+					item: "edenring:brain_tree_log"
+					type: "item"
+				}
+				{
+					id: "5FEC631835F10FFE"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "6A38F22CAC0C5837"
+				item: "edenring:brain_tree_log"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1504A2F774F6ADBF"]
+			id: "7721AEB169F1E89E"
+			rewards: [
+				{
+					id: "1659FD54400DBDC8"
+					item: "edenring:gravity_compressor"
+					type: "item"
+				}
+				{
+					id: "08236C0969F1C575"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "6442CA6F2D65073E"
+				item: "edenring:gravity_compressor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+	]
+	title: " &eEden Ring"
+}

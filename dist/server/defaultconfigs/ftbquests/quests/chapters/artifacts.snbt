@@ -1,0 +1,562 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "artifacts"
+	group: "76C22988F9A7C9CE"
+	icon: "artifacts:mimic_spawn_egg"
+	id: "0E7A010E0337174E"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "054297072C999353"
+			rewards: [{
+				id: "67DD8CA100BF952C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7AEB4C020814A3B2"
+				item: "artifacts:steadfast_spikes"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			id: "2512CE5DC33C3C66"
+			rewards: [{
+				id: "6EE19D0C73DCD7B2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7282286A83866548"
+				item: "artifacts:running_shoes"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "5DBA0B34084E8324"
+			rewards: [{
+				id: "04C7D6EB2ABECFDA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "233F88C8D50401D2"
+				item: "artifacts:kitty_slippers"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			id: "4828EC2FB540B82C"
+			rewards: [{
+				id: "749891069DE0995F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "388F17506489B039"
+				item: "artifacts:bunny_hoppers"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			id: "164237E20B31C8C6"
+			rewards: [{
+				id: "63CE422E239DBF01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "75D4285D32CD6A49"
+				item: "artifacts:aqua_dashers"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "18F5D8A23C7FF1A4"
+			rewards: [{
+				id: "0132A46DAB52D8A5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5FAE9A65C6BB68C0"
+				item: "artifacts:whoopee_cushion"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			id: "64CB30C869BE33F3"
+			rewards: [{
+				id: "68BE8C5DBD3032DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "590423BC325CB1C1"
+				item: "artifacts:flippers"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "6946555E7802E563"
+			rewards: [{
+				id: "4808AA049B3B3079"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "236F56D0CFCEEB7B"
+				item: "artifacts:vampiric_glove"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "45755442DD07BDE4"
+			rewards: [{
+				id: "3BEF0C147A92E438"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7D2ACFE5F1A05B7E"
+				item: "artifacts:golden_hook"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			id: "7984C24DCBED6B09"
+			rewards: [{
+				id: "0CF84E809D980B51"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "59969E4593593D5B"
+				item: "artifacts:pocket_piston"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "515CD372E5B826C8"
+			rewards: [{
+				id: "6409CCFF305DCE88"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "37B8D23AAA595EC7"
+				item: "artifacts:umbrella"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "204180F113CA2F16"
+			rewards: [{
+				id: "064038C32E52C4FC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4A6EED2A85FAF730"
+				item: "artifacts:everlasting_beef"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["204180F113CA2F16"]
+			id: "45342B1BDE66C54B"
+			rewards: [{
+				id: "3DD6BE5F8AD28F9E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0510905D7FA30694"
+				item: "artifacts:eternal_steak"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			id: "22B9657033671A34"
+			rewards: [{
+				id: "2916A0A9E4204FAC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "47678C352F99AD2C"
+					item: "artifacts:plastic_drinking_hat"
+					type: "item"
+				}
+				{
+					id: "147EE3F5F867BC92"
+					item: "artifacts:novelty_drinking_hat"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "2B0625BB66BEB93B"
+			rewards: [{
+				id: "71564D27C6229907"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2F8872AA45F784F9"
+				item: "artifacts:snorkel"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "4E2B89313D9EC070"
+			rewards: [{
+				id: "468405237BF39B16"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0C676661BBC7ED28"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "7AE6A60CE00AA8DA"
+			rewards: [{
+				id: "2957EE610B15A3B4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4190CE7CB8CA58D1"
+				item: "artifacts:villager_hat"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "03B800B45ECAF3CA"
+			rewards: [{
+				id: "16ED482DD6FBDDB0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "02990CECC6788017"
+				item: "artifacts:superstitious_hat"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "3D6E910475AA69DA"
+			rewards: [{
+				id: "33C9766618913C01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "387E50EB59A9645A"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "43B4321CF955ABC6"
+			rewards: [{
+				id: "76ECDA8395F98E3B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7CDDD4C74FC27459"
+				item: "artifacts:digging_claws"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "7434D5CFF53C706F"
+			rewards: [{
+				id: "5252B59FFECF7066"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F02F5067977180F"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "3799171F5C8D5AB5"
+			rewards: [{
+				id: "47895E9E9468DCC6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C7629591093FC89"
+				item: "artifacts:universal_attractor"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "3EDD3963C34E41E4"
+			rewards: [{
+				id: "70F3207605093D56"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "406F63ABBA83C83A"
+				item: "artifacts:cloud_in_a_bottle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "7224FE6EAE076B03"
+			rewards: [{
+				id: "7BECEBAB9594C81B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "547E299F69A09617"
+				item: "artifacts:charm_of_sinking"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "6EA6FC0E2A5DBF2E"
+			rewards: [{
+				id: "131CA855989444C9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "66D1E3C81F8CE25B"
+				item: "artifacts:flame_pendant"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "0122F39E8D711D60"
+			rewards: [{
+				id: "1F3B4882A17ED6D6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1E5CF59AEEE8276F"
+				item: "artifacts:cross_necklace"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "7B1128C9ED14583F"
+			rewards: [{
+				id: "5948A367FD99BF14"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "177DC038F81FD8F8"
+				item: "artifacts:lucky_scarf"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "63DF28BD86E6D8FF"
+			rewards: [{
+				id: "0A88E925FBBFB877"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1273ACC116D4E9C3"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "2944DCEE75EC23B3"
+			rewards: [{
+				id: "054A97DD290FEB90"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "30965EE80CA4BC7A"
+				item: "artifacts:feral_claws"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "08ACE961946FC17E"
+			rewards: [{
+				id: "1F604027FA98CC1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2C86E316CAD5D127"
+				item: "artifacts:helium_flamingo"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "70B1399629FADF3B"
+			rewards: [{
+				id: "3FE6F38D217DCFCF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1B9AA0640482E730"
+				item: "artifacts:antidote_vessel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "41161158457A6284"
+			rewards: [{
+				id: "6105E9F1DA7A0057"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1F0C55310A30A076"
+				item: "artifacts:obsidian_skull"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			id: "49C46BA8D8DDF6A9"
+			rewards: [{
+				id: "55093201B5F5754D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2413049A4888DFFD"
+				item: "artifacts:thorn_pendant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "04E4133ABA7127F1"
+			rewards: [{
+				id: "16D0C48D638526D7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7528356C7273B5BD"
+				item: "artifacts:shock_pendant"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			id: "7F8B0AC57BC1AECE"
+			rewards: [{
+				id: "3487A279E810FD3B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6B47527430327577"
+				item: "artifacts:panic_necklace"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "45F3B104E4718B26"
+			rewards: [{
+				id: "043F66907A61E256"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4FB2F7C5306F3E79"
+				item: "artifacts:scarf_of_invisibility"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+	]
+	subtitle: ["Artifacts can be found randomly around the world."]
+	title: "Artifacts"
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "tag",
+          "name": "forge:silicon",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "refinedstorage:quartz_enriched_iron",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "refinedstorage:machine_casing"
+        }
+      ]
+    }
+  ]
+}

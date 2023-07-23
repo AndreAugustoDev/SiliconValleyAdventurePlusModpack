@@ -1,0 +1,60 @@
+{
+  "building_blocks": {
+    "condensed_creative:dirt": {
+      "base_item": "minecraft:dirt",
+      "block_tag": "minecraft:dirt"
+    },
+    "condensed_creative:planks": {
+      "base_item": "minecraft:oak_planks",
+      "block_tag": "minecraft:planks"
+    },
+    "condensed_creative:logs": {
+      "base_item": "minecraft:oak_log",
+      "block_tag": "minecraft:logs"
+    },
+    "condensed_creative:stairs": {
+      "base_item": "minecraft:oak_stairs",
+      "block_tag": "minecraft:stairs"
+    },
+    "condensed_creative:slabs": {
+      "base_item": "minecraft:oak_slab",
+      "block_tag": "minecraft:slabs"
+    },
+    "condensed_creative:bookshelfs": {
+      "base_item": "minecraft:bookshelf",
+      "block_tag": "forge:bookshelves"
+    },
+    "condensed_creative:sandstones": {
+      "base_item": "minecraft:sandstone",
+      "block_tag": "forge:sandstone"
+    },
+    "condensed_creative:stone_bricks": {
+      "base_item": "minecraft:stone_bricks",
+      "block_tag": "minecraft:stone_bricks"
+    },
+    "condensed_creative:stones": {
+      "base_item": "minecraft:stone",
+      "block_tag": "forge:stone"
+    },
+    "condensed_creative:cobblestones": {
+      "base_item": "minecraft:cobblestone",
+      "block_tag": "forge:cobblestone"
+    },
+    "condensed_creative:glasses": {
+      "base_item": "minecraft:glass",
+      "block_tag": "forge:glass"
+    },
+    "condensed_creative:ores": {
+      "base_item": "minecraft:coal_ore",
+      "block_tag": "forge:ores"
+    },
+    "condensed_creative:sands": {
+      "base_item": "minecraft:sand",
+      "block_tag": "minecraft:sand"
+    },
+    "condensed_creative:storage_blocks": {
+      "base_item": "minecraft:coal_block",
+      "block_tag": "forge:storage_blocks"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+	icon: "rottencreatures:treasure_chest"
+	id: "689DDEE6FD32ABDF"
+	loot_crate: {
+		color: 16768768
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "treasure_chest"
+	}
+	loot_size: 1
+	order_index: 84
+	rewards: [
+		{ item: "minecraft:gold_ingot", random_bonus: 2 }
+		{ item: "minecraft:iron_ingot", random_bonus: 2 }
+		{ count: 2, item: "minecraft:copper_ingot", random_bonus: 3 }
+		{ count: 2, item: "blazegear:brimsteel_ingot", random_bonus: 1 }
+		{ count: 3, item: "create:brass_ingot", random_bonus: 1 }
+		{ count: 4, item: "create:zinc_ingot", random_bonus: 3 }
+		{ count: 2, item: "twilightforest:ironwood_ingot", random_bonus: 1 }
+		{ count: 2, item: "silentgear:azure_silver_ingot", random_bonus: 1 }
+		{ count: 2, item: "silentgear:crimson_iron_ingot", random_bonus: 2 }
+		{ count: 3, item: "mekanism:ingot_uranium", random_bonus: 2 }
+		{ count: 3, item: "mekanism:ingot_lead", random_bonus: 4 }
+		{ count: 3, item: "mekanism:ingot_tin", random_bonus: 4 }
+		{ count: 3, item: "mekanism:ingot_osmium", random_bonus: 4 }
+		{ count: 3, item: "immersiveengineering:ingot_nickel", random_bonus: 4 }
+		{ count: 3, item: "immersiveengineering:ingot_silver", random_bonus: 4 }
+		{ count: 3, item: "immersiveengineering:ingot_aluminum", random_bonus: 4 }
+		{ item: "minecraft:emerald", random_bonus: 1 }
+		{ item: "minecraft:diamond", random_bonus: 1 }
+		{ count: 2, item: "minecraft:prismarine_crystals", random_bonus: 2 }
+		{ count: 2, item: "minecraft:amethyst_shard", random_bonus: 2 }
+		{ count: 3, item: "minecraft:quartz", random_bonus: 6 }
+		{ count: 3, item: "minecraft:lapis_lazuli", random_bonus: 9 }
+	]
+	title: "Treasure Chest"
+}

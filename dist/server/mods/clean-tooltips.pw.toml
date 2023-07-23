@@ -1,0 +1,13 @@
+name = "Clean Tooltips"
+filename = "clean_tooltips-1.3-forge-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "226ea9c23d0d28c53b1454bca9559688ccc4e540"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4567437
+project-id = 855017

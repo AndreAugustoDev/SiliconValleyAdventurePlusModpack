@@ -1,0 +1,13 @@
+name = "Expanded Equivalence"
+filename = "ExpandedEquivalence-1.19.2-19.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f30d2cb6779b8448ed1e30f118102a740a022af"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4366862
+project-id = 295222

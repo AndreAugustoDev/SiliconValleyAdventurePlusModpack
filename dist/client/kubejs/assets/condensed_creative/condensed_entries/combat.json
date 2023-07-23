@@ -1,0 +1,28 @@
+{
+  "combat": {
+    "condensed_creative:arrows": {
+      "base_item": "minecraft:arrow",
+      "item_tag": "minecraft:arrows"
+    },
+    "condensed_creative:swords": {
+      "base_item": "minecraft:wooden_sword",
+      "item_tag": "forge:tools/swords"
+    },
+    "condensed_creative:helmets": {
+      "base_item": "minecraft:leather_helmet",
+      "item_tag": "forge:armors/helmets"
+    },
+    "condensed_creative:chestplates": {
+      "base_item": "minecraft:leather_chestplate",
+      "item_tag": "forge:armors/chestplates"
+    },
+    "condensed_creative:leggings": {
+      "base_item": "minecraft:leather_leggings",
+      "item_tag": "forge:armors/leggings"
+    },
+    "condensed_creative:boots": {
+      "base_item": "minecraft:leather_boots",
+      "item_tag": "forge:armors/boots"
+    }
+  }
+}

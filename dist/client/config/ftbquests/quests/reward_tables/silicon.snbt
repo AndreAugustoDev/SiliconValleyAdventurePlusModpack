@@ -1,0 +1,13 @@
+{
+	icon: "tinyredstone:silicon_compound"
+	id: "3D505501F3A5A14F"
+	loot_size: 1
+	order_index: 88
+	rewards: [
+		{ count: 8, item: "ftbic:silicon" }
+		{ count: 8, item: "tinyredstone:silicon" }
+		{ count: 8, item: "refinedstorage:silicon" }
+		{ count: 8, item: "ae2:silicon" }
+	]
+	title: "Silicon"
+}

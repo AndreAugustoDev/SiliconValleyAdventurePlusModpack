@@ -1,0 +1,13 @@
+name = "Assorted Tools [Forge/Fabric]"
+filename = "assortedtools-1.19.2-6.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "84ebfb95c0c91f704b6622432f9fc9aa3be7cecb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4651299
+project-id = 409802

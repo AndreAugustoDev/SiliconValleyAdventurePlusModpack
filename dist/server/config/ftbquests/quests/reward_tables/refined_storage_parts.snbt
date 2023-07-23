@@ -1,0 +1,12 @@
+{
+	id: "77EB3613B789B4E9"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ count: 3, item: "refinedstorage:basic_processor", random_bonus: 3, weight: 40.0f }
+		{ count: 2, item: "refinedstorage:improved_processor", weight: 20.0f }
+		{ item: "refinedstorage:advanced_processor", weight: 5.0f }
+	]
+	title: "Refined Storage Basic Parts"
+	use_title: true
+}

@@ -1,0 +1,56 @@
+{
+  "decorations": {
+    "condensed_creative:saplings": {
+      "base_item": "minecraft:oak_sapling",
+      "item_tag": "minecraft:saplings"
+    },
+    "condensed_creative:leaves": {
+      "base_item": "minecraft:oak_leaves",
+      "item_tag": "minecraft:leaves"
+    },
+    "condensed_creative:small_flowers": {
+      "base_item": "minecraft:dandelion",
+      "block_tag": "minecraft:small_flowers"
+    },
+    "condensed_creative:tall_flowers": {
+      "base_item": "minecraft:sunflower",
+      "block_tag": "minecraft:tall_flowers"
+    },
+    "condensed_creative:signs": {
+      "base_item": "minecraft:oak_sign",
+      "item_tag": "minecraft:signs"
+    },
+    "condensed_creative:beds": {
+      "base_item": "minecraft:white_bed",
+      "item_tag": "minecraft:beds"
+    },
+    "condensed_creative:beehives": {
+      "base_item": "minecraft:bee_nest",
+      "block_tag": "minecraft:beehives"
+    },
+    "condensed_creative:walls": {
+      "base_item": "minecraft:cobblestone_wall",
+      "item_tag": "minecraft:walls"
+    },
+    "condensed_creative:chests": {
+      "base_item": "minecraft:chest",
+      "item_tag": "forge:chests"
+    },
+    "condensed_creative:fences": {
+      "base_item": "minecraft:oak_fence",
+      "item_tag": "minecraft:fences"
+    },
+    "condensed_creative:torchs": {
+      "base_item": "minecraft:torch",
+      "item_tag": "forge:torches"
+    },
+    "condensed_creative:anvils": {
+      "base_item": "minecraft:anvil",
+      "item_tag": "minecraft:anvil"
+    },
+    "condensed_creative:glass_panes": {
+      "base_item": "minecraft:glass_pane",
+      "item_tag": "forge:glass_panes"
+    }
+  }
+}

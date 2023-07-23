@@ -1,0 +1,22 @@
+{
+	hide_tooltip: true
+	id: "180BCC557B81197D"
+	loot_size: 1
+	order_index: 68
+	rewards: [
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
+		{ count: 64, item: "minecraft:deepslate" }
+		{ count: 64, item: "minecraft:cobbled_deepslate" }
+		{ count: 64, item: "minecraft:calcite" }
+		{ count: 64, item: "minecraft:tuff" }
+		{ count: 64, item: "minecraft:dripstone_block" }
+		{ count: 64, item: "minecraft:cobblestone" }
+		{ count: 64, item: "minecraft:smooth_stone" }
+		{ count: 64, item: "minecraft:stone_bricks" }
+		{ count: 64, item: "minecraft:bricks" }
+	]
+	title: "Common Blocks"
+}

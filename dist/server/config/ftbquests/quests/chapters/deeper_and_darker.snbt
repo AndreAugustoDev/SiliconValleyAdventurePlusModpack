@@ -1,0 +1,549 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "deeper_and_darker"
+	group: "59C90AA1B128306B"
+	icon: "deeperdarker:heart_of_the_deep"
+	id: "4B6E4A0215F45FC0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "731C3214BB61FDAE"
+			rewards: [{
+				id: "1A22694A70BE865A"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			subtitle: "Found underground in the &aOverworld&r."
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "minecraft:sculk_sensor"
+				id: "37E411F497C9CD71"
+				title: "Kill a Warden"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Warden"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "44937B2D2EB38094"
+			rewards: [{
+				id: "2B6B4A1DB2165CC7"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Used to negate the darkness in &8&lThe Otherside."
+			tasks: [{
+				id: "42CA7AAF304767E7"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a &9Warden Helmet"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["731C3214BB61FDAE"]
+			id: "704CCA2CEAB23B4D"
+			rewards: [{
+				id: "336DFFDBA2B4F736"
+				item: "deeperdarker:ancient_vase"
+				type: "item"
+			}]
+			subtitle: "Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				icon: "minecraft:reinforced_deepslate"
+				id: "474D2D76F2256297"
+				title: "Enter The Otherside"
+				type: "dimension"
+			}]
+			title: "Enter The &8&lOtherside"
+			x: 9.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "6E7D3242496F4501"
+			rewards: [{
+				id: "64D2CD3086F0814E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "deeperdarker:shattered"
+				icon: "deeperdarker:soul_dust"
+				id: "5B9501581479A2EC"
+				title: "Kill a Shattered"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Shattered"
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "192EE909C57F390A"
+			rewards: [{
+				id: "32D7431007C483AE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: "deeperdarker:soul_crystal"
+				id: "1D807C8DC05EF208"
+				title: "Kill a Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &3Stalker"
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			id: "3CBDB45D65737212"
+			rewards: [{
+				id: "65BC1997E31DF6FD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "Found by stepping on Infested Sculk"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: "deeperdarker:sculk_bone"
+				id: "3D7BD985875AFF57"
+				title: "Kill a Shriek Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a &7Shriek Worm"
+			x: 10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["704CCA2CEAB23B4D"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0FF69526C1DC1593"
+			rewards: [{
+				id: "67FB94C359F4DC55"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "Can be tamed with enchanted &cNetherite Chestplates&r. When tamed, they will occasionally drop enchanted books. "
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1D6626E5E7609F88"
+				observe_type: 5
+				timer: 0L
+				to_observe: "deeperdarker:sculk_snapper"
+				type: "observation"
+			}]
+			title: "Find a &2Sculk Snapper"
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			icon: "minecraft:filled_map"
+			id: "1CF0B81CF3211A71"
+			rewards: [{
+				id: "57308E3DDDA84044"
+				item: "rottencreatures:treasure_chest"
+				type: "item"
+			}]
+			subtitle: "Minecraft"
+			tasks: [{
+				advancement: "minecraft:adventure/avoid_vibration"
+				criterion: ""
+				id: "10ACD3551FF53DDA"
+				type: "advancement"
+			}]
+			title: "Ancient Civilization"
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1CF0B81CF3211A71"]
+			description: ["There is said to be a gate to another world. A strange world, hostile to intruders..."]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "79BC197572608FD2"
+			rewards: [
+				{
+					count: 4
+					id: "57766E78F80ACA23"
+					item: "minecraft:echo_shard"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F89CDC9BD499FFB"
+					item: "minecraft:phantom_membrane"
+					type: "item"
+				}
+			]
+			subtitle: "Minecraft + Deeper and Darker"
+			tasks: [
+				{
+					entity: "minecraft:warden"
+					id: "312243354DE5008F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "32D778A5DEF9968D"
+					item: "deeperdarker:heart_of_the_deep"
+					type: "item"
+				}
+			]
+			title: "The Pulse"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79BC197572608FD2"]
+			description: [
+				"The Otherside is a new dimension, which is accessed through the center portal in Ancient Cities."
+				"You'll discover tons of new blocks, items, mobs, and more!"
+				"You shouldn't go to The Otherside unprepared. Some recommended items to bring with you are listed below:"
+				"• Full netherite armor"
+				"• A warden helmet"
+				"• Enchanted diamond or netherite weapons/tools"
+				"• One or more ender chests"
+				"• Healing potions"
+				"• Lots of food"
+				"• Golden apples (enchanted if possible)"
+				"• Building blocks"
+			]
+			id: "0EB3AE8FCE8A2D2B"
+			rewards: [
+				{
+					id: "2252A473C913AB8C"
+					item: "deeperdarker:warden_carapace"
+					type: "item"
+				}
+				{
+					id: "32B472F7B6E48F2B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "6C33FD96342D0E4B"
+					item: "artifacts:night_vision_goggles"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p has reached the depths of the Otherside.\",\"color\":\"white\"}]"
+					id: "5A2C5946FB277224"
+					player_command: false
+					type: "command"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				dimension: "deeperdarker:otherside"
+				id: "62E0AEC0D60AFE9D"
+				title: "Visit the Otherside dimension"
+				type: "dimension"
+			}]
+			title: "The Otherside"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			description: ["Perhas you should rethink this, it might prove beneficial to you."]
+			id: "09A36FAEFBC21271"
+			invisible: true
+			rewards: [
+				{
+					count: 2
+					id: "45A6F5915BA2155F"
+					item: "deeperdarker:reinforced_echo_shard"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/execute as @e[type=villager,limit=1,sort=nearest] run tellraw @a {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[type=villager,limit=1,sort=nearest]\",\"color\":\"green\"},{\"text\":\" says: \"},{\"text\":\"Do not dare to farm on these lands...\",\"color\":\"yellow\"}]}"
+					id: "5B8224F701792248"
+					player_command: false
+					title: "Villager say"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/execute as @p at @s run tellraw @a [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Distant Voice]: \",\"color\":\"aqua\"},{\"text\":\"@p disappoints me...\",\"color\":\"white\"}]"
+					id: "723BB87CBC919304"
+					player_command: false
+					title: "Distant"
+					type: "command"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				id: "569E72DC06E47EE6"
+				item: {
+					Count: 1b
+					id: "deeperdarker:warden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Hidden quest: Serious Dedication"
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			dependency_requirement: "all_started"
+			description: [
+				"The ancient masters of war say:"
+				"\"To best your enemy, you must know your enemy. To know you enemy, you must be your enemy.\""
+			]
+			id: "55A183CED9352B42"
+			rewards: [
+				{
+					id: "474F777DEF143D14"
+					item: {
+						Count: 1b
+						id: "deeperdarker:soul_elytra"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D81A44171DF8CF4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7138867C15A30C82"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					id: "31EF5B28AC7F91CB"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "28D5D322CFE07CD3"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3894B10C84FAC7B0"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A3C49D34DFEE9D2"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "The Skin Of My Enemy"
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			icon: "betterend:tube_worm"
+			id: "6D0DC4A66AFBA877"
+			rewards: [
+				{
+					id: "305A2D6AFC3E5BC4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "207E579D1C2378C1"
+					item: "artifacts:shock_pendant"
+					type: "item"
+				}
+				{
+					id: "1825D72A121AD3AC"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				entity: "deeperdarker:shriek_worm"
+				icon: {
+					Count: 1b
+					id: "medievalweapons:iron_small_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "74FFB6846D8DD858"
+				title: "Slay a Shriek Worm"
+				type: "kill"
+				value: 1L
+			}]
+			title: "I Hate Worms..."
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			icon: "deeperdarker:heart_of_the_deep"
+			id: "07CADCD6D5BAF03C"
+			rewards: [
+				{
+					id: "3DF584CFE1822C77"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "22B54EC12C65849C"
+					item: "artifacts:scarf_of_invisibility"
+					type: "item"
+				}
+				{
+					id: "068614CC0C29B414"
+					item: "rottencreatures:treasure_chest"
+					type: "item"
+				}
+			]
+			subtitle: "Deeper and Darker"
+			tasks: [{
+				entity: "deeperdarker:stalker"
+				icon: {
+					Count: 1b
+					id: "medievalweapons:iron_small_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2436E9652F2E7186"
+				title: "Slay a Stalker"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Who's there?"
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0EB3AE8FCE8A2D2B"]
+			description: ["Someone ought to give these wretched creatures a taste of their own medicine."]
+			id: "531C5709A17BB9C2"
+			rewards: [{
+				id: "29CF6667BB5F7968"
+				item: "inmis:endless_backpack"
+				type: "item"
+			}]
+			subtitle: "Deeper and Darker"
+			tasks: [
+				{
+					id: "33B5E4AD5D99D498"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05DE5526A55E1150"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D6BB1E9AD530C3E"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75A03412AB39759B"
+					item: {
+						Count: 1b
+						id: "deeperdarker:warden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Fight Fire With Fire"
+			x: 9.0d
+			y: 9.5d
+		}
+	]
+	title: " &1&lThe Otherside"
+}

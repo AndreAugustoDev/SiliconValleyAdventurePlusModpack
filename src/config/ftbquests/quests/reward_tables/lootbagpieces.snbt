@@ -1,0 +1,11 @@
+{
+	id: "01EE52C261E94FB5"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ count: 4, item: "lootbundles:fragment", weight: 3.0f }
+		{ count: 5, item: "lootbundles:fragment" }
+		{ count: 3, item: "lootbundles:fragment", weight: 2.0f }
+	]
+	title: "lootbagpieces"
+}

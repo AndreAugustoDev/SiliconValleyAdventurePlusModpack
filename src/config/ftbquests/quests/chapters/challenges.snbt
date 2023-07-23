@@ -1,0 +1,3217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "challenges"
+	group: "1CF541D7529DA9CF"
+	icon: "minecraft:dragon_head"
+	id: "0000000000000098"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"The Ultimate Induction Cell can store up to 1.600.000.000.000 FE, also known as 1.6TFE"
+				""
+				"To charge an Induction Cell, place it inside an Induction Cell multiblock and charge it."
+			]
+			icon: "mininggadgets:upgrade_battery_3"
+			id: "4473CCD6EB0E60E0"
+			rewards: [{
+				id: "18625435104F6277"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 31
+									Green: 199
+									Red: 128
+								}
+								Top: {
+									Blue: 254
+									Green: 255
+									Red: 249
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "mininggadgets:upgrade_battery_3"
+							}
+							Name: "Limitless Power Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Infinite Cosmic Power!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "mekanism:ultimate_induction_cell"
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "4000000000000"
+							}]
+						}
+					}
+				}
+				id: "43D8479933BD78E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:strong_nbt"
+								tag: {
+									value: {
+										mekData: {
+											EnergyContainers: [{
+												Container: 0b
+												stored: "4000000000000"
+											}]
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanism:ultimate_induction_cell"
+								tag: {
+									mekData: {
+										EnergyContainers: [{
+											Container: 0b
+											stored: "4000000000000"
+										}]
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Full Ultimate Induction Cell"
+				type: "item"
+			}]
+			title: "Limitless Power"
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			icon: "minecraft:dragon_head"
+			id: "1C6E46EA96373E74"
+			rewards: [
+				{
+					id: "7F0FC16030FE7D99"
+					item: {
+						Count: 1b
+						id: "trofers:trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.75f
+								Item: {
+									Count: 1b
+									id: "minecraft:dragon_head"
+								}
+								Name: "Ender Dragon Trophy"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "431C0986E611D988"
+					item: {
+						Count: 1b
+						id: "trofers:medium_pillar"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:ender_dragon"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.5d
+			subtitle: "Slaying the Ender Dragon has given you access to the Challenges chapter!"
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				icon: "minecraft:dragon_head"
+				id: "6C159C9408B0C66C"
+				title: "Kill the Ender Dragon"
+				type: "advancement"
+			}]
+			title: "Challenger"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Fill a Supreme Black Hole Tank with Lava."
+				""
+				"All sides of the tank need to be set to \"Enabled\" for the Tank to be detected."
+			]
+			id: "64A6812D6EFF4308"
+			rewards: [{
+				id: "2CEB97E39BE8BBE5"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 38
+									Green: 46
+									Red: 176
+								}
+								Top: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "minecraft:lava_bucket"
+							}
+							Name: "Lava Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "industrialforegoing:supreme_black_hole_tank"
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Filter: { }
+								Pointer: 0
+								Type: "WHITELIST"
+							}
+							tank: {
+								Amount: 2147483647
+								FacingModes: {
+									BACK: "ENABLED"
+									BOTTOM: "ENABLED"
+									FRONT: "ENABLED"
+									LEFT: "ENABLED"
+									RIGHT: "ENABLED"
+									TOP: "ENABLED"
+								}
+								FluidName: "minecraft:lava"
+							}
+						}
+					}
+				}
+				id: "5484233E300B3E29"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:strong_nbt"
+								tag: {
+									value: {
+										BlockEntityTag: {
+											filter: {
+												Filter: { }
+												Pointer: 0
+												Type: "WHITELIST"
+											}
+											tank: {
+												Amount: 2147483647
+												FacingModes: {
+													BACK: "ENABLED"
+													BOTTOM: "ENABLED"
+													FRONT: "ENABLED"
+													LEFT: "ENABLED"
+													RIGHT: "ENABLED"
+													TOP: "ENABLED"
+												}
+												FluidName: "minecraft:lava"
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:supreme_black_hole_tank"
+								tag: {
+									BlockEntityTag: {
+										filter: {
+											Filter: { }
+											Pointer: 0
+											Type: "WHITELIST"
+										}
+										tank: {
+											Amount: 2147483647
+											FacingModes: {
+												BACK: "ENABLED"
+												BOTTOM: "ENABLED"
+												FRONT: "ENABLED"
+												LEFT: "ENABLED"
+												RIGHT: "ENABLED"
+												TOP: "ENABLED"
+											}
+											FluidName: "minecraft:lava"
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Supreme Black Hole Tank with Lava"
+				type: "item"
+			}]
+			title: "Limitless Lava"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Fill a Supreme Black Hole Tank with Water."
+				""
+				"All sides of the tank need to be set to \"Enabled\" for the Tank to be detected."
+			]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:supreme_black_hole_tank"
+				tag: {
+					BlockEntityTag: {
+						filter: {
+							Filter: { }
+							Pointer: 0
+							Type: "WHITELIST"
+						}
+						tank: {
+							Amount: 2147483647
+							FacingModes: {
+								BACK: "ENABLED"
+								BOTTOM: "ENABLED"
+								FRONT: "ENABLED"
+								LEFT: "ENABLED"
+								RIGHT: "ENABLED"
+								TOP: "ENABLED"
+							}
+							FluidName: "minecraft:water"
+						}
+					}
+				}
+			}
+			id: "6D463AE8FE933401"
+			rewards: [{
+				id: "2B3C7A66BA863710"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 218
+									Green: 179
+									Red: 58
+								}
+								Top: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "minecraft:water_bucket"
+							}
+							Name: "Water Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "industrialforegoing:supreme_black_hole_tank"
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Filter: { }
+								Pointer: 0
+								Type: "WHITELIST"
+							}
+							tank: {
+								Amount: 2147483647
+								FacingModes: {
+									BACK: "ENABLED"
+									BOTTOM: "ENABLED"
+									FRONT: "ENABLED"
+									LEFT: "ENABLED"
+									RIGHT: "ENABLED"
+									TOP: "ENABLED"
+								}
+								FluidName: "minecraft:water"
+							}
+						}
+					}
+				}
+				id: "68B113885B76682E"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:strong_nbt"
+								tag: {
+									value: {
+										BlockEntityTag: {
+											filter: {
+												Filter: { }
+												Pointer: 0
+												Type: "WHITELIST"
+											}
+											tank: {
+												Amount: 2147483647
+												FacingModes: {
+													BACK: "ENABLED"
+													BOTTOM: "ENABLED"
+													FRONT: "ENABLED"
+													LEFT: "ENABLED"
+													RIGHT: "ENABLED"
+													TOP: "ENABLED"
+												}
+												FluidName: "minecraft:water"
+											}
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "industrialforegoing:supreme_black_hole_tank"
+								tag: {
+									BlockEntityTag: {
+										filter: {
+											Filter: { }
+											Pointer: 0
+											Type: "WHITELIST"
+										}
+										tank: {
+											Amount: 2147483647
+											FacingModes: {
+												BACK: "ENABLED"
+												BOTTOM: "ENABLED"
+												FRONT: "ENABLED"
+												LEFT: "ENABLED"
+												RIGHT: "ENABLED"
+												TOP: "ENABLED"
+											}
+											FluidName: "minecraft:water"
+										}
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Supreme Black Hole with Water"
+				type: "item"
+			}]
+			title: "Limitless Water"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Fill a Supreme Black Hole Tank with Oil."
+				""
+				"All sides of the tank need to be set to \"Enabled\" for the Tank to be detected."
+			]
+			icon: {
+				Count: 1b
+				id: "industrialforegoing:supreme_black_hole_tank"
+				tag: {
+					BlockEntityTag: {
+						filter: {
+							Filter: { }
+							Pointer: 0
+							Type: "WHITELIST"
+						}
+						tank: {
+							Amount: 2147483647
+							FacingModes: {
+								BACK: "ENABLED"
+								BOTTOM: "ENABLED"
+								FRONT: "ENABLED"
+								LEFT: "ENABLED"
+								RIGHT: "ENABLED"
+								TOP: "ENABLED"
+							}
+							FluidName: "thermal:crude_oil"
+						}
+					}
+				}
+			}
+			id: "378F01CE074D79A0"
+			rewards: [{
+				id: "2F30217DBD536B5C"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 33
+									Green: 29
+									Red: 29
+								}
+								Top: {
+									Blue: 254
+									Green: 255
+									Red: 249
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "thermal:crude_oil_bucket"
+							}
+							Name: "Oil Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "industrialforegoing:supreme_black_hole_tank"
+					tag: {
+						BlockEntityTag: {
+							filter: {
+								Filter: { }
+								Pointer: 0
+								Type: "WHITELIST"
+							}
+							tank: {
+								Amount: 2147483647
+								FacingModes: {
+									BACK: "ENABLED"
+									BOTTOM: "ENABLED"
+									FRONT: "ENABLED"
+									LEFT: "ENABLED"
+									RIGHT: "ENABLED"
+									TOP: "ENABLED"
+								}
+								FluidName: "immersivepetroleum:oil"
+							}
+						}
+					}
+				}
+				id: "53630EB2AB461FE0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:and"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "industrialforegoing:supreme_black_hole_tank"
+											tag: {
+												BlockEntityTag: {
+													filter: {
+														Filter: { }
+														Pointer: 0
+														Type: "WHITELIST"
+													}
+													tank: {
+														Amount: 2147483647
+														FacingModes: {
+															BACK: "ENABLED"
+															BOTTOM: "ENABLED"
+															FRONT: "ENABLED"
+															LEFT: "ENABLED"
+															RIGHT: "ENABLED"
+															TOP: "ENABLED"
+														}
+														FluidName: "thermal:crude_oil"
+													}
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:strong_nbt"
+											tag: {
+												value: {
+													BlockEntityTag: {
+														filter: {
+															Filter: { }
+															Pointer: 0
+															Type: "WHITELIST"
+														}
+														tank: {
+															Amount: 2147483647
+															FacingModes: {
+																BACK: "ENABLED"
+																BOTTOM: "ENABLED"
+																FRONT: "ENABLED"
+																LEFT: "ENABLED"
+																RIGHT: "ENABLED"
+																TOP: "ENABLED"
+															}
+															FluidName: "thermal:crude_oil"
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:and"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "industrialforegoing:supreme_black_hole_tank"
+											tag: {
+												BlockEntityTag: {
+													filter: {
+														Filter: { }
+														Pointer: 0
+														Type: "WHITELIST"
+													}
+													tank: {
+														Amount: 2147483647
+														FacingModes: {
+															BACK: "ENABLED"
+															BOTTOM: "ENABLED"
+															FRONT: "ENABLED"
+															LEFT: "ENABLED"
+															RIGHT: "ENABLED"
+															TOP: "ENABLED"
+														}
+														FluidName: "pneumaticcraft:oil"
+													}
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:strong_nbt"
+											tag: {
+												value: {
+													BlockEntityTag: {
+														filter: {
+															Filter: { }
+															Pointer: 0
+															Type: "WHITELIST"
+														}
+														tank: {
+															Amount: 2147483647
+															FacingModes: {
+																BACK: "ENABLED"
+																BOTTOM: "ENABLED"
+																FRONT: "ENABLED"
+																LEFT: "ENABLED"
+																RIGHT: "ENABLED"
+																TOP: "ENABLED"
+															}
+															FluidName: "pneumaticcraft:oil"
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:and"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "industrialforegoing:supreme_black_hole_tank"
+											tag: {
+												BlockEntityTag: {
+													filter: {
+														Filter: { }
+														Pointer: 0
+														Type: "WHITELIST"
+													}
+													tank: {
+														Amount: 2147483647
+														FacingModes: {
+															BACK: "ENABLED"
+															BOTTOM: "ENABLED"
+															FRONT: "ENABLED"
+															LEFT: "ENABLED"
+															RIGHT: "ENABLED"
+															TOP: "ENABLED"
+														}
+														FluidName: "immersivepetroleum:oil"
+													}
+												}
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:strong_nbt"
+											tag: {
+												value: {
+													BlockEntityTag: {
+														filter: {
+															Filter: { }
+															Pointer: 0
+															Type: "WHITELIST"
+														}
+														tank: {
+															Amount: 2147483647
+															FacingModes: {
+																BACK: "ENABLED"
+																BOTTOM: "ENABLED"
+																FRONT: "ENABLED"
+																LEFT: "ENABLED"
+																RIGHT: "ENABLED"
+																TOP: "ENABLED"
+															}
+															FluidName: "immersivepetroleum:oil"
+														}
+													}
+												}
+											}
+										}
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Supreme Black Hole Tank with Oil"
+				type: "item"
+			}]
+			title: "Limitless Oil"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Tame every animal there is to tame!"
+				""
+				"(You can track the progress you've made by looking at the 'Zoology' advancement in the Husbandry tab)"
+			]
+			id: "2AEE1AFA3BC416CE"
+			rewards: [{
+				id: "1101CE8B58FFDB74"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 29
+									Green: 128
+									Red: 249
+								}
+								Top: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "farmersdelight:horse_feed"
+							}
+							Name: "Zoology Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Pets and kisses"
+			tasks: [{
+				advancement: "lootr:100loot"
+				criterion: ""
+				icon: "farmersdelight:horse_feed"
+				id: "6550FEDCE5175F8C"
+				title: "Tame all tameable animals"
+				type: "advancement"
+			}]
+			title: "Zoology"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Breed every animal there is to breed!"
+				""
+				"(You can track the progress you've made by looking at the 'Two by Two' advancement in the Husbandry tab)"
+			]
+			id: "24ED473C9C545C09"
+			rewards: [{
+				id: "2CBDA020ED4C5E9C"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 61
+									Green: 216
+									Red: 254
+								}
+								Top: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "minecraft:golden_carrot"
+							}
+							Name: "Breeding Trophy"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The bees and the birds..."
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				icon: "minecraft:golden_carrot"
+				id: "76A9D7B6C6D4C04F"
+				title: "Breed all breedable animals"
+				type: "advancement"
+			}]
+			title: "Two by Two"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"In order to complete this quest, you must obtain all Infinity Tools and get them to the Artifact tier."
+				""
+				"It's possible to upgrade Infinity Tools to Artifact tier without infinite power, we leave it to you to discover how."
+			]
+			id: "17E8CDC64C0FB5EA"
+			rewards: [
+				{
+					id: "485894E4EE24E3E1"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 255
+										Green: 255
+										Red: 255
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.5f
+								Item: {
+									Count: 1b
+									id: "industrialforegoing:infinity_trident"
+									tag: {
+										CanCharge: 1b
+										Channeling: 0b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Loyalty: 0
+										Riptide: 0
+										Selected: "POOR"
+										Special: 0b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23558895485FF9E0"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 255
+										Green: 255
+										Red: 255
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.5f
+								Item: {
+									Count: 1b
+									id: "industrialforegoing:infinity_drill"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4A9E23F542A9BF"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 255
+										Green: 255
+										Red: 255
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.5f
+								Item: {
+									Count: 1b
+									id: "industrialforegoing:infinity_backpack"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Id: "75cd3df4-1573-46e9-a320-cac2879426bf"
+										Selected: "POOR"
+										Special: 0b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0992ACAB5C09DAE0"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.5f
+								Item: {
+									Count: 1b
+									id: "industrialforegoing:infinity_hammer"
+									tag: {
+										Beheading: 0
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EF5A4E188996336"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Animation: "fixed"
+								Colors: {
+									Bottom: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+									Middle: {
+										Blue: 184
+										Green: 50
+										Red: 137
+									}
+									Top: {
+										Blue: 254
+										Green: 255
+										Red: 249
+									}
+								}
+								DisplayScale: 0.5f
+								Item: {
+									Count: 1b
+									id: "industrialforegoing:infinity_saw"
+									tag: {
+										CanCharge: 1b
+										Energy: 0L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "POOR"
+										Special: 0b
+									}
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6457AAA4C0F166C9"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Item: {
+									Animation: "fixed"
+									Colors: {
+										Bottom: {
+											Blue: 254
+											Green: 255
+											Red: 249
+										}
+										Middle: {
+											Blue: 184
+											Green: 50
+											Red: 137
+										}
+										Top: {
+											Blue: 254
+											Green: 255
+											Red: 249
+										}
+									}
+									Count: 1
+									DisplayScale: 0.5d
+									id: "industrialforegoing:infinity_nuke"
+									tag: { }
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B3BA6BE0A12001"
+					item: {
+						Count: 1b
+						id: "trofers:small_trophy"
+						tag: {
+							BlockEntityTag: {
+								Item: {
+									Animation: "fixed"
+									Colors: {
+										Bottom: {
+											Blue: 254
+											Green: 255
+											Red: 249
+										}
+										Middle: {
+											Blue: 184
+											Green: 50
+											Red: 137
+										}
+										Top: {
+											Blue: 254
+											Green: 255
+											Red: 249
+										}
+									}
+									Count: 1
+									DisplayScale: 0.5d
+									id: "industrialforegoing:infinity_launcher"
+									tag: { }
+								}
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_drill"
+						tag: {
+							CanCharge: 1b
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "ARTIFACT"
+							Special: 0b
+						}
+					}
+					id: "4801DE27B925DA50"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_drill"
+									tag: {
+										CanCharge: 1b
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "ARTIFACT"
+										Special: 0b
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Drill: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_hammer"
+						tag: {
+							Beheading: 0
+							CanCharge: 1b
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "ARTIFACT"
+							Special: 0b
+						}
+					}
+					id: "7FD0249142690FBD"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_hammer"
+									tag: {
+										Beheading: 0
+										CanCharge: 1
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Hammer: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_trident"
+						tag: {
+							CanCharge: 1b
+							Channeling: 0b
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Loyalty: 0
+							Riptide: 0
+							Selected: "ARTIFACT"
+							Special: 0b
+						}
+					}
+					id: "625720B1A137C6DF"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_trident"
+									tag: {
+										CanCharge: 1
+										Channeling: 0
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Loyalty: 0
+										Riptide: 0
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Trident: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_saw"
+						tag: {
+							CanCharge: 1b
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "ARTIFACT"
+							Special: 0b
+						}
+					}
+					id: "314182BBA59CFDD8"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_saw"
+									tag: {
+										CanCharge: 1
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Saw: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_backpack"
+						tag: {
+							CanCharge: 1b
+							Energy: 9223372036854775807L
+							Selected: "ARTIFACT"
+							Special: 0b
+						}
+					}
+					id: "09A7BEA11BB1C9B1"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_backpack"
+									tag: {
+										CanCharge: 1
+										Energy: 9223372036854775807L
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Backpack: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_nuke"
+						tag: {
+							CanCharge: 1
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Selected: "ARTIFACT"
+							Special: 0
+						}
+					}
+					id: "1C420C2B58ADD9F4"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_nuke"
+									tag: {
+										CanCharge: 1
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Nuke: Artifact Tier"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "industrialforegoing:infinity_launcher"
+						tag: {
+							CanCharge: 1
+							Energy: 9223372036854775807L
+							Fluid: {
+								Amount: 0
+								FluidName: "biofuel"
+							}
+							Plunger: 0
+							Selected: "ARTIFACT"
+							Special: 0
+						}
+					}
+					id: "50D6D2760038E934"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:weak_nbt"
+									tag: {
+										value: {
+											Selected: "ARTIFACT"
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "industrialforegoing:infinity_launcher"
+									tag: {
+										CanCharge: 1
+										Energy: 9223372036854775807L
+										Fluid: {
+											Amount: 0
+											FluidName: "biofuel"
+										}
+										Plunger: 0
+										Selected: "ARTIFACT"
+										Special: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Infinity Launcher: Artifact Tier"
+					type: "item"
+				}
+			]
+			title: "Infinity Tools"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: ["Po-tay-toes! Boil 'em, mash 'em, stick 'em in a stew..."]
+			id: "3DB3B9732A87744A"
+			rewards: [{
+				id: "75E761B2293C1707"
+				item: {
+					Count: 1b
+					id: "trofers:large_trophy"
+					tag: {
+						BlockEntityTag: {
+							Animation: "fixed"
+							Colors: {
+								Bottom: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+								Middle: {
+									Blue: 61
+									Green: 216
+									Red: 254
+								}
+								Top: {
+									Blue: 255
+									Green: 255
+									Red: 255
+								}
+							}
+							DisplayScale: 1.0f
+							Item: {
+								Count: 1b
+								id: "minecraft:potato"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "What's taters, precious?"
+			tasks: [
+				{
+					consume_items: true
+					count: 2863L
+					id: "77ECAC90AB981C2F"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "0B0BD4EA2A6DE4E9"
+					item: {
+						Count: 1b
+						id: "thermal:rf_potato"
+						tag: {
+							Energy: 100000
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "382A604CF0387758"
+					item: "botania:tiny_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "1B6A594B8B7AEDC7"
+					item: "minecraft:baked_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "054D2C2D441C2021"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "4597CD2D2CBA65E7"
+					item: "pneumaticcraft:cod_n_chips"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "469924BD6C490BF2"
+					item: "simplefarming:fish_and_chips"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "174E223CF910A58D"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "19B011AE9B837D9E"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "5BAE86CC78F24DFD"
+					item: "simplefarming:potato_knish"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "3D08E07D00A24BEB"
+					item: {
+						Count: 1b
+						id: "botania:cosmetic_tiny_potato_mask"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2863L
+					id: "18DA6C0BF3BF2334"
+					item: "farmersdelight:wild_potatoes"
+					type: "item"
+				}
+			]
+			title: "Ultimate Potato"
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"&6To submit items&r, left click the &bfood type&r of choice and &6hand in&r."
+				""
+				"Recommended to make &bWater Bottles &rfrom &6Croptopia &rfor the recipes requiring it."
+				""
+				"&bWater Bottles &rcan be automated with a simple &bDrain &rfrom &6Tech Reborn &rand a &bTank Unit &rbelow it."
+				""
+				"Put buckets in said &bTank Unit &rand have them output into either a buffer or directly into &bME&r, craft these into &bWater Bottles &rfrom &6Croptopia."
+			]
+			icon: "farmersdelight:cooking_pot"
+			id: "18035D9544EC01DA"
+			rewards: [{
+				id: "7D84DE2A7D4C2586"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:cooking"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "So when people ask me, ‘What do you think of Michelin?’ I don’t cook for guides. I cook for customers."
+			tasks: [
+				{
+					consume_items: true
+					count: 2500L
+					id: "6E802DA4BECBA8FD"
+					item: "farmersdelight:steak_and_potatoes"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "220729A89B4CACBC"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "73CDF0DFBCE93D91"
+					item: "farmersdelight:grilled_salmon"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "776FA22E4BF48CA4"
+					item: "farmersdelight:stuffed_potato"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "116F0EAC536F98E0"
+					item: "farmersdelight:barbecue_stick"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "36AD733AEFC78B15"
+					item: "croptopia:fish_and_chips"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "71C16F3D34ABA15E"
+					item: "farmersdelight:dumplings"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "2E2A693C93C5A838"
+					item: "croptopia:tres_leche_cake"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "0881465B825D57BD"
+					item: "croptopia:trifle"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "12D4B1763C101794"
+					item: "croptopia:sticky_toffee_pudding"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "3B3A38AFCEE30AD1"
+					item: "croptopia:pumpkin_spice_latte"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2500L
+					id: "4B83D0C3A6B25CBC"
+					item: "croptopia:the_big_breakfast"
+					type: "item"
+				}
+			]
+			title: "&cHell's Kitchen"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"&bBlackstone Golem:"
+				"Can only be summoned with a golem ritual while being in the nether."
+				""
+				"&bThe Eye:"
+				"Can only be summoned at an Eye Shrine."
+				""
+				"&bNight Lich:"
+				"Found in rare towers in cold biomes. Locate the towers by following soul stars."
+				""
+				"&bObsidilith:"
+				"Appears in rare structures in the end islands."
+				""
+				"&bNether Gauntlet:"
+				"Appears in rare structures in the nether."
+				""
+				"&bVoid Blossom:"
+				"Appears in rare caves at the bottom of the world. Void lilies will point the way."
+				""
+				"&bGuardian of Gaia:"
+				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
+				""
+				"&bConjunctivius:"
+				"Can be found in the Mine Cells dimension (See Adventurer quest chapter)."
+				""
+				"&bVoid Shadow:"
+				"A new dimension where you will find and fight the Void Shadow."
+			]
+			icon: {
+				Count: 1b
+				id: "dragonloot:dragon_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1F0EE1298663FE88"
+			rewards: [{
+				id: "33B8F578C9A9D999"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:boss_rush"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Slay 'em All"
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					icon: "twilightforest:naga_trophy"
+					id: "3AF87A5FED065F14"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:lich"
+					icon: "twilightforest:lich_trophy"
+					id: "09FC7B6D6673F421"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:hydra"
+					icon: "twilightforest:hydra_trophy"
+					id: "1BACFEB1D7C310D5"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:ur_ghast"
+					icon: "twilightforest:ur_ghast_trophy"
+					id: "05C8266730A44B0E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:minoshroom"
+					icon: "twilightforest:minoshroom_trophy"
+					id: "091B5ABFAF80AD47"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:knight_phantom"
+					icon: "twilightforest:knight_phantom_trophy"
+					id: "53CF636C5F1438C7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:alpha_yeti"
+					icon: "twilightforest:alpha_yeti_trophy"
+					id: "74E281423CE4C2B6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "twilightforest:snow_queen"
+					icon: "twilightforest:snow_queen_trophy"
+					id: "192C9369560100D6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "botania:doppleganger"
+					icon: "botania:gaia_head"
+					id: "35966A51B41E0561"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "alexsmobs:void_worm"
+					icon: "alexsmobs:void_worm_eye"
+					id: "0EC41FEB599DD732"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&5Boss Rush"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			id: "4394FBA9FF34416C"
+			rewards: [{
+				id: "149036984D62AD6A"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:angel_ring"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Creative flight at your disposal."
+			tasks: [{
+				id: "64A0A716321AC14E"
+				item: "angelring:angel_ring"
+				type: "item"
+			}]
+			title: "&eRing of Angels"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Craft &reverything &bquantum &rand shape your own future&r."
+				""
+				"It'll be a long journey, can you do it?"
+				""
+				"- &bQuantum Sword"
+				"Uses the raw power of the Schrödinger equation to instantly vaporize any foe (or friend!) you hit with it."
+				""
+				"- &bQuantum Armor"
+				"Through the gravitational effect of the Heisenberg uncertainty principle, the full Quantum Armor set makes you immune to all damage and grants you creative flight. Each new piece of armour increases by 25% the likelihood of nullifying any damage taken."
+				""
+				"- &bThe Replicator"
+				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
+			]
+			icon: "modern_industrialization:quantum_upgrade"
+			id: "0A87F01B58718A44"
+			rewards: [{
+				id: "3AE3A57C68514949"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:quantum"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Ethereal powers!"
+			tasks: [
+				{
+					id: "2C0CB64FEB3B5231"
+					item: "modern_industrialization:quantum_helmet"
+					type: "item"
+				}
+				{
+					id: "084F5D6F0CC6EA1B"
+					item: "modern_industrialization:quantum_chestplate"
+					type: "item"
+				}
+				{
+					id: "562636C5CC110A71"
+					item: "modern_industrialization:quantum_leggings"
+					type: "item"
+				}
+				{
+					id: "57330A353CA74D1C"
+					item: "modern_industrialization:quantum_boots"
+					type: "item"
+				}
+				{
+					id: "4A147AB84CC2EABE"
+					item: "modern_industrialization:quantum_sword"
+					type: "item"
+				}
+				{
+					id: "5C5E2952B74F3C83"
+					item: "modern_industrialization:replicator"
+					type: "item"
+				}
+			]
+			title: "&dQuantum Physics"
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"175F5611FB7716A4"
+				"5CF7175F3F5F64F6"
+				"7DE1D577EA0AD29D"
+				"6D78481FEDC9D0A7"
+				"41CAE7398EE9D80D"
+				"2C8BA594589C6198"
+				"228CA2867203BA12"
+				"10856B49C3486098"
+				"5F9620B9B3C0CCC2"
+				"0872A6D8E2893413"
+				"183637490817875B"
+				"529FA5C3502DBF4D"
+				"4E09AA1CA6FF2AD4"
+				"7C0ACFE540BFAB6F"
+				"527B53BB9C9A0D1C"
+				"0DE9901B8006BDAD"
+				"1C89868B15E15FB9"
+				"451C8D5D92F1BAED"
+				"0DBF3DBFA978291D"
+				"40E77B17CF9C3C07"
+				"78B424948B4C7F02"
+				"55C29372761230D3"
+				"0200417B546B6F6F"
+				"610389B121518964"
+				"5AD4991F7FFA6CA2"
+				"25D128009CF159B3"
+				"1EDB9374116D4451"
+				"5D6B6942B58E6132"
+				"0F0DA021FACC4D78"
+				"5E8F972A09F7B8F6"
+				"112810B97BA58A9C"
+				"3178EF6B62E2D458"
+				"1B945E921F2EEA9C"
+				"40CB98FD334EB3CE"
+				"3988E16DAA388261"
+				"21767F1AC3ADE57C"
+				"5A2581CBAB21D071"
+				"1AD31F8DCDD75836"
+				"32C2713F7D594E64"
+				"479D2D1966C75C85"
+				"4DA53004CCB8E9DE"
+				"1DCA13B8B677B0CC"
+				"7B28D737D605A2D5"
+				"5CF50859A98E45FB"
+				"6A298F887D96C0E8"
+				"7E98207BE8D79ED6"
+				"633893597215AA91"
+				"2C4DCA236F05B182"
+				"01FA58FF29DEC036"
+				"02C910A474BC863E"
+				"04C2CA40AEA918DB"
+				"580D16DAB054E674"
+				"22108D5335DFF265"
+				"2F09F7E516004E15"
+				"05B3D66A73D3E0F0"
+				"369F3556A6482D7C"
+				"6F43ADF8FE22159E"
+				"6C1EC07A6CB811D7"
+				"75A6E279852D6BE1"
+				"63E3FE37529D0653"
+				"58132755E921E778"
+				"53AD87221951C4FB"
+				"112C0C7C49867DE2"
+				"05E920CF3BD43FC6"
+				"1C199BA634278AAC"
+				"6ED900B3B5C0829D"
+				"4482160B14C40777"
+				"6F95909ACAEC0CDE"
+				"2857140F38349D53"
+				"16CCB74BF86788A0"
+				"138C114FB4538FD1"
+				"23A0E687919F2DFE"
+				"6E4D99BBFFDFB961"
+				"6DABB3DDA44D6377"
+				"45421DF9BD942C62"
+				"7DB12309CFBAC872"
+				"3AD5FAE3B0FE39B9"
+				"4555AD508D9C6CEB"
+				"44D61369427B7CBF"
+				"71F994F2EE1FC296"
+				"6EA97C351B54704C"
+				"4AB770D7E88D2367"
+				"499F0B9E154906D1"
+				"4C234967C9D8F506"
+				"67698F78A76E5EDE"
+				"77E2134442089F03"
+				"69A2425C77C5ED94"
+				"05CD495BD1007C26"
+				"1F0EB09B3C1F1249"
+				"4288B73FA65D8229"
+				"0C598D3C097961D9"
+				"2ABABA4788FC09C6"
+				"4FD91B87D0A73D36"
+				"0F9A8BE9693CFC9A"
+				"29C88E6599D99FAE"
+				"4DCAFBE2471538E1"
+				"45365D50305561ED"
+				"18B56B2A88091276"
+				"630438EFBC26B625"
+				"371D645B149A2E36"
+				"15E7C03B46764247"
+				"1384C1D8BD79C6D0"
+				"74F0AD6CC49C1CF6"
+				"4CAE3462163AC4F6"
+				"5EF7CFC926FDDDC0"
+				"386E6C390DCA4396"
+				"0D5810103EDA7183"
+				"4FE5ADA8DDCAAD93"
+				"511DD53713406575"
+				"532B579050FCF665"
+				"5AB8DB04F4DA2F40"
+				"66F353DAEF962091"
+				"47DF546851CDA84C"
+				"7A602D4BFFA9B2C2"
+				"330E6E93A6F5592B"
+				"79A62F463EDF726E"
+				"5B803C332D0E88E8"
+				"67CE448FA832692A"
+				"2AFA49C5659C94F8"
+				"0FEB1054AAC70F27"
+				"6E8BF9F8A67D1B66"
+				"5309927D0A001918"
+				"072862C3F4C6D359"
+				"7D220360845B3061"
+				"5B94C77A29A3BF35"
+				"7441E4C296790479"
+				"3CEB2302C39CD6FE"
+				"643E23B7AD7A6863"
+				"2588EEB1BAEA2377"
+				"4119B4C0AFB928C5"
+				"333A5294EA4F4944"
+				"624B52BE855CF703"
+				"37330BDC53451D14"
+				"435B42806E447D20"
+				"2D52E62B1D6E4CD4"
+				"251028DFC955D65F"
+				"53D538AC2AA15316"
+				"6114CC6BE5D2627F"
+				"1D669FD8DE06F664"
+				"1CCA3BDF1407C1CF"
+				"283C1A5435769DC3"
+				"5DFF8E054C3C9519"
+				"6AF4AB0374F397E6"
+				"0665112D8E104BBB"
+				"1BA0F9B77AF73203"
+				"2FD468F7DE1093D4"
+				"2CDAB93BD674197F"
+				"5DD7363C76855F9D"
+				"766ED2D94E9B68D8"
+				"2D36A0323AAF2D5C"
+				"551F3ACEE626830A"
+				"28C0FEFEEC51B963"
+				"3093AD7CAFEA9113"
+				"4F5F490A5E0B0342"
+				"6EBC0ABD9C874BA6"
+				"7CCC7BD0E8ED4CD9"
+				"1C705A0B7E050B54"
+				"1DF75AD90E44CA46"
+				"210E3632AB42EF50"
+				"08F9B4F3EAB3658D"
+				"3DCE379666133771"
+				"6582513D8887DF04"
+				"38E2D761D7A9C369"
+				"081EE3168F8B1FC7"
+				"0E68CE727EBFFDED"
+				"431FBC3C47792302"
+				"2C2EA55CCABBC095"
+				"75BE62C479A3DDAB"
+				"072A496E1E982BA8"
+				"0518BBF4C16E24F6"
+				"0E6CA30A3A1E9C0E"
+				"570CA3CD0D896230"
+				"56FE803D8ECA0B77"
+				"6EA1683223AEAEBE"
+				"1B3F5E8FB78901BF"
+				"410FB4729B618584"
+				"58D023C7F2AD421C"
+				"4177EE55AD46B9CB"
+				"47B76A23E66EA846"
+				"09556EE472CE76C1"
+				"3722CB1CC95696A8"
+				"18AE8D45D703112B"
+				"6AA43062AC98B59B"
+				"47A3FB7F90B01FAA"
+				"7173A81A1D77BFD3"
+				"0A350142075F5FC8"
+				"72868D5235EEB1D1"
+				"184DC69C5AA4D79E"
+				"16FED75C44853ECA"
+				"22342F3F0F03F1E6"
+				"53D8AA95C8769AC8"
+				"17E4B8F4F14E6DA9"
+				"5D08158FE91F8A63"
+				"2DEACB9493C491BB"
+				"17B01D55D08BA669"
+				"5D33A043CA96DBF6"
+				"1286F9F4255B9A38"
+				"0F85822E390DF0B4"
+				"6E73A1FC54068F9D"
+				"644DEDB36A0827D7"
+				"212723528F0C4958"
+				"449410724E7BEEBE"
+				"42D6242513AAC971"
+				"5F4CDC52244B937E"
+				"300343A7965531DD"
+				"1C2AAE8F4E119084"
+				"143A00408DFE3DB4"
+				"6102D86326F893AB"
+				"27DE53B2E7EA27B9"
+				"22ABB41C70D74A5F"
+				"6491E686F47C9A2B"
+				"3AAEDB182C3919CC"
+				"0DED6D5C8A4C96B9"
+				"3EBFB9BBC420F762"
+				"10D2CA05EE8B6806"
+				"1CA398C195517551"
+				"251841F2B986110E"
+				"462400176C496619"
+				"4E0D6F1DDD305855"
+				"14232EC9A68EA81F"
+				"324A32F85A95B658"
+				"3989950BC95DB959"
+				"42B701304642314E"
+				"7BF18D6D44DBCED6"
+				"096F86F805D3E6DC"
+				"45E782AC2C3E97EE"
+				"6C2B3C5D7F27B3CE"
+				"4D86F088280981A2"
+				"6894A057F9E9658C"
+				"10991316EBAA848B"
+				"02708D9F4C8C07D6"
+				"2B615789D96C0145"
+				"1080D58DE23C93FD"
+				"69395421DAE17328"
+				"29DADC10D2308B2E"
+				"2F21F31455F11527"
+				"159C31FE32578AD2"
+				"161F53BA8F91BECD"
+				"0844D86D1B6B6E42"
+				"447998034CA345DC"
+				"4780D2B6E5831DBB"
+				"45F0C664C299D418"
+				"4B0AE2B4B1423DDD"
+				"2223D0AFDF5C10FB"
+				"4FEFC0311E8D9C61"
+				"7236D801CE365132"
+				"3C0EA955C527A549"
+				"795033354BF674AF"
+				"14ACA6BB3BA124F6"
+				"60F2B286DB504476"
+				"493AA22743B295FA"
+				"7066271D88101230"
+				"70197A6164010B19"
+				"68C41CCC8C70D512"
+				"215EF29F7DD6B37C"
+				"22616B100E445241"
+				"56C906CE38A975D7"
+				"66FB1ED1E2A9A7F8"
+				"295F800520044C23"
+				"4AE1EA3349567401"
+				"6B74004F5A77C4CA"
+				"7A99AED2CE6A77A6"
+				"16773A4E07202691"
+				"4BE13A145FDF53A2"
+				"48D9BC5F27EB7EFC"
+				"68213B32C7BFE139"
+				"28290CA40D704C6B"
+				"5242AF70A593F53F"
+				"4768DD5F60DE3F4A"
+				"049F3E0A401BBF2A"
+				"14D42EDBFFCED86E"
+				"677B6A2B465A6EBE"
+				"1A8013123EE132C4"
+				"480EE90E6D0491BD"
+				"19FBAF9A70549BF5"
+				"2985444DE5ABB5A5"
+				"7F08BC132061C6B7"
+				"2C64B8A292C923DD"
+				"34CB6C162F5ABA54"
+				"369C7A6D63995ABE"
+				"6280D759A26A0268"
+				"687FF4AB8C83958C"
+				"03A9D8346C52AA2C"
+				"2ABE5C79A9FE92DE"
+				"79D5AADE25625395"
+				"2C917AF574869CE3"
+				"742BA596EA51DDEE"
+				"654DC5DBC9201FBE"
+				"4F0886FF37E1101A"
+				"34C7A89EC09CD2CA"
+				"2607DEA382FF044E"
+				"2CCDE57D27EA104F"
+				"747848C9CCEF6E48"
+				"6BBBC76E6E722C86"
+				"6A00700C50BAC492"
+				"19980B0244DAA868"
+				"6E9A973B387987F7"
+				"68FF81FF5F625057"
+				"2352E1A00B9DBF2D"
+				"04CB13487A7DC3BD"
+				"009F51E069A5AE9F"
+				"37AA8C2B0C3AA1F2"
+				"72C6F4B926DD3EEB"
+				"44FD73D3FCC38DBD"
+				"5C38C92A8D133E5A"
+				"2A50FF9D44A31F35"
+				"2101F61C1D473438"
+				"4070B38A98387DA1"
+				"26CB81E6EA208B67"
+				"5795D205F1485AAC"
+				"637307D9C03B6AE6"
+				"63D35A30B1F90E63"
+				"34550EB511DF1DBC"
+				"2FB251E717EA2F3C"
+				"5194E917E6900897"
+				"202D1FFDC47CBD22"
+				"7AABC2C767E9B11D"
+				"3D1F205E8A402999"
+				"6C1DE22E0E2EBE84"
+				"5AB6E536CDEA24F0"
+				"07504FA280147E7A"
+				"103EE7B28300222E"
+				"5E17BD671E9BEB5B"
+				"7311ED0FFC4444EB"
+				"2DD7C5E31A20DCA8"
+				"2DD1E268E40C2508"
+				"683CEC6590173287"
+				"172968A234803DC0"
+				"74F0CD823C4EABF0"
+				"18A589CC0F81F038"
+				"210C7B26E2D85627"
+				"621351108945549E"
+				"4B6D44F405106C53"
+				"0EF98BA0F698951A"
+				"5081102A7CED9AA5"
+				"4E6A1C0623B28736"
+				"059E5A9B039D5A75"
+				"5A48AB6285838A58"
+				"0B4420623B4BC69A"
+				"1C711856985D4A81"
+				"7BFBBF45D9BE4BFB"
+				"6E695CDB88595C14"
+				"4A5B2026DD41B03B"
+				"0C7E4C11315D4E3E"
+				"4E28F29232291984"
+				"1A38D7B854ACC636"
+				"78E1ECB85FDD0C99"
+				"719DECC59783C5C4"
+				"710E6004B2A67C82"
+				"1FFF999BC54B6400"
+				"6F4FE2BA11D1CB0B"
+				"760572711CF727BB"
+				"1CE263AEA234D241"
+				"4F297154AC9975DE"
+				"3F89A5E9BF484A60"
+				"4C13452863C755A9"
+				"6F7C48824D22FD8A"
+				"30F1C5601C3ECEF1"
+				"498C5FC0C852D17C"
+				"0F7B54CE6A27E6FF"
+				"7F0ADAF93FF58572"
+				"3277A89378B6D52B"
+				"277D203450B35083"
+				"355A2ABDA57395EF"
+				"6EC94755C311050D"
+				"0E1376C287B4D8E4"
+				"7A7C4913FD80D16E"
+				"2A358437484E61CF"
+				"6D17CD1F90431FCC"
+				"03D8166AAAF1B0CA"
+				"1F9B422C0A66A843"
+				"110DB71A4679FFFD"
+				"68E6F02353701423"
+				"1C6262A33463553B"
+				"718CD4D1272E5DD3"
+				"6D01C247A8864071"
+				"47D456E43D42EBC9"
+				"0E2A19BB02D47A94"
+				"10D39CBF282C6B93"
+				"7ABF88F1883465AF"
+				"42884F5FEB13891C"
+				"2459749B47E708FA"
+				"22E4363ECF659C5B"
+				"317F6B4C741311CE"
+				"2718E29F6437CE43"
+				"591563982414C96D"
+				"68224BA2D42CF05B"
+				"7E365F45D64DA0C5"
+				"39553F6B02384BFB"
+				"46D4E5DB8C7C388D"
+				"18035D9544EC01DA"
+				"4394FBA9FF34416C"
+				"1C6E46EA96373E74"
+				"0A87F01B58718A44"
+				"4473CCD6EB0E60E0"
+				"17E8CDC64C0FB5EA"
+				"0B66FB2CE83CD2BD"
+				"378F01CE074D79A0"
+				"24ED473C9C545C09"
+				"1F0EE1298663FE88"
+				"3DB3B9732A87744A"
+				"212CC58521442922"
+				"3EC2209347A35A1D"
+				"08FEE3ED55CDFC64"
+				"1D85CE0A88D09165"
+				"6DB6324D6D217641"
+				"64A6812D6EFF4308"
+				"6D463AE8FE933401"
+				"23797322470A9E4D"
+				"2AEE1AFA3BC416CE"
+			]
+			description: [
+				"Challenges are unlocked when you've killed the &bEnder Dragon."
+				""
+				"These &6Challenges &rwill take you on multiple different paths:"
+				""
+				"- &bBosses"
+				"- &bBecoming a Michelin Chef"
+				"- &bQuantum Physics"
+				"- &bAngel Flight"
+				"- &bShattering of Worlds"
+				"- &bUltimate Questing"
+				""
+				"Complete them all to become &6The Completionist!"
+			]
+			icon: "kubejs:completionist"
+			id: "477ECBF67056BF45"
+			rewards: [{
+				id: "05B5B34C0CBCD83A"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:completionist"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Complete them all, become the best!"
+			tasks: [{
+				icon: "croptopia:starfruit"
+				id: "7E0EE4376BC378B3"
+				title: "Challenges"
+				type: "checkmark"
+			}]
+			title: "&6The Completionist"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Upgrade a &bTerra Shatterer &rto tier &6(SS)&r and reach the max possible &bMana&r of &62,147,483,647&r to complete this quest."
+				""
+				"If the quest by any reason dosent complete when reaching &6(SS) &rtier and max &bMana&r, let it soak 1 more &bMana &rand then pick it up again."
+			]
+			id: "6DB6324D6D217641"
+			rewards: [{
+				id: "465C512BB8E5E72F"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:terra"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft the ultimate Terra Shatterer!"
+			tasks: [{
+				id: "442699A27DC5EE8D"
+				item: {
+					Count: 1b
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+						RepairCost: 0
+						enabled: 0b
+						mana: 2147483647
+					}
+				}
+				match_nbt: true
+				type: "item"
+				weak_nbt_match: true
+			}]
+			title: "&aShatterer of Worlds"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5CF7175F3F5F64F6"
+				"7DE1D577EA0AD29D"
+				"6D78481FEDC9D0A7"
+				"41CAE7398EE9D80D"
+				"2C8BA594589C6198"
+				"228CA2867203BA12"
+				"10856B49C3486098"
+				"5F9620B9B3C0CCC2"
+				"0872A6D8E2893413"
+				"183637490817875B"
+				"529FA5C3502DBF4D"
+				"4E09AA1CA6FF2AD4"
+				"7C0ACFE540BFAB6F"
+				"527B53BB9C9A0D1C"
+				"0DE9901B8006BDAD"
+				"1C89868B15E15FB9"
+				"451C8D5D92F1BAED"
+				"0DBF3DBFA978291D"
+				"40E77B17CF9C3C07"
+				"78B424948B4C7F02"
+				"55C29372761230D3"
+				"0200417B546B6F6F"
+				"610389B121518964"
+				"5AD4991F7FFA6CA2"
+				"25D128009CF159B3"
+				"1EDB9374116D4451"
+				"5D6B6942B58E6132"
+				"0F0DA021FACC4D78"
+				"5E8F972A09F7B8F6"
+				"112810B97BA58A9C"
+				"3178EF6B62E2D458"
+				"1B945E921F2EEA9C"
+				"40CB98FD334EB3CE"
+				"3988E16DAA388261"
+				"21767F1AC3ADE57C"
+				"5A2581CBAB21D071"
+				"1AD31F8DCDD75836"
+				"32C2713F7D594E64"
+				"479D2D1966C75C85"
+				"4DA53004CCB8E9DE"
+				"1DCA13B8B677B0CC"
+				"7B28D737D605A2D5"
+				"5CF50859A98E45FB"
+				"6A298F887D96C0E8"
+				"7E98207BE8D79ED6"
+				"633893597215AA91"
+				"2C4DCA236F05B182"
+				"01FA58FF29DEC036"
+				"02C910A474BC863E"
+				"04C2CA40AEA918DB"
+				"580D16DAB054E674"
+				"22108D5335DFF265"
+				"2F09F7E516004E15"
+				"05B3D66A73D3E0F0"
+				"369F3556A6482D7C"
+				"6F43ADF8FE22159E"
+				"6C1EC07A6CB811D7"
+				"75A6E279852D6BE1"
+				"63E3FE37529D0653"
+				"58132755E921E778"
+				"53AD87221951C4FB"
+				"112C0C7C49867DE2"
+				"05E920CF3BD43FC6"
+				"1C199BA634278AAC"
+				"6ED900B3B5C0829D"
+				"4482160B14C40777"
+				"6F95909ACAEC0CDE"
+				"2857140F38349D53"
+				"16CCB74BF86788A0"
+				"138C114FB4538FD1"
+				"23A0E687919F2DFE"
+				"6E4D99BBFFDFB961"
+				"6DABB3DDA44D6377"
+				"45421DF9BD942C62"
+				"7DB12309CFBAC872"
+				"3AD5FAE3B0FE39B9"
+				"4555AD508D9C6CEB"
+				"44D61369427B7CBF"
+				"71F994F2EE1FC296"
+				"6EA97C351B54704C"
+				"4AB770D7E88D2367"
+				"499F0B9E154906D1"
+				"4C234967C9D8F506"
+				"67698F78A76E5EDE"
+				"77E2134442089F03"
+				"69A2425C77C5ED94"
+				"05CD495BD1007C26"
+				"1F0EB09B3C1F1249"
+				"4288B73FA65D8229"
+				"0C598D3C097961D9"
+				"2ABABA4788FC09C6"
+				"4FD91B87D0A73D36"
+				"0F9A8BE9693CFC9A"
+				"29C88E6599D99FAE"
+				"4DCAFBE2471538E1"
+				"45365D50305561ED"
+				"18B56B2A88091276"
+				"630438EFBC26B625"
+				"371D645B149A2E36"
+				"15E7C03B46764247"
+				"1384C1D8BD79C6D0"
+				"74F0AD6CC49C1CF6"
+				"4CAE3462163AC4F6"
+				"5EF7CFC926FDDDC0"
+				"386E6C390DCA4396"
+				"0D5810103EDA7183"
+				"4FE5ADA8DDCAAD93"
+				"511DD53713406575"
+				"532B579050FCF665"
+				"5AB8DB04F4DA2F40"
+				"66F353DAEF962091"
+				"47DF546851CDA84C"
+				"7A602D4BFFA9B2C2"
+				"330E6E93A6F5592B"
+				"79A62F463EDF726E"
+				"5B803C332D0E88E8"
+				"67CE448FA832692A"
+				"2AFA49C5659C94F8"
+				"0FEB1054AAC70F27"
+				"6E8BF9F8A67D1B66"
+				"5309927D0A001918"
+				"072862C3F4C6D359"
+				"7D220360845B3061"
+				"5B94C77A29A3BF35"
+				"7441E4C296790479"
+				"3CEB2302C39CD6FE"
+				"643E23B7AD7A6863"
+				"2588EEB1BAEA2377"
+				"4119B4C0AFB928C5"
+				"333A5294EA4F4944"
+				"624B52BE855CF703"
+				"37330BDC53451D14"
+				"435B42806E447D20"
+				"2D52E62B1D6E4CD4"
+				"251028DFC955D65F"
+				"53D538AC2AA15316"
+				"6114CC6BE5D2627F"
+				"1D669FD8DE06F664"
+				"1CCA3BDF1407C1CF"
+				"283C1A5435769DC3"
+				"5DFF8E054C3C9519"
+				"6AF4AB0374F397E6"
+				"0665112D8E104BBB"
+				"1BA0F9B77AF73203"
+				"2FD468F7DE1093D4"
+				"2CDAB93BD674197F"
+				"5DD7363C76855F9D"
+				"766ED2D94E9B68D8"
+				"2D36A0323AAF2D5C"
+				"551F3ACEE626830A"
+				"28C0FEFEEC51B963"
+				"3093AD7CAFEA9113"
+				"4F5F490A5E0B0342"
+				"6EBC0ABD9C874BA6"
+				"7CCC7BD0E8ED4CD9"
+				"1C705A0B7E050B54"
+				"1DF75AD90E44CA46"
+				"210E3632AB42EF50"
+				"08F9B4F3EAB3658D"
+				"3DCE379666133771"
+				"6582513D8887DF04"
+				"38E2D761D7A9C369"
+				"081EE3168F8B1FC7"
+				"0E68CE727EBFFDED"
+				"431FBC3C47792302"
+				"2C2EA55CCABBC095"
+				"75BE62C479A3DDAB"
+				"072A496E1E982BA8"
+				"0518BBF4C16E24F6"
+				"0E6CA30A3A1E9C0E"
+				"570CA3CD0D896230"
+				"56FE803D8ECA0B77"
+				"6EA1683223AEAEBE"
+				"1B3F5E8FB78901BF"
+				"410FB4729B618584"
+				"58D023C7F2AD421C"
+				"4177EE55AD46B9CB"
+				"47B76A23E66EA846"
+				"09556EE472CE76C1"
+				"3722CB1CC95696A8"
+				"18AE8D45D703112B"
+				"6AA43062AC98B59B"
+				"47A3FB7F90B01FAA"
+				"7173A81A1D77BFD3"
+				"0A350142075F5FC8"
+				"72868D5235EEB1D1"
+				"184DC69C5AA4D79E"
+				"16FED75C44853ECA"
+				"22342F3F0F03F1E6"
+				"53D8AA95C8769AC8"
+				"17E4B8F4F14E6DA9"
+				"5D08158FE91F8A63"
+				"2DEACB9493C491BB"
+				"17B01D55D08BA669"
+				"5D33A043CA96DBF6"
+				"1286F9F4255B9A38"
+				"0F85822E390DF0B4"
+				"6E73A1FC54068F9D"
+				"644DEDB36A0827D7"
+				"212723528F0C4958"
+				"449410724E7BEEBE"
+				"42D6242513AAC971"
+				"5F4CDC52244B937E"
+				"300343A7965531DD"
+				"1C2AAE8F4E119084"
+				"143A00408DFE3DB4"
+				"6102D86326F893AB"
+				"27DE53B2E7EA27B9"
+				"22ABB41C70D74A5F"
+				"6491E686F47C9A2B"
+				"3AAEDB182C3919CC"
+				"0DED6D5C8A4C96B9"
+				"3EBFB9BBC420F762"
+				"10D2CA05EE8B6806"
+				"1CA398C195517551"
+				"251841F2B986110E"
+				"462400176C496619"
+				"4E0D6F1DDD305855"
+				"14232EC9A68EA81F"
+				"324A32F85A95B658"
+				"3989950BC95DB959"
+				"42B701304642314E"
+				"7BF18D6D44DBCED6"
+				"096F86F805D3E6DC"
+				"45E782AC2C3E97EE"
+				"6C2B3C5D7F27B3CE"
+				"4D86F088280981A2"
+				"6894A057F9E9658C"
+				"10991316EBAA848B"
+				"02708D9F4C8C07D6"
+				"2B615789D96C0145"
+				"1080D58DE23C93FD"
+				"69395421DAE17328"
+				"29DADC10D2308B2E"
+				"2F21F31455F11527"
+				"159C31FE32578AD2"
+				"161F53BA8F91BECD"
+				"0844D86D1B6B6E42"
+				"447998034CA345DC"
+				"4780D2B6E5831DBB"
+				"45F0C664C299D418"
+				"4B0AE2B4B1423DDD"
+				"2223D0AFDF5C10FB"
+				"4FEFC0311E8D9C61"
+				"7236D801CE365132"
+				"3C0EA955C527A549"
+				"795033354BF674AF"
+				"14ACA6BB3BA124F6"
+				"60F2B286DB504476"
+				"493AA22743B295FA"
+				"7066271D88101230"
+				"70197A6164010B19"
+				"68C41CCC8C70D512"
+				"215EF29F7DD6B37C"
+				"22616B100E445241"
+				"56C906CE38A975D7"
+				"66FB1ED1E2A9A7F8"
+				"295F800520044C23"
+				"4AE1EA3349567401"
+				"6B74004F5A77C4CA"
+				"7A99AED2CE6A77A6"
+				"16773A4E07202691"
+				"4BE13A145FDF53A2"
+				"48D9BC5F27EB7EFC"
+				"68213B32C7BFE139"
+				"28290CA40D704C6B"
+				"5242AF70A593F53F"
+				"4768DD5F60DE3F4A"
+				"049F3E0A401BBF2A"
+				"14D42EDBFFCED86E"
+				"677B6A2B465A6EBE"
+				"1A8013123EE132C4"
+				"480EE90E6D0491BD"
+				"19FBAF9A70549BF5"
+				"2985444DE5ABB5A5"
+				"7F08BC132061C6B7"
+				"2C64B8A292C923DD"
+				"34CB6C162F5ABA54"
+				"369C7A6D63995ABE"
+				"6280D759A26A0268"
+				"687FF4AB8C83958C"
+				"03A9D8346C52AA2C"
+				"2ABE5C79A9FE92DE"
+				"79D5AADE25625395"
+				"2C917AF574869CE3"
+				"742BA596EA51DDEE"
+				"654DC5DBC9201FBE"
+				"4F0886FF37E1101A"
+				"34C7A89EC09CD2CA"
+				"2607DEA382FF044E"
+				"2CCDE57D27EA104F"
+				"747848C9CCEF6E48"
+				"6BBBC76E6E722C86"
+				"6A00700C50BAC492"
+				"19980B0244DAA868"
+				"6E9A973B387987F7"
+				"68FF81FF5F625057"
+				"2352E1A00B9DBF2D"
+				"04CB13487A7DC3BD"
+				"009F51E069A5AE9F"
+				"37AA8C2B0C3AA1F2"
+				"72C6F4B926DD3EEB"
+				"44FD73D3FCC38DBD"
+				"5C38C92A8D133E5A"
+				"2A50FF9D44A31F35"
+				"2101F61C1D473438"
+				"4070B38A98387DA1"
+				"26CB81E6EA208B67"
+				"5795D205F1485AAC"
+				"637307D9C03B6AE6"
+				"63D35A30B1F90E63"
+				"34550EB511DF1DBC"
+				"2FB251E717EA2F3C"
+				"5194E917E6900897"
+				"202D1FFDC47CBD22"
+				"7AABC2C767E9B11D"
+				"3D1F205E8A402999"
+				"6C1DE22E0E2EBE84"
+				"5AB6E536CDEA24F0"
+				"07504FA280147E7A"
+				"103EE7B28300222E"
+				"5E17BD671E9BEB5B"
+				"7311ED0FFC4444EB"
+				"2DD7C5E31A20DCA8"
+				"2DD1E268E40C2508"
+				"683CEC6590173287"
+				"172968A234803DC0"
+				"74F0CD823C4EABF0"
+				"18A589CC0F81F038"
+				"210C7B26E2D85627"
+				"621351108945549E"
+				"4B6D44F405106C53"
+				"0EF98BA0F698951A"
+				"5081102A7CED9AA5"
+				"4E6A1C0623B28736"
+				"059E5A9B039D5A75"
+				"5A48AB6285838A58"
+				"0B4420623B4BC69A"
+				"1C711856985D4A81"
+				"7BFBBF45D9BE4BFB"
+				"6E695CDB88595C14"
+				"4A5B2026DD41B03B"
+				"0C7E4C11315D4E3E"
+				"4E28F29232291984"
+				"1A38D7B854ACC636"
+				"78E1ECB85FDD0C99"
+				"719DECC59783C5C4"
+				"710E6004B2A67C82"
+				"1FFF999BC54B6400"
+				"6F4FE2BA11D1CB0B"
+				"760572711CF727BB"
+				"1CE263AEA234D241"
+				"4F297154AC9975DE"
+				"3F89A5E9BF484A60"
+				"4C13452863C755A9"
+				"6F7C48824D22FD8A"
+				"30F1C5601C3ECEF1"
+				"498C5FC0C852D17C"
+				"0F7B54CE6A27E6FF"
+				"7F0ADAF93FF58572"
+				"3277A89378B6D52B"
+				"277D203450B35083"
+				"355A2ABDA57395EF"
+				"6EC94755C311050D"
+				"0E1376C287B4D8E4"
+				"7A7C4913FD80D16E"
+				"2A358437484E61CF"
+				"6D17CD1F90431FCC"
+				"03D8166AAAF1B0CA"
+				"1F9B422C0A66A843"
+				"110DB71A4679FFFD"
+				"68E6F02353701423"
+				"1C6262A33463553B"
+				"718CD4D1272E5DD3"
+				"6D01C247A8864071"
+				"47D456E43D42EBC9"
+				"0E2A19BB02D47A94"
+				"10D39CBF282C6B93"
+				"7ABF88F1883465AF"
+				"42884F5FEB13891C"
+				"2459749B47E708FA"
+				"22E4363ECF659C5B"
+				"317F6B4C741311CE"
+				"2718E29F6437CE43"
+				"591563982414C96D"
+				"68224BA2D42CF05B"
+				"7E365F45D64DA0C5"
+				"39553F6B02384BFB"
+				"46D4E5DB8C7C388D"
+				"1C6E46EA96373E74"
+			]
+			description: [
+				"&6Chapters to complete&r:"
+				""
+				"- &bAgriculture"
+				"- &bApplied Energistics 2"
+				"- &bDeep Mob Learning"
+				"- &bKibe Utilities"
+				"- &bTools and Armory"
+				"- &bAd Astra"
+				"- &bCreate"
+				"- &bIndustrial Revolution"
+				"- &bModern Industrialization"
+				"- &bPowah"
+				"- &bTech Reborn"
+				"- &bBewitchment"
+				"- &bBotania"
+				"- &bHex Casting"
+				"- &bSpectrum"
+				"- &bSpirit"
+			]
+			icon: "kubejs:quester"
+			id: "08FEE3ED55CDFC64"
+			rewards: [{
+				id: "18FE9FDF00364A9A"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:allthequests"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Yes, I meant it. Complete ALL quest chapters!"
+			tasks: [{
+				id: "406DD97392361D8E"
+				title: "All The Quests"
+				type: "checkmark"
+			}]
+			title: "&6All The Quests"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			id: "0B66FB2CE83CD2BD"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "125C7ED63AB6EFBF"
+					item: "allthemodium:allthemodium_ore"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "2D9A756777B58733"
+					item: "allthemodium:vibranium_ore"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "0F1377835B90C234"
+					item: "allthemodium:unobtainium_ore"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					icon: "minecraft:grass_block"
+					id: "6C5BF8AB010372DF"
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "0F35EDDD181481F6"
+					type: "dimension"
+				}
+				{
+					dimension: "allthemodium:the_other"
+					icon: "minecraft:orange_terracotta"
+					id: "563B31B6534ED405"
+					type: "dimension"
+				}
+				{
+					dimension: "allthemodium:mining"
+					icon: "minecraft:stone"
+					id: "1F04C1452010053E"
+					type: "dimension"
+				}
+				{
+					dimension: "compactmachines:compact_world"
+					icon: "compactmachines:wall"
+					id: "1DAB1D499DED6938"
+					type: "dimension"
+				}
+				{
+					dimension: "twilightforest:twilightforest"
+					icon: "twilightforest:twilight_portal_miniature_structure"
+					id: "3D5F7AF61AC06296"
+					type: "dimension"
+				}
+				{
+					dimension: "mahoutsukai:reality_marble"
+					icon: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								MAHOUTSUKAI_CASTER_NAME: ""
+							}
+						}
+						id: "mahoutsukai:scroll_reality_marble"
+					}
+					id: "05FD9DCCD1A94275"
+					type: "dimension"
+				}
+				{
+					dimension: "appliedenergistics2:spatial_storage"
+					icon: "ae2:spatial_io_port"
+					id: "103DACA38A5ECD61"
+					type: "dimension"
+				}
+				{
+					dimension: "mythicbotany:alfheim"
+					icon: "mythicbotany:kvasir_mead"
+					id: "3A90698DDCEECDED"
+					type: "dimension"
+				}
+				{
+					dimension: "deeperdarker:otherside"
+					icon: "minecraft:sculk_sensor"
+					id: "6A0435F2B710D0F0"
+					type: "dimension"
+				}
+				{
+					dimension: "ad_astra:mars"
+					icon: "ad_astra:mars_globe"
+					id: "288331F5F6B78E36"
+					type: "dimension"
+				}
+			]
+			title: "Visit (almost) Every Dimension"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			id: "212CC58521442922"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "3795E76486D9705C"
+					item: "botania:gaia_head"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "5E676BD63BC6F855"
+					item: "kubejs:mass_of_wills"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "5EBCD7C3A0113AA9"
+				type: "kill"
+				value: 20L
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			description: [
+				"Tip: bring Woot mob shards with you!"
+				""
+				"It takes 5 kills to fill a mob shard, which can be used later to farm dragon materials in a Woot spawner."
+			]
+			id: "1D85CE0A88D09165"
+			optional: true
+			rewards: [{
+				auto: "invisible"
+				id: "38223539FD086E03"
+				item: "atmadditions:dragon_soul"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "iceandfire:fire_dragon"
+					id: "1DFDC23BABB72AC1"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:ice_dragon"
+					id: "61DFF3FDE570688C"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "iceandfire:lightning_dragon"
+					id: "59523A52D7E444A2"
+					type: "kill"
+					value: 5L
+				}
+			]
+			title: "Kill 5x Each I\\&F Dragon"
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			id: "3EC2209347A35A1D"
+			rewards: [{
+				auto: "invisible"
+				count: 2
+				id: "24436C0F06F6CD2E"
+				item: "twilightforest:fiery_block"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0A46B47511B7FBB0"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+				{
+					id: "5C882C56B3C99C90"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+				{
+					id: "0E423AF9FE9F7837"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+				{
+					id: "0A82048F3D194836"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					id: "122F6DC3FD753968"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+				{
+					id: "03D2937D44FD2427"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					id: "606401AC23B97BCC"
+					item: "twilightforest:yeti_trophy"
+					type: "item"
+				}
+				{
+					id: "1829FF4B46C92FEF"
+					item: "twilightforest:snow_queen_trophy"
+					type: "item"
+				}
+				{
+					id: "1EE9B5D2E2D3C483"
+					item: "twilightforest:quest_ram_trophy"
+					type: "item"
+				}
+			]
+			title: "Conquer The Forest"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C6E46EA96373E74"]
+			id: "23797322470A9E4D"
+			rewards: [{
+				auto: "invisible"
+				id: "5709D6E6CD232ACF"
+				item: "xreliquary:hero_medallion"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36FF69BF35415E37"
+				points: false
+				type: "xp"
+				value: 500L
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+	]
+	title: "Challenges"
+}

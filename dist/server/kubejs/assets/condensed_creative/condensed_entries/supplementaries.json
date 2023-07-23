@@ -1,0 +1,24 @@
+{
+  "decorations": {
+    "condensed_creative:supplementaries_sign_post": {
+      "base_item": "supplementaries:sign_post_oak",
+      "item_tag": "supplementaries:sign_posts"
+    },
+    "condensed_creative:supplementaries_hanging_signs": {
+      "base_item": "supplementaries:hanging_sign_oak",
+      "item_tag": "supplementaries:hanging_signs"
+    },
+    "condensed_creative:supplementaries_presents": {
+      "base_item": "supplementaries:present",
+      "item_tag": "supplementaries:presents"
+    },
+    "condensed_creative:supplementaries_trapped_presents": {
+      "base_item": "supplementaries:trapped_present",
+      "item_tag": "supplementaries:trapped_presents"
+    },
+    "condensed_creative:supplementaries_flags": {
+      "base_item": "supplementaries:flag_white",
+      "item_tag": "supplementaries:flags"
+    }
+  }
+}

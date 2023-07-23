@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:chest"
+	id: "75103B9BB8C7438B"
+	loot_size: 1
+	order_index: 189
+	rewards: [
+		{ item: "solcarrot:food_book" }
+		{ item: "ae2:guide" }
+		{ item: "silentgear:guide_book" }
+		{ item: "croptopia:guide" }
+		{ item: "ftbquests:book" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: { }
+				}
+				id: "create_central_kitchen:cooking_guide"
+			}
+		}
+		{ item: "mahoutsukai:guidebook" }
+		{ item: "ars_nouveau:worn_notebook" }
+		{ item: "powah:book" }
+	]
+	title: "s"
+}

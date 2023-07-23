@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decoration"
+	group: "799D8360B26E9792"
+	icon: "minecraft:painting"
+	id: "3B95E66C126DBBEF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "27CA0D18235360A1"
+			rewards: [{
+				id: "1229487121D0D6C7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "A detailed guidebook for the Adorn mod."
+			tasks: [{
+				id: "4E5C553A94290A8D"
+				item: "adorn:guide_book"
+				type: "item"
+			}]
+			title: "Craft &oDecorating Your Home"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			id: "15B6C3CA61531CCD"
+			rewards: [{
+				id: "1C4B2F4B321A43F9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "One of three craftable &7wind chimes&r."
+			tasks: [{
+				id: "2B3B7372B9B40152"
+				item: "windchimes:iron_chime"
+				type: "item"
+			}]
+			title: "Craft &7Iron Wind Chimes"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			id: "731AF96597BF5309"
+			rewards: [{
+				count: 3
+				id: "67FE2099D771BA47"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			subtitle: "3 block high door. Great for tall origins."
+			tasks: [{
+				id: "7ABFAF9A70390461"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "dramaticdoors:tall_doors"
+					}
+				}
+				title: "Any #dramaticdoors:tall_doors"
+				type: "item"
+			}]
+			title: "Craft a &cDramatic Door"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "4BBAB429C5402A23"
+			rewards: [{
+				id: "2794EE43FCF95403"
+				item: "handcrafted:hammer"
+				type: "item"
+			}]
+			subtitle: "Can be used on furniture from the Handcrafted mod to change the furniture color."
+			tasks: [{
+				id: "61EF88FC45DE94F5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "handcrafted:cushions"
+					}
+				}
+				title: "Any #handcrafted:cushions"
+				type: "item"
+			}]
+			title: "Craft a &cCushion"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "561981E823C64CF5"
+			rewards: [{
+				count: 3
+				id: "1F06C65F85B412D6"
+				item: "farmersdelight:honey_glazed_ham"
+				type: "item"
+			}]
+			subtitle: "Obtained by throwing a &8Netherite Ingot &rthrough a &4Nether &rPortal. Used to make an Unobtanium Block, one of the many decoration blocks from the Architect's Palette mod."
+			tasks: [{
+				id: "56FD1A3A04D790DE"
+				item: "architects_palette:unobtanium"
+				type: "item"
+			}]
+			title: "Craft an &5Unobtanium Ingot"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			id: "3B3BD603E95FDC08"
+			rewards: [{
+				id: "4F249A7EDC3973EE"
+				item: "plushies:dolphin_plushie"
+				type: "item"
+			}]
+			subtitle: "One of the many mob plushies from the Plushies mod."
+			tasks: [{
+				id: "12CE821DA8E013E0"
+				item: "plushies:dragon_plushie"
+				type: "item"
+			}]
+			title: "Craft a &8&lDragon Plushie"
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			id: "769FA7850DAACC90"
+			rewards: [{
+				id: "49D98ADE52022359"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "One of three craftable &7wind chimes&r."
+			tasks: [{
+				id: "3F9E1FE6A446C4D7"
+				item: "windchimes:iron_chime"
+				type: "item"
+			}]
+			title: "Craft &7Iron Wind Chimes"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"We're going to look at different ways to customize the look of any base. First up, the &bChisel&r from &eRechiseled&r."
+				""
+				"This is the first item that can expand your texture palette. Some choices have &6connected textures&r!"
+				""
+				"The &eChipped&r is a series of crafting tables that change the textures of several blocks and items. "
+				""
+				"The easiest to craft is the &bCarpenter's Table&r which, you guessed it, alters wood built items such as planks, logs, trap doors, torches, bookshelves, doors, etc."
+			]
+			icon: "chipped:carpenters_table"
+			id: "7E964BB99ED58C9F"
+			min_width: 275
+			rewards: [
+				{
+					count: 32
+					id: "38F347F65AAF5CDA"
+					item: "minecraft:white_concrete"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0FDA09D81119190E"
+					item: "minecraft:deepslate"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "57317622970B435A"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Design Tips Whittle By Whittle"
+			tasks: [
+				{
+					id: "61B07868A8530A85"
+					item: "rechiseled:chisel"
+					type: "item"
+				}
+				{
+					id: "6FA9AF0057B31E8C"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+			]
+			title: "Divine Design"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E964BB99ED58C9F"]
+			description: ["The &bMason Table&r will help you customize stone, clay, bricks, and netherack based items."]
+			id: "1BAB807A742A16A9"
+			rewards: [
+				{
+					count: 32
+					id: "765F2664ADCB9B9F"
+					item: "minecraft:polished_granite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "16394528FE244C3C"
+					item: "minecraft:polished_diorite"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0E178B395FD1474F"
+					item: "minecraft:polished_andesite"
+					type: "item"
+				}
+			]
+			subtitle: "Don't Take This Quest Line For Granite"
+			tasks: [{
+				id: "6611BA9EE1545BAC"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			title: "Rock City"
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BAB807A742A16A9"]
+			description: ["The &bBotanist Table&r will customize a variety of plants as well as the dirt, sand and gravel."]
+			id: "6A9646944219FCBF"
+			rewards: [
+				{
+					id: "6E3A2BDA071257DA"
+					item: "productivebees:gravel_nest"
+					type: "item"
+				}
+				{
+					id: "73D5207FD803EFA2"
+					item: "productivebees:coarse_dirt_nest"
+					type: "item"
+				}
+				{
+					id: "4029DB100C4EB8BC"
+					item: "productivebees:sand_nest"
+					type: "item"
+				}
+			]
+			subtitle: "Ok Bloomer"
+			tasks: [{
+				id: "1FD994EFE3A97636"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			title: "Thistle While You Work"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6A9646944219FCBF"]
+			description: ["The &bGlass Blower&r allows you to customize all kinds of glass blocks. Very &ca&6e&es&at&3h&9e&5t&ci&6c&r."]
+			icon: "chipped:loom_table"
+			id: "7D710DAA6A960CE9"
+			rewards: [
+				{
+					count: 32
+					id: "415C0846D500F1BA"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "73F0435F4219B6C6"
+					item: "minecraft:tinted_glass"
+					type: "item"
+				}
+			]
+			subtitle: "Make a Glassblower"
+			tasks: [
+				{
+					id: "1EABF7DD2746EA68"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "6AA4E143DC073904"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D710DAA6A960CE9"]
+			description: ["The &bTinkering Table&r and &bAlchemy Table&r will cover a variety of other blocks, such as Redstone, Amethyst, and the like."]
+			icon: "chipped:alchemy_bench"
+			id: "0FD96BBA8AB4279F"
+			rewards: [
+				{
+					count: 16
+					id: "1118A8B1D531E31E"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "47B715AF2739E6B4"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0E097ED2D84C6D13"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			subtitle: "Make a Tinkering Table"
+			tasks: [
+				{
+					id: "10F6D10339D146FF"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+				{
+					id: "6A68D845F3512134"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: 7.5d
+		}
+	]
+	title: "&9Decoration"
+}

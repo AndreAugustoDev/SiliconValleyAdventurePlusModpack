@@ -1,0 +1,1796 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "tips_and_tricks"
+	group: "76C22988F9A7C9CE"
+	icon: {
+		Count: 1b
+		id: "eccentrictome:tome"
+		tag: {
+			"eccentrictome:mods": { }
+		}
+	}
+	id: "1BE666F01EFFC00D"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "atm:textures/questpics/tips_and_tricks.png"
+		rotation: 0.0d
+		width: 12.0d
+		x: 0.0d
+		y: -5.0d
+	}]
+	order_index: 0
+	quest_links: [{
+		id: "312BB9EC221E9D7A"
+		linked_quest: "30145D5771D06E02"
+		x: 4.0d
+		y: 3.0d
+	}]
+	quests: [
+		{
+			description: [
+				"Easy item to automate &6infinite water&r."
+				"Need more water? Make another!"
+			]
+			id: "722978AC0C1B2649"
+			rewards: [
+				{
+					id: "145F9B3A17676EAA"
+					item: "pipez:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "1159FE6CDF262C46"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Can be used as Reactor Coolant"
+			tasks: [{
+				id: "6855AE257D62AA37"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "Infinite Water"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Smaller, but equally strong? Impossible!"
+				""
+				"Until now."
+				""
+				"The &bPersonal Shrinking Device&r allows you to &6change your size&r!"
+				""
+				"Shrink to the tiniest of sizes and slip through cracks even a mouse would scoff at. "
+				""
+				"Helpful for working on automation and also just overall fun."
+				""
+				"With it, you can transform from 20% of your normal size, to 1000%!"
+				""
+				"● Right Click to open the GUI and select a size."
+				"● Sneak + Right Click to shrink yourself."
+				"● Left Click an entity to shrink it. "
+				"● Right Click a shrunken entity with a &aGlass Bottle&r to pick it up. "
+				""
+				"Keep a villager in your pocket for good luck!"
+			]
+			id: "7EC8814940C4C3D7"
+			min_width: 250
+			rewards: [
+				{
+					id: "156D559B0B56BA9A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BCF264E89365C5D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "266A8847A8973196"
+					item: {
+						Count: 1b
+						id: "minecraft:glass_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Honey I Shrunk Myself"
+			tasks: [{
+				id: "30C938C85BED7956"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: {
+						Energy: 100000
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The sleeping bag lets you sleep during the night."
+				""
+				"The hammock lets you sleep during the day."
+				""
+				"Neither will reset your spawn-point."
+			]
+			id: "14C8FC3F19190054"
+			rewards: [
+				{
+					count: 2
+					id: "34037270BA530831"
+					item: "comforts:rope_and_nail"
+					type: "item"
+				}
+				{
+					id: "0CA8B7411485A9D0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "ZZZzzz..."
+			tasks: [
+				{
+					id: "71C328D1A2FFFA04"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:hammocks"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68848B51C4AA1219"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "comforts:sleeping_bags"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Time To Sleep"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Need help juggling all those tools? Craft a &aTool Belt&r!"
+				""
+				"The &aTool Belt&r holds two tools by default but may be expanded to up to nine slots by adding &aBelt Pouches&r in an &aAnvil&r. "
+				""
+				"While worn in a curio slot, the belt allows quick swapping between any of the tools stored in it. Check the Key Binds menu for options. By default, opening the tool swap menu is on R and opening the belt’s inventory to add or remove tools is on V."
+			]
+			id: "378C95C18798D413"
+			rewards: [
+				{
+					count: 2
+					id: "40BCE4D56FE98018"
+					item: "toolbelt:pouch"
+					type: "item"
+				}
+				{
+					id: "4E495FC797AED7A4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "A quick way to switch between tools."
+			tasks: [{
+				id: "7FD9A02EA29669F6"
+				item: "toolbelt:belt"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&9Compact Machines&r contain within them a &6small pocket dimension&r, which can be accessed through a &aPersonal Shrinking Device&r!"
+				""
+				"The &aPersonal Shrinking Device&r serves as the guide for &9Compact Machines&r, as well as the tool needed to teleport into your tiny machine worlds."
+				""
+				"Compact machines &4don't chunkload by default&r, so make sure to mark them as force loaded with your chunkloader if you require them to remain operational when you're not in them."
+				""
+				"Higher tiers have more space inside. See each block's tooltip for exact sizes."
+			]
+			id: "73F91BF3D424B269"
+			rewards: [
+				{
+					id: "43605B432D1C8172"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "16DBB58D967E5AB0"
+					item: "compactmachines:wall"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "46D9E69D9AC4E1A9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "When an infinite world is too small"
+			tasks: [
+				{
+					id: "3B227EED4B839733"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+				{
+					id: "1B529CAA2620B7CC"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "compactmachines:machine_tiny"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_small"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_normal"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_large"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_giant"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_maximum"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Compact Machines"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The mod &9Construction Wand&r adds helpful wands that are used when building."
+				""
+				"When right-clicking a face of a block with the wand, it will extend that face out as long as you have the blocks in your inventory."
+			]
+			id: "2A2E3D020B1F5126"
+			rewards: [
+				{
+					id: "03F64743F4F59499"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5985F139B81C729C"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			subtitle: "Building..."
+			tasks: [{
+				id: "176150A0FE674662"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "constructionwand:stone_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:iron_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:diamond_wand"
+								tag: {
+									Damage: 0
+									wand_options: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "constructionwand:infinity_wand"
+								tag: {
+									wand_options: { }
+								}
+							}
+						]
+					}
+				}
+				title: "Construction Wands"
+				type: "item"
+			}]
+			title: "Building Wands"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"722978AC0C1B2649"
+				"7EC8814940C4C3D7"
+				"14C8FC3F19190054"
+				"378C95C18798D413"
+				"73F91BF3D424B269"
+				"2A2E3D020B1F5126"
+				"05F186C95510BD4B"
+				"5118D4137573AD80"
+				"0060BCEDABC9BE2E"
+				"70B6C9409AE69284"
+				"3FC002E5A6C08DCC"
+				"445CFBFE882716D1"
+				"5D18D7EFC37DB81E"
+				"2B28AC80ADEA64AE"
+				"5055ED14EDAD08ED"
+				"3DD506DBDD8020BC"
+				"0790D3BB481162A6"
+				"43D08D9E4A7AE9B9"
+				"679E0992FAE07E57"
+				"6396AA6918B47DDC"
+				"0B4877E853D5991A"
+				"3EE9F242794CD95F"
+				"5F8E6856198022AB"
+				"1C144F8F242A570F"
+			]
+			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			id: "0F8F37D7E12078F5"
+			rewards: [{
+				id: "032158E75A1291D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "And Other Useful Items!"
+			tasks: [{
+				id: "42DA8E971B27ACED"
+				type: "checkmark"
+			}]
+			title: "&bTips \\& Tricks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"This is a simple magnet!"
+				""
+				"You can set a keybind to toggle this on and off!"
+			]
+			id: "3FC002E5A6C08DCC"
+			rewards: [
+				{
+					id: "0F5B656ED410D441"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36D0962726704052"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "A Simple Magnet!"
+			tasks: [{
+				id: "27CB2988681DB62C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "simplemagnets:basicmagnet"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "simplemagnets:advancedmagnet"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Simple Magnets"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Dont feel like &6running &rthousands of blocks for that favorite biome of yours?"
+				""
+				"The &bNature's Compass &rsaves your day!"
+				""
+				"&bNature's Compass&r will allow you to &6search for biomes&r, since they aren't exactly easy to find here."
+				""
+				"Select a biome, then hit \"&eSearch&r\"."
+				"You'll see some info in the top left, and the compass will point in the direction of the biome."
+			]
+			id: "70B6C9409AE69284"
+			rewards: [
+				{
+					id: "554BFA90C78DEDD5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "262AC9191FD415A3"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "If you truly love nature, you will find beauty everywhere."
+			tasks: [{
+				id: "595B3FA9F32B712D"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &9Explorer's Compass&r can help you locate structures in the world, just like the &eNature's Compass&r!"
+				""
+				"Shift+Right-clicking with the compass in hand will bring up a menu of structures to search for."
+			]
+			id: "5D18D7EFC37DB81E"
+			rewards: [
+				{
+					id: "7B2018A7B911D23F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61DF943E33054D96"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "423F9BB8DC7962F6"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"This &9Tome&r holds all of the guidebooks in the modpack."
+				""
+				"- Right-clicking will bring up the &eBook Selection Screen&r."
+				"- Shift+Right-clicking with the book in your hand will convert to the guidebook for the mod based on the block you are looking at."
+				"- Left-clicking the air will revert the specific guidebook back to the Eccentric Tome."
+				"- Shift+Q with a specific mod guidebook selected will drop the book from the Tome."
+				""
+				"Note: If you have to use a guidebook in a recipe, make sure to drop the guidebook out first! Do not use the Tome to craft the item! This will cause the Tome to vanish."
+			]
+			id: "5118D4137573AD80"
+			min_width: 300
+			rewards: [{
+				id: "2E8C17C464A35055"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "77321233659FEC13"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							advancedperipherals: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "advancedperipherals:manual"
+									}
+								}
+							}
+							alchemistry: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "alchemistry:alchemistry_book"
+									}
+								}
+							}
+							allthemodium: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "allthemodium:allthemodium"
+									}
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1.0d
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							botania: {
+								0: {
+									Count: 1.0d
+									id: "botania:lexicon"
+								}
+							}
+							byg: {
+								0: {
+									Count: 1.0d
+									id: "byg:biomepedia"
+								}
+							}
+							croptopia: {
+								0: {
+									Count: 1.0d
+									id: "croptopia:guide"
+								}
+							}
+							deeperdarker: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "deeperdarker:wanderers_notebook"
+									}
+								}
+							}
+							elementalcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "elementalcraft:element_book"
+									}
+								}
+							}
+							engineersdecor: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+									}
+								}
+							}
+							ftbic: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "ftbic:ftbic_guide"
+									}
+								}
+							}
+							ftbquests: {
+								0: {
+									Count: 1.0d
+									id: "ftbquests:book"
+								}
+							}
+							hexcasting: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1.0d
+									id: "immersiveengineering:manual"
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							integrateddynamics: {
+								0: {
+									Count: 1.0d
+									id: "integrateddynamics:on_the_dynamics_of_integration"
+								}
+							}
+							laserio: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "laserio:laseriobook"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							modonomicon: {
+								0: {
+									Count: 1.0d
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							mysticalagriculture: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "mysticalagriculture:guide"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1.0d
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							powah: {
+								0: {
+									Count: 1.0d
+									id: "powah:book"
+								}
+							}
+							productivebees: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "productivebees:guide"
+									}
+								}
+							}
+							rebornstorage: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "rebornstorage:rs_book"
+									}
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1.0d
+									id: "rftoolsbase:manual"
+								}
+							}
+							sebastrnlib: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"
+									}
+								}
+							}
+							securitycraft: {
+								0: {
+									Count: 1.0d
+									id: "securitycraft:sc_manual"
+								}
+							}
+							solcarrot: {
+								0: {
+									Count: 1.0d
+									id: "solcarrot:food_book"
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1.0d
+					}
+				}
+				type: "item"
+			}]
+			title: "The Eccentric Tome"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"When placed, the &aMega Torch&r prevents all hostile mobs from naturally spawning in a 64 block radius."
+				""
+				"Great for stopping hostile spawns in dark parts of your base!"
+			]
+			id: "05F186C95510BD4B"
+			rewards: [
+				{
+					id: "2EA020DC0A263031"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "466A0AFE85E7A5D4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6418A273A57B203C"
+				item: "torchmaster:megatorch"
+				type: "item"
+			}]
+			title: "Preventing Mob Spawns"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"The &9Experience Crystal&r allows you to store experience, either by giving it your levels, or pumping in experience from a tank."
+				""
+				"You can also transfer the experience stored to level yourself up with just a click of a button!"
+			]
+			id: "0060BCEDABC9BE2E"
+			rewards: [{
+				id: "57949E0DF2C7478A"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			tasks: [{
+				id: "189B87AF99321862"
+				item: "utilitix:experience_crystal"
+				type: "item"
+			}]
+			title: "Storing Experience"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Need a portable crafting table? How about a portable smithing table?"
+				""
+				"&9Crafting On A Stick&r adds portable versions of some of your favorite crafting tables! This is a must have in the early game."
+			]
+			id: "0790D3BB481162A6"
+			rewards: [{
+				id: "2D7265C36210BDDB"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Portable Crafting!"
+			tasks: [
+				{
+					id: "6038387EA35404CD"
+					item: "crafting_on_a_stick:crafting_table"
+					type: "item"
+				}
+				{
+					id: "0BF4F9C40FF717DE"
+					item: "crafting_on_a_stick:smithing_table"
+					type: "item"
+				}
+				{
+					id: "405411318EA7A80C"
+					item: "crafting_on_a_stick:anvil"
+					type: "item"
+				}
+			]
+			title: "Crafting..... on a Stick!"
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"The &9Time in a Bottle&r is probably one of the most useful items in the game."
+				""
+				"Time in a Bottle stores \"time\" while it is in your inventory, which you can then spend to speed up any block/entity/almost everything in the game."
+				""
+				"With the stored time, you can shift-right click on a machine or item, and increase the tick speed."
+				"It goes up to x256 speed."
+			]
+			id: "445CFBFE882716D1"
+			rewards: [
+				{
+					count: 3
+					id: "40CAE83425A4BB93"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "6D0D5202EF1F98D9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4FA4A214544BE1CA"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+			]
+			subtitle: "Speed!"
+			tasks: [{
+				id: "56186C6CF977B96D"
+				item: {
+					Count: 1b
+					id: "tiab:time_in_a_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Time in a Bottle"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"If you've played MC in previous versions, it's important to know that Ore Generation has changed as well as max build level."
+				""
+				"Make sure to check out the \"World Gen\" tab in the ore's recipe to see the Y level the ore generates!"
+				""
+				""
+			]
+			icon: "minecraft:iron_ore"
+			id: "3DD506DBDD8020BC"
+			rewards: [
+				{
+					id: "6D087DDA763ADE96"
+					item: "minecraft:raw_copper"
+					type: "item"
+				}
+				{
+					id: "0FC842CFE23CADE2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "World Generation Changes"
+			tasks: [{
+				id: "741BC2B7B9CE4D2C"
+				title: "Ore Generation"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Having trouble finding a specific ore? Make an Oresight potion!"
+				""
+				"Oresight potions give you x-ray vision for ores. Check out the mod &9Potions Master&r by searching up &9@potionsmaster&r in the JEI searchbox."
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:potion"
+				tag: {
+					Potion: "potionsmaster:iron_sight"
+				}
+			}
+			id: "3EE9F242794CD95F"
+			rewards: [
+				{
+					id: "717AB46363706266"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "27C7514C31B446D1"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "potionsmaster:iron_sight"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "It's like X-Ray Vision!"
+			tasks: [{
+				id: "5EB6069EECDB5D95"
+				title: "Oresight Potions"
+				type: "checkmark"
+			}]
+			title: "OreSight Potions"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3EE9F242794CD95F"]
+			description: [
+				"OreSight Potions can be used to craft Charms!"
+				""
+				"Charms are Curios that last longer, and can be toggled on and off. To make them, you'll need some Blaze Powders."
+			]
+			id: "6396AA6918B47DDC"
+			rewards: [
+				{
+					id: "46455F0068AFFF60"
+					item: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "potionsmaster:diamond_sight"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "403115903FE0D456"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "potionsmaster:diamond_sight"
+					}
+				}
+				id: "412D4D8A09692DF9"
+				title: "Charms of Oresight"
+				type: "checkmark"
+			}]
+			title: "X-Ray Charms"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"This item will grow saplings placed in it over time."
+				""
+				"It can be upgraded for automation. Check out the &aFood and Farming&r for more info!"
+			]
+			icon: {
+				Count: 1b
+				id: "botanypotstiers:elite_terracotta_botany_pot"
+				tag: { }
+			}
+			id: "5055ED14EDAD08ED"
+			rewards: [{
+				id: "7D97C6358E827878"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0843049F8ADCEDA8"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:all_botany_pots"
+					}
+				}
+				title: "Any BotanyPot"
+				type: "item"
+			}]
+			title: "BotanyPots"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"&bCharms&r from &eApotheosis&r, when activated, &6provide a long-lasting potion effect&r."
+				""
+				"They can even be &6enchanted&r to last longer!"
+			]
+			icon: {
+				Count: 1b
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:invisibility"
+				}
+			}
+			id: "0B4877E853D5991A"
+			rewards: [
+				{
+					id: "6F12700E04F866B8"
+					item: {
+						Count: 1b
+						id: "quark:ancient_tome"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 8s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "089044B97461D041"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "I'm charmed"
+			tasks: [{
+				id: "22B06B7EC78C1A46"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "apotheosis:potion_charm"
+							tag: {
+								Damage: 0
+								Potion: "minecraft:invisibility"
+							}
+						}]
+					}
+				}
+				title: "Charms"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&eBuilding Gadgets&r offers many tools for helping to build."
+				""
+				"The basic &bBuilding Gadget&r is great for &6quickly building out structures&r."
+				""
+				"The &bCopy-Paste Gadget&r can &6recreate structures&r, including ones from the internet!"
+				""
+				"The &bExchanging Gadget&r can quickly &6swap blocks&r."
+				""
+				"The &bDestruction Gadget&r &cvoids blocks&r!"
+			]
+			icon: {
+				Count: 1b
+				id: "buildinggadgets:gadget_building"
+				tag: {
+					energy: 500000.0d
+					state: {
+						data: { }
+						serializer: "buildinggadgets:dummy_serializer"
+						state: {
+							Name: "minecraft:air"
+						}
+					}
+				}
+			}
+			id: "2B28AC80ADEA64AE"
+			rewards: [
+				{
+					count: 64
+					id: "3E965EA7CFC6EB9A"
+					item: "buildinggadgets:construction_paste"
+					type: "item"
+				}
+				{
+					id: "0D1204F00D8A22A1"
+					item: "buildinggadgets:construction_paste_container_t1"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0740A36682282884"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			subtitle: "Make something from Building Gadgets"
+			tasks: [{
+				id: "33BBE6C89ACC8EBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "buildinggadgets:gadget_building"
+								tag: {
+									energy: 500000.0d
+									state: {
+										data: { }
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets:gadget_exchanging"
+								tag: {
+									energy: 500000.0d
+									state: {
+										data: { }
+										serializer: "buildinggadgets:dummy_serializer"
+										state: {
+											Name: "minecraft:air"
+										}
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "buildinggadgets:gadget_copy_paste"
+								tag: {
+									energy: 500000.0d
+									mode: 0b
+									template_id: [I;
+										-429682952
+										1143621777
+										-1584007205
+										346185346
+									]
+								}
+							}
+						]
+					}
+				}
+				title: "Building Gadgets"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"Players can equip a number of additional items into special equipment slots."
+				""
+				"&b&lCurios"
+				"The curios menu can be accessed by pressting the button at the top-left of the playe rportrait in the inventory menu. This will show all available Curio slots for rings, charms, and so-on. Some items can even add additional slots."
+				""
+				"&b&lArcs"
+				"Arcs can be found in the dimensions added by the Blue Skies mod. This menu can be accessed via the Arcs tab to the left of the inventory screen."
+			]
+			icon: "ars_nouveau:ring_of_greater_discount"
+			id: "43D08D9E4A7AE9B9"
+			rewards: [{
+				id: "2E3EF9A19A511910"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "2567DBB5E1D5EB22"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:an_focus"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:angelring"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:back"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:bangle"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:belt"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:body"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:bracelet"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:bundle"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:charm"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:crafting_on_a_stick"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:createplus.backtank_slot"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:curio"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:deep_learner"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:element_holder"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:feet"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:glasses"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:hands"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:head"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:heartamulet"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:klein_star"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:magic_book"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:necklace"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:ring"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "curios:tiab"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Curio"
+				type: "item"
+			}]
+			title: "This Is Curious"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"As you explore, you will find &bWaystones&r in some villages."
+				"You can right-click on these (or break and re-place them first to set a new name) in order to save their location."
+				""
+				"&bWaystones&r can be warped between at the cost of experience, however crafting a &aWarp Stone&r will allow you unlimited teleports (on a cooldown) to any of your saved locations, from anywhere."
+				""
+				"In addition to being found in the world, &bWaystones&r can be crafted as well."
+				""
+				"This can be a great way to add a warp location to your home base, as well as for bringing one along during long journeys to allow for quick trips home and back by placing it, warping home, restocking/repairing, then warping back and picking it up again. "
+			]
+			id: "679E0992FAE07E57"
+			min_width: 300
+			rewards: [{
+				id: "05DB1F2646D68683"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "1946D897ED5D5DFA"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "3FB4E6D6ED9B077D"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: ["Gliders are a great way to traverse uneven landscapes. Find somewhere high up, and jump off. Using the glider will consume your stamina, so be careful not to run out, as you will fall from the sky. If you have low stamina, consider sticking to lower cliffs for now."]
+			id: "5F8E6856198022AB"
+			rewards: [{
+				id: "6F8BB72116868A29"
+				item: "paraglider:spirit_orb"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24BD29A64D572082"
+				item: "paraglider:paraglider"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5F8E6856198022AB"]
+			description: ["The only way to increase your stamina is by using Spirit Orbs or Essence. These can be found in puzzle dungeons (large yellow or blue structures, containing a puzzle to complete) or some quests. Essence can be dropped by some mobs, such as ogres and Church Doctors, which spawn in the wild, and from some quests. Once obtained, right-click with the item to consume it. Once you have 4 orbs or 6 essence, speak to the appropriate statue in any village to exchange them for more health or stamina."]
+			icon: "paraglider:spirit_orb"
+			id: "1C144F8F242A570F"
+			rewards: [{
+				id: "61F5F77070CF6EF8"
+				item: "paraglider:essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4382A321D9130B3D"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "Stamina"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The Crafting Table does the job, sure, but this is modded! We can do better!"
+				""
+				"The &bCrafting Station&r can &6access adjacent inventories&r, and your items stay inside if you leave them!"
+			]
+			id: "3A26B88CFD6901A5"
+			rewards: [{
+				count: 2
+				id: "6CC6A396FE782553"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Battle Stations!"
+			tasks: [{
+				id: "4DC30B9DEB73278F"
+				item: "craftingstation:crafting_station"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"&bJetpacks&r from &9Iron Jetpacks&r use FE to allow you to &6fly when worn&r. Simply hold jump to boost upward!"
+				""
+				"There are several tiers, each better than the last."
+				"See their tooltips for detailed information on each."
+				""
+				"Mekanism Hydrogen gas powered Jetpacks are also a great option and can be upgraded into an armored variant."
+			]
+			icon: {
+				Count: 1b
+				id: "ironjetpacks:jetpack"
+				tag: {
+					Id: "ironjetpacks:iron"
+					Throttle: 1.0d
+				}
+			}
+			id: "00FEAAD9D85AFCA0"
+			rewards: [
+				{
+					id: "0E7310D6A1F265E3"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "14B007CEA4CEC9BF"
+					item: {
+						Count: 1b
+						id: "apotheosis:potion_charm"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:slow_falling"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "26DCAFEFCD4F21C2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Jetpack"
+			tasks: [{
+				id: "6873D2F5E3EE78D8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironjetpacks:jetpack"
+								tag: {
+									Id: "ironjetpacks:wood"
+									Throttle: 1.0d
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack_armored"
+							}
+							{
+								Count: 1b
+								id: "mekanism:jetpack"
+							}
+						]
+					}
+				}
+				title: "Jetpacks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Occasionally, a &6Wandering Trader&r may make their way to your island. "
+				""
+				"If you provide the right payment, you might be able to &bbuy what allows them to traverse&r the sky..."
+			]
+			id: "297DE3ACF3E0B994"
+			rewards: [
+				{
+					count: 32
+					id: "2E15D59CCA403AD2"
+					item: "minecraft:firework_rocket"
+					type: "item"
+				}
+				{
+					id: "4ADF97F50AEB3B89"
+					item: "ars_nouveau:glyph_firework"
+					type: "item"
+				}
+			]
+			subtitle: "Baby, you're a firework..."
+			tasks: [{
+				id: "03C25700D0BA245C"
+				item: {
+					Count: 1b
+					id: "minecraft:elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Soaring through the skies"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["The &bItem Collector&r collects nearby item drops. There are many alternatives, but this is the cheapest."]
+			id: "6EDBA28D38CD410B"
+			rewards: [
+				{
+					id: "1AE68D0EE4C44736"
+					item: {
+						Count: 1b
+						id: "minecraft:fishing_rod"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+								{
+									id: "minecraft:luck_of_the_sea"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:mending"
+									lvl: 1s
+								}
+							]
+							RepairCost: 7
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5CA10AB93F496425"
+					item: "functionalstorage:void_upgrade"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0A9F9E040B7F89ED"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			subtitle: "Item Slurpage"
+			tasks: [{
+				id: "490E8DC91404EFDC"
+				item: "cyclic:collector"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"&eCyclic&r has provided us with some powerful Anvils"
+				""
+				""
+				"&bPowered Anvil&r - Will repair your items with Energy"
+				""
+				"&4Magmatic Anvil&r - Will repair your items with Lava"
+				""
+				"&7Void Anvil&r - Strips your items of their Enchants and returns some liquid EXP"
+			]
+			icon: "cyclic:anvil"
+			id: "527D1071645708E4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54C968E5B84FDD5B"
+				table_id: 8339261241703954627L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1769D44FF2E2F3FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:anvil"
+							}
+							{
+								Count: 1b
+								id: "cyclic:anvil_magma"
+							}
+							{
+								Count: 1b
+								id: "cyclic:anvil_void"
+							}
+						]
+					}
+				}
+				title: "Anvils"
+				type: "item"
+			}]
+			title: "Powerfull Anvils"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: [
+				"The &bTemporal Pouch&r will &6passively store time&r while it's in your inventory."
+				""
+				"You can spend this time by using it on a block, &6rapidly accelerating it&r. Click multiple times to make it even faster."
+			]
+			id: "70A8D88256576F5C"
+			rewards: [
+				{
+					count: 4
+					id: "74D4681BD946C806"
+					item: "apotheosis:uncommon_material"
+					type: "item"
+				}
+				{
+					id: "1F8B0F4359EA1C5B"
+					item: "botania:hourglass"
+					type: "item"
+				}
+			]
+			subtitle: "Save some time for later"
+			tasks: [{
+				id: "6CA1717FBEFD6BA0"
+				item: {
+					Count: 1b
+					id: "gag:time_sand_pouch"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+	]
+	title: "&bTips \\& Tricks"
+}

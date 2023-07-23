@@ -1,0 +1,13 @@
+name = "Auto Third Person"
+filename = "auto_third_person-forge-1.19.2-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e635b18afa25d256510ef9d899f10d1d5b3e904"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4568191
+project-id = 297818

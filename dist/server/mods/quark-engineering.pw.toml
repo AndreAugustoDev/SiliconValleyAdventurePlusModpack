@@ -1,0 +1,13 @@
+name = "Quark Engineering"
+filename = "QuarkEngineering.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e599707b8c328155616a6a9939fc0d7fe108bcd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4428673
+project-id = 835445

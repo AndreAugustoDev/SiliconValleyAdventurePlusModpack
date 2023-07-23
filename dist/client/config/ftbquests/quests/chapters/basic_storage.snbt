@@ -1,0 +1,1523 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "basic_storage"
+	group: "33A417364C0A17FE"
+	icon: "minecraft:chest"
+	id: "539204AFB10E5EA7"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 5.0d
+		hover: [ ]
+		image: "minecraft:textures/item/chest_minecart.png"
+		rotation: 0.0d
+		width: 5.0d
+		x: 0.0d
+		y: -8.0d
+	}]
+	order_index: 0
+	quest_links: [
+		{
+			id: "5584DE65020A502A"
+			linked_quest: "65B474E06E52C196"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "4063F0E2A671ADE7"
+			linked_quest: "0682DC1F2417DAEB"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "718E0700BA5D248A"
+			linked_quest: "31FF51CECF71BD12"
+			x: -1.0d
+			y: -3.0d
+		}
+	]
+	quests: [
+		{
+			hide_dependency_lines: true
+			id: "472CE719FAFBB92F"
+			rewards: [
+				{
+					count: 4
+					id: "685834F0A29F6B78"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "36EA7EC9235E0AEA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BD9855705A23AEE"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "39D12239BE29E754"
+					item: "dimstorage:dimensional_chest"
+					type: "item"
+				}
+				{
+					id: "3468E09536BE5F8E"
+					item: "dimstorage:dimensional_tank"
+					type: "item"
+				}
+			]
+			title: "Dimensional Storage"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Vanilla Stuff"]
+			hide_dependency_lines: true
+			id: "1D20D9D437F3D177"
+			rewards: [{
+				id: "0D9EC494F734E180"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [
+				{
+					id: "7814C3E5AE42164B"
+					item: "minecraft:ender_chest"
+					type: "item"
+				}
+				{
+					id: "4B2A76680633CEA5"
+					item: "minecraft:shulker_box"
+					type: "item"
+				}
+			]
+			title: "Vanilla"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6B639160FD560CC1"
+			rewards: [{
+				id: "3F9A053749F2FAEC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6712C300C0BE9378"
+					item: "mekanism:basic_bin"
+					type: "item"
+				}
+				{
+					id: "369186424C860572"
+					item: "mekanism:basic_fluid_tank"
+					type: "item"
+				}
+				{
+					id: "3D6E8FEED6165644"
+					item: "mekanism:basic_chemical_tank"
+					type: "item"
+				}
+				{
+					id: "3F78627E25556DB3"
+					item: "mekanism:basic_energy_cube"
+					type: "item"
+				}
+			]
+			title: "Mekanism Storage"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6B639160FD560CC1"]
+			description: ["&aMekanism&f's version of a storage network."]
+			icon: "mekanism:qio_drive_array"
+			id: "0CD52E81FD607310"
+			rewards: [{
+				id: "7E149DDA2A1FD614"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "13D426BA28BC3811"
+				type: "checkmark"
+			}]
+			title: "QIO Drive Array"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1D20D9D437F3D177"]
+			description: ["An &eender chest backpack&f."]
+			id: "4B7CD2EF8CB96B07"
+			rewards: [{
+				id: "6D423E5D79267206"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46134FE687CB199E"
+				item: "usefulbackpacks:backpack_enderchest"
+				type: "item"
+			}]
+			title: "Vanilla+"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			description: ["Go to the &aRefined Storage&f quest chapter for more on this mod."]
+			hide_dependency_lines: true
+			id: "3F3AA3641F8D6BE2"
+			tasks: [{
+				id: "140A0A6DC8BB817F"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "Refined Storage"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Go to the &aApplied Energistics 2&f quest chapter for more on this mod."]
+			hide_dependency_lines: true
+			id: "485352F9261A1D75"
+			tasks: [{
+				id: "2590CD4938201A9D"
+				item: "appliedenergistics2:controller"
+				type: "item"
+			}]
+			title: "Applied Energistics 2"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"All &bEnder Chests&r of the same &6frequency&r share an inventory, which can be accessed manually or automatically."
+				""
+				"Use &6dyes&r on the three notches on the top to set the frequency. Using a Diamond on the latch will move it to your own network."
+				""
+				"A W/W/W on your network is only connected to other W/W/Ws on your network, not W/W/Ws on the global network or on other players' networks."
+			]
+			id: "7D5D211C0C3A017A"
+			min_width: 250
+			rewards: [{
+				id: "1E45A1C69BCC9296"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			subtitle: "Older than Vanilla's"
+			tasks: [{
+				id: "57BA8F509231EF1E"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: [
+				"All &bEnder Tanks&r of the same &6frequency&r share a tank."
+				""
+				"Use &6dyes&r on the three notches on the top to set the frequency. Using a Diamond on the latch will move it to your own network."
+			]
+			id: "497323BE8FD3B825"
+			rewards: [{
+				id: "755C38FF136A38A4"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			subtitle: "Liquiportation"
+			tasks: [{
+				id: "363238A5385410D0"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: [
+				"&eMetal Barrels&r add several tiers of, well, metal Barrels. Storing in Barrels is nice as they &6do not need open space above&r to open."
+				""
+				"Higher tier Barrels can store more items. Metal Barrels have the same storage space as the Iron Chest of the same material, as well."
+			]
+			icon: "metalbarrels:copper_barrel"
+			id: "3FC2244B7FE7C3A1"
+			subtitle: "Larger on the interior"
+			tasks: [{
+				id: "3E0F044B4025B08D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "metalbarrels:copper_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:iron_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:gold_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:diamond_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:obsidian_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:silver_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:crystal_barrel"
+							}
+							{
+								Count: 1b
+								id: "metalbarrels:netherite_barrel"
+							}
+						]
+					}
+				}
+				title: "Metal Barrels"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FC2244B7FE7C3A1"]
+			description: ["These &bConversion Upgrades&r can be used to &6upgrade a Barrel's tier&r."]
+			icon: "metalbarrels:wood_to_crystal"
+			id: "289CC416E3FC99B6"
+			tasks: [{
+				id: "323B1F127BEBE359"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "barrel.*_to_"
+					}
+				}
+				title: "Metal Barrel Conversion Upgrades"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["37FC7216C7912F45"]
+			description: ["These &bConversion Upgrades&r can be used to &6upgrade a Chest's tier&r."]
+			icon: "ironchest:wood_to_iron_chest_upgrade"
+			id: "06D50A7ECF5CF824"
+			tasks: [{
+				id: "48F7DA3CBDBCBF40"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "ironchest.*upgrade"
+					}
+				}
+				title: "Iron Chest Conversion Upgrades"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["Basic chests will only get you so far in this modpack, as there are thousands of unique items, and you will quickly find yourself drowning in a sea of chests to sort. Luckily, there are mods included in this modpack which make sorting your treasures (and junk) much easier."]
+			id: "4D1B105EE54EDEAF"
+			rewards: [{
+				id: "40A712D85762E768"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "3B86BA54AA15287D"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4D1B105EE54EDEAF"]
+			description: ["Cloud Storage can take some time to acquire the required materials, however it offers a very flexible storage system. Want one large storage network? Several smaller ones? Several large, seperate networks? Cloud storage can do it all - just be sure you aren't afraid of heights!"]
+			icon: "cloudstorage:cloud_chest"
+			id: "6578C82B120DE0EA"
+			rewards: [{
+				id: "6529B7B6EEBBFEB9"
+				item: "cloudstorage:guide_book"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "7F2BD0E1BBFBF5C1"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "Cloud Storage"
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6578C82B120DE0EA"]
+			description: ["To get started with cloud storage, you will need balloon pieces to craft a balloon, and cloud blocks. Baloon mobs spawn above Y=196, as do cloud mobs, so you better find some mountains! It is not a bad idea to build a platform in the air to fight them more easily, and a bow certainly helps. Baloons drop pieces which can be crafted with string to make a balloon, and cloud mobs drop cloud blocks, which can be used to craft cloud chests. "]
+			id: "34A5470646A4CE63"
+			rewards: [{
+				id: "381FB78BCB25EFCD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C6540B62EB8438"
+				item: "cloudstorage:balloon"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34A5470646A4CE63"]
+			description: ["The last step to set up your cloud storage is to place a cloud chest anywhere directly beneath a sky block (not indoors!). Right-click it with a balloon, and its inventory will sync-up with all cloud chests of the same balloon color. Additional chests of the same balloon color will all connect to the same storage network."]
+			id: "5209737ECC6EC599"
+			rewards: [{
+				count: 2
+				id: "4F9D60196696D136"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7FF35AF151CD8866"
+				item: "cloudstorage:cloud_chest"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5209737ECC6EC599"]
+			description: ["Static Balloons and Static Chests can be used to create a cloud inventory that can be accessed by all players. This is great for groups looking to share inventories. Static cloud blocks can be obtained by fighting cloud mobs during thunder storms. Place a static cloud block and right-click it with a balloon to charge the balloon. Craft the static cloud chest from static cloud blocks."]
+			id: "34ABF0F5257443E6"
+			rewards: [{
+				id: "0479D333C18E8CDD"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "33C6E3483B23CF98"
+					item: {
+						Count: 1b
+						id: "cloudstorage:balloon"
+						tag: {
+							static: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "678B002C4D1F8897"
+					item: "cloudstorage:static_cloud_chest"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			description: ["&eIron Chests&r adds several tiers of &bChests&r, each holding more than the last."]
+			icon: "ironchest:iron_chest"
+			id: "37FC7216C7912F45"
+			rewards: [{
+				count: 2
+				id: "200C29ED9B6FCE60"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "Bigger on the inside"
+			tasks: [{
+				id: "0723D12D3E358858"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ironchest:copper_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:iron_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:gold_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:diamond_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:crystal_chest"
+							}
+							{
+								Count: 1b
+								id: "ironchest:obsidian_chest"
+							}
+						]
+					}
+				}
+				title: "Iron Chests"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "6C31BE098E526EA5"
+			rewards: [{
+				id: "3D7B998D04119C7B"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A looters choice of storage."
+			tasks: [{
+				id: "3751D5396A7597A8"
+				item: "ironchests:iron_chest"
+				type: "item"
+			}]
+			title: "Bigger Chests"
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "5253BD48EF0933D3"
+			rewards: [{
+				id: "664DC0ACA1FB9D26"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "May the chests be shining."
+			tasks: [{
+				id: "3D30AEB50BDC4767"
+				item: "ironchests:gold_chest"
+				type: "item"
+			}]
+			title: "Even bigger chests"
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			id: "1DC5F9F7C1885BA1"
+			rewards: [{
+				id: "068DE77845ADE012"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "51B1D46624893AB3"
+				item: "ironchests:diamond_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "5D1D34E118F98212"
+			rewards: [{
+				id: "0726553A2CEB4002"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "004C0855331897D6"
+				item: "ironchests:obsidian_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "083B8A3DA9C74EF0"
+			rewards: [{
+				id: "0B9A0CC99582F0A6"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1BCBAA7D39881B8F"
+				item: "ironchests:netherite_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Bronze barrels can used to store and move 32 stacks of one item."
+				""
+				"Amount of stacks allowed increase for each tier of barrel."
+			]
+			id: "4A5B980D6C55E752"
+			rewards: [{
+				id: "5B3AE29D77E04DC4"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Another storage drawer in disguise."
+			tasks: [{
+				id: "72823E5867074DDE"
+				item: "modern_industrialization:bronze_barrel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Bronze Tanks can store up to 4 buckets each."
+				"You can use that to interact with machines and can also be placed in the world."
+				""
+				"TIP: Tanks are stackable if containing the same fluid."
+			]
+			id: "0981091E6F2AC265"
+			rewards: [{
+				id: "0FE4CD83AD3A77A8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Right-click with buckets or other tanks to transfer fluids."
+			tasks: [{
+				id: "362202D2174C0948"
+				item: "modern_industrialization:bronze_tank"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Barrels are used for mass storage of the same item. Shows count and item on front. "
+				""
+				"Tanks are used for high amounts of fluid storage."
+				"Can be used as a buffer and is movable with contents intact on break."
+				"Tanks are stackable if containing the same fluid."
+			]
+			id: "72FE1E1111857FA5"
+			subtitle: "Barrels and tanks of different sizes. You know what they are.. They have no disguises."
+			tasks: [{
+				id: "7F1FCBB4287103A3"
+				title: "Modern Industrialization"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			description: [
+				"Backpacks for increased inventory"
+				""
+				"Chests for mass storage"
+				""
+				"Barrels for buffers in automation or so you can access its inventory in tight spots."
+				""
+				"Danks for automatic portable storage and dynamic inventory block placement."
+			]
+			id: "50C1B805B85C0EE1"
+			subtitle: "Learn about the basics of storage."
+			tasks: [{
+				id: "20B5836B8EF717D6"
+				title: "Basic Storage"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -8.0d
+		}
+		{
+			id: "628D570C1E1E2314"
+			rewards: [{
+				id: "1E4101C7E0A4888C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/misc/logistics"
+						Name: "Logistics & Storage Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A5E9E582B3981D7"
+				item: "ironchests:copper_chest"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"The &bPocket Dimension Backpack&r is a technological marvel. It creates a portable hole into another dimension to store your things."
+				""
+				"In essence, it's a &6double chest you can wear&r on your back. Access it with &6control+e&r."
+			]
+			id: "71A249AB64458769"
+			rewards: [
+				{
+					id: "2785E41FDC91F101"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "cyclic:crafting_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "57FB4E07471762AB"
+					item: "statues:mooshroom_soup"
+					type: "item"
+				}
+			]
+			subtitle: "It's Bigger on the Inside!"
+			tasks: [{
+				id: "2F0832CA61A7381C"
+				item: {
+					Count: 1b
+					id: "technobauble:backpack"
+					tag: {
+						Inventory: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: [
+				"Color coded ender storage."
+				""
+				"Chests that work across dimensions."
+				""
+				"Can be color coded for security! (Right click on the block with the desired dye)."
+				""
+				"*Note: If someone else uses your color combination, they can get the contents!"
+			]
+			hide_dependency_lines: true
+			id: "13BD76F021286C41"
+			rewards: [
+				{
+					id: "4816672622D82D9A"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_bag"
+						tag: {
+							code: "000"
+							open: 0b
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7727B2E1C7CE6455"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_bucket"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "62F44109460D7836"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3992B606D4F99EA6"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7208567893B0A680"
+					item: {
+						Count: 1b
+						id: "enderchests:ender_chest"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "094EC5E1F2E20611"
+					item: {
+						Count: 1b
+						id: "endertanks:ender_tank"
+						tag: {
+							code: "000"
+							owner: "all"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Ender Storage"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: ["A way to destroy unwanted items, liquid, and power."]
+			hide_dependency_lines: true
+			id: "6DA4D5F38099949C"
+			rewards: [
+				{
+					id: "4E9CEE00613A9E9E"
+					item: "trashcans:ultimate_trash_can"
+					type: "item"
+				}
+				{
+					id: "6B90659DE72C6B09"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Getting Rid of The Excess"
+			tasks: [
+				{
+					id: "70C338A22CA0D5EE"
+					item: "trashcans:item_trash_can"
+					type: "item"
+				}
+				{
+					id: "44C79660A8B339FA"
+					item: "trashcans:liquid_trash_can"
+					type: "item"
+				}
+				{
+					id: "5581E0766E993A47"
+					item: "trashcans:energy_trash_can"
+					type: "item"
+				}
+			]
+			title: "Trash Cans"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Looking to create virtual storage using &9Refined Storage&r or &9Applied Energistics 2&r?"
+				""
+				"These are both great ways to upgrade your storage, but it is important to talk about &eNBT Items&r and the best way to store them."
+				""
+				"NBT items are items with extra tags attached to them. Enchanted items, items with durability, Apotheosis gems... these are all items with NBT tags attached to them. Because of this, they don't usually stack."
+				""
+				"When you store a lot of these into a storage system like RS or AE2, you run the chance of creating issues for your save or server."
+				""
+				"Because of this, it is best to store them in chests or bags!"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 1s
+					}]
+				}
+			}
+			id: "00DE421ADBBC57A0"
+			min_width: 300
+			rewards: [
+				{
+					id: "7372C49182EB046A"
+					item: "minecraft:chest"
+					type: "item"
+				}
+				{
+					id: "42540FAAFCCABB15"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14C65C8E79A287D5"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "43BAA6D5B1068630"
+				title: "NBT and YOU!"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: ["The &bEnchantment Library&r can &6store tons of Enchanted Books&r, and retrieve the enchantments individually in &6any level&r."]
+			hide_dependency_lines: true
+			id: "68B87680E9AC44E5"
+			rewards: [
+				{
+					count: 8
+					id: "43DF6C11552AB648"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					id: "5B63645932C996D7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "Make an Enchantment Library"
+			tasks: [{
+				id: "39566EF62DC96545"
+				item: "apotheosis:library"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			description: [
+				"The &bPocket Dimension Backpack&r is a technological marvel. It creates a portable hole into another dimension to store your things."
+				""
+				"In essence, it's a &6double chest you can wear&r on your back. Access it with &6control+e&r."
+			]
+			id: "5F379E1FE83029A7"
+			rewards: [
+				{
+					id: "019EE862130E6211"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 9
+							}
+						}
+						id: "cyclic:crafting_bag"
+					}
+					type: "item"
+				}
+				{
+					id: "7F79622224121D67"
+					item: "statues:mooshroom_soup"
+					type: "item"
+				}
+			]
+			subtitle: "It's Bigger on the Inside!"
+			tasks: [{
+				id: "750F2D521093E99B"
+				item: {
+					Count: 1b
+					id: "technobauble:backpack"
+					tag: {
+						Inventory: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Welcome to the Storage chapter!"
+				""
+				"You'll find ways to store items, as well as useful items for your storage needs!"
+				""
+				"Finding a place to store stuff is always a bit complicated, and keeping organized can be quite a task at times. Thankfully, a few mods exist to assist in this endeavor."
+				"Let's discover these mods."
+				""
+				"{@pagebreak}"
+				"Most blocks that are useful as a storage block have been tagged for search."
+				"Search for the following categories:"
+				""
+				"● $containers"
+				"● $containers/basic"
+				"● $containers/bulk"
+				"● $containers/bag"
+				"● $containers/energy"
+				"● $containers/gas"
+				"● $containers/liquid"
+			]
+			icon: "minecraft:chest"
+			id: "00000000000003FF"
+			rewards: [{
+				id: "0000000000000CA3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000400"
+				title: "Storage"
+				type: "checkmark"
+			}]
+			title: "Storage"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0000000000000400"]
+			description: ["Forgot where you left your precious diorite? Mouse over some in your inventory or JEI and press Y to locate it in nearby inventories. "]
+			icon: "naturesaura:range_visualizer"
+			id: "01BF5707AD226BDF"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "0000000000000A5E"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4B201179FF675E0A"
+				type: "checkmark"
+			}]
+			title: "Find Me"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000400"]
+			description: [
+				"Looking for a handy place to store your hammer at the forge? Tired of rummaging through chest after chest for that gear press? Place them in world instead!"
+				""
+				"Plonk allows you to place up to four stacks of items in any block space. Simply hold the item, point at a block, and press P to place. Right click to pick the items back up. "
+			]
+			icon: "create:brass_hand"
+			id: "146A00EABB0BAD60"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+				icon: "kubejs:farmers_delight"
+				id: "2D1E55B5A92B9F94"
+				player_command: false
+				title: "Farmer's Delight"
+				type: "command"
+			}]
+			tasks: [{
+				id: "000000000000040E"
+				type: "checkmark"
+			}]
+			title: "Plonk"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0000000000000400"]
+			description: [
+				"The Personal Shrinking Device can shrink one right out of sight and into the nooks and crannies of special machines. "
+				""
+				"Build your own contraption within them to suit your needs, complete with custom input and output sides. "
+				""
+				"Simply Right-Click a Compact Machine with the Personal Shrinking Device to warp inside."
+			]
+			id: "0AD2769DC173D26D"
+			rewards: [{
+				count: 2
+				id: "07BAD39E967F6B85"
+				item: "naturesaura:ender_crate"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B198B6A029D9333"
+				item: "compactmachines:personal_shrinking_device"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0AD2769DC173D26D"]
+			description: [
+				"Gather the materials for your first Compact Machine!"
+				""
+				"Compact Machines range in size from 3x3x3 to 13x13x13 blocks of internal space. "
+				""
+				"Choose the size that best fits your needs and build away!"
+			]
+			icon: "compactmachines:machine_tiny"
+			id: "3787A109AABC8921"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "3E2CA8D755178794"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "One, cut a hole in a box"
+			tasks: [{
+				icon: "compactmachines:machine_small"
+				id: "16A0C1D718EA19AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "compactmachines:machine_tiny"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_small"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_normal"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_large"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_giant"
+							}
+							{
+								Count: 1b
+								id: "compactmachines:machine_maximum"
+							}
+						]
+					}
+				}
+				title: "Compact Machines"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3787A109AABC8921"]
+			description: [
+				"Placed on the walls inside Compact Machines, Tunnels permit a connection to the outside world. "
+				""
+				"For example, place a Tunnel on a wall and right click it until it reports it is configured to the up position, then place a chest against it. Warp back outside and place a Hopper on the top of the machine and feed in a few items. They’ll be whisked away into that chest inside. Use this concept to feed items into or out of the machine, as necessary. "
+				""
+				"Of course, many other options exist for getting stuff in and out as well."
+			]
+			id: "5511E0236BA3BDCA"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "526E10A2F22FF97C"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Two, stick your junk in that box"
+			tasks: [{
+				id: "2D8BF6B60DE16FC8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:energy"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:fluid"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:item"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Tunnels"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000400"]
+			description: [
+				"Got more gadgets and gizmos than one cavern can hold? More whozits and whatzits than you know what to do with? Then its time to shove it in another dimension and hire someone to sort it for you. Just read the fine print of any contracts you sign."
+				""
+				"Occultism offers extensive storage capabilities with cross-dimensional access both manually and via automation such as pipes, hoppers, or an ME Storage Bus."
+				""
+				"Check out the Occultism chapter for more details on the process."
+			]
+			id: "662DA1135F00D6B6"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "44BA68CC5061BD0A"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			subtitle: "Wouldn't you think my collection's complete?"
+			tasks: [{
+				id: "0B58FB5EED4BBC33"
+				item: "occultism:storage_controller"
+				type: "item"
+			}]
+			title: "Dimensional Storage"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000400"]
+			description: [
+				"Far more than a simple storage solution, Applied Energetics 2 offers a full range of automation and cross dimensional transport capabilities. "
+				""
+				"Check out the dedicated AE2 chapter for more information. "
+			]
+			id: "6C528552302BCEDC"
+			min_width: 250
+			rewards: [
+				{
+					count: 16
+					id: "0D90890F782B9600"
+					item: "ae2:fluix_smart_cable"
+					random_bonus: 16
+					type: "item"
+				}
+				{
+					count: 4
+					id: "115AF38BB4ED00B6"
+					item: "ae2:logic_processor"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "181F3C0D6742E235"
+					item: "ae2:calculation_processor"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5873FC0F1B04508A"
+					item: "ae2:engineering_processor"
+					random_bonus: 4
+					type: "item"
+				}
+			]
+			subtitle: "Digital Age for Experts"
+			tasks: [{
+				id: "122D1ECB8E615692"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "Applied Energetics 2"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: [
+				"While not really storage on its own, the Entangled Block enables remote access to the block or machine it is bound to, extending the block’s capabilities to the Entangled Block. "
+				""
+				"What does this mean, exactly? Well, if the target block accepts power, power can now be fed to it through the Entangled Block. Likewise for other things such as Fluids, Items, Mekanism Gases, PNC Air and Heat, and possibly more. "
+				""
+				"The uses for these blocks are practically endless, from hiding pesky wiring out of sight, to improving throughput to a machine by exposing more faces to insert through."
+				""
+				"Bear in mind that the Entangled Block itself is still passive. If the bound machine is set to push items out to an adjacent chest, for instance, the Entangled Block will not do this. "
+				""
+				"To bind a block to the Entangled Block, Sneak Right-Click the target block with the Entangled Binder. Then simply Right-Click a placed Entangled Block. The target block will render inside of the Entangled Block when properly bound. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "entangled:block"
+				tag: { }
+			}
+			id: "0FB7A6E25F2D548C"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+				icon: "kubejs:sorcerers_delight"
+				id: "54930DB1BCAFFAFC"
+				player_command: false
+				title: "Sorcerer's Delight"
+				type: "command"
+			}]
+			subtitle: "Trading Places"
+			tasks: [
+				{
+					id: "3233A7CA900E0BE2"
+					item: {
+						Count: 1b
+						id: "entangled:block"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "2D7723E13C38D112"
+					item: {
+						Count: 1b
+						id: "entangled:item"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: [
+				"Let wanderlust take you where the wind blows and bring your home along with you for the journey. "
+				""
+				"Nomadic Tents provide a small area to keep your essentials. Build a small storage system inside with some basic machinery. Keep your bed there too if you wish; sleeping is allowed!"
+				""
+				"Craft any sized tent, then Right-Click and Hold on the ground to place the frame. Right-Click each Frame block with a Tent Mallet to form the tent. Using a Golden Tent Mallet will frame out the entire tent instantly!"
+				""
+				"To pick the tent back up, Right-Click the door once with any Tent Mallet."
+				""
+				"To enter or exit the tent, simply Right-Click or walk through the door. Enjoy your cozy new living space!"
+				""
+				"========================================"
+				""
+				"Note: Normally this mod has Tent Shovels that are used to increase the floor depth of a tent. These have been intentionally disabled, and all tents come with the floor depth maximized by default."
+				""
+				"Already have a Mega sized tent but didn’t upgrade the floor layers? Craft it together with a Wooden Shovel to max out the layers. "
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "nomadictents:mega_yurt"
+				tag: { }
+			}
+			id: "025C09686412AB3D"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+				icon: "kubejs:scavengers_delight"
+				id: "683A154EC6984812"
+				player_command: false
+				title: "Scavenger's Delight"
+				type: "command"
+			}]
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "nomadictents:tiny_yurt"
+						tag: { }
+					}
+					id: "269EA5D2111B8063"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "nomadictents:.*(yurt|tepee|bedouin|indlu|shamiyana)$"
+						}
+					}
+					title: "Nomadic Tents"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "nomadictents:mallet"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "16D5F888C22D1C21"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "nomadictents:mallet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "nomadictents:golden_mallet"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "Mallet"
+					type: "item"
+				}
+			]
+			title: "Nomadic Tents"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0AD2769DC173D26D"
+				"025C09686412AB3D"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"There’s nothing quite so frustrating as falling into the void and dying due to a bug."
+				""
+				"Things happen. Sometimes players get outside of the bounds of a Compact Machine or a Tent and end up in an awkward situation of being unable to get back again. "
+				""
+				"Enigmatica has implemented special precautions for these situations. "
+				""
+				"Just jump into the void to be teleported to your spawn point. "
+				""
+				"================================="
+				""
+				"Valid Dimensions"
+				""
+				"● &3Compact Machines&r"
+				"● &6Nomadic Tents&r"
+				"● &5The End&r"
+			]
+			icon: "pneumaticcraft:bandage"
+			id: "1881C88DD5D42696"
+			rewards: [{
+				id: "473CAA5579E95F8E"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "Don't Panic!"
+			tasks: [{
+				id: "27D76CDD3F2023A0"
+				title: "Safety First!"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+	]
+	title: "Storage"
+}

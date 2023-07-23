@@ -1,0 +1,1671 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vanillaquests"
+	group: "1CF541D7529DA9CF"
+	icon: "minecraft:grass_block"
+	id: "000000000000102A"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "minecraft:oak_log"
+			id: "000000000000102B"
+			rewards: [{
+				id: "4819CE54EE174ED3"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Punch a tree until a block of wood pops out."
+			tasks: [{
+				id: "000000000000102C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any minecraft:log"
+				type: "item"
+			}]
+			title: "Getting Wood"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Reward: 16x Cobblestone"]
+			id: "000000000000102E"
+			rewards: [{
+				count: 16
+				id: "0000000000000B50"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Acquire cobblestone."
+			tasks: [{
+				advancement: "minecraft:story/mine_stone"
+				criterion: ""
+				icon: "minecraft:cobblestone"
+				id: "000000000000102F"
+				title: "Stone Age"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["000000000000102E"]
+			description: ["The good old Stone Pickaxe."]
+			id: "0000000000001030"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "2BFF17C835B24B9B"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "4B108C057EAFFE4A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a Stone Pickaxe."
+			tasks: [{
+				advancement: "minecraft:story/upgrade_tools"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0000000000001031"
+				title: "Getting an Upgrade"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"2026E9500AC237CF"
+				"0000000000001030"
+			]
+			description: ["&7Reward: 1 EXP Level"]
+			id: "0000000000001032"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B5B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "025F269D86E87401"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "treasure_chest"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Smelt an iron ingot."
+			tasks: [{
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+				icon: "minecraft:iron_ingot"
+				id: "0000000000001033"
+				title: "Acquire Hardware"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000001032"]
+			description: ["&7Reward: 2x Treasure Chest"]
+			id: "0000000000001034"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "0000000000000BAF"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "treasure_chest"
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Construct an Iron Pickaxe. - Upgrade your pickaxe."
+			tasks: [{
+				advancement: "minecraft:story/iron_tools"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0000000000001035"
+				title: "Isn't It Iron Pick"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000001032"]
+			id: "0000000000001036"
+			rewards: [
+				{
+					id: "0000000000000B5A"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "7B583E6222B26A2F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Fill a bucket with lava."
+			tasks: [{
+				advancement: "minecraft:story/lava_bucket"
+				criterion: ""
+				icon: "minecraft:lava_bucket"
+				id: "0000000000001037"
+				title: "Hot Stuff"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000001034"]
+			id: "0000000000001038"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B53"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DDABCD2FFDFBD98"
+					item: "pickletweaks:diamond_apple"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Acquire some shiny diamonds."
+			tasks: [{
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+				icon: "minecraft:diamond"
+				id: "0000000000000028"
+				title: "Diamonds!"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["49DEF5EC79FEC30C"]
+			description: ["&7Rewards: 1x Treasure Chest \\& 1x &7Lapis Lazuli Block"]
+			id: "0000000000001039"
+			rewards: [
+				{
+					count: 2
+					id: "0000000000000B55"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "treasure_chest"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000BAE"
+					item: "minecraft:lapis_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Enchant an item at an Enchanting Table."
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:sharpness"
+							lvl: 1s
+						}]
+					}
+				}
+				id: "000000000000103A"
+				title: "Enchanter"
+				type: "advancement"
+			}]
+			title: "Enchanter"
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0000000000001032"]
+			id: "000000000000002F"
+			rewards: [{
+				count: 16
+				id: "0000000000000B4D"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Deflect a projectile with a shield."
+			tasks: [{
+				advancement: "minecraft:story/deflect_arrow"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "000000000000103B"
+				title: "Not Today, Thank You"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7DC9EDE83665F94C"]
+			description: ["&7Reward: 1 EXP Level \\& 1x Lingering Potion of Fire Resistance (45s)."]
+			id: "000000000000103C"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "0000000000000BB4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "2DEDD8DD4FDE07FA"
+					item: {
+						Count: 1b
+						id: "minecraft:lingering_potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Obtain a block of obsidian."
+			tasks: [{
+				advancement: "minecraft:story/form_obsidian"
+				criterion: ""
+				icon: "minecraft:obsidian"
+				id: "000000000000103D"
+				title: "Ice Bucket Challenge"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000001032"]
+			description: ["&7Reward: 4x Fire Charge \\& 3 EXP Levels"]
+			id: "000000000000103E"
+			rewards: [
+				{
+					auto: "disabled"
+					count: 4
+					id: "0000000000000B4E"
+					item: "minecraft:fire_charge"
+					type: "item"
+				}
+				{
+					id: "6FD9A3915329D296"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Build, light, and enter a Nether Portal."
+			tasks: [{
+				advancement: "minecraft:story/enter_the_nether"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "000000000000103F"
+				title: "We Need to Go Deeper"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000103C"]
+			description: ["&7Reward: 5x Emerald \\& 1x Mysterious Bundle"]
+			id: "0000000000001040"
+			rewards: [
+				{
+					count: 5
+					id: "52A7BBD577DDF20F"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "6B1D1C21502FB8E3"
+					item: "additionaladditions:mysterious_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Weaken and then cure a Zombie Villager."
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				icon: "minecraft:golden_apple"
+				id: "0000000000001041"
+				title: "Zombie Doctor"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4518018AFD2F74D2"]
+			description: ["&7Rewards: 3x Emerald \\& 1x Ender Eye"]
+			id: "0000000000001043"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000BB3"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "08D7B2629BF05314"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Follow an Eye of Ender."
+			tasks: [{
+				advancement: "minecraft:story/follow_ender_eye"
+				criterion: ""
+				icon: "minecraft:ender_eye"
+				id: "0000000000001044"
+				title: "Eye Spy"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0000000000001043"]
+			id: "0000000000001045"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "3C262B0BB7A80F84"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "35A8D674CE74EF8D"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Enter the End portal."
+			tasks: [{
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+				icon: "minecraft:end_stone"
+				id: "0000000000001046"
+				title: "The End?"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["000000000000102E"]
+			icon: "minecraft:furnace"
+			id: "2026E9500AC237CF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 8
+					id: "533071E38BBFC02B"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a Furnace, a really hot topic!"
+			tasks: [{
+				id: "290928BE457F8431"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Hot Topic"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000001038"]
+			description: ["&7Rewards: 5 EXP Levels \\& 3x Treasure Chest."]
+			id: "7DC9EDE83665F94C"
+			optional: true
+			rewards: [
+				{
+					id: "23503720DEA6B01D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "628532D62B23324B"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "treasure_chest"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a Diamond Pickaxe. - Upgrade your Pickaxe once again."
+			tasks: [{
+				id: "1F6ACFDE81920C23"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "It Is A Diamond Pick"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["000000000000103C"]
+			id: "4518018AFD2F74D2"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "0000000000000BB0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "7169C82D5CC6B02E"
+					item: "minecraft:iron_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Acquire an Ender Pearl."
+			tasks: [{
+				icon: "minecraft:ender_pearl"
+				id: "3363F52A664CA092"
+				item: "minecraft:ender_pearl"
+				title: "Road to the End"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["000000000000102B"]
+			id: "19A78AB9B10CA4CF"
+			rewards: [{
+				auto: "no_toast"
+				id: "0000000000000B56"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "rsquare"
+			subtitle: "Construct a Crafting Table."
+			tasks: [{
+				id: "4A9DE95691E17A2B"
+				item: "minecraft:crafting_table"
+				title: "Benchmarking"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0000000000001032"]
+			description: ["&7Rewards: 4x 'Protection I' Enchanted &7Book."]
+			id: "7148D55BA6C4B8F3"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "6596C4A00C464A56"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:protection"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Construct a full set of Iron Armor."
+			tasks: [
+				{
+					id: "13FD2167A5E90F84"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "78C65AB2DC7BC8F8"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "000000000000014A"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44E1EE9F53589256"
+					item: {
+						Count: 1b
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Iron Man"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000001038"]
+			description: ["Diamond armor saves lives. ..Atleast in Vanilla.."]
+			id: "6007B23951D8A369"
+			optional: true
+			rewards: [
+				{
+					id: "0000000000000B5D"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0000000000000BAD"
+					item: "minecraft:gold_block"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a full set of Diamond Armor."
+			tasks: [
+				{
+					id: "0A7A1E74348C40F0"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4C871D7D6BBC38A7"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72CB5AECCD15E5A5"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4427CEC871839D95"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Shiny Jewelry"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2026E9500AC237CF"]
+			description: [
+				"This is an upgrade to the furnace, it smelts items twice as fast."
+				" "
+				"However it'll only smelt Ores \\& some other items."
+				" "
+				"&7Rewards: 1 EXP Level \\& 2x Iron Ingot"
+			]
+			id: "46E5995066A0E664"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B58"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "496B0DBD71808BA9"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a Blast Furnace."
+			tasks: [{
+				id: "53F3875D31B96EE4"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Blasting"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2026E9500AC237CF"]
+			id: "50ED1A174451BACF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B59"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "338DB723D5AC79DF"
+					item: "croptopia:banana_nut_bread"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Construct a Smoker. An upgrade to the Furnace, cooks food twice as fast."
+			tasks: [{
+				id: "56DF219B855850A7"
+				item: "minecraft:smoker"
+				type: "item"
+			}]
+			title: "Smoking"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["000000000000103C"]
+			description: ["&7Reward: 16x Bottle o' Enchanting."]
+			id: "49DEF5EC79FEC30C"
+			rewards: [
+				{
+					count: 16
+					id: "1833F18A05ADA9FD"
+					item: "minecraft:experience_bottle"
+					type: "item"
+				}
+				{
+					id: "4A1841698365BB56"
+					item: "additionaladditions:mysterious_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Obtain an enchanting table, and begin to unveil the mystery."
+			tasks: [{
+				id: "61DCD2059F721472"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "The Secrets of Enchanting"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["49DEF5EC79FEC30C"]
+			description: [
+				"&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"
+				" "
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "5B598BB19C766C3A"
+			rewards: [
+				{
+					id: "431E6485FB82EFB5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0AD5433880132F1E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "An upgrade to the Enchanting Table, choose your own enchantments."
+			tasks: [{
+				id: "227DB2E549C6BA2D"
+				item: "enchantinginfuser:enchanting_infuser"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5B598BB19C766C3A"]
+			description: [
+				"&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"
+				""
+				"&7Reward: 1x Loot Bundle"
+			]
+			id: "6A821BA2F15F9AD6"
+			rewards: [
+				{
+					count: 2
+					id: "4D8BF7774AD4EF12"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2705CA681943E14A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "An upgrade to the Basic Enchanting Infuser, cheaper enchantment cost and more powerful."
+			tasks: [{
+				id: "30D791CB14CAB09D"
+				item: "enchantinginfuser:advanced_enchanting_infuser"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Rewards: 1 EXP Level \\& 2x Bread"]
+			id: "00000000000000D7"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B83"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "0000000000000BF7"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			subtitle: "Tame an animal."
+			tasks: [{
+				advancement: "minecraft:husbandry/tame_an_animal"
+				criterion: ""
+				icon: "minecraft:lead"
+				id: "00000000000000D8"
+				title: "Best Friends Forever"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Reward: 1x Tropical Fish Spawn Egg \\& &71x 'Luck of the Sea I' Enchantment &7Book"]
+			id: "00000000000000D9"
+			rewards: [
+				{
+					id: "0000000000000B92"
+					item: "minecraft:tropical_fish_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "0000000000000BBD"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:luck_of_the_sea"
+								lvl: 1
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Catch a fish!"
+			tasks: [{
+				advancement: "minecraft:husbandry/fishy_business"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00000000000000DA"
+				title: "Fishy Business"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000001039"]
+			description: ["&7Rewards: 1x BEEtroot \\& 4x BEEtroot Soup."]
+			id: "00000000000000DB"
+			rewards: [
+				{
+					id: "0000000000000B7F"
+					item: "minecraft:beetroot"
+					title: "BEEtroot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "482F060C45E85F3B"
+					item: {
+						Count: 1b
+						id: "minecraft:beetroot_soup"
+						tag: {
+							display: {
+								Name: "{\"text\":\"BEEtroot Soup\"}"
+							}
+						}
+					}
+					title: "BEEtroot Soup"
+					type: "item"
+				}
+			]
+			subtitle: "Move a Bee Nest, with 3 bees inside, using Silk Touch."
+			tasks: [{
+				advancement: "minecraft:husbandry/silk_touch_nest"
+				criterion: ""
+				icon: "minecraft:bee_nest"
+				id: "00000000000000DC"
+				title: "Total Beelocation"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["00000000000000E1"]
+			description: ["&7Rewards: 3 EXP Levels \\& 2x Carrot \\& &72x Potato"]
+			id: "00000000000000DD"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000BBF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0000000000000BF8"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0000000000000BF9"
+					item: "minecraft:potato"
+					type: "item"
+				}
+			]
+			subtitle: "Breed two animals together."
+			tasks: [{
+				advancement: "minecraft:husbandry/breed_an_animal"
+				criterion: ""
+				icon: "minecraft:wheat"
+				id: "00000000000000DE"
+				title: "The Parrots and the Bats"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Reward: 2 EXP Levels \\& 1x Bee Spawn &7Egg"]
+			id: "00000000000000DF"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B80"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0000000000000B93"
+					item: "minecraft:bee_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "Use a Campfire to collect Honey from a Beehive using a Bottle without aggravating the bees."
+			tasks: [{
+				advancement: "minecraft:husbandry/safely_harvest_honey"
+				criterion: ""
+				icon: "minecraft:honey_bottle"
+				id: "00000000000000E0"
+				title: "Bee Our Guest"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000111"]
+			description: ["&7Rewards: 1x Melon Seed, 1x Pumpkin &7Seed, 1x Beetroot Seed \\& 1x Wheat &7Seed"]
+			id: "00000000000000E1"
+			rewards: [
+				{
+					id: "0000000000000B79"
+					item: "minecraft:melon_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000B7A"
+					item: "minecraft:pumpkin_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000B7B"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000B7C"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+			]
+			subtitle: "Plant a seed and watch it grow."
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				icon: "minecraft:wheat_seeds"
+				id: "00000000000000E2"
+				title: "A Seedy Place"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2EDA5A6575CAC4CC"]
+			description: ["&7Reward: 12x Bacon Sandwich"]
+			id: "00000000000000E3"
+			rewards: [{
+				count: 12
+				id: "0000000000000B76"
+				item: "farmersdelight:bacon_sandwich"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Eat everything that is edible even if it's not good for you.."
+			tasks: [{
+				advancement: "minecraft:husbandry/balanced_diet"
+				criterion: ""
+				icon: "minecraft:apple"
+				id: "00000000000000E4"
+				title: "A Balanced Diet"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"000000000000103C"
+				"00000000000000E1"
+			]
+			description: ["&7Reward: 1x Netherite Ingot"]
+			id: "00000000000000E5"
+			rewards: [{
+				id: "0000000000000071"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			subtitle: "Use a Netherite ingot to upgrade a hoe, and then reevaluate your life choices"
+			tasks: [{
+				advancement: "minecraft:husbandry/obtain_netherite_hoe"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "00000000000000E6"
+				title: "Serious Dedication"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"00000000000000D9"
+				"0000000000001032"
+			]
+			description: ["&7Reward 1x Fishing Rod"]
+			id: "00000000000000E7"
+			rewards: [{
+				id: "0000000000000B75"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Catch a fish... without a fishing rod!"
+			tasks: [{
+				advancement: "minecraft:husbandry/tactical_fishing"
+				criterion: ""
+				icon: "minecraft:pufferfish_bucket"
+				id: "00000000000000E8"
+				title: "Tactical Fishing"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000000D9"]
+			description: ["&7Reward: 6x Catfish \\& 2 EXP Levels."]
+			id: "00000000000000E9"
+			rewards: [
+				{
+					count: 6
+					id: "4A30C660DA6C4EDD"
+					item: "aquaculture:catfish"
+					type: "item"
+				}
+				{
+					id: "6589B8EDCF71F023"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "circle"
+			subtitle: "Tame all cat variants!"
+			tasks: [{
+				advancement: "minecraft:husbandry/complete_catalogue"
+				criterion: ""
+				icon: "minecraft:cod"
+				id: "00000000000000EA"
+				title: "A Complete Catalogue"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Rewards: 10 EXP Levels \\& 1x Enchanted Golden Apple."]
+			id: "00000000000000EB"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B81"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5BAE368595121876"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+			]
+			shape: "heart"
+			subtitle: "Breed all the animals!"
+			tasks: [{
+				advancement: "minecraft:husbandry/bred_all_animals"
+				criterion: ""
+				icon: "minecraft:golden_carrot"
+				id: "00000000000000EC"
+				title: "Two by Two"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: ["&7Reward: 1 EXP Level"]
+			id: "0000000000000111"
+			optional: true
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B7E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 16
+					id: "00000000000013E1"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+			]
+			subtitle: "Construct a Wooden Hoe, time to farm!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:wooden_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0000000000000112"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:hoes"
+					}
+				}
+				title: "Time to Farm!"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["00000000000000DD"]
+			id: "0000000000000114"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "0000000000000B78"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "23D9D998573F1819"
+					item: "croptopia:cheese_cake"
+					type: "item"
+				}
+			]
+			subtitle: "The cake is a lie! .. or is it?"
+			tasks: [{
+				icon: "minecraft:cake"
+				id: "0000000000000115"
+				item: "minecraft:cake"
+				title: "The Lie"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1BDB2D01AAC2D888"]
+			description: [
+				""
+				"&7Rewards: Another pet Axolotl \\& 1 EXP Level."
+			]
+			id: "3584CC8CFC5A90A2"
+			rewards: [
+				{
+					id: "55306F5AEFE99FF6"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+				{
+					id: "696B4D26A5CBCF96"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Catch an Axolotl in a bucket."
+			tasks: [{
+				advancement: "minecraft:husbandry/axolotl_in_a_bucket"
+				criterion: ""
+				id: "7C8EF86E6D2BE883"
+				title: "The Cutest Predator"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["00000000000000D9"]
+			description: [
+				""
+				"&7Rewards: 1x Golden Apple \\& 2 EXP Levels."
+			]
+			id: "1BDB2D01AAC2D888"
+			rewards: [
+				{
+					id: "3B7A8EB0201CAA98"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+				{
+					id: "13227A8CE463F16F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Team up with an Axolotl and win a fight."
+			tasks: [{
+				advancement: "minecraft:husbandry/kill_axolotl_target"
+				criterion: ""
+				id: "5C3922877D59840C"
+				title: "The Healing Power of Friendship"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				""
+				"&7Reward: 4x Glow Ink Sac"
+			]
+			id: "50C180B314D690EB"
+			rewards: [{
+				count: 4
+				id: "7E972B312D6527F1"
+				item: "minecraft:glow_ink_sac"
+				type: "item"
+			}]
+			subtitle: "Make the text of a sign you placed glow beautifully!"
+			tasks: [{
+				advancement: "minecraft:husbandry/make_a_sign_glow"
+				criterion: ""
+				id: "6253821B402AF041"
+				title: "Glow and Behold!"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			description: [
+				""
+				"&7Reward: 1x \"Oar\" \\& 2 EXP Levels."
+			]
+			id: "1BFA7811C9D23925"
+			rewards: [
+				{
+					id: "35125A4CEE70BD40"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Oar\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D5C2032ED78A697"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Get in a Boat and float with your bestest friend Goat!"
+			tasks: [{
+				advancement: "minecraft:husbandry/ride_a_boat_with_a_goat"
+				criterion: ""
+				id: "004F1AF94BEC62B7"
+				title: "Whatever Floats Your Goat!"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["00000000000000DF"]
+			id: "2AD035937D039FFB"
+			rewards: [{
+				id: "44011593B229E4D2"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			subtitle: "Apply Honeycomb to a Copper block!"
+			tasks: [{
+				advancement: "minecraft:husbandry/wax_on"
+				criterion: ""
+				id: "56C90D4F0B98929F"
+				title: "Wax On"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2AD035937D039FFB"]
+			description: ["&7Reward: 2 EXP Levels."]
+			id: "6B1CCE3524A10D79"
+			rewards: [{
+				id: "6173812E8BD67374"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Scape Wax off of a Copper block!"
+			tasks: [{
+				advancement: "minecraft:husbandry/wax_off"
+				criterion: ""
+				id: "32433B38788EBC00"
+				title: "Wax Off"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000114"]
+			description: ["&7> An alternative way of getting to The End!"]
+			id: "6FCB27F452C41CFF"
+			invisible: true
+			optional: true
+			size: 0.75d
+			subtitle: "Craft an End Cake."
+			tasks: [{
+				id: "5D9308FF23407F9A"
+				item: "telepastries:end_cake"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.625d
+		}
+		{
+			dependencies: ["0000000000000114"]
+			description: ["&7> An alternative way of getting to The Nether!"]
+			id: "5050D8ED7BE4761F"
+			invisible: true
+			optional: true
+			size: 0.75d
+			subtitle: "Craft a Nether Cake."
+			tasks: [{
+				id: "050E7A6BEF66FB4D"
+				item: "telepastries:nether_cake"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.375d
+		}
+		{
+			dependencies: ["0000000000000114"]
+			id: "0C72536B062884FE"
+			rewards: [
+				{
+					count: 2
+					id: "0FB18F72823C3F26"
+					item: "croptopia:fruit_cake"
+					type: "item"
+				}
+				{
+					id: "283FDE4DA9896DDF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			subtitle: "Have an Allay drop a Cake at a Note Block"
+			tasks: [{
+				advancement: "minecraft:husbandry/allay_deliver_cake_to_note_block"
+				criterion: ""
+				id: "6BDF6F7F466DB500"
+				title: "Birthday Song"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19A78AB9B10CA4CF"]
+			id: "71993D7941961607"
+			rewards: [
+				{
+					id: "68A1F744A7C3F2FF"
+					item: "croptopia:fried_frog_legs"
+					type: "item"
+				}
+				{
+					id: "08F227439BD9C3FD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			subtitle: "Catch a Tadpole in a Bucket"
+			tasks: [{
+				advancement: "minecraft:husbandry/tadpole_in_a_bucket"
+				criterion: ""
+				id: "3B7141C37A78DFDB"
+				title: "Bukkit Bukkit"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71993D7941961607"]
+			id: "598EEE2E20A351DE"
+			rewards: [
+				{
+					id: "05D8594FDBE4E4D0"
+					item: {
+						Count: 1b
+						id: "trophymanager:trophy"
+						tag: {
+							BaseBlock: "minecraft:air"
+							Name: "Frog Trophy"
+							OffsetY: 0.0d
+							Scale: 1.0d
+							TrophyEntity: {
+								entityType: "minecraft:frog"
+							}
+							TrophyType: "entity"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24A3EBAA433A6061"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Get each Frog variant on a Lead"
+			tasks: [{
+				advancement: "minecraft:husbandry/leash_all_frog_variants"
+				criterion: ""
+				id: "4DCCFE06C9A3A81F"
+				title: "When the Squad Hops into Town"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["598EEE2E20A351DE"]
+			id: "06A3FE9BF18A143D"
+			rewards: [
+				{
+					id: "46F342BCA9851383"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 2
+					id: "3D39118C984CD548"
+					item: "minecraft:frogspawn"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "399A5EAE61D4C778"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Have all Froglights in your inventory"
+			tasks: [{
+				advancement: "minecraft:husbandry/froglights"
+				criterion: ""
+				id: "6EA8EBE441084028"
+				title: "With Our Powers Combined!"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["00000000000000DD"]
+			id: "2EDA5A6575CAC4CC"
+			rewards: [
+				{
+					count: 3
+					id: "48490810B7823C64"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "67DEE66F19DCACA9"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0A93F7E1B945F3AE"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			subtitle: "Have an Allay deliver items to you"
+			tasks: [{
+				advancement: "minecraft:husbandry/allay_deliver_item_to_player"
+				criterion: ""
+				id: "234D985D2B928DD2"
+				title: "You've Got a Friend in Me"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+	title: "Vanilla+"
+}

@@ -1,0 +1,762 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "getting_started"
+	group: "729FF814D7E0104B"
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:writable_book"
+	id: "77498621DD383E8B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&bThis chapter &rwill &6introduce &ryou trough some basics features."
+				"Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world."
+				"Do not eat the bread until the tutorial is finished."
+				""
+				"&eAll of Fabric 6 &roffers the following:"
+				""
+				"- &bChallenges"
+				"- &bLearning Mods"
+				"- &bAdventuring"
+				""
+				"&6The adventures are ahead&r!"
+				""
+				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
+				""
+				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				""
+				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				""
+				"The Exploration questline's purpose is to show what's available in the pack."
+				""
+				"These chapters are a great place to start if you're new to Modded Minecraft or if you're in the need for inspiration."
+				""
+				"It currently has the following chapters:"
+				""
+				"● Adventure"
+				"● Building"
+				"● Equipment"
+				"● Redstone and Logic"
+				"● Storage"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:book"
+				tag: {
+					Enchantments: [{
+						id: "aqua_affinity"
+						lvl: 1
+					}]
+				}
+			}
+			id: "175F5611FB7716A4"
+			rewards: [
+				{
+					id: "300CDF28987696BC"
+					item: {
+						Count: 1b
+						id: "inmis:baby_backpack"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0DF4A7B597F2F83C"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "A Whole New World!"
+			tasks: [{
+				disable_toast: true
+				icon: "kubejs:aof6_logo"
+				id: "25B2DFAFD351900E"
+				title: "Welcome to All of Fabric 6"
+				type: "checkmark"
+			}]
+			title: "&eWelcome!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
+				""
+				"You can change this keybind &rby going into &6options &rand change the &bFTB Ultimine &rkeybinds."
+			]
+			id: "7050DE96E151D1D1"
+			rewards: [{
+				id: "5A1CCCAA04991325"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Ores Be Gone!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "520CE3437306804D"
+				title: "Excavate"
+				type: "checkmark"
+			}]
+			title: "&bExcavate"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"Mods are split into 4 categories:"
+				""
+				"- &bTechnology"
+				"- &bMagic"
+				"- &bUtilities"
+				"- &bLogistics"
+				""
+				"Respectively, &6each chapter will guide you through progression&r."
+				""
+				"Certain chapters will have &btips and tricks &ron how to ease your adventures with useful trinkets and gadgets."
+				""
+				"{@pagebreak}"
+				"The Learning Mods chapters are designed to help you get started with large content mods and are broken up into Tech and Magic sections. They will explain roughly how to progress and how to work with the blocks and concepts present in the mod. "
+				""
+				"These chapters cover a lot of ground, but the don’t cover everything. So, be sure to explore the manuals for those mods that have them."
+			]
+			icon: "ae2:certus_quartz_wrench"
+			id: "257EAB9268907E1D"
+			subtitle: "Feel lost? Do not worry!"
+			tasks: [{
+				id: "60A1EB763CF25699"
+				title: "Learning Mods"
+				type: "checkmark"
+			}]
+			title: "&9Learning Mods"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"How to use an item? &6Hover over the item in REI &rand press &b\"U\" &rthis will show you the uses, pay attention to the tabs."
+				""
+				"Dont know how to craft an item? &6Hover over the item &rand press &b\"R\"&r."
+				""
+				"Sometimes you have to start out processing a nugget, instead of &ban ingot &ror &ba block."
+				""
+				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
+			]
+			icon: "reliquary:witch_hat"
+			id: "2AB91711E9E7B298"
+			rewards: [{
+				id: "30ECD8D3DDAC12E2"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A recipe is a story that ends with a good meal."
+			tasks: [{
+				id: "0657F4EC97E5ACAC"
+				title: "I know how to use U and R"
+				type: "checkmark"
+			}]
+			title: "&cRecipe Wizardry"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"The &bTraveler's Backpack &rcan provide about 45 inventory slots and 2 fluid tanks, which each can store up to 4 buckets of fluid or even 16 bottles of potions."
+				""
+				"All &binventory slots &rand &btanks &6can be accessed via external pipes&r."
+				""
+				"&bThe Backpack &ralso &6provides special buttons &r- &bsort, quick stack &rand &btransfer &rto manage inventory!"
+			]
+			id: "5A382E13722186FA"
+			rewards: [{
+				id: "38AC5FFB000778CC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Inventory cramped? Fear not!"
+			tasks: [{
+				id: "418AF38E1BF686D8"
+				item: {
+					Count: 1b
+					id: "travelersbackpack:standard"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&3Don't be a tourist, be a traveler"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"&b- Fancy attack animations"
+				"This mod includes several one-handed, two-handed and dual wielded attack animation resources."
+				""
+				"&b- Accurate weapon collision detection"
+				"No more pixel hunting with your cursor, you can now just swing your weapon and hit whatever is in the way. Enjoy playing in third person view."
+				""
+				"&b- Natural look and feel"
+				"Attacks have an upswing phase before the hit is actually performed, like in real life."
+				""
+				"&b- Weapon combos"
+				"Some weapons have a sequence of different attacks."
+				""
+				"&b- Dual wield any combination"
+				"Dual wield any set of one handed weapons! Use the attack hotkey to alternately attack with main-hand and off-hand."
+				""
+				"&b- Hold to attack"
+				"Hold the attack hotkey to spam attacks on cooldown."
+			]
+			icon: "mysticalagriculture:awakened_supremium_sword"
+			id: "4D90C42B6E294337"
+			rewards: [{
+				id: "2EEA85D214657976"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Easy, spectacular and fun melee combat system."
+			tasks: [{
+				id: "6186C900B11AF9C7"
+				title: "Art Of Combat"
+				type: "checkmark"
+			}]
+			title: "&6Art of Combat"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"One of the most important factors in your combat success is your diet."
+				""
+				"Monsters hit hard and fast, and your health is sure to take a beating."
+				""
+				"Eating meals with high saturation will ensure that your HP regen lasts longer, and this can make the difference between life and death."
+				""
+				"Golden foods can help even more in this regard, though at a high price."
+				""
+				"Additionally, the diversity of your diet will apply buffs which can help you survive."
+				""
+				"See the \"Cooking and Farming\" quest tab for meal options."
+				""
+				"The Food Book (craftable, and obtained from this quest) will show you your current and possible meal buffs."
+			]
+			icon: "minecraft:carrot"
+			id: "2053C2EB9BE831AD"
+			min_width: 400
+			rewards: [{
+				count: 3
+				id: "6763E838B1A44FFB"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			subtitle: "Through eating diverse foods you unlock more hearts."
+			tasks: [{
+				id: "4EB555F43B761736"
+				title: "Carrot Mode"
+				type: "checkmark"
+			}]
+			title: "&6Carrot Mode"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				""
+				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				""
+				"When you click the square at the top left of your player display, your &9Curios &rslots will become visible."
+				"Some items, such as Elytras and Totems can be equipped here."
+				""
+				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "65B59BF476F6C2EB"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "3E4AB93FC9D1D2D9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "553A398736E5B387"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&2Inventory"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"&6Tasks&r are things that need to be done to complete a quest."
+				"If a &9task&r is an item, clicking on it will show its &9recipe&r."
+				""
+				"&6Rewards&r are what you get after completing all &9tasks&r, making possible claim the reward by clicking it."
+				""
+				"The &9pin icon&r at the top right will pin a quest to your screen."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbquests:textures/item/book.png"
+				}
+			}
+			id: "175099CF5696829E"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "7804C40B571C4E02"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "21428FE253D34D4E"
+				title: "Quests"
+				type: "checkmark"
+			}]
+			title: "&6Quests"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"At the bottom of the inventory, you may have noticed a search bar."
+				""
+				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				""
+				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				""
+				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
+				""
+				"At the bottom of the inventory, you may have noticed a search bar."
+				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
+				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Create"
+				""
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				""
+				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
+				""
+				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
+				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "jei:textures/gui/icons/config_button_cheat.png"
+				}
+			}
+			id: "70CA08B131B71B25"
+			rewards: [{
+				id: "0C4663E485D11149"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "26C68FE475694AB9"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&bJust Enough Items (JEI)"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175F5611FB7716A4"]
+			description: [
+				"Press &bR &rwhile hovering over an item to view its Recipe"
+				""
+				"Press &bU &rwhile hovering over an item to view its Uses"
+				""
+				"Press &bLeft Alt &rto Crawl"
+				""
+				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
+				""
+				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
+				""
+				"Press &bC &rto Zoom"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bU&r to see Player Death History"
+				""
+				"Press &bY&r to manage waypoints"
+				""
+				"Press &bO&r to view the Claiming Screen"
+				""
+				"Press &bB&r to open an equipped backpack (NARRATOR CAN BE UNBOUND IN CONTROLS)"
+				""
+				"Press &bH&r to create a waypoint "
+				"{@pagebreak}"
+				""
+				"Press &bX &rto Roll"
+				""
+				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				""
+				"Press &bI&r to open and configure the Emote Wheel. You will need to add emotes to the wheel for them to show up here."
+				""
+				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
+				""
+				"Press &bH &rto Activate Origin Ability"
+				""
+				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
+				""
+				"Press &bC &rto Zoom with a Spyglass in your inventory"
+				""
+				"Press &bM &rto open the World Map"
+				""
+				"Press &bO &rto view Origin Information"
+				""
+				"Press &b, &rto activate Secondary Origin Ability, if you have one"
+				""
+				"Press &bR &rto Ping"
+				""
+				"Press &bF7 &rto configure Pings"
+				""
+				"Press &bF8 &rto configure footsteps"
+				""
+				"Press &bJ&r to open the ShowMeYourSkin armor overlay editor"
+				""
+				"{@pagebreak}"
+				"Press &bH&r to open and configure the Emote Wheel. You will need to add emotes to the wheel for them to show up here."
+				""
+				"Press &bI&r to open your Crafting Table without placing it first"
+				""
+				"Press &bB&r while a Backpack is on your Back Slot to open it"
+				""
+				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
+				""
+				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/player.png"
+				}
+			}
+			id: "5BB3F27B8A908D13"
+			invisible_until_tasks: 1
+			rewards: [{
+				id: "2DA9241AD675A72D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description! Make sure to scroll down."
+			tasks: [{
+				id: "1A0422ACE4735AB7"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&9Important Controls"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F5D6018C2E35C3D"]
+			description: [
+				"The tutorial is now &afinished&r!"
+				""
+				"&l&aMORE QUESTS!&a&l"
+				"&f&rTo view the rest of the quests, leave this quest screen and put your cursor to the left of the main quest page where the arrow is."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/check.png"
+				}
+			}
+			id: "48CC33AC8E950BB9"
+			rewards: [{
+				id: "66A4D13E5B78275D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Read my description!"
+			tasks: [{
+				id: "4DB4AB80141618CC"
+				title: "Click me!"
+				type: "checkmark"
+			}]
+			title: "&aTutorial Complete!"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: [
+				"If you're new to modded Minecraft, it can be a bit daunting to figure out what's what."
+				""
+				"That's why we made a book, to sum up the basics and give you a solid baseline to begin your modded journey!"
+			]
+			id: "00000000000006E9"
+			rewards: [{
+				id: "00000000000006EB"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+				title: "Modded for Dummies"
+				type: "item"
+			}]
+			subtitle: "Hey, listen!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "patchouli:modded_for_dummies"
+					}
+				}
+				id: "00000000000006EA"
+				title: "Hey, listen!"
+				type: "checkmark"
+			}]
+			title: "Modded for Dummies"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["175099CF5696829E"]
+			description: [
+				"A vast repository of knowledge in the palm of your hands. This tome comes pre-populated with the manuals for each mod so they’re always at the ready. "
+				""
+				"● Right-Click to open the menu and choose a book. Once chosen, the Eccentric Tome transforms and becomes that book, for all intents and purposes. "
+				""
+				"● Left-Click the air to revert it back to the Eccentric Tome."
+				""
+				"● When transformed, Sneak and press Throw to remove a given book. "
+				""
+				"● Craft the Tome with a book to merge them once more. "
+				""
+				"Note: If ever this tome is lost, a new pre-filled one may be crafted at any time."
+				""
+				"Warning: The Blue Skies book is left out of the Eccentric Tome as it gets consumed on use, getting added to the Inventory screen instead."
+				""
+				"Lost your book? Just craft a new one, it’ll come pre-filled with manuals."
+			]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
+			id: "1F5D6018C2E35C3D"
+			min_width: 250
+			rewards: [{
+				id: "68C0A864D96B2AC8"
+				item: {
+					Count: 1b
+					id: "eccentrictome:tome"
+					tag: {
+						"eccentrictome:mods": {
+							ae2: {
+								0: {
+									Count: 1.0d
+									id: "ae2:guide"
+								}
+							}
+							apotheosis: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "apotheosis:apoth_chronicle"
+									}
+								}
+							}
+							ars_nouveau: {
+								0: {
+									Count: 1.0d
+									id: "ars_nouveau:worn_notebook"
+								}
+							}
+							engineersdecor: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "engineersdecor:engineersdecor_manual"
+									}
+								}
+							}
+							ftbquests: {
+								0: {
+									Count: 1.0d
+									id: "ftbquests:book"
+								}
+							}
+							immersiveengineering: {
+								0: {
+									Count: 1.0d
+									id: "immersiveengineering:manual"
+								}
+							}
+							industrialforegoing: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "industrialforegoing:industrial_foregoing"
+									}
+								}
+							}
+							littlelogistics: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "littlelogistics:guide"
+									}
+								}
+							}
+							modonomicon: {
+								0: {
+									Count: 1.0d
+									id: "modonomicon:modonomicon"
+									tag: {
+										"modonomicon:book_id": "theurgy:the_hermetica"
+									}
+								}
+							}
+							modularrouters: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "modularrouters:book"
+									}
+								}
+							}
+							naturesaura: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							occultism: {
+								0: {
+									Count: 1.0d
+									id: "occultism:dictionary_of_spirits"
+									tag: {
+										"modonomicon:book_id": "occultism:dictionary_of_spirits"
+									}
+								}
+							}
+							pneumaticcraft: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "pneumaticcraft:book"
+									}
+								}
+							}
+							powah: {
+								0: {
+									Count: 1.0d
+									id: "powah:book"
+								}
+							}
+							rftoolsbase: {
+								0: {
+									Count: 1.0d
+									id: "rftoolsbase:manual"
+								}
+							}
+							sushigocrafting: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "sushigocrafting:sushigocrafting"
+									}
+								}
+							}
+							thermal: {
+								0: {
+									Count: 1.0d
+									id: "patchouli:guide_book"
+									tag: {
+										"patchouli:book": "thermal:guidebook"
+									}
+								}
+							}
+						}
+						"eccentrictome:version": 1.0d
+					}
+				}
+				only_one: true
+				title: "Full Eccentric Tome"
+				type: "item"
+			}]
+			subtitle: "Don't Panic"
+			tasks: [{
+				id: "7781E2B735D79B56"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "Eccentric Tome"
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+	title: "&dGetting Started"
+}

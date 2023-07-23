@@ -1,0 +1,866 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reliquary"
+	group: "76C22988F9A7C9CE"
+	icon: {
+		Count: 1b
+		id: "reliquary:mercy_cross"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0000000000000985"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0000000000000988"
+			rewards: [
+				{
+					id: "00000000000009AE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "02216CCA288CCA24"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Cross of Mercy is a weapon that deals extra damage to undead mobs."
+			tasks: [{
+				id: "0000000000000989"
+				item: {
+					Count: 1b
+					id: "reliquary:mercy_cross"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "000000000000098A"
+			rewards: [
+				{
+					id: "00000000000009AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "373D0972F44A803C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Death protection vial - shatters when the player would die, restores a bit of health and buffs the player with some helpful effects."
+			tasks: [{
+				id: "000000000000098B"
+				item: "reliquary:angelheart_vial"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "000000000000098C"
+			rewards: [
+				{
+					id: "00000000000009B0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "29F2963E850C3F8E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Angelic Feather protects against falling damage. On a fall that would hurt the player it instead drains players hunger."
+			tasks: [{
+				id: "000000000000098D"
+				item: "reliquary:angelic_feather"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "000000000000098E"
+			rewards: [
+				{
+					id: "00000000000009B1"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6DD8EAC023B10EA6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Coin of Fortune when turned on teleports items and experience within range to player. If right click is held with the coin in hand the range in which items and experience are teleported is higher"
+			tasks: [{
+				id: "000000000000098F"
+				item: "reliquary:fortune_coin"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			description: [
+				"In ender eye mode the ender pearls thrown would go further and faster. In both modes when the ender pearl hits it teleports player in much safer way than vanilla ender pearl."
+				" "
+				"In wraith node mode ender staff teleports player to the wraith node that it is set to (by right clicking with the ender staff on the wraith node)."
+			]
+			id: "0000000000000990"
+			rewards: [
+				{
+					id: "00000000000009B2"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6049DC1CEA3AD0C1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Ender Staff is a teleportation tool. In ender pearl mode it allows throwing ender pearls in the similar way that you would do with just ender pearls in hand."
+			tasks: [{
+				id: "0000000000000991"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:ender_pearl"
+								}
+							}]
+						}
+					}
+					id: "reliquary:ender_staff"
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"39CDF2D6112F65EE"
+				"66F5844A83B1EA88"
+			]
+			description: [
+				"When turned on it drains these from player's inventory and it also freezes lava (into obsidian) and water (into packed ice) within player's reach so it allows walking on lava and water."
+				" "
+				"These frozen blocks will quickly melt back once outside of the range."
+			]
+			hide_dependency_lines: true
+			id: "0000000000000992"
+			rewards: [
+				{
+					id: "00000000000009B3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56BFDBDDBFAA5093"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Glacial Staff is a ranged weapon that shoots snowballs out of its charge."
+			tasks: [{
+				id: "0000000000000993"
+				item: "reliquary:glacial_staff"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000998"]
+			id: "0000000000000994"
+			rewards: [
+				{
+					id: "00000000000009B4"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6D3AABDD41AAF32B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.85d
+			subtitle: "Infernal Chalice holds lava and based on mode it is in you can use it to place or remove lava in the world."
+			tasks: [{
+				id: "0000000000000995"
+				item: "reliquary:infernal_chalice"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			id: "0000000000000996"
+			rewards: [
+				{
+					id: "00000000000009B5"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "30EE7BB3A14F23F6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Lantern of Paranoia when on searches for dark spots around the player and places torches in those either from player's inventory or from Sojourner's Staff."
+			tasks: [{
+				id: "0000000000000997"
+				item: "reliquary:lantern_of_paranoia"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"So you can use it to place or remove water in the world, but it can as well be used with Apothecary Cauldron, Botania's Petal Apothecary and Thaumcraft's Crucible."
+				" "
+				"You can also use it to refill your hunger in exchange for some health."
+			]
+			id: "0000000000000998"
+			rewards: [
+				{
+					id: "00000000000009B6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "023A7757248FD563"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Emperor's Chalice is both infinite water bucket and empty bucket based on what mode it is in."
+			tasks: [{
+				id: "0000000000000999"
+				item: "reliquary:emperor_chalice"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000098C"]
+			description: ["In case the player would die otherwise it heals the player and buffs them with some helpful effects."]
+			id: "000000000000099A"
+			rewards: [
+				{
+					id: "00000000000009B7"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4C8A1BA1166C7F3A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.85d
+			subtitle: "Phoenix Down is an upgraded version of Angelic Feather. It also prevents falling damage in exchange for player's hunger, but it also can prevent death."
+			tasks: [{
+				id: "000000000000099B"
+				item: "reliquary:phoenix_down"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["000000000000098E"]
+			id: "000000000000099C"
+			rewards: [
+				{
+					id: "00000000000009B8"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2DBED45240F06515"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.85d
+			subtitle: "Hero's Medallion stores experience. When turned on it drains it from player. When turned off player can take one level out of it per right click."
+			tasks: [{
+				id: "000000000000099D"
+				item: "reliquary:hero_medallion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "000000000000099E"
+			rewards: [
+				{
+					id: "00000000000009B9"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3B442096118C94D8"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "One of the best food item in the game. Fills hunger and saturation fully."
+			tasks: [{
+				id: "000000000000099F"
+				item: "reliquary:glowing_bread"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "00000000000009A0"
+			rewards: [
+				{
+					id: "00000000000009BA"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "02C9142751303464"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Sojourner's Staff holds many torches that you can place by right clicking with it. It can also place torchers at distance for a higher torch cost."
+			tasks: [{
+				id: "00000000000009A1"
+				item: "reliquary:sojourner_staff"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "00000000000009A2"
+			rewards: [
+				{
+					id: "00000000000009BB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "61F256C4FD059C34"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Rending Gale in flight mode allows player to fly by pointing and right clicking. It can also push or pull mobs and if it rains there's a Bolt mode available that allows spawning lightnings."
+			tasks: [{
+				id: "00000000000009A3"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:feather"
+								}
+							}]
+						}
+					}
+					id: "reliquary:rending_gale"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "00000000000009A4"
+			rewards: [
+				{
+					id: "00000000000009BC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "65565C79F43C30CB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "When held it puts out fires around the player, it can also reflect ghast fireballs shot at the player."
+			tasks: [{
+				id: "00000000000009A5"
+				item: "reliquary:salamander_eye"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"In Blaze powder and Fire charge mode it shoots blaze and ghast sized fireballs. In Erupt it burns anything in range in front of the player."
+				" "
+				"And Flint and Steel mode works exactly as the vanilla flint and steel. It also destroys any fireballs shot at the player and puts out fires when turned off."
+			]
+			id: "00000000000009A6"
+			rewards: [
+				{
+					id: "00000000000009BD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "22D6F7CF4FA6FA96"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Pyromancer's Staff has mutliple modes all related to fire."
+			tasks: [{
+				id: "00000000000009A7"
+				item: "reliquary:pyromancer_staff"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			id: "00000000000009A8"
+			rewards: [
+				{
+					id: "00000000000009BE"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "2A9D7BB482E09E4D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Shoots slime balls at enemies."
+			tasks: [{
+				id: "00000000000009A9"
+				item: {
+					Count: 1b
+					id: "reliquary:serpent_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "00000000000009AA"
+			rewards: [
+				{
+					id: "00000000000009BF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "1649C7576B5D987F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Makes mobs ignore player during night even if they are hit by the player."
+			tasks: [{
+				id: "00000000000009AB"
+				item: "reliquary:twilight_cloak"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"It can hoe the land, keep seeds/plantables in its inventory and plant these and keep bonemeal in its inventory and bonemeal with it."
+				""
+				"All of these can either be done on a block player is pointing at by simple right click or in an area of effect by holding right click. It also breaks all crops in its range when player breaks one so it helps with speeding up harvesting as well."
+			]
+			id: "00000000000009AC"
+			rewards: [
+				{
+					id: "00000000000009C0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "4E9224F255A3DA13"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Hoe Harvest rod is a farmers helper tool."
+			tasks: [{
+				id: "00000000000009AD"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [{
+								amount: 0
+								filter: {
+									Count: 1b
+									id: "minecraft:bone_meal"
+								}
+							}]
+						}
+					}
+					id: "reliquary:harvest_rod"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			id: "00000000000009C1"
+			rewards: [
+				{
+					id: "00000000000009CB"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6BC23A06F45E4DC0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "If in player's inventory it prevents them from getting withered."
+			tasks: [{
+				id: "00000000000009C3"
+				item: "reliquary:witherless_rose"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			id: "00000000000009C4"
+			rewards: [
+				{
+					id: "00000000000009CC"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "28D424C871E6FC53"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "Prevents player from being hurt in fire in exchange for hunger."
+			tasks: [{
+				id: "00000000000009C5"
+				item: "reliquary:infernal_claws"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "00000000000009C8"
+			rewards: [
+				{
+					id: "00000000000009CD"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "42E4B35739A90D25"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "Powerful thrown explosive that can kill most of the mobs in one hit."
+			tasks: [{
+				id: "00000000000009C9"
+				item: "reliquary:holy_hand_grenade"
+				type: "item"
+			}]
+			x: 0.98d
+			y: 0.9099999999999999d
+		}
+		{
+			description: ["You can also place multiples of these next to each other to get even faster speed."]
+			id: "00000000000013DE"
+			rewards: [
+				{
+					id: "00000000000013E0"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3A057DA373430A3E"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			subtitle: "Lilypad of Fertility speeds up growth of crops around it."
+			tasks: [{
+				id: "00000000000013DF"
+				item: "reliquary:fertile_lily_pad"
+				type: "item"
+			}]
+			title: "&dLilypad of Fertility"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26AC0A81FDE05637"
+			rewards: [
+				{
+					id: "047CE8132A61E4FF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "467060E8826B45C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "A handgun that can be loaded with lots of different bullets."
+			tasks: [{
+				id: "566B862F082DD20F"
+				item: "reliquary:handgun"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.25d
+		}
+		{
+			id: "06958F62DCC59503"
+			rewards: [
+				{
+					id: "40838AE55DCF32D6"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "14BBEC594090054B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Touchstone of Midas uses its glowstone charge to repair any gold based items in player's inventory. That includes Reliquary items like Cross of Mercy and Magic Bane."
+			tasks: [{
+				id: "1183DDF1EF0999A4"
+				item: "reliquary:midas_touchstone"
+				type: "item"
+			}]
+			x: 2.75d
+			y: -3.25d
+		}
+		{
+			id: "6EADEC0A3B4CE6E1"
+			rewards: [
+				{
+					id: "64B53054BBB99D18"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "6BAF591C39B88E23"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Magic Bane is a special sword that can randomly buff mobs hit with negative buffs. Its damage will also improve with the number of enchantments applied to it."
+			tasks: [{
+				id: "0F2F3331D7C7AD3B"
+				item: {
+					Count: 1b
+					id: "reliquary:magicbane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.25d
+			y: 3.5d
+		}
+		{
+			id: "7E7340542B4F8571"
+			rewards: [
+				{
+					id: "4407D157842FED2E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "256EF54400C2433A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			subtitle: "Creates a wall of force that prevents entities from getting near."
+			tasks: [{
+				id: "45997942178DFEB0"
+				item: "reliquary:interdiction_torch"
+				type: "item"
+			}]
+			x: 2.25d
+			y: 3.5d
+		}
+		{
+			id: "39CDF2D6112F65EE"
+			rewards: [
+				{
+					id: "0BBC68041D34C365"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "489BEF7E707EB9F0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "Lobs harmful snowballs."
+			tasks: [{
+				id: "5D5C106791D5B353"
+				item: "reliquary:ice_magus_rod"
+				type: "item"
+			}]
+			x: 1.2d
+			y: 0.0d
+		}
+		{
+			id: "66F5844A83B1EA88"
+			rewards: [
+				{
+					id: "6A075011DACEE50A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "3EF88E12F4C75D8A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "octagon"
+			size: 0.75d
+			subtitle: "Magic shears that tear the leaves from trees with cold."
+			tasks: [{
+				id: "2382D3763A455E60"
+				item: "reliquary:shears_of_winter"
+				type: "item"
+			}]
+			x: -1.125d
+			y: 0.0d
+		}
+		{
+			id: "23A0030290FF5A72"
+			rewards: [
+				{
+					id: "0650E43562997A56"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5C313866B50C6731"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "Burns items into experience."
+			tasks: [{
+				id: "7DDE80BFE6C44A3B"
+				item: "reliquary:infernal_tear"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.2d
+		}
+		{
+			id: "5EB16966B84F7D4F"
+			rewards: [
+				{
+					id: "77857519669DD58A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7B7E300DE41CCC40"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "Absorbs drowning damage at the expense of hunger."
+			tasks: [{
+				id: "28C25AD04834758D"
+				item: "reliquary:kraken_shell"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.9d
+		}
+		{
+			id: "735DC3F4841F3879"
+			rewards: [
+				{
+					id: "68759C5B2FD2E3F3"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "209C83848C1B9827"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			size: 0.7d
+			subtitle: "Automates stuff and things placed in it."
+			tasks: [{
+				id: "0BC4E77424B6150A"
+				item: "reliquary:pedestals/white_pedestal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.1199999999999999d
+		}
+	]
+	subtitle: ["A collection of magical items and blocks that make player's life easier in many different areas."]
+	title: "Reliquary"
+}

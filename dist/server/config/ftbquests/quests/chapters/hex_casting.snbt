@@ -1,0 +1,698 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "hex_casting"
+	group: "1039AC171AB01709"
+	icon: "hexcasting:artifact"
+	id: "413D8D5B1F90DA44"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"When you make this discovery, we'll get you a guide and some charged amethyst to get you on your way!"
+				""
+				"The link to the Discord is in the guidebook if you have any questions or need any help!"
+				""
+				"&o&7...can you hear that humming?"
+			]
+			id: "14477492A254A726"
+			rewards: [
+				{
+					id: "7C78B39E442FD008"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "hexcasting:thehexbook"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E54007FEBC4C6C7"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+				{
+					id: "7FE9B4090EAAB55D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			subtitle: "Discover an Underground Geode and pick up a piece of Charged Amethyst, your gateway into Hex Casting!"
+			tasks: [
+				{
+					id: "7AA14B7CA004A4AC"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+				{
+					advancement: "hexcasting:root"
+					criterion: ""
+					id: "09B81D118B485A32"
+					title: "Hexcasting Research"
+					type: "advancement"
+				}
+			]
+			title: "Media Discovery"
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14477492A254A726"]
+			description: [
+				"&o&7Yer a wizard Har...was this joke made already?"
+				""
+				"For a reward, once this quest is done, everyone on your team can pick a pigment that they feel best suites them. This changes the color of your personal casting particles as well as some other things. :)"
+			]
+			id: "74FE53E15362843D"
+			rewards: [
+				{
+					id: "492B9A0BCE536E35"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C81EE1A3F0BBFAC"
+					table_id: 1515775824222171011L
+					title: "x1 Free Pigment of choosing! Express yourself!"
+					type: "choice"
+				}
+			]
+			subtitle: "Craft yourself a Magical Staff, the method of drawing out patterns!"
+			tasks: [{
+				id: "059F78F9693A8C19"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexcasting:staves"
+					}
+				}
+				title: "Hex Casting Staff"
+				type: "item"
+			}]
+			title: "It's a \"Staff\", not a \"Wand\""
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3F1D881AD252ECB0"]
+			description: [
+				""
+				"You've enlighted. You have seen everything. Check your Hex Guide Book."
+				""
+				"You have seen. You have seen. You have seen. You have seen. You have s&keen EVERYTHING."
+			]
+			hide: true
+			hide_text_until_complete: true
+			id: "3423E7EAE06B5534"
+			rewards: [{
+				count: 4
+				id: "744B9929CE3D4250"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "When casting a hex, border the edge of &kdeath and reach enlightenment"
+			tasks: [{
+				advancement: "hexcasting:enlightenment"
+				criterion: ""
+				id: "081207946B1E61AB"
+				title: "???"
+				type: "advancement"
+			}]
+			title: "A Change of Fate and Understanding"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["14477492A254A726"]
+			id: "7D164909880D6DC9"
+			rewards: [{
+				id: "4018CD0297D31551"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Try to cast a spell from a scroll...and fail."
+			tasks: [{
+				advancement: "hexcasting:y_u_no_cast_angy"
+				criterion: ""
+				id: "6998CB49DD82D021"
+				title: "Blind Diversion"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["14477492A254A726"]
+			id: "76F27B70F7C3A96D"
+			rewards: [
+				{
+					id: "02C568060F20F13A"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "34D11FCE42BE2266"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+			]
+			subtitle: "Waste a lot of media trying to cast a single spell"
+			tasks: [{
+				advancement: "hexcasting:aaa_wasteful_cast"
+				criterion: ""
+				id: "11B4BF336FA379F6"
+				title: "Waste Not..."
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["14477492A254A726"]
+			id: "5F4A69E754251DE2"
+			rewards: [
+				{
+					id: "28A156EA9B92C462"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "70E993A287BDB6CA"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+			]
+			subtitle: "Use a huge amount of media when casting a single spell"
+			tasks: [{
+				advancement: "hexcasting:aab_big_cast"
+				criterion: ""
+				id: "418F291862AD03DE"
+				title: "... Want Not"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7D164909880D6DC9"]
+			description: ["Cast a spell without any media? Your mind with do just fine!"]
+			id: "3F1D881AD252ECB0"
+			rewards: [{
+				id: "778EA358C64B702E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Let nature take a piece of your mind in exchange for a Hex"
+			tasks: [{
+				advancement: "hexcasting:opened_eyes"
+				criterion: ""
+				id: "2246AEFCEE907533"
+				title: "Opened Eyes"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74FE53E15362843D"]
+			id: "1CEBEF490BA5AC83"
+			rewards: [{
+				id: "119BBA9A2ECC1915"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Scrying Lense"
+			tasks: [{
+				id: "587B3CEB86231DAE"
+				item: "hexcasting:lens"
+				type: "item"
+			}]
+			title: "I See It!"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74FE53E15362843D"]
+			description: ["&e! &7See the &dHex Notebook &7for more information."]
+			id: "26206717E74CA76E"
+			rewards: [{
+				id: "66A966410D4DEE8B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft an Abacus"
+			tasks: [{
+				id: "7C49EE2E0B6D710F"
+				item: "hexcasting:abacus"
+				type: "item"
+			}]
+			title: "Mathematics? That's for eggheads!"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["74FE53E15362843D"]
+			description: ["&e! &7See the &dHex Notebook &7for more information."]
+			id: "10BD8BED366FC7B2"
+			rewards: [{
+				id: "70CA1D22289E59C5"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Jeweller's Hammer"
+			tasks: [{
+				id: "525174219EF15197"
+				item: {
+					Count: 1b
+					id: "hexcasting:jeweler_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Careful Cutting"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74FE53E15362843D"]
+			id: "71468C735EE5C4B0"
+			rewards: [{
+				id: "2F42C270F76B938A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Submarine Sandwich"
+			tasks: [{
+				id: "72E04158F40967D9"
+				item: "hexcasting:sub_sandwich"
+				type: "item"
+			}]
+			title: "The Sandwich, not the Underground Train"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4AB770D7E88D2367"]
+			id: "16036D0020CDD1EA"
+			rewards: [{
+				id: "572D3DA77F6BA9A4"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			subtitle: "Craft a Blank Slate. Just looks like a better pattern display, I guess?"
+			tasks: [{
+				id: "3DB76522FF7015C1"
+				item: "hexcasting:slate"
+				type: "item"
+			}]
+			title: "It's All Coming Together!"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			description: [
+				"Hex Casting is a stack based programmable spellcasting mod. By progresssing through the lore found in the guidebook, you'll learn all about hex spell casting. You can create your own spells with a staff on the hexagonal casting grid, program items to hold spells that you can cast at will and uncover the lore found in the mod as you progress."
+				""
+				"Everything starts with the book, it contains in depth explanations of each of the fascinating aspects of this mod, and it should serve as your primary guide."
+			]
+			icon: {
+				Count: 1b
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "hexcasting:thehexbook"
+				}
+			}
+			id: "283C1A5435769DC3"
+			rewards: [{
+				id: "18D6414A88080E62"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Getting started"
+			tasks: [{
+				id: "7DDD267D5AF80A93"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["283C1A5435769DC3"]
+			description: ["\"Media\" is the main form of energy in this mod, and it can be harvested in large amounts by the amethyst crystals found in amethyst geodes."]
+			id: "69395421DAE17328"
+			rewards: [{
+				id: "60DCCE6C82555747"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Doing Crystal Math."
+			tasks: [{
+				count: 16L
+				id: "224024A2F685E7F1"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			title: "Cooking up some Media"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69395421DAE17328"]
+			description: ["The staff will be the tool you use to cast all your spells in Hex Casting. You can make a staff out of all wood types"]
+			id: "5B94C77A29A3BF35"
+			rewards: [{
+				id: "552E6AD7E12D0CAC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "It's \"Leviosaaahhh\" not \"Leviosaawwhh\""
+			tasks: [{
+				id: "60DA89048ED4422C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexcasting:staves"
+					}
+				}
+				title: "Any Staff"
+				type: "item"
+			}]
+			title: "Wingardium Leviosa!"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69395421DAE17328"]
+			description: [
+				"Scrolls are a useful tool for writing patterns that you can share with others, or display prettily on a wall."
+				""
+				"Craft any size scroll to show off your patterns!"
+				""
+				"For more information, refer to the Hex Casting guidebook's entry on the Scrolls"
+			]
+			id: "4AB770D7E88D2367"
+			rewards: [{
+				id: "0C9FFF6D8F323F95"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Spellcast Doom Scrolling"
+			tasks: [
+				{
+					id: "1CEAE5B5FF63D6F6"
+					item: "hexcasting:scroll_small"
+					type: "item"
+				}
+				{
+					id: "028137F86D23B35D"
+					item: "hexcasting:scroll_medium"
+					type: "item"
+				}
+				{
+					id: "0A5D0BD1B6CD619C"
+					item: "hexcasting:scroll"
+					type: "item"
+				}
+			]
+			title: "Now I Understand"
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["68FF81FF5F625057"]
+			description: [
+				"Just like the Foci, the Spellbook is capable of storing Iotas for usage in spells later."
+				""
+				"Unlike the Foci however, it can store more than 1 Iota. To be exact, it can store 64 Iotas for spell casting."
+				""
+				"For more information, refer to the Hex Casting guidebook's entry on the Spell book."
+			]
+			id: "6C1EC07A6CB811D7"
+			rewards: [{
+				id: "03197BD98E7F1B96"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/epic"
+						Name: "Magic Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Foci²"
+			tasks: [{
+				id: "7B1111F9109F7B79"
+				item: {
+					Count: 1b
+					id: "hexcasting:spellbook"
+					tag: {
+						page_idx: 0
+						page_names: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Hyperfocused"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"69395421DAE17328"
+				"74FE53E15362843D"
+				"5B94C77A29A3BF35"
+			]
+			description: [
+				"A Cypher is a fragile crystal and one of the 3 magic items capable of holding Hexes and all their patterns, as well as a small battery to hold Media to cast spells with."
+				""
+				"The Cypher is the weakest of the 3, breaking as soon as the internal battery of the Cypher is depleted. It's also not rechargable, so make good use of it while it's still around!"
+				""
+				"For more information, refer to the Hex Casting guidebook's entry on the Casting Items"
+			]
+			id: "4A5B2026DD41B03B"
+			rewards: [{
+				id: "1C11ECA5704E3FF7"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "No, not that kind of Cypher!"
+			tasks: [{
+				id: "00ADE7C16BC23A65"
+				item: "hexcasting:cypher"
+				type: "item"
+			}]
+			title: "Cryptic Casting"
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A5B2026DD41B03B"]
+			description: ["Like the Cypher, the Trinket is capable is storing the patterns in a Hex. Unlike the Cypher, the Trinket does not break once depleted of its internal battery, but can't be used when empty. The internal battery is rechargable though."]
+			id: "103EE7B28300222E"
+			rewards: [{
+				id: "18889997B4A331B9"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/common"
+						Name: "Magic Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A Curios little thing."
+			tasks: [{
+				id: "10EE322291807F66"
+				item: "hexcasting:trinket"
+				type: "item"
+			}]
+			title: "Trinket Trickery"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["103EE7B28300222E"]
+			description: [
+				"The Artifact is the most expensive (and most useful) of the 3 casting items in Hex Casting. Its capable of storing a hex and its patterns just like the Cypher and the Trinket. Just like the Trinket, it doesn't break when depleted and is rechargable."
+				""
+				"Unlike the Trinket, however, the Artifact is not useless when depleted, instead it's capable of using the caster's Media. Be careful! Just like casting spells with the staff, if you don't have enough Media bad things can happen..."
+			]
+			id: "18AE8D45D703112B"
+			rewards: [{
+				id: "0798DFE97872428A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Idk, I ran out of ideas"
+			tasks: [{
+				id: "6FEF127BDA178AFB"
+				item: "hexcasting:artifact"
+				type: "item"
+			}]
+			title: "Artifact... Artifacting..?"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4AB770D7E88D2367"]
+			description: [
+				"A Focus is a neat little items that is capable of storing a single Iota onto it"
+				""
+				"You can store many different patterns on a focus, and recall them when casting spells to make casting more complex spells more efficient."
+				""
+				"For more information, refer to the Hex Casting guidebook's entry on the Focus."
+			]
+			id: "68FF81FF5F625057"
+			rewards: [{
+				id: "389A2C49FBE20038"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16747259
+						Loot: "aof:loot_bags/magic/rare"
+						Name: "Magic Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A Mere Iota"
+			tasks: [{
+				id: "3077C39AB753498D"
+				item: "hexcasting:focus"
+				type: "item"
+			}]
+			title: "Hangman's Gambit"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"69395421DAE17328"
+				"103EE7B28300222E"
+				"18AE8D45D703112B"
+				"68FF81FF5F625057"
+				"4A5B2026DD41B03B"
+				"5B94C77A29A3BF35"
+				"4AB770D7E88D2367"
+				"6C1EC07A6CB811D7"
+				"283C1A5435769DC3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:hexcasting"
+					}
+				}
+			}
+			id: "54BF3B1ABB113E46"
+			rewards: [{
+				id: "297DBFF1A1CBD3A5"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:hexcasting"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "2EC4AF48B63D2EE3"
+				title: "&dHex Casting 100%"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+	]
+	subtitle: ["Spellcasting by drawing out unique patterns!"]
+	title: "Hex Casting"
+}

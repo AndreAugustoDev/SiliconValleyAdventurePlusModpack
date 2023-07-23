@@ -1,0 +1,12 @@
+{
+  "misc": {
+    "condensed_creative:dyes": {
+      "base_item": "minecraft:white_dye",
+      "item_tag": "forge:dyes"
+    },
+    "condensed_creative:buckets": {
+      "base_item": "minecraft:bucket",
+      "item_tag": "forge:buckets"
+    }
+  }
+}

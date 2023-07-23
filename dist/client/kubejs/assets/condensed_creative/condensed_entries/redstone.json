@@ -1,0 +1,28 @@
+{
+  "redstone": {
+    "condensed_creative:buttons": {
+      "base_item": "minecraft:oak_button",
+      "item_tag": "minecraft:buttons"
+    },
+    "condensed_creative:doors": {
+      "base_item": "minecraft:oak_door",
+      "item_tag": "minecraft:doors"
+    },
+    "condensed_creative:trapped_chests": {
+      "base_item": "minecraft:trapped_chest",
+      "item_tag": "forge:chests/trapped"
+    },
+    "condensed_creative:pressure_plates": {
+      "base_item": "minecraft:oak_pressure_plate",
+      "block_tag": "minecraft:pressure_plates"
+    },
+    "condensed_creative:trapdoors": {
+      "base_item": "minecraft:oak_trapdoor",
+      "item_tag": "minecraft:trapdoors"
+    },
+    "condensed_creative:fence_gates": {
+      "base_item": "minecraft:oak_fence_gate",
+      "block_tag": "minecraft:fence_gates"
+    }
+  }
+}

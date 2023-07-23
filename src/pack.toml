@@ -1,0 +1,13 @@
+name = "Silicon Valley Adventure"
+author = "André Augusto"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "175abef3a2d7b7cc97d06deffe3d6719d0f406d99ca06c02c95ece449dbf150b"
+
+[versions]
+forge = "43.2.6"
+minecraft = "1.19.2"

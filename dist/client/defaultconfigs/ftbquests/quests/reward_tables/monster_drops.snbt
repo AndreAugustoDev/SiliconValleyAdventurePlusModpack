@@ -1,0 +1,19 @@
+{
+	hide_tooltip: true
+	icon: "cyclic:dice"
+	id: "059D2595206B0E9E"
+	loot_size: 1
+	order_index: 47
+	rewards: [
+		{ count: 16, item: "minecraft:string", weight: 20.0f }
+		{ count: 24, item: "minecraft:rotten_flesh", weight: 20.0f }
+		{ count: 16, item: "minecraft:bone", weight: 20.0f }
+		{ count: 12, item: "minecraft:spider_eye", weight: 20.0f }
+		{ count: 3, item: "minecraft:ghast_tear", weight: 10.0f }
+		{ count: 6, item: "minecraft:blaze_powder", weight: 14.0f }
+		{ count: 2, item: "minecraft:ender_pearl", weight: 12.0f }
+		{ count: 24, item: "minecraft:arrow", weight: 20.0f }
+		{ count: 20, item: "minecraft:gunpowder", weight: 20.0f }
+	]
+	title: "Monster Drops"
+}

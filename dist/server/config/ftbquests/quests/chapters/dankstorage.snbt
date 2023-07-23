@@ -1,0 +1,363 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "dankstorage"
+	group: "33A417364C0A17FE"
+	icon: "dankstorage:dank_7"
+	id: "0000000000000B1A"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.5d
+		hover: [ ]
+		image: "dankstorage:textures/block/dank_edge.png"
+		rotation: 0.0d
+		width: 1.5d
+		x: 1.5d
+		y: 1.5d
+	}]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["65B474E06E52C196"]
+			description: ["This Dank have 9 slots and can store 256 items."]
+			id: "0000000000000B1E"
+			rewards: [
+				{
+					id: "0000000000000B34"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "treasure_chest"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "58B6B889045C7458"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 1"
+			tasks: [{
+				id: "0000000000000B1F"
+				item: "dankstorage:dank_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000B1E"]
+			description: ["This Dank have 18 slots and can store 1024 items."]
+			id: "0000000000000B20"
+			rewards: [{
+				id: "0000000000000B2D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Tier 2"
+			tasks: [{
+				id: "0000000000000B21"
+				item: "dankstorage:dank_2"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0000000000000B20"]
+			description: ["This Dank have 27 slots and can store 4096 items."]
+			id: "0000000000000B22"
+			rewards: [
+				{
+					id: "0000000000000B2E"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "00753DF1ACCED9ED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 3"
+			tasks: [{
+				id: "0000000000000B23"
+				item: "dankstorage:dank_3"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000000B22"]
+			description: ["This Dank have 36 slots and can store 16384 items."]
+			id: "0000000000000B24"
+			rewards: [
+				{
+					id: "0000000000000B2F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "7980FE14EF6DE4CC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 4"
+			tasks: [{
+				id: "0000000000000B25"
+				item: "dankstorage:dank_4"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000000B24"]
+			description: ["This Dank have 45 slots and can store 65536 items."]
+			id: "0000000000000B26"
+			rewards: [
+				{
+					id: "0000000000000B30"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "5648D11308C28F8A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 5"
+			tasks: [{
+				id: "0000000000000B27"
+				item: "dankstorage:dank_5"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0000000000000B26"]
+			description: ["This Dank have 54 slots and can store 262144 items."]
+			id: "0000000000000B28"
+			rewards: [
+				{
+					id: "0000000000000B31"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "56398F14FCF0A3E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Tier 6"
+			tasks: [{
+				id: "0000000000000B29"
+				item: "dankstorage:dank_6"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0000000000000B28"]
+			description: ["This Dank have 81 slots and can store almost infinite items."]
+			id: "0000000000000B2A"
+			rewards: [
+				{
+					count: 3
+					id: "0000000000000B32"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "567B37111FDF7F06"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			subtitle: "Tier 7 - Max"
+			tasks: [{
+				id: "0000000000000B2B"
+				item: "dankstorage:dank_7"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["0000000000000B1E"]
+			description: ["The &bDock&r can &6hold a Dank&r, allowing pipes etc to access its inventory."]
+			id: "2DC1F003A5B36337"
+			rewards: [
+				{
+					id: "5454B8890ED8DCB2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "15760EE6F76824B9"
+					item: "dankstorage:red_print"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "This dock can be placed down and be used as a chest if a Dank is stored inside it."
+			tasks: [{
+				id: "3FBA3BF42ACC09C4"
+				item: "dankstorage:dock"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000B1E"]
+			description: ["&bDank Upgrades&r can be used on a &6Docked Dank&r to upgrade its tier."]
+			icon: "dankstorage:1_to_2"
+			id: "3B81561CC1A71970"
+			rewards: [{
+				id: "4A6F4BC307F70CF1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "This to That"
+			tasks: [{
+				id: "7DE671367162FF51"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:1_to_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:2_to_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:3_to_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:4_to_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:5_to_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:6_to_7"
+							}
+						]
+					}
+				}
+				title: "Dank Upgrades"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000003FF"]
+			description: [
+				"&bDanks&r, from &9Dank Storage&r, can &6automatically pick up items&r, can &6store items at >64 items per stack&r, and allow for you to &6use stored items&r, including blocks and food!"
+				"Higher tiers have more slots, and can store more per slot."
+				""
+				"Danks have two modes: &6Bag&r and &6Construction&r."
+				"There is a keybind to move between them (default is i)."
+				""
+				"&6Bag&r mode: It works like a backpack."
+				"Tap CTRL on a slot to lock it, so it doesn't get replaced when emptied."
+				""
+				"There are 4 item pickup settings you can click through."
+				""
+				"&6Construction&r mode: Right-clicking the &aDank&r &n&6acts like the item it is holding&r, as far as right-clicking goes."
+				"It can place blocks, right-click tools, throw &aEnder Pearls&r, etc."
+				"It doesn't work on items that have an animation, however."
+				"&6Set the item by scrolling while sneaking&r."
+				"The &aDank&r can no longer be placed down and will gain the enchantment glow to show that it's in construction mode."
+			]
+			icon: "dankstorage:dank_1"
+			id: "65B474E06E52C196"
+			min_width: 325
+			rewards: [{
+				id: "39F3131560CA52DC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Miner's pickup tool of choice."
+			tasks: [{
+				id: "1860681F1C2BFAD5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:dank_1"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_7"
+							}
+						]
+					}
+				}
+				title: "Danks"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["Containers that function as both storage, backpacks and so much more."]
+	title: "Dank Storage"
+}

@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	icon: "minecraft:diamond"
+	id: "44C11BE4DB657FF9"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 5.0d
+			hover: [ ]
+			image: "pigpen:textures/logo.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_left.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.5d
+			y: 0.017857142857145902d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbquests:textures/gui/arrow_collapsed.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.6071428571428612d
+			y: 0.017857142857145902d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"Welcome to EnhanceCraft!"
+			""
+			"To get started with questing, check out the tabs on the left to jump in!"
+			""
+			"Check out the &9Getting Starded&r and &6Main Questline&r to help you get started."
+			""
+			"&6These quests are entirely optional&r but will help guide you through your adventures in our world."
+		]
+		icon: "extendedcrafting:ender_star"
+		id: "778844EF454F576A"
+		optional: true
+		rewards: [
+			{
+				id: "5FE38A90ED456C6C"
+				item: "ftbquests:book"
+				type: "item"
+			}
+			{
+				id: "3A68F4427549C706"
+				type: "xp"
+				xp: 10
+			}
+		]
+		shape: "hexagon"
+		size: 2.0d
+		tasks: [{
+			dimension: "minecraft:overworld"
+			id: "327166ABC91DC6CD"
+			title: "A New World Waiting For You!"
+			type: "dimension"
+		}]
+		title: "Welcome to EnhanceCraft!"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Welcome"
+}

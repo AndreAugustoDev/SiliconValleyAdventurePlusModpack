@@ -1,0 +1,143 @@
+{
+	hide_tooltip: true
+	icon: "cyclic:dice"
+	id: "5595564AF51C2F91"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{ count: 8, item: "minecraft:emerald", title: "SECRET", weight: 750.0f }
+		{ count: 6, item: "minecraft:diamond", title: "SECRET", weight: 750.0f }
+		{ count: 16, item: "minecraft:gold_ingot", title: "SECRET", weight: 750.0f }
+		{ count: 12, item: "minecraft:iron_ingot", title: "SECRET", weight: 750.0f }
+		{ count: 12, item: "minecraft:copper_ingot", title: "SECRET", weight: 750.0f }
+		{ count: 12, item: "immersiveengineering:ingot_electrum", title: "SECRET", weight: 750.0f }
+		{ count: 3, item: "minecraft:netherite_ingot", title: "SECRET", weight: 450.0f }
+		{ count: 2, icon: "byg:pendorite_ingot", item: "byg:pendorite_ingot", title: "SECRET", weight: 385.0f }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:netherite_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 86.0f
+		}
+		{ count: 2, item: "lootbundles:fragment", title: "SECRET", weight: 6890.0f }
+		{ count: 3, item: "lootbundles:fragment", title: "SECRET", weight: 6890.0f }
+		{ count: 4, item: "lootbundles:fragment", title: "SECRET", weight: 6890.0f }
+		{ count: 5, item: "lootbundles:fragment", title: "SECRET", weight: 6890.0f }
+		{ item: "lootbundles:loot_bundle", title: "SECRET", weight: 955.0f }
+		{ count: 6, item: "lootbundles:fragment", title: "SECRET", weight: 5515.0f }
+		{ count: 4, item: "minecraft:golden_apple", title: "SECRET", weight: 550.0f }
+		{
+			item: {
+				Count: 1b
+				id: "constructionwand:diamond_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			title: "SECRET"
+			weight: 395.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "mysticalagradditions:inferium_paxel"
+				tag: {
+					Damage: 0
+				}
+			}
+			title: "SECRET"
+			weight: 339.0f
+		}
+		{
+			command: "/me just got unlucky with their quest reward.. (1% chance.)"
+			player_command: true
+			title: "SECRET"
+			type: "command"
+			weight: 450.0f
+		}
+	]
+	title: "Lootbagparts"
+}

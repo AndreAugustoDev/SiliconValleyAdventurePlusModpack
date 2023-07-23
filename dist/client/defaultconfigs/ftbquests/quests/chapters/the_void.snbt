@@ -1,0 +1,28 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_void"
+	group: "59C90AA1B128306B"
+	icon: "javd:portal_block"
+	id: "2AC21224D53E8E92"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		description: ["Nothing To See Here..."]
+		id: "0AD8DFF7A830BC91"
+		rewards: [{
+			id: "589A5D4D4726FD93"
+			type: "xp"
+			xp: 10
+		}]
+		tasks: [{
+			id: "23F0CDA65826220A"
+			item: "javd:portal_block"
+			type: "item"
+		}]
+		title: "The Void"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "&7The Void"
+}

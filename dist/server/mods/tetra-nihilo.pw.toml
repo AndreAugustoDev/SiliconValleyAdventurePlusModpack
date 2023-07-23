@@ -1,0 +1,13 @@
+name = "Tetra Nihilo"
+filename = "tetra_nihilo-1.19.2-0.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ff4ca3b305c171ee81b075a763f5e4d0a97de7e6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4491650
+project-id = 849807

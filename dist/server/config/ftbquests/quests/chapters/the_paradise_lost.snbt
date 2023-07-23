@@ -1,0 +1,159 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_paradise_lost"
+	group: "59C90AA1B128306B"
+	icon: "minecraft:glowstone"
+	id: "024E592B6E4CA5F5"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FCB97F1804B6504"
+			rewards: [{
+				id: "5FA799AE508364CF"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "To enter &bParadise Lost&r, build a portal with &eglowstone &rin the shape of a &cNether &rPortal. Light the portal with a water bucket. Note that the dimension currently has no structures or bosses."
+			tasks: [{
+				dimension: "paradise_lost:paradise_lost"
+				icon: "minecraft:glowstone"
+				id: "02EC750DD1DAB99F"
+				title: "Visit Paradise Lost"
+				type: "dimension"
+			}]
+			title: "Visit &bParadise Lost"
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FCB97F1804B6504"]
+			id: "00C313467CF73F0F"
+			rewards: [{
+				id: "57307E941DD0BB10"
+				item: {
+					Count: 1b
+					id: "supplementaries:quiver"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "Redstone powered."
+			tasks: [{
+				id: "5359AC6DC2D95A40"
+				item: "paradise_lost:gravitite_levitator"
+				type: "item"
+			}]
+			title: "Craft a &8Gravitite Levitator"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FCB97F1804B6504"]
+			id: "67A14FDC41783C22"
+			rewards: [{
+				count: 10
+				id: "62D02B63CDC63A03"
+				item: "paradise_lost:moa_meat_cooked"
+				type: "item"
+			}]
+			subtitle: "Right click to put them on your head."
+			tasks: [{
+				icon: "paradise_lost:aerbunny_spawn_egg"
+				id: "559C5964850A2728"
+				observe_type: 5
+				timer: 0L
+				title: "Find an Aerbunny"
+				to_observe: "paradise_lost:aerbunny"
+				type: "observation"
+			}]
+			title: "Find an &lAerbunny"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FCB97F1804B6504"]
+			id: "4C23F34D7549FF27"
+			rewards: [{
+				id: "4601EACDD602C1BB"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "&dGravitite &rcan be found at y 27 and y 35."
+			tasks: [
+				{
+					id: "04042CFFDE52791B"
+					item: {
+						Count: 1b
+						id: "paradise_lost:gravitite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51422F9BF579B784"
+					item: {
+						Count: 1b
+						id: "paradise_lost:gravitite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B7EA8FEFB01E55B"
+					item: {
+						Count: 1b
+						id: "paradise_lost:gravitite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "54B3826181FD7C2F"
+					item: {
+						Count: 1b
+						id: "paradise_lost:gravitite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a set of &dGravitite &rarmor"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"67A14FDC41783C22"
+				"00C313467CF73F0F"
+				"4C23F34D7549FF27"
+			]
+			id: "15CBBDF78EE29201"
+			rewards: [{
+				id: "05F25621AF094BF8"
+				item: "paradise_lost:incubator"
+				type: "item"
+			}]
+			subtitle: "A tasty snack"
+			tasks: [{
+				id: "7A577B89597E1D60"
+				item: "paradise_lost:blue_gummy_swet"
+				type: "item"
+			}]
+			title: "Craft a &9Blue Gummy Swet"
+			x: -3.0d
+			y: -2.5d
+		}
+	]
+	title: " &bParadise Lost"
+}

@@ -1,0 +1,32 @@
+{
+	icon: "minecraft:bee_nest"
+	id: "02ECB9B1DCED2497"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "productivebees:oak_wood_nest" }
+		{ item: "productivebees:spruce_wood_nest" }
+		{ item: "productivebees:dark_oak_wood_nest" }
+		{ item: "productivebees:birch_wood_nest" }
+		{ item: "productivebees:jungle_wood_nest" }
+		{ item: "productivebees:acacia_wood_nest" }
+		{ item: "productivebees:bamboo_hive" }
+		{ item: "productivebees:stone_nest" }
+		{ item: "productivebees:coarse_dirt_nest" }
+		{ item: "productivebees:sand_nest" }
+		{ item: "productivebees:snow_nest" }
+		{ item: "productivebees:gravel_nest" }
+		{ item: "productivebees:sugar_cane_nest" }
+		{ item: "productivebees:slimy_nest" }
+		{ item: "productivebees:glowstone_nest" }
+		{ item: "productivebees:soul_sand_nest" }
+		{ item: "productivebees:nether_quartz_nest" }
+		{ item: "productivebees:nether_gold_nest" }
+		{ item: "productivebees:nether_brick_nest" }
+		{ item: "productivebees:end_stone_nest" }
+		{ item: "productivebees:obsidian_nest" }
+		{ item: "productivebees:bumble_bee_nest" }
+		{ item: "minecraft:bee_nest" }
+	]
+	title: "Any Nest"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "lootbags:loot",
+  "name": "Tier 1 Seedbag",
+  "color": "#55ff55",
+  "rarity": "COMMON",
+  "output": {
+    "table": "kubejs:loot_bags/mystical_agriculture/tier_1_seedbag"
+  }
+}

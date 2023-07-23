@@ -1,0 +1,784 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cooking__farming_for_blockheads"
+	group: "6614EE2378B8AFB9"
+	icon: {
+		Count: 1b
+		id: "cookingforblockheads:cooking_table"
+		tag: { }
+	}
+	id: "2DBAF5CD39AA2EC4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: ["&7> Toaster magically turns bread into toast. &d&kd&b&ks&5&ks &r&7<- magic."]
+			id: "35CBBC81CE410903"
+			rewards: [
+				{
+					id: "21B9AD92857460E2"
+					item: "croptopia:toast_sandwich"
+					type: "item"
+				}
+				{
+					id: "0BA7A33DCA14F370"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Toaster"
+			tasks: [{
+				id: "1E38EEC82C5841D7"
+				item: "cookingforblockheads:toaster"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"&7> Spice Rack stores spices and ingredients."
+				""
+				"&7> Fruit Basket stores fruit for recipes."
+			]
+			id: "52997E6B08DB9C40"
+			rewards: [
+				{
+					count: 2
+					id: "6C9A6CF1134C2BDA"
+					item: "croptopia:fruit_salad"
+					type: "item"
+				}
+				{
+					id: "4C7462B80C97B348"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 2
+					id: "388BBA5D39E6132C"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft a Spice Rack \\& a Fruit Basket"
+			tasks: [
+				{
+					id: "34F2F9C062061387"
+					item: "cookingforblockheads:spice_rack"
+					type: "item"
+				}
+				{
+					id: "2255635EDD383703"
+					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "529FA5C3502DBF4D"
+			rewards: [{
+				id: "5953A786427D290E"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Your market of choice for seeds and crops."
+			tasks: [{
+				id: "62B614931DDB6161"
+				item: "farmingforblockheads:market"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "16FED75C44853ECA"
+			rewards: [{
+				id: "295620B80AC388A3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Collects eggs laid by chickens."
+			tasks: [{
+				id: "5F2ADAA3F72E4D09"
+				item: "farmingforblockheads:chicken_nest"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "2607DEA382FF044E"
+			rewards: [{
+				id: "514FA3C6117CB9DA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Auto-feeds nearby animals."
+			tasks: [{
+				id: "755F341295669BDC"
+				item: "farmingforblockheads:feeding_trough"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "14D42EDBFFCED86E"
+			rewards: [{
+				id: "454E0EC5DABA4A07"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Increases &aCrop Output&r."
+			tasks: [{
+				id: "1604ECD381B21CFB"
+				item: "farmingforblockheads:green_fertilizer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "4AE1EA3349567401"
+			rewards: [{
+				id: "24A94BADF83F0BF8"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Speeds up &cGrowth."
+			tasks: [{
+				id: "443CD4678AE9D27A"
+				item: "farmingforblockheads:red_fertilizer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["251028DFC955D65F"]
+			id: "6AA43062AC98B59B"
+			rewards: [{
+				id: "4E9309E193C299ED"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Prevents &eTrampling&r."
+			tasks: [{
+				id: "0C1F44E719A323DC"
+				item: "farmingforblockheads:yellow_fertilizer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			description: ["Well.. does this make you a blockhead?"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_hoe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "251028DFC955D65F"
+			rewards: [{
+				id: "6AD6111230E436EC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "76E7E15CC252A02B"
+				title: "Blockhead"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			description: ["Go ahead. Put a book in a furnace."]
+			id: "45F83C2750F70F9B"
+			rewards: [{
+				id: "54B713BDF265A213"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Smelt a book. Totally won't catch on fire."
+			tasks: [{
+				id: "61DBF366AFC8A579"
+				item: "cookingforblockheads:recipe_book"
+				type: "item"
+			}]
+			title: "Making a Kitchen, with a book."
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["45F83C2750F70F9B"]
+			description: [
+				"Craft the next version of the book. I promise you, it's worth it."
+				""
+				"I'll even give you a Diamond back."
+			]
+			id: "58D5BD3106BFD94A"
+			rewards: [
+				{
+					id: "1DEED7674A6B9079"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "18610A9BCEA465F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "This is totally worth it btw"
+			tasks: [{
+				id: "20FD5552BE10D679"
+				item: "cookingforblockheads:crafting_book"
+				type: "item"
+			}]
+			title: "Cooking with the power of Diamonds"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["58D5BD3106BFD94A"]
+			description: [
+				"This block is part of a multi-block kitchen."
+				""
+				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
+				""
+				"You can finally create a nice kitchen in Minecraft."
+			]
+			id: "28C9EDBF6607E180"
+			rewards: [
+				{
+					count: 8
+					id: "145863D45AAB585A"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "1AD9A5DFAF726359"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Betty White was born before Sliced Bread"
+			tasks: [{
+				id: "552C067A28FB8869"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "THE BEST THING SINCE SLICED BREAD"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block provides water the multi-block kitchen."
+				""
+				"It can also provide infinite water, and can pump water out via cables or pipes."
+			]
+			id: "0EFF1AA37772156B"
+			rewards: [
+				{
+					id: "2B2B365E281A6940"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "62FB77230F1D9F9B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "Why Use 3 Block when 1 Block Do Trick"
+			tasks: [{
+				id: "2872A1297BE6C40D"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "The Sink = Infinite Water"
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"Stores items in the multi-block kitchen. Stack them on top of each other!"
+				""
+				"You can also shift-right click on it to open then door, and you can just right click items right in."
+			]
+			id: "66815AB6FDACCAB7"
+			rewards: [
+				{
+					id: "07D944D551258145"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2264EDF3B1BC3075"
+					item: "croptopia:vanilla_ice_cream"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "You'll open it, close it, then open it again, just because you're bored."
+			tasks: [{
+				count: 2L
+				id: "1571EF760DE41F63"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			title: "The Fridge"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66815AB6FDACCAB7"]
+			description: ["Provides Ice and Snow recipes!"]
+			id: "13AFCD3B6F62B986"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "03911B94997F0691"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "7F98CDC2EA641EF7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6BDB280D22CE0118"
+				item: "cookingforblockheads:ice_unit"
+				type: "item"
+			}]
+			title: "Ice, Ice, Baby"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
+				""
+				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
+				""
+				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
+				""
+				"&e! &7Place a Jar under a Cow, then drop an anvil ontop of it, letting it fall onto the Jar \\& Cow."
+			]
+			id: "47764EFC822E462A"
+			rewards: [{
+				id: "2390EE9B8E964CCA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
+			tasks: [{
+				id: "193EA9F7C05B6F38"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "A Cow in a Jar"
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7CB3FCD789747EF5"]
+			description: ["Allows you to attach power to the Stove."]
+			id: "1515B32545F51266"
+			rewards: [
+				{
+					count: 3
+					id: "5EB6705A66BEB997"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "19945E72467070D2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3915BEA724A2F7ED"
+				item: "cookingforblockheads:heating_unit"
+				type: "item"
+			}]
+			title: "Heating Upgrade"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			id: "7CB3FCD789747EF5"
+			rewards: [
+				{
+					count: 8
+					id: "5AB2C941E0E0397E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "4A5960A4F10AD94F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "No Timer Needed"
+			tasks: [{
+				id: "37D8D79B6B216212"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "Honey, there's a Furnace in the Kitchen"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This block stores items for cooking."
+				""
+				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+			]
+			id: "37CA6F9F0226F10E"
+			rewards: [
+				{
+					id: "45C4177C120927FF"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "0B13ECD292D7D073"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "&oWe&r need more cooking space."
+			tasks: [{
+				count: 2L
+				id: "766C32B477A216B8"
+				item: "cookingforblockheads:counter"
+				type: "item"
+			}]
+			title: "I need more cooking space."
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: [
+				"This works just like the kitchen counter, except in the air."
+				""
+				"And you can't put things on top of it."
+			]
+			id: "58495CFBF4F20CE9"
+			rewards: [
+				{
+					id: "5F08882A75BECB22"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+				{
+					id: "1C499560DF40E2FC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "diamond"
+			subtitle: "So much room for activities!"
+			tasks: [{
+				count: 2L
+				id: "1DAD3C12FDEB5CD4"
+				item: "cookingforblockheads:cabinet"
+				type: "item"
+			}]
+			title: "Even More Storage"
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &bCooking Table&r will allow you to &6quickly craft foods&r that you have the ingredients for."
+				""
+				"The &bHay Nest&r provides a place where nearby chickens will deposit their eggs. You can pipe from it to allow your chickens to enjoy  free range life instead of that 1x1 hopper coop."
+			]
+			id: "3053871C8AEE692C"
+			rewards: [
+				{
+					id: "583D5C07D409E0AC"
+					item: "quark:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "46BF09486C6B4A7A"
+					item: "quark:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "285AB65A55F0B613"
+					item: "quark:potato_crate"
+					type: "item"
+				}
+				{
+					id: "4EA6E93B01EA7C7F"
+					item: "quark:apple_crate"
+					type: "item"
+				}
+				{
+					id: "5F27C64F78E0F288"
+					item: "incubation:hay_nest"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Where the magic happens"
+			tasks: [{
+				id: "37D0DC6BEB830C62"
+				item: "cookingforblockheads:cooking_table"
+				type: "item"
+			}]
+			title: "The Heart of the Kitchen"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"The &bSink&r will &6provide Water to the Cooking Table&r."
+				""
+				"You can also &6extract water with pipes&r at an extreme rate."
+			]
+			id: "3A00F06E468E7732"
+			rewards: [
+				{
+					id: "3DB340A14117996D"
+					item: "laserio:card_fluid"
+					type: "item"
+				}
+				{
+					id: "1FA2C843C0F1C223"
+					item: "minecraft:axolotl_bucket"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Enough water for fusion?!"
+			tasks: [{
+				id: "4C9F6EF783ADF13F"
+				item: "cookingforblockheads:sink"
+				type: "item"
+			}]
+			title: "... or Swim."
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			description: ["The &bFridge&r is another storage location, but has two &6very useful upgrades&r. Their functions are in their tooltip."]
+			id: "5E34FE9AA13204C7"
+			rewards: [
+				{
+					id: "699FF142776ECE16"
+					item: "cookingforblockheads:ice_unit"
+					type: "item"
+				}
+				{
+					id: "0DCD29E3F7BFAC04"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Ice is Nice!"
+			tasks: [{
+				id: "0477934320683DE9"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			description: ["You can squish a &bCow&r into a &6Milk Jar&r using an anvil and gravity. Now your kitchen can produce all the milk you'll need."]
+			id: "2BE8A577F5F51E6A"
+			rewards: [
+				{
+					id: "7755A5E7548CDF68"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "55FA33A075FAA641"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "Udderly Delicious"
+			tasks: [{
+				id: "6275D0F72F622B16"
+				item: "cookingforblockheads:cow_jar"
+				type: "item"
+			}]
+			title: "Got Milk?"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			description: ["&bKitchen Counters and Cabinets&r provide the Cooking Table with &6extra storage&r, so you don't have to hold everything in your inventory."]
+			icon: "cookingforblockheads:counter"
+			id: "5818087FB67710CE"
+			rewards: [
+				{
+					id: "19DC5B52B7B37A62"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
+				}
+				{
+					id: "06555C4F8ED57210"
+					item: "quark:berry_sack"
+					type: "item"
+				}
+				{
+					id: "2E91465985B8B6DD"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "I should have known."
+			tasks: [
+				{
+					id: "2DED26C0914AEB3D"
+					item: "cookingforblockheads:counter"
+					type: "item"
+				}
+				{
+					id: "6DEB3F3BD15C5AB4"
+					item: "cookingforblockheads:cabinet"
+					type: "item"
+				}
+			]
+			title: "You Blockhead!"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			description: [
+				"An &bOven&r will allow you to &6quickly cook foods&r, and works from the Cooking Table!"
+				""
+				"If you add a &6Heating Unit&r, you can power the Oven with FE instead of furnace fuel."
+				""
+				"&oInstall Upgrades by right-clicking them on their block."
+			]
+			id: "43EF07FC00CAE761"
+			rewards: [
+				{
+					id: "5BC3C51A1CE464D4"
+					item: "cookingforblockheads:heating_unit"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "12ED1270DCE0891D"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "No soggy bottoms here"
+			tasks: [{
+				id: "62A275B4E27270F9"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "Lets get baked!"
+			x: 5.0d
+			y: 4.0d
+		}
+	]
+	subtitle: ["A fully functional kitchen!"]
+	title: "For Blockheads"
+}

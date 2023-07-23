@@ -1,0 +1,24 @@
+{
+  "tools": {
+    "condensed_creative:shovels": {
+      "base_item": "minecraft:wooden_shovel",
+      "item_tag": "forge:tools/shovels"
+    },
+    "condensed_creative:pickaxes": {
+      "base_item": "minecraft:wooden_pickaxe",
+      "item_tag": "forge:tools/pickaxes"
+    },
+    "condensed_creative:axes": {
+      "base_item": "minecraft:wooden_axe",
+      "item_tag": "forge:tools/axes"
+    },
+    "condensed_creative:hoes": {
+      "base_item": "minecraft:wooden_hoe",
+      "item_tag": "forge:tools/hoes"
+    },
+    "condensed_creative:shears": {
+      "base_item": "minecraft:shears",
+      "item_tag": "forge:shears"
+    }
+  }
+}

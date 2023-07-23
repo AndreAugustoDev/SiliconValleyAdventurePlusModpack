@@ -1,0 +1,439 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "flux_networks"
+	group: "0815C5D80307ECDF"
+	icon: "fluxnetworks:flux_core"
+	id: "39A1378A391F6BBE"
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1BE26A00A420DAE3"]
+			description: [
+				"The first item you'll need to start your &aFlux Network&r is a &bFlux Plug&r. "
+				""
+				"&bFlux Plugs&r serve as the &6input&r to a network, &6drawing&r power from the block it is attached to."
+				""
+				"Aside from a small buffer, the plug does not store power itself, so don't worry about it zapping up all of your power."
+				""
+				"It can connect to cables, pipes, batteries, or the output of any power producing machine."
+				""
+				"In order to use it, you'll have to &6create a network&r and then connect to it."
+				""
+				"To learn how to set up your first network, check the next quest!"
+			]
+			id: "5F078A574A783B02"
+			rewards: [
+				{
+					id: "46F6946231FB28A0"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+				{
+					id: "615F6356856A3371"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "116BF6D4838A099B"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "00B1C30B3E10D332"
+				item: "fluxnetworks:flux_plug"
+				type: "item"
+			}]
+			title: "Starting Your Network"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"Right clicking a functional Flux Network block will give you this UI."
+				""
+				"Each Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system."
+				""
+				"&aPower Surge&r sets the specific point or plug to ignore set priorities within the system."
+				"&aBypass Limit&r ignores the limit set."
+				""
+				"There are several other tabs to check out, mostly for statistics on your network!"
+				""
+				"{image:atm:textures/questpics/flux/flux_ui.png width:125 height:150 align:1}"
+			]
+			icon: "fluxnetworks:admin_configurator"
+			id: "2EB7784D5296F410"
+			min_width: 350
+			optional: true
+			rewards: [{
+				id: "64751B6E2F284585"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3D721B55E8D33FE8"
+				title: "The Flux Networks UI"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F078A574A783B02"]
+			description: [
+				"Right-click on your plug and you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!"
+				""
+				"From here, you can go to the Network Selection tab to activate your network on the plug. If the plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!"
+				""
+				"Pro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"
+			]
+			icon: "fluxnetworks:flux_configurator"
+			id: "36DEA17CBB696CC7"
+			min_width: 300
+			rewards: [
+				{
+					count: 4
+					id: "2AC42E9338722803"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+				{
+					id: "739E3CA0422DB9F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "You're a Network Admin Now!"
+			tasks: [{
+				id: "2D0212699F99459F"
+				title: "My First Network"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"&9Flux Networks&r does provide a way to store the power you generate for your network!"
+				""
+				"These hold massive amounts of power overall, and can be upgraded to store even more!"
+				""
+				"It will only be filled once each &aFlux Point&r has received enough energy."
+				""
+				"You can't connect to them with pipes, only using &aFlux Points and Plugs&r."
+				""
+				"&eNetwork's do not require a Flux Storage to operate.&r"
+			]
+			id: "79AD74A863EA43CB"
+			rewards: [
+				{
+					id: "6A142D7F593E9DBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "69236C65B496550C"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			subtitle: "Store Energy in your network"
+			tasks: [{
+				id: "3C574DDC057353DF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "fluxnetworks:basic_flux_storage"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:herculean_flux_storage"
+							}
+							{
+								Count: 1b
+								id: "fluxnetworks:gargantuan_flux_storage"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Flux Storage"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"&9Flux Networks&r also provides a way to charge your items wirelessly, even across dimensions!"
+				""
+				"Inventory charging can be configured in the Wireless Charging Tab."
+				" "
+				"Only one controller can be connected to a network at one time."
+				""
+				"The controller's 'Output' refers to energy outputted from the network via Wireless Charging."
+				""
+				"Once you have a plug attached to your power system, you'll want to make the &bFlux Controller&r and place it down, allowing you to &6enable inventory charging&r, using FE on the network."
+				""
+				"Right click to bring up the interface, and go to the \"Wireless Charging\" tab. From here, you can select each section of your inventory you'd like to keep charged, like your hotbar, curio, armor, and hand slots."
+				""
+				"To activate, make sure to hit the toggle at the bottom to &eEnable Wireless&r charging, then click apply!"
+				""
+				"{image:atm:textures/questpics/flux/wireless_ui.png width:125 height:140 align:1}"
+				""
+				"&eNetwork's do not require a Flux Controller to operate&r"
+			]
+			id: "27A4FA38992448A0"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D553DA55A83294D"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "37E08FCD1F0A3D26"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "It's all coming together"
+			tasks: [{
+				id: "013BD44E5E82802A"
+				item: "fluxnetworks:flux_controller"
+				type: "item"
+			}]
+			title: "Wireless Charging"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["36DEA17CBB696CC7"]
+			description: [
+				"With our plug set up, we can now tap into the power from our network."
+				"The &bFlux Point&r does exactly that, serving as the &6outputs&r of a network.."
+				"It points the power from your network to whatever block it is attached to, including pipes or cables, or just directly on machines!"
+				""
+				"Once you've placed your point on the machine or block you want to power, right click on it and select your network in the Network Selection tab."
+				"Just like the plug, you can adjust how much power it pulls, priority level, etc."
+				""
+				"If there's power on the network, or if there's a &bFlux Plug&r receiving power, it will be sent out of Points on the network."
+			]
+			id: "56B6ABF3D6EA0D84"
+			rewards: [
+				{
+					id: "34498E12E8224864"
+					item: "fluxnetworks:flux_core"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "175D04352F2F6D97"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36DA068B9758EC94"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "026DE584C4DF393C"
+				item: "fluxnetworks:flux_point"
+				type: "item"
+			}]
+			title: "Accessing Network Power"
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1F81EA5E45424308"]
+			description: [
+				"&eFlux Networks&r is a mod that aims to be the solution to all of your wireless power needs, allowing you to &6wirelessly transfer FE&r at massive speeds, as well as &6charge your inventory&r from any distance."
+				""
+				"The mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory."
+				""
+				"You can even charge your jetpack while you are flying with this mod. HOW COOL IS THAT?"
+				""
+				"To get started with the mod, you'll need some &aFlux Dust&r."
+				"Head to bedrock level, then throw some redstone on top of a block of bedrock."
+				"Place a block of obsidian right above the floating redstone, then left click the obsidian."
+				""
+				"Read more about Flux Networks on their Wiki: https://github.com/SonarSonic/Flux-Networks/wiki"
+			]
+			id: "35CC898E0E49FE58"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "16D31D3D55F77046"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "19CFBA244CF82C53"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB51B7DDAE608F1"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Ultimate Wireless Power Solution"
+			tasks: [{
+				count: 4L
+				id: "0F0CBAF912DE462F"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			title: "Flux Networks"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00000000000002E8"]
+			description: [
+				"In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network."
+				"Make a few of each!"
+			]
+			hide: true
+			id: "1BE26A00A420DAE3"
+			rewards: [
+				{
+					count: 4
+					id: "4FA376B34C2BF04A"
+					item: "fluxnetworks:flux_dust"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "3C2BBFC2A36E722F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "5G Flux Network"
+			tasks: [
+				{
+					count: 4L
+					id: "5E760075B279BA71"
+					item: "fluxnetworks:flux_core"
+					type: "item"
+				}
+				{
+					id: "01B3CDAA69D1FA2F"
+					item: "fluxnetworks:flux_block"
+					type: "item"
+				}
+			]
+			title: "The \"Core\" Crafting Materials"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["35CC898E0E49FE58"]
+			description: [
+				"Obtained by dropping redstone between Obsidian \\& Bedrock."
+				""
+				"Obsidian on top and bedrock on the bottom- drop redstone between them and then left click the obsidian."
+				""
+				"&o*loud noises*- Flux!"
+				""
+				"There is no limit to the amount of Redstone Dust you can use, each time."
+				""
+				"&7Reward: 2 EXP Levels \\& 4x Loot Bundle Fragment."
+			]
+			hide: true
+			id: "00000000000002E8"
+			rewards: [
+				{
+					id: "00000000000002EA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "534AB1199108E6D0"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4B43E03982F72CE9"
+					item: "fluxnetworks:flux_dust"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Obtain some Flux"
+			tasks: [{
+				id: "00000000000002E9"
+				item: "fluxnetworks:flux_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00000000000002E8"]
+			description: [
+				"It can also be used to copy / paste settings between connectors."
+				""
+				"Shift-Right Click on a connector to copy it's settings and then Right Click on a connector you wish to paste the settings to."
+				""
+				"If you right click something which isn't a connector you'll bring up the Network GUI and also you'll be able to edit the settings which the Configurator will paste."
+				""
+				"The configurator can also be renamed here, with the name field."
+			]
+			id: "00000000000002FC"
+			optional: true
+			rewards: [
+				{
+					id: "0000000000000300"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "0000000000000301"
+					item: {
+						Count: 1b
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "treasure_chest"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Can be used to access, edit, delete networks on the go."
+			tasks: [{
+				id: "00000000000002FD"
+				item: "fluxnetworks:flux_configurator"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+	]
+	title: "Flux Networks"
+}

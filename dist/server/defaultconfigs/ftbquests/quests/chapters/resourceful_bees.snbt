@@ -1,0 +1,6172 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "resourceful_bees"
+	group: "6614EE2378B8AFB9"
+	icon: "minecraft:honeycomb"
+	id: "17013469EC5433C8"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome! This series of quests is designed to teach you how to obtain resources through the Resourceful Bees mod, and to guide you through how to breed all of them."
+				"Once you get the hang of it, you're in for an unBEElievable experience with this pack!"
+				"P.S. The fact this chapter looks like a bee, I swear to god, is a happy accident."
+			]
+			id: "288A0D740ECD12F1"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "7764876B97F22BCD"
+				title: "NOT THE BEES!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: ["Used to catch and carry bees."]
+			id: "1B1DE94EC57DC4E4"
+			rewards: [{
+				id: "3B987E05392DB7E8"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0D2DEDB393C98CC7"
+				item: "resourcefulbees:bee_jar"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: ["Used to scrape off honeycombs from Resourceful Bees nests and hives."]
+			id: "1DE2DA9B6B629BE0"
+			rewards: [{
+				id: "76E63718141E0F88"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3A4C89CE25175B64"
+				item: "resourcefulbees:scraper"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: ["When used on a nest or hive, it lets you get the honey or combs without angering the bees."]
+			hide_dependency_lines: false
+			id: "5E818AFA7489B944"
+			rewards: [{
+				id: "2276E2465443BFC7"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "6F65EA9D93DDE483"
+				item: {
+					Count: 1b
+					id: "resourcefulbees:smoker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: ["Gives you information on bees and their traits."]
+			id: "69E1C6FF652DDA20"
+			rewards: [{
+				id: "010838D02139B1AB"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "159290A6B5E85A28"
+				item: "resourcefulbees:beepedia"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: ["Used to turn honeycombs into resources."]
+			hide_dependency_lines: true
+			id: "527F724A093EECCE"
+			tasks: [{
+				id: "0602065C76672539"
+				item: "resourcefulbees:mechanical_centrifuge"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["527F724A093EECCE"]
+			description: ["Turns honeycombs into resources using energy."]
+			id: "3CB1288AA8FD20EA"
+			tasks: [{
+				id: "46A0FAD35E3D7BF1"
+				item: "resourcefulbees:centrifuge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3CB1288AA8FD20EA"]
+			description: [
+				"The first multiblock centrifuge, can process honeycomb blocks."
+				"The structure is 3x3 and 4 tall. Place the controller 1 block above the ground in the center of any of the faces."
+			]
+			id: "36B15A5719059EC3"
+			tasks: [
+				{
+					id: "1AA8158B6628BBD8"
+					item: "resourcefulbees:centrifuge_controller"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "75116BE301D9A823"
+					item: "resourcefulbees:centrifuge_casing"
+					type: "item"
+				}
+			]
+			title: "Tier 1 Centrifuge"
+			x: 6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["36B15A5719059EC3"]
+			id: "03F6775B25612C33"
+			tasks: [
+				{
+					id: "31494584529A46D8"
+					item: "resourcefulbees:elite_centrifuge_controller"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "6712516DA564ECBE"
+					item: "resourcefulbees:elite_centrifuge_casing"
+					type: "item"
+				}
+			]
+			title: "Tier 2 Centrifuge"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["03F6775B25612C33"]
+			id: "78CA08B59FE045C1"
+			tasks: [
+				{
+					id: "3ADC5DEBCC4F9041"
+					item: "ctiers:centrifuge_controller_tier_3"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "001453DB9C3AEA69"
+					item: "ctiers:centrifuge_casing_tier_3"
+					type: "item"
+				}
+			]
+			title: "Tier 3 Centrifuge"
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78CA08B59FE045C1"]
+			id: "7AA73C6752BA326C"
+			tasks: [
+				{
+					id: "03033D482FE98D01"
+					item: "ctiers:centrifuge_controller_tier_4"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "7B0BB214A74305FD"
+					item: "ctiers:centrifuge_casing_tier_4"
+					type: "item"
+				}
+			]
+			title: "Tier 4 Centrifuge"
+			x: 9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7AA73C6752BA326C"]
+			id: "18A1EA065FF47F55"
+			tasks: [
+				{
+					id: "75BEF4038E597513"
+					item: "ctiers:centrifuge_controller_tier_5"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "511A982BBD8A7951"
+					item: "ctiers:centrifuge_casing_tier_5"
+					type: "item"
+				}
+			]
+			title: "Tier 5 Centrifuge"
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["18A1EA065FF47F55"]
+			id: "0034618BF30DCBBB"
+			size: 1.25d
+			subtitle: "All your comb are belong to us"
+			tasks: [
+				{
+					id: "44ACB1F4399D69B4"
+					item: "ctiers:centrifuge_controller_tier_creative"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "5A08126944306F39"
+					item: "ctiers:centrifuge_casing_tier_creative"
+					type: "item"
+				}
+			]
+			title: "Creative Centrifuge"
+			x: 11.60612244897959d
+			y: 0.9923469387754764d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "472686291A4A1FA3"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						DisplayName: "{\"translate\":\"entity.resourcefulbees.beeper_bee\"}"
+						Entity: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							AngerTime: 0
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 0.3d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 48.0d
+									Modifiers: [{
+										Amount: -0.002714950959145054d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											-1338143603
+											2126922576
+											-1884973719
+											513917836
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+							]
+							BMLootBlock: 0b
+							BannerStack: {
+								Count: 1b
+								id: "minecraft:air"
+								tag: {
+									Tier: 0
+								}
+							}
+							CanUpdate: 1b
+							CitadelData: { }
+							Color: "#c9f0a"
+							FeedCount: 0
+							FireType: "minecraft:"
+							ForcedAge: 0
+							ForgeCaps: {
+								"mahoutsukai:living_mahou": {
+									MAHOUTSUKAI_AUTHORITY_HIT: 0b
+									MAHOUTSUKAI_KODOKU: 0
+								}
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									defaulteyeheight: 0.0f
+									isshrinking: 0b
+									isshrunk: 0b
+									scale: 1.0f
+								}
+								"the_bumblezone:entity_position_and_dimension": {
+									PreviousDimensionNamespace: "minecraft"
+									PreviousDimensionPath: "overworld"
+								}
+								"the_bumblezone:neurotoxins_missed_counter": {
+									missed_paralysis: 0.0f
+								}
+								"the_bumblezone:original_flying_speed": {
+									original_flying_speed: 0.02f
+								}
+								"twilightforest:cap_feather_fan_fall": {
+									featherFanFalling: 0b
+								}
+								"twilightforest:cap_shield": {
+									permshields: 0
+									tempshields: 0
+								}
+								"twilightforest:cap_thrown": {
+									throwCooldown: 0
+									yetiThrown: 0b
+								}
+								"twilightforest:giant_pick_mine": {
+									giantPickMining: 0L
+								}
+								"vampirism:iextendedcreature": {
+									bloodLevel: -1
+									maxBlood: -1
+									poisonousBlood: 0b
+								}
+							}
+							ForgeData: {
+								"naturesaura:time_alive": 40
+							}
+							GoldenAirSupply: 0.0f
+							HasNectar: 0b
+							HasStung: 0b
+							Health: 10.0f
+							InLove: 0
+							Invulnerable: 0b
+							PersistenceRequired: 1b
+							UsingSpectreBoundedSpyglass: 0b
+							ad_astra_giselle_addon: {
+								"ad_astra_giselle_addon:proof": { }
+							}
+							bm_IsStunted: 0b
+							"forge:spawn_type": "SPAWN_EGG"
+							id: "resourcefulbees:beeper_bee"
+							mutationCount: 0
+						}
+					}
+				}
+				id: "42059A339876368C"
+				item: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						DisplayName: "{\"translate\":\"entity.resourcefulbees.beeper_bee\"}"
+						Entity: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							AngerTime: 0
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 0.3d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 48.0d
+									Modifiers: [{
+										Amount: -0.002714950959145054d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											-1338143603
+											2126922576
+											-1884973719
+											513917836
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+							]
+							BMLootBlock: 0b
+							BannerStack: {
+								Count: 1b
+								id: "minecraft:air"
+								tag: {
+									Tier: 0
+								}
+							}
+							CanUpdate: 1b
+							CitadelData: { }
+							Color: "#c9f0a"
+							FeedCount: 0
+							FireType: "minecraft:"
+							ForcedAge: 0
+							ForgeCaps: {
+								"mahoutsukai:living_mahou": {
+									MAHOUTSUKAI_AUTHORITY_HIT: 0b
+									MAHOUTSUKAI_KODOKU: 0
+								}
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									defaulteyeheight: 0.0f
+									isshrinking: 0b
+									isshrunk: 0b
+									scale: 1.0f
+								}
+								"the_bumblezone:entity_position_and_dimension": {
+									PreviousDimensionNamespace: "minecraft"
+									PreviousDimensionPath: "overworld"
+								}
+								"the_bumblezone:neurotoxins_missed_counter": {
+									missed_paralysis: 0.0f
+								}
+								"the_bumblezone:original_flying_speed": {
+									original_flying_speed: 0.02f
+								}
+								"twilightforest:cap_feather_fan_fall": {
+									featherFanFalling: 0b
+								}
+								"twilightforest:cap_shield": {
+									permshields: 0
+									tempshields: 0
+								}
+								"twilightforest:cap_thrown": {
+									throwCooldown: 0
+									yetiThrown: 0b
+								}
+								"twilightforest:giant_pick_mine": {
+									giantPickMining: 0L
+								}
+								"vampirism:iextendedcreature": {
+									bloodLevel: -1
+									maxBlood: -1
+									poisonousBlood: 0b
+								}
+							}
+							ForgeData: {
+								"naturesaura:time_alive": 40
+							}
+							GoldenAirSupply: 0.0f
+							HasNectar: 0b
+							HasStung: 0b
+							Health: 10.0f
+							InLove: 0
+							Invulnerable: 0b
+							PersistenceRequired: 1b
+							UsingSpectreBoundedSpyglass: 0b
+							ad_astra_giselle_addon: {
+								"ad_astra_giselle_addon:proof": { }
+							}
+							bm_IsStunted: 0b
+							"forge:spawn_type": "SPAWN_EGG"
+							id: "resourcefulbees:beeper_bee"
+							mutationCount: 0
+						}
+					}
+				}
+				title: "Filled Bee Jar - Beeper"
+				type: "item"
+			}]
+			title: "Beeper"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "203158E4DD58963F"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#339786"
+						Entity: "resourcefulbees:ender_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ender_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "14ADF9262F998A24"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:ender_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Ender Bee"
+				type: "item"
+			}]
+			title: "Ender Bee"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"472686291A4A1FA3"
+				"203158E4DD58963F"
+			]
+			description: ["Parents: Beeper and Ender"]
+			id: "3400A30E23DFEE54"
+			shape: "hexagon"
+			subtitle: "Critical buzz"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#fff37f"
+						Entity: "resourcefulbees:uranium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0C4920974C65CB2A"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:uranium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Uranium Bee"
+				type: "item"
+			}]
+			title: "Uranium Bee"
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "6B024B3AC868CBF6"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#1ad920"
+						Entity: "resourcefulbees:slimy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.slimy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3BCA5466BDABE810"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:slimy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Slimy Bee"
+				type: "item"
+			}]
+			title: "Slimy Bee"
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6B024B3AC868CBF6"
+				"472686291A4A1FA3"
+			]
+			description: ["Parents: Beeper and Slimey"]
+			id: "1B33143BBB9BC3D5"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#00FC1A"
+						Entity: "resourcefulbees:uraninite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.uraninite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "628E5F21283B06D9"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:uraninite_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Uraninite Bee"
+				type: "item"
+			}]
+			title: "Uraninite Bee"
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"66692BE0578297B8"
+				"22A1556E84A8C784"
+			]
+			description: ["Parents: Quartz and Stoned"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					DisplayName: "{\"translate\":\"entity.resourcefulbees.gold_bee\"}"
+					Entity: {
+						AbsorptionAmount: 0.0f
+						Age: 0
+						AngerTime: 0
+						Attributes: [
+							{
+								Base: 0.0d
+								Name: "minecraft:generic.knockback_resistance"
+							}
+							{
+								Base: 0.3d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 48.0d
+								Modifiers: [{
+									Amount: 0.05399928236536075d
+									Name: "Random spawn bonus"
+									Operation: 1
+									UUID: [I;
+										561117142
+										-1768274808
+										-1350002904
+										-1977360595
+									]
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
+						]
+						BMLootBlock: 0b
+						BannerStack: {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								Tier: 0
+							}
+						}
+						CanUpdate: 1b
+						CitadelData: { }
+						Color: "#ffdc00"
+						FeedCount: 0
+						FireType: "minecraft:"
+						ForcedAge: 0
+						ForgeCaps: {
+							"mahoutsukai:living_mahou": {
+								MAHOUTSUKAI_AUTHORITY_HIT: 0b
+								MAHOUTSUKAI_KODOKU: 0
+							}
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								defaulteyeheight: 0.0f
+								isshrinking: 0b
+								isshrunk: 0b
+								scale: 1.0f
+							}
+							"the_bumblezone:entity_position_and_dimension": {
+								PreviousDimensionNamespace: "minecraft"
+								PreviousDimensionPath: "overworld"
+							}
+							"the_bumblezone:neurotoxins_missed_counter": {
+								missed_paralysis: 0.0f
+							}
+							"the_bumblezone:original_flying_speed": {
+								original_flying_speed: 0.02f
+							}
+							"twilightforest:cap_feather_fan_fall": {
+								featherFanFalling: 0b
+							}
+							"twilightforest:cap_shield": {
+								permshields: 0
+								tempshields: 0
+							}
+							"twilightforest:cap_thrown": {
+								throwCooldown: 0
+								yetiThrown: 0b
+							}
+							"twilightforest:giant_pick_mine": {
+								giantPickMining: 0L
+							}
+							"vampirism:iextendedcreature": {
+								bloodLevel: -1
+								maxBlood: -1
+								poisonousBlood: 0b
+							}
+						}
+						ForgeData: {
+							"naturesaura:time_alive": 2400
+						}
+						GoldenAirSupply: 0.0f
+						HasNectar: 0b
+						HasStung: 0b
+						Health: 10.0f
+						InLove: 0
+						Invulnerable: 0b
+						PersistenceRequired: 0b
+						Tags: ["hexerei.checked"]
+						UsingSpectreBoundedSpyglass: 0b
+						ad_astra_giselle_addon: {
+							"ad_astra_giselle_addon:proof": { }
+						}
+						bm_IsStunted: 0b
+						"forge:spawn_type": "NATURAL"
+						id: "resourcefulbees:gold_bee"
+						mutationCount: 0
+					}
+				}
+			}
+			id: "5B606056E5FE17C0"
+			shape: "hexagon"
+			subtitle: "He got da drip"
+			tasks: [{
+				id: "71340427CEF56B97"
+				item: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						DisplayName: "{\"translate\":\"entity.resourcefulbees.gold_bee\"}"
+						Entity: {
+							AbsorptionAmount: 0.0f
+							Age: 0
+							AngerTime: 0
+							Attributes: [
+								{
+									Base: 0.0d
+									Name: "minecraft:generic.knockback_resistance"
+								}
+								{
+									Base: 0.3d
+									Name: "minecraft:generic.movement_speed"
+								}
+								{
+									Base: 0.08d
+									Name: "forge:entity_gravity"
+								}
+								{
+									Base: 48.0d
+									Modifiers: [{
+										Amount: 0.05399928236536075d
+										Name: "Random spawn bonus"
+										Operation: 1
+										UUID: [I;
+											561117142
+											-1768274808
+											-1350002904
+											-1977360595
+										]
+									}]
+									Name: "minecraft:generic.follow_range"
+								}
+								{
+									Base: 0.0d
+									Name: "forge:step_height_addition"
+								}
+							]
+							BMLootBlock: 0b
+							BannerStack: {
+								Count: 1b
+								id: "minecraft:air"
+								tag: {
+									Tier: 0
+								}
+							}
+							CanUpdate: 1b
+							CitadelData: { }
+							Color: "#ffdc00"
+							FeedCount: 0
+							FireType: "minecraft:"
+							ForcedAge: 0
+							ForgeCaps: {
+								"mahoutsukai:living_mahou": {
+									MAHOUTSUKAI_AUTHORITY_HIT: 0b
+									MAHOUTSUKAI_KODOKU: 0
+								}
+								"mekanism:radiation": {
+									radiation: 1.0E-7d
+								}
+								"pneumaticcraft:hacking": { }
+								"shrink:shrunk": {
+									defaulteyeheight: 0.0f
+									isshrinking: 0b
+									isshrunk: 0b
+									scale: 1.0f
+								}
+								"the_bumblezone:entity_position_and_dimension": {
+									PreviousDimensionNamespace: "minecraft"
+									PreviousDimensionPath: "overworld"
+								}
+								"the_bumblezone:neurotoxins_missed_counter": {
+									missed_paralysis: 0.0f
+								}
+								"the_bumblezone:original_flying_speed": {
+									original_flying_speed: 0.02f
+								}
+								"twilightforest:cap_feather_fan_fall": {
+									featherFanFalling: 0b
+								}
+								"twilightforest:cap_shield": {
+									permshields: 0
+									tempshields: 0
+								}
+								"twilightforest:cap_thrown": {
+									throwCooldown: 0
+									yetiThrown: 0b
+								}
+								"twilightforest:giant_pick_mine": {
+									giantPickMining: 0L
+								}
+								"vampirism:iextendedcreature": {
+									bloodLevel: -1
+									maxBlood: -1
+									poisonousBlood: 0b
+								}
+							}
+							ForgeData: {
+								"naturesaura:time_alive": 2400
+							}
+							GoldenAirSupply: 0.0f
+							HasNectar: 0b
+							HasStung: 0b
+							Health: 10.0f
+							InLove: 0
+							Invulnerable: 0b
+							PersistenceRequired: 0b
+							Tags: ["hexerei.checked"]
+							UsingSpectreBoundedSpyglass: 0b
+							ad_astra_giselle_addon: {
+								"ad_astra_giselle_addon:proof": { }
+							}
+							bm_IsStunted: 0b
+							"forge:spawn_type": "NATURAL"
+							id: "resourcefulbees:gold_bee"
+							mutationCount: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Gold Bee"
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"352BD309019E315B"
+				"5B606056E5FE17C0"
+			]
+			description: ["Parents: Gold and Silver"]
+			id: "7B63E985866AC48D"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#A4EDFC"
+						Entity: "resourcefulbees:platinum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.platinum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "4A5E641696B624B6"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:platinum_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Platinum Bee"
+				type: "item"
+			}]
+			title: "Platinum Bee"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5B606056E5FE17C0"
+				"3A2DFF2FC1CF92BD"
+			]
+			description: ["Parents: Gold and Aluminum"]
+			id: "352BD309019E315B"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D1E1EC"
+						Entity: "resourcefulbees:silver_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.silver_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0F8432FC15174A96"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:silver_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Silver Bee"
+				type: "item"
+			}]
+			title: "Silver Bee"
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"6B024B3AC868CBF6"
+				"5B606056E5FE17C0"
+			]
+			description: ["Parents: Slimey and Gold"]
+			id: "28515C00A89B5433"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#18eb09"
+						Entity: "resourcefulbees:emerald_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.emerald_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "300407068D825948"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:emerald_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Emerald Bee"
+				type: "item"
+			}]
+			title: "Emerald Bee"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "66692BE0578297B8"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D4CABA"
+						Entity: "resourcefulbees:quartz_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.quartz_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "36A6273973BD9762"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:quartz_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Quartz Bee"
+				type: "item"
+			}]
+			title: "Quartz Bee"
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"66692BE0578297B8"
+				"22A1556E84A8C784"
+			]
+			description: ["Parents: Quartz and Stoned"]
+			id: "3A2DFF2FC1CF92BD"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#C3CDD5"
+						Entity: "resourcefulbees:aluminum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aluminum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1F5F620CB2A3EA82"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:aluminum_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Aluminum Bee"
+				type: "item"
+			}]
+			title: "Aluminum Bee"
+			x: -2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"750857F675CCC815"
+				"0F571BA1D1765976"
+			]
+			description: ["Parents: Cobbee and Lava"]
+			id: "22A1556E84A8C784"
+			shape: "hexagon"
+			subtitle: "Sky high"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#5A5A5A"
+						Entity: "resourcefulbees:stoned_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.stoned_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "5128CED516C2C32B"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:stoned_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Stoned Bee"
+				type: "item"
+			}]
+			title: "Stoned Bee"
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"66692BE0578297B8"
+				"22A1556E84A8C784"
+			]
+			description: ["Parents: Quartz and Stoned"]
+			id: "4E3F2AFE407C22F6"
+			shape: "hexagon"
+			subtitle: "Conductive! Bzzzzt"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D28868"
+						Entity: "resourcefulbees:copper_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.copper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1132ECF981A1193F"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:copper_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Copper Bee"
+				type: "item"
+			}]
+			title: "Copper Bee"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"4E3F2AFE407C22F6"
+				"66692BE0578297B8"
+			]
+			description: ["Parents: Quartz and Copper"]
+			id: "4BBA5CE39C9A98C6"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#d2d6f7"
+						Entity: "resourcefulbees:certus_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.certus_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "658E1CFA3CEF6E1C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:certus_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Certus Bee"
+				type: "item"
+			}]
+			title: "Certus Bee"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"66692BE0578297B8"
+				"22A1556E84A8C784"
+			]
+			description: ["Parents: Quartz and Stoned"]
+			id: "6B78C079E806B590"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#ECEDEE"
+						Entity: "resourcefulbees:tin_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.tin_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2967F814DDD6E2DD"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:tin_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Tin Bee"
+				type: "item"
+			}]
+			title: "Tin Bee"
+			x: -2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: [
+				"Spawns naturally."
+				""
+			]
+			hide_dependency_lines: true
+			id: "750857F675CCC815"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#1c1823"
+						Entity: "resourcefulbees:cobbee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cobbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1659A0DF6B38F544"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:cobbee_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - CobBee"
+				type: "item"
+			}]
+			title: "Cobbee"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "0F571BA1D1765976"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#DB4819"
+						Entity: "resourcefulbees:lava_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "03B9270A83F7008A"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:lava_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Lava Bee"
+				type: "item"
+			}]
+			title: "Lava Bee"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "1FD5CB58D5C0D368"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#8499D6"
+						Entity: "resourcefulbees:water_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.water_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "34B5B3B657D835B3"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:water_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Water Bee"
+				type: "item"
+			}]
+			title: "Water Bee"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"1FD5CB58D5C0D368"
+				"0F571BA1D1765976"
+			]
+			description: ["Parents: Water and Lava"]
+			id: "07F88C87BCE0B637"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#211B20"
+						Entity: "resourcefulbees:obsidian_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.obsidian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2FFCEB0BE0476A6C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:obsidian_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Obsidian Bee"
+				type: "item"
+			}]
+			title: "Obsidian Bee"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"22A1556E84A8C784"
+				"66692BE0578297B8"
+			]
+			description: ["Parents: Quartz and Stoned"]
+			id: "684EC117EC0828E1"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#ffcc99"
+						Entity: "resourcefulbees:iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "28B61134414A4FB7"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:iron_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Iron Bee"
+				type: "item"
+			}]
+			title: "Iron Bee"
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6B78C079E806B590"
+				"684EC117EC0828E1"
+			]
+			description: ["Parents: Iron and Tin"]
+			id: "105F00789049BFBF"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#B6DBD8"
+						Entity: "resourcefulbees:zinc_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zinc_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "6FDFEA4CE2CFEB46"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:zinc_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Zinc Bee"
+				type: "item"
+			}]
+			title: "Zinc Bee"
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"684EC117EC0828E1"
+				"105F00789049BFBF"
+			]
+			description: ["Parents: Iron and Zinc"]
+			id: "15CD3C23EC10953D"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#F5F2A3"
+						Entity: "resourcefulbees:nickel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.nickel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "15C2800E436E286C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:nickel_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Nickel Bee"
+				type: "item"
+			}]
+			title: "Nickel Bee"
+			x: -2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"6B78C079E806B590"
+				"4D0F2CF7349D3256"
+			]
+			description: ["Parents: Tin and Redstone"]
+			id: "04D4E9D901F5BF9D"
+			shape: "hexagon"
+			subtitle: "More useful than it sounds"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#d6aedd"
+						Entity: "resourcefulbees:fluorite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.fluorite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "5007ED938E3FDFDB"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:fluorite_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Fluorite Bee"
+				type: "item"
+			}]
+			title: "Fluorite Bee"
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"4298012F62A291F1"
+				"7B9A75F596F24FB7"
+			]
+			description: ["Parents: Glowing and RGBee"]
+			id: "4D0F2CF7349D3256"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#aa0f01"
+						Entity: "resourcefulbees:redstone_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.redstone_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "29C8E5B1AD71D1F6"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:redstone_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Redstone Bee"
+				type: "item"
+			}]
+			title: "Redstone Bee"
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4D0F2CF7349D3256"
+				"684EC117EC0828E1"
+			]
+			description: ["Parents: Redstone and Iron"]
+			id: "63A8F4F144442A22"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#BDCBD4"
+						Entity: "resourcefulbees:osmium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.osmium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "54F9D3C08F0A381F"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:osmium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Osmium Bee"
+				type: "item"
+			}]
+			title: "Osmium Bee"
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4298012F62A291F1"
+				"22A1556E84A8C784"
+			]
+			description: ["Parents: RGBee and Stoned"]
+			id: "443D842C932D7415"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#345ec3"
+						Entity: "resourcefulbees:lapis_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lapis_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "7AFF1113A788EC9C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:lapis_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Lapis Bee"
+				type: "item"
+			}]
+			title: "Lapis Bee"
+			x: -1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:rgbee_bee"
+				}
+			}
+			id: "4298012F62A291F1"
+			shape: "hexagon"
+			subtitle: "LGBeeT"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "rainbow"
+						Entity: "resourcefulbees:rgbee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.rgbee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2418C31DC6D95627"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:rgbee_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - RGBee"
+				type: "item"
+			}]
+			title: "RGBee"
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:glowing_bee"
+				}
+			}
+			id: "7B9A75F596F24FB7"
+			shape: "hexagon"
+			subtitle: "Shiny!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D6D30D"
+						Entity: "resourcefulbees:glowing_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.glowing_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "4422B91ABA9228FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:glowing_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Glowing Bee"
+				type: "item"
+			}]
+			title: "Glowing Bee"
+			x: -2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"684EC117EC0828E1"
+				"08ED4065D5D4C88F"
+			]
+			description: ["Parents: Iron and Coal"]
+			id: "6E8AE1A5B64A9E81"
+			shape: "hexagon"
+			subtitle: "Its wings are too small to get its fat little body off the ground"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D0E4E1"
+						Entity: "resourcefulbees:lead_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lead_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3BB7061FAD891900"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:lead_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Lead Bee"
+				type: "item"
+			}]
+			title: "Lead Bee"
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"0CC3FC0A76E5E180"
+				"6FBB5F47790D5D17"
+			]
+			description: ["Parents: Lumber and Blazing"]
+			id: "08ED4065D5D4C88F"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#303030"
+						Entity: "resourcefulbees:coal_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.coal_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "60029E43ACBDFA64"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:coal_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Coal Bee"
+				type: "item"
+			}]
+			title: "Coal Bee"
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"07F88C87BCE0B637"
+				"08ED4065D5D4C88F"
+			]
+			description: ["Parents: Obsidian and Coal"]
+			id: "4FE45274F0A7AD62"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#00ffff"
+						Entity: "resourcefulbees:diamond_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.diamond_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "65818D073FBC6BD2"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:diamond_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Diamond Bee"
+				type: "item"
+			}]
+			title: "Diamond Bee"
+			x: 1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:lumber_bee"
+				}
+			}
+			id: "0CC3FC0A76E5E180"
+			shape: "hexagon"
+			subtitle: "TimBEEEEEEEr!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#453B2A"
+						Entity: "resourcefulbees:lumber_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.lumber_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0C4ABE0BE18A335E"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:lumber_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Lumber Bee"
+				type: "item"
+			}]
+			title: "Lumber Bee"
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"3DB82BFFEFEF4C86"
+				"42DA8C2E0C805C53"
+			]
+			description: ["Parents: Magma and Spooky"]
+			id: "6FBB5F47790D5D17"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#BD5900"
+						Entity: "resourcefulbees:blazing_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.blazing_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "6BFE4020DF23EF6B"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:blazing_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Blazing Bee"
+				type: "item"
+			}]
+			title: "Blazing Bee"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally"]
+			hide_dependency_lines: true
+			id: "3DB82BFFEFEF4C86"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#C73405"
+						Entity: "resourcefulbees:magma_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.magma_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "027876690B9A2349"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:magma_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Magma Bee"
+				type: "item"
+			}]
+			title: "Magma Bee"
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "42DA8C2E0C805C53"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#F6F2E6"
+						Entity: "resourcefulbees:spooky_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.spooky_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "26F7F92EF3E0731D"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:spooky_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Spooky Bee"
+				type: "item"
+			}]
+			title: "Spooky Bee"
+			x: 2.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"08ED4065D5D4C88F"
+				"42DA8C2E0C805C53"
+			]
+			description: ["Parents: Coal and Spooky"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#444444"
+					Entity: "resourcefulbees:withered_bee"
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.withered_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+					}
+				}
+			}
+			id: "406098B9908A28D3"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#444444"
+						Entity: "resourcefulbees:withered_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.withered_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0D2066B1E89B1C31"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:withered_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Withered Bee"
+				type: "item"
+			}]
+			title: "Withered Bee"
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"1D13306B012BEB18"
+				"406098B9908A28D3"
+			]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:wither_bee"
+				}
+			}
+			id: "514B2973BADCA55A"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#444444"
+						Entity: "resourcefulbees:wither_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.wither_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "754334C91C0B5DB8"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:wither_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Wither Bee"
+				type: "item"
+			}]
+			title: "Wither Bee"
+			x: 0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5B606056E5FE17C0"]
+			description: ["Obtained by having a gold bee mutate a netherite block."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:netherite_bee"
+				}
+			}
+			id: "1D13306B012BEB18"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#654740"
+						Entity: "resourcefulbees:netherite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.netherite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "27118FD59EB0299B"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:netherite_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Netherite Bee"
+				type: "item"
+			}]
+			title: "Netherite Bee"
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["514B2973BADCA55A"]
+			description: ["Obtained by having a wither bee mutate a dragon egg"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:dragonic_bee"
+				}
+			}
+			id: "1A5AF366BE0BF104"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#222222"
+						Entity: "resourcefulbees:dragonic_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dragonic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2811BB7322CB2583"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dragonic_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dragonic Bee"
+				type: "item"
+			}]
+			title: "Dragonic Bee"
+			x: -0.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1A5AF366BE0BF104"]
+			description: ["Obtained by having a dragonic bee mutate an allthemodium block"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:allthemodium_bee"
+				}
+			}
+			id: "0CD71987FE363484"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#FCC50C"
+						Entity: "resourcefulbees:allthemodium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.allthemodium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "179EAF66C68B51CC"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:allthemodium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Allthemodium Bee"
+				type: "item"
+			}]
+			title: "Allthemodium Bee"
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1A5AF366BE0BF104"]
+			description: ["Obtained by having a dragonic bee mutate a wyvern fusion crafting injector"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:draconium_bee"
+				}
+			}
+			id: "3F5FFE411948A9BA"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#8419FF"
+						Entity: "resourcefulbees:draconium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.draconium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "740211E2C257FDBC"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:draconium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Draconium Bee"
+				type: "item"
+			}]
+			title: "Draconium Bee"
+			x: 0.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3F5FFE411948A9BA"]
+			description: ["Obtained by having a draconium bee mutate a draconic fusion crafting injector"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:awakened_bee"
+				}
+			}
+			id: "704B8AA724116F5E"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#FF4C00"
+						Entity: "resourcefulbees:awakened_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.awakened_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "033EA6128B38806D"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:awakened_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Awakened Bee"
+				type: "item"
+			}]
+			title: "Awakened Bee"
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0CD71987FE363484"]
+			description: ["Obtained by having an allthemodium bee mutate a vibranium block"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:vibranium_bee"
+				}
+			}
+			id: "5B8F8E5E5B363668"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#26DE88"
+						Entity: "resourcefulbees:vibranium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.vibranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3193949D89976991"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:vibranium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Vibranium Bee"
+				type: "item"
+			}]
+			title: "Vibranium Bee"
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["5B8F8E5E5B363668"]
+			description: ["Obtained by having a vibrainium bee mutate an unobtainium block"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:unobtainium_bee"
+				}
+			}
+			id: "482474CD12CD9C6B"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#A62BE0"
+						Entity: "resourcefulbees:unobtainium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.unobtainium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "773BA5B668033A8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:unobtainium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Unobtainium Bee"
+				type: "item"
+			}]
+			title: "Unobtainium Bee"
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["482474CD12CD9C6B"]
+			description: ["Obtained by having an unobtainium bee mutate a lava bee"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:soul_lava_bee"
+				}
+			}
+			id: "745F70BAAD92FAC1"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#7cc7d6"
+						Entity: "resourcefulbees:soul_lava_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "4135962668E7C893"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:soul_lava_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Soul Lava Bee"
+				type: "item"
+			}]
+			title: "Soul Lava Bee"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "6E462C09AF2EE91E"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#35b3ff"
+						Entity: "resourcefulbees:aquamarine_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.aquamarine_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3E35E2966E710172"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:aquamarine_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Aquamarine Bee"
+				type: "item"
+			}]
+			title: "Aquamarine Bee"
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "2EE4BDF8C5FBF3D0"
+			shape: "hexagon"
+			subtitle: "Feels magical"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#00C9EA"
+						Entity: "resourcefulbees:mana_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.mana_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "5DFC8304FFCD63E7"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:mana_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Mana Bee"
+				type: "item"
+			}]
+			title: "Mana Bee"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "73A329F59C74A25F"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#dcbb65"
+						Entity: "resourcefulbees:cropy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cropy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "28D4E2CD79BB6E7C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:cropy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Croppy Bee"
+				type: "item"
+			}]
+			title: "Croppy Bee"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "rainbow"
+					Entity: "resourcefulbees:mystical_bee"
+				}
+			}
+			id: "4D2B093E82FC77AF"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "rainbow"
+						Entity: "resourcefulbees:mystical_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.mystical_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "7DB752282C738CB0"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:mystical_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Mystical Bee"
+				type: "item"
+			}]
+			title: "Mystical Bee"
+			x: -0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "26405552FF273AB1"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D4CABA"
+						Entity: "resourcefulbees:crimson_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.crimson_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "7A518BF618272376"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:crimson_iron_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Crimson Iron Bee"
+				type: "item"
+			}]
+			title: "Crimson Iron Bee"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#79553A"
+					Entity: "resourcefulbees:dirty_bee"
+				}
+			}
+			id: "1186CAC60C45CA51"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#79553A"
+						Entity: "resourcefulbees:dirty_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dirty_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "26EB53BBA6FF70E2"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dirty_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dirty Bee"
+				type: "item"
+			}]
+			title: "Dirty Bee"
+			x: 0.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#726b69"
+					Entity: "resourcefulbees:gravely_bee"
+				}
+			}
+			id: "692C4FA52209FCB6"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#726b69"
+						Entity: "resourcefulbees:gravely_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.gravely_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "441790114501CCDF"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:gravely_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Gravely Bee"
+				type: "item"
+			}]
+			title: "Gravely Bee"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#8FC0AA"
+					Entity: "resourcefulbees:guardian_bee"
+				}
+			}
+			id: "2AE749DBBCA40971"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#8FC0AA"
+						Entity: "resourcefulbees:guardian_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.guardian_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1AF9847315CD4AAA"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:guardian_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Guardian Bee"
+				type: "item"
+			}]
+			title: "Guardian Bee"
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "434CAB189536D694"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#6B88C0"
+						Entity: "resourcefulbees:icey_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.icey_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "18DE6EA1A856344D"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:icey_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Icey Bee"
+				type: "item"
+			}]
+			title: "Icey Bee"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "5785E82AA64C4786"
+			shape: "hexagon"
+			subtitle: "Flying babey!"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#EAA939"
+						Entity: "resourcefulbees:kitten_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.kitten_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0CCE1A00146A32E5"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:kitten_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Kitten Bee"
+				type: "item"
+			}]
+			title: "Kitten Bee"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#06B805"
+					Entity: "resourcefulbees:leafy_bee"
+				}
+			}
+			id: "3C3C7FA30538A662"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#06B805"
+						Entity: "resourcefulbees:leafy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.leafy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "529C38274166B152"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:leafy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Leafy Bee"
+				type: "item"
+			}]
+			title: "Leafy Bee"
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#48544F"
+					Entity: "resourcefulbees:mason_bee"
+				}
+			}
+			id: "2F4DD540936F7084"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#48544F"
+						Entity: "resourcefulbees:mason_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.mason_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "04451F9E3005C3A6"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:mason_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Mason Bee"
+				type: "item"
+			}]
+			title: "Mason Bee"
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#442920"
+					Entity: "resourcefulbees:oreo_bee"
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.oreo_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+					}
+				}
+			}
+			id: "1964A587955F5F7C"
+			shape: "hexagon"
+			subtitle: "ATM is not affiliated with Nabisco"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#442920"
+						Entity: "resourcefulbees:oreo_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.oreo_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "07D0D5F6861E889C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:oreo_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Oreo Bee"
+				type: "item"
+			}]
+			title: "Oreo Bee"
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns Naturally."]
+			hide_dependency_lines: true
+			id: "1FEF6006BFEF83CE"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#DDD2B7"
+						Entity: "resourcefulbees:sandy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.sandy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3629DD75FD7A754C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:sandy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Sandy Bee"
+				type: "item"
+			}]
+			title: "Sandy Bee"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "2A2517E704EA3D72"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#030303"
+						Entity: "resourcefulbees:spider_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.spider_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3B850542DFD00EDE"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:spider_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Spider Bee"
+				type: "item"
+			}]
+			title: "Spider Bee"
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#5A5A5A"
+					Entity: "resourcefulbees:stan_bee"
+				}
+			}
+			id: "790917A775CFC2F0"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#5A5A5A"
+						Entity: "resourcefulbees:stan_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.stan_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "29A7117C2F5BB3F7"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:stan_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Stan Bee"
+				type: "item"
+			}]
+			title: "Stan Bee"
+			x: -0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "601E0BC9796893B1"
+			shape: "hexagon"
+			subtitle: "BeeRAIIIINS"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#2F4E32"
+						Entity: "resourcefulbees:zombee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.zombee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3162A6D501D09018"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:zombee_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - ZomBee"
+				type: "item"
+			}]
+			title: "ZomBee"
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			description: ["Quest reward"]
+			id: "3274F1946A54879A"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#FFA500"
+						Entity: "resourcefulbees:starry_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.starry_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2AF55A5372C71454"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:starry_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Starry Bee"
+				type: "item"
+			}]
+			title: "Starry Bee"
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["704B8AA724116F5E"]
+			description: ["Obtained by having an awakened bee mutate a chaotic fusion crafting injector"]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Entity: "resourcefulbees:chaotic_bee"
+				}
+			}
+			id: "7763902435E3E9F6"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#161616"
+						Entity: "resourcefulbees:chaotic_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.chaotic_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2590243DDB721B78"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:chaotic_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Chaotic Bee"
+				type: "item"
+			}]
+			title: "Chaotic Bee"
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "76F230356A059490"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#E9F4F6"
+						Entity: "resourcefulbees:yeti_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.yeti_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "54D7C6A2CF3B6E8C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:yeti_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Yeti Bee"
+				type: "item"
+			}]
+			title: "Yeti Bee"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"601E0BC9796893B1"
+				"42DA8C2E0C805C53"
+			]
+			description: [
+				"You are never truly alone."
+				"Wherever you are, you have ghosts, and if you have ghosts, you have everything."
+				"Parents: ZomBee and Spooky"
+			]
+			id: "1C83F5A94A90E7CA"
+			shape: "hexagon"
+			subtitle: "Just wanna bee wanna beewitch you in the moonlight"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#F5F5F5"
+						Entity: "resourcefulbees:papa_beemeritus_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.papa_beemeritus_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "21B9216CBE7888F5"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:papa_beemeritus_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Papa Beemeritus"
+				type: "item"
+			}]
+			title: "Papa Beemeritus Bee"
+			x: 3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"3DB82BFFEFEF4C86"
+				"472686291A4A1FA3"
+			]
+			description: ["Parents: Beeper and Magma"]
+			id: "33B67C04143B1130"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#B7C7C7"
+						Entity: "resourcefulbees:ghastly_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.ghastly_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "0B6E0E9A1995EDCA"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:ghastly_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Ghastly Bee"
+				type: "item"
+			}]
+			title: "Ghastly Bee"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "72535CB7D959CF87"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#2248ba"
+						Entity: "resourcefulbees:cobalt_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cobalt_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "253313DD30466328"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:cobalt_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Cobalt Bee"
+				type: "item"
+			}]
+			title: "Cobalt Bee"
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "319564FC88C35DD2"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#FF6666"
+						Entity: "resourcefulbees:kobee_beef_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.kobee_beef_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "2E18F9B922C56745"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:kobee_beef_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - KoBee Beef"
+				type: "item"
+			}]
+			title: "KoBee Beef"
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#f3f8e3"
+					Entity: "resourcefulbees:salt_baee_bee"
+				}
+			}
+			id: "6981B1AF17F5D249"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#f3f8e3"
+						Entity: "resourcefulbees:salt_baee_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.salt_baee_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1344733C42244AA3"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:salt_baee_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Salt Baee"
+				type: "item"
+			}]
+			title: "Salt Baee"
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			description: [
+				"Spawns naturally."
+				"Mutate 3x compressed metal blocks for their respective dense bee."
+			]
+			hide_dependency_lines: true
+			id: "7CB3BF840FBB3958"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#edc343"
+						Entity: "resourcefulbees:beediddy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.beediddy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "18A3A6488ECA0F59"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:beediddy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Beediddy Bee"
+				type: "item"
+			}]
+			title: "Beediddy"
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "5DA9BFAB768275B5"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D28868"
+						Entity: "resourcefulbees:dense_copper_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_copper_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "41347205F95504E3"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_copper_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Copper Bee"
+				type: "item"
+			}]
+			title: "Dense Copper Bee"
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "4BCE8815F4338E7B"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#FFDC00"
+						Entity: "resourcefulbees:dense_gold_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_gold_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "68374ACC7D92B974"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_gold_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Gold Bee"
+				type: "item"
+			}]
+			title: "Dense Gold Bee"
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "33B8488B74A7C3E2"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#ffcc99"
+						Entity: "resourcefulbees:dense_iron_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_iron_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1A2D39A3AC204111"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_iron_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Iron Bee"
+				type: "item"
+			}]
+			title: "Dense Iron Bee"
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "0DE02BFB6CD001FB"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D0E4E1"
+						Entity: "resourcefulbees:dense_lead_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_lead_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1F74CD7F534E011E"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_lead_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Lead Bee"
+				type: "item"
+			}]
+			title: "Dense Lead Bee"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "7490A0A569ED2E9D"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#654740"
+						Entity: "resourcefulbees:dense_netherite_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_netherite_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "4056914D800CA62D"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_netherite_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Netherite Bee"
+				type: "item"
+			}]
+			title: "Dense Netherite Bee"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "07E9FF464789CF5C"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#F5F2A3"
+						Entity: "resourcefulbees:dense_nickel_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_nickel_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "33DAB794D06B88A3"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_nickel_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Nickel Bee"
+				type: "item"
+			}]
+			title: "Dense Nickel Bee"
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "6587EDCC47604353"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#BDCBD4"
+						Entity: "resourcefulbees:dense_osmium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_osmium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "7B14C52212093A8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_osmium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Osmium Bee"
+				type: "item"
+			}]
+			title: "Dense Osmium Bee"
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "2BA4ECE8961C59F0"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#A4EDFC"
+						Entity: "resourcefulbees:dense_platinum_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_platinum_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "5747D3BB1D908672"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_platinum_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Platinum Bee"
+				type: "item"
+			}]
+			title: "Dense Platinum Bee"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "232EC5F93BF7CB0D"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#D1E1EC"
+						Entity: "resourcefulbees:dense_silver_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_silver_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "419E5BB0C1EE96E0"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_silver_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Silver Bee"
+				type: "item"
+			}]
+			title: "Dense Silver Bee"
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "72A342C555CB1044"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#ECEDEE"
+						Entity: "resourcefulbees:dense_tin_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_tin_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "1DB39DC97F94939C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_tin_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Tin Bee"
+				type: "item"
+			}]
+			title: "Dense Tin Bee"
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "74938FBB51921F6A"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#fff37f"
+						Entity: "resourcefulbees:dense_uranium_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_uranium_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "74AC42108CD8E740"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_uranium_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Uranium Bee"
+				type: "item"
+			}]
+			title: "Dense Uranium Bee"
+			x: -1.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7CB3BF840FBB3958"]
+			id: "50EDB94618AB22C7"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#B6DBD8"
+						Entity: "resourcefulbees:dense_zinc_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.dense_zinc_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "3A0F4F929CA096C1"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:dense_zinc_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Dense Zinc Bee"
+				type: "item"
+			}]
+			title: "Dense Zinc Bee"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: [
+				"RBees nests spawn all over the world."
+				"Unlike vanilla ones, they cant be harvested with shears, you'll need a scraper."
+				"Bee careful when picking them up, they may have bees inside!"
+				"NOTE: Hives upgraded with hive upgrades get the stats of the respective tier, but they CAN NOT be used to craft an apiary or any hive except tier 1."
+			]
+			hide_dependency_lines: true
+			id: "158CF0DCB09D21C0"
+			tasks: [{
+				id: "6B4424BB24184530"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beehives"
+					}
+				}
+				title: "Any #minecraft:beehives"
+				type: "item"
+			}]
+			title: "Beehive"
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["158CF0DCB09D21C0"]
+			description: ["Higher hive tiers can hold more bees and honeycombs, and let bees work faster."]
+			id: "216F4DBA90DB1780"
+			tasks: [{
+				id: "7AC4F25AF072A11C"
+				item: "resourcefulbees:t1_beehive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["216F4DBA90DB1780"]
+			id: "12DFF876BC04BFBD"
+			tasks: [{
+				id: "636517023912DA26"
+				item: "resourcefulbees:t2_beehive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["330544DF8CDAA236"]
+			id: "79D4508FB6C006BC"
+			tasks: [{
+				id: "07E699B7E07D458C"
+				item: "resourcefulbees:t4_beehive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["12DFF876BC04BFBD"]
+			id: "330544DF8CDAA236"
+			tasks: [{
+				id: "73497BB1E49A15E9"
+				item: "resourcefulbees:t3_beehive"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79D4508FB6C006BC"]
+			description: [
+				"A multiblock structure to house your bees."
+				"Higher tiers can hold more bees, let them work faster, and output more combs per operation."
+				"While the multiblock can hold as many bees as you want, there can only be a set amount of unique bees inside the block at any time."
+			]
+			hide_dependency_lines: true
+			id: "31E4E61D4AC3DD6D"
+			tasks: [{
+				id: "1EFB4365643B8784"
+				item: "resourcefulbees:t1_apiary"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E4E61D4AC3DD6D"]
+			id: "19CAEBA7F0C6F90F"
+			tasks: [{
+				id: "0DC62A5B4496B75D"
+				item: "resourcefulbees:t2_apiary"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31E4E61D4AC3DD6D"]
+			description: ["An optional breeder that can be used as part of an apiary. Breeds bees in jars."]
+			id: "6CC716CAAB62B4C5"
+			tasks: [{
+				id: "62588B42F5453692"
+				item: "resourcefulbees:apiary_breeder"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["19CAEBA7F0C6F90F"]
+			id: "62C814458CF77387"
+			tasks: [{
+				id: "61930C5CA90EBB43"
+				item: "resourcefulbees:t3_apiary"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62C814458CF77387"]
+			id: "1EA0E9D1CF2FCDDD"
+			tasks: [{
+				id: "3A3AB0C3DF3DA319"
+				item: "resourcefulbees:t4_apiary"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1EA0E9D1CF2FCDDD"
+				"4B13145BD6E693A5"
+			]
+			id: "59A15FA030255980"
+			subtitle: "All your bee are belong to us"
+			tasks: [{
+				id: "5ABEEA2D0831F3C0"
+				item: "creativeapiary:tcreative_apiary"
+				type: "item"
+			}]
+			title: "Creative Apiary"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D0C322B98ABA879"]
+			id: "4B13145BD6E693A5"
+			tasks: [{
+				id: "69597D847601E68A"
+				item: "creativeapiary:creative_apiary_storage"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6CC716CAAB62B4C5"]
+			description: [
+				"Breeder Upgrades allow breeders to breed multiple pairs of bees simultaneously."
+				"Breeding Time Upgrades allow the bees to breed faster."
+			]
+			id: "054254E3CB5DA40B"
+			tasks: [
+				{
+					id: "0D795D7739DA949D"
+					item: "resourcefulbees:apiary_breeder_upgrade"
+					type: "item"
+				}
+				{
+					id: "637333C7A914C4C3"
+					item: "resourcefulbees:apiary_breed_time_upgrade"
+					type: "item"
+				}
+			]
+			title: "Breeder Upgrades"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["31E4E61D4AC3DD6D"]
+			description: ["Serves as the comb output for apiaries. Must be in the multiblock for the apiary to work."]
+			id: "7D0C322B98ABA879"
+			tasks: [{
+				id: "782F1C810BD5DAC2"
+				item: "resourcefulbees:apiary_storage"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D0C322B98ABA879"]
+			description: ["Increases the amount of slots in the apiary storage."]
+			id: "3E7F7818AFE676D9"
+			tasks: [{
+				id: "23A1218DB41074D8"
+				item: "resourcefulbees:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3E7F7818AFE676D9"]
+			id: "4696F93DA74F755A"
+			tasks: [{
+				id: "5E971461613D26B2"
+				item: "resourcefulbees:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4696F93DA74F755A"]
+			id: "2D6AD39040CEF90E"
+			tasks: [{
+				id: "3534B8D1741EE66F"
+				item: "resourcefulbees:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2D6AD39040CEF90E"]
+			id: "71123A28E21EC27D"
+			tasks: [{
+				id: "22245FA36032C4E1"
+				item: "resourcefulbees:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6CC716CAAB62B4C5"]
+			id: "45D30F44F5712897"
+			tasks: [{
+				id: "04EA2F2C53E386F7"
+				item: "creativeapiary:creative_apiary_breeder"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["288A0D740ECD12F1"]
+			description: [
+				"One of the most interesting features of Resourceful Bees is mutation. It lets you turn blocks, items, and other mobs into others using bees."
+				"Mutations happen when a bee with polen flies over a mutatable block or entity."
+				"Below is a setup to mutate blocks using a bee going back and forth."
+				"{image:allthemods:textures/block_mutation.png width:192 height:108 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "resourcefulbees:textures/gui/beepedia/mutation_sparkles.png"
+				}
+			}
+			id: "1C97E085F7F6CFF3"
+			tasks: [{
+				id: "6A7A19941FCE457B"
+				title: "How to Mutations"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["158CF0DCB09D21C0"]
+			id: "3CDFA0B9B4ABC9E2"
+			tasks: [{
+				id: "7E71E1730EC0BA62"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "resourcefulbees:resourceful_honeycomb"
+					}
+				}
+				title: "Any #resourcefulbees:resourceful_honeycomb"
+				type: "item"
+			}]
+			title: "Honeycomb"
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["527F724A093EECCE"]
+			id: "58B70CCD2B0765BC"
+			tasks: [{
+				id: "7621DEFFB1AE04A1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:honey_bottles"
+					}
+				}
+				title: "Any #forge:honey_bottle"
+				type: "item"
+			}]
+			title: "Honey Bottle"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["527F724A093EECCE"]
+			id: "7225F8EF1751B768"
+			tasks: [{
+				id: "0EFB1F2D906BE317"
+				item: "resourcefulbees:wax"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1C97E085F7F6CFF3"]
+			description: [
+				"You can mutate certain bees into other bees."
+				"Below is an example setup."
+				"{image:allthemods:textures/entity_mutation.png width:192 height:108 align:1 fit:true}"
+			]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					Color: "#7cc7d6"
+					Entity: "resourcefulbees:soul_lava_bee"
+					display: {
+						Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.soul_lava_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+					}
+				}
+			}
+			id: "75F070F3C448F38E"
+			tasks: [{
+				id: "252A0A3CE7863CB7"
+				title: "Bee Mutations"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B1DE94EC57DC4E4"]
+			dependency_requirement: "one_completed"
+			description: ["Spawns naturally."]
+			hide_dependency_lines: true
+			id: "2AC3B3501A718A2D"
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "resourcefulbees:bee_jar"
+					tag: {
+						Color: "#55CDFC"
+						Entity: "resourcefulbees:cotton_candy_bee"
+						display: {
+							Name: "{\"italic\":false,\"extra\":[{\"text\":\" - \"},{\"translate\":\"entity.resourcefulbees.cotton_candy_bee\"}],\"translate\":\"item.resourcefulbees.bee_jar_filled\"}"
+						}
+					}
+				}
+				id: "7FF127A9088D27A4"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "resourcefulbees:bee_jar"
+							}
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										Entity: "resourcefulbees:cotton_candy_bee"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "Filled Bee Jar - Cotton Candy Bee"
+				type: "item"
+			}]
+			title: "Cotton Candy Bee"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: [
+				"Bee Nests are the most basic housing method for bees. While they lack an inventory, they can be upgraded in-world with Hive Upgrades which grants you more control over the population and production of your Bees."
+				""
+				"Use a Silk Touch tool to pick them up without angering or releasing the bees inside."
+				""
+				"Note: Bee Nests only produce standard Honeycombs regardless of the type of bees it houses."
+			]
+			id: "000000000000070E"
+			rewards: [
+				{
+					count: 4
+					id: "0000000000000711"
+					item: "resourcefulbees:bee_jar"
+					title: "Empty Bee Jar"
+					type: "item"
+				}
+				{
+					id: "0000000000000B08"
+					item: "farmersdelight:honey_cookie"
+					random_bonus: 2
+					title: "Honey Cookie"
+					type: "item"
+				}
+			]
+			subtitle: "You must take care of Bees because you’re definitely a Keeper"
+			tasks: [{
+				id: "77E4B4652B2EF7F1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beehives"
+					}
+				}
+				title: "Any Bee Nest"
+				type: "item"
+			}]
+			title: "Bee Nests"
+			x: 11.23979591836735d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000714"]
+			description: [
+				"Tier 2 Bees are obtained through bee to bee breeding, triggered by giving the bees the needed items."
+				""
+				"Please refer to the Beepedia for more information on specific bees."
+			]
+			icon: "resourcefulbees:gold_honeycomb"
+			id: "0000000000000712"
+			rewards: [{
+				id: "0000000000000B12"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Appearances can Bee deceiving"
+			tasks: [{
+				id: "0000000000000713"
+				type: "checkmark"
+			}]
+			title: "Tier 2 Bees"
+			x: 13.23979591836735d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: [
+				"Tier 1 Bees spawn naturally in the world, and are the “building bees” for all other kinds of bees."
+				""
+				"Hint: The Beepedia displays whether a bee spawns naturally or not, and in which biomes."
+			]
+			icon: "minecraft:honeycomb"
+			id: "0000000000000714"
+			rewards: [{
+				id: "0000000000000B11"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Not all it’s cracked up to Bee"
+			tasks: [{
+				id: "0000000000000715"
+				type: "checkmark"
+			}]
+			title: "Tier 1 Bees"
+			x: 12.23979591836735d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: [
+				"While Bee Breeding is as simple as providing the necessary breeding items to the Bees, to become a seasoned apiarist you should learn how to encourage mutations in your Bees at a genetic level."
+				""
+				"Please refer to the Beepedia for more information on your Bees and their abilities."
+			]
+			icon: "resourcefulbees:bee_jar"
+			id: "0000000000000716"
+			rewards: [{
+				id: "0D1F231A0A725C09"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Doctors say the chances of this are 1 in a Beellion"
+			tasks: [{
+				id: "0000000000000717"
+				type: "checkmark"
+			}]
+			title: "Bee Mutation"
+			x: 9.23979591836735d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000712"]
+			description: ["Tier 3 Bees are obtained via entity or item mutation. These are generally created by mutating one bee to another, or a block of material to a spawn egg. Check the Beepedia for details."]
+			icon: "resourcefulbees:diamond_honeycomb"
+			id: "0000000000000718"
+			rewards: [{
+				id: "72D9AA6305111D3E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "A force to Bee reckoned with"
+			tasks: [{
+				id: "0000000000000719"
+				type: "checkmark"
+			}]
+			title: "Tier 3 Bees"
+			x: 14.23979591836735d
+			y: 8.5d
+		}
+		{
+			dependencies: ["000000000000070E"]
+			description: [
+				"When used on a Bee Nest (shift right-click) this will upgrade it to the next tier. The higher tier the nest is, the more bees it can house, the faster it will run, and the more it will produce. The upgrades need to be applied in order - you cannot skip tiers."
+				""
+				"Note: Upgraded Nests allow the production of modded Honeycombs which can be further processed for resources."
+			]
+			id: "0000000000000723"
+			rewards: [{
+				count: 8
+				id: "0000000000000B14"
+				item: "minecraft:honeycomb"
+				random_bonus: 8
+				title: "Honeycomb"
+				type: "item"
+			}]
+			subtitle: "Will you please Beehive, we are in public"
+			tasks: [{
+				id: "0000000000000724"
+				item: "resourcefulbees:t1_hive_upgrade"
+				only_from_crafting: false
+				type: "item"
+			}]
+			x: 12.23979591836735d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000723"]
+			id: "0000000000000727"
+			rewards: [{
+				count: 8
+				id: "0000000000000766"
+				item: "minecraft:honeycomb_block"
+				random_bonus: 8
+				title: "Honeycomb Block"
+				type: "item"
+			}]
+			subtitle: "The benefits of having a hive is un-Bee-lievable"
+			tasks: [{
+				id: "000000000000072A"
+				item: "resourcefulbees:t2_hive_upgrade"
+				type: "item"
+			}]
+			x: 13.23979591836735d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: [
+				"Both Vanilla and Modded Bees can be found bumbling around in their preferred biomes and dimensions."
+				""
+				"Observe them long enough and you will notice that after they fly out to pollinate the area around them, they’ll eventually return to their nest/hive to bee-gin the honey making process."
+				""
+				"Honey dripping and overflowing from the nest/hive is the visual indicator that it is ready for harvesting.  But don’t be too hasty! Proper tools are required to harvest that golden sweetness without angering your bee buddies!"
+				""
+				"You can either place a Campfire under the nest/hive or use a Smoker to avoid aggravating the local buzzy residents."
+				""
+				"Honey Bottles can be collected by right clicking the nest/hive with an Empty Bottle."
+				""
+				"Honeycombs can be collected by right clicking the nest/hive with Shears, or Scraper (for Tiered Beehives)."
+			]
+			icon: "minecraft:bee_nest"
+			id: "0000000000000874"
+			rewards: [{
+				id: "1C4E17B9FABE2ECB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "To Bee or not to Bee"
+			tasks: [{
+				id: "47CB588B9BD8035B"
+				type: "checkmark"
+			}]
+			title: "Vanilla Bee Mechanics"
+			x: 9.73979591836735d
+			y: 10.5d
+		}
+		{
+			dependencies: ["46B0BAD934FFB2A9"]
+			description: [
+				"Resourceful Bees is a new take on Resource Generation utilizing one of the latest entities introduced to Minecraft: Our Buzzy Little Friends, the Bees."
+				""
+				"This questline should help explain some of the basics of proper bee keeping, mutations, resource extraction, and tiers of bees and their hives."
+				""
+				"The Beepedia you receive from this quest is your guide to Resourceful Bees - it is generally your best source for information on bee breeding, mutations, traits, and more."
+				""
+				"~Ridanisaurus"
+				"~Blame TemperedFool for any issues"
+			]
+			id: "3BF5795838FC9F99"
+			rewards: [
+				{
+					count: 8
+					id: "6DA6F6AC7E54E2C9"
+					item: "resourcefulbees:bee_jar"
+					title: "Empty Bee Jar"
+					type: "item"
+				}
+				{
+					id: "0C1504955F2C86AD"
+					item: "resourcefulbees:beepedia"
+					title: "Beepedia"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			subtitle: "Yes. There will Bee many puns"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+					}
+				}
+				id: "3ACBC7CA8CA169F7"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Resourceful Bees"
+			x: 10.73979591836735d
+			y: 9.0d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: ["Combs are a byproduct of beekeeping,  which can be harvested from Bee Hives and Bee Nests. It can be processed at a later date in the Centrifuge for Honey, Wax, and a plethora of other Resources."]
+			id: "46C586ABAC944844"
+			rewards: [
+				{
+					id: "2F02B1B4614DCF94"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Shears"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					icon: "kubejs:farmers_delight"
+					id: "04A59D994589754F"
+					player_command: false
+					title: "Farmer's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Bees style their hair with a Honeycomb"
+			tasks: [{
+				id: "07776E4C71666515"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "resourcefulbees:resourceful_honeycomb"
+					}
+				}
+				title: "Any resourcefulbees:resourceful_honeycomb"
+				type: "item"
+			}]
+			title: "Combs"
+			x: 11.73979591836735d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0000000000000A97"]
+			description: [
+				"This is an entry-level type of Centrifuge that allows the player to manually turn Honeycombs into their byproducts. Sneak + Right Click the machine to process."
+				""
+				"Note: Empty Bottles are required to store the liquid honey."
+			]
+			id: "52D9E4BE80078177"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				icon: "kubejs:rare_lootbox"
+				id: "4EF2A25386015A1C"
+				player_command: false
+				title: "Rare Resourceful Bees Loot Box"
+				type: "command"
+			}]
+			subtitle: "Time to Bee productive"
+			tasks: [{
+				id: "0000000000000A9A"
+				item: "resourcefulbees:mechanical_centrifuge"
+				type: "item"
+			}]
+			x: 12.73979591836735d
+			y: 10.5d
+		}
+		{
+			description: [
+				"Now that you’ve got a taste for that bee-autiful honey, it’s time to set aside these bee-laboured manual practices and get buzzy automating.  Enter The-All-New-and-Improved Centrifuge: perfect for extracting that golden goodness accumulated by our buzzy friends."
+				""
+				"The Centrifuge increases the efficiency of Honeycomb processing at the cost of energy."
+			]
+			id: "0000000000000A9B"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_epic"
+				icon: "kubejs:epic_lootbox"
+				id: "461E2AAB1FD789F9"
+				player_command: false
+				title: "Epic Resourceful Bees Loot Box"
+				type: "command"
+			}]
+			subtitle: "Buzzing with power"
+			tasks: [{
+				id: "0000000000000A9C"
+				item: "resourcefulbees:centrifuge"
+				type: "item"
+			}]
+			title: "Powered Centrifuge"
+			x: 13.73979591836735d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0000000000000A9B"]
+			description: [
+				"You know what they say; Go big, or go home. Well, it doesn’t get any bigger than this. With the basics of Honeycomb processing bee-hind you, it’s time to turn it up to 11 and upscale production."
+				""
+				"While the Multiblock Centrifuge requires more materials to craft and more space to set up, it will pay for itself bee-fore you realize. It is also capable of processing Honeycomb Blocks in addition to standard Honeycombs and buzz through multiple inputs at once."
+				""
+				"Once you have collected all the necessary blocks, you can use your ‘Fifty Shades of Bees’ book to visualize the structure, which should help with the correct block placements."
+			]
+			id: "0000000000000A9D"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_legendary"
+					icon: "kubejs:legendary_lootbox"
+					id: "43949C0C6CC93FEE"
+					player_command: false
+					title: "Legendary Resourceful Bees Loot Box"
+					type: "command"
+				}
+				{
+					id: "3E91952B6B23E1D8"
+					item: "resourcefulbees:oreo_cookie"
+					random_bonus: 2
+					title: "Epic Oreo"
+					type: "item"
+				}
+			]
+			subtitle: "Now we’re in Bees-ness"
+			tasks: [
+				{
+					id: "1FF3749442E42559"
+					item: "resourcefulbees:centrifuge_controller"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "0000000000000AC6"
+					item: "resourcefulbees:centrifuge_casing"
+					type: "item"
+				}
+			]
+			title: "Multiblock Centrifuge"
+			x: 14.73979591836735d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0000000000000AAC"]
+			id: "0000000000000A9F"
+			rewards: [{
+				id: "0000000000000B1C"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "There’s something Bee-tween us and it’s not just your stinger"
+			tasks: [{
+				id: "0000000000000AA0"
+				item: "resourcefulbees:apiary_breeder_upgrade"
+				type: "item"
+			}]
+			x: 16.73979591836735d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0000000000000727"]
+			id: "0000000000000AA6"
+			rewards: [{
+				count: 8
+				id: "0000000000000B15"
+				item: "minecraft:honey_block"
+				random_bonus: 8
+				title: "Honey Block"
+				type: "item"
+			}]
+			subtitle: "Only Bees who are on their best Bee-havior get to go to the Hive and make Honey"
+			tasks: [{
+				id: "0000000000000AA7"
+				item: "resourcefulbees:t3_hive_upgrade"
+				type: "item"
+			}]
+			x: 14.23979591836735d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000AA6"]
+			id: "0000000000000AA8"
+			rewards: [
+				{
+					id: "0000000000000B17"
+					item: "farmersdelight:honey_glazed_ham"
+					random_bonus: 2
+					title: "Honey Glazed Ham"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0000000000000B18"
+					item: "minecraft:honey_bottle"
+					random_bonus: 8
+					title: "Honey Bottle"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_alchemists_delight"
+					icon: "kubejs:alchemists_delight"
+					id: "0000000000000C0A"
+					player_command: false
+					title: "Alchemist's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Hive never felt this way Bee-fore"
+			tasks: [{
+				id: "0000000000000AA9"
+				item: "resourcefulbees:t4_hive_upgrade"
+				type: "item"
+			}]
+			x: 15.23979591836735d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000AB8"]
+			description: [
+				"This block grants you access to the output of your Apiary Multiblock and Apiary Breeder. It can also interact with other means of logistical automation."
+				""
+				"The Storage Capacity can also be upgraded with ‘Storage Upgrades’."
+			]
+			id: "0000000000000AAA"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_miners_delight"
+					icon: "kubejs:miners_delight"
+					id: "103A47468EE02299"
+					player_command: false
+					title: "Miner's Delight"
+					type: "command"
+				}
+				{
+					id: "22D457D67CBF6784"
+					item: "resourcefulbees:oreo_cookie"
+					title: "Epic Oreo"
+					type: "item"
+				}
+			]
+			subtitle: "Mind your own Beeswax"
+			tasks: [{
+				id: "0000000000000AAB"
+				item: "resourcefulbees:apiary_storage"
+				type: "item"
+			}]
+			x: 14.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AB8"]
+			description: [
+				"This block grants you the ability to breed your Bees in a Jar when provided with the required materials, to trigger the breeding state, and an empty jar to house the output bee."
+				""
+				"The output can also be accessed through the Apiary Storage for further automation."
+				""
+				"Additional upgrades can help speed up the breeding process by reducing the time required, and the addition of extra breeding slots."
+			]
+			id: "0000000000000AAC"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
+					icon: "kubejs:sorcerers_delight"
+					id: "4C268CB10451197F"
+					player_command: false
+					title: "Sorcerer's Delight"
+					type: "command"
+				}
+				{
+					id: "0000000000000B1B"
+					item: "farmersdelight:honey_cookie"
+					random_bonus: 2
+					title: "Honey Cookie"
+					type: "item"
+				}
+			]
+			subtitle: "Let’s make a Bee-line for the bedroom"
+			tasks: [{
+				id: "0000000000000AAD"
+				item: "resourcefulbees:apiary_breeder"
+				type: "item"
+			}]
+			x: 15.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AAC"]
+			id: "0000000000000AAE"
+			rewards: [{
+				id: "0000000000000B1D"
+				type: "xp"
+				xp: 200
+			}]
+			subtitle: "The male Bee was such a romantic, he kept Pollen in love with all the female Bees"
+			tasks: [{
+				id: "0000000000000AAF"
+				item: "resourcefulbees:apiary_breed_time_upgrade"
+				type: "item"
+			}]
+			x: 16.73979591836735d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0000000000000AAA"]
+			id: "0000000000000AB0"
+			rewards: [{
+				id: "06FB4DBE5C36C69C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "More space to Bee filled"
+			tasks: [{
+				id: "0000000000000AB1"
+				item: "resourcefulbees:iron_storage_upgrade"
+				type: "item"
+			}]
+			x: 13.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AB0"]
+			id: "0000000000000AB2"
+			rewards: [
+				{
+					id: "17AF49FDAF7B7105"
+					type: "xp"
+					xp: 200
+				}
+				{
+					id: "67E5EB1C4CDDB417"
+					item: "farmersdelight:honey_glazed_ham"
+					random_bonus: 1
+					title: "Honey Glazed Ham"
+					type: "item"
+				}
+			]
+			subtitle: "Golden Bee-ling"
+			tasks: [{
+				id: "0000000000000AB3"
+				item: "resourcefulbees:gold_storage_upgrade"
+				type: "item"
+			}]
+			x: 12.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AB2"]
+			id: "0000000000000AB4"
+			rewards: [
+				{
+					id: "761338D32B5C5B9D"
+					type: "xp"
+					xp: 300
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "0000000000000C0C"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "We better Bee prepared for a cold winter"
+			tasks: [{
+				id: "0000000000000AB5"
+				item: "resourcefulbees:diamond_storage_upgrade"
+				type: "item"
+			}]
+			x: 11.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AB4"]
+			id: "0000000000000AB6"
+			rewards: [
+				{
+					id: "27646A899618CBC3"
+					type: "xp"
+					xp: 400
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight"
+					icon: "kubejs:farmers_delight"
+					id: "0000000000000C0D"
+					player_command: false
+					title: "Farmer's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Upkeep Rank: Bee+"
+			tasks: [{
+				id: "0000000000000AB7"
+				item: "resourcefulbees:emerald_storage_upgrade"
+				type: "item"
+			}]
+			x: 10.73979591836735d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000AA8"]
+			description: [
+				"Apiaries are Tier based multiblock structures which can house 9 Unique Bees, as well as providing a safe enclosed environment for our buzzy friends to thrive, and produce our resources. The higher the Tier of the Apiary, the more and faster it will produce for you."
+				""
+				"Apiaries can also house 2 other functional blocks (Apiary Storage, and Apiary Breeder) as part of its structure. Please refer to their respective quest section for more information."
+				""
+				"Please refer to your 'Fifty Shades of Bees’ for more detailed information about the Apiaries, and to visualize the structure which should help you construct it."
+				""
+			]
+			id: "0000000000000AB8"
+			rewards: [
+				{
+					count: 8
+					id: "41C5C28B624A26A1"
+					item: "minecraft:honeycomb"
+					random_bonus: 8
+					title: "Honeycomb"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "37B6736721B62616"
+					item: "minecraft:honey_bottle"
+					random_bonus: 8
+					title: "Honey Bottle"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0000000000000B19"
+					item: "minecraft:honeycomb_block"
+					random_bonus: 8
+					title: "Honeycomb Block"
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "0000000000000C0B"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			subtitle: " Time to Bee-friend the new neighbors"
+			tasks: [{
+				id: "0000000000000AB9"
+				item: "resourcefulbees:t1_apiary"
+				type: "item"
+			}]
+			x: 15.23979591836735d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000AB8"]
+			id: "0000000000000ABA"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				icon: "kubejs:rare_lootbox"
+				id: "1C6B6DD0DAB90DB6"
+				player_command: false
+				title: "Rare Resourceful Bees Loot Box"
+				type: "command"
+			}]
+			subtitle: "Quit Pollen my leg"
+			tasks: [{
+				id: "0000000000000ABB"
+				item: "resourcefulbees:t2_apiary"
+				type: "item"
+			}]
+			x: 14.23979591836735d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000ABA"]
+			id: "0000000000000ABC"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_epic"
+				icon: "kubejs:epic_lootbox"
+				id: "4EFB7F697DF0C578"
+				player_command: false
+				title: "Epic Resourceful Bees Loot Box"
+				type: "command"
+			}]
+			subtitle: "The Bees went on strike because they wanted more Honey and less working Flowers"
+			tasks: [{
+				id: "0000000000000ABD"
+				item: "resourcefulbees:t3_apiary"
+				type: "item"
+			}]
+			x: 13.23979591836735d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000ABC"]
+			id: "0000000000000ABE"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_legendary"
+					icon: "kubejs:legendary_lootbox"
+					id: "661A0A02655258FE"
+					player_command: false
+					title: "Legendary Resourceful Bees Loot Box"
+					type: "command"
+				}
+				{
+					id: "5F135A3D373B9591"
+					item: "resourcefulbees:oreo_cookie"
+					random_bonus: 2
+					title: "Epic Oreo"
+					type: "item"
+				}
+			]
+			subtitle: "Claustropho-Bee-a intensifies"
+			tasks: [{
+				id: "0000000000000ABF"
+				item: "resourcefulbees:t4_apiary"
+				type: "item"
+			}]
+			x: 12.23979591836735d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000716"]
+			description: [
+				"Certain types of Bees have the ability to mutate Blocks into other Blocks as long as they meet the requirements, and are able to fly near these blocks."
+				""
+				"Example: If an Iron Bee is returning to the nest/hive passes over Stone, it can mutate it into Iron Ore."
+			]
+			id: "0000000000000AC0"
+			rewards: [{
+				id: "7A8E402F018BF240"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Beauty is in the eye of the Bee-holder"
+			tasks: [{
+				icon: "minecraft:stone"
+				id: "4F7D4BC01BC04DFF"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Block Based Mutations"
+			x: 8.5d
+			y: 9.015306122448983d
+		}
+		{
+			dependencies: ["0000000000000716"]
+			description: [
+				"Certain types of Bees have the ability to mutate Blocks into Fluids, and Vice Versa as long as they meet the requirements, and are able to fly near these blocks/fluids."
+				""
+				"Example: If an Obsidian Bee is returning to the nest/hive passes over a Lava Source, it can mutate it into Obsidian."
+			]
+			id: "0000000000000AC2"
+			rewards: [{
+				id: "0000000000000B10"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "What do you call a bee that needs a drink? Bee-hydrated"
+			tasks: [{
+				icon: "minecraft:lava_bucket"
+				id: "1E8E6DAB37C0A4A8"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Fluid Based Mutations"
+			x: 8.867346938775512d
+			y: 9.688775510204081d
+		}
+		{
+			dependencies: ["0000000000000716"]
+			description: [
+				"Certain types of Bees have the ability to mutate Entities into other Entities, as long as they meet the requirements, and are able to fly close to those entities."
+				""
+				"Example: If a Blaze Bee is returning to the nest/hive passes near a Creeper Bee, it can mutate it into a Ghast Bee."
+			]
+			id: "0000000000000AC4"
+			rewards: [{
+				id: "4570DF4E6534B71F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "The Great Ghast-Bee"
+			tasks: [{
+				icon: "minecraft:pufferfish_spawn_egg"
+				id: "332BB1250AB200A6"
+				title: "Checkmark"
+				type: "checkmark"
+			}]
+			title: "Entity Based Mutations"
+			x: 8.867346938775512d
+			y: 8.341836734693878d
+		}
+		{
+			dependencies: ["0000000000000A94"]
+			description: ["Right-click a Bee with an Empty Bee Jar, and it'll be caught inside."]
+			id: "24D88FC1C6DCE052"
+			rewards: [{
+				count: 2
+				id: "7ECD253B38639D34"
+				item: "resourcefulbees:bee_jar"
+				random_bonus: 3
+				title: "Empty Bee Jar"
+				type: "item"
+			}]
+			subtitle: "Jar Jar Beenks"
+			tasks: [{
+				id: "57CDAF18A5A66D82"
+				item: "resourcefulbees:bee_jar"
+				type: "item"
+			}]
+			x: 10.73979591836735d
+			y: 10.5d
+		}
+		{
+			dependencies: ["24D88FC1C6DCE052"]
+			description: [
+				"Used the same way as the Bee Jar."
+				""
+				"Can be used to transport up to 10 bees at a time."
+				""
+				"Bee Boxes will also be created when using a Hive or Apiary containing bees to craft an upgraded hive or apiary."
+			]
+			id: "2F7254D5AD380CB4"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_resourceful_bees_loot_rare"
+				icon: "kubejs:rare_lootbox"
+				id: "4D2AFDFEAA880455"
+				player_command: false
+				title: "Rare Resourceful Bees Loot Box"
+				type: "command"
+			}]
+			subtitle: "Bee-tboxing"
+			tasks: [{
+				id: "78200ABCDC11BF2F"
+				item: "resourcefulbees:bee_box"
+				type: "item"
+			}]
+			x: 10.73979591836735d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0000000000000714"]
+			description: ["While most of the bees spawn naturally, are bred, or mutated, some are crafted. Check the Beepedia and JEI for details, paying special attention to spawn eggs and bee jars."]
+			icon: {
+				Count: 1b
+				id: "resourcefulbees:bee_jar"
+				tag: {
+					BeeType: "enderslime"
+					Color: "#C75EFF"
+					Entity: "resourcefulbees:enderslime_bee"
+				}
+			}
+			id: "307E22ADC2DB4EB8"
+			rewards: [{
+				id: "4FB651D2A18E0A02"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Crafting is a pathway to many abilities some consider to bee... unnatural."
+			tasks: [{
+				id: "362C63F136B07060"
+				type: "checkmark"
+			}]
+			title: "Bee Crafting"
+			x: 13.23979591836735d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0000000000000A97"]
+			description: ["Some combs are NOT processed in the Centrifuge - or are best used elsewhere. When in doubt, check JEI."]
+			icon: "resourcefulbees:mana_honeycomb"
+			id: "1DFA48325FD10EE9"
+			rewards: [{
+				id: "0BC7625BD64FD174"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3D810B866704DE92"
+				type: "checkmark"
+			}]
+			title: "Special Combs"
+			x: 12.23979591836735d
+			y: 11.5d
+		}
+		{
+			description: [
+				"Progression in Resourceful Bees has changed as of E6 version 0.5.16."
+				""
+				"Tiered Beehives are no longer craftable, and are not part of Apiary recipes. Instead, the Bee Nests found via World Gen are used for initial Comb Generation, and both they and T4 Tiered Hive Upgrades are used in Apiary recipes."
+				""
+				"To upgrade these nests you can use in-world Tiered Hive Upgrades. The quests now reflect this change."
+				""
+				"Nests you have upgraded in-world can be used instead of Tiered Hive Upgrades in recipes that require them; additionally, Tiered Beehives you alread have can be turned into Tiered Hive Upgrades of the same tier."
+			]
+			icon: "minecraft:honeycomb"
+			id: "46B0BAD934FFB2A9"
+			optional: true
+			rewards: [{
+				id: "214D29C16AA98E43"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Beeg changes are here!"
+			tasks: [{
+				id: "4DBF1905A99D474C"
+				title: "Beehive Changes"
+				type: "checkmark"
+			}]
+			x: 9.73979591836735d
+			y: 7.5d
+		}
+	]
+	title: "Resourceful Bees"
+}

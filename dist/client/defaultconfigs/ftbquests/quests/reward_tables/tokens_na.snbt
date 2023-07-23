@@ -1,0 +1,14 @@
+{
+	hide_tooltip: true
+	id: "47AA4DB7B82A664F"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ item: "naturesaura:token_joy" }
+		{ item: "naturesaura:token_fear" }
+		{ item: "naturesaura:token_anger" }
+		{ item: "naturesaura:token_sorrow" }
+	]
+	title: "Tokens NA"
+	use_title: true
+}

@@ -1,0 +1,1389 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "silent_gear"
+	group: "76C22988F9A7C9CE"
+	icon: "silentgear:pickaxe_blueprint"
+	id: "1D42B373285DEF81"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: [ ]
+		image: "silentgear:textures/item/blueprint_package.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: 4.0d
+		y: -3.0d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Silent Gear is a tool and armor mod that makes crafting gear easy."
+				""
+				"Each gear piece can be upgraded, has special traits, and is completely repairable on the go!"
+			]
+			id: "52EB902E76829EBB"
+			rewards: [
+				{
+					id: "6FBB64122AC8F84B"
+					item: {
+						Count: 1b
+						id: "silentgear:blueprint_package"
+						tag: {
+							silentlib.LootContainer: {
+								LootTable: "silentgear:starter_blueprints"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "383D184AE6F5236A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Simple Tool Crafting"
+			tasks: [{
+				id: "2639F0B573ACEBB6"
+				title: "Silent Gear Weapons, Tools and Armor"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52EB902E76829EBB"]
+			description: [
+				"If you ever get lost in this mod, check out the guidebook."
+				""
+				"It links you to the Silent Gear webpage to help get you started!"
+			]
+			id: "74AC55C0A3E259E0"
+			rewards: [{
+				id: "7004B19E09FEE74B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "It just sends you to a website, btw."
+			tasks: [{
+				id: "2E0D0BBFC2D0BCAC"
+				item: "silentgear:guide_book"
+				type: "item"
+			}]
+			title: "The Guide Book"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74AC55C0A3E259E0"]
+			description: [
+				"You can't use template boards forever!!!"
+				""
+				"Blueprint paper is used to make blueprints, which are reusable, unlike template boards."
+			]
+			id: "64AB1E133E218173"
+			rewards: [
+				{
+					count: 4
+					id: "1CBB5DDFC361C0C6"
+					item: "silentgear:blueprint_paper"
+					type: "item"
+				}
+				{
+					id: "5079BE02B6810490"
+					type: "xp"
+					xp: 5
+				}
+			]
+			size: 1.5d
+			subtitle: "The Schematic Maker"
+			tasks: [{
+				count: 8L
+				id: "28223BD9AC4D64EA"
+				item: "silentgear:blueprint_paper"
+				type: "item"
+			}]
+			title: "Blueprint Paper"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			description: [
+				"Everyone loves the sword."
+				""
+				"With this blueprint, you can make the basic sword! Reliable damage, reliable speed."
+			]
+			id: "0DF4B01CC5B49E4E"
+			rewards: [
+				{
+					id: "3B6BDE76C5A9446F"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					id: "16720CCB3ED1C3A2"
+					type: "xp"
+					xp: 5
+				}
+			]
+			shape: "circle"
+			subtitle: "Ol' Reliable"
+			tasks: [{
+				id: "6916F3E24E09B0BE"
+				item: "silentgear:sword_blueprint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["Slightly faster than a sword, but lower damage."]
+			id: "3722B43822F80470"
+			rewards: [{
+				id: "569FE8789232CF20"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Release Your Inner Samurai"
+			tasks: [{
+				id: "7929CED2B31B3355"
+				item: "silentgear:katana_blueprint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["More damage than a sword, but slower."]
+			id: "39B85DB54B1037FE"
+			rewards: [{
+				id: "736360B6DCAC64DA"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Thicc Sword"
+			tasks: [{
+				id: "5849539271864159"
+				item: "silentgear:machete_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["Less damage than a sword, but longer reach."]
+			id: "405DCD3E36232EEA"
+			rewards: [{
+				id: "54C35AD7C673B8BD"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Release Your Inner Spartan"
+			tasks: [{
+				id: "233073F39E676B83"
+				item: "silentgear:spear_blueprint"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: ["Higher Durability than a dagger, but lower damage and speed."]
+			id: "0D26E5EF6CFCFDBF"
+			rewards: [{
+				id: "480C996B6EF91910"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Stabby."
+			tasks: [{
+				id: "27B86914A7EC8AFB"
+				item: "silentgear:knife_blueprint"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0DF4B01CC5B49E4E"]
+			description: [" Low damage, very high attack speed. Reduces the invincibility time of the target."]
+			id: "3D2C6FF462B17205"
+			rewards: [{
+				id: "6F242ECEA2C8AB26"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "circle"
+			subtitle: "Stabby Stabby"
+			tasks: [{
+				id: "07A58F926DAA9F86"
+				item: "silentgear:dagger_blueprint"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "766C80E5D7B7A916"
+			rewards: [{
+				id: "69E8C6F8D3BFA819"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5456E2D6253496B4"
+				item: "silentgear:pickaxe_blueprint"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "52CDB46F6CBF007B"
+			rewards: [{
+				id: "2D85F22E09FDB6A2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3BA93EF95C2D2AC7"
+				item: "silentgear:shovel_blueprint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "69383DA579901E7E"
+			rewards: [{
+				id: "5AE2EB88B968AB84"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "75DA720893D281E2"
+				item: "silentgear:axe_blueprint"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "63CAD77A4488F2CE"
+			rewards: [{
+				id: "69B3A90EBE7C08A0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "The All In One Tool"
+			tasks: [{
+				id: "05E69F9C3D0DC0DD"
+				item: "silentgear:paxel_blueprint"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "262036FE8E87F50A"
+			rewards: [{
+				id: "350D7AB75BA2D89D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "3x3 Mining"
+			tasks: [{
+				id: "640B83A35EB10103"
+				item: "silentgear:hammer_blueprint"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3F39BEB788175CEF"
+			rewards: [{
+				id: "165EDC4330665C22"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "3x3 Digging!"
+			tasks: [{
+				id: "0378C9FD1C97FC8E"
+				item: "silentgear:excavator_blueprint"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "427516AA3E8C9442"
+			rewards: [{
+				id: "55313BAC0ABC7732"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Versatile Hoe"
+			tasks: [{
+				id: "7BAEC1CCE541863A"
+				item: "silentgear:mattock_blueprint"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "083ABBA1C45FF960"
+			optional: true
+			rewards: [{
+				id: "2A72A2E5EBC9E64D"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "It's a Lawn Mower."
+			tasks: [{
+				id: "1BD87FE9B7C97844"
+				item: "silentgear:sickle_blueprint"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "67216EC5274F08B9"
+			rewards: [{
+				id: "430D04B092F804E9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "71F08CAC734CFABA"
+				item: "silentgear:shears_blueprint"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "462C1F75A2FB9F02"
+			optional: true
+			rewards: [{
+				id: "73AECD6F2CB1CA8B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2BC129A5A112714B"
+				item: "silentgear:fishing_rod_blueprint"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6D9CDB4D81DC164D"
+			rewards: [{
+				id: "4362F9342267B09D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7C2EB1E97E1F7C9D"
+				item: "silentgear:bow_blueprint"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "1E8357755479E259"
+			optional: true
+			rewards: [{
+				id: "267E1DA2BC5DB5C5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "49B566024C78B433"
+				item: "silentgear:crossbow_blueprint"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "1E2F1E036716C031"
+			optional: true
+			rewards: [{
+				id: "6DCC64F4FCD87ECA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3F4C79848F8548D5"
+				item: "silentgear:slingshot_blueprint"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "78C112170E17FBF4"
+			rewards: [{
+				id: "696D8973F3FD3B0A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3DA37B5163894911"
+				item: "silentgear:shield_blueprint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6E2806D8DC61C46F"
+			rewards: [{
+				id: "1E2C85D526645FBE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "359631F5009F3B9F"
+				item: "silentgear:helmet_blueprint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "35E8C65CCA676E76"
+			rewards: [{
+				id: "20589A9B4D86DD65"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "583FCEF23D524EB6"
+				item: "silentgear:chestplate_blueprint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "22C51025DC42CDE2"
+			rewards: [{
+				id: "1243D0195D23CDB0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7379282EA5C084B4"
+				item: "silentgear:leggings_blueprint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "6912C0E3D092DD27"
+			rewards: [{
+				id: "50004D6B21F8E849"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6C02D97660F0347C"
+				item: "silentgear:boots_blueprint"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "5AB8651FCB1E2F72"
+			rewards: [{
+				id: "5CD4106705C41360"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "761B3590C99B461E"
+				item: "silentgear:elytra_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3844877F6C1AFE77"
+			rewards: [{
+				id: "32FDE909916929D7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "19547966CF66B82B"
+				item: "silentgear:arrow_blueprint"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "74FA25B2E087BEC4"
+			optional: true
+			rewards: [{
+				id: "6A8BDD8F692F157C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "316B266E606B709C"
+				item: "silentgear:ring_blueprint"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "21234BB40DB05C78"
+			optional: true
+			rewards: [{
+				id: "6BE21A7766B057B1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F72BC1DF6CBCDED"
+				item: "silentgear:bracelet_blueprint"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["15DE3BF0CBD8E0B4"]
+			description: [""]
+			id: "2EB96FF06627FD9A"
+			rewards: [
+				{
+					count: 2
+					id: "4A6DD2BFE7AB5AA1"
+					item: "silentgear:crimson_iron_ingot"
+					type: "item"
+				}
+				{
+					id: "1CB3949F1C926540"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Breaks down items into their components."
+			tasks: [{
+				id: "0A289918540442AE"
+				item: "silentgear:salvager"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2EB96FF06627FD9A"]
+			description: [
+				"Placing an ingot in this with a Grader Catalyst will give the material a grade."
+				""
+				"The better the grade, the better the stats are on the material."
+				""
+				"The best grade is MAX. "
+			]
+			id: "6A393C7A24899E3E"
+			rewards: [
+				{
+					count: 4
+					id: "2E59EBB44FCD4372"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+				{
+					id: "426DA90F446231C4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "The Material Tester"
+			tasks: [{
+				id: "202BA9A48D4D4B79"
+				item: "silentgear:material_grader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "6B78378BC8036227"
+			rewards: [
+				{
+					count: 4
+					id: "64AC530B334F9AD3"
+					item: "silentgear:glowing_dust"
+					type: "item"
+				}
+				{
+					id: "5A302D12635EF77B"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "53E64C8F26258C07"
+				item: "silentgear:glowing_dust"
+				type: "item"
+			}]
+			title: "Tier 1 Grader Catalyst"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "002D65E4D7E8F62B"
+			rewards: [
+				{
+					count: 4
+					id: "256E614120A82059"
+					item: "silentgear:blazing_dust"
+					type: "item"
+				}
+				{
+					id: "12A3F753875AE51A"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [{
+				id: "425E8DACC9DD35E7"
+				item: "silentgear:blazing_dust"
+				type: "item"
+			}]
+			title: "Tier 2 Grader Catalyst"
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			id: "7D690A7D0FF6E328"
+			rewards: [
+				{
+					count: 4
+					id: "02ADE8B6A9044835"
+					item: "silentgear:glittery_dust"
+					type: "item"
+				}
+				{
+					id: "7CDD443193BF52FB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "699AAD43DA73386D"
+				item: "silentgear:glittery_dust"
+				type: "item"
+			}]
+			title: "Tier 3 Grader Catalyst"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			id: "7860FD3D3273351F"
+			rewards: [
+				{
+					count: 8
+					id: "704BACF5602FB682"
+					item: "silentgear:blueprint_paper"
+					type: "item"
+				}
+				{
+					id: "151BDF4BB67DB85D"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Stores all of your blueprints!"
+			tasks: [{
+				id: "2226DC0E053E8631"
+				item: {
+					Count: 1b
+					id: "silentgear:blueprint_book"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "Blueprint Book"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3930404D5C8B44EB"]
+			description: [
+				"The Starlight Charger can \"enchant\" materials with the \"Star Charged\" enchantment."
+				""
+				"A structure must be built with the Starlight Charger in the middle in view of the night sky. It only gains Starlight Power during the night."
+				""
+				"The Charger must be placed in the middle of a 7x7 structure, with a Pillar in each corner. Each pillar must have a \"Starlight Charger Cap\"."
+				""
+				"It also requires a charger catalyst per material."
+			]
+			id: "7C3D763CF22D167A"
+			rewards: [
+				{
+					count: 3
+					id: "514A9B0ACDD05365"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "5920F91CCD994BE4"
+					type: "xp"
+					xp: 20
+				}
+			]
+			shape: "diamond"
+			size: 1.75d
+			subtitle: "\"Enchanting\" Materials"
+			tasks: [{
+				id: "03C944C082828C47"
+				item: "silentgear:starlight_charger"
+				type: "item"
+			}]
+			title: "&5Starlight Charger"
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			description: [
+				"The tip upgrade is used to increase the mining level of the tool."
+				""
+				"For example: If you have an iron pickaxe with 1 diamond, you can make a Diamond Tip Upgrade, and place it on your pickaxe. This will allow it to mine obsidian, as well as giving it a stat boost."
+			]
+			id: "158B24939A269D83"
+			subtitle: "For when you didn't find 3 diamonds."
+			tasks: [{
+				id: "4ECD1D119E695CBD"
+				item: "silentgear:tip_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			description: [
+				"Coats an item or tool."
+				""
+				"Netherite makes a great coating material."
+			]
+			id: "0947B4ED95B0267E"
+			subtitle: "Totally not just for Netherite."
+			tasks: [{
+				id: "3179733D8ACBDA86"
+				item: "silentgear:coating_blueprint"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			id: "6BFD7854F078BF16"
+			subtitle: "Get a Grip."
+			tasks: [{
+				id: "14B8204814A42B33"
+				item: "silentgear:grip_blueprint"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["657B3116A6419420"]
+			id: "22A0A9C81A5C85A1"
+			subtitle: "It holds everything together."
+			tasks: [{
+				id: "551DBAFE45DC4804"
+				item: "silentgear:binding_blueprint"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "2098D8BFADB55D2A"
+			optional: true
+			rewards: [{
+				id: "37525488AF6404B2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3CB5441C8E4480CC"
+				item: "silentgear:lining_blueprint"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			hide_dependency_lines: true
+			id: "3F56A5253D477B97"
+			rewards: [{
+				id: "2828EA8C5A180BAC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "58407186583371FA"
+				item: "silentgear:fletching_blueprint"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7860FD3D3273351F"]
+			id: "657B3116A6419420"
+			rewards: [{
+				id: "3144F2282E53F770"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Create your own Handle!"
+			tasks: [{
+				id: "146DFBC42B522A36"
+				item: "silentgear:rod_blueprint"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6A393C7A24899E3E"]
+			description: [
+				"This is used to create custom alloys."
+				""
+				"It is also the only way to get Tyrian Steel!"
+			]
+			id: "3930404D5C8B44EB"
+			rewards: [
+				{
+					count: 2
+					id: "02BF731EB9C877A9"
+					item: "silentgear:crimson_steel_ingot"
+					type: "item"
+				}
+				{
+					id: "2A50AB8483F114F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Combines Materials"
+			tasks: [{
+				id: "7F18323AEA5BF486"
+				item: "silentgear:metal_alloyer"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: [
+				"This is a Tier 1 Pillar Cap for the Starlight Charger structure."
+				""
+				""
+			]
+			id: "7E13007340A818C5"
+			rewards: [
+				{
+					count: 4
+					id: "726D3F0AFC299157"
+					item: "silentgear:blaze_gold_dust"
+					type: "item"
+				}
+				{
+					id: "34EE0AC149807BBB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "20B21CAF35324E56"
+				item: "silentgear:crimson_steel_block"
+				type: "item"
+			}]
+			title: "Tier 1 Starlight Charger Pillar Cap"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: ["This is a Tier 2 Pillar Cap for the Starlight Charger structure."]
+			id: "29131C3532610ADF"
+			rewards: [
+				{
+					count: 4
+					id: "26F88065FA41600C"
+					item: "silentgear:azure_silver_dust"
+					type: "item"
+				}
+				{
+					id: "1215998307A8C44F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "5EB5C4ECB49D1A4B"
+				item: "silentgear:azure_electrum_block"
+				type: "item"
+			}]
+			title: "Tier 2 Starlight Charger Pillar Cap"
+			x: 14.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			description: ["This is a Tier 3 Pillar Cap for the Starlight Charger structure."]
+			id: "3B560B2ECE331CAF"
+			rewards: [
+				{
+					count: 4
+					id: "5B4F394C75229DA8"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "78F9F7CA7518C4EB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				count: 4L
+				id: "68EF78DC95598D3B"
+				item: "silentgear:tyrian_steel_block"
+				type: "item"
+			}]
+			title: "Tier 3 Starlight Charger Pillar Cap"
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "48D358470A019E7A"
+			rewards: [
+				{
+					count: 3
+					id: "11895ED684B965A5"
+					item: "silentgear:blaze_gold_dust"
+					type: "item"
+				}
+				{
+					id: "672ECAB1F0B4ACA5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "2276AE38B913787C"
+				item: "silentgear:blaze_gold_dust"
+				type: "item"
+			}]
+			title: "Tier 1 Starlight Charger Catalyst"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "2BF119DD5D977409"
+			rewards: [
+				{
+					count: 3
+					id: "628BD6D6D899D5E2"
+					item: "silentgear:azure_silver_dust"
+					type: "item"
+				}
+				{
+					id: "02A08961EBFACBAB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0948B07BD000E2A2"
+				item: "silentgear:azure_silver_dust"
+				type: "item"
+			}]
+			title: "Tier 2 Starlight Charger Catalyst"
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7C3D763CF22D167A"]
+			id: "0FEAD3CA2CC4A8B1"
+			rewards: [
+				{
+					count: 3
+					id: "149C0884AF0F9C96"
+					item: "silentgear:starmetal_dust"
+					type: "item"
+				}
+				{
+					id: "3645936047468429"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "4B244AC889982750"
+				item: "silentgear:starmetal_dust"
+				type: "item"
+			}]
+			title: "Tier 3 Starlight Charger Catalyst"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			id: "11B0B93D725ABE43"
+			rewards: [{
+				id: "221CA06C59187F0D"
+				type: "xp"
+				xp: 5
+			}]
+			size: 1.5d
+			subtitle: "Your First Repair Kit"
+			tasks: [{
+				id: "19B87ABC58489CE3"
+				item: {
+					Count: 1b
+					id: "silentgear:very_crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["11B0B93D725ABE43"]
+			id: "53DF62BFA493BF8D"
+			rewards: [{
+				id: "1992C35745EC085A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5A6F49119666987D"
+				item: {
+					Count: 1b
+					id: "silentgear:crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["53DF62BFA493BF8D"]
+			id: "1FD76B4889A9B7B6"
+			rewards: [{
+				id: "01495C5ACDA104F7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C952038985B054B"
+				item: {
+					Count: 1b
+					id: "silentgear:sturdy_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1FD76B4889A9B7B6"]
+			id: "47A19A029C9E487D"
+			rewards: [{
+				id: "603C59BE3AFD69D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20D4044F1C5C229D"
+				item: {
+					Count: 1b
+					id: "silentgear:crimson_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["47A19A029C9E487D"]
+			id: "4E3023B954FDBBB2"
+			rewards: [{
+				id: "023C57497B98078E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "354C6DC6EC529DD2"
+				item: {
+					Count: 1b
+					id: "silentgear:azure_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["64AB1E133E218173"]
+			description: [
+				"To make your first tool, take your pickaxe blueprint and put it into the crafting table."
+				""
+				"Add 3 materials to the crafting table, and this will make a tool part."
+				""
+				"To create a full pickaxe, make a Tool Rod part and combine it with the pickaxe head!"
+				""
+				"*Note: You can always search up the blueprint and right click on it, then navigate to the \"Gear Crafting\" tab. This will show you how to make the part."
+			]
+			icon: "silentgear:pickaxe_template"
+			id: "15DE3BF0CBD8E0B4"
+			rewards: [{
+				id: "55AD7084DF68E820"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Or At Least How To Make It"
+			tasks: [{
+				id: "1629807CC32460DF"
+				title: "Your First Tool!"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Looking for more about Silent Gear tools?"
+				""
+				"Check out the &eSilent Gear Chapter&r under the &9Tools and Armor&r section!"
+			]
+			icon: "silentgear:pickaxe_blueprint"
+			id: "5E57B500A6E9F0A6"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Moving Forward"
+			tasks: [{
+				id: "46D140730AB0DCD3"
+				title: "Silent Gear Chapter"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			description: [
+				"Craft yourself a repair kit."
+				""
+				"To use this, combine the repair kit with materials you want to repair an item with to put it in the repair kit. Then combine the repair kit with the tool you want to repair in a crafting table to repair the item."
+				""
+				"*Note: To repair an item, the materials need to be the same as the make of the item. (Stone for Stone tools, etc.)"
+			]
+			id: "7F6D0F05E620DBAB"
+			rewards: [
+				{
+					id: "2CEC1108F0FDEF6E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5CED588581EFA1E3"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "The Start of Repairing Tools"
+			tasks: [{
+				id: "5C661BCF49622F52"
+				item: {
+					Count: 1b
+					id: "silentgear:very_crude_repair_kit"
+					tag: {
+						Storage: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.25d
+		}
+		{
+			description: [
+				"Combine 2 Sticks in the crafting table to create 2 Rough Rods. Then combine a rough rod with a piece of cobble to create a knife."
+				""
+				"Combine the knife with Wood Logs to create template boards."
+				""
+				"These are the starting materials needed to make Silent Gear tools and armor."
+			]
+			id: "3C6685F698723AE9"
+			rewards: [
+				{
+					count: 8
+					id: "0EBB8DC547D69755"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+				{
+					id: "121F3D0B9FAF8190"
+					type: "xp"
+					xp: 5
+				}
+			]
+			subtitle: "Not just a stabbing tool."
+			tasks: [
+				{
+					count: 2L
+					id: "24F87584CF0831E4"
+					item: "silentgear:rough_rod"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7C9561F20217B01E"
+					item: "silentgear:template_board"
+					type: "item"
+				}
+			]
+			title: "Your Very First Knife"
+			x: -6.0d
+			y: -2.75d
+		}
+		{
+			description: ["Put your Vanilla Stone Tools back into the crafting table to convert them to Silent Gear tools. These are repairable!"]
+			icon: "silentgear:blueprint_paper"
+			id: "1077F7D8DAC1B268"
+			rewards: [{
+				id: "096AADB6502B3F72"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Repairable Starter Tools"
+			tasks: [{
+				id: "7E0536517F2462F4"
+				title: "Silent Gear Tools"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+	]
+	title: "Silent Gear"
+}

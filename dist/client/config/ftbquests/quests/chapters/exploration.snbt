@@ -1,0 +1,1001 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "exploration"
+	group: "752CDE464613A1ED"
+	icon: "supplementaries:globe"
+	id: "1A7295F32C7D70EA"
+	order_index: 0
+	quest_links: [{
+		id: "00D42E0F81D5E554"
+		linked_quest: "297DE3ACF3E0B994"
+		x: 16.0d
+		y: -2.0d
+	}]
+	quests: [
+		{
+			description: [
+				"The End can only be accessed by activating a portal, found in a stronghold. Unlike vanilla Minecraft, 12 unique eyes are required to unlock it. These eyes are rare, and any 12 of them will work (there are more than 12 total in the world). "
+				"\\nFinish the GuildMaster Quest:\\n- Kill 10 Pillagers to learn more."
+			]
+			icon: "minecraft:end_stone"
+			id: "57EDE0CC1790AEBD"
+			rewards: [{
+				auto: "enabled"
+				id: "367A62F3516B7495"
+				type: "xp"
+				xp: 1
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "0345F1E8C53FAB99"
+					title: "Tell me about the Eyes"
+					type: "checkmark"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "minecraft:crossbow"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "091E1B3C99615A7D"
+					stage: "guildmaster2"
+					title: "Finished GuildMaster Quest"
+					type: "gamestage"
+				}
+			]
+			title: "The End"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: [
+				""
+				"Held by the Corrupt Ogre, found during the main questline."
+			]
+			hide: true
+			id: "2AE188E073009A12"
+			rewards: [{
+				count: 3
+				id: "1FC729F5FD4C7A15"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "233E97A6EE80CFF0"
+				item: {
+					Count: 1b
+					id: "endrem:lost_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by Knight Rober, found during the main questline"]
+			hide: true
+			id: "27E0894F6EC59E41"
+			rewards: [{
+				count: 2
+				id: "2812DED3760567C7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6426AEB8DE5AED08"
+				item: {
+					Count: 1b
+					id: "endrem:rogue_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by Nine-Tails, found during the main questline."]
+			hide: true
+			id: "1DE383D583863F67"
+			rewards: [{
+				count: 2
+				id: "47E8CAD14A50C427"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3B6E4E07EE7DCDAD"
+				item: {
+					Count: 1b
+					id: "endrem:exotic_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by the Skeleton Lord, found during the main questline."]
+			hide: true
+			id: "1A00AA6649D04596"
+			rewards: [{
+				count: 2
+				id: "66FA5E21B84DA347"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0B86E97E8181301A"
+				item: {
+					Count: 1b
+					id: "endrem:magical_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held in the tree of the Sentinel, who holds the key to unlock it. Found during the main questline."]
+			hide: true
+			id: "2124AE11DC610CC1"
+			rewards: [{
+				count: 4
+				id: "6F70C52B430C020D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F546B6C8AF7668D"
+				item: {
+					Count: 1b
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by the Fire Giant, found during the main questline."]
+			hide: true
+			id: "0B132D9B1280D572"
+			rewards: [{
+				count: 5
+				id: "200E3FB05E6462CA"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24C55007E03F6501"
+				item: {
+					Count: 1b
+					id: "endrem:corrupted_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by the Wither."]
+			hide: true
+			id: "2813959518A55FA9"
+			rewards: [{
+				id: "688BD567F1B3BAFD"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "simple_mobs:withering_iii"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C06B3A8252AD155"
+				item: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Held by Frostmaw, found in cold biomes."]
+			hide: true
+			id: "05624949F0147925"
+			rewards: [{
+				id: "14D5D876F338053A"
+				item: "simple_mobs:ice_dragon_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DA641E7DEBD6561"
+				item: {
+					Count: 1b
+					id: "endrem:cold_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Crafted from a Witch's Eye, dropped rarely from Witches, or found in their treasure."]
+			hide: true
+			id: "2ED8F709AB0A1E66"
+			rewards: [{
+				id: "7A4CD08B48D8FA71"
+				item: {
+					Count: 1b
+					id: "biomemakeover:witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "43485DC462973739"
+				item: {
+					Count: 1b
+					id: "endrem:witch_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Crafted from an Undead Soul, guarded by the Undead Army, who can spawn anywhere after day 100."]
+			hide: true
+			id: "2974355CE2A6BE98"
+			rewards: [{
+				count: 16
+				id: "7932729BEF07A84C"
+				item: "minecraft:soul_torch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4678E42033FC2EAB"
+				item: {
+					Count: 1b
+					id: "endrem:undead_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Guarded by the Cleric Villagers, found as a rare, high-level trade."]
+			hide: true
+			id: "2F938B98834890FF"
+			rewards: [{
+				count: 2
+				id: "4ECDB4D3583690F0"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "37ABC69EFC7E5276"
+				item: {
+					Count: 1b
+					id: "endrem:evil_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Can be found in Nether dungeons."]
+			hide: true
+			id: "01521D24D1CA17D0"
+			rewards: [{
+				id: "33D1FC59F1127061"
+				item: "difficultraids:fireball_totem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4909E474B56A85F0"
+				item: {
+					Count: 1b
+					id: "endrem:nether_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Can be found in desert pyramids."]
+			hide: true
+			id: "7E38E271D8341C63"
+			rewards: [{
+				id: "5793883CD2A789FB"
+				item: "dannys_expansion:sandy_clothes"
+				type: "item"
+			}]
+			tasks: [{
+				id: "276536BAFE417178"
+				item: {
+					Count: 1b
+					id: "endrem:old_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Can be found in ocean treasures."]
+			hide: true
+			id: "645605CFF7A94936"
+			rewards: [{
+				count: 2
+				id: "65EBD739B85B7A8C"
+				item: "minecraft:prismarine_shard"
+				type: "item"
+			}]
+			tasks: [{
+				id: "125F840426577EE3"
+				item: {
+					Count: 1b
+					id: "endrem:black_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57EDE0CC1790AEBD"]
+			description: ["Can be found in Nether bastions."]
+			hide: true
+			id: "57D9FF8914AB6540"
+			rewards: [{
+				count: 2
+				id: "712A13CC1C2A64B3"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "466E05746C90BE86"
+				item: {
+					Count: 1b
+					id: "endrem:cursed_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			id: "6EC4700B21DB617B"
+			subtitle: "If we were meant to stay in one place, we’d have roots instead of feet."
+			tasks: [{
+				id: "40FC0E99020D1BB4"
+				type: "checkmark"
+			}]
+			title: "Adventures and Mysteries"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"&6Go Fish &radds in general &bFishes&r, which are obtainable globally in any area for each dimension, and biome-specific &bFishes&r, which are only obtainable in certain areas &6(See below)&r."
+				""
+				"&6Overworld (Global)&r:"
+				"- &bWooden Crate"
+				"- &bIron Crate"
+				"- &bGolden Crate"
+				"- &bDiamond Crate"
+				""
+				"&6During a full moon&r:"
+				"- &bLunarfish"
+				"- &bGalaxy Starfish"
+				"- &bStarry Salmon"
+				"- &bNebula Swordfish"
+				"- &bAstral Crate"
+				""
+				"&6The Nether (Global)&r:"
+				"- &bSmokey Salmon"
+				"- &bMagma Cod"
+				"- &bBonefish"
+				"- &bObsidian Halibut"
+				"- &bBasalt Bass"
+				"- &bSpikerfish"
+				"- &bFiery Crate"
+				""
+				"&6Basalt Deltas:"
+				"- &bGilded Blackstone Carp"
+				"- &bGilded Blackstone Crate"
+				"- &bBlackstone Trout"
+				""
+				"&6Soul Sand Valley:"
+				"- &bSoul Salmon"
+				"- &bSoul Crate"
+				""
+				"&6The End:"
+				"- &bBaked Endfish"
+			]
+			icon: {
+				Count: 1b
+				id: "gofish:celestial_rod"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1941554F8883F5BE"
+			rewards: [{
+				id: "401B0FCEDA6E06C3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Fishing should be fun."
+			tasks: [{
+				id: "52BEAE23DF485E51"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "gofish"
+					}
+				}
+				type: "item"
+			}]
+			title: "&bFishes and Crates!"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: ["&6You can break &rthe &bWaystones &rand use them for creative ways of teleportation."]
+			id: "23C3589FAFB40AD5"
+			rewards: [{
+				id: "6137857F9A944F31"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Discover your first Waystone, can be found in villages."
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "2E15906644124214"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "waystones"
+					}
+				}
+				type: "item"
+			}]
+			title: "&3Waystones"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			icon: "graveyard:skull_with_rib_cage"
+			id: "14DE762F4663D1C9"
+			rewards: [
+				{
+					id: "0D54DD2EDD2B15AD"
+					item: {
+						Count: 1b
+						id: "graveyard:bone_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36352D142DEEC48C"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Locate a Small Graveyard structure. Be sure to have a look or two below the graves for shiny loot."
+			tasks: [{
+				id: "63A78B39851541A7"
+				structure: "graveyard:small_graveyard"
+				type: "structure"
+			}]
+			title: "&4Find a Graveyard"
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"The &bitems &radded by this &6mod &rcan be found in &bChests&r."
+				""
+				"All &bArtifacts &ronly have a few &bChests &rin which they can be found, so go out and explore!"
+				""
+				"Additionally, a new &bUnderground Campsite &rstructure has been added. &bMimics &roccasionally &6spawn in these &bCampsites &rinstead of a &bChests&r, which are dangerous &benemies &rthat &6attack &rplayers that get too close. &bMimics &ralways drop a random artifact when killed."
+			]
+			id: "32910C1041DE2764"
+			rewards: [{
+				id: "363F3BB07909619A"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Magical items with great power."
+			tasks: [{
+				id: "51B9513FF8AB7491"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "artifacts:artifacts"
+					}
+				}
+				type: "item"
+			}]
+			title: "&6Artifacts"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"&6To make a portal &rto the &bTwilight Forest&r, &6make a 2x2 shallow pool &r(4 squares) of &bWater &rin a grassy area, and surround it entirely with natural stuff (&bflowers, mushrooms, saplings, leaves, grass, &ranything considered a \"plant\" or \"leaves\")."
+				""
+				"&bTwilight Forest &ris a dimension exploration mod focused on adventure that will &6take you on a journey &rto meet strange &bcreatures&r, &bexploring dungeons&r, &band much more&r."
+			]
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "36D37A1AFFC1B369"
+			rewards: [{
+				id: "42D3A36BA50C2E3F"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Step into the Twilight Realm!"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+				id: "64630338E7F2207F"
+				type: "dimension"
+			}]
+			title: "&5The Twilight Forest"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"&6Ad Astra &ris a &btechnology &rand &bspace exploration &rmod."
+				""
+				"It allows you to build &bRockets &rcapable of &bSpace Travel&r. Yes, even mineable &eCheese."
+				""
+				"&6You can explore &rmultiple planets throughout the &bSolar System&r, build &boxygenated &rspace stations and &bbases &rsurvivable in space."
+				""
+				"Had dreams about being an astronaut? This is it!"
+				""
+				"&6Complete this quest &rby crafting the &bAstrodux&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			id: "1F68089CE40CABC9"
+			rewards: [
+				{
+					count: 16
+					id: "583873BD842B01B4"
+					item: "ad_astra:cheese"
+					type: "item"
+				}
+				{
+					id: "465969990392BD70"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 11763949
+							Loot: "aof:loot_bags/ad_astra/rare"
+							Name: "Ad Astra! Rare Lootbag"
+							Type: "RARE"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "To the moon!"
+			tasks: [{
+				id: "5E109F35ECDB37C6"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			title: "&9Space Travels"
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"&bThe Archeology System &6introduces the following&r:"
+				""
+				"&bThe Copper Brush &ris a new tool used for &6excavating special blocks &rfor getting loot."
+				""
+				"&bBrushing Excavation Blocks: "
+				""
+				"Currently, there are two excavation blocks in the mod: &bExcavation Dirt &rand &bGravel&r."
+				""
+				"When fully brushed off, the block drops random loot based on where you found it and how oxidated it is."
+				""
+				"While &6brushing&r, you should &6move your cursor &rto stop the block from breaking and losing the potential drops. The more oxidized your brush is, the faster the block breaks, so move quickly!"
+			]
+			id: "5DDFDC4C2426CF6F"
+			rewards: [
+				{
+					count: 16
+					id: "621538A179E3AD6C"
+					item: "minecraft:bone"
+					type: "item"
+				}
+				{
+					id: "38BBC521851C88B3"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Know your prehistory."
+			tasks: [{
+				id: "67902E2781D56FFF"
+				item: {
+					Count: 1b
+					id: "archeology:copper_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&dArcheology"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"What does this mean?"
+				""
+				"When you &6open a loot chest &r(distinctly textured from &bVanilla chests&r), what items you get are unique to you (as though you had opened an &bEnder Chest&r)."
+			]
+			id: "34216A1573B90BBB"
+			rewards: [{
+				id: "100D3CA6E3B2212C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 5889627
+						Loot: "aof:loot_bags/misc/agriculturist"
+						Name: "Agriculturist Lootbag"
+						Type: "UNCOMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Unique instanced loot for every player!"
+			tasks: [{
+				advancement: "lootr:1chest"
+				criterion: ""
+				id: "678FF753E8FC4213"
+				type: "advancement"
+			}]
+			title: "&6Lootr"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: ["&6You can also make yourself &r(riding a mob or vehicle) or have any mob &6enter the dimension &rby using a &bPiston &rto push the player or mob into a &bBeehive &ror &bBee Nest &rblock!"]
+			id: "438319FC721F0274"
+			rewards: [{
+				id: "265BD5CE05DD0429"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 16103753
+						Loot: "aof:loot_bags/misc/artifacts"
+						Name: "Artifact Lootbag"
+						Type: "LEGENDARY"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Throw an Enderpearl at a Bee Nest? I now see yellow."
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				icon: "the_bumblezone:bee_queen_spawn_egg"
+				id: "4B47C614D6F2C796"
+				type: "dimension"
+			}]
+			title: "&eThe Bumblezone"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EC4700B21DB617B"]
+			description: [
+				"Like what you see? Oh, the Biomes You’ll go adds a plethora of beautiful new biomes to spruce up your world. "
+				""
+				"Take a stroll, look around, see what you like. Maybe you’ll find a new place to call home? "
+			]
+			id: "0000000000000C89"
+			rewards: [{
+				id: "0000000000000C9F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "It's opener out there, in the wide open air."
+			tasks: [{
+				icon: "byg:pink_cherry_sapling"
+				id: "0000000000000C8A"
+				title: "Oh, The Biomes You'll Go"
+				type: "checkmark"
+			}]
+			title: "Oh, The Biomes You'll Go"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: [
+				"Hidden among the clouds, you can find &bSky Villages&r."
+				""
+				"Here you can find &9Villagers&r to trade with, as well as &6chests to loot&r!"
+				""
+				"There's a bunch of &6new trades&r, for &eTetra&r materials and blueprints, various magical items, etc. Make sure to try them all!"
+				""
+				"The mod &eEasy Villagers&r adds a bunch of convenient blocks to automate Villager functions!"
+			]
+			icon: "easy_villagers:villager"
+			id: "0DF3159A5238A6F4"
+			min_width: 250
+			subtitle: "Hmmmm"
+			tasks: [{
+				icon: "easy_villagers:villager"
+				id: "6F056A12C6EC97BF"
+				structure: "skyvillages:skyvillage"
+				title: "Find a Sky Village"
+				type: "structure"
+			}]
+			title: "Sky High Villagers"
+			x: 19.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["297DE3ACF3E0B994"]
+			description: [
+				"The &bEye of Legend&r works just like an Eye of Ender, but instead of taking you to a Stronghold, it &6points you in the direction of the nearest Sky Village&r!"
+				""
+				"Make sure to &6bring a way back home&r with you!"
+			]
+			id: "64790EB9F3B55F27"
+			subtitle: "¿Donde estan?"
+			tasks: [{
+				id: "191F0492EDAFE007"
+				item: "ftbskies:eye_of_legend"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: [
+				"Unlike the other two, the &bEnd Eye of Legend&r does not point you to a village."
+				""
+				"Instead, it brings you to &6End Cities&r. Similar, but distinctly different. There's nothing to trade, just loot."
+			]
+			id: "3815E3655E9B9330"
+			subtitle: "Kie ili estas?"
+			tasks: [{
+				id: "6EADFB4A73F859CA"
+				item: "ftbskies:eye_of_legend_end"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["64790EB9F3B55F27"]
+			description: ["The &bNether Eye of Legend&r works the same, but points you in the direction of the nearest &6Nether Sky Village&r."]
+			id: "3E26C522258D890F"
+			subtitle: "Waar zijn ze?"
+			tasks: [{
+				id: "6D3C5169189B9C2E"
+				item: "ftbskies:eye_of_legend_nether"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E26C522258D890F"]
+			description: [
+				"&bNether Sky Villages&r can be found flying in the Nether's void."
+				""
+				"Here, you can &6barter with the Pigmen&r by tossing them some gold!"
+			]
+			icon: "minecraft:warped_nylium"
+			id: "6B9DECAF16E9993C"
+			subtitle: "Varken heeft waren, als je munten hebt"
+			tasks: [
+				{
+					icon: "minecraft:crimson_nylium"
+					id: "4D0BF3685D3ACB17"
+					structure: "skyvillages:crimson_sky_village"
+					title: "Find a Crimson Sky Village"
+					type: "structure"
+				}
+				{
+					icon: "minecraft:warped_nylium"
+					id: "6675F42D96F3C54C"
+					structure: "skyvillages:warped_sky_village"
+					title: "Find a Warped Sky Village"
+					type: "structure"
+				}
+			]
+			title: "Nether Sky Villages"
+			x: 19.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"Completes the \"Visit Nether Sky Village\" task in Progression chapter"
+				""
+				"That task already gets completed if you visit the Crimson village"
+			]
+			id: "63A5B8B3491E4F44"
+			rewards: [{
+				command: "/ftbquests change_progress @p complete 755E6D1A1FD604B0"
+				id: "6E7224AC5E070F78"
+				player_command: false
+				type: "command"
+			}]
+			tasks: [{
+				icon: "minecraft:warped_stem"
+				id: "01B5CC403CA040C2"
+				structure: "skyvillages:warped_sky_village"
+				type: "structure"
+			}]
+			x: 16.0d
+			y: -0.5d
+		}
+	]
+	title: "Exploration"
+}

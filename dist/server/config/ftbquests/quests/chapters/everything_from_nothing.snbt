@@ -1,0 +1,1845 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "everything_from_nothing"
+	group: "6614EE2378B8AFB9"
+	icon: "exmachinis:flux_hammer"
+	id: "765CE56E943A0E79"
+	images: [
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 0.15d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 12.0d
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			alpha: 125
+			click: ""
+			color: 3077631
+			corner: false
+			dev: false
+			height: 7.5d
+			hover: [ ]
+			image: "#FFFFFF"
+			rotation: 0.0d
+			width: 0.15d
+			x: 2.0d
+			y: 1.0d
+		}
+	]
+	order_index: 11
+	quest_links: [
+		{
+			id: "005558258E4A7D70"
+			linked_quest: "63280A6D52BBE4A8"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "56595558C50A45DE"
+			linked_quest: "44A4C4070357D2BA"
+			x: 1.0d
+			y: -2.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0DDA95B39E0A0FF4"]
+			description: [
+				"With a renewable source of Cobble, it's time to start thinking about &6automating and scaling&r."
+				""
+				"&bAuto-hammers&r will automatically hammer the item inside. It will &6pull items from an inventory on the blue side&r, and push the output into an inventory on the red side."
+				""
+				"By distributing your Cobble to multiple &6lines of Auto-hammers&r, you can completely automate each of the siftable blocks!"
+			]
+			icon: "ftbsba:iron_auto_hammer"
+			id: "0701515417336CCE"
+			min_width: 250
+			rewards: [
+				{
+					count: 5
+					id: "33ABC9AF92CA3BEF"
+					item: "pedestals:augment_pedestal_t1_speed"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "76D735C477F1DFF4"
+					item: "ftbsba:iron_auto_hammer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "67BDC32B059CB394"
+					item: "industrialforegoing:item_transporter_type"
+					type: "item"
+				}
+			]
+			subtitle: "Automaing ALL the things!"
+			tasks: [{
+				id: "4099DF98A97BBA0C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ftbsba:netherite_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:iron_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:diamond_auto_hammer"
+							}
+							{
+								Count: 1b
+								id: "ftbsba:gold_auto_hammer"
+							}
+						]
+					}
+				}
+				title: "Auto-hammers"
+				type: "item"
+			}]
+			title: "Auto-Hammah!"
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C5F24FBAE411D2A"]
+			description: [
+				"Crafting a &6Manasteel Mesh&r will make you more noticeable to magic users of the world!"
+				""
+				"If you're lucky, a fairy might spawn and &6convert a nearby Diamond Block&r into &bBudding Amethyst&r!"
+				""
+				"Given time (or judicious use of a &6Time in a Bottle&r), Amethyst Clusters will grow! Once fully grown, they can be harvested."
+				""
+				"Amethyst can also be looted or traded from piglins."
+				""
+				"&6Amethyst Golems&r are very useful for farming and creating additional amethyt, check out the quest for them in the Ars Nouveau chapter!"
+				""
+				"Note: Normally budding amethyst cannot be broken, in this pack you can."
+			]
+			hide_dependency_lines: true
+			id: "5DF3A9F48D916AF0"
+			min_width: 250
+			rewards: [
+				{
+					id: "40AEA3DE3BB1212B"
+					item: {
+						Count: 1b
+						id: "cyclic:amethyst_sword"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:unbreaking"
+									lvl: 8s
+								}
+								{
+									id: "cyclic:beheading"
+									lvl: 3s
+								}
+								{
+									id: "apotheosis:scavenger"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:sharpness"
+									lvl: 6s
+								}
+							]
+							RepairCost: 15
+							display: {
+								Name: "{\"text\":\"The Purple People Eater\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0B47C3ADEC0D7471"
+					item: "ars_nouveau:source_berry_roll"
+					type: "item"
+				}
+				{
+					id: "3C03881BBBBE8261"
+					item: "elementalcraft:buddingshrine"
+					type: "item"
+				}
+				{
+					id: "231A568511FCAE41"
+					item: "ars_nouveau:ritual_awakening"
+					type: "item"
+				}
+			]
+			subtitle: "Let it grow, let it grow!"
+			tasks: [{
+				icon: "minecraft:budding_amethyst"
+				id: "2ECBE4EED12115CB"
+				observe_type: 0
+				timer: 0L
+				title: "Observe Budding Amethyst"
+				to_observe: "minecraft:budding_amethyst"
+				type: "observation"
+			}]
+			x: -6.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5DF3A9F48D916AF0"]
+			description: ["&6Manasteel Mesh&r upgrades into an &bAmethyst Mesh&b."]
+			id: "2A635BEBC12FF06E"
+			rewards: [
+				{
+					id: "0C5B6E4AE7638D62"
+					item: "farmersdelight:roast_chicken"
+					type: "item"
+				}
+				{
+					id: "04FD0632B5582C6C"
+					item: "minecraft:budding_amethyst"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "06B840B3E5D15352"
+				item: {
+					Count: 1b
+					id: "ftbskies:amethyst_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["40D4576678C9A2C3"]
+			description: [
+				"The &bManasteel Mesh&r has the ability to extract &6even rarer materials&r that the Andesite Mesh cannot."
+				""
+				"[\"\",{\"text\":\"Click here\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Botania chapter\"]}},\" to see the Botania quest chapter for help in making Mana Steel.\"]"
+				""
+				"Manasteel can also be looted from &bSky Village&r. Use an &6Eye of Legend&r to find them."
+			]
+			id: "1C5F24FBAE411D2A"
+			rewards: [
+				{
+					id: "3C3F21F76D0902E7"
+					item: "ars_nouveau:source_berry_pie"
+					type: "item"
+				}
+				{
+					id: "5840714FC7454F70"
+					item: "botania:blacker_lotus"
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "1AA40C92707454C1"
+					ignore_reward_blocking: true
+					stage: "mana_steel_mesh"
+					type: "gamestage"
+				}
+			]
+			subtitle: "Infused Mesh"
+			tasks: [{
+				id: "3FA893E926DFA5E5"
+				item: {
+					Count: 1b
+					id: "ftbskies:mana_steel_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			description: ["Obtained by crushing &bEndstone&r. There are several ways to get &bEndstone&r. You can &6summon a possessed Endermite&r with &6Occultism&r and then convert that to &bendstone&r brick for a &6material generator&r. Alternatively, once you have &6Budding Amethyst&r, one will occasionally spawn from the Amethyst. You could also &6build a portal to the End&r or &6fly to the Sky's End in a rocket&r. "]
+			id: "6F86D0F68AF695C6"
+			rewards: [{
+				count: 16
+				id: "6E52C61D72CC938F"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C3996700474C897"
+				item: "ftbskies:crushed_end_stone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["387EA2A8ABCFCBC4"]
+			description: [
+				"You can get &bNetherrack&r using &ePedestal&r's Material Generator on Nether Bricks."
+				""
+				"You get &oNether Bricks&r by throwing Bricks into the Spiritfire."
+			]
+			id: "0E40F6876416E723"
+			rewards: [{
+				count: 16
+				id: "3EF5A5BEA01ED7D9"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F3F14112F69EC94"
+				item: "ftbskies:crushed_netherrack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"63280A6D52BBE4A8"
+			]
+			description: ["Using an &6Andesite Mesh&r to sift &6Crushed Netherrack&r has a chance of dropping &bthese materials&r."]
+			hide_dependency_lines: true
+			icon: "occultism:raw_iesnium"
+			id: "484B1DC063CAD480"
+			tasks: [{
+				id: "74B9876CAAFE760A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "occultism:raw_iesnium"
+							}
+							{
+								Count: 1b
+								id: "occultism:otherworld_sapling"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:warped_nylium_spores"
+							}
+							{
+								Count: 1b
+								id: "ftbskies:crimson_nylium_spores"
+							}
+						]
+					}
+				}
+				title: "Andesite level materials"
+				type: "item"
+			}]
+			title: "Crushed Netherrack → Andesite Mesh"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"1C5F24FBAE411D2A"
+			]
+			description: ["&6Crushed End Stone&r passed through a &6Manasteel Mesh&r can drop &bEnder Pearls&r."]
+			hide_dependency_lines: true
+			id: "01237FE502C591FA"
+			tasks: [{
+				id: "1DAC5DE6F6CC8AC4"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "Crushed End Stone → Manasteel Mesh"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6F86D0F68AF695C6"
+				"2A635BEBC12FF06E"
+			]
+			description: ["Using an &6Amethyst Mesh&r will allow &6Crushed End Stone&r to drop &bDimensional Shards&r."]
+			hide_dependency_lines: true
+			icon: "rftoolsbase:dimensionalshard"
+			id: "62DC20E267EC7C3C"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1AA13E7605E90C07"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "30C2DF89386A9232"
+					item: "rftoolsbase:dimensionalshard"
+					type: "item"
+				}
+			]
+			title: "Crushed End Stone → Amethyst Mesh"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["528B7E5C410BE7D3"]
+			description: ["Sifters that are &6waterlogged&r sometimes produce alternative resources."]
+			id: "1B941662E3F1C481"
+			tasks: [{
+				id: "214BD4D63F52EAA1"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			title: "Waterlogged Sand"
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: [
+				"Using a &6Manasteel Mesh&r will get everything an Andesite Mesh can."
+				""
+				"It will also drop &bPrismarine Shards and Crystals&r."
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "1DBCB560F895FF50"
+			tasks: [
+				{
+					disable_toast: true
+					id: "3E0BE93F9D207283"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "Andesite level materials"
+					type: "item"
+				}
+				{
+					id: "3B0F7C554B999998"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "Manasteel level materials"
+					type: "item"
+				}
+			]
+			title: "Waterlogged Sand → Manasteel Mesh"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B941662E3F1C481"]
+			description: ["Using an &6Andesite Mesh&r to sift &6waterlogged Sand&r has a chance of dropping &bthese materials&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
+			id: "420A850AA13E6578"
+			tasks: [{
+				id: "7320308875865FF7"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:slime_ball"
+							}
+							{
+								Count: 1b
+								id: "mekanism:salt"
+							}
+							{
+								Count: 1b
+								id: "minecraft:clay_ball"
+							}
+							{
+								Count: 1b
+								id: "minecraft:sea_pickle"
+							}
+							{
+								Count: 1b
+								id: "minecraft:kelp"
+							}
+							{
+								Count: 1b
+								id: "minecraft:seagrass"
+							}
+						]
+					}
+				}
+				title: "Andesite level materials"
+				type: "item"
+			}]
+			title: "Waterlogged Sand → Andesite Mesh"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"1C5F24FBAE411D2A"
+			]
+			description: [
+				"Using a &6Manasteel Mesh&r will get everything an Andesite Mesh can."
+				""
+				"Crushed Netherrack will also drop &bseveral new materials&r."
+			]
+			hide_dependency_lines: true
+			icon: "forcecraft:force_gem"
+			id: "3AA1BC15B136A6EE"
+			tasks: [
+				{
+					disable_toast: true
+					id: "647FE0ED56A5BC05"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "Andesite level materials"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "1B77F744D0AD92CA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:inert_crystal"
+								}
+								{
+									Count: 1b
+									id: "forcecraft:force_gem"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:red_archwood_sapling"
+								}
+							]
+						}
+					}
+					title: "Manasteel level materials"
+					type: "item"
+				}
+			]
+			title: "Crushed Netherrack → Manasteel Mesh"
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"0E40F6876416E723"
+				"2A635BEBC12FF06E"
+			]
+			description: ["Using an &6Amethyst Mesh&r will allow &6Crushed Netherrack&r to drop &bNetherite Scrap&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:netherite_scrap"
+			id: "2F0973FB648704AF"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1A5AA2E854C47B41"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "occultism:raw_iesnium"
+								}
+								{
+									Count: 1b
+									id: "occultism:otherworld_sapling"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:warped_nylium_spores"
+								}
+								{
+									Count: 1b
+									id: "ftbskies:crimson_nylium_spores"
+								}
+							]
+						}
+					}
+					title: "Andesite level materials"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "50489AB87896AEE3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "elementalcraft:inert_crystal"
+								}
+								{
+									Count: 1b
+									id: "forcecraft:force_gem"
+								}
+								{
+									Count: 1b
+									id: "ars_nouveau:red_archwood_sapling"
+								}
+							]
+						}
+					}
+					title: "Manasteel level materials"
+					type: "item"
+				}
+				{
+					id: "452ACB28AFB1D73E"
+					item: "minecraft:netherite_scrap"
+					type: "item"
+				}
+			]
+			title: "Crushed Netherrack → Amethyst Mesh"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1B941662E3F1C481"
+				"2A635BEBC12FF06E"
+			]
+			description: ["&6Waterlogged Sand&r does &cnot have any additional drops&r when using an Amethyst Mesh."]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:prismarine_shard"
+			id: "2FF2D7CDEB332E57"
+			tasks: [
+				{
+					disable_toast: true
+					id: "442240AE7EFC081D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:slime_ball"
+								}
+								{
+									Count: 1b
+									id: "mekanism:salt"
+								}
+								{
+									Count: 1b
+									id: "minecraft:clay_ball"
+								}
+								{
+									Count: 1b
+									id: "minecraft:sea_pickle"
+								}
+								{
+									Count: 1b
+									id: "minecraft:kelp"
+								}
+								{
+									Count: 1b
+									id: "minecraft:seagrass"
+								}
+							]
+						}
+					}
+					title: "Andesite level materials"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "3A6C1F667E7AF3D6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:prismarine_shard"
+								}
+								{
+									Count: 1b
+									id: "minecraft:prismarine_crystals"
+								}
+							]
+						}
+					}
+					title: "Manasteel level materials"
+					type: "item"
+				}
+			]
+			title: "Waterlogged Sand → Amethyst Mesh"
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["Using an &6Andesite Mesh&r to sift &6Soul Sand&r has a chance of dropping &bthese materials&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "09BFE8C08415DAD8"
+			tasks: [{
+				id: "5F56DC9A18987BD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+						]
+					}
+				}
+				title: "Andesite level materials"
+				type: "item"
+			}]
+			title: "Soul Sand → Andesite Mesh"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C5F24FBAE411D2A"]
+			description: ["&6Soulsand&r does &cnot have any additional drops&r when using a Manasteel Mesh."]
+			disable_toast: true
+			hide_dependency_lines: true
+			icon: "minecraft:quartz"
+			id: "3080C511A3122ED1"
+			tasks: [{
+				disable_toast: true
+				id: "4CD97519754D9282"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:quartz"
+							}
+							{
+								Count: 1b
+								id: "minecraft:nether_wart"
+							}
+						]
+					}
+				}
+				title: "Andesite level materials"
+				type: "item"
+			}]
+			title: "Soul Sand → Manasteel Mesh"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A635BEBC12FF06E"]
+			description: ["Using an &6Amethyst Mesh&r will allow &6Soulsand&r to drop &bGhast Tears&r."]
+			hide_dependency_lines: true
+			icon: "minecraft:ghast_tear"
+			id: "66BD17836AD23157"
+			tasks: [
+				{
+					disable_toast: true
+					id: "543927D092042307"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:quartz"
+								}
+								{
+									Count: 1b
+									id: "minecraft:nether_wart"
+								}
+							]
+						}
+					}
+					title: "Andesite level materials"
+					type: "item"
+				}
+				{
+					id: "742D78334B5E06C9"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+			]
+			title: "Soul Sand → Amethyst Mesh"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"68115FDA0BB81547"
+				"6402F85B8830A258"
+			]
+			description: [
+				"&bSifters&r will allow you to run materials such as Gravel, Sand, and Dust through &6Meshes&r to find materials."
+				""
+				"A &bHand Crank&r produces enough &6stress capacity&r for 8 Sifters! Sifters also have a Cog in them, so you can place them in a line."
+				""
+				"Make sure the cogwheel that is part of the sifter aligns with the cogwheel your handcrank is on. You'll also need to make sure you've placed the mesh in the sifter. The material to sift should be thrown or hoppered into the top, not placed as a block."
+				""
+				"Finally, make sure you routinely empty your sifter output, if it fills up it will void excess."
+			]
+			icon: "createsifter:sifter"
+			id: "4451057D4BA76C2C"
+			rewards: [
+				{
+					count: 2
+					id: "0D6E5F66BC0C446F"
+					item: "cyclic:hopper"
+					type: "item"
+				}
+				{
+					id: "72DA4DFE5A989E50"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 4
+					id: "63FDB5F2A2F321E1"
+					item: "incubation:fried_egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "59AA792FE29B2E4C"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "68338798A863E140"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			subtitle: "Sifting for treasures"
+			tasks: [
+				{
+					id: "1059DA44A1DFBA0E"
+					item: "createsifter:sifter"
+					type: "item"
+				}
+				{
+					id: "27D8571C56E23C24"
+					item: "create:hand_crank"
+					type: "item"
+				}
+			]
+			title: "Sifter go Brrr"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"&6Sneak right-click Grass or dirt&r to collect &bRocks&r. These can be crafted into Cobblestone. You'll also find &bSoil&r which can be combined for dirt in the same way."
+				""
+				"Once you make your first sifter look towards automating cobble and dirt with pedestals quickly. Once you sift 4 blaze powder from dust you'll have all you really need for a material generator. Spamming right click 20 hours into the pack is not a pack design goal."
+			]
+			icon: "minecraft:cobblestone"
+			id: "00BF127CBDC8F12F"
+			rewards: [
+				{
+					count: 16
+					id: "3A5DE4FF7AFB7AF0"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "203C2BB4B9AF1639"
+					item: "petrock:petrockbox"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5CA3E643E5CB408F"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+			]
+			subtitle: "These rock"
+			tasks: [{
+				count: 16L
+				id: "69C4DFFBCF7B5613"
+				item: "ftbskies:rock"
+				type: "item"
+			}]
+			title: "Cobbled together"
+			x: -5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["00BF127CBDC8F12F"]
+			description: [
+				"&bHammers&r can crush blocks into finer blocks."
+				""
+				"See the Hammer's uses in JEI (using the U key) to see what blocks smash into what."
+				""
+				"While holding the Hammer and looking at a smashable block, it will show you what it smashes into."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbsba:stone_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "528B7E5C410BE7D3"
+			rewards: [
+				{
+					count: 64
+					id: "665731CB00C6BAFF"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "4B10F645E1AD5422"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Hammer Time!"
+			tasks: [{
+				id: "1ACEFBD1CA67850A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ftbsba:stone_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:iron_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:gold_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:diamond_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ftbsba:netherite_hammer"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Hammers"
+				type: "item"
+			}]
+			title: "This is Not a Drill"
+			x: -3.5d
+			y: 9.5d
+		}
+		{
+			description: [
+				"&bString&r can be either &6harvested from Flax&r."
+				"Bonemeal will allow the flax to grow much faster."
+			]
+			icon: "supplementaries:flax"
+			id: "1ADD0AF9192AC4F8"
+			rewards: [
+				{
+					count: 8
+					id: "423F61593EEADAF6"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54897565C483D337"
+					item: "supplementaries:flax_seeds"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "324A09312F306CF0"
+					item: "farmersdelight:straw"
+					type: "item"
+				}
+			]
+			subtitle: "Flax on, flax off"
+			tasks: [{
+				icon: "minecraft:string"
+				id: "4DDABD4023A19CB5"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "Stringing you along"
+			x: -5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1ADD0AF9192AC4F8"]
+			description: ["The &bString Mesh&r isn't very sturdy or finely woven. It'll get &6the most basic resources&r, but not much else."]
+			id: "6402F85B8830A258"
+			rewards: [
+				{
+					count: 2
+					id: "3C1496514C26346B"
+					item: "cyclic:hopper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "04B7129FB973DE45"
+					item: "farmersdelight:cooked_chicken_cuts"
+					type: "item"
+				}
+			]
+			subtitle: "Stringing you along"
+			tasks: [{
+				id: "58260478C05DA727"
+				item: {
+					Count: 1b
+					id: "createsifter:string_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4451057D4BA76C2C"]
+			description: ["Sifting Gravel will net you &bIron Nuggets&r. These can be crafted into &6Andesite Alloy&r, which is necessary for progression."]
+			id: "7AF13186F9106ACA"
+			rewards: [
+				{
+					count: 2
+					id: "14C4C27DC05759BB"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "75983A5908774379"
+					item: "farmersdelight:fish_stew"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FB4BE530B9ABDD4"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+			]
+			subtitle: "Nuggets of wisdom here"
+			tasks: [{
+				count: 4L
+				id: "35A4546518F9293B"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			title: "Gravel Alloys"
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7AF13186F9106ACA"]
+			description: [
+				"The Hand Crank quickly consumes hunger, and it's not very engaging either! Let's move on to something more efficient."
+				""
+				"&bWater Wheels&r produce rotational force from flowing water. Eventually you'll be able to make better sources, but that's later."
+				""
+				"TIP: You can also place waterwheels horizontally and let water flow around them. This can be a very easy and efficient method to power many sifters at once."
+			]
+			id: "703631B507075DC1"
+			rewards: [
+				{
+					count: 3
+					id: "28F991AA91A833E5"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "749373028B393581"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "625A2A185E3A6EDC"
+					item: "nethersdelight:hoglin_ear"
+					type: "item"
+				}
+			]
+			subtitle: "Water you doing step wheel"
+			tasks: [{
+				id: "4D107489DFC1A49F"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Rolling on the River"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"With access to Lava, you can now craft and install a &bMaterial Generator&r onto a &bPedestal&r."
+				""
+				"[\"\",\"For furthur documentation on Pedestals, \",{\"text\":\"click here\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"23D7D83EBA8C36CE\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Pedestals chapter\"]}},\" to see its quests.\"]"
+				""
+				"The most immediate use will be placing a stone block under the material generator to provide an unlimited source of cobble for you to sift for resources."
+				""
+				"Hint: Make sure you have the upgrade in your OFF hand before right clicking to insert it into the pedestal, otherwise you will only put the upgrade on display."
+			]
+			icon: {
+				Count: 1b
+				id: "pedestals:upgrade_pedestal_cobblegen"
+				tag: { }
+			}
+			id: "4F764A3D062A2D97"
+			rewards: [
+				{
+					id: "6179B69DEDF3B08F"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_export"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1CF724652B7A83DD"
+					item: "pedestals:augment_pedestal_t1_capacity"
+					type: "item"
+				}
+				{
+					id: "69DBA7D2A0C1E608"
+					item: {
+						Count: 1b
+						id: "pedestals:block_pedestal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "51E61DFD93755BDD"
+					item: "minecraft:barrel"
+					type: "item"
+				}
+				{
+					id: "3423660594B46DE5"
+					item: "minecraft:stone"
+					type: "item"
+				}
+			]
+			subtitle: "Material 'N You"
+			tasks: [
+				{
+					id: "30C953B661C55B77"
+					item: {
+						Count: 1b
+						id: "pedestals:block_pedestal"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "162E4269281F91A8"
+					item: {
+						Count: 1b
+						id: "pedestals:upgrade_pedestal_cobblegen"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Material Generator"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"Now that you have a source of Lava, you can pour Water over it to get &bObsidian&r!"
+				""
+				"At this point you should should be able to sift Gravel to get Diamonds for a pickaxe."
+				""
+				"[\"Once you've gotten into \", {\"text\":\"Botania\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4FA6ADCA7857A92F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Botania Chapter\"]}},\" you can also use your excess blaze powder to make obsidian by crafting it into blaze blocks and then transforming them with the pure daisy.\"]"
+			]
+			id: "3F6A8371E0771500"
+			rewards: [
+				{
+					count: 16
+					id: "0E9F66BF17512E15"
+					item: "apotheosis:obsidian_arrow"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1261ECE5CF10582B"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+			]
+			subtitle: "Obsidian Dreams"
+			tasks: [{
+				id: "18B425E38CA0FB57"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Dragon Glass"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["528B7E5C410BE7D3"]
+			description: ["&bGravel&r, &bSand&r, and &bDust&r are the three primary blocks that are sifted for materials."]
+			icon: "minecraft:gravel"
+			id: "68115FDA0BB81547"
+			rewards: [
+				{
+					count: 16
+					id: "1A517F154D4D03B7"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7B68239EDA398DBD"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "07828926AEC56488"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			subtitle: "That's just fine!"
+			tasks: [
+				{
+					id: "6D5D1A35E53E3620"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "1F5D93F37FE68988"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "0BDBEE3180AECC5D"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+			]
+			title: "Dust to Dust"
+			x: -3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3F6A8371E0771500"]
+			description: [
+				"&bThe Nether&r in &dFTB Skies&r is a void as well. Of course, some mobs can only spawn there, so it's &6worth building a mob farm&r there to obtain rare resources."
+				""
+				"Once you have flight, you'll be able to explore for &6floating Nether Villages&r."
+			]
+			id: "1E860A143A753593"
+			rewards: [
+				{
+					id: "31ECB77529D26A78"
+					item: "botania:floating_exoflame"
+					type: "item"
+				}
+				{
+					id: "5152B1FC8138A6FB"
+					item: "darkutils:charm_portal"
+					type: "item"
+				}
+			]
+			subtitle: "Going deeper..."
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "1FF66BD18FA9C637"
+				type: "dimension"
+			}]
+			title: "Twisting turning through the nether"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["Redstone is your gateway into energy production and management. After you get some, look into some of the power generation mods like cyclic, thermal expansion and mekanism."]
+			id: "0DDA95B39E0A0FF4"
+			rewards: [
+				{
+					count: 8
+					id: "4E1502E7ADFF26AB"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "2F7366298E2EB23A"
+					item: "dustrial_decor:redstone_lantern"
+					type: "item"
+				}
+			]
+			subtitle: "Power dust!"
+			tasks: [{
+				id: "7C19DF153549023B"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4F764A3D062A2D97"]
+			description: ["Placing &bCompost&r or &bRich Soil&r under a &6Material Generator&r slowly yields an infinite supply of Dirt, useful for sifting or growing."]
+			icon: "minecraft:dirt"
+			id: "5CA72AE3F6F05881"
+			rewards: [
+				{
+					count: 32
+					id: "28B72B21F493156B"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "199CA38D5CB26860"
+					item: {
+						Count: 1b
+						id: "ae2:fluix_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Toil Soil"
+			tasks: [{
+				id: "3E4F162F1C58F498"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "farmersdelight:rich_soil"
+							}
+							{
+								Count: 1b
+								id: "farmersdelight:organic_compost"
+							}
+						]
+					}
+				}
+				title: "Dirt-making blocks"
+				type: "item"
+			}]
+			title: "Dirt"
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4F764A3D062A2D97"]
+			description: [
+				"You can get &bNether Bricks&r by &6tossing Bricks into &eOccultism&r's Spiritfire&r. That can be placed under the Material Generator for a &6limitless source of Netherrack&r!"
+				""
+				"[\"\",{\"text\":\"Click here\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"476DF733E6E2DA51\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Occultism chapter\"]}},\" to see Occultism's quest line for more details.\"]"
+			]
+			id: "387EA2A8ABCFCBC4"
+			rewards: [{
+				id: "24CF976C7C81C951"
+				item: "botania:fel_pumpkin"
+				type: "item"
+			}]
+			subtitle: "Follow the nether brick road"
+			tasks: [{
+				id: "6FD62BA40646B099"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7AF13186F9106ACA"
+				"02189F46440D3E10"
+			]
+			description: [
+				"The &bSqueezer&r squeezes fluids out of items. To do so, place an item inside and then &6repeatedly jump on it&r until it's done."
+				""
+				"This fluid is pushed into a tank on either side of the Squeezer. If it isn't drained, you can't squeeze another item. &6Reset the Squeezer with a redstone signal.&r"
+				""
+				"Notably, you can &6squeeze Blaze Powder into Lava&r."
+			]
+			icon: "integrateddynamics:squeezer"
+			id: "333509FE81EB6FA8"
+			min_width: 225
+			rewards: [{
+				id: "3E4ECEF41CBC275D"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			subtitle: "Blazin the way forward"
+			tasks: [{
+				id: "1F84C3297E17E907"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			title: "Milking Fire"
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: [
+				"Sifters that are &6waterlogged&r sometimes produce alternative resources."
+				""
+				"Hint: To waterlog a sifter you must place it into a block of water."
+			]
+			id: "50EFB401A48753F2"
+			rewards: [
+				{
+					count: 32
+					id: "353238635B4AEC9F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "56C92C1A4896FC24"
+					item: "mekanism:salt"
+					type: "item"
+				}
+			]
+			subtitle: "Under da sea!"
+			tasks: [{
+				id: "64008486E03F8EF6"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			title: "Balanced Sifting"
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1ADD0AF9192AC4F8"]
+			description: [
+				"Fishing can &onet&r you &6all kinds of treasures&r, from food to Enchanted Books."
+				""
+				"Casting a reel into water over and over may be relaxing to some, but pure torture to others."
+				""
+				"To help you on your journey, we've included the handy-dandy &eCyclic&r &bFishing Net&r! Just insert your Fishing Rod, and it'll handle the rest."
+				""
+				"The only problem is that &cit spits the loot over the entire water surface&r, rather than collecting it in an inventory. An &6Item Collector&r would be very helpful."
+				""
+				"Fishing is also a good source of &bInk Sacks&r and &bCoral&r"
+			]
+			id: "331349E3363ECB31"
+			min_width: 250
+			rewards: [
+				{
+					id: "2E1867F12AE5AC1C"
+					item: "cyclic:fisher"
+					type: "item"
+				}
+				{
+					id: "7661C3622981A441"
+					item: {
+						Count: 1b
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "minecraft:luck"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1713BFA65F92FB2B"
+					item: "minecraft:ink_sac"
+					type: "item"
+				}
+			]
+			subtitle: "At least it's not lava."
+			tasks: [{
+				id: "059F726C804727D0"
+				item: {
+					Count: 1b
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Not this again..."
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CA72AE3F6F05881"]
+			description: [
+				"Various &6Spores&r may be obtained from Sifting."
+				""
+				"Sifting Dirt may yield &bMycelium Spores&r which, when used on Dirt, convert it into Mycelium."
+				""
+				"Various other Spores can be obtained from &6Crushed Netherrack&r, once you're able to supply it."
+			]
+			id: "26BE9560ADB449B8"
+			rewards: [
+				{
+					count: 4
+					id: "64224A7072096DC2"
+					item: "ftbskies:mycelium_spores"
+					type: "item"
+				}
+				{
+					id: "0B7588295468DF88"
+					item: "farmersdelight:mushroom_rice"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "213F152A8497F341"
+					item: "minecraft:moss_block"
+					type: "item"
+				}
+			]
+			subtitle: "Moulding your future"
+			tasks: [{
+				id: "667ACD48D641B088"
+				item: "ftbskies:mycelium_spores"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["7AF13186F9106ACA"]
+			description: ["With the improved &bAndesite Mesh&r, you're able to collect &6more varied resources&r from the Sifter."]
+			id: "63280A6D52BBE4A8"
+			rewards: [
+				{
+					id: "3C4225AE01868C29"
+					item: "minecraft:bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4ED90835208D3BC7"
+					item: "minecraft:cooked_porkchop"
+					type: "item"
+				}
+			]
+			subtitle: "Andestined for greatness"
+			tasks: [{
+				id: "548AA5CDBE89C360"
+				item: {
+					Count: 1b
+					id: "createsifter:andesite_mesh"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6402F85B8830A258"]
+			description: [
+				"&bSugar Cane&r is used in several important early recipes. If your island doesn't spawn with any, you can &6Sift&r some!"
+				""
+				"Thanks to &eApotheosis&r, Sugar Cane can grow to new heights!"
+			]
+			id: "7A466C0D7DB943BA"
+			rewards: [
+				{
+					count: 16
+					id: "7398CBA752C9C70B"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2E568563D5B12AFF"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					id: "5361BC7391A4B849"
+					item: "minecraft:sponge"
+					type: "item"
+				}
+				{
+					id: "1BBF7D88D47874C3"
+					item: {
+						Count: 1b
+						id: "productivebees:spawn_egg_configurable_bee"
+						tag: {
+							EntityTag: {
+								type: "productivebees:sponge"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Get Sugar Cane"
+			tasks: [{
+				id: "33104BA611BDD5B3"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["333509FE81EB6FA8"]
+			description: [
+				"Getting Lava by hopping on a Squeezer is &ca bit time consuming&r. Once you've gotten a source of power, look into the &6Mechanical Squeezer&r or the &6Magma Crucible&r."
+				""
+				"Alternatively, you could &6automate Dripstone&r! If it's hanging from a block that has Lava above, it'll &6fill the Cauldron below&r!"
+			]
+			id: "45D2E055A0ED04A5"
+			rewards: [
+				{
+					count: 4
+					id: "4AA1AEB2556710DF"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+				{
+					id: "06255D72CC234AA3"
+					item: "cyclic:hopper_fluid"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "76DABD31D1721618"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Liquid Fire"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["63280A6D52BBE4A8"]
+			description: ["By sifting dust you can occasionally get &bBlaze Powder&r. This potent powder can be used in a squeezer to obtain some of your first lava."]
+			id: "02189F46440D3E10"
+			rewards: [
+				{
+					count: 3
+					id: "4E79022C59D723E9"
+					item: "minecraft:blaze_powder"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "144F895749551EE5"
+					item: "ftbskies:dust"
+					type: "item"
+				}
+				{
+					id: "54D60FECBAB08D87"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2BFB1F78C27E0E01"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			title: "Blazing Dust"
+			x: 1.0d
+			y: 8.0d
+		}
+	]
+	subtitle: ["The Important Ones, Anyway"]
+	title: "Ex Nihilo"
+}
