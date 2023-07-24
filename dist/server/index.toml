@@ -14,7 +14,7 @@ hash = "56cc1bf451137b39424acadb5d9850efea311ebc28a809c451d1906f4ddf5b8b"
 
 [[files]]
 file = "config/ProjectE/custom_emc.json"
-hash = "24a82345ea2dd769c34d4438668dc90e4fc6bf96a2aadcd143796ec2fa7755cc"
+hash = "4d725d49ecf70425f197033409cbd2b75d3c9d99a0af1fe3706a87b01a0ed407"
 
 [[files]]
 file = "config/ProjectE/processing.toml"
@@ -27,6 +27,10 @@ hash = "450400eace798eef0fcae4c9577b233ecd7c0742f35e5a06462635a364876f08"
 [[files]]
 file = "config/advancements_tracker-client.toml"
 hash = "8fa0c833b28880e2d710822b78a729424f50550653e359b9f9c19c1c935f0b6a"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "9b6e420b3c60105d1af4067733332f733281433757072b33bf91c3307933cfdd"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
@@ -51,6 +55,10 @@ hash = "b72123a09263b746865bcaa3034d924fa0874f92efa151c676c805003b5cbd4f"
 [[files]]
 file = "config/cofh_core-client.toml"
 hash = "78865ba19df6cbf88205519433303fea4c6e23ccc6132a53fbddf0e2525a5556"
+
+[[files]]
+file = "config/combatroll/client.json5"
+hash = "72db3c3888361b1918b3122bc7cfb275ee05556617b9ca453a96ea51ea348580"
 
 [[files]]
 file = "config/create-client.toml"
@@ -1490,7 +1498,7 @@ hash = "56cc1bf451137b39424acadb5d9850efea311ebc28a809c451d1906f4ddf5b8b"
 
 [[files]]
 file = "defaultconfigs/ProjectE/custom_emc.json"
-hash = "24a82345ea2dd769c34d4438668dc90e4fc6bf96a2aadcd143796ec2fa7755cc"
+hash = "4d725d49ecf70425f197033409cbd2b75d3c9d99a0af1fe3706a87b01a0ed407"
 
 [[files]]
 file = "defaultconfigs/ProjectE/processing.toml"
@@ -1503,6 +1511,10 @@ hash = "450400eace798eef0fcae4c9577b233ecd7c0742f35e5a06462635a364876f08"
 [[files]]
 file = "defaultconfigs/advancements_tracker-client.toml"
 hash = "8fa0c833b28880e2d710822b78a729424f50550653e359b9f9c19c1c935f0b6a"
+
+[[files]]
+file = "defaultconfigs/almostunified/unify.json"
+hash = "9b6e420b3c60105d1af4067733332f733281433757072b33bf91c3307933cfdd"
 
 [[files]]
 file = "defaultconfigs/apotheosis/adventure.cfg"
@@ -1527,6 +1539,10 @@ hash = "b72123a09263b746865bcaa3034d924fa0874f92efa151c676c805003b5cbd4f"
 [[files]]
 file = "defaultconfigs/cofh_core-client.toml"
 hash = "78865ba19df6cbf88205519433303fea4c6e23ccc6132a53fbddf0e2525a5556"
+
+[[files]]
+file = "defaultconfigs/combatroll/client.json5"
+hash = "72db3c3888361b1918b3122bc7cfb275ee05556617b9ca453a96ea51ea348580"
 
 [[files]]
 file = "defaultconfigs/create-client.toml"
@@ -2957,10 +2973,6 @@ file = "defaultconfigs/xaeroworldmap.txt"
 hash = "ef0fb6e5f41522232f6a350975bfe9b8fd8675c095a0cdb6d2a3ea0bcfd6df6d"
 
 [[files]]
-file = "kubejs/README.txt"
-hash = "02d6feb3afe1d9c96e137f8baaa71de982f1af0a2b37fbcba73f34ee59ebbd4d"
-
-[[files]]
 file = "kubejs/assets/condensed_creative/condensed_entries/building_blocks.json"
 hash = "abbc906e885eba8de76ffddfec0111dacf19c17ef7645db71f9e53fb36d2a21d"
 
@@ -3403,46 +3415,6 @@ hash = "5c59b26ccd301a1fd37810cfd037217d814e4778483250e101db0dac59f52163"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "2c2ab5c241baa1409cd30f5d9fd656a973efefa238bf6dcdf95c564a67bb2735"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/combiner/xycraft_xychorium_gem_blue.json"
-hash = "3b9d9e28d9650379b712968d938bd3692449a529814854214d358009517082b4"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/combiner/xycraft_xychorium_gem_dark.json"
-hash = "9009e311319165ac51db4262cf11c08b6286fa7292e246513a8f0ac7992b4787"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/combiner/xycraft_xychorium_gem_green.json"
-hash = "8eb5597b4e89ea3a3672a823a62a08751f8ca1dacb7db32bb29a1b57d98b473f"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/combiner/xycraft_xychorium_gem_light.json"
-hash = "8a86ed6b904eec6652be6d5cf758899db209c91bc01a40944905bf2b1dc498ea"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/combiner/xycraft_xychorium_gem_red.json"
-hash = "6a0662c227f42a6f1af12b6992c1c068f29d5aa962ab13b16dadc8d3fb4f4886"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/dissolver/xycraft_xychorium_gem_blue.json"
-hash = "93e2b1a1cf75da39926c38924110d93f23d438142e9943eab58c0344f80d8724"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/dissolver/xycraft_xychorium_gem_dark.json"
-hash = "1e26d51ba669a7c9026e9f0e8102202dd7cc0c341c78732ec9077ec2df27267d"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/dissolver/xycraft_xychorium_gem_green.json"
-hash = "6158363afb479ad0b056036163ff83afd415ae53f9655cab06a5ad4c35c94b41"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/dissolver/xycraft_xychorium_gem_light.json"
-hash = "bdb7611f2c10342b3d0f911d3889313c273eafe0acb525ecee4bd7143e93145b"
-
-[[files]]
-file = "kubejs/data/alchemistry/recipes/dissolver/xycraft_xychorium_gem_red.json"
-hash = "3fb93e0ff8fa01edf3b9a4663f991b09390a8e8ae5e2368d90c465d718952b55"
 
 [[files]]
 file = "kubejs/data/apotheosis/advancements/give_book.json"
@@ -4489,60 +4461,8 @@ file = "kubejs/data/twilightforest/stalactites/small_hollow_hill.json"
 hash = "68f875de3153d86ea7aa23fe986be73d1410c68a0475a02db5f63453747fc4b3"
 
 [[files]]
-file = "kubejs/server_scripts/atm/atm_alloy_tools.js"
-hash = "33b1516ee78a90472a36985cdf95c651356fbac702373dd79dba26241ada6a59"
-
-[[files]]
-file = "kubejs/server_scripts/atm/atm_alloys.js"
-hash = "7d8a178e9020a45b41accec068a43930cbb9cf242b5879c20ccb20a84d853678"
-
-[[files]]
-file = "kubejs/server_scripts/atm/atm_shard.js"
-hash = "b82ccb5becf021b62b0e279dede51f52298736f57beafafab504c441e74f58b0"
-
-[[files]]
-file = "kubejs/server_scripts/atm/atm_star.js"
-hash = "e8d879c292ed28ec03fad1b48ebe156738b820ef3bed1512c41e4ea391e5fa00"
-
-[[files]]
-file = "kubejs/server_scripts/atm/atm_star.js.ds"
-hash = "6d6f0f0a9a28fa12487e813b8401e8f1a708ef7b17b4ade562bdffa3cae23079"
-
-[[files]]
-file = "kubejs/server_scripts/atm/atm_star_creative.js"
-hash = "ee40eff9c0af5b24865d8817faa492eaf7455389fd23161668a509bb3a256bfd"
-
-[[files]]
-file = "kubejs/server_scripts/atm/att_items.js"
-hash = "2663a9c3e204ddcc2a074ea6890c15272e47153d5d4877a408d0f9c102fdf249"
-
-[[files]]
-file = "kubejs/server_scripts/atm/att_items.js.ds"
-hash = "90ebecbca7e88d591d992c12e7098c0139e8ef2f15eb1d8f7eaf25aa642e8cb2"
-
-[[files]]
-file = "kubejs/server_scripts/atm/mini_portals.js"
-hash = "2af6c34b39cd9d3d58885a8aa78ba0ca556c0e3243de167045bb3c0f95ab12f6"
-
-[[files]]
-file = "kubejs/server_scripts/atm/music_discs.js"
-hash = "f787b28df5a53af64f791c711cf8cfb12a71acf5b8178f1074c880928ec037c5"
-
-[[files]]
-file = "kubejs/server_scripts/atm/patrick_star.js"
-hash = "504a42a1fc94a13d2c46d6ac6ca76927ae4322c6127529ce5bef13fd7f8c76fb"
-
-[[files]]
-file = "kubejs/server_scripts/atm/patrick_star.js.ds"
-hash = "9728c2c40648a3808664da993a4d1f3ad44836c120a111bd7a4c1155c9f51b18"
-
-[[files]]
 file = "kubejs/server_scripts/conflicts.js"
 hash = "2b75593c00146a51990e6ad0239a8e18f320fd350a1a584d28a6118c425c8e50"
-
-[[files]]
-file = "kubejs/server_scripts/erroring_recipes.js"
-hash = "796e81753ad8cf0eddf11f5a30f2fc78a31157f05a9c85cec22aeb066c77b312"
 
 [[files]]
 file = "kubejs/server_scripts/mods/ad_astra/ad_astra.js"
@@ -4651,10 +4571,6 @@ hash = "d61eb2d82bdfaedf79f3e34873f8bc0517ff0cfc0f7ec87a83d58db0497afc2e"
 [[files]]
 file = "kubejs/server_scripts/mods/refinedstorage/refinedstorage.js"
 hash = "50c92ea6a21aa9300e0380ea811c8828ab407ffcf8861d4b8b865d6e6d73c832"
-
-[[files]]
-file = "kubejs/server_scripts/ore_removal.js"
-hash = "430e08fedd61407ad1973d84a2ae93e4ce89e6c7170c77e86e590f7bb1c24b60"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_unify/_before.js"
@@ -5600,11 +5516,6 @@ hash = "e28780e8852f82e23cacdff9af5bc0c022faaf896d67ee0cb4ce74c67fc5fab3"
 metafile = true
 
 [[files]]
-file = "mods/experience-obelisk.pw.toml"
-hash = "137fd093987c3475839168d659438184ef776d97e7b336ce28743b934f9197e8"
-metafile = true
-
-[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "92f0a1d2b221021d2c0ab36d5c3e293f01a3a938b13d82bf82b997968f85faf4"
 metafile = true
@@ -5697,6 +5608,11 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "748c2bd357f31b10c92d0d21617abb12660e9525f62111269b643dac5a8539eb"
+metafile = true
+
+[[files]]
+file = "mods/forge-tooltip-texts-scroller.pw.toml"
+hash = "c392dd4b590c6bab0b9d4ba1fab6cf18277cb2e92541cfc385a4c0eaf1c2a32a"
 metafile = true
 
 [[files]]
@@ -6825,11 +6741,6 @@ hash = "28edf7d569541bfc92aa09304b85fa8a57bd95528296711ed8c6bc66a0202247"
 metafile = true
 
 [[files]]
-file = "mods/smart-completion.pw.toml"
-hash = "9367cdd51fba70fa59b1849d6cad35af64b574f3cf2c69388d5c900545e2a29a"
-metafile = true
-
-[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "b933bc94d6ddd24c1dd26badefca4afe5714a42324de362a489f1f5465d2dccd"
 metafile = true
@@ -7256,7 +7167,7 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "31c85e40756427e2ecbdaa64e6b6a1c625b615b87a2e099daca6a2ef65dea4f4"
+hash = "7fd6047e1de11e78461d183a58d24785175cd15df7e82673a84f25a5fe2ef827"
 
 [[files]]
 file = "server-icon.png"

@@ -5,32 +5,92 @@
       "emc": 1024
     },
     {
-      "item": "ad_astra:calorite_ingot",
-      "emc": 4096
-    },
-    {
       "item": "ad_astra:ostrum_ingot",
       "emc": 2048
     },
     {
+      "item": "ad_astra:calorite_ingot",
+      "emc": 4096
+    },
+    {
       "item": "ad_astra:permafrost",
-      "emc": 16
+      "emc": 1
     },
     {
       "item": "ad_astra:moon_sand",
-      "emc": 16
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:moon_stone",
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:moon_cobblestone",
+      "emc": 1
     },
     {
       "item": "ad_astra:mars_sand",
-      "emc": 16
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:mars_stone",
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:mars_cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:venus_sand",
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:venus_stone",
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:venus_cobblestone",
+      "emc": 1
     },
     {
       "item": "ad_astra:glacio_stone",
-      "emc": 16
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:glacio_cobblestone",
+      "emc": 1
     },
     {
       "item": "ad_astra:mercury_stone",
-      "emc": 16
+      "emc": 1
+    },
+    {
+      "item": "ad_astra:mercury_cobblestone",
+      "emc": 1
+    },
+    {
+      "item": "#forge:ingots/steel",
+      "emc": 252
+    },
+    {
+      "item": "#forge:plates/steel",
+      "emc": 252
+    },
+    {
+      "item": "#forge:storage_blocks/steel",
+      "emc": 2268
+    },
+    {
+      "item": "#forge:plates/iron",
+      "emc": 256
+    },
+    {
+      "item": "#forge:sawdust",
+      "emc": 4
+    },
+    {
+      "item": "#forge:dusts/wood",
+      "emc": 4
     }
   ]
 }

@@ -3,6 +3,8 @@ Write-Host "Updating mods" -ForegroundColor Yellow
 packwiz update --all --pack-file ".\src\pack.toml" --meta-folder-base ".\src"
 Write-Host "Update finished" -ForegroundColor Green
 
+Remove-Item -Path '.\dist' -Recurse
+
 $distpaths = @(
   '.\dist\client', '.\dist\server',
   '.\dist\client\defaultconfigs', '.\dist\server\defaultconfigs'

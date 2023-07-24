@@ -14,7 +14,7 @@ hash = "56cc1bf451137b39424acadb5d9850efea311ebc28a809c451d1906f4ddf5b8b"
 
 [[files]]
 file = "config/ProjectE/custom_emc.json"
-hash = "24a82345ea2dd769c34d4438668dc90e4fc6bf96a2aadcd143796ec2fa7755cc"
+hash = "4d725d49ecf70425f197033409cbd2b75d3c9d99a0af1fe3706a87b01a0ed407"
 
 [[files]]
 file = "config/ProjectE/processing.toml"
@@ -27,6 +27,10 @@ hash = "450400eace798eef0fcae4c9577b233ecd7c0742f35e5a06462635a364876f08"
 [[files]]
 file = "config/advancements_tracker-client.toml"
 hash = "8fa0c833b28880e2d710822b78a729424f50550653e359b9f9c19c1c935f0b6a"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "9b6e420b3c60105d1af4067733332f733281433757072b33bf91c3307933cfdd"
 
 [[files]]
 file = "config/apotheosis/adventure.cfg"
@@ -51,6 +55,10 @@ hash = "b72123a09263b746865bcaa3034d924fa0874f92efa151c676c805003b5cbd4f"
 [[files]]
 file = "config/cofh_core-client.toml"
 hash = "78865ba19df6cbf88205519433303fea4c6e23ccc6132a53fbddf0e2525a5556"
+
+[[files]]
+file = "config/combatroll/client.json5"
+hash = "72db3c3888361b1918b3122bc7cfb275ee05556617b9ca453a96ea51ea348580"
 
 [[files]]
 file = "config/create-client.toml"
@@ -4073,11 +4081,6 @@ hash = "e28780e8852f82e23cacdff9af5bc0c022faaf896d67ee0cb4ce74c67fc5fab3"
 metafile = true
 
 [[files]]
-file = "mods/experience-obelisk.pw.toml"
-hash = "137fd093987c3475839168d659438184ef776d97e7b336ce28743b934f9197e8"
-metafile = true
-
-[[files]]
 file = "mods/explorers-compass.pw.toml"
 hash = "92f0a1d2b221021d2c0ab36d5c3e293f01a3a938b13d82bf82b997968f85faf4"
 metafile = true
@@ -4175,6 +4178,11 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "748c2bd357f31b10c92d0d21617abb12660e9525f62111269b643dac5a8539eb"
+metafile = true
+
+[[files]]
+file = "mods/forge-tooltip-texts-scroller.pw.toml"
+hash = "c392dd4b590c6bab0b9d4ba1fab6cf18277cb2e92541cfc385a4c0eaf1c2a32a"
 metafile = true
 
 [[files]]
@@ -5353,11 +5361,6 @@ hash = "28edf7d569541bfc92aa09304b85fa8a57bd95528296711ed8c6bc66a0202247"
 metafile = true
 
 [[files]]
-file = "mods/smart-completion.pw.toml"
-hash = "9367cdd51fba70fa59b1849d6cad35af64b574f3cf2c69388d5c900545e2a29a"
-metafile = true
-
-[[files]]
 file = "mods/smartbrainlib.pw.toml"
 hash = "b933bc94d6ddd24c1dd26badefca4afe5714a42324de362a489f1f5465d2dccd"
 metafile = true
@@ -5789,4 +5792,4 @@ metafile = true
 
 [[files]]
 file = "options.txt"
-hash = "31c85e40756427e2ecbdaa64e6b6a1c625b615b87a2e099daca6a2ef65dea4f4"
+hash = "7fd6047e1de11e78461d183a58d24785175cd15df7e82673a84f25a5fe2ef827"
