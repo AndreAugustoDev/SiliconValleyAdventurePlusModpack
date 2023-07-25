@@ -4765,7 +4765,7 @@ metafile = true
 
 [[files]]
 file = "mods/armor-statues.pw.toml"
-hash = "689809c5f24b5ebc0376c93b4c467e685b25cacdafcd4cedbf26b75e34418721"
+hash = "52d36452ad8fbf3a8ad551d14ab4acc5eabaeaf2529962af9a8280ca1bc94e21"
 metafile = true
 
 [[files]]
@@ -5895,7 +5895,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "ce7488783d71def8008f9f6253e2e406b14db4d489a9e765ce57ffa15355f14b"
+hash = "510a8173f1e4ccb7fe3b907a3ea188816067cf91b26b7e0aa24a8bef1d532830"
 metafile = true
 
 [[files]]
@@ -6505,7 +6505,7 @@ metafile = true
 
 [[files]]
 file = "mods/reliquary-v1-3.pw.toml"
-hash = "592c1ef3d0592731d86d84c840c62b82416b082244d54dde64789ac67025c93d"
+hash = "0db350140d51b94dc3ce2ab190a98e32b40e901c215d5fa8f47e7ba6827b3c35"
 metafile = true
 
 [[files]]
