@@ -4746,11 +4746,6 @@ hash = "9b3f23ebf51796596a88ceb03631fe89cf972931e3c2bbdb9bfba90ea5ed1675"
 metafile = true
 
 [[files]]
-file = "mods/antighost.pw.toml"
-hash = "19dac6568f82ea6cd46ae33a380e0103500e2cf539bb7e9f8dc05ac7821ae7db"
-metafile = true
-
-[[files]]
 file = "mods/apotheosis.pw.toml"
 hash = "42cd8fafcadc3db37117df13c07259c9cc3cfa93b1651a181d546b1f2920effd"
 metafile = true
@@ -5396,11 +5391,6 @@ hash = "c6e329194f0891f148e8f3054b0d38b44390ecfc9867d507dcd315da7d59ebaf"
 metafile = true
 
 [[files]]
-file = "mods/emc-baubles.pw.toml"
-hash = "8cf66603e525d5fe11a902b568c84d1c1f97c04894fddcb9c501f16092acf765"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
 hash = "9cdab9c6d2a7303e6ffda7d9a071ec0007f6923aacce31ce36b2e8a93b0ec489"
 metafile = true
@@ -5413,11 +5403,6 @@ metafile = true
 [[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "32919ba2d15d55cec37bc8759064e1983e9a917c3ccfe25c4ad880cbf0a7026b"
-metafile = true
-
-[[files]]
-file = "mods/enchantment-lore-forge.pw.toml"
-hash = "ec87ae29e1589c9579bd590800c7c5b03d3277fdd335636f1b67933b840702ef"
 metafile = true
 
 [[files]]
@@ -5608,11 +5593,6 @@ metafile = true
 [[files]]
 file = "mods/forbidden-arcanus.pw.toml"
 hash = "748c2bd357f31b10c92d0d21617abb12660e9525f62111269b643dac5a8539eb"
-metafile = true
-
-[[files]]
-file = "mods/forge-tooltip-texts-scroller.pw.toml"
-hash = "c392dd4b590c6bab0b9d4ba1fab6cf18277cb2e92541cfc385a4c0eaf1c2a32a"
 metafile = true
 
 [[files]]
@@ -6868,11 +6848,6 @@ metafile = true
 [[files]]
 file = "mods/tetras-delight.pw.toml"
 hash = "92117cd7588897c3be4d6879dbe76155680da3b158ce9fb133f6f5d9418ab902"
-metafile = true
-
-[[files]]
-file = "mods/tetratic-combat.pw.toml"
-hash = "96dbda13567a155bb20a9c78bffb5f580a2d18ab6c5c19a2020b2c22bf23210c"
 metafile = true
 
 [[files]]

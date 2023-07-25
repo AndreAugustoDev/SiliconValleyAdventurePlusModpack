@@ -5445,11 +5445,6 @@ hash = "c6e329194f0891f148e8f3054b0d38b44390ecfc9867d507dcd315da7d59ebaf"
 metafile = true
 
 [[files]]
-file = "mods/emc-baubles.pw.toml"
-hash = "8cf66603e525d5fe11a902b568c84d1c1f97c04894fddcb9c501f16092acf765"
-metafile = true
-
-[[files]]
 file = "mods/emi.pw.toml"
 hash = "9cdab9c6d2a7303e6ffda7d9a071ec0007f6923aacce31ce36b2e8a93b0ec489"
 metafile = true
@@ -6972,11 +6967,6 @@ metafile = true
 [[files]]
 file = "mods/tetras-delight.pw.toml"
 hash = "92117cd7588897c3be4d6879dbe76155680da3b158ce9fb133f6f5d9418ab902"
-metafile = true
-
-[[files]]
-file = "mods/tetratic-combat.pw.toml"
-hash = "96dbda13567a155bb20a9c78bffb5f580a2d18ab6c5c19a2020b2c22bf23210c"
 metafile = true
 
 [[files]]
