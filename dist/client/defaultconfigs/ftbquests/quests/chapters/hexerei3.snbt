@@ -30,22 +30,11 @@
 				}
 			}
 			id: "61413E2A76CA0E22"
-			rewards: [
-				{
-					id: "4116B6C9F7ED6621"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "7723DD0649DCCFAB"
-					item: {
-						Count: 1b
-						id: "hexerei:book_of_shadows"
-						tag: { }
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "4116B6C9F7ED6621"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "gear"
 			size: 2.0d
 			subtitle: "This is a magic based mod with many Witchery style elements."

@@ -5,7 +5,7 @@
 	group: "33A417364C0A17FE"
 	icon: "functionalstorage:oak_2"
 	id: "02D065C4DDA8B44F"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -716,28 +716,6 @@
 			hide: true
 			id: "000000000000040F"
 			min_width: 300
-			rewards: [
-				{
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
-					icon: "kubejs:sorcerers_delight"
-					id: "7EA85CAD778D9100"
-					player_command: false
-					title: "Sorcerer's Delight"
-					type: "command"
-				}
-				{
-					id: "791D3C5F2F1F201A"
-					item: {
-						Count: 1b
-						id: "functionalstorage:linking_tool"
-						tag: {
-							Action: "ADD"
-							Mode: "SINGLE"
-						}
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "000000000000068C"
 				item: "functionalstorage:storage_controller"
@@ -754,14 +732,6 @@
 				"Each drawer has four upgrade slots that may be used to enhance storage, stacking up to truly monumental capacities. "
 			]
 			id: "0000000000000980"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
-				icon: "kubejs:miners_delight"
-				id: "4EE0EA8F083F7F67"
-				player_command: false
-				title: "Miner's Delight"
-				type: "command"
-			}]
 			subtitle: "Not enough storage?"
 			tasks: [{
 				count: 4L
@@ -800,14 +770,6 @@
 			dependencies: ["0000000000000966"]
 			description: ["Well no, bigger is not always better. A storage downgrade can be useful for light stock-keeping situations."]
 			id: "0000000000000982"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-				icon: "kubejs:farmers_delight"
-				id: "0C5E0A9077461C8C"
-				player_command: false
-				title: "Farmer's Delight"
-				type: "command"
-			}]
 			subtitle: "But bigger is always better right?"
 			tasks: [{
 				id: "0000000000000983"

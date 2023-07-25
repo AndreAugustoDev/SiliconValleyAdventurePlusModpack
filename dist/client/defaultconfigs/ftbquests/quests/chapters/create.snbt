@@ -18,11 +18,6 @@
 				"If you have doubts about any blocks or items, hold W to ponder and see an amazing 3D in-game wiki!"
 			]
 			id: "57A7A5C79389A96A"
-			rewards: [{
-				id: "1E5B06A1884F3578"
-				item: "create:wrench"
-				type: "item"
-			}]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{

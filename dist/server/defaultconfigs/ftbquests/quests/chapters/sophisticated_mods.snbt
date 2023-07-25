@@ -1288,6 +1288,7 @@
 				""
 				"&eYou can find what each upgrade does in the item tooltip&r."
 			]
+			hide: true
 			id: "6B0ED84AEFFE15D4"
 			rewards: [
 				{

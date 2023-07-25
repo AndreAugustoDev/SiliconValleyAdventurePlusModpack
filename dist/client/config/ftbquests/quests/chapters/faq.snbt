@@ -73,8 +73,8 @@
 				title: "Frequently Asked Questions!"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 1.0d
+			x: 3.0d
+			y: -2.25d
 		}
 		{
 			description: [
@@ -93,7 +93,7 @@
 				title: "How do I edit how many homes, cooldowns, etc. for commands?"
 				type: "checkmark"
 			}]
-			x: -4.0d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -117,8 +117,8 @@
 				type: "checkmark"
 			}]
 			title: "Shaders and FPS!"
-			x: -2.0d
-			y: 3.0d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -309,7 +309,7 @@
 				title: "Throwing Shade"
 				type: "checkmark"
 			}]
-			x: -2.0d
+			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -340,7 +340,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 3.75d
+			y: 4.5d
 		}
 		{
 			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
@@ -364,7 +364,7 @@
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 5.25d
+			y: 6.0d
 		}
 	]
 	title: "F.A.Q."

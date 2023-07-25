@@ -5,18 +5,6 @@
 	group: "0815C5D80307ECDF"
 	icon: "ftbic:basic_generator"
 	id: "570B11A17EAB571E"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 2.0d
-		hover: [ ]
-		image: "tnp:textures/other/ftbic.png"
-		rotation: 0.0d
-		width: 9.0d
-		x: 2.6d
-		y: -8.7d
-	}]
 	order_index: 17
 	quest_links: [ ]
 	quests: [

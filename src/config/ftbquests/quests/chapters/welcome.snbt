@@ -47,7 +47,7 @@
 	quest_links: [ ]
 	quests: [{
 		description: [
-			"Welcome to EnhanceCraft!"
+			"Welcome to &2Silicon Valley Adventure&r!"
 			""
 			"To get started with questing, check out the tabs on the left to jump in!"
 			""
@@ -58,18 +58,11 @@
 		icon: "extendedcrafting:ender_star"
 		id: "778844EF454F576A"
 		optional: true
-		rewards: [
-			{
-				id: "5FE38A90ED456C6C"
-				item: "ftbquests:book"
-				type: "item"
-			}
-			{
-				id: "3A68F4427549C706"
-				type: "xp"
-				xp: 10
-			}
-		]
+		rewards: [{
+			id: "3A68F4427549C706"
+			type: "xp"
+			xp: 10
+		}]
 		shape: "hexagon"
 		size: 2.0d
 		tasks: [{
@@ -78,7 +71,6 @@
 			title: "A New World Waiting For You!"
 			type: "dimension"
 		}]
-		title: "Welcome to EnhanceCraft!"
 		x: 0.0d
 		y: 0.0d
 	}]

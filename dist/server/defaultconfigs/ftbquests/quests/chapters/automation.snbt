@@ -5,7 +5,7 @@
 	group: "33A417364C0A17FE"
 	icon: "minecraft:hopper"
 	id: "00000000000002AB"
-	order_index: 7
+	order_index: 6
 	quest_links: [
 		{
 			id: "5523D55508151A28"
@@ -77,14 +77,6 @@
 			hide_dependency_lines: true
 			icon: "xnet:controller"
 			id: "559D7D60CDDE5596"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-				icon: "kubejs:farmers_delight"
-				id: "0DFC619D332D3158"
-				player_command: false
-				title: "Farmer's Delight"
-				type: "command"
-			}]
 			tasks: [
 				{
 					id: "204956F05E407E82"
@@ -707,14 +699,6 @@
 				"Insert the filter into one of the 4 slots at the top of the UI and choose which filter a connector uses with the 'filter index' button on the right."
 			]
 			id: "0597A437596EABC1"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "7E251F2D83DBC6E3"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
 			tasks: [{
 				id: "3DFB959BAC0FAAFF"
 				item: {
@@ -1374,6 +1358,7 @@
 		}
 		{
 			id: "1030C5148C1A42C2"
+			invisible: true
 			tasks: [{
 				id: "58EF3B373E835741"
 				title: "[TODO] Mekanism redstone energy"

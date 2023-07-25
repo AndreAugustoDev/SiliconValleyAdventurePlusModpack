@@ -3,30 +3,8 @@
 	default_quest_shape: ""
 	filename: "monster_hunter_academy"
 	group: "330DFD8D42289441"
-	icon: {
-		Count: 1b
-		ForgeCaps: {
-			Parent: {
-				"forbidden_arcanus:tick_counter": {
-					value: 0
-				}
-			}
-		}
-		id: "forbidden_arcanus:obsidian_skull"
-	}
+	icon: "forbidden_arcanus:obsidian_skull"
 	id: "7C86067509404015"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 3.0d
-		hover: [ ]
-		image: "atm:textures/questpics/bounty.png"
-		rotation: 0.0d
-		width: 12.0d
-		x: 1.5d
-		y: -9.5d
-	}]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

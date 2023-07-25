@@ -6,7 +6,7 @@
 	group: "33A417364C0A17FE"
 	icon: "botania:corporea_index"
 	id: "1E2BFC921C6BD0BB"
-	order_index: 8
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{

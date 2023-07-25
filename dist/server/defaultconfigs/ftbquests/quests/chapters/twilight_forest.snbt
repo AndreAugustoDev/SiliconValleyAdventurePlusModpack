@@ -21,17 +21,6 @@
 			id: "4193303999597249"
 			rewards: [
 				{
-					id: "79245FFF6FAEB31E"
-					item: {
-						Count: 1b
-						id: "patchouli:guide_book"
-						tag: {
-							"patchouli:book": "twilightforest:guide"
-						}
-					}
-					type: "item"
-				}
-				{
 					id: "1C0B624437947A5B"
 					type: "xp"
 					xp: 100
@@ -45,17 +34,25 @@
 			shape: "octagon"
 			size: 1.5d
 			subtitle: "Creating the Portal"
-			tasks: [{
-				id: "0E02B87A49B4E825"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:flowers"
+			tasks: [
+				{
+					id: "0E02B87A49B4E825"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
 					}
+					title: "Any Flower"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "09812CA46D07A40C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+			]
 			title: "Enter &2The Twilight Forest"
 			x: -7.5d
 			y: 0.0d

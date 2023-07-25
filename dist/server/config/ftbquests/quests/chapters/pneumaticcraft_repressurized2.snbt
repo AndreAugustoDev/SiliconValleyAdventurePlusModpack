@@ -18,18 +18,6 @@
 			]
 			icon: "pneumaticcraft:ingot_iron_compressed"
 			id: "2215286975ECEC44"
-			rewards: [{
-				id: "7F4DD85D2182C359"
-				item: {
-					Count: 1b
-					id: "pneumaticcraft:pneumatic_wrench"
-					tag: {
-						"pneumaticcraft:air": 30000
-					}
-				}
-				title: "Pneumatic Wrench"
-				type: "item"
-			}]
 			shape: "gear"
 			tasks: [{
 				id: "7B56DD5D9F4BBB68"
@@ -982,6 +970,7 @@
 				"Consider upgrading the redstone control on your compressor using a combination of an advanced Pressure Gauge Module and some redstone modules."
 			]
 			id: "65333C8C0ADA43C4"
+			invisible: true
 			rewards: [{
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_pneumaticcraft_loot_legendary"
 				icon: "kubejs:legendary_lootbox"
@@ -3068,17 +3057,6 @@
 			hide_dependency_lines: true
 			icon: "pneumaticcraft:plastic"
 			id: "5E79C1011FABC4AF"
-			rewards: [{
-				id: "0935B424D541C0A9"
-				item: {
-					Count: 1b
-					id: "pneumaticcraft:camo_applicator"
-					tag: {
-						"pneumaticcraft:air": 30000
-					}
-				}
-				type: "item"
-			}]
 			shape: "hexagon"
 			subtitle: "You Can Touch, You Can Play"
 			tasks: [{

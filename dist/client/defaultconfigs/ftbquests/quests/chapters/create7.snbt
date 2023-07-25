@@ -10,13 +10,13 @@
 		{
 			id: "215BC2D8DA082C5B"
 			linked_quest: "4451057D4BA76C2C"
-			x: 41.0d
+			x: 45.40000000000006d
 			y: 13.0d
 		}
 		{
 			id: "72707FA8EDDCADE9"
 			linked_quest: "703631B507075DC1"
-			x: 43.0d
+			x: 47.40000000000006d
 			y: 11.5d
 		}
 	]
@@ -51,7 +51,7 @@
 				type: "item"
 			}]
 			title: "Create: Getting Started"
-			x: 14.0d
+			x: 18.400000000000027d
 			y: -3.5d
 		}
 		{
@@ -81,7 +81,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 18.0d
+			x: 22.400000000000063d
 			y: 2.0d
 		}
 		{
@@ -118,7 +118,7 @@
 				}
 			]
 			title: "Cogwheels"
-			x: 17.0d
+			x: 21.400000000000063d
 			y: -3.5d
 		}
 		{
@@ -157,7 +157,7 @@
 				type: "item"
 			}]
 			title: "Water Wheels"
-			x: 18.0d
+			x: 22.400000000000063d
 			y: -1.5d
 		}
 		{
@@ -195,7 +195,7 @@
 				}
 			]
 			title: "Engineering Tools"
-			x: 18.0d
+			x: 22.400000000000063d
 			y: 3.0d
 		}
 		{
@@ -239,7 +239,7 @@
 				}
 			]
 			title: "Measuring Tools"
-			x: 13.0d
+			x: 17.40000000000001d
 			y: -2.5d
 		}
 		{
@@ -273,7 +273,7 @@
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			x: 13.0d
+			x: 17.40000000000001d
 			y: -1.5d
 		}
 		{
@@ -322,7 +322,7 @@
 				}
 			]
 			title: "Windmills"
-			x: 18.0d
+			x: 22.400000000000063d
 			y: 0.5d
 		}
 		{
@@ -362,7 +362,7 @@
 				type: "item"
 			}]
 			title: "Minecart Contraptions"
-			x: 15.5d
+			x: 19.900000000000052d
 			y: -2.0d
 		}
 		{
@@ -449,7 +449,7 @@
 				}
 			]
 			title: "Let's Get Mechanical!"
-			x: 20.5d
+			x: 24.900000000000063d
 			y: 2.0d
 		}
 		{
@@ -496,7 +496,7 @@
 				}
 			]
 			title: "Brass Age Incoming?"
-			x: 22.5d
+			x: 26.900000000000063d
 			y: 2.0d
 		}
 		{
@@ -542,7 +542,7 @@
 				type: "item"
 			}]
 			title: "Fan it Up!"
-			x: 19.5d
+			x: 23.900000000000063d
 			y: -1.5d
 		}
 		{
@@ -577,7 +577,7 @@
 				type: "item"
 			}]
 			title: "Brass Casings"
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 2.0d
 		}
 		{
@@ -603,7 +603,7 @@
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 20.400000000000063d
 			y: 1.0d
 		}
 		{
@@ -629,7 +629,7 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 16.0d
+			x: 20.400000000000063d
 			y: 4.0d
 		}
 		{
@@ -654,7 +654,7 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 30.900000000000063d
 			y: 2.0d
 		}
 		{
@@ -681,7 +681,7 @@
 				type: "item"
 			}]
 			title: "Springboard"
-			x: 13.0d
+			x: 17.40000000000001d
 			y: 1.0d
 		}
 		{
@@ -720,7 +720,7 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 18.400000000000027d
 			y: 1.0d
 		}
 		{
@@ -746,7 +746,7 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 18.400000000000027d
 			y: 4.0d
 		}
 		{
@@ -781,7 +781,7 @@
 				type: "item"
 			}]
 			title: "Rotational Transfer"
-			x: 12.5d
+			x: 16.9d
 			y: -3.5d
 		}
 		{
@@ -827,7 +827,7 @@
 				type: "item"
 			}]
 			title: "Just like in the factories"
-			x: 14.0d
+			x: 18.400000000000027d
 			y: -0.5d
 		}
 		{
@@ -863,7 +863,7 @@
 				type: "item"
 			}]
 			title: "Gearboxes"
-			x: 20.0d
+			x: 24.400000000000063d
 			y: -3.5d
 		}
 		{
@@ -896,7 +896,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
+			x: 15.899999999999984d
 			y: -2.5d
 		}
 		{
@@ -922,7 +922,7 @@
 				item: "create:sequenced_gearshift"
 				type: "item"
 			}]
-			x: 22.5d
+			x: 26.900000000000063d
 			y: 0.0d
 		}
 		{
@@ -956,7 +956,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: -2.0d
 		}
 		{
@@ -989,7 +989,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 2.0d
 		}
 		{
@@ -1028,7 +1028,7 @@
 				type: "item"
 			}]
 			title: "Mechanical Crafters"
-			x: 25.5d
+			x: 29.900000000000063d
 			y: 4.0d
 		}
 		{
@@ -1070,7 +1070,7 @@
 				type: "item"
 			}]
 			title: "Crushing Wheels"
-			x: 27.5d
+			x: 31.900000000000063d
 			y: 4.0d
 		}
 		{
@@ -1096,7 +1096,7 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 23.400000000000063d
 			y: 2.5d
 		}
 		{
@@ -1122,65 +1122,8 @@
 				item: "create:fluid_tank"
 				type: "item"
 			}]
-			x: 19.0d
+			x: 23.400000000000063d
 			y: 5.0d
-		}
-		{
-			dependencies: ["183637490817875B"]
-			description: ["> You'll need a mechanical pump to move fluids"]
-			id: "317F6B4C741311CE"
-			rewards: [
-				{
-					id: "3E56F3FDAF253B37"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					id: "031977CB74BE2DBD"
-					item: {
-						Count: 1b
-						id: "lootbags:loot_bag"
-						tag: {
-							Color: 15576960
-							Loot: "aof:loot_bags/create/rare"
-							Name: "Create Rare Lootbag"
-							Type: "RARE"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "All the ways to transfer fluid"
-			tasks: [
-				{
-					id: "0524F2FB37D57532"
-					item: "create:mechanical_pump"
-					type: "item"
-				}
-				{
-					id: "0D4134E552F93EA3"
-					item: "create:fluid_pipe"
-					type: "item"
-				}
-				{
-					id: "47859A1FC6D12AB4"
-					item: "create:hose_pulley"
-					type: "item"
-				}
-				{
-					id: "623D21CBC3619CCE"
-					item: "create:spout"
-					type: "item"
-				}
-				{
-					id: "57C308F38E96324D"
-					item: "create:portable_fluid_interface"
-					type: "item"
-				}
-			]
-			title: "Fluid Transport"
-			x: 19.0d
-			y: 6.5d
 		}
 		{
 			dependencies: ["22616B100E445241"]
@@ -1204,7 +1147,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 0.0d
 		}
 		{
@@ -1244,11 +1187,11 @@
 				}
 				type: "item"
 			}]
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 4.0d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: ["6ABAB2A5689F2695"]
 			id: "2985444DE5ABB5A5"
 			rewards: [{
 				id: "575B52C987AC7222"
@@ -1270,11 +1213,11 @@
 				item: "create:sweet_roll"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 8.0d
+			x: 11.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: ["6ABAB2A5689F2695"]
 			id: "654DC5DBC9201FBE"
 			rewards: [{
 				id: "167AE13096FAE1D7"
@@ -1295,11 +1238,11 @@
 				item: "create:chocolate_glazed_berries"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 9.0d
+			x: 9.0d
+			y: 5.5d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: ["6ABAB2A5689F2695"]
 			id: "570CA3CD0D896230"
 			rewards: [{
 				id: "57E821B12459BBDB"
@@ -1320,11 +1263,11 @@
 				item: "create:honeyed_apple"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 8.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: ["6ABAB2A5689F2695"]
 			id: "37330BDC53451D14"
 			rewards: [{
 				id: "0403C09973EF08E3"
@@ -1346,37 +1289,28 @@
 				item: "create:builders_tea"
 				type: "item"
 			}]
-			x: 17.0d
-			y: 6.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: ["6ABAB2A5689F2695"]
+			description: ["The &n&5Blaze Cake&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."]
 			id: "6AF4AB0374F397E6"
-			rewards: [{
-				id: "3929398C102E76C9"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 15576960
-						Loot: "aof:loot_bags/create/rare"
-						Name: "Create Rare Lootbag"
-						Type: "RARE"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Not for human consumption"
 			tasks: [{
 				id: "7AD9FA6044222875"
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 21.0d
-			y: 6.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["317F6B4C741311CE"]
+			dependencies: [
+				"389DABF1432A747D"
+				"5A52C168F41833E2"
+				"13F0C7468498A718"
+			]
 			id: "0EF98BA0F698951A"
 			rewards: [{
 				id: "6F580D1F490D2212"
@@ -1398,8 +1332,8 @@
 				item: "create:bar_of_chocolate"
 				type: "item"
 			}]
-			x: 20.0d
-			y: 9.0d
+			x: 3.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1BA0F9B77AF73203"]
@@ -1424,7 +1358,7 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 30.900000000000063d
 			y: 5.5d
 		}
 		{
@@ -1456,7 +1390,7 @@
 				}
 				type: "item"
 			}]
-			x: 24.0d
+			x: 28.400000000000063d
 			y: 5.5d
 		}
 		{
@@ -1489,7 +1423,7 @@
 				type: "item"
 			}]
 			title: "How do I take items from Contraptions?"
-			x: 12.0d
+			x: 16.39999999999999d
 			y: 1.0d
 		}
 		{
@@ -1531,7 +1465,7 @@
 					type: "item"
 				}
 			]
-			x: 12.0d
+			x: 16.39999999999999d
 			y: -0.5d
 		}
 		{
@@ -1558,7 +1492,7 @@
 				item: "create:schematic_and_quill"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 16.39999999999999d
 			y: -1.5d
 		}
 		{
@@ -1593,7 +1527,7 @@
 				item: "create:nixie_tube"
 				type: "item"
 			}]
-			x: 26.5d
+			x: 30.900000000000063d
 			y: 0.0d
 		}
 		{
@@ -1641,7 +1575,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 19.400000000000045d
 			y: 2.5d
 		}
 		{
@@ -1673,7 +1607,7 @@
 					type: "item"
 				}
 			]
-			x: 12.5d
+			x: 16.9d
 			y: -4.5d
 		}
 		{
@@ -1698,7 +1632,7 @@
 				item: "create:redstone_link"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 14.899999999999984d
 			y: -4.5d
 		}
 		{
@@ -1730,7 +1664,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 13.399999999999984d
 			y: -4.5d
 		}
 		{
@@ -1756,7 +1690,7 @@
 				item: "create:analog_lever"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 15.899999999999984d
 			y: -4.5d
 		}
 		{
@@ -1792,7 +1726,7 @@
 				type: "item"
 			}]
 			title: "Toolboxes"
-			x: 13.0d
+			x: 17.40000000000001d
 			y: -0.5d
 		}
 		{
@@ -1818,7 +1752,7 @@
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 19.400000000000045d
 			y: 1.0d
 		}
 		{
@@ -1844,7 +1778,7 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 15.0d
+			x: 19.400000000000045d
 			y: 4.0d
 		}
 		{
@@ -1869,7 +1803,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 0.0d
 		}
 		{
@@ -1926,7 +1860,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 18.400000000000027d
 			y: -4.5d
 		}
 		{
@@ -1951,7 +1885,7 @@
 				item: "create:track"
 				type: "item"
 			}]
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 2.0d
 		}
 		{
@@ -1986,7 +1920,7 @@
 				item: "create:railway_casing"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 36.90000000000006d
 			y: 4.0d
 		}
 		{
@@ -2038,7 +1972,7 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
+			x: 36.90000000000006d
 			y: 2.0d
 		}
 		{
@@ -2076,7 +2010,7 @@
 				item: "create:steam_engine"
 				type: "item"
 			}]
-			x: 21.0d
+			x: 25.400000000000063d
 			y: 5.0d
 		}
 		{
@@ -2101,7 +2035,7 @@
 				item: "create:display_link"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 0.0d
 		}
 		{
@@ -2128,7 +2062,7 @@
 				item: "create:display_board"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 28.900000000000063d
 			y: -2.0d
 		}
 		{
@@ -2157,7 +2091,7 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 17.0d
+			x: 21.400000000000063d
 			y: 2.5d
 		}
 		{
@@ -2182,45 +2116,8 @@
 				item: "techreborn:obsidian_dust"
 				type: "item"
 			}]
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 4.0d
-		}
-		{
-			dependencies: ["317F6B4C741311CE"]
-			id: "7AABC2C767E9B11D"
-			rewards: [
-				{
-					id: "5B74D497C1F963F9"
-					item: "minecraft:milk_bucket"
-					type: "item"
-				}
-				{
-					id: "03246123C8206D34"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-				{
-					id: "747C048080E3B2D9"
-					item: {
-						Count: 1b
-						id: "lootbags:loot_bag"
-						tag: {
-							Color: 15576960
-							Loot: "aof:loot_bags/create/common"
-							Name: "Create Common Lootbag"
-							Type: "COMMON"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "47E12615F45B3084"
-				item: "create:item_drain"
-				type: "item"
-			}]
-			x: 17.0d
-			y: 5.0d
 		}
 		{
 			dependencies: ["1CA398C195517551"]
@@ -2256,7 +2153,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 12.399999999999984d
 			y: -4.5d
 		}
 		{
@@ -2290,7 +2187,7 @@
 				item: "create:haunted_bell"
 				type: "item"
 			}]
-			x: 20.5d
+			x: 24.900000000000063d
 			y: -1.5d
 		}
 		{
@@ -2329,7 +2226,7 @@
 					type: "item"
 				}
 			]
-			x: 32.5d
+			x: 36.90000000000006d
 			y: 0.0d
 		}
 		{
@@ -2341,7 +2238,6 @@
 				"42B701304642314E"
 				"7BF18D6D44DBCED6"
 				"45F0C664C299D418"
-				"7AABC2C767E9B11D"
 				"1A38D7B854ACC636"
 				"78E1ECB85FDD0C99"
 				"511DD53713406575"
@@ -2389,7 +2285,6 @@
 				"4070B38A98387DA1"
 				"371D645B149A2E36"
 				"01FA58FF29DEC036"
-				"317F6B4C741311CE"
 				"3AD5FAE3B0FE39B9"
 				"072862C3F4C6D359"
 				"22616B100E445241"
@@ -2521,7 +2416,7 @@
 				title: "Getting Started: Rotational Power"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 11.0d
 		}
 		{
@@ -2607,7 +2502,7 @@
 				}
 			]
 			title: "Windmill"
-			x: 27.5d
+			x: 31.900000000000063d
 			y: 12.0d
 		}
 		{
@@ -2634,7 +2529,7 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 12.0d
 		}
 		{
@@ -2675,7 +2570,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 35.5d
+			x: 39.90000000000006d
 			y: 12.0d
 		}
 		{
@@ -2711,7 +2606,7 @@
 				type: "item"
 			}]
 			title: "Shaft"
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 13.5d
 		}
 		{
@@ -2758,7 +2653,7 @@
 				type: "item"
 			}]
 			title: "Casings"
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 14.0d
 		}
 		{
@@ -2794,7 +2689,7 @@
 				}
 			]
 			title: "Brackets"
-			x: 27.5d
+			x: 31.900000000000063d
 			y: 14.0d
 		}
 		{
@@ -2820,7 +2715,7 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 32.40000000000006d
 			y: 15.0d
 		}
 		{
@@ -2863,7 +2758,7 @@
 				}
 			]
 			title: "Cogwheels"
-			x: 29.5d
+			x: 33.90000000000006d
 			y: 13.5d
 		}
 		{
@@ -2898,7 +2793,7 @@
 				type: "item"
 			}]
 			title: "Mechanical Belts"
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 12.0d
 		}
 		{
@@ -2924,7 +2819,7 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: 29.5d
+			x: 33.90000000000006d
 			y: 16.0d
 		}
 		{
@@ -2959,7 +2854,7 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 17.0d
 		}
 		{
@@ -2992,7 +2887,7 @@
 					type: "item"
 				}
 			]
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 13.0d
 		}
 		{
@@ -3021,7 +2916,7 @@
 				type: "item"
 			}]
 			title: "Chutes"
-			x: 25.5d
+			x: 29.900000000000063d
 			y: 12.5d
 		}
 		{
@@ -3058,7 +2953,7 @@
 					type: "item"
 				}
 			]
-			x: 25.5d
+			x: 29.900000000000063d
 			y: 13.5d
 		}
 		{
@@ -3084,7 +2979,7 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 14.0d
 		}
 		{
@@ -3113,8 +3008,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.5d
+			x: 8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3139,7 +3034,7 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 36.5d
+			x: 40.90000000000006d
 			y: 12.5d
 		}
 		{
@@ -3174,7 +3069,7 @@
 				type: "item"
 			}]
 			title: "Crushing Wheels"
-			x: 35.5d
+			x: 39.90000000000006d
 			y: 14.0d
 		}
 		{
@@ -3216,7 +3111,7 @@
 					type: "item"
 				}
 			]
-			x: 33.5d
+			x: 37.90000000000006d
 			y: 14.0d
 		}
 		{
@@ -3260,7 +3155,7 @@
 				title: "Getting Started: Material Processing"
 				type: "item"
 			}]
-			x: 34.5d
+			x: 38.90000000000006d
 			y: 11.0d
 		}
 		{
@@ -3293,7 +3188,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 33.5d
+			x: 37.90000000000006d
 			y: 12.0d
 		}
 		{
@@ -3329,7 +3224,7 @@
 					type: "item"
 				}
 			]
-			x: 33.5d
+			x: 37.90000000000006d
 			y: 13.0d
 		}
 		{
@@ -3357,7 +3252,7 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 34.5d
+			x: 38.90000000000006d
 			y: 15.0d
 		}
 		{
@@ -3384,7 +3279,7 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 35.5d
+			x: 39.90000000000006d
 			y: 15.5d
 		}
 		{
@@ -3419,8 +3314,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 12.5d
+			x: 9.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["4489511C5ED1C785"]
@@ -3448,11 +3343,14 @@
 					type: "item"
 				}
 			]
-			x: 6.5d
-			y: 13.5d
+			x: 9.0d
+			y: 10.0d
 		}
 		{
-			dependencies: ["4489511C5ED1C785"]
+			dependencies: [
+				"4489511C5ED1C785"
+				"1DA6B8B2DCC97809"
+			]
 			description: ["Doing the impossible is just another Tuesday in modded. Smart Fluid Pipes act as a fluid filter, either controlling what is allowed to be pulled from a connected tank, or what is allowed to continue down the line. "]
 			id: "0000000000000D15"
 			rewards: [{
@@ -3469,8 +3367,8 @@
 				item: "create:smart_fluid_pipe"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 13.5d
+			x: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4316ED497808CD9D"]
@@ -3497,8 +3395,8 @@
 				type: "item"
 			}]
 			title: "Fluid Tanks"
-			x: 7.5d
-			y: 10.5d
+			x: 11.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3539,7 +3437,7 @@
 					type: "item"
 				}
 			]
-			x: 36.5d
+			x: 40.90000000000006d
 			y: 13.5d
 		}
 		{
@@ -3561,7 +3459,7 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 35.5d
+			x: 39.90000000000006d
 			y: 13.0d
 		}
 		{
@@ -3645,7 +3543,7 @@
 				type: "item"
 			}]
 			title: "Modular Contraptions"
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 19.0d
 		}
 		{
@@ -3696,7 +3594,7 @@
 				title: "Mechanical Piston"
 				type: "item"
 			}]
-			x: 27.0d
+			x: 31.400000000000063d
 			y: 20.0d
 		}
 		{
@@ -3726,7 +3624,7 @@
 				item: "create:cart_assembler"
 				type: "item"
 			}]
-			x: 31.0d
+			x: 35.40000000000006d
 			y: 20.0d
 		}
 		{
@@ -3751,7 +3649,7 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: 28.0d
+			x: 32.40000000000006d
 			y: 20.0d
 		}
 		{
@@ -3802,7 +3700,7 @@
 				}
 			]
 			title: "Chassis"
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 21.0d
 		}
 		{
@@ -3823,7 +3721,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 27.5d
+			x: 31.900000000000063d
 			y: 22.0d
 		}
 		{
@@ -3844,7 +3742,7 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: 30.5d
+			x: 34.90000000000006d
 			y: 22.0d
 		}
 		{
@@ -3869,7 +3767,7 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 22.0d
 		}
 		{
@@ -3896,7 +3794,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 29.5d
+			x: 33.90000000000006d
 			y: 22.0d
 		}
 		{
@@ -3940,7 +3838,7 @@
 				}
 			]
 			title: "Portable Interfaces"
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 23.0d
 		}
 		{
@@ -3967,7 +3865,7 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 34.40000000000006d
 			y: 20.0d
 		}
 		{
@@ -3993,7 +3891,7 @@
 				item: "create:adjustable_chain_gearshift"
 				type: "item"
 			}]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 16.0d
 		}
 		{
@@ -4022,8 +3920,8 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 10.5d
+			x: 11.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -4048,7 +3946,7 @@
 				item: "create:gearshift"
 				type: "item"
 			}]
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 15.0d
 		}
 		{
@@ -4074,7 +3972,7 @@
 				item: "create:clutch"
 				type: "item"
 			}]
-			x: 30.0d
+			x: 34.40000000000006d
 			y: 15.0d
 		}
 		{
@@ -4099,7 +3997,7 @@
 				item: "create:builders_tea"
 				type: "item"
 			}]
-			x: 33.5d
+			x: 37.90000000000006d
 			y: 15.5d
 		}
 		{
@@ -4136,7 +4034,7 @@
 				type: "item"
 			}]
 			title: "Saving Schematics"
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 19.0d
 		}
 		{
@@ -4169,7 +4067,7 @@
 				type: "item"
 			}]
 			title: "Placing Schematics"
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 20.0d
 		}
 		{
@@ -4203,7 +4101,7 @@
 				type: "item"
 			}]
 			title: "Printing Schematics"
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 21.0d
 		}
 		{
@@ -4217,12 +4115,9 @@
 			id: "28D17B54F4DE4D86"
 			min_width: 225
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
-				icon: "kubejs:rare_lootbox"
-				id: "4DF5697B73CC2E0D"
-				player_command: false
-				title: "Rare Create Loot Box"
-				type: "command"
+				id: "721F19B0EEEA841A"
+				item: "minecraft:water_bucket"
+				type: "item"
 			}]
 			subtitle: "Bless the Drains Down in Africa"
 			tasks: [{
@@ -4230,8 +4125,8 @@
 				item: "create:item_drain"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 12.5d
+			x: 12.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -4274,7 +4169,7 @@
 					type: "item"
 				}
 			]
-			x: 28.5d
+			x: 32.90000000000006d
 			y: 12.5d
 		}
 		{
@@ -4322,7 +4217,7 @@
 				}
 			]
 			title: "Trains"
-			x: 29.0d
+			x: 33.40000000000006d
 			y: 20.0d
 		}
 		{
@@ -4357,7 +4252,7 @@
 				title: "Getting Started: Logistics and Storage"
 				type: "item"
 			}]
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 11.0d
 		}
 		{
@@ -4383,7 +4278,7 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 24.5d
+			x: 28.900000000000063d
 			y: 15.5d
 		}
 		{
@@ -4408,7 +4303,7 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 29.5d
+			x: 33.90000000000006d
 			y: 12.5d
 		}
 		{
@@ -4433,7 +4328,7 @@
 				item: "createaddition:straw"
 				type: "item"
 			}]
-			x: 34.5d
+			x: 38.90000000000006d
 			y: 16.0d
 		}
 		{
@@ -4455,7 +4350,7 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 36.90000000000006d
 			y: 12.5d
 		}
 		{
@@ -4484,7 +4379,7 @@
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
-			x: 32.5d
+			x: 36.90000000000006d
 			y: 13.5d
 		}
 		{
@@ -4518,7 +4413,7 @@
 					type: "item"
 				}
 			]
-			x: 23.5d
+			x: 27.900000000000063d
 			y: 16.0d
 		}
 		{
@@ -4552,7 +4447,7 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 47.40000000000006d
 			y: 13.0d
 		}
 		{
@@ -4570,7 +4465,7 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 45.0d
+			x: 49.40000000000006d
 			y: 13.0d
 		}
 		{
@@ -4583,7 +4478,7 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 51.0d
+			x: 55.40000000000006d
 			y: 13.0d
 		}
 		{
@@ -4596,7 +4491,7 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 51.5d
+			x: 55.90000000000006d
 			y: 11.5d
 		}
 		{
@@ -4625,7 +4520,7 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 50.5d
+			x: 54.90000000000006d
 			y: 14.5d
 		}
 		{
@@ -4663,7 +4558,7 @@
 				title: "Wireless Stress"
 				type: "item"
 			}]
-			x: 50.5d
+			x: 54.90000000000006d
 			y: 11.5d
 		}
 		{
@@ -4688,7 +4583,7 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 51.5d
+			x: 55.90000000000006d
 			y: 14.5d
 		}
 		{
@@ -4705,7 +4600,7 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 44.5d
+			x: 48.90000000000006d
 			y: 14.5d
 		}
 		{
@@ -4718,7 +4613,7 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 44.5d
+			x: 48.90000000000006d
 			y: 16.0d
 		}
 		{
@@ -4737,7 +4632,7 @@
 				item: "create:wrench"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 45.40000000000006d
 			y: 11.5d
 		}
 		{
@@ -4764,7 +4659,7 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 41.0d
+			x: 45.40000000000006d
 			y: 14.5d
 		}
 		{
@@ -4805,7 +4700,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 45.5d
+			x: 49.90000000000006d
 			y: 11.5d
 		}
 		{
@@ -4835,7 +4730,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 47.40000000000006d
 			y: 16.0d
 		}
 		{
@@ -4853,25 +4748,33 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 45.5d
+			x: 49.90000000000006d
 			y: 14.5d
 		}
 		{
-			dependencies: ["041C4AB18A712925"]
+			dependencies: [
+				"5A52C168F41833E2"
+				"389DABF1432A747D"
+				"13F0C7468498A718"
+			]
 			description: [
 				"Some mixing recipes need to be &6heated&r. This is done using a &bBlaze Burner&r."
 				""
 				"The Blaze Burner &6accepts furnace fuel&r to become heated."
 				""
 				"To become &6over-heated&r, you will have to feed it &6Blaze Cakes&r!"
+				""
+				"To get the &n&5Blaze Burner&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze."
+				""
+				"This is used under a Basin to heat it or super-heat it for different recipes."
 			]
 			icon: "create:blaze_burner"
 			id: "3162D0E1ACEE2D5D"
 			rewards: [
 				{
-					count: 16
+					count: 4
 					id: "11B4A47A9C6AA691"
-					item: "archers_paradox:blaze_arrow"
+					item: "quark:blaze_lantern"
 					type: "item"
 				}
 				{
@@ -4892,8 +4795,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 47.0d
-			y: 14.5d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4918,7 +4821,7 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 44.5d
+			x: 48.90000000000006d
 			y: 11.5d
 		}
 		{
@@ -4945,7 +4848,7 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: 44.5d
+			x: 48.90000000000006d
 			y: 10.0d
 		}
 		{
@@ -4980,7 +4883,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 47.0d
+			x: 51.40000000000006d
 			y: 13.0d
 		}
 		{
@@ -5015,7 +4918,7 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 53.40000000000006d
 			y: 13.0d
 		}
 		{
@@ -5044,7 +4947,7 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 53.40000000000006d
 			y: 14.5d
 		}
 		{
@@ -5085,7 +4988,7 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 49.0d
+			x: 53.40000000000006d
 			y: 11.5d
 		}
 		{
@@ -5128,7 +5031,7 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: 43.0d
+			x: 47.40000000000006d
 			y: 14.5d
 		}
 		{
@@ -5155,8 +5058,8 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 4.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -5177,13 +5080,13 @@
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 6.5d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
 				"0F16498769DFB3B0"
-				"721DC5457B0783FE"
+				"1005B330D85C2CF9"
 			]
 			description: [
 				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
@@ -5203,13 +5106,14 @@
 				item: "create:cogwheel"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 6.5d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
 				"0F16498769DFB3B0"
 				"721DC5457B0783FE"
+				"1005B330D85C2CF9"
 			]
 			description: [
 				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
@@ -5229,13 +5133,13 @@
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 3.0d
+			x: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
 				"23A9617F183C4EB1"
-				"6F9064F13430AE54"
+				"1005B330D85C2CF9"
 			]
 			description: [
 				"The &n&5Waterwheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
@@ -5254,8 +5158,8 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 2.0d
+			x: 2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -5273,8 +5177,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.5d
+			x: 2.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -5288,8 +5192,8 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -5303,8 +5207,8 @@
 				item: "create:clutch"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 13.0d
+			x: 1.9999999999999978d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -5318,8 +5222,8 @@
 				item: "create:gearshift"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 13.0d
+			x: 0.9999999999999978d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -5333,8 +5237,8 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 13.0d
+			x: -2.220446049250313E-15d
+			y: 11.5d
 		}
 		{
 			dependencies: ["7F8E50FA436DB4E6"]
@@ -5351,8 +5255,8 @@
 				item: "create:adjustable_chain_gearshift"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 14.0d
+			x: -2.220446049250313E-15d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -5367,10 +5271,14 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 11.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["2D41B04C75FA02BC"]
+			dependencies: [
+				"2D41B04C75FA02BC"
+				"31C71DE2197FC402"
+				"769B30912D04DB49"
+			]
 			description: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
 			id: "389DABF1432A747D"
 			tasks: [{
@@ -5378,8 +5286,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 14.5d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -5393,24 +5301,8 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["2D41B04C75FA02BC"]
-			description: [
-				"To get the &n&5Blaze Burner&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze."
-				""
-				"This is used under a Basin to heat it or super-heat it for different recipes."
-			]
-			id: "4E23E202D4987C84"
-			tasks: [{
-				id: "25EEF5604CA42166"
-				item: "create:blaze_burner"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 13.5d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -5424,8 +5316,8 @@
 				item: "create:mechanical_piston"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 8.5d
+			x: -0.9999999999999933d
+			y: 7.0d
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
@@ -5436,8 +5328,8 @@
 				item: "create:speedometer"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 19.5d
+			x: 12.999999999999996d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F95F00ED78FBAB9"]
@@ -5448,8 +5340,8 @@
 				item: "create:stressometer"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 19.5d
+			x: 13.999999999999996d
+			y: 16.0d
 		}
 		{
 			dependencies: [
@@ -5469,8 +5361,8 @@
 				item: "create:cart_assembler"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 4.5d
+			x: -1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -5484,8 +5376,8 @@
 				item: "create:linear_chassis"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -5499,8 +5391,8 @@
 				item: "create:radial_chassis"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 6.5d
+			x: -1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -5514,8 +5406,8 @@
 				item: "create:white_sail"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 3.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -5529,8 +5421,8 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 12.5d
+			x: -2.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -5544,8 +5436,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 11.5d
+			x: -2.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -5559,8 +5451,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 13.0d
+			x: -1.0000000000000022d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -5574,8 +5466,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 9.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -5589,11 +5481,14 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 10.5d
+			x: -2.5d
+			y: 9.5d
 		}
 		{
-			dependencies: ["0F16498769DFB3B0"]
+			dependencies: [
+				"0F16498769DFB3B0"
+				"721DC5457B0783FE"
+			]
 			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
 			id: "769B30912D04DB49"
 			tasks: [{
@@ -5601,8 +5496,8 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.5d
+			x: 0.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -5617,8 +5512,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 11.5d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["5EE53C2C83F73244"]
@@ -5629,8 +5524,8 @@
 				item: "create:shadow_steel_casing"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 21.5d
+			x: 20.400000000000063d
+			y: 18.5d
 		}
 		{
 			dependencies: ["21CF93BDCE7BA2F9"]
@@ -5641,8 +5536,8 @@
 				item: "create:refined_radiance_casing"
 				type: "item"
 			}]
-			x: -7.5d
-			y: 17.5d
+			x: 20.400000000000063d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -5656,8 +5551,8 @@
 				item: "create:andesite_funnel"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 5.5d
+			x: 0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -5671,8 +5566,8 @@
 				item: "create:andesite_tunnel"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 5.5d
+			x: -0.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -5686,11 +5581,14 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 8.5d
+			x: 1.0000000000000115d
+			y: 7.0d
 		}
 		{
-			dependencies: ["2D41B04C75FA02BC"]
+			dependencies: [
+				"2D41B04C75FA02BC"
+				"5A52C168F41833E2"
+			]
 			description: ["The &n&5Chute&r is used to insert/extract from inventories, or to place/take items from a belt."]
 			id: "60003C690223FFD1"
 			tasks: [{
@@ -5699,7 +5597,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 9.5d
+			y: 9.0d
 		}
 		{
 			description: [
@@ -5713,8 +5611,8 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 18.0d
+			x: 13.499999999999996d
+			y: 14.5d
 		}
 		{
 			description: [
@@ -5740,8 +5638,8 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 19.5d
+			x: 22.400000000000063d
+			y: 16.5d
 		}
 		{
 			dependencies: ["52D8D124CCC5EE39"]
@@ -5756,20 +5654,8 @@
 				item: "create:refined_radiance"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 18.5d
-		}
-		{
-			dependencies: ["1C2309DB4B890E71"]
-			description: ["The &n&5Blaze Cake&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."]
-			id: "051713F808FFD558"
-			tasks: [{
-				id: "43BFFB29BC95EFFF"
-				item: "create:blaze_cake"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 16.0d
+			x: 18.900000000000034d
+			y: 15.5d
 		}
 		{
 			dependencies: ["52D8D124CCC5EE39"]
@@ -5784,8 +5670,8 @@
 				item: "create:shadow_steel"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 20.5d
+			x: 18.900000000000034d
+			y: 17.5d
 		}
 		{
 			dependencies: ["21CF93BDCE7BA2F9"]
@@ -5800,8 +5686,8 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: -10.5d
-			y: 17.5d
+			x: 17.40000000000001d
+			y: 14.5d
 		}
 		{
 			dependencies: [
@@ -5815,8 +5701,8 @@
 				item: "create:gantry_carriage"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.5d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -5830,11 +5716,15 @@
 				item: "create:weighted_ejector"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: 0.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["3D2A03EB2B91E9C1"]
+			dependencies: [
+				"3D2A03EB2B91E9C1"
+				"1DA6B8B2DCC97809"
+				"60003C690223FFD1"
+			]
 			description: ["The &n&5Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
 			id: "01A1760361968E94"
 			tasks: [{
@@ -5843,7 +5733,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 8.5d
+			y: 10.0d
 		}
 		{
 			description: [
@@ -5862,8 +5752,8 @@
 				item: "create:schematic_table"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 17.5d
+			x: 11.999999999999996d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0CF69DBA9573A7B3"]
@@ -5874,8 +5764,8 @@
 				item: "create:schematicannon"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 18.5d
+			x: 11.0d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -5889,8 +5779,8 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.5d
+			x: 2.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -5904,8 +5794,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 12.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -5918,8 +5808,8 @@
 				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 12.5d
+			x: 10.0d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -5932,8 +5822,8 @@
 				item: "create:sticky_mechanical_piston"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: -2.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -5946,8 +5836,8 @@
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 8.5d
+			x: -1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -5965,8 +5855,8 @@
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: 11.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2D41B04C75FA02BC"]
@@ -5983,8 +5873,8 @@
 				}
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -6003,8 +5893,8 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 3.5d
+			x: -1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["610DEC4FC4FBB63E"]
@@ -6019,8 +5909,8 @@
 				}
 				type: "item"
 			}]
-			x: -7.5d
-			y: 19.5d
+			x: 20.400000000000063d
+			y: 16.5d
 		}
 		{
 			dependencies: ["48EA6D9923E38B71"]
@@ -6035,8 +5925,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 16.0d
+			x: 6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -6047,8 +5937,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: 6.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4194397DFD0199C2"]
@@ -6065,8 +5955,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 14.5d
+			x: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -6077,8 +5967,8 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 17.0d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -6093,8 +5983,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.5d
+			x: 7.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -6116,8 +6006,8 @@
 				type: "item"
 			}]
 			title: "Brass"
-			x: 0.5d
-			y: 15.0d
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -6128,8 +6018,8 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.5d
+			x: 7.0d
+			y: 11.5d
 		}
 	]
 	title: "Create"

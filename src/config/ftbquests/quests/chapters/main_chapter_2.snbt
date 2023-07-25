@@ -10,73 +10,13 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.5d
-			hover: ["Power"]
-			image: "rftoolspower:textures/block/monitor/power_monitor5.png"
-			rotation: 0.0d
-			width: 2.5d
-			x: 12.5d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/block/redstone_torch.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "minecraft:textures/block/redstone_torch.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: -7.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "minecraft:textures/item/redstone.png"
-			rotation: 0.0d
-			width: 0.5d
-			x: 12.5d
-			y: -8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "minecraft:textures/item/redstone.png"
-			rotation: 0.0d
-			width: 0.5d
-			x: 12.5d
-			y: -5.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 0.5d
 			hover: [ ]
 			image: "minecraft:textures/item/diamond.png"
 			rotation: 15.0d
 			width: 0.5d
-			x: 14.51275510204082d
-			y: 1.7984693877550981d
+			x: 13.5d
+			y: 1.8035714285714235d
 		}
 		{
 			click: ""
@@ -87,7 +27,7 @@
 			image: "minecraft:textures/block/oxeye_daisy.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 13.5d
+			x: 12.5d
 			y: 2.5d
 		}
 		{
@@ -99,7 +39,7 @@
 			image: "minecraft:textures/block/oxeye_daisy.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: 15.5d
+			x: 14.5d
 			y: 2.5d
 		}
 		{
@@ -111,8 +51,8 @@
 			image: "minecraft:textures/block/nether_portal.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 14.489795918367356d
-			y: 2.6020408163265287d
+			x: 13.5d
+			y: 2.5d
 		}
 		{
 			click: ""
@@ -123,15 +63,15 @@
 			image: "minecraft:textures/item/dragon_breath.png"
 			rotation: -30.0d
 			width: 1.0d
-			x: 23.5d
-			y: 5.0d
+			x: 21.0d
+			y: 3.5d
 		}
 	]
-	order_index: 2
+	order_index: 1
 	quest_links: [{
 		id: "5A7BE7BB6C780376"
 		linked_quest: "4193303999597249"
-		x: 14.5d
+		x: 13.5d
 		y: 1.0d
 	}]
 	quests: [
@@ -144,7 +84,7 @@
 				type: "xp"
 				xp: 10
 			}]
-			shape: "square"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "The Basics"
 			tasks: [{
@@ -281,6 +221,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["3B0F743619501040"]
 			description: [
 				"We'll need a way to transfer our power from our Wind Generator."
 				""
@@ -358,7 +299,7 @@
 				type: "item"
 			}]
 			title: "Leaving it up to Chance!"
-			x: 6.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
@@ -421,7 +362,7 @@
 			}]
 			title: "Our First Flight"
 			x: 3.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["75660320BF33B27F"]
@@ -471,7 +412,7 @@
 			}]
 			title: "The Best Building Tool"
 			x: 4.5d
-			y: 2.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -509,7 +450,7 @@
 				type: "item"
 			}]
 			title: "Upgrading Our Smelting Machine"
-			x: 11.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -528,7 +469,7 @@
 				item: "ironfurnaces:augment_blasting"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: -1.5d
 		}
 		{
@@ -547,7 +488,7 @@
 				item: "ironfurnaces:augment_smoking"
 				type: "item"
 			}]
-			x: 10.5d
+			x: 9.5d
 			y: -1.5d
 		}
 		{
@@ -566,7 +507,7 @@
 				item: "ironfurnaces:augment_speed"
 				type: "item"
 			}]
-			x: 12.0d
+			x: 11.0d
 			y: -2.0d
 		}
 		{
@@ -585,10 +526,11 @@
 				item: "ironfurnaces:augment_fuel"
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.0d
 			y: -2.0d
 		}
 		{
+			dependencies: ["45F136F5001088A6"]
 			description: [
 				"All Pipez can be upgraded with pipe upgrades."
 				""
@@ -659,7 +601,7 @@
 				type: "item"
 			}]
 			title: "The Search for Diamonds Begins!"
-			x: 14.5d
+			x: 13.5d
 			y: -0.5d
 		}
 		{
@@ -747,7 +689,7 @@
 				type: "item"
 			}]
 			title: "Find some Crimson Iron"
-			x: 19.5d
+			x: 18.5d
 			y: 0.0d
 		}
 		{
@@ -792,8 +734,8 @@
 				}
 			]
 			title: "What in the Blazes"
-			x: 17.5d
-			y: -1.5d
+			x: 16.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6797F26BC9A3EFB6"]
@@ -832,7 +774,7 @@
 				type: "item"
 			}]
 			x: 23.5d
-			y: -0.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["33606D198F94A5D4"]
@@ -882,7 +824,7 @@
 				}
 			]
 			title: "Potions Master"
-			x: 17.5d
+			x: 15.5d
 			y: -3.0d
 		}
 		{
@@ -914,7 +856,7 @@
 				type: "item"
 			}]
 			title: "Enchanting Time"
-			x: 15.0d
+			x: 14.0d
 			y: -1.5d
 		}
 		{
@@ -967,8 +909,8 @@
 				type: "item"
 			}]
 			title: "X-Ray Potions"
-			x: 17.5d
-			y: -6.0d
+			x: 17.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["133C5CD738593F3A"]
@@ -1020,8 +962,8 @@
 				}
 			]
 			title: "X-Ray Potion Ingredients"
-			x: 17.5d
-			y: -4.5d
+			x: 16.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["08B8A9F5A938440E"]
@@ -1051,9 +993,10 @@
 			}]
 			title: "X-Ray Charm?"
 			x: 17.5d
-			y: -7.5d
+			y: -3.0d
 		}
 		{
+			dependencies: ["6C4C4E1159435872"]
 			id: "6C9BCBCD0EC39B02"
 			rewards: [
 				{
@@ -1133,8 +1076,8 @@
 				}
 			]
 			title: "Hidden Quest: Mining World Adventure"
-			x: 25.0d
-			y: -1.5d
+			x: 23.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["2504339F8EC5ED40"]
@@ -1164,38 +1107,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7071FAB260507F73"]
-			description: ["Make you some Eyes of Ender. You'll use these to find the End Portal!"]
-			id: "3642565C05610467"
-			rewards: [
-				{
-					count: 2
-					id: "7333B99DBC848D20"
-					item: "minecraft:ender_eye"
-					type: "item"
-				}
-				{
-					id: "1CAB6E734F83F85B"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "A few on us."
-			tasks: [{
-				count: 12L
-				id: "146B1C5F69069A42"
-				item: "minecraft:ender_eye"
-				type: "item"
-			}]
-			title: "The Quest to Find the End Portal"
-			x: 17.0d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"3642565C05610467"
-				"3C985B0C71499C31"
-			]
+			dependencies: ["3C985B0C71499C31"]
 			description: [
 				"If you're reading this, you are probably either looking for the End Portal in the End Fortress, and can't find it...."
 				""
@@ -1223,8 +1135,8 @@
 				type: "item"
 			}]
 			title: "To the End!"
-			x: 19.5d
-			y: 3.5d
+			x: 19.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EBB0D0BE35FCD68"]
@@ -1263,31 +1175,8 @@
 				value: 1L
 			}]
 			title: "&5Kill the Ender Dragon!"
-			x: 23.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["3FFB052E86D481AE"]
-			description: [
-				"If you didn't know, there is more to the End than just killing the dragon."
-				""
-				"Once the dragon has been slain, you will find a weird \"structure\" with a portal between 3 blocks. Take an Ender Pearl and throw it into the portal."
-			]
-			icon: "minecraft:ender_pearl"
-			id: "663EA64A99A4435D"
-			rewards: [{
-				id: "0DD4C0DB57A3AC80"
-				type: "xp"
-				xp: 10
-			}]
-			subtitle: "It's actually really pretty."
-			tasks: [{
-				id: "144999C747CD1471"
-				title: "To the REAL End"
-				type: "checkmark"
-			}]
-			x: 26.0d
-			y: 3.5d
+			x: 21.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6797F26BC9A3EFB6"]
@@ -1303,68 +1192,11 @@
 				title: "Don't Forget to Upgrade your Weapon!"
 				type: "checkmark"
 			}]
-			x: 21.5d
-			y: 1.0d
+			x: 21.0d
+			y: 0.5d
 		}
 		{
-			dependencies: ["0256FFC5363F4BA6"]
-			description: [
-				"So you've defeated the Ender Dragon, obtained an Elytra, and now you've beaten Vanilla MC."
-				""
-				"What do you do now?"
-				""
-				"You take over the World, by crafting the &d&lATM Star&r."
-				""
-				"Like the questline so far? Have any suggestions for future quests? Let us know in the Discord!"
-				""
-				"&o Questline To be Continued...."
-			]
-			icon: "allthetweaks:atm_star"
-			id: "5C415EECF3D742C3"
-			rewards: [
-				{
-					id: "7F0A23BA1702578A"
-					type: "xp"
-					xp: 10
-				}
-				{
-					id: "701BF9E972E68AC6"
-					item: {
-						Count: 1b
-						id: "minecraft:player_head"
-						tag: {
-							SkullOwner: {
-								Id: [I;
-									-863860352
-									-241416883
-									-1794774798
-									1141039977
-								]
-								Name: "AlfredGG"
-								Properties: {
-									textures: [{
-										Signature: "wdXPfoAQeNYy1BmDxPt7vYA4ZdZRXrR7f10LrwJeMdGzk1vt6UuT/UjV5nwVwVRmfopO4SuMHlnKGCkf9xaMTlag1SRv1qoFPbL3o+wury4PNmbpQyt1aId7hD0NHubjEQde6b4ple3Xc7pX9VvSJd9lXfVW2RfjmWiDVTA/w4XK6vB14QEvfxLXvKNrBU3tSwqJY+M5T3pBipne73xRvQTYQIeLPCmLJYRDsnwyedfvgj0JACXZ3fzDGkazul7+7Q3V8/AsNtnyVZ3uO4m11as/BPu2fRV/mNgQ9gKrj0OJAlarROtpgx1Ba0A+LbuuSkzTUiyki0TQGfK/9o2b2qKlqPuqog4ZFEEwrJPlezL5ZQ+0ayrHiJn0U1C4K+e+6SyiyXc73/gK4bEWY74nvxw232kN/AKhcfykaSFxvUxS+Cj+BYqCIGAMyhzYQCWx4fQ3Fdbn+U3QqxDbxLjJejXjCrvoeGOfdkq26RUpxt52X7AVaAro04M3gnsQYWh81HfXCeGPckNzeKzeNigRZmXuZ44ljD+geO6y2IKd0Nlt2DBX6weJsEYMhoNMnVuoBarG+1iY3HB9f5IsA4+K/+BrmMOe+a+XSvjwtgpP+yxzJc8XInLa7Fwt8GKWJSA8rYrFWi0tPh4mrMn1a/rke5BXT046VbX1q/LKcTf6ano="
-										Value: "ewogICJ0aW1lc3RhbXAiIDogMTY1NTczOTkyMzYyMywKICAicHJvZmlsZUlkIiA6ICJjYzgyODk4MGYxOWM0NTRkOTUwNWU4ZjI0NDAyZTM2OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbGZyZWRHRyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDU1YmNkY2FkOWM5NDM2NmFhMmJmMzYyNmRhYjcwN2NjMTU2N2RmOGViNmI2ODliZmEzMGI1Mzk5MWRmYzQzIgogICAgfQogIH0KfQ=="
-									}]
-								}
-							}
-						}
-					}
-					type: "item"
-				}
-			]
-			shape: "square"
-			size: 1.5d
-			tasks: [{
-				id: "7A4ECFAFD9600F77"
-				title: "Where"
-				type: "checkmark"
-			}]
-			title: "Where to Next?"
-			x: 29.25d
-			y: 0.75d
-		}
-		{
+			dependencies: ["6C9BCBCD0EC39B02"]
 			id: "1B485DEF585DC3D7"
 			rewards: [
 				{
@@ -1421,7 +1253,7 @@
 				type: "item"
 			}]
 			title: "Sticking with Mekanism"
-			x: 6.5d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -1456,7 +1288,7 @@
 				type: "checkmark"
 			}]
 			title: "Automated Ore Smelting with Thermal Expansion"
-			x: 8.6d
+			x: 7.6d
 			y: -1.0d
 		}
 		{
@@ -1469,7 +1301,7 @@
 				"To get items into the Enrichment Chamber, you'll need a pipe connecting the chest on top to the machine. This can be done using an Item Pipe from &aPipez&r, or a Basic Logistical Transporter pipe from &9Mekanism&r. "
 				""
 				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
-				"{image:atm:textures/mekanism_easy_setup.png width:300 height:207 align:1 fit:true}"
+				"{image:kubejs:textures/quests/mek/mekanism_easy_setup.png width:300 height:207 align:1 fit:true}"
 			]
 			icon: "mekanism:meka_tool"
 			id: "426A73789DA85B69"
@@ -1493,7 +1325,7 @@
 				type: "checkmark"
 			}]
 			title: "Automated Ore Smelting with Mekanism"
-			x: 8.600000000000001d
+			x: 7.600000000000001d
 			y: 0.0d
 		}
 		{
@@ -1513,7 +1345,7 @@
 				title: "Getting Started with Mekanism"
 				type: "checkmark"
 			}]
-			x: 8.6d
+			x: 7.6d
 			y: 2.5d
 		}
 		{
@@ -1534,7 +1366,7 @@
 				title: "Getting Started with Thermal Expansion"
 				type: "checkmark"
 			}]
-			x: 8.6d
+			x: 7.6d
 			y: -3.5d
 		}
 		{
@@ -1571,6 +1403,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["2504339F8EC5ED40"]
 			description: ["Send some Ghasts flying, collect their tears."]
 			hide: true
 			hide_dependency_lines: true
@@ -1584,61 +1417,8 @@
 				type: "item"
 			}]
 			title: "Hidden Quest: The Nether"
-			x: 18.29999999999999d
-			y: -2.3d
-		}
-		{
-			dependencies: ["6651896BDD7315CA"]
-			id: "160B04EF08FAA642"
-			rewards: [
-				{
-					count: 3
-					id: "4F3A8DC51CF6CF8B"
-					item: "ironjetpacks:basic_coil"
-					type: "item"
-				}
-				{
-					id: "5D3995406A494D58"
-					type: "xp"
-					xp: 100
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1b
-					id: "ironjetpacks:jetpack"
-					tag: {
-						Id: "ironjetpacks:stone"
-						Throttle: 1.0d
-					}
-				}
-				id: "7DB9A0D32F385A93"
-				item: {
-					Count: 1b
-					id: "itemfilters:and"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ironjetpacks:jetpack"
-							}
-							{
-								Count: 1b
-								id: "itemfilters:weak_nbt"
-								tag: {
-									value: {
-										Id: "ironjetpacks:stone"
-									}
-								}
-							}
-						]
-					}
-				}
-				title: "Stone Jetpack"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 3.5d
+			x: 17.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0256FFC5363F4BA6"]
@@ -1662,40 +1442,12 @@
 				type: "item"
 			}]
 			title: "&dCreative Flight&r"
-			x: 30.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["2123E4CC2BF6636A"]
-			description: [
-				"We've created ourselves creative flight, now we need creative everything else."
-				""
-				"How do we do this? By making the &dATM Star&r. This is a long journey of mastering most of the mods in the pack. Do you think you are up to it?"
-				""
-				"Stay tuned for &aPart 3: To the Star&r!"
-			]
-			hide: true
-			icon: "allthetweaks:atm_star"
-			id: "2AD3AA18585BBD3D"
-			rewards: [{
-				id: "62306CE110B531BC"
-				item: "croptopia:starfruit"
-				type: "item"
-			}]
-			shape: "gear"
-			size: 3.0d
-			tasks: [{
-				id: "5EB55A98F474000D"
-				title: "The &5ATM Star&r"
-				type: "checkmark"
-			}]
-			x: 33.0d
-			y: 3.5d
+			x: 27.5d
+			y: 2.0500000000000007d
 		}
 		{
 			dependencies: [
 				"41B3695203B05551"
-				"663EA64A99A4435D"
 				"181A2B5075F559BC"
 			]
 			description: [
@@ -1736,134 +1488,8 @@
 				type: "item"
 			}]
 			title: "&5Unobtainium"
-			x: 26.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["75660320BF33B27F"]
-			description: [
-				"You can get early game flight by creating a Wooden Jetpack!"
-				""
-				"This is the starter jetpack, and only stores a very tiny amount of power. Make sure to upgrade it quickly!"
-			]
-			id: "2351E0068C5BC766"
-			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "2F18A9F186E6F0A2"
-					item: "ironjetpacks:basic_coil"
-					type: "item"
-				}
-				{
-					id: "0259DE6D6533407A"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Look Ma! I'm Flying!"
-			tasks: [{
-				id: "3326A9C6BA0AA803"
-				title: "Jetpacks are your friends"
-				type: "checkmark"
-			}]
-			title: "Learning to Fly!"
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["75660320BF33B27F"]
-			description: [
-				"This chargeable item can place blocks for you."
-				""
-				"To use, make sure you find the \"settings\" keybind in your keybind settings, under the Building Gadget category."
-			]
-			id: "759FD60CA05B2CBF"
-			optional: true
-			rewards: [
-				{
-					id: "74A81B1AE79141D4"
-					item: {
-						Count: 1b
-						id: "constructionwand:diamond_wand"
-						tag: {
-							Damage: 0
-							wand_options: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "780ECDB8F0D54717"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "772A1A23C2692ECC"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-			]
-			subtitle: "Sorry, Building Wands."
-			tasks: [{
-				id: "39103756F5D92DCB"
-				item: {
-					Count: 1b
-					id: "buildinggadgets:gadget_building"
-					tag: {
-						state: {
-							data: { }
-							serializer: "buildinggadgets:dummy_serializer"
-							state: {
-								Name: "minecraft:air"
-							}
-						}
-					}
-				}
-				type: "item"
-			}]
-			title: "The Best Building Tool"
-			x: 2.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["1CAF7B2E2716DFC9"]
-			description: [
-				"To set up automated ore smelting from Mekanism, place the Enrichment Chamber to the left of your Iron Furnace, and place a Chest on top of both."
-				""
-				"In the Enrichment Chamber, use the \"Side Config\" settings to output to the right. Make sure to press the \"Auto Eject\" button."
-				""
-				"To get items into the Enrichment Chamber, you'll need a pipe connecting the chest on top to the machine. This can be done using an Item Pipe from &aPipez&r, or a Basic Logistical Transporter pipe from &9Mekanism&r. "
-				""
-				"In the Iron Furnace, you'll set it to Input from the left and Output to the top. Make sure to select the auto-input and output buttons."
-				""
-				"{image:atm:textures/questpics/mekanism_easy_setup.png width:150 height:100 align:1}"
-			]
-			icon: "mekanism:meka_tool"
-			id: "7B34B1A15FE4920F"
-			rewards: [
-				{
-					count: 4
-					id: "708DC050005E4049"
-					item: "minecraft:iron_ore"
-					type: "item"
-				}
-				{
-					id: "1755FE2C11F689F8"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "The Factory is Coming."
-			tasks: [{
-				id: "138D88E71310B91A"
-				title: "Automated Ore Smelting with Mekanism"
-				type: "checkmark"
-			}]
-			title: "Automated Ore Smelting with Mekanism"
-			x: 7.5d
-			y: 1.0d
+			x: 24.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6C1BC11941F3D831"]
@@ -1894,7 +1520,7 @@
 				type: "item"
 			}]
 			title: "The Best Upgrade for a Furnace."
-			x: 11.5d
+			x: 10.5d
 			y: -2.5d
 		}
 		{
@@ -1930,7 +1556,7 @@
 				item: "ironfurnaces:diamond_furnace"
 				type: "item"
 			}]
-			x: 14.0d
+			x: 13.0d
 			y: -1.5d
 		}
 		{
@@ -1969,7 +1595,7 @@
 				type: "item"
 			}]
 			title: "Netherite Upgrade"
-			x: 19.5d
+			x: 18.5d
 			y: -1.0d
 		}
 		{
@@ -2015,8 +1641,8 @@
 				type: "item"
 			}]
 			title: "The Search For Vibranium"
-			x: 23.5d
-			y: 1.0d
+			x: 22.5d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -2063,8 +1689,8 @@
 				type: "item"
 			}]
 			title: "Time for some REAL Ingots"
-			x: 21.5d
-			y: -0.5d
+			x: 21.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2504339F8EC5ED40"]
@@ -2103,8 +1729,8 @@
 				type: "item"
 			}]
 			title: "Finding the Deep Dark"
-			x: 21.5d
-			y: -3.0d
+			x: 18.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["069BB135FE98DC45"]
@@ -2128,7 +1754,7 @@
 				}
 			]
 			shape: "square"
-			size: 1.5d
+			size: 2.0d
 			tasks: [{
 				advancement: "deeperdarker:main/kill_warden"
 				criterion: ""
@@ -2136,7 +1762,7 @@
 				type: "advancement"
 			}]
 			title: "Kill the &dWarden&r"
-			x: 24.0d
+			x: 21.0d
 			y: -3.0d
 		}
 		{
@@ -2176,8 +1802,8 @@
 				type: "item"
 			}]
 			title: "The Quest to Find the End Portal"
-			x: 16.0d
-			y: 3.5d
+			x: 17.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4EBB0D0BE35FCD68"]
@@ -2209,8 +1835,8 @@
 				type: "item"
 			}]
 			title: "How to Resummon the Dragon"
-			x: 19.5d
-			y: 5.0d
+			x: 19.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3FFB052E86D481AE"]
@@ -2241,13 +1867,12 @@
 				id: "302EC78ED565342E"
 				type: "advancement"
 			}]
-			x: 26.0d
-			y: 4.5d
+			x: 23.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
 				"41B3695203B05551"
-				"663EA64A99A4435D"
 				"596FEFBECFEDF2AF"
 			]
 			description: [
@@ -2288,8 +1913,8 @@
 				type: "item"
 			}]
 			title: "Vanilla \"Flight\""
-			x: 27.5d
-			y: 3.5d
+			x: 25.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C1BC11941F3D831"]
@@ -2329,7 +1954,7 @@
 				}
 			]
 			title: "Wireless Power for the Furnace!"
-			x: 10.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -2366,7 +1991,7 @@
 				type: "item"
 			}]
 			title: "Sticking with Mekanism"
-			x: 6.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -2404,7 +2029,7 @@
 			}]
 			title: "The Other"
 			x: 23.0d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["566C8877E6427AF5"]
@@ -2429,7 +2054,34 @@
 				type: "checkmark"
 			}]
 			x: 24.0d
-			y: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2123E4CC2BF6636A"]
+			description: [
+				"We've created ourselves creative flight, now we need creative everything else."
+				""
+				"How do we do this? By making the &dATM Star&r. This is a long journey of mastering most of the mods in the pack. Do you think you are up to it?"
+				""
+				"Stay tuned for &aPart 3: To the Star&r! In the meantime, make sure to check out the &dCreative&r quest chapter."
+			]
+			hide: true
+			icon: "allthetweaks:atm_star"
+			id: "42DDF557BCF5D8CF"
+			rewards: [{
+				id: "53FE7EB7B684ABE4"
+				item: "croptopia:starfruit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "41673F023A2CD95E"
+				title: "The &5ATM Star&r"
+				type: "checkmark"
+			}]
+			x: 30.500000000000007d
+			y: 2.0000000000000004d
 		}
 	]
 	title: "&a&dThe End Is Just The Beginning"

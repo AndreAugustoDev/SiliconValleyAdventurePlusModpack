@@ -2628,16 +2628,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				icon: "minecraft:raw_copper"
-				id: "60A1A0E33224F1CA"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:raw_materials/copper"
-					}
-				}
-				title: "Raw Copper"
+				id: "2CE9633569A39919"
+				item: "minecraft:raw_copper"
 				type: "item"
 			}]
 			title: "Getting Started: Power Generation"
@@ -2830,7 +2822,6 @@
 				id: "37149643F21C4665"
 				item: "minecraft:raw_copper"
 				random_bonus: 5
-				title: "Copper Chunk"
 				type: "item"
 			}]
 			shape: "gear"
