@@ -17,7 +17,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["In-game Info"]
+			hover: ["In-game"]
 			image: "ftblibrary:icons/info"
 			rotation: 0.0d
 			width: 1.0d
@@ -29,7 +29,7 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: ["Multiplayer Info"]
+			hover: ["Multiplayer"]
 			image: "ftblibrary:icons/friends"
 			rotation: 0.0d
 			width: 1.0d
@@ -41,8 +41,8 @@
 			corner: false
 			dev: false
 			height: 1.0d
-			hover: [ ]
-			image: "cofh_core:gui/icons/icon_accept"
+			hover: ["Shaders"]
+			image: "minecraft:item/ender_eye"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.0d
@@ -78,82 +78,34 @@
 		}
 		{
 			description: [
-				"Find the \"serverconfig\" folder in your world/save files. Inside, you'll look for the file &aftbessentials.snbt&r. "
+				"&4Optifine is known to crash in modpacks&r."
+				"Several mods conflict with &9Optifine&r, like the &9Twilight Forest&r."
+				"You can either remove the conflicting mods, or use an alternative."
 				""
-				"You can edit everything here! Use the Find function (ctrl+f) to search for the settings you are looking for!"
-				""
-				"&l&9Note:&r These settings are &ePer Save&r, so if you start a new world, you will need to adjust the settings again!"
-				""
-				"A restart will be required."
-			]
-			icon: "minecraft:white_bed"
-			id: "0ACB60D1A45F0BF9"
-			tasks: [{
-				id: "6E53A94E30768FA6"
-				title: "How do I edit how many homes, cooldowns, etc. for commands?"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			description: [
-				"&l&eOptifine is known to crash in modpacks&r. Several mods conflict with Optifine, like the Twilight Forest. You can either remove the conflicting mods, or use an alternative."
-				""
-				"&l&9Rubidium&r is an alternative that you can use. If you are using Optifine for shaders, check out &l&eOculus &r&d(Requires Rubidium)&r."
+				"&l&9Rubidium&r is an alternative that you can use."
+				"If you want to use shaders, check out &l&eOculus &r&d(Requires Rubidium)&r."
 				""
 				"&9Disclaimer(s)&r:"
 				"- We do not provide support for graphical mods."
-				"- &eOculus&r has  minor invisible texture issues, mostly with Immersive Engineering."
-				"- &9Rubidium and Oculus&r are not affiliated with &l&6 AllTheMods&r."
-				"- Issues with the related mods should be reported to the appropriate mod Github."
-				""
+				"- &eOculus&r has minor invisible texture issues, mostly with &9Immersive Engineering&r."
+				"- &9Rubidium and Oculus&r are not affiliated with &l&6this modpack&r."
+				"- Issues with the related mods should be reported to the appropriate mod GitHub."
 			]
 			icon: "minecraft:orange_stained_glass"
 			id: "15486094482010BB"
+			rewards: [{
+				id: "6571E93216A1D3D3"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "32F1926C5D54ED84"
 				title: "Optifine is crashing my game!"
 				type: "checkmark"
 			}]
 			title: "Shaders and FPS!"
-			x: 7.0d
+			x: 6.0d
 			y: 1.0d
-		}
-		{
-			description: [
-				"1) /team add [team] \\n2) /team modify [team] friendlyfire false"
-				"3) /team join [team] [player]"
-			]
-			id: "59F404BFA55005EA"
-			subtitle: "How to disable friendly fire on servers?"
-			tasks: [{
-				id: "01CE05960FF752C1"
-				title: "Disable friendly fire"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"   Press \"i\" for your last death info"
-				"       Press \"h\" to call your horse"
-				"       Press \"j\" to save your horse"
-				"    Press \"r\" to enable combat mode"
-				"     Press \"b\" to open your backpack \\n                 (if equipped)"
-				"      Press \"n\" to open your quiver\\n                 (if equipped)"
-				"          Press \"k\" to check and\\n            select enabled skills"
-			]
-			id: "726F1FFCA2697CF6"
-			subtitle: "A list of keybinds you should know!"
-			tasks: [{
-				id: "79E1E37E279C39DE"
-				title: "Useful keybinds to know"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			description: [
@@ -167,6 +119,7 @@
 				"              Paladin's Furniture"
 				"          Food Book (Spice of Life)"
 			]
+			icon: "minecraft:written_book"
 			id: "5540C43EFDAE8E3B"
 			subtitle: "A list of info books you might want. Check in the inventory search bar for their individual crafting recipe!"
 			tasks: [{
@@ -175,47 +128,21 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 4.0d
-		}
-		{
-			description: [
-				"GuildMaster is not a separate entity to villager. Instead, it is a profession, attainable by any villager (except nitwit). \\n"
-				"The profession block (POI) is the bell commonly found in guild house or stalls. If you find a village with a stall without a guild master, try to wait till noon for villagers to start getting jobs. \\n"
-				"You could also try to \"guide\" villagers to the bell, with whatever means possible within the realms of Minecraft."
-			]
-			id: "63F0B07D20E74D61"
-			subtitle: "Where can you find a guild master?"
-			tasks: [{
-				id: "3900DF3E47ADF564"
-				title: "Guild Master"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"The information is available in wiki. But one common mistake is that players loot containers that they did not place in front of villagers. This does not only apply to chests within villages. If there is a villager seeing you commit a 'crime' anywhere in the world, your reputation will decrease. \\n\\nThe maximum amount of bundled currency you'll need to improve your reputation is 8. But that's very unlikely to happen, unless you were to massacre villages. Most of the time 1-2 bundled currencies will be enough."
-				"\\nHowever, if you feel that your low reputation is misjudged and would like to start out at 0 rep, turn on cheats and do \\n/setreputation reputation:villager @p 0"
-				"\\nNote that you will ALSO need a trading scroll on TOP of having enough reputation to trade with a villager. A trading scroll can be obtained via completing villager quests."
-			]
-			id: "1B36858C66C3C77F"
-			subtitle: "Why won't villagers interact with me?"
-			tasks: [{
-				id: "3FA502DE4B61335E"
-				title: "Reputation #1"
-				type: "checkmark"
-			}]
-			x: 0.0d
 			y: 1.0d
 		}
 		{
 			description: [
-				"             Best Performance:\\n           - Sildurs Vibrant Lite\\n"
-				"      Recommended for Best Visuals:\\n        - Complimentary Reimagined"
-				"\\n         Try others if these don't \\n           fit your preferences!"
+				"  &6Recommended for best performance&r:\\n            ● &2Sildurs Vibrant Lite&r         \\n"
+				"      &6Recommended for best visuals&r:\\n        ● &2Complementary Reimagined&r\\n"
+				"         Try others if these don't\\n           fit your preferences!"
 			]
+			icon: "simplehats:rgbsunglasses"
 			id: "7644BDD80B6EDA44"
+			rewards: [{
+				id: "6CFA39CCCD90007B"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Which shader should I use?"
 			tasks: [{
 				id: "43CC8096AA6E2C33"
@@ -223,55 +150,14 @@
 				type: "checkmark"
 			}]
 			x: 6.0d
-			y: 1.0d
-		}
-		{
-			description: [
-				"Look into the mod 'Claim Chunks'. This mod adds a new block - Claim Block into the game. \\n\\nCheck their CurseForge page to learn how to customize your chunk permissions!"
-				"\\n*The max amount of chunks a player could claim is 8 by default."
-			]
-			id: "2294C358D1153CAE"
-			subtitle: "How do I protect my properties in a server?"
-			tasks: [{
-				id: "6C26B3CB7B7B5B78"
-				title: "Claim Chunks"
-				type: "checkmark"
-			}]
-			x: 3.0d
 			y: 2.0d
-		}
-		{
-			description: ["         Press \"Shift\" + \"P\" in the\\n               Graphics Menu"]
-			id: "0E4410A648272A97"
-			subtitle: "How to enable vanilla graphics settings menu?"
-			tasks: [{
-				id: "79729BB3AB3E564D"
-				title: "Vanilla Graphics Settings"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 2.0d
-		}
-		{
-			description: [
-				"   The mod is used in a different way\\n    in this pack. Forget that it exists."
-				"\\n   We takes advantage of PMMO's high\\n customizability to create special skills\\n  like Knowledge and set requirements\\n                    for items."
-			]
-			id: "217D8862894AE01D"
-			subtitle: "Why doesn't ProjectMMO work?"
-			tasks: [{
-				id: "4882C70BB6EEE851"
-				title: "ProjectMMO"
-				type: "checkmark"
-			}]
-			x: 6.0d
-			y: 3.0d
 		}
 		{
 			description: [
 				"Notice the little dot around the edge of the map. That's you. The TOP of the map points to north; The LEFT of the map points to west; etc..."
 				"\\nThere is sometimes a bug in Vanilla Minecraft where a cross is not shown in the map. In cases like this, you will need to look around the area that the map is located in."
 			]
+			icon: "minecraft:filled_map"
 			id: "10180D525A3F3D4F"
 			subtitle: "How do I read an explorer map?"
 			tasks: [{
@@ -280,36 +166,6 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 5.0d
-		}
-		{
-			description: [
-				"&dFTB Skies&r comes with &eOculus&r, a mod which allows you to use &6shaders&r!"
-				""
-				"Alongside it, &eComplementary Reimagined&r has been included. To enable it, simply take a visit to your &6graphics settings&r and turn it on!"
-			]
-			icon: "botania:gaia_head"
-			id: "438367A0DC6BC48A"
-			rewards: [
-				{
-					id: "4E9BA07042100649"
-					item: "productivebees:spawn_egg_dye_bee"
-					type: "item"
-				}
-				{
-					id: "61E022C08EA471B8"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Less to render means less to lag!"
-			tasks: [{
-				id: "7C24967AB073F5B8"
-				title: "Throwing Shade"
-				type: "checkmark"
-			}]
-			x: 7.0d
 			y: 2.0d
 		}
 		{
@@ -320,30 +176,24 @@
 				""
 				"To force load a chunk, shift-left click the chunk. If done properly, you'll see lines across the chunk."
 			]
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "ftbchunks:textures/waypoint_home.png"
-				}
-			}
+			icon: "minecraft:map"
 			id: "0C93D7A607AB8B83"
 			rewards: [{
 				id: "1B044C35466AFAEF"
 				type: "xp"
 				xp: 10
 			}]
-			size: 1.5d
+			subtitle: "How do I protect my properties in a server?"
 			tasks: [{
 				id: "103C42C743E2A2DB"
 				title: "Claiming Chunks"
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 4.5d
+			y: 2.0d
 		}
 		{
-			description: ["If you want to create a team for you and your friends, use the command &a/ftbteams party create (name of team)&r to create the team!"]
+			description: ["If you want to create a team for you and your friends, you can access the menu from &ethe button on the inventory screen&r."]
 			icon: {
 				Count: 1b
 				id: "ftbquests:custom_icon"
@@ -357,14 +207,13 @@
 				type: "xp"
 				xp: 10
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "4F13A02FB0055A62"
 				title: "Creating a Team"
 				type: "checkmark"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 1.0d
 		}
 	]
 	title: "F.A.Q."

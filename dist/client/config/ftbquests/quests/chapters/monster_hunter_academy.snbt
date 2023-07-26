@@ -2328,6 +2328,7 @@
 		}
 		{
 			id: "79E0B6FA628D02E0"
+			invisible: true
 			rewards: [{
 				id: "5389BDF4AFFB0EC1"
 				type: "xp_levels"

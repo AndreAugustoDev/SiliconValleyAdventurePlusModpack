@@ -1,4 +1,5 @@
 {
+	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "exploration"
@@ -9,7 +10,7 @@
 	quest_links: [{
 		id: "00D42E0F81D5E554"
 		linked_quest: "297DE3ACF3E0B994"
-		x: 16.0d
+		x: 13.0d
 		y: -2.0d
 	}]
 	quests: [
@@ -450,8 +451,8 @@
 				type: "checkmark"
 			}]
 			title: "Adventures and Mysteries"
-			x: 2.5d
-			y: 2.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -527,8 +528,8 @@
 				type: "item"
 			}]
 			title: "&bFishes and Crates!"
-			x: 4.5d
-			y: 3.0d
+			x: 7.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -562,8 +563,8 @@
 				type: "item"
 			}]
 			title: "&3Waystones"
-			x: 1.5d
-			y: 0.5d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -603,8 +604,8 @@
 				type: "structure"
 			}]
 			title: "&4Find a Graveyard"
-			x: 3.5d
-			y: 0.5d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -643,8 +644,8 @@
 				type: "item"
 			}]
 			title: "&6Artifacts"
-			x: 2.5d
-			y: 0.0d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -677,8 +678,8 @@
 				type: "dimension"
 			}]
 			title: "&5The Twilight Forest"
-			x: 4.0d
-			y: 4.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -728,8 +729,8 @@
 				type: "item"
 			}]
 			title: "&9Space Travels"
-			x: 0.5d
-			y: 1.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -782,8 +783,8 @@
 				type: "item"
 			}]
 			title: "&dArcheology"
-			x: 0.5d
-			y: 3.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -815,8 +816,8 @@
 				type: "advancement"
 			}]
 			title: "&6Lootr"
-			x: 4.5d
-			y: 1.5d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -844,8 +845,8 @@
 				type: "dimension"
 			}]
 			title: "&eThe Bumblezone"
-			x: 2.5d
-			y: 5.0d
+			x: 5.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6EC4700B21DB617B"]
@@ -868,11 +869,11 @@
 				type: "checkmark"
 			}]
 			title: "Oh, The Biomes You'll Go"
-			x: 1.0d
-			y: 4.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: ["64790EB9F3B55F27"]
+			dependencies: ["297DE3ACF3E0B994"]
 			description: [
 				"Hidden among the clouds, you can find &bSky Villages&r."
 				""
@@ -894,58 +895,11 @@
 				type: "structure"
 			}]
 			title: "Sky High Villagers"
-			x: 19.0d
-			y: -2.0d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["297DE3ACF3E0B994"]
-			description: [
-				"The &bEye of Legend&r works just like an Eye of Ender, but instead of taking you to a Stronghold, it &6points you in the direction of the nearest Sky Village&r!"
-				""
-				"Make sure to &6bring a way back home&r with you!"
-			]
-			id: "64790EB9F3B55F27"
-			subtitle: "¿Donde estan?"
-			tasks: [{
-				id: "191F0492EDAFE007"
-				item: "ftbskies:eye_of_legend"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["64790EB9F3B55F27"]
-			description: [
-				"Unlike the other two, the &bEnd Eye of Legend&r does not point you to a village."
-				""
-				"Instead, it brings you to &6End Cities&r. Similar, but distinctly different. There's nothing to trade, just loot."
-			]
-			id: "3815E3655E9B9330"
-			subtitle: "Kie ili estas?"
-			tasks: [{
-				id: "6EADFB4A73F859CA"
-				item: "ftbskies:eye_of_legend_end"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -3.5d
-		}
-		{
-			dependencies: ["64790EB9F3B55F27"]
-			description: ["The &bNether Eye of Legend&r works the same, but points you in the direction of the nearest &6Nether Sky Village&r."]
-			id: "3E26C522258D890F"
-			subtitle: "Waar zijn ze?"
-			tasks: [{
-				id: "6D3C5169189B9C2E"
-				item: "ftbskies:eye_of_legend_nether"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -0.5d
-		}
-		{
-			dependencies: ["3E26C522258D890F"]
 			description: [
 				"&bNether Sky Villages&r can be found flying in the Nether's void."
 				""
@@ -971,30 +925,8 @@
 				}
 			]
 			title: "Nether Sky Villages"
-			x: 19.0d
-			y: -0.5d
-		}
-		{
-			description: [
-				"Completes the \"Visit Nether Sky Village\" task in Progression chapter"
-				""
-				"That task already gets completed if you visit the Crimson village"
-			]
-			id: "63A5B8B3491E4F44"
-			rewards: [{
-				command: "/ftbquests change_progress @p complete 755E6D1A1FD604B0"
-				id: "6E7224AC5E070F78"
-				player_command: false
-				type: "command"
-			}]
-			tasks: [{
-				icon: "minecraft:warped_stem"
-				id: "01B5CC403CA040C2"
-				structure: "skyvillages:warped_sky_village"
-				type: "structure"
-			}]
-			x: 16.0d
-			y: -0.5d
+			x: 14.0d
+			y: -1.5d
 		}
 	]
 	title: "Exploration"

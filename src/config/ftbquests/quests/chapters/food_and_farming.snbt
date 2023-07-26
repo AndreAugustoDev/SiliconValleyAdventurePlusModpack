@@ -132,7 +132,7 @@
 			dev: false
 			height: 3.0d
 			hover: [ ]
-			image: "atm:textures/questpics/food_and_farming.png"
+			image: "kubejs:textures/quests/food_and_farming.png"
 			rotation: 0.0d
 			width: 12.0d
 			x: 0.5d
@@ -1448,33 +1448,19 @@
 				}
 			}
 			id: "4B4D41B1C4E9E331"
-			rewards: [
-				{
-					id: "275F7F104E6F527A"
-					item: "farmersdelight:dog_food"
-					type: "item"
-				}
-				{
-					id: "1253D2CA672AD609"
-					item: "solcarrot:food_book"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "275F7F104E6F527A"
+				item: "farmersdelight:dog_food"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Not to be confused with Master Chief"
-			tasks: [
-				{
-					id: "042FE5357EA5F540"
-					title: "Master Chef"
-					type: "checkmark"
-				}
-				{
-					id: "3455DC5854CECDAA"
-					item: "minecraft:carrot"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3455DC5854CECDAA"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
 			title: "Master Chef"
 			x: 10.005952380952365d
 			y: 10.0d
@@ -1647,287 +1633,6 @@
 			title: "For in this sleep..."
 			x: 8.505952380952365d
 			y: 7.0d
-		}
-		{
-			hide: true
-			id: "0DC385FAC6B8F5B0"
-			tasks: [{
-				id: "728BFFBE8B4B23E5"
-				item: "croptosis:potash"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 14.0d
-		}
-		{
-			hide: true
-			id: "6F7798F6D4D94BE8"
-			tasks: [{
-				id: "0B8009A06ECBFB69"
-				item: "croptosis:rotten_pile"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 14.0d
-		}
-		{
-			hide: true
-			id: "2695E596732FC2A4"
-			tasks: [{
-				id: "05BC5CBA1DBA80CD"
-				item: "croptosis:feather_meal"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 14.0d
-		}
-		{
-			hide: true
-			id: "17E6C123D3D65800"
-			tasks: [{
-				id: "6B58E7B5727C7474"
-				item: "croptosis:iron_watering_can"
-				type: "item"
-			}]
-			x: -0.3000000000000078d
-			y: 12.700000000000001d
-		}
-		{
-			dependencies: ["17E6C123D3D65800"]
-			id: "4A772B99CD435285"
-			tasks: [{
-				id: "1B1D1DA9554C9268"
-				item: "croptosis:gold_watering_can"
-				type: "item"
-			}]
-			x: -0.8000000000000043d
-			y: 11.200000000000001d
-		}
-		{
-			dependencies: ["4A772B99CD435285"]
-			id: "2BF9CB319CF8BF36"
-			tasks: [{
-				id: "082F5B0CAE531489"
-				item: "croptosis:diamond_watering_can"
-				type: "item"
-			}]
-			x: -1.3000000000000043d
-			y: 12.700000000000001d
-		}
-		{
-			dependencies: ["2BF9CB319CF8BF36"]
-			id: "25B54342BD246BAE"
-			tasks: [{
-				id: "2026A4E3B185A04B"
-				item: "croptosis:netherite_watering_can"
-				type: "item"
-			}]
-			x: -1.8000000000000043d
-			y: 11.200000000000001d
-		}
-		{
-			dependencies: ["40B43AE849F4B6EA"]
-			id: "15D31BA45964DF32"
-			tasks: [{
-				id: "6C00C6BE0CE36AC7"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:netherite_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.799999999999988d
-			y: 11.200000000000006d
-		}
-		{
-			dependencies: ["0C313E3A7BD39CC3"]
-			id: "40B43AE849F4B6EA"
-			tasks: [{
-				id: "7AD0C972C5041CA2"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:diamond_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.299999999999988d
-			y: 12.7d
-		}
-		{
-			dependencies: ["590595B265F4BBC2"]
-			id: "0C313E3A7BD39CC3"
-			tasks: [{
-				id: "641E09414BCDEA0E"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:golden_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.799999999999988d
-			y: 11.200000000000006d
-		}
-		{
-			dependencies: ["5327C8A1B77BC42F"]
-			id: "590595B265F4BBC2"
-			tasks: [{
-				id: "4DA2E87C427E686B"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:iron_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.299999999999988d
-			y: 12.7d
-		}
-		{
-			dependencies: ["4AFE073305AB7539"]
-			id: "5327C8A1B77BC42F"
-			tasks: [{
-				id: "29C8F6E210EEDD00"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:stone_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.799999999999988d
-			y: 11.200000000000006d
-		}
-		{
-			hide: true
-			id: "4AFE073305AB7539"
-			tasks: [{
-				id: "68D2F593E4A541E3"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:wooden_scythe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.299999999999988d
-			y: 12.7d
-		}
-		{
-			dependencies: ["7FF61367595091CA"]
-			id: "1240974B59EE05EF"
-			tasks: [{
-				id: "75FF7EF214B9B95B"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:netherite_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.799999999999992d
-			y: 11.200000000000001d
-		}
-		{
-			dependencies: ["7CA94100ECEE3B1B"]
-			id: "7FF61367595091CA"
-			tasks: [{
-				id: "61D8A24EA147D9DB"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:diamond_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -4.299999999999992d
-			y: 12.7d
-		}
-		{
-			dependencies: ["79BDA08AE89153F2"]
-			id: "7CA94100ECEE3B1B"
-			tasks: [{
-				id: "6C96650FEF8C9EB0"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:golden_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.799999999999997d
-			y: 11.200000000000001d
-		}
-		{
-			dependencies: ["46C7DC757481F1C2"]
-			id: "79BDA08AE89153F2"
-			tasks: [{
-				id: "7EB572A51819CDBA"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:iron_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -3.2999999999999936d
-			y: 12.7d
-		}
-		{
-			dependencies: ["52E7C9D432952332"]
-			id: "46C7DC757481F1C2"
-			tasks: [{
-				id: "35F24B8CB0943B02"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:stone_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.7999999999999936d
-			y: 11.200000000000001d
-		}
-		{
-			hide: true
-			id: "52E7C9D432952332"
-			tasks: [{
-				id: "1AB0DA8DB3EB5A07"
-				item: {
-					Count: 1b
-					id: "harvest_scythes:wooden_machete"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -2.2999999999999936d
-			y: 12.7d
 		}
 		{
 			hide: true
@@ -2117,107 +1822,9 @@
 			y: 9.5d
 		}
 		{
-			id: "5B803C332D0E88E8"
-			rewards: [{
-				id: "5E35F94DE3A702F8"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "346AF1543438BA37"
-				item: "croptosis:iron_watering_can"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["5B803C332D0E88E8"]
-			id: "0E6CA30A3A1E9C0E"
-			rewards: [{
-				id: "2F9087623B7FE099"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1BC037866A5AC9C0"
-				item: "croptosis:gold_watering_can"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["0E6CA30A3A1E9C0E"]
-			id: "21767F1AC3ADE57C"
-			rewards: [{
-				id: "67780DE6932FEC07"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "002F12D8ABAF5E60"
-				item: "croptosis:diamond_watering_can"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["21767F1AC3ADE57C"]
-			id: "6A00700C50BAC492"
-			rewards: [{
-				id: "7E5EFBAB647DBE6B"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "3AEAC9DFBE07D472"
-				item: "croptosis:netherite_watering_can"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 13.0d
-		}
-		{
 			dependencies: ["68213B32C7BFE139"]
 			id: "4F297154AC9975DE"
+			invisible: true
 			rewards: [{
 				id: "30B43FEE57C05A9D"
 				item: {
@@ -2238,8 +1845,8 @@
 				title: "Chocolatier"
 				type: "checkmark"
 			}]
-			x: 1.5d
-			y: 18.5d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2284,8 +1891,8 @@
 				type: "item"
 			}]
 			title: "Chocolates"
-			x: -4.0d
-			y: 17.0d
+			x: -5.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2330,8 +1937,8 @@
 				type: "item"
 			}]
 			title: "Caramel Chocolates"
-			x: -2.0d
-			y: 17.5d
+			x: -3.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2376,8 +1983,8 @@
 				type: "item"
 			}]
 			title: "Praline Chocolates"
-			x: -2.0d
-			y: 19.5d
+			x: -3.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2421,8 +2028,8 @@
 				title: "Strawberry Cream Chocolates"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 17.0d
+			x: -4.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2466,8 +2073,8 @@
 				title: "Cookies and Cream Chocolates"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 17.5d
+			x: -6.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2511,8 +2118,8 @@
 				title: "Mixed Nuts Chocolates"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 20.0d
+			x: -4.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2556,8 +2163,8 @@
 				title: "Coconut Chocolates"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 19.5d
+			x: -6.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2602,8 +2209,8 @@
 				type: "item"
 			}]
 			title: "Peanut Butter Chocolates"
-			x: -4.0d
-			y: 20.0d
+			x: -5.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2627,8 +2234,8 @@
 				item: "cacao:golden_chocolate"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 20.0d
+			x: -0.5d
+			y: 16.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2672,8 +2279,8 @@
 				title: "Chocolate covered Apples"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 18.5d
+			x: -7.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2697,8 +2304,8 @@
 				item: "croptopia:chocolate"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 19.5d
+			x: -1.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2722,8 +2329,8 @@
 				item: "cacao:silicon_mold"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 18.5d
+			x: -5.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2747,8 +2354,8 @@
 				item: "cacao:manual_food_grinder"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 17.0d
+			x: -1.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["766ED2D94E9B68D8"]
@@ -2772,8 +2379,8 @@
 				item: "cacao:filter_cloth"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 16.0d
+			x: -2.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["69A2425C77C5ED94"]
@@ -2797,8 +2404,8 @@
 				item: "cacao:cacao_nibs"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 15.5d
+			x: -5.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6F7C48824D22FD8A"]
@@ -2822,8 +2429,8 @@
 				item: "cacao:cacao_mass_bucket"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 15.5d
+			x: -4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0C7E4C11315D4E3E"]
@@ -2847,8 +2454,8 @@
 				item: "cacao:cacao_mass_bottle"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 16.0d
+			x: -7.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["22108D5335DFF265"]
@@ -2872,8 +2479,8 @@
 				item: "cacao:cacao_butter_bottle"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 17.0d
+			x: -8.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["6B74004F5A77C4CA"]
@@ -2898,11 +2505,12 @@
 				item: "cacao:nutella"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 20.5d
+			x: -2.0d
+			y: 16.5d
 		}
 		{
 			id: "410FB4729B618584"
+			invisible: true
 			rewards: [{
 				id: "618D3D6691206E76"
 				item: {

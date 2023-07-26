@@ -10,14 +10,14 @@
 		{
 			id: "215BC2D8DA082C5B"
 			linked_quest: "4451057D4BA76C2C"
-			x: 45.40000000000006d
-			y: 13.0d
+			x: 39.0d
+			y: 10.5d
 		}
 		{
 			id: "72707FA8EDDCADE9"
 			linked_quest: "703631B507075DC1"
-			x: 47.40000000000006d
-			y: 11.5d
+			x: 41.0d
+			y: 9.0d
 		}
 	]
 	quests: [
@@ -200,7 +200,13 @@
 		}
 		{
 			dependencies: ["610389B121518964"]
-			description: ["> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?"]
+			description: [
+				"> These two are interchangable once you craft the other. That's a good way to cheat this quest actually. Why did I tell you that?"
+				""
+				"The Speedometer will show you the speed of the currently connected gear."
+				""
+				"The Stressometer will show you how stressed the system is when you connect it."
+			]
 			id: "624B52BE855CF703"
 			rewards: [
 				{
@@ -1151,7 +1157,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["1BA0F9B77AF73203"]
+			dependencies: ["4194397DFD0199C2"]
 			id: "03A9D8346C52AA2C"
 			rewards: [
 				{
@@ -1187,8 +1193,8 @@
 				}
 				type: "item"
 			}]
-			x: 27.900000000000063d
-			y: 4.0d
+			x: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["6ABAB2A5689F2695"]
@@ -1263,8 +1269,8 @@
 				item: "create:honeyed_apple"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6ABAB2A5689F2695"]
@@ -1302,8 +1308,8 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.0d
+			x: 9.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -1332,11 +1338,11 @@
 				item: "create:bar_of_chocolate"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
-			dependencies: ["1BA0F9B77AF73203"]
+			dependencies: ["4194397DFD0199C2"]
 			id: "333A5294EA4F4944"
 			rewards: [{
 				id: "439BBCD76A257219"
@@ -1358,11 +1364,11 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 30.900000000000063d
-			y: 5.5d
+			x: 4.0d
+			y: 13.5d
 		}
 		{
-			dependencies: ["1BA0F9B77AF73203"]
+			dependencies: ["4194397DFD0199C2"]
 			id: "05E920CF3BD43FC6"
 			rewards: [{
 				id: "6F0CA1CB40339EA2"
@@ -1390,8 +1396,8 @@
 				}
 				type: "item"
 			}]
-			x: 28.400000000000063d
-			y: 5.5d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["4B6D44F405106C53"]
@@ -1428,6 +1434,13 @@
 		}
 		{
 			dependencies: ["330E6E93A6F5592B"]
+			description: [
+				"The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."
+				""
+				"The Schematic Table will read and write structures to/from your schematics."
+				""
+				"You can use it to copy buildings or to share them with others!"
+			]
 			id: "355A2ABDA57395EF"
 			rewards: [
 				{
@@ -2416,12 +2429,14 @@
 				title: "Getting Started: Rotational Power"
 				type: "item"
 			}]
-			x: 33.40000000000006d
-			y: 11.0d
+			x: 6.0d
+			y: 15.0d
 		}
 		{
-			dependencies: ["0000000000000CBA"]
+			dependencies: ["65491542772AEF5C"]
 			description: [
+				"Combine with &n&5Radial Chassis&r to create a very powerful windmill that has high stress capacity."
+				""
 				"Perhaps the first multi part contraption to be made is the Windmill. This is a High SU generator capable of operating at high RPMs. Generating more SU and higher speed is merely a function of adding more Sails or Wool Blocks to the structure."
 				""
 				"Where to begin? Place down the Windmill Bearing. The sticky looking green side is where the rest of the structure will be built. Power will come out the opposite end. Note that they may be built in any orientation."
@@ -2502,35 +2517,8 @@
 				}
 			]
 			title: "Windmill"
-			x: 31.900000000000063d
-			y: 12.0d
-		}
-		{
-			dependencies: ["0000000000000CBA"]
-			description: [
-				"The Water Wheel, while considerably simpler to set up than a Windmill, also produces far fewer SU and operates at a much lower speed. "
-				""
-				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
-				""
-				"To get it going, simply allow water to flow past it. Max speed is achieved by having flowing water on five sides of it. "
-			]
-			id: "0000000000000CC2"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "0000000000000D74"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
-			subtitle: "Like A Record, Baby"
-			tasks: [{
-				id: "0000000000000CC3"
-				item: "create:water_wheel"
-				type: "item"
-			}]
-			x: 34.90000000000006d
-			y: 12.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -2570,44 +2558,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: 39.90000000000006d
-			y: 12.0d
-		}
-		{
-			dependencies: ["0000000000000CBA"]
-			description: [
-				"Making a pretty windmill is probably not the only reason you’re here. Most likely, you’d like this thing to actually do something useful, but it’s way up there and we’re way down here… "
-				""
-				"As it happens, conveying rotational force is quite simple. Shafts can be used to convey power linearly while cogs may be used to change direction and speed. "
-			]
-			hide_dependency_lines: true
-			id: "0000000000000CCC"
-			rewards: [
-				{
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
-					icon: "kubejs:rare_lootbox"
-					id: "0000000000000D79"
-					player_command: false
-					title: "Rare Create Loot Box"
-					type: "command"
-				}
-				{
-					count: 16
-					id: "0000000000000D80"
-					item: "minecraft:kelp"
-					type: "item"
-				}
-			]
-			subtitle: "Shut Yo Mouth"
-			tasks: [{
-				count: 16L
-				id: "0000000000000CCD"
-				item: "create:shaft"
-				type: "item"
-			}]
-			title: "Shaft"
-			x: 32.90000000000006d
-			y: 13.5d
+			x: 33.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -2653,8 +2605,8 @@
 				type: "item"
 			}]
 			title: "Casings"
-			x: 34.90000000000006d
-			y: 14.0d
+			x: 1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -2689,8 +2641,8 @@
 				}
 			]
 			title: "Brackets"
-			x: 31.900000000000063d
-			y: 14.0d
+			x: -1.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -2715,11 +2667,11 @@
 				item: "create:gearbox"
 				type: "item"
 			}]
-			x: 32.40000000000006d
-			y: 15.0d
+			x: -1.0d
+			y: 14.5d
 		}
 		{
-			dependencies: ["0000000000000CBA"]
+			dependencies: ["1005B330D85C2CF9"]
 			description: [
 				"Just because our windmill is running a little slowly doesn’t mean everything else needs to. The rotational speed of a system can be stepped up (or down) by way of simple gear ratios. "
 				""
@@ -2731,17 +2683,22 @@
 				""
 				"Additionally, two large cogwheels can be interlocked perpendicularly to allow a shaft to change directions. Useful for going around corners or bringing power down from high above."
 			]
-			hide_dependency_lines: true
 			id: "0000000000000CD6"
 			min_width: 250
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
-				icon: "kubejs:rare_lootbox"
-				id: "0000000000000D81"
-				player_command: false
-				title: "Rare Create Loot Box"
-				type: "command"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "6FFA650B903A5E9E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29D7503B0A8F0679"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
 			subtitle: "Spacely's Sprockets"
 			tasks: [
 				{
@@ -2758,8 +2715,8 @@
 				}
 			]
 			title: "Cogwheels"
-			x: 33.90000000000006d
-			y: 13.5d
+			x: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -2793,8 +2750,8 @@
 				type: "item"
 			}]
 			title: "Mechanical Belts"
-			x: 28.900000000000063d
-			y: 12.0d
+			x: 22.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -2819,8 +2776,8 @@
 				item: "create:encased_chain_drive"
 				type: "item"
 			}]
-			x: 33.90000000000006d
-			y: 16.0d
+			x: 0.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -2854,8 +2811,8 @@
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 33.40000000000006d
-			y: 17.0d
+			x: 0.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -2887,8 +2844,8 @@
 					type: "item"
 				}
 			]
-			x: 28.900000000000063d
-			y: 13.0d
+			x: 22.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -2916,8 +2873,8 @@
 				type: "item"
 			}]
 			title: "Chutes"
-			x: 29.900000000000063d
-			y: 12.5d
+			x: 23.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -2953,8 +2910,8 @@
 					type: "item"
 				}
 			]
-			x: 29.900000000000063d
-			y: 13.5d
+			x: 23.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -2979,8 +2936,8 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 28.900000000000063d
-			y: 14.0d
+			x: 22.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -3008,8 +2965,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 12.5d
+			x: 8.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3034,8 +2991,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 40.90000000000006d
-			y: 12.5d
+			x: 34.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3069,8 +3026,8 @@
 				type: "item"
 			}]
 			title: "Crushing Wheels"
-			x: 39.90000000000006d
-			y: 14.0d
+			x: 33.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3111,8 +3068,8 @@
 					type: "item"
 				}
 			]
-			x: 37.90000000000006d
-			y: 14.0d
+			x: 31.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0000000000000C40"]
@@ -3155,8 +3112,8 @@
 				title: "Getting Started: Material Processing"
 				type: "item"
 			}]
-			x: 38.90000000000006d
-			y: 11.0d
+			x: 32.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3188,8 +3145,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 37.90000000000006d
-			y: 12.0d
+			x: 31.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3224,8 +3181,8 @@
 					type: "item"
 				}
 			]
-			x: 37.90000000000006d
-			y: 13.0d
+			x: 31.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3252,8 +3209,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 38.90000000000006d
-			y: 15.0d
+			x: 32.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0000000000000D0B"]
@@ -3279,8 +3236,8 @@
 				item: "create:blaze_cake"
 				type: "item"
 			}]
-			x: 39.90000000000006d
-			y: 15.5d
+			x: 33.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["4489511C5ED1C785"]
@@ -3437,8 +3394,8 @@
 					type: "item"
 				}
 			]
-			x: 40.90000000000006d
-			y: 13.5d
+			x: 34.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -3459,8 +3416,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 39.90000000000006d
-			y: 13.0d
+			x: 33.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0000000000000C40"]
@@ -3543,8 +3500,8 @@
 				type: "item"
 			}]
 			title: "Modular Contraptions"
-			x: 33.40000000000006d
-			y: 19.0d
+			x: 27.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0000000000000D2B"]
@@ -3594,8 +3551,8 @@
 				title: "Mechanical Piston"
 				type: "item"
 			}]
-			x: 31.400000000000063d
-			y: 20.0d
+			x: 25.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000D2B"]
@@ -3624,8 +3581,8 @@
 				item: "create:cart_assembler"
 				type: "item"
 			}]
-			x: 35.40000000000006d
-			y: 20.0d
+			x: 29.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000D2B"]
@@ -3649,8 +3606,8 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: 32.40000000000006d
-			y: 20.0d
+			x: 26.0d
+			y: 11.0d
 		}
 		{
 			dependencies: [
@@ -3700,8 +3657,8 @@
 				}
 			]
 			title: "Chassis"
-			x: 33.40000000000006d
-			y: 21.0d
+			x: 27.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0000000000000D33"]
@@ -3721,8 +3678,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 31.900000000000063d
-			y: 22.0d
+			x: 25.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0000000000000D33"]
@@ -3742,8 +3699,8 @@
 				item: "create:mechanical_drill"
 				type: "item"
 			}]
-			x: 34.90000000000006d
-			y: 22.0d
+			x: 28.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0000000000000D33"]
@@ -3767,8 +3724,8 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: 32.90000000000006d
-			y: 22.0d
+			x: 26.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0000000000000D33"]
@@ -3794,8 +3751,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 33.90000000000006d
-			y: 22.0d
+			x: 27.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0000000000000D33"]
@@ -3838,8 +3795,8 @@
 				}
 			]
 			title: "Portable Interfaces"
-			x: 33.40000000000006d
-			y: 23.0d
+			x: 27.0d
+			y: 14.0d
 		}
 		{
 			dependencies: ["0000000000000D2B"]
@@ -3865,8 +3822,8 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 34.40000000000006d
-			y: 20.0d
+			x: 28.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -3891,8 +3848,8 @@
 				item: "create:adjustable_chain_gearshift"
 				type: "item"
 			}]
-			x: 32.90000000000006d
-			y: 16.0d
+			x: -0.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["4316ED497808CD9D"]
@@ -3946,8 +3903,8 @@
 				item: "create:gearshift"
 				type: "item"
 			}]
-			x: 33.40000000000006d
-			y: 15.0d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0000000000000CBA"]
@@ -3972,8 +3929,8 @@
 				item: "create:clutch"
 				type: "item"
 			}]
-			x: 34.40000000000006d
-			y: 15.0d
+			x: 1.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["0000000000000D0B"]
@@ -3997,8 +3954,8 @@
 				item: "create:builders_tea"
 				type: "item"
 			}]
-			x: 37.90000000000006d
-			y: 15.5d
+			x: 31.5d
+			y: 13.0d
 		}
 		{
 			dependencies: ["0000000000000C40"]
@@ -4034,8 +3991,8 @@
 				type: "item"
 			}]
 			title: "Saving Schematics"
-			x: 27.900000000000063d
-			y: 19.0d
+			x: 15.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["5A581A8DF6CCC352"]
@@ -4067,8 +4024,8 @@
 				type: "item"
 			}]
 			title: "Placing Schematics"
-			x: 27.900000000000063d
-			y: 20.0d
+			x: 15.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3542632905883686"]
@@ -4101,8 +4058,8 @@
 				type: "item"
 			}]
 			title: "Printing Schematics"
-			x: 27.900000000000063d
-			y: 21.0d
+			x: 15.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6ABAB2A5689F2695"]
@@ -4129,7 +4086,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["0000000000000CBA"]
+			dependencies: ["0000000000000D17"]
 			description: [
 				"With a source of heat, water, and an enclosed space, a Steam Engine can be manufactured to produce enormous amounts of SU. "
 				""
@@ -4140,21 +4097,11 @@
 			icon: "create:steam_engine"
 			id: "5B54E008C558007F"
 			min_width: 250
-			rewards: [
-				{
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
-					icon: "kubejs:legendary_lootbox"
-					id: "1B26E3707C1728A2"
-					player_command: false
-					title: "Legendary Create Loot Box"
-					type: "command"
-				}
-				{
-					id: "766A6943FD89D2FA"
-					item: "create:steam_whistle"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "766A6943FD89D2FA"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
 			subtitle: "A Newcomen on the Block"
 			tasks: [
 				{
@@ -4164,13 +4111,13 @@
 				}
 				{
 					count: 4L
-					id: "20A4498D3BC9D9C1"
+					id: "08AF7D88052EAA26"
 					item: "create:fluid_tank"
 					type: "item"
 				}
 			]
-			x: 32.90000000000006d
-			y: 12.5d
+			x: 12.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["0000000000000D2B"]
@@ -4217,8 +4164,8 @@
 				}
 			]
 			title: "Trains"
-			x: 33.40000000000006d
-			y: 20.0d
+			x: 27.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["0000000000000C40"]
@@ -4252,8 +4199,8 @@
 				title: "Getting Started: Logistics and Storage"
 				type: "item"
 			}]
-			x: 27.900000000000063d
-			y: 11.0d
+			x: 21.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -4278,11 +4225,11 @@
 				item: "create:item_vault"
 				type: "item"
 			}]
-			x: 28.900000000000063d
-			y: 15.5d
+			x: 22.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["0000000000000CBA"]
+			dependencies: ["4194397DFD0199C2"]
 			description: [
 				"These simple electric motors make an excellent and compact source of SU. "
 				""
@@ -4303,7 +4250,7 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 33.90000000000006d
+			x: 7.5d
 			y: 12.5d
 		}
 		{
@@ -4328,8 +4275,8 @@
 				item: "createaddition:straw"
 				type: "item"
 			}]
-			x: 38.90000000000006d
-			y: 16.0d
+			x: 32.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -4350,8 +4297,8 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: 36.90000000000006d
-			y: 12.5d
+			x: 30.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["0000000000000D04"]
@@ -4379,8 +4326,8 @@
 				item: "createaddition:tesla_coil"
 				type: "item"
 			}]
-			x: 36.90000000000006d
-			y: 13.5d
+			x: 30.5d
+			y: 11.0d
 		}
 		{
 			dependencies: ["45CBD91076EAD50D"]
@@ -4413,8 +4360,8 @@
 					type: "item"
 				}
 			]
-			x: 27.900000000000063d
-			y: 16.0d
+			x: 8.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4451057D4BA76C2C"]
@@ -4447,8 +4394,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 47.40000000000006d
-			y: 13.0d
+			x: 41.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["13F52047EAE94CE7"]
@@ -4465,8 +4412,8 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 49.40000000000006d
-			y: 13.0d
+			x: 43.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["46B27890B3EF957C"]
@@ -4478,8 +4425,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 55.40000000000006d
-			y: 13.0d
+			x: 49.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["757DC52392EB674B"]
@@ -4491,14 +4438,11 @@
 				item: "create:crushing_wheel"
 				type: "item"
 			}]
-			x: 55.90000000000006d
-			y: 11.5d
+			x: 49.5d
+			y: 9.0d
 		}
 		{
-			dependencies: [
-				"757DC52392EB674B"
-				"5E41363F9AE243F3"
-			]
+			dependencies: ["5E41363F9AE243F3"]
 			description: ["The &bAlternator&r converts rotational energy into &eRF/FE&r!"]
 			id: "6DD54ABB7D00AB13"
 			rewards: [
@@ -4520,8 +4464,8 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 54.90000000000006d
-			y: 14.5d
+			x: 7.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["757DC52392EB674B"]
@@ -4558,11 +4502,10 @@
 				title: "Wireless Stress"
 				type: "item"
 			}]
-			x: 54.90000000000006d
-			y: 11.5d
+			x: 48.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["757DC52392EB674B"]
 			description: ["The &bElectric Motor&r uses FE to generate rotational energy."]
 			id: "3F6111879910D997"
 			rewards: [
@@ -4583,8 +4526,8 @@
 				item: "createaddition:electric_motor"
 				type: "item"
 			}]
-			x: 55.90000000000006d
-			y: 14.5d
+			x: 8.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4600,8 +4543,8 @@
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 48.90000000000006d
-			y: 14.5d
+			x: 42.5d
+			y: 12.0d
 		}
 		{
 			dependencies: ["3CBC0294148DF019"]
@@ -4613,8 +4556,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 48.90000000000006d
-			y: 16.0d
+			x: 42.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["4451057D4BA76C2C"]
@@ -4632,8 +4575,8 @@
 				item: "create:wrench"
 				type: "item"
 			}]
-			x: 45.40000000000006d
-			y: 11.5d
+			x: 39.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4451057D4BA76C2C"]
@@ -4659,8 +4602,8 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 45.40000000000006d
-			y: 14.5d
+			x: 39.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4700,8 +4643,8 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: 49.90000000000006d
-			y: 11.5d
+			x: 43.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["6F230D05DB07F932"]
@@ -4730,8 +4673,8 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: 47.40000000000006d
-			y: 16.0d
+			x: 41.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4748,8 +4691,8 @@
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 49.90000000000006d
-			y: 14.5d
+			x: 43.5d
+			y: 12.0d
 		}
 		{
 			dependencies: [
@@ -4795,8 +4738,8 @@
 				item: "create:blaze_burner"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 7.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4821,8 +4764,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 48.90000000000006d
-			y: 11.5d
+			x: 42.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1E9D75DFCD6A09EC"]
@@ -4848,8 +4791,8 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: 48.90000000000006d
-			y: 10.0d
+			x: 42.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["55704A5966DC72CC"]
@@ -4883,8 +4826,8 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 51.40000000000006d
-			y: 13.0d
+			x: 45.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["041C4AB18A712925"]
@@ -4918,8 +4861,8 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			x: 53.40000000000006d
-			y: 13.0d
+			x: 47.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["46B27890B3EF957C"]
@@ -4947,8 +4890,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 53.40000000000006d
-			y: 14.5d
+			x: 47.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["46B27890B3EF957C"]
@@ -4988,8 +4931,8 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 53.40000000000006d
-			y: 11.5d
+			x: 47.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["13F52047EAE94CE7"]
@@ -5031,8 +4974,8 @@
 				item: "create:mechanical_bearing"
 				type: "item"
 			}]
-			x: 47.40000000000006d
-			y: 14.5d
+			x: 41.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0000000000000C40"]
@@ -5066,7 +5009,13 @@
 				"0F16498769DFB3B0"
 				"721DC5457B0783FE"
 			]
-			description: ["&n&5Shafts&r transfer rotational power without changing the speed of the gears."]
+			description: [
+				"&n&5Shafts&r transfer rotational power without changing the speed of the gears."
+				""
+				"Making a pretty windmill is probably not the only reason you’re here. Most likely, you’d like this thing to actually do something useful, but it’s way up there and we’re way down here… "
+				""
+				"As it happens, conveying rotational force is quite simple. Shafts can be used to convey power linearly while cogs may be used to change direction and speed. "
+			]
 			id: "1005B330D85C2CF9"
 			rewards: [{
 				id: "22C5069337AC2CCF"
@@ -5081,60 +5030,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: [
-				"0F16498769DFB3B0"
-				"1005B330D85C2CF9"
-			]
-			description: [
-				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
-				""
-				"Doubling speed will also double the stress in the system."
-			]
-			id: "31C71DE2197FC402"
-			rewards: [{
-				count: 8
-				id: "758D685B4EE96D9F"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "3FB75209F4A8CE86"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			x: 1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"0F16498769DFB3B0"
-				"721DC5457B0783FE"
-				"1005B330D85C2CF9"
-			]
-			description: [
-				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
-				""
-				"Doubling speed will also double the stress in the system."
-			]
-			id: "6F9064F13430AE54"
-			rewards: [{
-				count: 8
-				id: "65944B74D5176700"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "4594E889F60C95BE"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
@@ -5145,6 +5041,12 @@
 				"The &n&5Waterwheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
 				""
 				"The speed it's rotating at is measured by how many flowing water blocks are touching the wheel."
+				""
+				"The Water Wheel, while considerably simpler to set up than a Windmill, also produces far fewer SU and operates at a much lower speed. "
+				""
+				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
+				""
+				"To get it going, simply allow water to flow past it. Max speed is achieved by having flowing water on five sides of it. "
 			]
 			id: "21CBF3FF9A1F06D5"
 			rewards: [{
@@ -5152,14 +5054,14 @@
 				item: "create:water_wheel"
 				type: "item"
 			}]
+			subtitle: "Like A Record, Baby"
 			tasks: [{
-				count: 3L
 				id: "17E61884AFDE8882"
 				item: "create:water_wheel"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: [
@@ -5270,14 +5172,14 @@
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 3.0d
+			x: 6.0d
 			y: 7.5d
 		}
 		{
 			dependencies: [
 				"2D41B04C75FA02BC"
-				"31C71DE2197FC402"
 				"769B30912D04DB49"
+				"0000000000000CD6"
 			]
 			description: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
 			id: "389DABF1432A747D"
@@ -5286,7 +5188,7 @@
 				item: "create:mechanical_mixer"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 1.5d
 			y: 6.5d
 		}
 		{
@@ -5301,8 +5203,8 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 2.5d
-			y: 3.5d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -5316,32 +5218,8 @@
 				item: "create:mechanical_piston"
 				type: "item"
 			}]
-			x: -0.9999999999999933d
-			y: 7.0d
-		}
-		{
-			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["The Speedometer will show you the speed of the currently connected gear."]
-			id: "292D2955F53D1D5F"
-			tasks: [{
-				id: "0FE071460812B1D0"
-				item: "create:speedometer"
-				type: "item"
-			}]
-			x: 12.999999999999996d
-			y: 16.0d
-		}
-		{
-			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["The Stressometer will show you how stressed the system is when you connect it."]
-			id: "23FA5D5BB635C20B"
-			tasks: [{
-				id: "1F39AE7B9F814418"
-				item: "create:stressometer"
-				type: "item"
-			}]
-			x: 13.999999999999996d
-			y: 16.0d
+			x: -0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -5362,7 +5240,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -5377,7 +5255,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -5389,21 +5267,6 @@
 			tasks: [{
 				id: "77700BD3E0834AE6"
 				item: "create:radial_chassis"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"0F16498769DFB3B0"
-				"721DC5457B0783FE"
-			]
-			description: ["Combine with &n&5Radial Chassis&r to create a very powerful windmill that has high stress capacity."]
-			id: "1A434A031683358F"
-			tasks: [{
-				id: "3999AFCE6ACD9476"
-				item: "create:white_sail"
 				type: "item"
 			}]
 			x: 1.5d
@@ -5436,7 +5299,7 @@
 				item: "create:mechanical_saw"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 10.5d
 		}
 		{
@@ -5466,7 +5329,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 8.5d
 		}
 		{
@@ -5481,7 +5344,7 @@
 				item: "create:mechanical_plough"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: 9.5d
 		}
 		{
@@ -5516,30 +5379,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5EE53C2C83F73244"]
-			description: ["&cCurrently this item has no uses."]
-			id: "5EBCFDDB3D74F000"
-			tasks: [{
-				id: "20C538A66BB39D54"
-				item: "create:shadow_steel_casing"
-				type: "item"
-			}]
-			x: 20.400000000000063d
-			y: 18.5d
-		}
-		{
-			dependencies: ["21CF93BDCE7BA2F9"]
-			description: ["&cCurrently this item has no uses."]
-			id: "1086C6450728C3B4"
-			tasks: [{
-				id: "499034410753391A"
-				item: "create:refined_radiance_casing"
-				type: "item"
-			}]
-			x: 20.400000000000063d
-			y: 14.5d
-		}
-		{
 			dependencies: [
 				"0F16498769DFB3B0"
 				"721DC5457B0783FE"
@@ -5552,7 +5391,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -5567,7 +5406,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -5581,8 +5420,8 @@
 				item: "create:depot"
 				type: "item"
 			}]
-			x: 1.0000000000000115d
-			y: 7.0d
+			x: 0.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -5596,8 +5435,8 @@
 				item: "create:chute"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 9.0d
+			x: 5.0d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -5611,8 +5450,8 @@
 				item: "create:goggles"
 				type: "item"
 			}]
-			x: 13.499999999999996d
-			y: 14.5d
+			x: 7.5d
+			y: 15.0d
 		}
 		{
 			description: [
@@ -5638,43 +5477,10 @@
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: 22.400000000000063d
-			y: 16.5d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
-			dependencies: ["52D8D124CCC5EE39"]
-			description: [
-				"To craft &n&5Refined Radiance&r simply throw one or more &n&5Chromatic Compound&r into the beam of an active &n&5Beacon&r."
-				""
-				"It will be converted and will start levitating. A magnet is highly recommended!"
-			]
-			id: "21CF93BDCE7BA2F9"
-			tasks: [{
-				id: "14C6182E103486AF"
-				item: "create:refined_radiance"
-				type: "item"
-			}]
-			x: 18.900000000000034d
-			y: 15.5d
-		}
-		{
-			dependencies: ["52D8D124CCC5EE39"]
-			description: [
-				"To craft &n&5Shadow Steel&r simply throw one or more &n&5Chromatic Compound&r into the void."
-				""
-				"It will be converted and will levitate back up. A magnet is highly recommended!"
-			]
-			id: "5EE53C2C83F73244"
-			tasks: [{
-				id: "3B1D5DAAC314F8A8"
-				item: "create:shadow_steel"
-				type: "item"
-			}]
-			x: 18.900000000000034d
-			y: 17.5d
-		}
-		{
-			dependencies: ["21CF93BDCE7BA2F9"]
 			description: [
 				"The &n&5Wand of Symmetry&r will place down a mirror wherever you R-Click it. Everything you place on one side of the mirror, will be copied to the other side."
 				""
@@ -5686,8 +5492,8 @@
 				item: "create:wand_of_symmetry"
 				type: "item"
 			}]
-			x: 17.40000000000001d
-			y: 14.5d
+			x: 3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: [
@@ -5717,7 +5523,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -5732,40 +5538,8 @@
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.0d
-		}
-		{
-			description: [
-				"The Schematic Table will read and write structures to/from your schematics."
-				""
-				"You can use it to copy buildings or to share them with others!"
-			]
-			id: "3474F1C86172E10D"
-			rewards: [{
-				id: "3CD92BEEDD1CC215"
-				item: "create:schematic_and_quill"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1BD0D7A278BAC0DB"
-				item: "create:schematic_table"
-				type: "item"
-			}]
-			x: 11.999999999999996d
-			y: 14.0d
-		}
-		{
-			dependencies: ["0CF69DBA9573A7B3"]
-			description: ["The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
-			id: "34E4C01EC2BFE415"
-			tasks: [{
-				id: "5B4E2BF9E3E6540F"
-				item: "create:schematicannon"
-				type: "item"
-			}]
-			x: 11.0d
-			y: 15.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -5779,7 +5553,7 @@
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: 2.0d
+			x: -2.0d
 			y: 7.5d
 		}
 		{
@@ -5822,8 +5596,8 @@
 				item: "create:sticky_mechanical_piston"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.0d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -5836,8 +5610,8 @@
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -5859,7 +5633,10 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["2D41B04C75FA02BC"]
+			dependencies: [
+				"2D41B04C75FA02BC"
+				"5A52C168F41833E2"
+			]
 			description: ["&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
 			id: "3CF841CC60F2625A"
 			tasks: [{
@@ -5873,8 +5650,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 3.5d
+			x: 7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: [
@@ -5894,23 +5671,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["610DEC4FC4FBB63E"]
-			description: ["To craft the &n&5Chromatic Compound&r throw all the recipes inside the &n&5Basin&r and &n&5Super-Heat&r the &n&5Blaze Burner&r by fueling it with a &n&5Blaze Cake&r."]
-			id: "52D8D124CCC5EE39"
-			tasks: [{
-				id: "081039A2EE1CFFA2"
-				item: {
-					Count: 1b
-					id: "create:chromatic_compound"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 20.400000000000063d
-			y: 16.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["48EA6D9923E38B71"]
@@ -5925,8 +5686,8 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 15.0d
+			x: 8.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -5937,8 +5698,8 @@
 				item: "create:brass_casing"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 14.0d
+			x: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4194397DFD0199C2"]
@@ -5955,8 +5716,8 @@
 				item: "create:mechanical_arm"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 11.5d
+			x: 7.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -5967,11 +5728,14 @@
 				item: "create:brass_tunnel"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.5d
+			x: 7.0d
+			y: 8.0d
 		}
 		{
-			dependencies: ["1DA6B8B2DCC97809"]
+			dependencies: [
+				"1DA6B8B2DCC97809"
+				"01259B270DA05B25"
+			]
 			description: [
 				"The &n&5Crafters&r can be connected to each other to form a huge in-world crafting table."
 				""
@@ -5983,8 +5747,8 @@
 				item: "create:mechanical_crafter"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 10.5d
+			x: 6.0d
+			y: 12.5d
 		}
 		{
 			dependencies: [
@@ -6006,8 +5770,8 @@
 				type: "item"
 			}]
 			title: "Brass"
-			x: 6.5d
-			y: 10.0d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["1DA6B8B2DCC97809"]
@@ -6018,8 +5782,8 @@
 				item: "create:brass_funnel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 11.5d
+			x: 5.0d
+			y: 10.0d
 		}
 	]
 	title: "Create"

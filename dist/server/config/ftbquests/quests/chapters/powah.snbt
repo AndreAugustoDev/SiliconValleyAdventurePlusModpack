@@ -473,24 +473,11 @@
 			]
 			icon: "powah:book"
 			id: "6B2027DA7AA6FF34"
-			rewards: [
-				{
-					id: "344F5D87627A95C7"
-					item: "powah:book"
-					type: "item"
-				}
-				{
-					id: "0A20CAF72F0E3E11"
-					item: {
-						Count: 1b
-						id: "powah:wrench"
-						tag: {
-							PowahWrenchNBT: { }
-						}
-					}
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "344F5D87627A95C7"
+				item: "powah:book"
+				type: "item"
+			}]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
@@ -4856,18 +4843,6 @@
 			icon: "powah:book"
 			id: "0D94C10EB96053E5"
 			min_width: 250
-			rewards: [{
-				id: "413EB9C7629D2B60"
-				item: {
-					Count: 1b
-					id: "powah:wrench"
-					tag: {
-						PowahWrenchNBT: { }
-					}
-				}
-				title: "Wrench"
-				type: "item"
-			}]
 			shape: "gear"
 			tasks: [{
 				id: "4C763494FAB6F8A2"

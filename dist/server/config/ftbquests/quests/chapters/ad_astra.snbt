@@ -18,7 +18,7 @@
 			rewards: [{
 				id: "09DE891CC6199CA8"
 				type: "xp"
-				xp: 1
+				xp: 10
 			}]
 			subtitle: "To the Stars!"
 			tasks: [{
@@ -31,25 +31,21 @@
 				type: "item"
 			}]
 			title: "&9Ad Astra"
-			x: -5.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"39553F6B02384BFB"
-				"6E9A973B387987F7"
-				"6DABB3DDA44D6377"
-				"30F1C5601C3ECEF1"
-				"2DD1E268E40C2508"
-				"112C0C7C49867DE2"
-				"3178EF6B62E2D458"
-			]
+			dependencies: ["7C412DF5A03BB4D7"]
 			description: [
 				"After gathering all the requisite materials, you're finally ready to go into space!"
 				""
 				"Simply make a 3x3 square out of the launch pads and right click with your rocket to place it."
 				""
-				"Shift right click the rocket to open its GUI. There, you can fill its internal storage with your extra buckets of rocket fuel, oxygen, and launch pads. You can also fuel your rocket itself in this menu."
+				"&6Shift right-click&r a &bplaced rocket&r to open its GUI."
+				""
+				"There, you can insert up to 8 items like your extra buckets of &brocket fuel&r, &boxygen&r, and &blaunch pads&r."
+				""
+				"You can also &6fuel your rocket&r itself in this menu."
 			]
 			id: "0DED6D5C8A4C96B9"
 			rewards: [{
@@ -67,7 +63,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "You're finally ready to go to space! "
 			tasks: [{
 				id: "0F9A475DDBED7F70"
@@ -79,20 +75,18 @@
 				type: "item"
 			}]
 			title: "To the Moon!"
-			x: -1.5d
-			y: 0.0d
+			x: 13.5d
+			y: -1.7763568394002505E-15d
 		}
 		{
-			dependencies: [
-				"112810B97BA58A9C"
-				"112C0C7C49867DE2"
-			]
+			dependencies: ["1FE49E1F5E046F0F"]
 			description: [
-				"In order to propell your rocket into the air, it needs a base to launch from. You're able to place your rocket in the center and shift right click it to fill it with fuel"
+				"In order &6to propell your&r &brocket&r&6 into the air&r, it needs a base to launch from."
 				""
-				"Please note! Your launch pad does not come with you, so bring extra launch pads!"
+				"You're able to place your &brocket&r in the center and &6shift right-click&r it to fill it with &bfuel&r."
+				""
+				"&eYour &r&aLaunch Pad&r&e does not come with you, so bring extra &r&blaunch pads&r!"
 			]
-			hide_dependency_lines: true
 			id: "6E9A973B387987F7"
 			rewards: [{
 				id: "675B6DF562FF19C9"
@@ -108,27 +102,31 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Getting Ready for Launch!"
+			subtitle: "Getting ready for launch!"
 			tasks: [{
 				id: "10456FA8FB4B2BB3"
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			title: "Launch Pad Setup"
-			x: -1.5d
-			y: -1.5d
+			title: "Launch Pad setup"
+			x: 10.0d
+			y: -1.7763568394002505E-15d
 		}
 		{
 			dependencies: [
-				"112810B97BA58A9C"
-				"112C0C7C49867DE2"
+				"4752A206456F0893"
+				"2DB72EDF04FE44CC"
 			]
 			description: [
-				"Rockets can't exactly go into space without something propelling them into it. Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
+				"The &bFuel Refinery&r converts &6Oil&r into &6Fuel&r, for use in Rockets."
+				""
+				"Rockets can't exactly go into space without something propelling them into it."
+				"Oil naturally generated around the world allows you to refine it and turn it into suitable fuel for launching the rocket."
 				""
 				"Please note! Fuel gets depleted when launching the rocket, so bringing extra fuel with you so you can get back home when you launch is extremely important! 6 buckets should be enough to go to space and back"
+				""
+				"You can get Oil either using the &6Fluid Drill&r from &eIndustrial Foregoing&r, or through &eProductive Bees&r."
 			]
-			hide_dependency_lines: true
 			icon: "ad_astra:fuel_refinery"
 			id: "39553F6B02384BFB"
 			rewards: [{
@@ -159,20 +157,26 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: -1.0d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
-				"112810B97BA58A9C"
-				"112C0C7C49867DE2"
+				"15DF44F0C1E48F0B"
+				"30F1C5601C3ECEF1"
 			]
 			description: [
-				"Unlike our lovely planet Earth, the Moon (just like most of the other planets) does not have a breathable atmosphere. You'll need a space suit of some kind in order to be able to breathe."
+				"It's a little-known fact that &cyou can't breathe in space&r."
+				"Well, you &ocan&r, but only out, and only once."
 				""
-				"In order to add oxygen to your suit, you'll need to use an Oxygen Loader."
+				"Unlike our lovely planet Earth, the Moon (just like most of the other planets) does not have a breathable atmosphere."
+				""
+				"A &aSpace Suit&r is incredibly useful to have, as it keeps the air in and the space out."
+				"Also works under water!"
+				""
+				"In order to add oxygen to your suit, you'll need to use an &aOxygen Loader&r."
 			]
-			hide_dependency_lines: true
+			hide_dependency_lines: false
 			icon: {
 				Count: 1b
 				id: "ad_astra:space_helmet"
@@ -243,20 +247,27 @@
 				}
 			]
 			title: "Space Suit"
-			x: -1.5d
-			y: 1.5d
+			x: 7.0d
+			y: -1.0d
 		}
 		{
 			dependencies: [
-				"112810B97BA58A9C"
-				"112C0C7C49867DE2"
+				"15DF44F0C1E48F0B"
+				"5C714C816CE3365B"
 			]
 			description: [
-				"Breathing is an important part of surviving on planets and moons without a proper atmosphere. You can easily manufacture oxygen by supplying water to an Oxygen Loader"
+				"Breathing is an important part of surviving on planets and moons without a proper atmosphere."
 				""
-				"Each bucket of water creates 50 mb of oxygen, so you'll need alot of water to make sufficient oxygen to survive on other planets"
+				"The &aOxygen Loader&r is used to &6pull Oxygen from Water&r."
+				""
+				"Give it &aWater&r, either through &bpipes&r or &bbuckets&r, and provide it with FE power."
+				""
+				"You can take the converted &aOxygen&r out by filling a &bbuckets&r, &boxygen tanks&r, or a &bSpace Suit&r."
+				""
+				"Using an &aOxygen Tank&r will fill your &bSpace Suit&r."
+				""
+				"Each bucket of water &6creates 50 mb of oxygen&r, so you'll need alot of water to make sufficient oxygen to survive on other planets."
 			]
-			hide_dependency_lines: true
 			icon: "ad_astra:oxygen_loader"
 			id: "30F1C5601C3ECEF1"
 			rewards: [{
@@ -289,58 +300,24 @@
 				}
 			]
 			title: "Oxygen Generation"
-			x: -0.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"112810B97BA58A9C"
-				"112C0C7C49867DE2"
-			]
-			description: ["Rockets are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands. In order to construct your rockets, you'll need a NASA workbench."]
-			hide_dependency_lines: true
-			id: "2DD1E268E40C2508"
-			rewards: [{
-				id: "3384F7FAFB2B78ED"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/common"
-						Name: "Ad Astra! Common Lootbag"
-						Type: "COMMON"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Its not hard, just rocket science!"
-			tasks: [{
-				id: "686AE214D9240B7A"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: -0.5d
+			x: 6.0d
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"4F0886FF37E1101A"
-				"47D456E43D42EBC9"
-				"2CDAB93BD674197F"
-				"1384C1D8BD79C6D0"
-				"6582513D8887DF04"
-				"58132755E921E778"
-				"4288B73FA65D8229"
-			]
+			dependencies: ["4F405ACDA98FE821"]
 			description: [
-				"Once you've gathered plenty of desh, you can craft a tier 2 rocket in much the same fashion that you made the tier 1 rocket."
+				"Once you've gathered plenty of &adesh&r, you can craft a &btier 2 rocket&r in much the same fashion that you made the &btier 1 rocket&r."
 				""
-				"Virtually everything is the same about how to prepare for this flight to Mars vs the Moon, except the rocket uses Desh parts instead of steel."
+				"Virtually everything is the same about how to prepare for this flight to &6Mars&r vs the &6Moon&r, except the &brocket&r uses &bdesh parts&r instead of &asteel&r."
 			]
 			id: "1C711856985D4A81"
+			rewards: [{
+				id: "2E985E57044869C1"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Beat Elon to it!"
 			tasks: [{
 				id: "71D614D537FADCE9"
@@ -352,11 +329,11 @@
 				type: "item"
 			}]
 			title: "To Mars!"
-			x: 3.0d
+			x: 21.400000000000002d
 			y: 0.0d
 		}
 		{
-			dependencies: ["0DED6D5C8A4C96B9"]
+			dependencies: ["2988FCC006B3A285"]
 			description: [
 				"Once you're on the Moon, there's plenty to do. One of the most important resources to gather while you're here is Desh."
 				""
@@ -387,8 +364,8 @@
 				type: "item"
 			}]
 			title: "&6Moon Metal"
-			x: 0.7500000000000071d
-			y: 0.010204081632650741d
+			x: 17.599999999999994d
+			y: -1.7763568394002505E-15d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
@@ -397,7 +374,6 @@
 				""
 				"When supplied with enough oxygen in a completely closed environment, you can provide oxygen to said room, making the space livable to any living being (including you!)."
 			]
-			hide_dependency_lines: true
 			id: "58132755E921E778"
 			optional: true
 			rewards: [{
@@ -414,17 +390,18 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Seriously though, where's the Hydrogen???"
 			tasks: [{
 				id: "44A56AA0B6264AE9"
 				item: "ad_astra:oxygen_distributor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: -1.5d
+			x: 16.699999999999996d
+			y: 1.0d
 		}
 		{
-			dependencies: ["4F0886FF37E1101A"]
+			dependencies: ["2988FCC006B3A285"]
 			description: [
 				"Ahora que estás en la luna, puedes conseguir el material más importante de todo el mod; Queso."
 				""
@@ -432,7 +409,6 @@
 				""
 				"TL;DR cheese good. eat some."
 			]
-			hide_dependency_lines: true
 			id: "6582513D8887DF04"
 			optional: true
 			rewards: [{
@@ -457,8 +433,8 @@
 				type: "item"
 			}]
 			title: "Mucho Queso"
-			x: 4.0d
-			y: -1.0d
+			x: 15.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
@@ -467,7 +443,6 @@
 				""
 				"The Solar Panel generates energy when in sunlight. The amount it generates varies depending on the planet/moon's distance from the sun and how much fog covers that celestial body."
 			]
-			hide_dependency_lines: true
 			id: "4288B73FA65D8229"
 			optional: true
 			rewards: [{
@@ -484,19 +459,19 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Photosynthe!... wait thats not right..."
 			tasks: [{
 				id: "278C6932C7FA6742"
 				item: "ad_astra:solar_panel"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -1.0d
+			x: 17.699999999999996d
+			y: -1.5d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: ["Desh cables are a more advanced version of the steel cables, capable of transfering 256 ⚡/t"]
-			hide_dependency_lines: true
 			id: "47D456E43D42EBC9"
 			optional: true
 			rewards: [{
@@ -513,6 +488,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Dish, Desh, Dash"
 			tasks: [{
 				count: 12L
@@ -521,17 +497,20 @@
 				type: "item"
 			}]
 			title: "Desh Distribution"
-			x: 2.0d
-			y: 1.0d
+			x: 16.699999999999996d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: [
-				"The rover is a useful machine that allows the user to traverse over the strange terrain of the other celestial bodies."
+				"The &aRover&r is a useful vehicle that allows the user to traverse over the strange terrain of the other celestial bodies."
 				""
-				"It requires fuel to run, and can accept 2 passengers; a driver and a passenger."
+				"It requires &bfuel&r to run, and &6can accept 2 passengers&r; a driver and a passenger."
+				""
+				"Probably less useful back home."
+				""
+				"&mThere's only one tier.&r"
 			]
-			hide_dependency_lines: true
 			id: "2CDAB93BD674197F"
 			optional: true
 			rewards: [{
@@ -548,6 +527,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Mark Rober Minecraft Mod when?"
 			tasks: [{
 				id: "7B576F4EBEB08269"
@@ -559,13 +539,12 @@
 				type: "item"
 			}]
 			title: "Space Rover"
-			x: 3.0d
-			y: 1.5d
+			x: 18.699999999999996d
+			y: -1.0d
 		}
 		{
 			dependencies: ["4F0886FF37E1101A"]
 			description: ["Desh Pipes are useful for transfering fluids over some distance. When paired with the Fluid Pump, it can be helpful in automating the production of oxygen."]
-			hide_dependency_lines: true
 			icon: "ad_astra:desh_fluid_pipe"
 			id: "1384C1D8BD79C6D0"
 			optional: true
@@ -583,6 +562,7 @@
 				}
 				type: "item"
 			}]
+			shape: "pentagon"
 			subtitle: "Dish, Desh, Drip"
 			tasks: [
 				{
@@ -598,7 +578,7 @@
 				}
 			]
 			title: "Desh Draining"
-			x: 4.0d
+			x: 18.699999999999996d
 			y: 1.0d
 		}
 		{
@@ -626,19 +606,11 @@
 				type: "item"
 			}]
 			title: "Mars Metal"
-			x: 5.282312925170075d
-			y: -0.017006802721095227d
+			x: 24.299999999999997d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"760572711CF727BB"
-				"2223D0AFDF5C10FB"
-				"7311ED0FFC4444EB"
-				"1C2AAE8F4E119084"
-				"6D01C247A8864071"
-				"5A2581CBAB21D071"
-				"6A298F887D96C0E8"
-			]
+			dependencies: ["760572711CF727BB"]
 			description: [
 				"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
 				""
@@ -660,7 +632,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Sizzling Space"
 			tasks: [{
 				id: "0ED147E69FC78915"
@@ -672,13 +644,15 @@
 				type: "item"
 			}]
 			title: "To the Hotter Planets!"
-			x: 7.5d
+			x: 26.799999999999997d
 			y: 0.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
-			description: ["A simple block that can detect whether or not the area has oxygen. Useful for making sure your air lock is working."]
-			hide_dependency_lines: true
+			description: [
+				"A simple block that can detect whether or not the area has oxygen."
+				"Useful for making sure your air lock is working."
+			]
 			id: "2223D0AFDF5C10FB"
 			optional: true
 			rewards: [{
@@ -701,7 +675,7 @@
 				item: "ad_astra:oxygen_sensor"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 23.299999999999997d
 			y: -1.0d
 		}
 		{
@@ -711,7 +685,6 @@
 				""
 				"The Netherite Space Suit is the best way to survive on the hotter planets, but you can also avoid heat damage by drinking a fire resistance potion."
 			]
-			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "ad_astra:netherite_space_helmet"
@@ -782,8 +755,8 @@
 				}
 			]
 			title: "Netherite Space Suit"
-			x: 7.5d
-			y: -1.5d
+			x: 25.299999999999997d
+			y: 1.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
@@ -792,7 +765,6 @@
 				""
 				"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
 			]
-			hide_dependency_lines: true
 			id: "1C2AAE8F4E119084"
 			rewards: [{
 				id: "12EC47150EA32980"
@@ -814,13 +786,12 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -1.0d
+			x: 24.299999999999997d
+			y: -1.5d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: ["The Ostrum fluid pipe acts in much the same way that the Desh pipe does, but with a significantly increased transfer rate."]
-			hide_dependency_lines: true
 			id: "6D01C247A8864071"
 			optional: true
 			rewards: [{
@@ -843,17 +814,17 @@
 				item: "ad_astra:ostrum_fluid_pipe"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 1.0d
+			x: 24.299999999999997d
+			y: 1.5d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"This useful block can be used to store and redistrubute energy. It both accepts and automatically pushes energy to adjacent energy storages."
+				"This useful block can be used to store and redistrubute energy."
+				"It both accepts and automatically pushes energy to adjacent energy storages."
 				""
 				"Right clicking with an item that stores energy places the item onto the Energizer to charge it."
 			]
-			hide_dependency_lines: true
 			id: "5A2581CBAB21D071"
 			rewards: [{
 				id: "0BF2CD27A0F486BA"
@@ -875,17 +846,16 @@
 				item: "ad_astra:energizer"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 1.5d
+			x: 23.299999999999997d
+			y: 1.0d
 		}
 		{
-			dependencies: ["760572711CF727BB"]
+			dependencies: ["1C2AAE8F4E119084"]
 			description: [
 				"Cryo fuel is an innovation in fuel technology, allowing you to get fuel from easier to find chilly resources, like ice."
 				""
 				"While normal rocket fuel requires 3 buckets in order to successfully make it to your destination, you only need a 1 bucket of cryo fuel to make a successful space flight. Make sure you take 2, one for the trip and one for the way back!"
 			]
-			hide_dependency_lines: true
 			id: "6A298F887D96C0E8"
 			rewards: [{
 				id: "2E70087ECC461D73"
@@ -909,8 +879,8 @@
 				type: "item"
 			}]
 			title: "Cryo Fuel"
-			x: 8.5d
-			y: 1.0d
+			x: 25.299999999999997d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -934,7 +904,7 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			size: 1.5d
+			size: 2.0d
 			subtitle: "Beyond the Milky Way"
 			tasks: [{
 				id: "32A03D8D447B4DE3"
@@ -946,7 +916,7 @@
 				type: "item"
 			}]
 			title: "To ... Beyond?"
-			x: 12.0d
+			x: 32.0d
 			y: 0.0d
 		}
 		{
@@ -975,12 +945,16 @@
 				type: "item"
 			}]
 			title: "&cMercury Metal"
-			x: 10.0d
+			x: 29.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["112810B97BA58A9C"]
-			description: ["Steel is the basis of your pre intragalactic technology. With it, you can make all of the equipment and rockets required to go to space."]
+			description: [
+				"&bSteel&r is the basis of your pre intragalactic technology."
+				""
+				"With it, you can make all of the equipment and rockets required to go to space."
+			]
 			id: "112C0C7C49867DE2"
 			rewards: [{
 				id: "68AC4A8CFA4392A5"
@@ -1011,8 +985,8 @@
 				type: "item"
 			}]
 			title: "&8Earth Metal"
-			x: -3.5d
-			y: 0.0d
+			x: 1.5d
+			y: -1.7763568394002505E-15d
 		}
 		{
 			dependencies: ["112C0C7C49867DE2"]
@@ -1023,7 +997,6 @@
 				""
 				"- CodexAdrian"
 			]
-			hide_dependency_lines: true
 			id: "3178EF6B62E2D458"
 			optional: true
 			rewards: [{
@@ -1048,8 +1021,8 @@
 				type: "item"
 			}]
 			title: "Surging Steel"
-			x: -2.5d
-			y: 1.0d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["6114CC6BE5D2627F"]
@@ -1122,39 +1095,73 @@
 				}
 			]
 			title: "Jet Suit"
-			x: 12.0d
+			x: 31.0d
 			y: -1.5d
 		}
 		{
 			dependencies: [
-				"4288B73FA65D8229"
-				"0DED6D5C8A4C96B9"
-				"6E4D99BBFFDFB961"
-				"6DABB3DDA44D6377"
+				"77BBDC91E0C13E6F"
+				"7663B0A12827A162"
+				"33D6E68ED02850F8"
 				"4F0886FF37E1101A"
-				"6114CC6BE5D2627F"
-				"30F1C5601C3ECEF1"
+				"0407804C7ED7A408"
+				"3486444B51E71632"
 				"58132755E921E778"
-				"6A298F887D96C0E8"
+				"06075D202F626C65"
+				"3D7A2D3CB598967F"
+				"62FDE7EA1AAEFA1A"
+				"4F405ACDA98FE821"
 				"112810B97BA58A9C"
-				"6E8BF9F8A67D1B66"
+				"4752A206456F0893"
 				"3178EF6B62E2D458"
-				"2CDAB93BD674197F"
 				"2223D0AFDF5C10FB"
 				"6E9A973B387987F7"
+				"719DABB84E95B69F"
+				"3C606FCA13976092"
 				"1C2AAE8F4E119084"
 				"7311ED0FFC4444EB"
 				"6D01C247A8864071"
 				"112C0C7C49867DE2"
-				"1384C1D8BD79C6D0"
+				"79ADB518AE82CB83"
 				"40CB98FD334EB3CE"
 				"760572711CF727BB"
-				"1C711856985D4A81"
 				"47D456E43D42EBC9"
 				"6582513D8887DF04"
-				"39553F6B02384BFB"
-				"2DD1E268E40C2508"
 				"5A2581CBAB21D071"
+				"46F03CC6467032F9"
+				"15DF44F0C1E48F0B"
+				"4288B73FA65D8229"
+				"08F8129B6F2BA30B"
+				"0DED6D5C8A4C96B9"
+				"4F55D24F78EBC335"
+				"4C77B32633B5B1A0"
+				"4D2B259D747D3C8E"
+				"6E4D99BBFFDFB961"
+				"5C714C816CE3365B"
+				"0758AE9BEA02B588"
+				"6806890FCE48F28A"
+				"6DABB3DDA44D6377"
+				"59822C508A5BD9C7"
+				"1B372900C379161F"
+				"6114CC6BE5D2627F"
+				"7C412DF5A03BB4D7"
+				"2DB72EDF04FE44CC"
+				"30F1C5601C3ECEF1"
+				"6A298F887D96C0E8"
+				"12B46D169B7161B1"
+				"1809D70D466A620D"
+				"2A34E6A4457FBC88"
+				"4AED9280BCB3CE39"
+				"6E8BF9F8A67D1B66"
+				"2CDAB93BD674197F"
+				"1FE49E1F5E046F0F"
+				"2E8D25268A8F9ED6"
+				"1384C1D8BD79C6D0"
+				"1C711856985D4A81"
+				"707022B9906EA55C"
+				"79310D27A711F77B"
+				"39553F6B02384BFB"
+				"2988FCC006B3A285"
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -1189,204 +1196,21 @@
 				type: "checkmark"
 			}]
 			title: "&cAd Astra 100%"
-			x: 3.0d
-			y: -5.0d
+			x: 16.0d
+			y: -4.0d
 		}
 		{
+			dependencies: ["6E9A973B387987F7"]
 			description: [
-				"The &bNASA Workbench&r is used to &6craft Rockets&r."
+				"● It costs &6three buckets of fuel&r to launch a &bRocket&r."
+				"&cMake sure you have enough for a return trip!&r"
 				""
-				"There are &6four tiers&r; naturally, you have to make the first one first."
-			]
-			id: "5C442AB0745E0A9F"
-			rewards: [{
-				id: "02EF85896DA72C7E"
-				item: "ad_astra:astrodux"
-				type: "item"
-			}]
-			subtitle: "Legally distinct"
-			tasks: [{
-				id: "0F90EAE26D847D54"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			title: "NASA Workbench"
-			x: -2.0d
-			y: 4.75d
-		}
-		{
-			dependencies: [
-				"5C442AB0745E0A9F"
-				"0CA38772D2301B20"
-				"7B15D0666F8BBED8"
-			]
-			description: [
-				"Once you've crafted your &bRocket&r, place it down on a &bLaunchpad&r."
+				"● &6Bring a Launch Pad&r with you! You can't launch without one."
 				""
-				"Sneak right-click a placed Rocket to open its GUI. Here, you can insert &6Fuel&r and insert up to 8 items for it to store."
-			]
-			icon: {
-				Count: 1b
-				id: "ad_astra:tier_1_rocket"
-				tag: {
-					BotariumData: { }
-				}
-			}
-			id: "1F8DE53B2E2D31C4"
-			rewards: [{
-				count: 32
-				id: "5E12E04C59A3FB66"
-				item: "minecraft:soul_torch"
-				type: "item"
-			}]
-			subtitle: "McQuack"
-			tasks: [
-				{
-					id: "7F41327DBBD4A904"
-					item: "ad_astra:launch_pad"
-					type: "item"
-				}
-				{
-					id: "0AE6B2C2C8A35E26"
-					item: {
-						Count: 1b
-						id: "ad_astra:tier_1_rocket"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -0.5d
-			y: 4.75d
-		}
-		{
-			description: [
-				"The &bFuel Refinery&r converts &6Oil&r into &6Fuel&r, for use in Rockets."
+				"● When you reach your destination, you'll be in a &6freefalling Lander&r."
+				"&cHold space to slow down!&r"
 				""
-				"You can get Oil either using the &6Fluid Drill&r from &eIndustrial Foregoing&r, or through &eProductive Bees&r."
-			]
-			id: "0CA38772D2301B20"
-			subtitle: "You so fine"
-			tasks: [{
-				id: "1276CAD67BBC9D52"
-				item: "ad_astra:fuel_refinery"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 3.25d
-		}
-		{
-			description: [
-				"It's a little-known fact that &cyou can't breathe in space&r. Well, you &ocan&r, but only out, and only once."
-				""
-				"A &bSpace Suit&r is incredibly useful to have, as it keeps the air in and the space out. Also works under water!"
-			]
-			icon: {
-				Count: 1b
-				id: "ad_astra:space_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "61F019B1543E4D65"
-			subtitle: "Dapper!"
-			tasks: [
-				{
-					id: "06BCDB9AA6216C3D"
-					item: {
-						Count: 1b
-						id: "ad_astra:space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0B7926FEA6D7526F"
-					item: {
-						Count: 1b
-						id: "ad_astra:space_suit"
-						tag: {
-							BotariumData: { }
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4F705F97FE6ECFA2"
-					item: {
-						Count: 1b
-						id: "ad_astra:space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "09E0238C8CE34584"
-					item: {
-						Count: 1b
-						id: "ad_astra:space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: 6.25d
-		}
-		{
-			dependencies: ["61F019B1543E4D65"]
-			description: [
-				"The &bOxygen Loader&r is used to &6pull Oxygen from Water&r."
-				""
-				"Give it Water, either through pipes or Buckets, and provide it with FE power."
-				""
-				"You can take the converted Oxygen out by filling a &6Buckets&r, &6Oxygen Tanks&r, or a &6Space Suit&r. Using an Oxygen Tank will fill your Space Suit."
-			]
-			id: "7B15D0666F8BBED8"
-			rewards: [{
-				id: "110FB17B53642D57"
-				item: {
-					Count: 1b
-					id: "ad_astra:oxygen_tank"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 500L
-								Fluid: "ad_astra:oxygen"
-							}]
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Breathe easy"
-			tasks: [{
-				id: "2C3784CF265DF180"
-				item: "ad_astra:oxygen_loader"
-				type: "item"
-			}]
-			x: -0.5d
-			y: 6.25d
-		}
-		{
-			dependencies: ["1F8DE53B2E2D31C4"]
-			description: [
-				"• It costs &6three buckets of Fuel&r to launch a Rocket. Make sure you have enough for a return trip!"
-				""
-				"• &6Bring a Launch Pad&r with you! You can't launch without one."
-				""
-				"• When you reach your destination, you'll be in a &6freefalling Lander&r. &cHold space to slow down!&r"
-				""
-				"• You will &6land at the same coordinates you launched from&r, just in a different dimension."
+				"● You will &6land at the same coordinates you launched from&r, just in a different dimension."
 			]
 			icon: "minecraft:filled_map"
 			id: "7C412DF5A03BB4D7"
@@ -1402,11 +1226,11 @@
 				type: "checkmark"
 			}]
 			title: "Pre-flight Check List"
-			x: 1.0d
-			y: 4.75d
+			x: 11.5d
+			y: -1.7763568394002505E-15d
 		}
 		{
-			dependencies: ["7C412DF5A03BB4D7"]
+			dependencies: ["0DED6D5C8A4C96B9"]
 			description: [
 				"If you have the proper materials in your inventory, you can make a &bSpace Station&r orbitting one of the major astral bodies."
 				""
@@ -1433,11 +1257,11 @@
 				}
 			]
 			title: "Orbit a planet"
-			x: 1.0d
-			y: 6.25d
+			x: 13.5d
+			y: 1.5d
 		}
 		{
-			dependencies: ["7C412DF5A03BB4D7"]
+			dependencies: ["0DED6D5C8A4C96B9"]
 			description: [
 				"&bThe Moon&r is a barren wasteland, (mostly) devoid of life."
 				""
@@ -1461,81 +1285,28 @@
 				title: "Land on the Moon"
 				type: "dimension"
 			}]
-			x: 2.5d
-			y: 4.75d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0CA38772D2301B20"]
+			dependencies: ["39553F6B02384BFB"]
 			description: [
 				"The &bFuel Loader&r will &6automatically fuel Rockets&r within 2 blocks of itself."
 				""
 				"It will also refill the &6Rover&r."
 			]
 			id: "0758AE9BEA02B588"
-			size: 0.75d
+			optional: true
 			subtitle: "Make a Fuel Loader"
 			tasks: [{
 				id: "0F29C1EE53B9EDFA"
 				item: "ad_astra_giselle_addon:fuel_loader"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 2.4250000000000003d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
-			dependencies: ["2988FCC006B3A285"]
-			description: [
-				"The &bRover&r is a vehicle, powered by Fuel, that lets you &6quickly explore&r."
-				""
-				"Probably less useful back home."
-			]
-			id: "14275C56C0BD2599"
-			optional: true
-			subtitle: "There's only one tier"
-			tasks: [{
-				id: "7D468B863D729CF3"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rover"
-					tag: {
-						BotariumData: { }
-					}
-				}
-				type: "item"
-			}]
-			x: 2.5d
-			y: 6.25d
-		}
-		{
-			dependencies: ["2988FCC006B3A285"]
-			description: [
-				"With access to Desh, you can make the &bTier 2 Rocket&r."
-				""
-				"This allows access to &6Mars&r."
-			]
-			id: "131541B40619DA30"
-			subtitle: "Now in orange!"
-			tasks: [{
-				id: "34FE4C7CBE07C1BB"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_2_rocket"
-					tag: {
-						BotariumData: {
-							StoredFluids: [{
-								Amount: 0L
-								Fluid: "minecraft:empty"
-							}]
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 4.75d
-		}
-		{
-			dependencies: ["131541B40619DA30"]
 			description: [
 				"&bMars&r is &oalso&r a barren wasteland, mostly."
 				""
@@ -1554,8 +1325,8 @@
 				type: "dimension"
 			}]
 			title: "Ares"
-			x: 5.5d
-			y: 4.75d
+			x: 27.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["46F03CC6467032F9"]
@@ -1573,8 +1344,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.25d
+			x: 29.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["46F03CC6467032F9"]
@@ -1595,8 +1366,8 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 5.5d
-			y: 6.25d
+			x: 27.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["46F03CC6467032F9"]
@@ -1658,8 +1429,8 @@
 				}
 			]
 			title: "Netherite Space Suit"
-			x: 7.0d
-			y: 5.25d
+			x: 29.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -1709,8 +1480,8 @@
 				title: "Reach Mercury or Venus"
 				type: "item"
 			}]
-			x: 8.5d
-			y: 4.75d
+			x: 30.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C606FCA13976092"]
@@ -1753,8 +1524,8 @@
 					type: "dimension"
 				}
 			]
-			x: 10.0d
-			y: 4.75d
+			x: 32.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3C606FCA13976092"]
@@ -1820,42 +1591,19 @@
 				}
 			]
 			title: "Jet Suit"
-			x: 8.5d
-			y: 6.25d
-		}
-		{
-			description: ["Completes the &6Reach Mercury or Venus&r task in the Ad Astra quest, when either of this quest's tasks are complete."]
-			icon: "ad_astra:venus_globe"
-			id: "45293E09C7E70D25"
-			invisible: true
-			rewards: [{
-				auto: "invisible"
-				command: "/ftbquests change_progress @p complete 50A226645CC9AB2C"
-				id: "1B97D57D5A540CD1"
-				player_command: false
-				type: "command"
-			}]
-			tasks: [
-				{
-					dimension: "ad_astra:venus"
-					id: "3BFC02A3CE7E7F82"
-					type: "dimension"
-				}
-				{
-					dimension: "ad_astra:mercury"
-					id: "4E3BD1243C5286A1"
-					type: "dimension"
-				}
-			]
-			x: 5.5d
+			x: 30.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["4752A206456F0893"]
+			dependencies: [
+				"06075D202F626C65"
+				"6DABB3DDA44D6377"
+				"4F55D24F78EBC335"
+			]
 			description: [
-				"Ready, get set, go - blast off..."
+				"&bRockets&r are far too large for the vanilla crafting table, and theres only so much you can do with your bare hands."
 				""
-				"&7Reward: x1 Block of Steel, 1x Loot Bundle \\& 5 EXP Levels."
+				"In order to construct your &brockets&r, you'll need a &aNASA Workbench&r."
 			]
 			id: "1FE49E1F5E046F0F"
 			rewards: [
@@ -1865,49 +1613,32 @@
 					type: "item"
 				}
 				{
-					id: "65E5C2152A6FB50C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "640873C1F7F82832"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 10
 				}
 			]
 			shape: "gear"
-			subtitle: "Craft a Nasa Workbench."
+			subtitle: "Ready, get set, go - blast off..."
 			tasks: [{
 				id: "52B7EAED52EB0F37"
 				item: "ad_astra:nasa_workbench"
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 12.700000000000001d
+			x: 8.5d
+			y: -1.7763568394002505E-15d
 		}
 		{
-			dependencies: ["56E6F1C7EC88FF79"]
-			description: [
-				"Used to build your tier 1 rocket."
-				""
-				"&7Reward: x2 Steel Plate \\& 1x Loot Bundle Fragment."
-			]
+			dependencies: ["59822C508A5BD9C7"]
+			description: ["Used to build your first rocket."]
 			id: "4752A206456F0893"
-			rewards: [
-				{
-					count: 2
-					id: "7C222E7AF3CD4F92"
-					item: "immersiveengineering:plate_steel"
-					type: "item"
-				}
-				{
-					id: "226BD59BAE9FE698"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "7C222E7AF3CD4F92"
+				item: "immersiveengineering:plate_steel"
+				type: "item"
+			}]
 			shape: "diamond"
-			subtitle: "Create a Steel Plate."
 			tasks: [{
 				icon: "immersiveengineering:plate_steel"
 				id: "368DFC5E3F636673"
@@ -1921,8 +1652,8 @@
 				title: "Steel Plate"
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 11.1d
+			x: 4.0d
+			y: 0.0d
 		}
 		{
 			description: ["Decor for the space adventurer."]
@@ -1939,12 +1670,13 @@
 				item: "ad_astra:earth_globe"
 				type: "item"
 			}]
-			x: 3.6000000000000014d
-			y: 22.3d
+			x: 13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["77BBDC91E0C13E6F"]
 			description: ["Decor for the space adventurer."]
+			hide: true
 			hide_dependency_lines: true
 			id: "08F8129B6F2BA30B"
 			optional: true
@@ -1959,12 +1691,13 @@
 				item: "ad_astra:moon_globe"
 				type: "item"
 			}]
-			x: 0.7000000000000028d
-			y: 22.3d
+			x: 13.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4AED9280BCB3CE39"]
 			description: ["Decor for the space adventurer."]
+			hide: true
 			hide_dependency_lines: true
 			id: "2E8D25268A8F9ED6"
 			optional: true
@@ -1979,12 +1712,13 @@
 				item: "ad_astra:mars_globe"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 22.3d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4C77B32633B5B1A0"]
 			description: ["Decor for the space adventurer."]
+			hide: true
 			hide_dependency_lines: true
 			icon: "ad_astra:mercury_globe"
 			id: "79310D27A711F77B"
@@ -2000,12 +1734,13 @@
 				item: "ad_astra:mercury_globe"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 22.3d
+			x: 12.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["12B46D169B7161B1"]
 			description: ["Decor for the space adventurer."]
+			hide: true
 			hide_dependency_lines: true
 			id: "3D7A2D3CB598967F"
 			optional: true
@@ -2020,12 +1755,13 @@
 				item: "ad_astra:venus_globe"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 22.3d
+			x: 12.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["1809D70D466A620D"]
 			description: ["Decor for the space adventurer."]
+			hide: true
 			hide_dependency_lines: true
 			id: "4D2B259D747D3C8E"
 			optional: true
@@ -2040,84 +1776,63 @@
 				item: "ad_astra:glacio_globe"
 				type: "item"
 			}]
-			x: -0.7999999999999972d
-			y: 22.3d
+			x: 14.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "746884699E1F3AD1"
-			rewards: [{
-				count: 2
-				id: "2CD134D412EA8F85"
-				item: "mekanism:ingot_steel"
-				type: "item"
-			}]
-			subtitle: "Craft a rocket nose cone."
-			tasks: [{
-				id: "0085C6F14C7AB1D6"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
-			x: 4.200000000000003d
-			y: 13.100000000000001d
-		}
-		{
-			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "095005D325C74581"
-			rewards: [{
-				count: 2
-				id: "59345D2D507F38EC"
-				item: "mekanism:ingot_steel"
-				type: "item"
-			}]
-			subtitle: "Craft an engine frame."
-			tasks: [{
-				id: "62EB277748C4612A"
-				item: "ad_astra:engine_frame"
-				type: "item"
-			}]
-			x: 1.6000000000000014d
-			y: 12.000000000000002d
-		}
-		{
-			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
+			dependencies: ["15DF44F0C1E48F0B"]
+			description: ["Let's get the basic parts ready to head to space."]
 			id: "06075D202F626C65"
 			rewards: [{
 				count: 2
 				id: "12197B5BE45F1640"
-				item: "mekanism:ingot_steel"
+				item: "ad_astra:steel_ingot"
 				type: "item"
 			}]
-			subtitle: "Craft an engine fan."
-			tasks: [{
-				id: "52BE7F75857BBF6F"
-				item: "ad_astra:engine_fan"
-				type: "item"
-			}]
-			x: 1.6000000000000014d
-			y: 13.1d
+			tasks: [
+				{
+					id: "50DB5BC39B1EE5F2"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "3167163CD25378C1"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/steel"
+						}
+					}
+					title: "Any Steel Block"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "393E9741D8B430DD"
+					item: "ad_astra:steel_tank"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "614621151E9E9F34"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					id: "5B3DBA8DB25D01CC"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+			]
+			title: "Your First Rocket"
+			x: 7.0d
+			y: 0.0d
 		}
 		{
-			description: [
-				"Use this to craft some steel plates."
-				""
-				"&7Reward: 2x Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
+			dependencies: ["112C0C7C49867DE2"]
+			description: ["Use this to craft some steel plates."]
 			hide_dependency_lines: false
 			id: "59822C508A5BD9C7"
 			rewards: [{
@@ -2127,680 +1842,93 @@
 				type: "item"
 			}]
 			shape: "rsquare"
-			subtitle: "Craft a Compressor."
 			tasks: [{
 				id: "1890B1B47B0BB45E"
 				item: "ad_astra:compressor"
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 8.0d
+			x: 3.0d
+			y: -1.7763568394002505E-15d
 		}
 		{
-			dependencies: [
-				"6B296596CD127449"
-				"4C6B7F5D47CD0C70"
-			]
-			description: [
-				"Zoom, zoom..."
-				""
-				"&7Rewards: x1 Magenta Flag, x1 Loot Bundle \\& 1 EXP Level."
-			]
-			id: "0FA5162711FED7A9"
-			rewards: [
-				{
-					id: "0E66F7F7053FF1C0"
-					item: "ad_astra:magenta_flag"
-					type: "item"
-				}
-				{
-					id: "4B4458A4E199FE87"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "49B865D1CB3E5493"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "gear"
-			subtitle: "Craft a tier 1 rocket."
-			tasks: [{
-				id: "331FD4BA8D6F561F"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 5.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Let's get the basic parts ready to head to space."
-				""
-				"&7Reward: x2 Steel Ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "360C3457CEEA22D5"
+			dependencies: ["4F0886FF37E1101A"]
+			id: "4F405ACDA98FE821"
 			rewards: [{
 				count: 2
-				id: "77AC8C4E82BF9EA8"
-				item: "mekanism:ingot_steel"
-				type: "item"
-			}]
-			subtitle: "Craft a rocket fin."
-			tasks: [{
-				id: "2E70024134381787"
-				item: "ad_astra:rocket_fin"
-				type: "item"
-			}]
-			x: 4.200000000000003d
-			y: 12.0d
-		}
-		{
-			dependencies: ["4752A206456F0893"]
-			description: [
-				"Useful when trying to head to space :p"
-				""
-				"&7Reward: x2 steel ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "4C6B7F5D47CD0C70"
-			rewards: [
-				{
-					count: 2
-					id: "5EDF788BABB6A7B4"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5CD14EC6F19A8162"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
-			subtitle: "Craft 2 steel tanks."
-			tasks: [{
-				count: 2L
-				id: "3A4C3A7FC3CF8C82"
-				item: "ad_astra:steel_tank"
-				type: "item"
-			}]
-			title: "Steel Tank"
-			x: 4.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["4752A206456F0893"]
-			description: [
-				"You're almost ready to head into space."
-				""
-				"&7Reward: x4 Loot Bundle Fragment"
-			]
-			id: "6B296596CD127449"
-			rewards: [{
-				count: 4
-				id: "477470CA2E8CA805"
-				item: "lootbundles:fragment"
-				type: "item"
-			}]
-			subtitle: "Craft a steel engine."
-			tasks: [{
-				id: "0E1EB05D2D59C9F7"
-				item: "ad_astra:steel_engine"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 10.0d
-		}
-		{
-			dependencies: ["4D71E2AFA32631E7"]
-			description: [
-				"Zoom, zoom..."
-				""
-				"&7Rewards: x1 blue flag, x2 Loot Bundle \\& 2 EXP Levels."
-			]
-			id: "2671CAFB7B1E1933"
-			rewards: [
-				{
-					id: "0C40631B827C25F2"
-					item: "ad_astra:blue_flag"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0AF6BB24E0E1805D"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "2AA3A9E4BD5177F5"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
-			shape: "gear"
-			subtitle: "Craft a tier 2 rocket."
-			tasks: [{
-				id: "420005A7BFD0CB9F"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_2_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -0.10000000000000142d
-			y: 15.6d
-		}
-		{
-			dependencies: ["6252590716097C6D"]
-			description: [
-				"Zoom, zoom..."
-				""
-				"&7Rewards: x1 Pink Flag, x3 Loot Bundle \\& 5 EXP Levels."
-			]
-			id: "7E159E3826EA1F3E"
-			rewards: [
-				{
-					id: "03BED73645D3FFA0"
-					item: "ad_astra:pink_flag"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "21E46B681BD2B0DE"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "5EA5E7958B451DA3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			shape: "gear"
-			subtitle: "Craft a tier 3 rocket."
-			tasks: [{
-				id: "728AA15A066ACB86"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_3_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 6.100000000000001d
-			y: 15.6d
-		}
-		{
-			dependencies: ["2BAF03664A5D36AF"]
-			description: [
-				"Zoom, zoom..."
-				""
-				"&7Rewards: x1 gray flag, x4 Loot Bundle \\& 10 EXP Levels."
-			]
-			id: "2704D6F0E2508095"
-			rewards: [
-				{
-					id: "3F8AFC7522A839FD"
-					item: "ad_astra:gray_flag"
-					type: "item"
-				}
-				{
-					id: "0FBA9846AEC40045"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			shape: "gear"
-			subtitle: "Craft a tier 4 rocket."
-			tasks: [{
-				id: "76678E00BBA321BD"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_4_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 8.600000000000001d
-			y: 14.8d
-		}
-		{
-			dependencies: ["1FE49E1F5E046F0F"]
-			description: [
-				"Place your rocket here and blast off."
-				""
-				"&7Reward: x1 Block of Steel \\& 3x Loot Bundle Fragment."
-			]
-			id: "7C64107F52DF00BC"
-			rewards: [{
-				id: "162A502EC4D882C2"
-				item: "mekanism:block_steel"
-				type: "item"
-			}]
-			subtitle: "Craft a Rocket Launch Pad."
-			tasks: [{
-				id: "09CEA707F1B332F0"
-				item: "ad_astra:launch_pad"
-				type: "item"
-			}]
-			title: "Rocket Launch Pad"
-			x: 2.8999999999999986d
-			y: 14.1d
-		}
-		{
-			description: [
-				"Used to build your tier 2 rocket."
-				""
-				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "4D71E2AFA32631E7"
-			rewards: [
-				{
-					count: 2
-					id: "235B3EC82133EC59"
-					item: "ad_astra:desh_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "3FA1C66BA244C66A"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			subtitle: "Create a Desh Ingot."
-			tasks: [{
-				id: "69F619C6465F361A"
+				id: "7F6B34880DE0954B"
 				item: "ad_astra:desh_ingot"
 				type: "item"
 			}]
-			x: -0.10000000000000142d
-			y: 16.8d
-		}
-		{
-			dependencies: ["4D71E2AFA32631E7"]
-			description: [
-				"Used to build your tier 2 rocket."
-				""
-				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "4F405ACDA98FE821"
-			rewards: [
-				{
-					count: 2
-					id: "7F6B34880DE0954B"
-					item: "ad_astra:desh_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "0648EE5D226ACC1B"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
-			shape: "diamond"
-			subtitle: "Create a Desh Plate."
-			tasks: [{
-				id: "5832D63EED662D86"
-				item: "ad_astra:desh_plate"
-				type: "item"
-			}]
-			x: -0.10000000000000142d
-			y: 18.0d
-		}
-		{
-			dependencies: ["4D71E2AFA32631E7"]
-			description: [
-				"Used to build your tier 2 rocket."
-				""
-				"&7Reward: x2 desh ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "20D22E8DA314D5BD"
-			rewards: [
-				{
-					count: 2
-					id: "594BDA2CD144A164"
-					item: "ad_astra:desh_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7676042A1F742CFD"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
-			subtitle: "Craft 2 desh tank."
-			tasks: [{
-				count: 2L
-				id: "037394A19E2F960D"
-				item: "ad_astra:desh_tank"
-				type: "item"
-			}]
-			title: "Desh Tank"
-			x: -1.3999999999999986d
-			y: 16.8d
-		}
-		{
-			dependencies: ["20D22E8DA314D5BD"]
-			description: [
-				"You're almost ready to go back into space."
-				""
-				"&7Reward: x4 Loot Bundle Fragment"
-			]
-			id: "4CCF5B1FD6AEE7E8"
-			rewards: [{
-				count: 4
-				id: "548BB69758E4577D"
-				item: "lootbundles:fragment"
-				type: "item"
-			}]
-			subtitle: "Craft a desh engine."
-			tasks: [{
-				id: "757EF8304D723FB2"
-				item: "ad_astra:desh_engine"
-				type: "item"
-			}]
-			x: -1.3999999999999986d
-			y: 18.0d
-		}
-		{
-			description: [
-				"Used to build your tier 3 rocket."
-				""
-				"&7Reward: x2 ostrum ingot"
-			]
-			id: "6252590716097C6D"
-			rewards: [
-				{
-					count: 2
-					id: "6945495B5BD9A23C"
-					item: "ad_astra:ostrum_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "4355681DE5C4749D"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
 			shape: "octagon"
-			subtitle: "Create an Ostrum Ingot."
-			tasks: [{
-				id: "6CFA08BC68D2B19E"
-				item: "ad_astra:ostrum_ingot"
-				type: "item"
-			}]
-			x: 6.100000000000001d
-			y: 16.9d
-		}
-		{
-			dependencies: ["6252590716097C6D"]
-			description: [
-				"Used to build your tier 3 rocket."
-				""
-				"&7Reward: x2 ostrum ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "1E4561B23E3570CF"
-			rewards: [{
-				count: 2
-				id: "27CD5E49BC15C0F2"
-				item: "ad_astra:ostrum_ingot"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "Create a Ostrum Plate."
-			tasks: [{
-				id: "2696A1C47F1236FD"
-				item: "ad_astra:ostrum_plate"
-				type: "item"
-			}]
-			x: 6.100000000000001d
-			y: 18.1d
-		}
-		{
-			dependencies: ["6252590716097C6D"]
-			description: [
-				"Used to build your tier 3 rocket."
-				""
-				"&7Rewards: x2 ostrum ingot, x2 steel ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "2DD4057509AD751B"
-			rewards: [
+			tasks: [
 				{
-					count: 2
-					id: "74E2983487F5679D"
-					item: "ad_astra:ostrum_ingot"
+					count: 2L
+					id: "520CF9449D82D663"
+					item: "ad_astra:desh_tank"
 					type: "item"
 				}
 				{
-					count: 2
-					id: "550338D71BBCBFC5"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-			]
-			subtitle: "Craft x2 ostrum tank."
-			tasks: [{
-				count: 2L
-				id: "209D8C8B33CA4D23"
-				item: "ad_astra:ostrum_tank"
-				type: "item"
-			}]
-			title: "Ostrum Tank"
-			x: 7.300000000000001d
-			y: 16.9d
-		}
-		{
-			dependencies: ["2DD4057509AD751B"]
-			description: [
-				"You are now ready to head back into space..."
-				""
-				"&7Reward: x4 Loot Bundle Fragment"
-			]
-			id: "232CF11DCCB0D0F3"
-			subtitle: "Craft an ostrum engine."
-			tasks: [{
-				id: "59EEACE333D96B7A"
-				item: "ad_astra:ostrum_engine"
-				type: "item"
-			}]
-			x: 7.300000000000001d
-			y: 18.1d
-		}
-		{
-			description: [
-				"Used to build your tier 4 rocket."
-				""
-				"&7Reward: x2 calorite ingot"
-			]
-			id: "2BAF03664A5D36AF"
-			rewards: [{
-				count: 2
-				id: "525DFE65B3454192"
-				item: "ad_astra:calorite_ingot"
-				type: "item"
-			}]
-			shape: "octagon"
-			subtitle: "Create a Calorite Ingot."
-			tasks: [{
-				id: "61EB7F59F856998D"
-				item: "ad_astra:calorite_ingot"
-				type: "item"
-			}]
-			x: 9.600000000000001d
-			y: 15.6d
-		}
-		{
-			dependencies: ["2BAF03664A5D36AF"]
-			description: [
-				"Used to build your tier 4 rocket."
-				""
-				"&7Reward: x2 calorite ingot \\& 2x Loot Bundle Fragment."
-			]
-			id: "4C96E292607EF7DA"
-			rewards: [{
-				count: 2
-				id: "6FEE032B525BB11F"
-				item: "ad_astra:calorite_ingot"
-				type: "item"
-			}]
-			shape: "diamond"
-			subtitle: "Create a Calorite Plate."
-			tasks: [{
-				id: "7973B1A11F91F18F"
-				item: "ad_astra:calorite_plate"
-				type: "item"
-			}]
-			x: 9.600000000000001d
-			y: 16.8d
-		}
-		{
-			dependencies: ["2BAF03664A5D36AF"]
-			description: [
-				"Used to build your tier 4 rocket."
-				""
-				"&7Rewards: x2 calorite ingot, x2 steel ingot"
-			]
-			id: "52587C1149251FC4"
-			rewards: [
-				{
-					count: 2
-					id: "1AD097DFCCE89C45"
-					item: "ad_astra:calorite_ingot"
+					id: "78E912266541DB8F"
+					item: "ad_astra:desh_engine"
 					type: "item"
 				}
 				{
-					count: 2
-					id: "7ABB5D14CDE2C221"
-					item: "mekanism:ingot_steel"
+					id: "3F9501246B8A99DD"
+					item: "ad_astra:rocket_nose_cone"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "214AF2FD7AE1E888"
+					item: "ad_astra:rocket_fin"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "32705A305454E6E8"
+					item: "ad_astra:desh_block"
 					type: "item"
 				}
 			]
-			subtitle: "Craft x2 calorite tank."
-			tasks: [{
-				count: 2L
-				id: "7D3F557E00A3AF5E"
-				item: "ad_astra:calorite_tank"
-				type: "item"
-			}]
-			title: "Calorite Tank"
-			x: 10.899999999999999d
-			y: 15.6d
+			title: "Desh Rocket"
+			x: 19.099999999999994d
+			y: -1.7763568394002505E-15d
 		}
 		{
-			dependencies: ["52587C1149251FC4"]
-			description: [
-				"Used to build your tier 4 rocket."
-				""
-				"&7Reward: x4 Loot Bundle Fragment"
-			]
-			id: "06D51049CF6977D3"
-			subtitle: "Craft a calorite engine."
-			tasks: [{
-				id: "27C94E21D6C05E50"
-				item: "ad_astra:calorite_engine"
-				type: "item"
-			}]
-			x: 10.899999999999999d
-			y: 16.8d
-		}
-		{
-			description: [
-				"Used to generate energy."
-				""
-				"&7Reward: x1 Block of Coal \\& 4x Loot Bundle Fragment"
-			]
+			dependencies: ["112C0C7C49867DE2"]
+			description: ["Used to generate energy."]
 			id: "1B372900C379161F"
 			optional: true
-			rewards: [
-				{
-					id: "717723E07CDA34FC"
-					item: "minecraft:coal_block"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2C4078F931260A49"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
-			subtitle: "Craft a coal generator."
+			rewards: [{
+				id: "717723E07CDA34FC"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0ACB5285AAFF0A24"
 				item: "ad_astra:coal_generator"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 2.5d
+			y: 0.9999999999999982d
 		}
 		{
-			description: [
-				"Equipment used to make your way into space."
-				""
-				"&7Reward: x1 Furnace \\& 2x Loot Bundle Fragment"
-			]
+			dependencies: ["4752A206456F0893"]
+			description: ["Equipment used to make your way into space."]
 			id: "5C714C816CE3365B"
-			rewards: [
-				{
-					id: "14177454E2540071"
-					item: "minecraft:furnace"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1207C19126452AF3"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "639D9A28DFB04BD8"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
-			subtitle: "Craft an oxygen tank."
 			tasks: [{
 				id: "5C3D3C88E6591F1E"
 				item: "ad_astra:oxygen_tank"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 11.3d
-		}
-		{
-			dependencies: ["7C64107F52DF00BC"]
-			description: [
-				"Vroom, vroom - space exploring..."
-				""
-				"&7Reward: x1 Loot Bundle \\& 2 EXP Levels."
-			]
-			id: "30A6B9619242AD4F"
-			rewards: [{
-				id: "0EEF30A010383A6C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			shape: "gear"
-			subtitle: "Craft a rover."
-			tasks: [{
-				id: "43F56800B98C2934"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rover"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 2.8999999999999986d
-			y: 15.5d
+			x: 5.0d
+			y: -1.0d
 		}
 		{
 			description: ["Nom, nom... a little treat for your space travels."]
@@ -2818,137 +1946,11 @@
 				item: "ad_astra:cheese"
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 16.8d
+			x: 15.375d
+			y: 1.875d
 		}
 		{
-			description: [
-				"Upgraded space attire."
-				""
-				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
-			]
-			id: "41A61BC69C4D312A"
-			rewards: [
-				{
-					id: "7BF30D2C093ED097"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "1979A102BA524D3F"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "7FE8A037580C2330"
-					item: "ad_astra:ostrum_plate"
-					type: "item"
-				}
-				{
-					id: "5C328C3F3051642A"
-					item: "ad_astra:desh_plate"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Craft a netherite space suit."
-			tasks: [{
-				id: "5FEC9B57E1C697D7"
-				item: {
-					Count: 1b
-					id: "ad_astra:netherite_space_suit"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.200000000000003d
-			y: 10.799999999999999d
-		}
-		{
-			description: [
-				"Upgraded space attire."
-				""
-				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
-			]
-			id: "3448D2CCD81CEE76"
-			rewards: [
-				{
-					id: "31788324598C19C5"
-					item: "ad_astra:ostrum_plate"
-					type: "item"
-				}
-				{
-					id: "79803555595685A7"
-					item: "ad_astra:desh_plate"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Craft netherite space pants."
-			tasks: [{
-				id: "36AB1793F6544CB3"
-				item: {
-					Count: 1b
-					id: "ad_astra:netherite_space_pants"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.200000000000003d
-			y: 12.000000000000002d
-		}
-		{
-			description: [
-				"Upgraded space attire."
-				""
-				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
-			]
-			id: "1672C7230AC9A309"
-			rewards: [
-				{
-					id: "5F2A5DB42363321D"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "0A2A248646762DFE"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "31C6CC07349C42A9"
-					item: "ad_astra:ostrum_plate"
-					type: "item"
-				}
-				{
-					id: "2E0FB137FF6C1484"
-					item: "ad_astra:desh_plate"
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			subtitle: "Craft netherite space boots."
-			tasks: [{
-				id: "33721EDECE7BADDC"
-				item: {
-					Count: 1b
-					id: "ad_astra:netherite_space_boots"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.200000000000003d
-			y: 13.200000000000001d
-		}
-		{
+			dependencies: ["39553F6B02384BFB"]
 			description: ["Prepare for your travels to space."]
 			id: "4F55D24F78EBC335"
 			rewards: [{
@@ -2963,15 +1965,12 @@
 				item: "ad_astra:fuel_bucket"
 				type: "item"
 			}]
-			x: 0.20000000000000284d
-			y: 12.600000000000001d
+			x: 7.0d
+			y: 1.0d
 		}
 		{
-			description: [
-				"Prepare for your travels to space."
-				""
-				"&7Reward: x1 Oil Bucket \\& 2x Loot Bundle Fragment."
-			]
+			dependencies: ["4752A206456F0893"]
+			description: ["Prepare for your travels to space."]
 			id: "2DB72EDF04FE44CC"
 			rewards: [{
 				id: "11B697CFD0A66179"
@@ -2985,12 +1984,14 @@
 				item: "ad_astra:oil_bucket"
 				type: "item"
 			}]
-			x: 5.700000000000003d
-			y: 12.600000000000001d
+			x: 5.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["4F0886FF37E1101A"]
 			description: ["&7Reward: x1 Water Bucket \\& 3x Loot Bundle Fragment"]
 			id: "79ADB518AE82CB83"
+			optional: true
 			rewards: [
 				{
 					id: "0DF41CCEFD3061F8"
@@ -3004,14 +2005,15 @@
 					type: "item"
 				}
 			]
+			shape: "pentagon"
 			subtitle: "Craft a water pump."
 			tasks: [{
 				id: "2177665E8F0942D0"
 				item: "ad_astra:water_pump"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 9.5d
+			x: 17.699999999999996d
+			y: 1.5d
 		}
 		{
 			id: "1809D70D466A620D"
@@ -3020,7 +2022,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "Land on Glacio"
 			tasks: [{
 				dimension: "ad_astra:glacio"
@@ -3030,8 +2032,8 @@
 				type: "dimension"
 			}]
 			title: "Visit Planet: Glacio"
-			x: 0.0d
-			y: 20.700000000000003d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			id: "4AED9280BCB3CE39"
@@ -3040,7 +2042,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "Land on Mars"
 			tasks: [{
 				dimension: "ad_astra:mars"
@@ -3050,8 +2052,8 @@
 				type: "dimension"
 			}]
 			title: "Visit Planet: Mars"
-			x: 2.8000000000000007d
-			y: 20.7d
+			x: 14.5d
+			y: 3.0d
 		}
 		{
 			id: "4C77B32633B5B1A0"
@@ -3060,7 +2062,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "Land on Mercury"
 			tasks: [{
 				dimension: "ad_astra:mercury"
@@ -3070,8 +2072,8 @@
 				type: "dimension"
 			}]
 			title: "Visit Planet: Mercury"
-			x: 4.100000000000001d
-			y: 20.7d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			id: "77BBDC91E0C13E6F"
@@ -3080,7 +2082,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "Land on the Moon"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -3090,8 +2092,8 @@
 				type: "dimension"
 			}]
 			title: "Visit Planet: Moon"
-			x: 1.3999999999999986d
-			y: 20.7d
+			x: 13.5d
+			y: 4.5d
 		}
 		{
 			id: "12B46D169B7161B1"
@@ -3100,7 +2102,7 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			subtitle: "Land on Venus"
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -3110,22 +2112,19 @@
 				type: "dimension"
 			}]
 			title: "Visit Planet: Venus"
-			x: 5.5d
-			y: 20.7d
+			x: 12.5d
+			y: 4.0d
 		}
 		{
 			dependencies: [
+				"12B46D169B7161B1"
 				"1809D70D466A620D"
+				"4C77B32633B5B1A0"
 				"77BBDC91E0C13E6F"
 				"4AED9280BCB3CE39"
-				"4C77B32633B5B1A0"
-				"12B46D169B7161B1"
+				"2A34E6A4457FBC88"
 			]
-			description: [
-				"&7Note: Don't place it on the ground like a block. Place it on the ground by pressing \"&rP&7\" over a block."
-				""
-				"&7Rewards: x3 Loot Bundle, 50 EXP Levels \\& Planet Explorer Trophy."
-			]
+			description: ["&7Note: Don't place it on the ground like a block. Place it on the ground by pressing \"&rP&7\" over a block."]
 			icon: "supplementaries:globe_sepia"
 			id: "7663B0A12827A162"
 			rewards: [
@@ -3163,80 +2162,19 @@
 				type: "checkmark"
 			}]
 			title: "Planet Explorer"
-			x: 2.8000000000000007d
-			y: 19.1d
+			x: 13.5d
+			y: 3.5d
 		}
 		{
-			dependencies: ["59822C508A5BD9C7"]
-			id: "56E6F1C7EC88FF79"
-			rewards: [
-				{
-					count: 2
-					id: "2B9537BD47F23729"
-					item: "mekanism:ingot_steel"
-					type: "item"
-				}
-				{
-					id: "089BDF11C05B8EBE"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			shape: "octagon"
-			subtitle: "Create a Steel Ingot."
+			dependencies: ["4752A206456F0893"]
+			id: "15DF44F0C1E48F0B"
 			tasks: [{
-				id: "16026224456B1256"
-				item: "mekanism:ingot_steel"
+				id: "29F42FC3C4D448A0"
+				item: "ad_astra:engine_fan"
 				type: "item"
 			}]
-			x: 2.8999999999999986d
-			y: 9.7d
-		}
-		{
-			description: [
-				"Upgraded space attire."
-				""
-				"&7Reward: x3 Loot Bundle \\& x8 Loot Bundle Fragment."
-			]
-			id: "7F68496ACEE438A8"
-			rewards: [
-				{
-					id: "152BFB211A4DC39E"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "785F6082D033AEBB"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "640A8B4D812398D3"
-					item: "ad_astra:ostrum_plate"
-					type: "item"
-				}
-				{
-					id: "6EB136749584C3FB"
-					item: "ad_astra:desh_plate"
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			subtitle: "Craft a Netherite Space Helmet."
-			tasks: [{
-				id: "57FF8274F5186A6A"
-				item: {
-					Count: 1b
-					id: "ad_astra:netherite_space_helmet"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 12.200000000000003d
-			y: 9.600000000000001d
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 	subtitle: ["To the moon and beyond..."]

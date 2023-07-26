@@ -364,6 +364,13 @@
 				"1C144F8F242A570F"
 			]
 			description: ["On this page, you'll find some useful items and info to help you on your journey!"]
+			icon: {
+				Count: 1b
+				id: "eccentrictome:tome"
+				tag: {
+					"eccentrictome:mods": { }
+				}
+			}
 			id: "0F8F37D7E12078F5"
 			rewards: [{
 				id: "032158E75A1291D8"

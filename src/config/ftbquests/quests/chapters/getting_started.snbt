@@ -14,36 +14,25 @@
 				"&bThis chapter &rwill &6introduce &ryou trough some basics features."
 				"Don't worry, it won't take &otoo &rlong!"
 				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
+				"To start, click the &acheckmark&r under the word &9Tasks&r and then claim the &6Quest Reward&r. New quests will start to appear!"
 				""
-				"If new quests do not start appearing, try rejoining your world."
-				"Do not eat the bread until the tutorial is finished."
+				"&eIf new quests do not start appearing, try rejoining your world.&r"
 				""
 				"&eSilicon Valley Adventure&r offers the following:"
 				""
-				"- &bChallenges"
-				"- &bLearning Mods"
-				"- &bAdventuring"
-				""
-				"&6The adventures are ahead&r!"
-				""
-				"This tutorial will guide you through some basic features. Don't worry, it won't take &otoo &rlong!"
-				""
-				"To start, click the checkmark under the word \"&9Tasks&r\" and then claim the &6Quest Reward&r. New quests will start to appear!"
-				""
-				"If new quests do not start appearing, try rejoining your world. Do not eat the bread until the tutorial is finished."
+				"● &bChallenges"
+				"● &bLearning mods"
+				"● &bAdventuring"
+				"● &bBuilding"
+				"● &bEquipment"
+				"● &bRedstone and Logic"
+				"● &bStorage"
 				""
 				"The Exploration questline's purpose is to show what's available in the pack."
 				""
-				"These chapters are a great place to start if you're new to Modded Minecraft or if you're in the need for inspiration."
+				"These chapters are a great place to start if you're &enew to modded Minecraft&r or if you're &ein the need for inspiration&r."
 				""
-				"It currently has the following chapters:"
-				""
-				"● Adventure"
-				"● Building"
-				"● Equipment"
-				"● Redstone and Logic"
-				"● Storage"
+				"&6The adventures are ahead&r!"
 			]
 			icon: {
 				Count: 1b
@@ -79,9 +68,9 @@
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"&bExcavate &ris by default bound to keybind \"&6Grave&r\""
+				"&bExcavate &ris by default bound to keybind \"&6backslash&r\"."
 				""
-				"You can change this keybind &rby going into &6options &rand change the &bFTB Ultimine &rkeybinds."
+				"You can change this keybind &rby going into &6options &rand change the &9Ore Excavator&r keybinds."
 			]
 			id: "7050DE96E151D1D1"
 			rewards: [{
@@ -111,10 +100,10 @@
 			description: [
 				"Mods are split into 4 categories:"
 				""
-				"- &bTechnology"
-				"- &bMagic"
-				"- &bUtilities"
-				"- &bLogistics"
+				"● &bTechnology"
+				"● &bMagic"
+				"● &bUtilities"
+				"● &bLogistics"
 				""
 				"Respectively, &6each chapter will guide you through progression&r."
 				""
@@ -124,9 +113,19 @@
 				"The Learning Mods chapters are designed to help you get started with large content mods and are broken up into Tech and Magic sections. They will explain roughly how to progress and how to work with the blocks and concepts present in the mod. "
 				""
 				"These chapters cover a lot of ground, but the don’t cover everything. So, be sure to explore the manuals for those mods that have them."
+				""
+				"{@pagebreak}"
+				"If you're new to modded Minecraft, it can be a bit daunting to figure out what's what."
+				""
+				"That's why we made a book, to sum up the basics and give you a solid baseline to begin your modded journey!"
 			]
 			icon: "ae2:certus_quartz_wrench"
 			id: "257EAB9268907E1D"
+			rewards: [{
+				id: "00753B114D9DFAA5"
+				type: "xp"
+				xp: 10
+			}]
 			subtitle: "Feel lost? Do not worry!"
 			tasks: [{
 				id: "60A1EB763CF25699"
@@ -147,13 +146,36 @@
 				"Sometimes you have to start out processing a nugget, instead of &ban ingot &ror &ba block."
 				""
 				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
+				""
+				"At the bottom of the inventory, you may have noticed a search bar."
+				""
+				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				""
+				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				""
+				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
+				""
+				"At the bottom of the inventory, you may have noticed a search bar."
+				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
+				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				""
+				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Create"
+				""
+				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
+				""
+				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
+				""
+				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
+				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
 			]
-			icon: "reliquary:witch_hat"
+			icon: "minecraft:writable_book"
 			id: "2AB91711E9E7B298"
 			rewards: [{
 				id: "30ECD8D3DDAC12E2"
 				type: "xp"
-				xp: 100
+				xp: 10
 			}]
 			subtitle: "A recipe is a story that ends with a good meal."
 			tasks: [{
@@ -174,30 +196,15 @@
 				""
 				"&bThe Backpack &ralso &6provides special buttons &r- &bsort, quick stack &rand &btransfer &rto manage inventory!"
 			]
+			disable_toast: true
+			hide_details_until_startable: false
 			id: "5A382E13722186FA"
-			rewards: [{
-				id: "38AC5FFB000778CC"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 5889627
-						Loot: "aof:loot_bags/misc/agriculturist"
-						Name: "Agriculturist Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
+			invisible: true
+			optional: true
 			subtitle: "Inventory cramped? Fear not!"
 			tasks: [{
-				id: "418AF38E1BF686D8"
-				item: {
-					Count: 1b
-					id: "travelersbackpack:standard"
-					tag: { }
-				}
-				type: "item"
+				id: "0162FA35C5A9A741"
+				type: "checkmark"
 			}]
 			title: "&3Don't be a tourist, be a traveler"
 			x: 1.0d
@@ -351,55 +358,6 @@
 			y: 1.5d
 		}
 		{
-			description: [
-				"At the bottom of the inventory, you may have noticed a search bar."
-				""
-				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
-				""
-				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
-				""
-				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
-				""
-				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
-				""
-				"At the bottom of the inventory, you may have noticed a search bar."
-				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
-				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
-				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Create"
-				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
-				""
-				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
-				""
-				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
-				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
-			]
-			hide: true
-			icon: {
-				Count: 1b
-				id: "ftbquests:custom_icon"
-				tag: {
-					Icon: "jei:textures/gui/icons/config_button_cheat.png"
-				}
-			}
-			id: "70CA08B131B71B25"
-			rewards: [{
-				id: "0C4663E485D11149"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			subtitle: "Read my description!"
-			tasks: [{
-				id: "26C68FE475694AB9"
-				title: "Click me!"
-				type: "checkmark"
-			}]
-			title: "&bJust Enough Items (JEI)"
-			x: -2.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
 				"Press &bR &rwhile hovering over an item to view its Recipe"
@@ -512,7 +470,6 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Read my description!"
 			tasks: [{
 				id: "4DB4AB80141618CC"
 				title: "Click me!"
@@ -529,6 +486,7 @@
 				"That's why we made a book, to sum up the basics and give you a solid baseline to begin your modded journey!"
 			]
 			id: "00000000000006E9"
+			invisible: true
 			rewards: [{
 				id: "00000000000006EB"
 				item: {
@@ -555,8 +513,8 @@
 				type: "checkmark"
 			}]
 			title: "Modded for Dummies"
-			x: 3.0d
-			y: 1.0d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["175099CF5696829E"]

@@ -18,6 +18,6 @@
 	}
 	pause_game: false
 	progression_mode: "linear"
-	title: "&lEnhanceCraft"
+	title: "&lSilicon Valley Adventure"
 	version: 13
 }

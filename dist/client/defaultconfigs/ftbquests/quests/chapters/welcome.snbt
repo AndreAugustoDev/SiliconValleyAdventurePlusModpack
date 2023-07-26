@@ -67,6 +67,7 @@
 		size: 2.0d
 		tasks: [{
 			dimension: "minecraft:overworld"
+			icon: "ad_astra:earth_globe"
 			id: "327166ABC91DC6CD"
 			title: "A New World Waiting For You!"
 			type: "dimension"

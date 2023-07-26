@@ -99,8 +99,8 @@
 				}
 			]
 			title: "Vanilla"
-			x: 3.5d
-			y: 2.0d
+			x: -2.0d
+			y: -0.5d
 		}
 		{
 			hide_dependency_lines: true
@@ -133,8 +133,8 @@
 				}
 			]
 			title: "Mekanism Storage"
-			x: 4.5d
-			y: 2.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["6B639160FD560CC1"]
@@ -151,8 +151,8 @@
 				type: "checkmark"
 			}]
 			title: "QIO Drive Array"
-			x: 4.5d
-			y: 3.0d
+			x: 2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1D20D9D437F3D177"]
@@ -169,8 +169,8 @@
 				type: "item"
 			}]
 			title: "Vanilla+"
-			x: 3.5d
-			y: 3.0d
+			x: -2.0d
+			y: 0.5d
 		}
 		{
 			description: ["Go to the &aRefined Storage&f quest chapter for more on this mod."]
@@ -182,8 +182,8 @@
 				type: "item"
 			}]
 			title: "Refined Storage"
-			x: 3.0d
-			y: -1.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			description: ["Go to the &aApplied Energistics 2&f quest chapter for more on this mod."]
@@ -191,12 +191,12 @@
 			id: "485352F9261A1D75"
 			tasks: [{
 				id: "2590CD4938201A9D"
-				item: "appliedenergistics2:controller"
+				item: "ae2:controller"
 				type: "item"
 			}]
 			title: "Applied Energistics 2"
-			x: 3.0d
-			y: -2.0d
+			x: 1.0d
+			y: -4.0d
 		}
 		{
 			description: [
@@ -361,6 +361,7 @@
 			description: ["Cloud Storage can take some time to acquire the required materials, however it offers a very flexible storage system. Want one large storage network? Several smaller ones? Several large, seperate networks? Cloud storage can do it all - just be sure you aren't afraid of heights!"]
 			icon: "cloudstorage:cloud_chest"
 			id: "6578C82B120DE0EA"
+			invisible: true
 			rewards: [{
 				id: "6529B7B6EEBBFEB9"
 				item: "cloudstorage:guide_book"
@@ -390,8 +391,8 @@
 				item: "cloudstorage:balloon"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.0d
+			x: 9.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["34A5470646A4CE63"]
@@ -408,8 +409,8 @@
 				item: "cloudstorage:cloud_chest"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -3.5d
+			x: 10.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["5209737ECC6EC599"]
@@ -438,8 +439,8 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
-			y: -5.0d
+			x: 11.5d
+			y: -0.5d
 		}
 		{
 			description: ["&eIron Chests&r adds several tiers of &bChests&r, each holding more than the last."]
@@ -712,8 +713,8 @@
 				title: "Basic Storage"
 				type: "checkmark"
 			}]
-			x: 5.5d
-			y: -8.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			id: "628D570C1E1E2314"
@@ -1045,6 +1046,7 @@
 			]
 			icon: "minecraft:chest"
 			id: "00000000000003FF"
+			progression_mode: "flexible"
 			rewards: [{
 				id: "0000000000000CA3"
 				type: "xp"
@@ -1066,21 +1068,13 @@
 			description: ["Forgot where you left your precious diorite? Mouse over some in your inventory or JEI and press Y to locate it in nearby inventories. "]
 			icon: "naturesaura:range_visualizer"
 			id: "01BF5707AD226BDF"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-				icon: "kubejs:farmers_delight"
-				id: "0000000000000A5E"
-				player_command: false
-				title: "Farmer's Delight"
-				type: "command"
-			}]
 			tasks: [{
 				id: "4B201179FF675E0A"
 				type: "checkmark"
 			}]
 			title: "Find Me"
-			x: 2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1105,7 +1099,7 @@
 			}]
 			title: "Plonk"
 			x: -1.0d
-			y: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1128,8 +1122,8 @@
 				item: "compactmachines:personal_shrinking_device"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 5.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0AD2769DC173D26D"]
@@ -1190,8 +1184,8 @@
 				title: "Compact Machines"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 6.0d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3787A109AABC8921"]
@@ -1252,8 +1246,8 @@
 				title: "Tunnels"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 6.0d
+			x: -3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1281,8 +1275,8 @@
 				type: "item"
 			}]
 			title: "Dimensional Storage"
-			x: 2.5d
-			y: 2.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1330,8 +1324,8 @@
 				type: "item"
 			}]
 			title: "Applied Energetics 2"
-			x: -1.5d
-			y: 2.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["00000000000003FF"]
@@ -1383,8 +1377,8 @@
 					type: "item"
 				}
 			]
-			x: 0.5d
-			y: 3.5d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["00000000000003FF"]
@@ -1475,8 +1469,8 @@
 				}
 			]
 			title: "Nomadic Tents"
-			x: 2.0d
-			y: 5.0d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1515,8 +1509,8 @@
 				title: "Safety First!"
 				type: "checkmark"
 			}]
-			x: 0.5d
-			y: 5.5d
+			x: -3.5d
+			y: 2.0d
 		}
 	]
 	title: "Storage"
