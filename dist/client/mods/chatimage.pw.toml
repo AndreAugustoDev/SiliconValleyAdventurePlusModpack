@@ -1,0 +1,13 @@
+name = "ChatImage"
+filename = "ChatImage-1.1.6+1.19.2+forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "52b8518ab0a4297af60d46768d2f01b249d5d678"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4493146
+project-id = 818089

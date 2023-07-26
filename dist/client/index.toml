@@ -4766,7 +4766,7 @@ metafile = true
 
 [[files]]
 file = "mods/armor-statues.pw.toml"
-hash = "52d36452ad8fbf3a8ad551d14ab4acc5eabaeaf2529962af9a8280ca1bc94e21"
+hash = "a63897d849fa882ea8b40a0fb4f86099ddb7530ce0225a337f64906314c9b736"
 metafile = true
 
 [[files]]
@@ -5030,6 +5030,11 @@ hash = "add44a896b79e0fd75db3cd3445822db8d85393e8814594ee6839ae7a8b5cf9d"
 metafile = true
 
 [[files]]
+file = "mods/chatimage.pw.toml"
+hash = "9d617a5a16986e22a775f4cb04c3a0cdf72fcbbbefad8c4ea0f4faa4fb005c98"
+metafile = true
+
+[[files]]
 file = "mods/chemlib.pw.toml"
 hash = "0b9c7d96f3c8f7684abdc497af19b5ec0cc11e43b382d8179e5f24ba1f2e953e"
 metafile = true
@@ -5181,7 +5186,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "a88d27db6b206080768569a60fa07b621d6bbbd6e28b92064fae18996f3e4fa7"
+hash = "5363bd4ee840c95621fb7ff4d7b3763ab9b84dfded287200c312e01485b6095e"
 metafile = true
 
 [[files]]
@@ -5666,7 +5671,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "f0c871f28e8852d62b1f39727611ac8556a1b2476568dc5a707ba71b23254124"
+hash = "5d553ba80223b31a80873f164526baa76234b93468ab5d6bfeab39dc0c747da6"
 metafile = true
 
 [[files]]
@@ -6007,6 +6012,11 @@ metafile = true
 [[files]]
 file = "mods/lighting-wand.pw.toml"
 hash = "a780ae9b3aae3fdd8c12ae15cefd12f88df56be9c80f0bf128de9d3d643f40e2"
+metafile = true
+
+[[files]]
+file = "mods/lightspeed.pw.toml"
+hash = "4a58810e9373dead7214ba727d484881315ccba44f449aeee97c69dde76ec8a0"
 metafile = true
 
 [[files]]

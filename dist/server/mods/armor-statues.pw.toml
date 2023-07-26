@@ -1,13 +1,13 @@
 name = "Armor Statues"
-filename = "ArmorStatues-v4.0.5-1.19.2-Forge.jar"
+filename = "ArmorStatues-v4.0.6-1.19.2-Forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "815cac1ad7aed91c7a252c12fc8d51dfedfb5ea9"
+hash = "04930a11dc773950a338eadb559ae6addbd6178b"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4664616
+file-id = 4665268
 project-id = 682566
