@@ -34,16 +34,7 @@
 				""
 				"&6The adventures are ahead&r!"
 			]
-			icon: {
-				Count: 1b
-				id: "minecraft:book"
-				tag: {
-					Enchantments: [{
-						id: "aqua_affinity"
-						lvl: 1
-					}]
-				}
-			}
+			icon: "minecraft:bookshelf"
 			id: "175F5611FB7716A4"
 			rewards: [{
 				count: 3
@@ -51,7 +42,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 2.0d
 			subtitle: "A Whole New World!"
 			tasks: [{
@@ -92,7 +83,7 @@
 				type: "checkmark"
 			}]
 			title: "&bExcavate"
-			x: -1.0d
+			x: -2.5d
 			y: 1.0d
 		}
 		{
@@ -134,44 +125,40 @@
 			}]
 			title: "&9Learning Mods"
 			x: 2.0d
-			y: 1.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"How to use an item? &6Hover over the item in REI &rand press &b\"U\" &rthis will show you the uses, pay attention to the tabs."
+				"At the bottom of the inventory, you may have noticed a &bsearch bar&r."
 				""
-				"Dont know how to craft an item? &6Hover over the item &rand press &b\"R\"&r."
+				"This is the &dEMI&r search bar."
+				"&dEMI&r it's a mod like &9JEI/REI/NEI&r."
 				""
-				"Sometimes you have to start out processing a nugget, instead of &ban ingot &ror &ba block."
+				"If you type \"&bWood&r\", for example, the &dEMI&r item list at the right of the screen will show all items with \"&bWood&r\" in the name."
 				""
-				"&6You may need to look at the recipes &rfor the material's respective &bnugget &ror sometimes even &bpowders&r."
+				"Adding a &9@&r at the start of the search query, it will show the items from a specific mod, for example &9@Create&r"
 				""
-				"At the bottom of the inventory, you may have noticed a search bar."
+				"Adding a &a#&r at the start of the search query, it will show all items with a specific tag, for example &a#log&r"
 				""
-				"This is the &dJust Enough Items&r, or &dJEI&r, search bar. "
+				"To favorite an item, &6drag it from&r &dEMI&r item list to the favorites section, or press &bA&r &6while hovering over it&r."
 				""
-				"If you type \"Wood\", for example, the &dJEI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				"How to use an item?"
+				"&6Hover over the item in &dEMI&r and press &bU&r, this will show you the uses, pay attention to the tabs."
 				""
-				"Adding a @ at the start of the search query will show the items from a specific mod, for example @Adorn"
+				"Dont know how to craft an item?"
+				"&6Hover over the item&r and press &bR&r."
 				""
-				"To favorite an item, press &bA &rwhile hovering over it in the &dJEI &ritem list."
+				"Sometimes you have to start out processing a nugget, instead of &ban ingot&r or &ba block&r."
 				""
-				"At the bottom of the inventory, you may have noticed a search bar."
-				"This is the &dRoughly Enough Items&r, or &dREI&r, search bar. "
-				"If you type \"Wood\", for example, the &dREI &ritem list at the right of the screen will show all items with \"Wood\" in the name."
+				"&6You may need to look at the recipes &rfor the material's respective &bnugget&r or sometimes even &bpowders&r."
 				""
-				"Adding a @ at the start of the search query, it will show the items from a specific mod, for example @Create"
-				""
-				"Adding a # at the start of the search query, it will show all items with a specific tag, for example #log"
-				""
-				"To favorite an item, drag it from &dREI &ritem list to the left side of the screen, or press A while hovering over it."
-				""
-				"When browsing an item's recipes for a specific workbench, you can click on the workbench's name to see everything that the workbench can craft."
-				"For example, if you are viewing the recipe for Sweetberry Jam, you can click the \"Cooking Pot\" text to see all Cooking Pot recipes."
+				"When browsing an item's recipes for a specific &bworkbench&r, you can click on the workbench's name to see everything that the &bworkbench&r &6can craft&r."
+				"For example, if you are viewing the recipe for &aSweetberry Jam&r, you can click the \"&bCooking Pot&r\" text to see all &aCooking Pot&r recipes."
 			]
 			icon: "minecraft:writable_book"
 			id: "2AB91711E9E7B298"
+			min_width: 300
 			rewards: [{
 				id: "30ECD8D3DDAC12E2"
 				type: "xp"
@@ -184,7 +171,7 @@
 				type: "checkmark"
 			}]
 			title: "&cRecipe Wizardry"
-			x: -2.0d
+			x: 2.5d
 			y: 1.0d
 		}
 		{
@@ -208,31 +195,32 @@
 			}]
 			title: "&3Don't be a tourist, be a traveler"
 			x: 1.0d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"&b- Fancy attack animations"
+				"&b● Fancy attack animations"
 				"This mod includes several one-handed, two-handed and dual wielded attack animation resources."
 				""
-				"&b- Accurate weapon collision detection"
+				"&b● Accurate weapon collision detection"
 				"No more pixel hunting with your cursor, you can now just swing your weapon and hit whatever is in the way. Enjoy playing in third person view."
 				""
-				"&b- Natural look and feel"
+				"&b● Natural look and feel"
 				"Attacks have an upswing phase before the hit is actually performed, like in real life."
 				""
-				"&b- Weapon combos"
+				"&b● Weapon combos"
 				"Some weapons have a sequence of different attacks."
 				""
-				"&b- Dual wield any combination"
+				"&b● Dual wield any combination"
 				"Dual wield any set of one handed weapons! Use the attack hotkey to alternately attack with main-hand and off-hand."
 				""
-				"&b- Hold to attack"
+				"&b● Hold to attack"
 				"Hold the attack hotkey to spam attacks on cooldown."
 			]
 			icon: "mysticalagriculture:awakened_supremium_sword"
 			id: "4D90C42B6E294337"
+			min_width: 300
 			rewards: [{
 				id: "2EEA85D214657976"
 				type: "xp"
@@ -245,7 +233,7 @@
 				type: "checkmark"
 			}]
 			title: "&6Art of Combat"
-			x: -1.0d
+			x: -2.0d
 			y: 2.0d
 		}
 		{
@@ -263,7 +251,7 @@
 				""
 				"See the \"Cooking and Farming\" quest tab for meal options."
 				""
-				"The Food Book (craftable, and obtained from this quest) will show you your current and possible meal buffs."
+				"The Food Book will show you your current and possible meal buffs."
 			]
 			icon: "minecraft:carrot"
 			id: "2053C2EB9BE831AD"
@@ -281,20 +269,21 @@
 				type: "checkmark"
 			}]
 			title: "&6Carrot Mode"
-			x: 1.0d
-			y: 2.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			dependency_requirement: "one_completed"
 			description: [
-				"The icon in the top left of the screen is the &aFTB Teams &rmenu. This allows you to add other players to your team."
+				"The icon in the top left of the screen is the &9FTB Teams&r menu."
+				"This allows you to add other players to your team."
 				""
-				"On the right of the &aFTB Teams &ricon is the &6Quest Book &ricon, which allows you to access the &6Quest Book &rat any time."
+				"On the right of the &9FTB Teams&r icon is the &6Quest Book&r icon, which allows you to access the &6Quest Book &rat any time."
 				""
 				"When you click the square at the top left of your player display, your &9Curios &rslots will become visible."
-				"Some items, such as Elytras and Totems can be equipped here."
-				""
+				"Some items, such as &bElytras&r and &bTotems&r can be equipped here."
+				"{@pagebreak}"
 				"To the right of the &6Quest Book &ris the &9FTB Chunks &rmap. By clicking a chunk once, that chunk will be claimed, preventing players and other mobs from destroying it. If you shift click a chaimed chunk, it will become forceloaded. In forceloaded chunks, crops, furnaces, and much more will behave as if a player was present."
 			]
 			hide: true
@@ -312,14 +301,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Read my description!"
 			tasks: [{
 				id: "553A398736E5B387"
 				title: "Click me!"
 				type: "checkmark"
 			}]
 			title: "&2Inventory"
-			x: -1.5d
+			x: -2.5d
 			y: 0.0d
 		}
 		{
@@ -347,7 +335,6 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Read my description!"
 			tasks: [{
 				id: "21428FE253D34D4E"
 				title: "Quests"
@@ -355,74 +342,55 @@
 			}]
 			title: "&6Quests"
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["175F5611FB7716A4"]
 			description: [
-				"Press &bR &rwhile hovering over an item to view its Recipe"
+				"&dB&r: Backpack"
 				""
-				"Press &bU &rwhile hovering over an item to view its Uses"
+				"&dC&r: Zoom"
 				""
+				"&dR&r: Roll"
+				""
+				"&dX + RIGHT CLICK&r: &6Pickup a block or mob&r (useful for chests and other block entities). Mobs can be stacked."
+				""
+				"&d\\\\: &r Ore Excavator (vein mining)"
+				""
+				"&dSHIFT + \\\\:&r Ore Excavator shape switch"
+				""
+				"&dCTRL + \\\\:&r Ore Excavator shape edit"
+				""
+				"&dCTRL + T&r: Crafting On A Stick Curios slot"
+				""
+				"&dF4&r: Quests"
+				""
+				"&dF6&r: New Waypoint"
+				""
+				"&dF7&r: Time In A Bottle Curios slot"
+				""
+				"&dF10&r: Voice chat settings"
+				""
+				"&d+&r: Quick Waypoint"
+				""
+				"&dHome&r: Waypoint Manage"
+				""
+				"&dBack Mouse Button (Button 4)&r: Open World Map"
+				""
+				"&dNumpad 9&r: Open Ping Menu"
+				""
+				"{@pagebreak}"
 				"Press &bLeft Alt &rto Crawl"
-				""
-				"Press &bRight Click &rwhile crouching to hold a block. (Useful for chests, doesn't work on all blocks)"
-				""
-				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
-				""
-				"Press &bC &rto Zoom"
-				""
-				"Press &bM &rto open the World Map"
 				""
 				"Press &bU&r to see Player Death History"
 				""
-				"Press &bY&r to manage waypoints"
-				""
 				"Press &bO&r to view the Claiming Screen"
-				""
-				"Press &bB&r to open an equipped backpack (NARRATOR CAN BE UNBOUND IN CONTROLS)"
-				""
-				"Press &bH&r to create a waypoint "
-				"{@pagebreak}"
-				""
-				"Press &bX &rto Roll"
-				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
 				""
 				"Press &bI&r to open and configure the Emote Wheel. You will need to add emotes to the wheel for them to show up here."
 				""
-				"Hold &b~ &rwhile using a tool with the Vein Mining enchant to activate Vein Mining"
-				""
-				"Press &bH &rto Activate Origin Ability"
-				""
-				"Press &bB &rwhile a Backpack is on your Back Slot to open it"
-				""
-				"Press &bC &rto Zoom with a Spyglass in your inventory"
-				""
-				"Press &bM &rto open the World Map"
-				""
-				"Press &bO &rto view Origin Information"
-				""
-				"Press &b, &rto activate Secondary Origin Ability, if you have one"
-				""
-				"Press &bR &rto Ping"
-				""
-				"Press &bF7 &rto configure Pings"
-				""
 				"Press &bF8 &rto configure footsteps"
 				""
-				"Press &bJ&r to open the ShowMeYourSkin armor overlay editor"
-				""
-				"{@pagebreak}"
-				"Press &bH&r to open and configure the Emote Wheel. You will need to add emotes to the wheel for them to show up here."
-				""
 				"Press &bI&r to open your Crafting Table without placing it first"
-				""
-				"Press &bB&r while a Backpack is on your Back Slot to open it"
-				""
-				"Press &bRight Click &rwhile crouching to pick up a block or mob. Two mobs can be stacked."
-				""
-				"Hold &b~&r while using a tool with the Vein Mining enchant to activate Vein Mining"
 			]
 			hide: true
 			icon: {
@@ -439,14 +407,13 @@
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "Read my description! Make sure to scroll down."
 			tasks: [{
 				id: "1A0422ACE4735AB7"
 				title: "Click me!"
 				type: "checkmark"
 			}]
-			title: "&9Important Controls"
-			x: 1.5d
+			title: "&9Useful Controls"
+			x: 2.5d
 			y: 0.0d
 		}
 		{
@@ -470,6 +437,8 @@
 				type: "xp"
 				xp: 100
 			}]
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "4DB4AB80141618CC"
 				title: "Click me!"
@@ -477,16 +446,16 @@
 			}]
 			title: "&aTutorial Complete!"
 			x: 0.0d
-			y: 3.5d
+			y: 5.25d
 		}
 		{
+			dependencies: ["257EAB9268907E1D"]
 			description: [
 				"If you're new to modded Minecraft, it can be a bit daunting to figure out what's what."
 				""
 				"That's why we made a book, to sum up the basics and give you a solid baseline to begin your modded journey!"
 			]
 			id: "00000000000006E9"
-			invisible: true
 			rewards: [{
 				id: "00000000000006EB"
 				item: {
@@ -513,7 +482,7 @@
 				type: "checkmark"
 			}]
 			title: "Modded for Dummies"
-			x: 2.0d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -702,7 +671,7 @@
 			}]
 			title: "Eccentric Tome"
 			x: 0.0d
-			y: 2.5d
+			y: 4.0d
 		}
 	]
 	title: "&dGetting Started"

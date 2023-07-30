@@ -1,13 +1,13 @@
 name = "Allthemodium"
-filename = "allthemodium-2.1.6-1.19.2-43.1.1.jar"
+filename = "allthemodium-2.1.7-1.19.2-43.1.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "a16c1df71f8f6eff657a45bfe1b5cbbc6dad220f"
+hash = "cded26d5355d8076425d654903cfa354456f09fd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4402276
+file-id = 4667332
 project-id = 364466

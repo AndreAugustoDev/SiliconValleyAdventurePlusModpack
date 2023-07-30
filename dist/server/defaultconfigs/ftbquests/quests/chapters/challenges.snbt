@@ -106,63 +106,25 @@
 				type: "item"
 			}]
 			title: "Limitless Power"
-			x: -4.5d
-			y: 3.0d
+			x: -3.0d
+			y: -0.5d
 		}
 		{
 			icon: "minecraft:dragon_head"
 			id: "1C6E46EA96373E74"
-			rewards: [
-				{
-					id: "7F0FC16030FE7D99"
-					item: {
-						Count: 1b
-						id: "trofers:trophy"
-						tag: {
-							BlockEntityTag: {
-								Animation: "fixed"
-								Colors: {
-									Bottom: {
-										Blue: 254
-										Green: 255
-										Red: 249
-									}
-									Middle: {
-										Blue: 184
-										Green: 50
-										Red: 137
-									}
-									Top: {
-										Blue: 254
-										Green: 255
-										Red: 249
-									}
-								}
-								DisplayScale: 0.75f
-								Item: {
-									Count: 1b
-									id: "minecraft:dragon_head"
-								}
-								Name: "Ender Dragon Trophy"
-							}
+			rewards: [{
+				id: "431C0986E611D988"
+				item: {
+					Count: 1b
+					id: "trofers:large_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:ender_dragon"
 						}
 					}
-					type: "item"
 				}
-				{
-					id: "431C0986E611D988"
-					item: {
-						Count: 1b
-						id: "trofers:medium_pillar"
-						tag: {
-							BlockEntityTag: {
-								Trophy: "trofers:ender_dragon"
-							}
-						}
-					}
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.5d
 			subtitle: "Slaying the Ender Dragon has given you access to the Challenges chapter!"
@@ -313,8 +275,8 @@
 				type: "item"
 			}]
 			title: "Limitless Lava"
-			x: -3.5d
-			y: 5.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -476,8 +438,8 @@
 				type: "item"
 			}]
 			title: "Limitless Water"
-			x: -4.0d
-			y: 4.0d
+			x: -3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -768,7 +730,7 @@
 			}]
 			title: "Limitless Oil"
 			x: -2.5d
-			y: 5.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -824,8 +786,8 @@
 				type: "advancement"
 			}]
 			title: "Zoology"
-			x: 1.5d
-			y: 0.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -881,8 +843,8 @@
 				type: "advancement"
 			}]
 			title: "Two by Two"
-			x: 2.5d
-			y: 0.5d
+			x: 2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -1547,8 +1509,8 @@
 				}
 			]
 			title: "Infinity Tools"
-			x: 4.0d
-			y: 4.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -1643,7 +1605,7 @@
 					consume_items: true
 					count: 2863L
 					id: "469924BD6C490BF2"
-					item: "simplefarming:fish_and_chips"
+					item: "croptopia:fish_and_chips"
 					type: "item"
 				}
 				{
@@ -1664,7 +1626,7 @@
 					consume_items: true
 					count: 2863L
 					id: "5BAE86CC78F24DFD"
-					item: "simplefarming:potato_knish"
+					item: "croptopia:potato_soup"
 					type: "item"
 				}
 				{
@@ -1685,10 +1647,16 @@
 					item: "farmersdelight:wild_potatoes"
 					type: "item"
 				}
+				{
+					count: 2863L
+					id: "43CDE688E3AD32A7"
+					item: "silentgems:potato_on_a_stick"
+					type: "item"
+				}
 			]
 			title: "Ultimate Potato"
-			x: 3.5d
-			y: 1.0d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -1804,136 +1772,8 @@
 				}
 			]
 			title: "&cHell's Kitchen"
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1C6E46EA96373E74"]
-			description: [
-				"&bBlackstone Golem:"
-				"Can only be summoned with a golem ritual while being in the nether."
-				""
-				"&bThe Eye:"
-				"Can only be summoned at an Eye Shrine."
-				""
-				"&bNight Lich:"
-				"Found in rare towers in cold biomes. Locate the towers by following soul stars."
-				""
-				"&bObsidilith:"
-				"Appears in rare structures in the end islands."
-				""
-				"&bNether Gauntlet:"
-				"Appears in rare structures in the nether."
-				""
-				"&bVoid Blossom:"
-				"Appears in rare caves at the bottom of the world. Void lilies will point the way."
-				""
-				"&bGuardian of Gaia:"
-				"To summon the boss, shift right-click a Terrasteel Ingot on an active Beacon with 4 Gaia Pylons nearby. Using a Gaia Spirit Ingot will summon a harder version of the boss instead."
-				""
-				"&bConjunctivius:"
-				"Can be found in the Mine Cells dimension (See Adventurer quest chapter)."
-				""
-				"&bVoid Shadow:"
-				"A new dimension where you will find and fight the Void Shadow."
-			]
-			icon: {
-				Count: 1b
-				id: "dragonloot:dragon_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "1F0EE1298663FE88"
-			rewards: [{
-				id: "33B8F578C9A9D999"
-				item: {
-					Count: 1b
-					id: "trofers:medium_pillar"
-					tag: {
-						BlockEntityTag: {
-							Trophy: "trofers:boss_rush"
-						}
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Slay 'em All"
-			tasks: [
-				{
-					entity: "twilightforest:naga"
-					icon: "twilightforest:naga_trophy"
-					id: "3AF87A5FED065F14"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:lich"
-					icon: "twilightforest:lich_trophy"
-					id: "09FC7B6D6673F421"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:hydra"
-					icon: "twilightforest:hydra_trophy"
-					id: "1BACFEB1D7C310D5"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:ur_ghast"
-					icon: "twilightforest:ur_ghast_trophy"
-					id: "05C8266730A44B0E"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:minoshroom"
-					icon: "twilightforest:minoshroom_trophy"
-					id: "091B5ABFAF80AD47"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:knight_phantom"
-					icon: "twilightforest:knight_phantom_trophy"
-					id: "53CF636C5F1438C7"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:alpha_yeti"
-					icon: "twilightforest:alpha_yeti_trophy"
-					id: "74E281423CE4C2B6"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "twilightforest:snow_queen"
-					icon: "twilightforest:snow_queen_trophy"
-					id: "192C9369560100D6"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "botania:doppleganger"
-					icon: "botania:gaia_head"
-					id: "35966A51B41E0561"
-					type: "kill"
-					value: 1L
-				}
-				{
-					entity: "alexsmobs:void_worm"
-					icon: "alexsmobs:void_worm_eye"
-					id: "0EC41FEB599DD732"
-					type: "kill"
-					value: 1L
-				}
-			]
-			title: "&5Boss Rush"
-			x: -3.5d
-			y: 1.0d
+			x: 3.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -1958,8 +1798,8 @@
 				type: "item"
 			}]
 			title: "&eRing of Angels"
-			x: 3.5d
-			y: 5.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -1977,7 +1817,7 @@
 				"- &bThe Replicator"
 				"With 100 mB of UU Matter, the replicator can duplicate (almost) any item in the game!"
 			]
-			icon: "modern_industrialization:quantum_upgrade"
+			icon: "mekanism:pellet_antimatter"
 			id: "0A87F01B58718A44"
 			rewards: [{
 				id: "3AE3A57C68514949"
@@ -1996,22 +1836,22 @@
 			tasks: [
 				{
 					id: "2C0CB64FEB3B5231"
-					item: "modern_industrialization:quantum_helmet"
+					item: "mekanism:mekasuit_helmet"
 					type: "item"
 				}
 				{
 					id: "084F5D6F0CC6EA1B"
-					item: "modern_industrialization:quantum_chestplate"
+					item: "mekanism:mekasuit_bodyarmor"
 					type: "item"
 				}
 				{
 					id: "562636C5CC110A71"
-					item: "modern_industrialization:quantum_leggings"
+					item: "mekanism:mekasuit_pants"
 					type: "item"
 				}
 				{
 					id: "57330A353CA74D1C"
-					item: "modern_industrialization:quantum_boots"
+					item: "mekanism:mekasuit_boots"
 					type: "item"
 				}
 				{
@@ -2027,7 +1867,7 @@
 			]
 			title: "&dQuantum Physics"
 			x: 1.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -2423,12 +2263,10 @@
 				"0B66FB2CE83CD2BD"
 				"378F01CE074D79A0"
 				"24ED473C9C545C09"
-				"1F0EE1298663FE88"
 				"3DB3B9732A87744A"
 				"212CC58521442922"
 				"3EC2209347A35A1D"
 				"08FEE3ED55CDFC64"
-				"1D85CE0A88D09165"
 				"6DB6324D6D217641"
 				"64A6812D6EFF4308"
 				"6D463AE8FE933401"
@@ -2449,7 +2287,22 @@
 				""
 				"Complete them all to become &6The Completionist!"
 			]
-			icon: "kubejs:completionist"
+			icon: {
+				Count: 1b
+				id: "relics:holy_locket"
+				tag: {
+					Damage: 0
+					abilities: {
+						steal: {
+							points: 0
+							stats: {
+								amount: 0.22284d
+								radius: 4.76363d
+							}
+						}
+					}
+				}
+			}
 			id: "477ECBF67056BF45"
 			rewards: [{
 				id: "05B5B34C0CBCD83A"
@@ -2475,7 +2328,7 @@
 			}]
 			title: "&6The Completionist"
 			x: 0.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -2516,8 +2369,8 @@
 				weak_nbt_match: true
 			}]
 			title: "&aShatterer of Worlds"
-			x: 4.5d
-			y: 3.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: [
@@ -2925,7 +2778,7 @@
 				"- &bSpectrum"
 				"- &bSpirit"
 			]
-			icon: "kubejs:quester"
+			icon: "simplehats:bigcrown"
 			id: "08FEE3ED55CDFC64"
 			rewards: [{
 				id: "18FE9FDF00364A9A"
@@ -2943,12 +2796,11 @@
 			subtitle: "Yes, I meant it. Complete ALL quest chapters!"
 			tasks: [{
 				id: "406DD97392361D8E"
-				title: "All The Quests"
+				title: "&6The Quester"
 				type: "checkmark"
 			}]
-			title: "&6All The Quests"
 			x: 0.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -3051,25 +2903,24 @@
 			]
 			title: "Visit (almost) Every Dimension"
 			x: -1.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
 			id: "212CC58521442922"
-			rewards: [
-				{
-					auto: "invisible"
-					id: "3795E76486D9705C"
-					item: "botania:gaia_head"
-					type: "item"
+			rewards: [{
+				id: "2E6624653678E5B6"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:botania"
+						}
+					}
 				}
-				{
-					auto: "invisible"
-					id: "5E676BD63BC6F855"
-					item: "kubejs:mass_of_wills"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			tasks: [{
 				entity: "botania:doppleganger"
 				icon: "botania:gaia_head"
@@ -3077,56 +2928,23 @@
 				type: "kill"
 				value: 20L
 			}]
-			x: -2.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1C6E46EA96373E74"]
-			description: [
-				"Tip: bring Woot mob shards with you!"
-				""
-				"It takes 5 kills to fill a mob shard, which can be used later to farm dragon materials in a Woot spawner."
-			]
-			id: "1D85CE0A88D09165"
-			optional: true
-			rewards: [{
-				auto: "invisible"
-				id: "38223539FD086E03"
-				item: "atmadditions:dragon_soul"
-				type: "item"
-			}]
-			tasks: [
-				{
-					entity: "iceandfire:fire_dragon"
-					id: "1DFDC23BABB72AC1"
-					type: "kill"
-					value: 5L
-				}
-				{
-					entity: "iceandfire:ice_dragon"
-					id: "61DFF3FDE570688C"
-					type: "kill"
-					value: 5L
-				}
-				{
-					entity: "iceandfire:lightning_dragon"
-					id: "59523A52D7E444A2"
-					type: "kill"
-					value: 5L
-				}
-			]
-			title: "Kill 5x Each I\\&F Dragon"
-			x: 2.5d
-			y: 5.5d
+			x: -2.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
 			id: "3EC2209347A35A1D"
 			rewards: [{
-				auto: "invisible"
-				count: 2
-				id: "24436C0F06F6CD2E"
-				item: "twilightforest:fiery_block"
+				id: "54FAA6148E924075"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:twilight_forest"
+						}
+					}
+				}
 				type: "item"
 			}]
 			tasks: [
@@ -3162,7 +2980,7 @@
 				}
 				{
 					id: "606401AC23B97BCC"
-					item: "twilightforest:yeti_trophy"
+					item: "twilightforest:alpha_yeti_trophy"
 					type: "item"
 				}
 				{
@@ -3176,9 +2994,9 @@
 					type: "item"
 				}
 			]
-			title: "Conquer The Forest"
-			x: -1.5d
-			y: 0.0d
+			title: "&5Conquer The Forest"
+			x: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1C6E46EA96373E74"]
@@ -3186,7 +3004,7 @@
 			rewards: [{
 				auto: "invisible"
 				id: "5709D6E6CD232ACF"
-				item: "xreliquary:hero_medallion"
+				item: "reliquary:hero_medallion"
 				type: "item"
 			}]
 			tasks: [{
@@ -3195,8 +3013,8 @@
 				type: "xp"
 				value: 500L
 			}]
-			x: -4.0d
-			y: 2.0d
+			x: -2.5d
+			y: -1.5d
 		}
 	]
 	title: "Challenges"

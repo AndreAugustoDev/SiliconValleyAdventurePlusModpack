@@ -13,32 +13,6 @@
 		}
 	}
 	id: "38776B03328BEF2C"
-	images: [
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.25d
-			hover: [ ]
-			image: "tnp:textures/other/quest_credit4.png"
-			rotation: 0.0d
-			width: 2.25d
-			x: -5.5d
-			y: -18.7d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 0.5d
-			hover: [ ]
-			image: "tnp:textures/other/highhybrid_cred.png"
-			rotation: 0.0d
-			width: 0.5d
-			x: -5.6d
-			y: -18.3d
-		}
-	]
 	order_index: 15
 	quest_links: [ ]
 	quests: [

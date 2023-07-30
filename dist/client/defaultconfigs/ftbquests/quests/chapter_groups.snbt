@@ -9,8 +9,7 @@
 		{ id: "59C90AA1B128306B", title: "&l&5Dimensions" }
 		{ id: "799D8360B26E9792", title: "&l&bOddities" }
 		{ id: "6614EE2378B8AFB9", title: "&l&3Resources&r" }
-		{ id: "752CDE464613A1ED", title: "Exploration" }
-		{ id: "330DFD8D42289441", title: "&l&4Mobs&r &6☠" }
+		{ id: "752CDE464613A1ED", title: "&lAdventure&r &6⚔" }
 		{ id: "68600EAD109C5034", title: "End Game" }
 	]
 }

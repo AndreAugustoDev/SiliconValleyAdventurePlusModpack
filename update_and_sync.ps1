@@ -1,17 +1,20 @@
-packwiz refresh --pack-file ".\src\pack.toml" --meta-folder-base ".\src"
+packwiz refresh --pack-file ".\src\pack.toml" --meta-folder-base ".\src" | Out-Null
 Write-Host "Updating mods" -ForegroundColor Yellow
 packwiz update --all --pack-file ".\src\pack.toml" --meta-folder-base ".\src"
 Write-Host "Update finished" -ForegroundColor Green
 
-Remove-Item -Path '.\dist' -Recurse
+if (Test-Path '.\dist') {
+  Remove-Item -Path '.\dist' -Recurse
+}
 
 $distpaths = @(
   '.\dist\client', '.\dist\server',
   '.\dist\client\defaultconfigs', '.\dist\server\defaultconfigs'
 )
+
 foreach ($path in $distpaths) {
   if (-Not (Test-Path $path)) {
-    mkdir -Path $path
+    mkdir -Path $path | Out-Null
   }
 }
 
@@ -24,16 +27,16 @@ Copy-Item -Path ".\src\*" -Destination ".\dist\server" -Recurse -Force -Exclude 
 Copy-Item -Path ".\src\icon.png" -Destination ".\dist\server\server-icon.png" -Force
 Copy-Item -Path ".\src\config\*" -Destination ".\dist\server\defaultconfigs" -Recurse -Force
 
-Write-Host "Removing clientside-only mods from server dist"
+Write-Host "Removing clientside-only mods from server dist" -ForegroundColor Red
 
 $regex = ''
 foreach ($mod in Get-Content -Path ".\clientside-only.txt") {
-  if ($mod -match $regex) {
-    packwiz remove $mod --pack-file ".\dist\server\pack.toml" --meta-folder-base ".\dist\server"
+  if ($mod -match $regex) { 
+    packwiz remove $mod --pack-file ".\dist\server\pack.toml" --meta-folder-base ".\dist\server" | Out-Null
   }
 }
 
-packwiz refresh --pack-file ".\dist\client\pack.toml" --meta-folder-base ".\dist\client"
-packwiz refresh --pack-file ".\dist\server\pack.toml" --meta-folder-base ".\dist\server"
+packwiz refresh --pack-file ".\dist\client\pack.toml" --meta-folder-base ".\dist\client" | Out-Null
+packwiz refresh --pack-file ".\dist\server\pack.toml" --meta-folder-base ".\dist\server" | Out-Null
 
-Write-Host "Sync finished" -ForegroundColor Yellow
+Write-Host "Sync finished" -ForegroundColor Green

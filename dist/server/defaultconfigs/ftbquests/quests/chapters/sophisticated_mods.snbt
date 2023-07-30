@@ -3085,6 +3085,7 @@
 		}
 		{
 			dependencies: ["00000000000003FF"]
+			description: ["&9Sophisticated Storage/Backpack&r adds several tiers of &bchests, barrels, shulker box and backpacks&r, each holding more than the last."]
 			id: "31FF51CECF71BD12"
 			shape: "gear"
 			size: 2.0d

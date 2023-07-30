@@ -15,13 +15,13 @@
     }
   },
   "item": {
-    "item": "modern_industrialization:quantum_upgrade",
+    "item": "mekanism:pellet_antimatter",
     "count": 1
   },
   "animation": {
-      "type": "spinning",
-      "speed": 0.20
-    },
+    "type": "spinning",
+    "speed": 0.20
+  },
   "name": {
     "color": "#FC7DFF",
     "text": "Quantum Physics Trophy"

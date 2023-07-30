@@ -19,9 +19,9 @@
     "count": 1
   },
   "animation": {
-      "type": "spinning",
-      "speed": 0.20
-    },
+    "type": "spinning",
+    "speed": 0.20
+  },
   "name": {
     "color": "#F6D227",
     "text": "Completionist Trophy"

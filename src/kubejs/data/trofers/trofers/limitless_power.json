@@ -1,0 +1,29 @@
+{
+  "colors": {
+    "accent": "#80C71F",
+    "base": "#606060"
+  },
+  "display": {
+    "offset": {
+      "y": 0.5
+    },
+    "scale": 1.0
+  },
+  "effects": {
+    "sound": {
+      "soundEvent": "minecraft:block.bell.use"
+    }
+  },
+  "item": {
+    "item": "mininggadgets:upgrade_battery_3",
+    "count": 1
+  },
+  "animation": {
+    "type": "spinning",
+    "speed": 0.20
+  },
+  "name": {
+    "color": "#80C71F",
+    "text": "Limitless Power Trophy"
+  }
+}

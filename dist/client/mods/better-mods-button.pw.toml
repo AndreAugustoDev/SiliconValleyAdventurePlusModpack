@@ -1,13 +1,13 @@
 name = "Better Mods Button [Forge]"
-filename = "BetterModsButton-v4.2.2-1.19.2-Forge.jar"
+filename = "BetterModsButton-v4.2.4-1.19.2-Forge.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d27c1d80bd3f855e8a8b440d7d73d80978d800db"
+hash = "dccbf3f1ea72d215f2b4f981ef19dbaf7cff188e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4608773
+file-id = 4665753
 project-id = 541584

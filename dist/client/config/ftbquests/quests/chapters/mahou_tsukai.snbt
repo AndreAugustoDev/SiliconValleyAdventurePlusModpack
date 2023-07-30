@@ -16,9 +16,9 @@
 			icon: "mahoutsukai:mahoujin_projector"
 			id: "5E598F78BFC0F0F6"
 			rewards: [{
-				id: "5B4DDE801680EA4D"
-				item: "mahoutsukai:guidebook"
-				type: "item"
+				id: "0AE8D9FAAD8321AC"
+				type: "xp"
+				xp: 10
 			}]
 			shape: "gear"
 			size: 2.0d
@@ -157,7 +157,7 @@
 				}
 				{
 					id: "1DC2C7F3C5CFA843"
-					item: "xreliquary:holy_hand_grenade"
+					item: "reliquary:holy_hand_grenade"
 					type: "item"
 				}
 				{

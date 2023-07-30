@@ -1,0 +1,13 @@
+name = "Resourceful Lootbags"
+filename = "lootbags-1.19.2-1.1.2-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/eE4G2ag6/versions/aEJDckui/lootbags-1.19.2-1.1.2-forge.jar"
+hash-format = "sha1"
+hash = "e368334ef17064fd452932c761b449d9bcb9c39d"
+
+[update]
+[update.modrinth]
+mod-id = "eE4G2ag6"
+version = "aEJDckui"

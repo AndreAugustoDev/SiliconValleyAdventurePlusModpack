@@ -12,7 +12,7 @@
 			dev: false
 			height: 3.0d
 			hover: ["Click here to open the Wiki!"]
-			image: "atm:textures/questpics/biggerreactors/biggerreactorslogo.png"
+			image: "kubejs:textures/quests/biggerreactors/biggerreactorslogo.png"
 			rotation: 0.0d
 			width: 3.0d
 			x: -5.5d
@@ -296,7 +296,7 @@
 				""
 				"In the interface of a passive reactor, you can see and toggle the status and waste ejection. You'll also see the temps, how much RF/t the reactor is producing, and how much fuel the reactor is burning per tick."
 				""
-				"{image:atm:textures/questpics/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
+				"{image:kubejs:textures/quests/biggerreactors/reactor_passive.png width:200 height:175 align:1}"
 			]
 			id: "75AD0CEBC1335915"
 			min_width: 300

@@ -1169,5 +1169,6 @@
 			y: 1.5d
 		}
 	]
+	subtitle: ["The age of electricity begins!"]
 	title: "&ePower"
 }

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "monster_hunter_academy"
-	group: "330DFD8D42289441"
+	group: "752CDE464613A1ED"
 	icon: "forbidden_arcanus:obsidian_skull"
 	id: "7C86067509404015"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -3083,5 +3083,5 @@
 			y: 2.0d
 		}
 	]
-	title: "Monster Hunter ⚔"
+	title: "&l&4Monster Hunter&r &6☠"
 }

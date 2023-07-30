@@ -329,7 +329,7 @@
 				type: "item"
 			}]
 			title: "To Mars!"
-			x: 21.400000000000002d
+			x: 21.0d
 			y: 0.0d
 		}
 		{
@@ -606,13 +606,16 @@
 				type: "item"
 			}]
 			title: "Mars Metal"
-			x: 24.299999999999997d
+			x: 24.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["760572711CF727BB"]
 			description: [
-				"You know the deal by now. Gather enough Ostrum to craft the Tier 3 rocket."
+				"You know the deal by now."
+				"Gather enough Ostrum to craft the Tier 3 rocket."
+				""
+				"The &bTier 3 Rocket&r can take you to both &bMercury&r and &6Venus&r!"
 				""
 				"Please note! Travel to the hotter planets requires a netherite space suit or fire resistance or you will burn up and die."
 			]
@@ -644,7 +647,7 @@
 				type: "item"
 			}]
 			title: "To the Hotter Planets!"
-			x: 26.799999999999997d
+			x: 26.5d
 			y: 0.0d
 		}
 		{
@@ -675,7 +678,7 @@
 				item: "ad_astra:oxygen_sensor"
 				type: "item"
 			}]
-			x: 23.299999999999997d
+			x: 23.0d
 			y: -1.0d
 		}
 		{
@@ -684,6 +687,8 @@
 				"While the normal space suit works great on the planets with a climate similar to Earth, other celestial bodies closer to the Sun are much hotter, and thus require better equipment to survive."
 				""
 				"The Netherite Space Suit is the best way to survive on the hotter planets, but you can also avoid heat damage by drinking a fire resistance potion."
+				""
+				"The &bNetherite Space Suit&r provides &6complete heat resistence&r, which is a strict requirement for Mercury and Venus."
 			]
 			icon: {
 				Count: 1b
@@ -755,7 +760,7 @@
 				}
 			]
 			title: "Netherite Space Suit"
-			x: 25.299999999999997d
+			x: 25.0d
 			y: 1.0d
 		}
 		{
@@ -764,20 +769,15 @@
 				"Making more efficient fuel starts with the cryo freezer. You can use ice shards you find while mining on the Moon or Mars, or you can just use regular packed ice."
 				""
 				"This fuel is 3 times more efficient than normal rocket fuel, certainly an upgrade from having to get 6 buckets of fuel just to make sure you can make it home."
+				""
+				"The &bCryo Freezer&r converts &6Ice Shards&r (which can be found as an ore on cold planets) into &6Cryo Fuel&r."
+				""
+				"&6A single bucket of Cryo Fuel&r can fuel a Rocket trip!"
 			]
 			id: "1C2AAE8F4E119084"
 			rewards: [{
-				id: "12EC47150EA32980"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/epic"
-						Name: "Ad Astra! Epic Lootbag"
-						Type: "EPIC"
-					}
-				}
+				id: "2B51FBE1EEF54F37"
+				item: "ad_astra:cryo_fuel_bucket"
 				type: "item"
 			}]
 			subtitle: "So *this* is what Walt Disney used.."
@@ -786,7 +786,7 @@
 				item: "ad_astra:cryo_freezer"
 				type: "item"
 			}]
-			x: 24.299999999999997d
+			x: 24.0d
 			y: -1.5d
 		}
 		{
@@ -814,7 +814,7 @@
 				item: "ad_astra:ostrum_fluid_pipe"
 				type: "item"
 			}]
-			x: 24.299999999999997d
+			x: 24.0d
 			y: 1.5d
 		}
 		{
@@ -846,7 +846,7 @@
 				item: "ad_astra:energizer"
 				type: "item"
 			}]
-			x: 23.299999999999997d
+			x: 23.0d
 			y: 1.0d
 		}
 		{
@@ -879,7 +879,7 @@
 				type: "item"
 			}]
 			title: "Cryo Fuel"
-			x: 25.299999999999997d
+			x: 25.0d
 			y: -1.0d
 		}
 		{
@@ -887,20 +887,18 @@
 				"6114CC6BE5D2627F"
 				"40CB98FD334EB3CE"
 			]
-			description: ["The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"]
+			description: [
+				"The final planets in Ad Astra, weirdly enough, don't require any special equipment to survive. Simply gather enough Calorite and make your way to Glacio"
+				""
+				"{@pagebreak}"
+				"The &bTier 4 Rocket&r provides access to the Proxima Centauri star system, which currently only contains the planet &bGlacio&r."
+				""
+				"There's nothing on Glacio, either."
+			]
 			id: "6E8BF9F8A67D1B66"
 			rewards: [{
-				id: "4E618268B0A93696"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 11763949
-						Loot: "aof:loot_bags/ad_astra/legendary"
-						Name: "Ad Astra! Legendary Lootbag"
-						Type: "LEGENDARY"
-					}
-				}
+				id: "274792DDCAF98F85"
+				item: "minecraft:cake"
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1030,6 +1028,10 @@
 				"The most advanced version of the space suit, the Jet Suit offers even more protection than the netherite suit, while providing additional benefits, like a jetpack for flight."
 				""
 				"The Jet Suit must be charged in order to propell you into the air, and can be easily charged in the Energizer."
+				"{@pagebreak}"
+				"The &bJet Suit&r is the final tier of Space Suit. In addition to providing oxygen, this one also provides &6flight&r!"
+				""
+				"While powered with FE, hold space to fly, and hold space and control to boost like an Elytra."
 			]
 			hide_dependency_lines: true
 			id: "40CB98FD334EB3CE"
@@ -1104,12 +1106,9 @@
 				"7663B0A12827A162"
 				"33D6E68ED02850F8"
 				"4F0886FF37E1101A"
-				"0407804C7ED7A408"
-				"3486444B51E71632"
 				"58132755E921E778"
 				"06075D202F626C65"
 				"3D7A2D3CB598967F"
-				"62FDE7EA1AAEFA1A"
 				"4F405ACDA98FE821"
 				"112810B97BA58A9C"
 				"4752A206456F0893"
@@ -1139,7 +1138,6 @@
 				"6E4D99BBFFDFB961"
 				"5C714C816CE3365B"
 				"0758AE9BEA02B588"
-				"6806890FCE48F28A"
 				"6DABB3DDA44D6377"
 				"59822C508A5BD9C7"
 				"1B372900C379161F"
@@ -1158,7 +1156,6 @@
 				"2E8D25268A8F9ED6"
 				"1384C1D8BD79C6D0"
 				"1C711856985D4A81"
-				"707022B9906EA55C"
 				"79310D27A711F77B"
 				"39553F6B02384BFB"
 				"2988FCC006B3A285"
@@ -1329,114 +1326,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["46F03CC6467032F9"]
-			description: ["The &bTier 3 Rocket&r can take you to both &bMercury&r and &6Venus&r!"]
-			id: "0407804C7ED7A408"
-			subtitle: "16% taller!"
-			tasks: [{
-				id: "45BE5C71A53741B4"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_3_rocket"
-					tag: {
-						BotariumData: { }
-					}
-				}
-				type: "item"
-			}]
-			x: 29.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["46F03CC6467032F9"]
-			description: [
-				"The &bCryo Freezer&r converts &6Ice Shards&r (which can be found as an ore on cold planets) into &6Cryo Fuel&r."
-				""
-				"&6A single bucket of Cryo Fuel&r can fuel a Rocket trip!"
-			]
-			id: "62FDE7EA1AAEFA1A"
-			rewards: [{
-				id: "0E99DFFEA6F6377F"
-				item: "ad_astra:cryo_fuel_bucket"
-				type: "item"
-			}]
-			subtitle: "Too cool"
-			tasks: [{
-				id: "2C9BA99AA18EED7F"
-				item: "ad_astra:cryo_freezer"
-				type: "item"
-			}]
-			x: 27.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["46F03CC6467032F9"]
-			description: ["The &bNetherite Space Suit&r provides &6complete heat resistence&r, which is a strict requirement for Mercury and Venus."]
-			icon: {
-				Count: 1b
-				id: "ad_astra:netherite_space_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "707022B9906EA55C"
-			subtitle: "Doper!"
-			tasks: [
-				{
-					id: "2D1EB4C2FD7AF11E"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "490318AB7B87E174"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_suit"
-						tag: {
-							BotariumData: { }
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3836F052D3B57886"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5839B4DD59CEA6F9"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Netherite Space Suit"
-			x: 29.0d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"0407804C7ED7A408"
-				"707022B9906EA55C"
-			]
 			description: [
 				"Space is just chock full of barren wastelands. &bMercury&r and &bVenus&r are two more examples of such."
 				""
@@ -1482,117 +1371,6 @@
 			}]
 			x: 30.5d
 			y: 2.0d
-		}
-		{
-			dependencies: ["3C606FCA13976092"]
-			description: [
-				"The &bTier 4 Rocket&r provides access to the Proxima Centauri star system, which currently only contains the planet &bGlacio&r."
-				""
-				"There's nothing on Glacio, either."
-			]
-			icon: {
-				Count: 1b
-				id: "ad_astra:tier_4_rocket"
-				tag: {
-					BotariumData: { }
-				}
-			}
-			id: "6806890FCE48F28A"
-			rewards: [{
-				id: "5500F198A9769E60"
-				item: "minecraft:cake"
-				type: "item"
-			}]
-			subtitle: "That's all she wrote"
-			tasks: [
-				{
-					id: "4A69D07FF420F817"
-					item: {
-						Count: 1b
-						id: "ad_astra:tier_4_rocket"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					dimension: "ad_astra:glacio"
-					icon: "ad_astra:glacio_globe"
-					id: "58BA175EE587EAE7"
-					title: "Visit Glacio"
-					type: "dimension"
-				}
-			]
-			x: 32.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["3C606FCA13976092"]
-			description: [
-				"The &bJet Suit&r is the final tier of Space Suit. In addition to providing oxygen, this one also provides &6flight&r!"
-				""
-				"While powered with FE, hold space to fly, and hold space and control to boost like an Elytra."
-			]
-			icon: {
-				Count: 1b
-				id: "ad_astra:jet_suit_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "3486444B51E71632"
-			subtitle: "Super Sentai"
-			tasks: [
-				{
-					id: "02599B0D50C5596C"
-					item: {
-						Count: 1b
-						id: "ad_astra:jet_suit_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6962BAAB8D8CF602"
-					item: {
-						Count: 1b
-						id: "ad_astra:jet_suit"
-						tag: {
-							BotariumData: { }
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0B07EC497592E534"
-					item: {
-						Count: 1b
-						id: "ad_astra:jet_suit_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2CB8E2B0F25EC717"
-					item: {
-						Count: 1b
-						id: "ad_astra:jet_suit_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "Jet Suit"
-			x: 30.5d
-			y: 3.5d
 		}
 		{
 			dependencies: [

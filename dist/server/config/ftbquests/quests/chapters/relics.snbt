@@ -64,18 +64,11 @@
 		{
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "655FC8CA3A59E736"
-			rewards: [
-				{
-					id: "3DFD053DC9DE3497"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "1EEE64529475D269"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "1EEE64529475D269"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			subtitle: "Acquire a Spatial Sign."
 			tasks: [{
@@ -104,11 +97,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "00B0CD12CEAE50BB"
 			rewards: [
-				{
-					id: "7F818DA4AC4A9368"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "298A9AEFB1054CAB"
 					type: "xp_levels"
@@ -152,11 +140,6 @@
 			id: "7C8430A7FB322C99"
 			rewards: [
 				{
-					id: "405CC6B985654C5A"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "053882C2EB656C4C"
 					type: "xp_levels"
 					xp_levels: 1
@@ -195,18 +178,11 @@
 		{
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "2BE901B3417AF3F0"
-			rewards: [
-				{
-					id: "41AA9D2996D474BD"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "414EF3A3B6212A82"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "414EF3A3B6212A82"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			subtitle: "Acquire a pair of Aqua Walkers."
 			tasks: [{
@@ -235,11 +211,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "3105AF85D9809839"
 			rewards: [
-				{
-					id: "10D8FB8106E7578C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "4A23CF1E07935A9C"
 					type: "xp_levels"
@@ -293,11 +264,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "7CA741D2C1B5B4BB"
 			rewards: [
-				{
-					id: "5CA9D1B3D1C9CA28"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "79EE6B6E7DACB554"
 					type: "xp_levels"
@@ -363,11 +329,6 @@
 			id: "46ADE7F1256E66B2"
 			rewards: [
 				{
-					id: "1EE638B0FC52D936"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "78A6CEA49B68F104"
 					type: "xp_levels"
 					xp_levels: 1
@@ -412,11 +373,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "157A3C66E7DF91A5"
 			rewards: [
-				{
-					id: "1FA8B4EC754FCB8B"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "730BB738DF3A385C"
 					type: "xp_levels"
@@ -463,11 +419,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "21077FD041270A4C"
 			rewards: [
-				{
-					id: "6526A3C4F89488FF"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "0950A6BECC4D3723"
 					type: "xp_levels"
@@ -566,18 +517,11 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			hide: false
 			id: "2C3DA6521F59C808"
-			rewards: [
-				{
-					id: "23CAF07F7356B673"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "21CEA9F256E1CC17"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "21CEA9F256E1CC17"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Acquire a Bastion Ring."
 			tasks: [{
 				id: "143860B2ACAD8103"
@@ -605,11 +549,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "60B7E3AB496AE377"
 			rewards: [
-				{
-					id: "231D030EDE12AFAB"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "28B4FE33D0A10BE9"
 					type: "xp_levels"
@@ -651,11 +590,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "2C1C0A1DA43B0FB2"
 			rewards: [
-				{
-					id: "02090F10304AF5AE"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "54E891420329AB2F"
 					type: "xp_levels"
@@ -703,11 +637,6 @@
 			id: "4ED4F9039601F077"
 			rewards: [
 				{
-					id: "30FD3B9C75DADEE3"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "1D5E26A7812AC86A"
 					type: "xp_levels"
 					xp_levels: 1
@@ -749,11 +678,6 @@
 			id: "4A8B0C9EFFF916F5"
 			rewards: [
 				{
-					id: "4150746C37B9402E"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "579F1E57FA574675"
 					type: "xp_levels"
 					xp_levels: 1
@@ -794,11 +718,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "1F5BAB9A3CE2DAE5"
 			rewards: [
-				{
-					id: "48AB1055698A95B2"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "73DC711BDD499713"
 					type: "xp_levels"
@@ -885,11 +804,6 @@
 			id: "78D40D1A5D9C87BF"
 			rewards: [
 				{
-					id: "1FAD59237DA3D21C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "118E513F671FDF10"
 					type: "xp_levels"
 					xp_levels: 1
@@ -944,11 +858,6 @@
 			id: "4D8A65F23B93606D"
 			rewards: [
 				{
-					id: "2877CD1E11A66048"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "4BAE15CF6A2091D2"
 					type: "xp_levels"
 					xp_levels: 1
@@ -997,11 +906,6 @@
 			id: "0130850EE3F8C72E"
 			rewards: [
 				{
-					id: "3C57C4BDBBB0683C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "57D72BB834024695"
 					type: "xp_levels"
 					xp_levels: 1
@@ -1043,11 +947,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "73967F49EA8C080E"
 			rewards: [
-				{
-					id: "5177F57F401AB529"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "22BE976CA588D40C"
 					type: "xp_levels"
@@ -1095,11 +994,6 @@
 			id: "75C9E17288B76C65"
 			rewards: [
 				{
-					id: "673DEA5248272846"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "3204A98680B8EC09"
 					type: "xp_levels"
 					xp_levels: 1
@@ -1146,11 +1040,6 @@
 			id: "2CF40BE4CF1C2CE2"
 			rewards: [
 				{
-					id: "014090A81F443C75"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "05737577F9377E28"
 					type: "xp_levels"
 					xp_levels: 1
@@ -1190,11 +1079,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "7E24B25B4823BAAE"
 			rewards: [
-				{
-					id: "254F4D281C8951E7"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "406F84B3B536070F"
 					type: "xp_levels"
@@ -1241,11 +1125,6 @@
 			id: "680B132AAF247316"
 			rewards: [
 				{
-					id: "60BB55F7BF4BEFFE"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "503E46C0F9E3910E"
 					type: "xp_levels"
 					xp_levels: 1
@@ -1289,11 +1168,6 @@
 			id: "5C945FE92C2DFF78"
 			rewards: [
 				{
-					id: "07346770FB4C42CD"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
 					id: "20819F1E423E95EF"
 					type: "xp_levels"
 					xp_levels: 1
@@ -1333,18 +1207,11 @@
 		{
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "25D080495F95CFF1"
-			rewards: [
-				{
-					id: "26CF8E4343DEF930"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "5FB445957830A83B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "5FB445957830A83B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "hexagon"
 			subtitle: "Acquire a Shadow Glaive."
 			tasks: [{
@@ -1384,11 +1251,6 @@
 			description: ["&7> Research and read more about this &aRelic&7 in the &6Researching Table&7."]
 			id: "5D348D5B4BCA068E"
 			rewards: [
-				{
-					id: "43F32D14C4F60C70"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
 				{
 					id: "4CB52ED21B33FAC6"
 					type: "xp_levels"

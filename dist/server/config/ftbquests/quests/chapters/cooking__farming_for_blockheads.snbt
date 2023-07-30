@@ -343,9 +343,9 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block provides water the multi-block kitchen."
+				"The &bSink&r will &6provide Water to the Cooking Table&r."
 				""
-				"It can also provide infinite water, and can pump water out via cables or pipes."
+				"You can also &6extract infinite water&r with &bpumps or pipes&r at an extreme rate."
 			]
 			id: "0EFF1AA37772156B"
 			rewards: [
@@ -625,36 +625,6 @@
 			y: 3.0d
 		}
 		{
-			description: [
-				"The &bSink&r will &6provide Water to the Cooking Table&r."
-				""
-				"You can also &6extract water with pipes&r at an extreme rate."
-			]
-			id: "3A00F06E468E7732"
-			rewards: [
-				{
-					id: "3DB340A14117996D"
-					item: "laserio:card_fluid"
-					type: "item"
-				}
-				{
-					id: "1FA2C843C0F1C223"
-					item: "minecraft:axolotl_bucket"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Enough water for fusion?!"
-			tasks: [{
-				id: "4C9F6EF783ADF13F"
-				item: "cookingforblockheads:sink"
-				type: "item"
-			}]
-			title: "... or Swim."
-			x: 4.0d
-			y: 3.0d
-		}
-		{
 			description: ["The &bFridge&r is another storage location, but has two &6very useful upgrades&r. Their functions are in their tooltip."]
 			id: "5E34FE9AA13204C7"
 			rewards: [
@@ -676,8 +646,8 @@
 				item: "cookingforblockheads:fridge"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.0d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			description: ["You can squish a &bCow&r into a &6Milk Jar&r using an anvil and gravity. Now your kitchen can produce all the milk you'll need."]
@@ -703,8 +673,8 @@
 				type: "item"
 			}]
 			title: "Got Milk?"
-			x: 3.0d
-			y: 4.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			description: ["&bKitchen Counters and Cabinets&r provide the Cooking Table with &6extra storage&r, so you don't have to hold everything in your inventory."]
@@ -742,8 +712,8 @@
 				}
 			]
 			title: "You Blockhead!"
-			x: 4.0d
-			y: 4.0d
+			x: 1.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -775,8 +745,8 @@
 				type: "item"
 			}]
 			title: "Lets get baked!"
-			x: 5.0d
-			y: 4.0d
+			x: 2.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["A fully functional kitchen!"]
