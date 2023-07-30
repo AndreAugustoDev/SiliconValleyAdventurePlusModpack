@@ -4971,11 +4971,6 @@ hash = "0b9c7d96f3c8f7684abdc497af19b5ec0cc11e43b382d8179e5f24ba1f2e953e"
 metafile = true
 
 [[files]]
-file = "mods/chipped.pw.toml"
-hash = "2053b64e0f1507f2a8c485c57530718a614a53f24a4d0e348975b3127a42753f"
-metafile = true
-
-[[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "4ee4b7abc4bebd0d3c9a94a0ae0de701d334d48d6a18ca23fd2bc4655699986d"
 metafile = true
@@ -5332,7 +5327,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "56e0bc46dc4b4bff3a61d42fc10bbd09b35ffe403bfd542603cccb0b5d68c3fb"
+hash = "bfc81c2ee6206ba88cba0a22a886c656bb1c448ac0178e366f14c5fb152a6068"
 metafile = true
 
 [[files]]
