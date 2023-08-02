@@ -2934,7 +2934,7 @@ hash = "ef0fb6e5f41522232f6a350975bfe9b8fd8675c095a0cdb6d2a3ea0bcfd6df6d"
 
 [[files]]
 file = "icon.png"
-hash = "9d5259f3ee5438903e241c63276426d87f5cbb161ae5773961b27067116e6633"
+hash = "8c48f2e6735636c418d98de6735ea26e3632f1e109f256c323516c88c6c36067"
 
 [[files]]
 file = "kubejs/assets/condensed_creative/condensed_entries/building_blocks.json"
@@ -4777,7 +4777,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e81baa549b913cf7d30a730d18846ff41aa833928328e3e1f2ec0686d815cd47"
+hash = "e06965d8aea5dee2531377f962616b4843f3af7d5bea5b213a0b257f4595af0f"
 metafile = true
 
 [[files]]
@@ -6787,7 +6787,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless.pw.toml"
-hash = "5c22bc2733ce2287893c2c5a246f978fdd97687fa0cdcca380e1fd749903565e"
+hash = "268ec7b5fe2f6267a84a68b3f65295ba682ff977f915ff458833df99a8d2c4a3"
 metafile = true
 
 [[files]]
@@ -6977,7 +6977,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra-booster-pack.pw.toml"
-hash = "0d3c8e043debf2cf79d031bd1fc0fb6883993d73bfb4259fb604ae8681732d47"
+hash = "e091c14366ca8cc1111caafb85cac717c918efad652eb81c49006dd2b96bf37f"
 metafile = true
 
 [[files]]

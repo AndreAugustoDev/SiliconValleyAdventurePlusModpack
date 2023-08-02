@@ -1,14 +1,13 @@
 name = "Seamless"
-filename = "seamless-1.3.0-forge-1.19.2.jar"
-side = "both"
-pin = true
+filename = "seamless-1.3.0-forge-1.18.2.jar"
+side = "client"
 
 [download]
+url = "https://cdn.modrinth.com/data/rhyHyQke/versions/PAXxqQlE/seamless-1.3.0-forge-1.18.2.jar"
 hash-format = "sha1"
-hash = "3b769edd73250bf03ba89747f0987a5bf3c6ee23"
-mode = "metadata:curseforge"
+hash = "85eb07feaa4e7c1ccf4aacf897cf265fb3527965"
 
 [update]
-[update.curseforge]
-file-id = 4556692
-project-id = 855593
+[update.modrinth]
+mod-id = "rhyHyQke"
+version = "PAXxqQlE"

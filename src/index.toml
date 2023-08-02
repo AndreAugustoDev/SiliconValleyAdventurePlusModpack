@@ -1470,7 +1470,7 @@ hash = "ef0fb6e5f41522232f6a350975bfe9b8fd8675c095a0cdb6d2a3ea0bcfd6df6d"
 
 [[files]]
 file = "icon.png"
-hash = "9d5259f3ee5438903e241c63276426d87f5cbb161ae5773961b27067116e6633"
+hash = "8c48f2e6735636c418d98de6735ea26e3632f1e109f256c323516c88c6c36067"
 
 [[files]]
 file = "kubejs/assets/condensed_creative/condensed_entries/building_blocks.json"
@@ -3228,7 +3228,7 @@ metafile = true
 
 [[files]]
 file = "mods/alchemylib.pw.toml"
-hash = "955439ec563b809ad1c8d23fa3f65878029060b4461e31f54a6380e11ddd4a81"
+hash = "91dde3c792f2fa01c8d5609cb42ea8dade89518805caca8aac157ca3b2d6cb17"
 metafile = true
 
 [[files]]
@@ -5513,7 +5513,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra-booster-pack.pw.toml"
-hash = "0d3c8e043debf2cf79d031bd1fc0fb6883993d73bfb4259fb604ae8681732d47"
+hash = "e091c14366ca8cc1111caafb85cac717c918efad652eb81c49006dd2b96bf37f"
 metafile = true
 
 [[files]]
