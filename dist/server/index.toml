@@ -470,7 +470,7 @@ hash = "7fbc726d0895abe8fe912c686e387248bf6b64c1db023c775d54e3f6c3c031a6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vanillaquests.snbt"
-hash = "4ed25456783a5c769ad80a989fe65081a60563554c2972e54e542ea3a63a1800"
+hash = "6242141eaa42f066ec7fd297c81b910579af44779e68f5696b5c7038f8727436"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/villagers.snbt"
@@ -1938,7 +1938,7 @@ hash = "7fbc726d0895abe8fe912c686e387248bf6b64c1db023c775d54e3f6c3c031a6"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/vanillaquests.snbt"
-hash = "4ed25456783a5c769ad80a989fe65081a60563554c2972e54e542ea3a63a1800"
+hash = "6242141eaa42f066ec7fd297c81b910579af44779e68f5696b5c7038f8727436"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/villagers.snbt"
@@ -6351,7 +6351,7 @@ metafile = true
 
 [[files]]
 file = "mods/packagedexcrafting.pw.toml"
-hash = "97ba995833a3f7d087065b5a1c030915194de2a490109dde75844fec660ee0bd"
+hash = "9167a123a8573ae2b72807d8174ee76919dcc90d90e064f323f65a897126cfbd"
 metafile = true
 
 [[files]]
@@ -6421,7 +6421,7 @@ metafile = true
 
 [[files]]
 file = "mods/placebo.pw.toml"
-hash = "9b409beaca7ae5b0d4637f0974ed442882b100de7c3a827f74ac95f370724c0a"
+hash = "306cbb32a5e21015ea1e6e79f2175bff33213abd18af4403e4b9bc72adf4e28d"
 metafile = true
 
 [[files]]

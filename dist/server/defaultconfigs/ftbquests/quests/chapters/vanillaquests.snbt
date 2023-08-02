@@ -37,7 +37,6 @@
 		}
 		{
 			dependencies: ["19A78AB9B10CA4CF"]
-			description: ["&7Reward: 16x Cobblestone"]
 			id: "000000000000102E"
 			rewards: [{
 				count: 16
@@ -100,7 +99,6 @@
 				"2026E9500AC237CF"
 				"0000000000001030"
 			]
-			description: ["&7Reward: 1 EXP Level"]
 			id: "0000000000001032"
 			rewards: [
 				{
@@ -136,7 +134,6 @@
 		}
 		{
 			dependencies: ["0000000000001032"]
-			description: ["&7Reward: 2x Treasure Chest"]
 			id: "0000000000001034"
 			optional: true
 			rewards: [{
@@ -236,7 +233,6 @@
 		}
 		{
 			dependencies: ["49DEF5EC79FEC30C"]
-			description: ["&7Rewards: 1x Treasure Chest \\& 1x &7Lapis Lazuli Block"]
 			id: "0000000000001039"
 			rewards: [
 				{
@@ -310,7 +306,6 @@
 		}
 		{
 			dependencies: ["7DC9EDE83665F94C"]
-			description: ["&7Reward: 1 EXP Level \\& 1x Lingering Potion of Fire Resistance (45s)."]
 			id: "000000000000103C"
 			rewards: [
 				{
@@ -346,7 +341,6 @@
 		}
 		{
 			dependencies: ["0000000000001032"]
-			description: ["&7Reward: 4x Fire Charge \\& 3 EXP Levels"]
 			id: "000000000000103E"
 			rewards: [
 				{
@@ -383,7 +377,6 @@
 		}
 		{
 			dependencies: ["000000000000103C"]
-			description: ["&7Reward: 5x Emerald \\& 1x Mysterious Bundle"]
 			id: "0000000000001040"
 			rewards: [
 				{
@@ -413,7 +406,6 @@
 		}
 		{
 			dependencies: ["4518018AFD2F74D2"]
-			description: ["&7Rewards: 3x Emerald \\& 1x Ender Eye"]
 			id: "0000000000001043"
 			rewards: [
 				{
@@ -501,7 +493,6 @@
 		}
 		{
 			dependencies: ["0000000000001038"]
-			description: ["&7Rewards: 5 EXP Levels \\& 3x Treasure Chest."]
 			id: "7DC9EDE83665F94C"
 			optional: true
 			rewards: [
@@ -590,7 +581,6 @@
 		}
 		{
 			dependencies: ["0000000000001032"]
-			description: ["&7Rewards: 4x 'Protection I' Enchanted &7Book."]
 			id: "7148D55BA6C4B8F3"
 			optional: true
 			rewards: [{
@@ -744,8 +734,6 @@
 				"This is an upgrade to the furnace, it smelts items twice as fast."
 				" "
 				"However it'll only smelt Ores \\& some other items."
-				" "
-				"&7Rewards: 1 EXP Level \\& 2x Iron Ingot"
 			]
 			id: "46E5995066A0E664"
 			rewards: [
@@ -803,7 +791,6 @@
 		}
 		{
 			dependencies: ["000000000000103C"]
-			description: ["&7Reward: 16x Bottle o' Enchanting."]
 			id: "49DEF5EC79FEC30C"
 			rewards: [
 				{
@@ -830,24 +817,13 @@
 		}
 		{
 			dependencies: ["49DEF5EC79FEC30C"]
-			description: [
-				"&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"
-				" "
-				"&7Reward: 1x Loot Bundle"
-			]
+			description: ["&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"]
 			id: "5B598BB19C766C3A"
-			rewards: [
-				{
-					id: "431E6485FB82EFB5"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "0AD5433880132F1E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "0AD5433880132F1E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "An upgrade to the Enchanting Table, choose your own enchantments."
 			tasks: [{
 				id: "227DB2E549C6BA2D"
@@ -859,25 +835,13 @@
 		}
 		{
 			dependencies: ["5B598BB19C766C3A"]
-			description: [
-				"&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"
-				""
-				"&7Reward: 1x Loot Bundle"
-			]
+			description: ["&c(Note: To get &6Enchanting Power&c above &l15&r&c you need to use &6Apotheosis Bookshelves&c!)"]
 			id: "6A821BA2F15F9AD6"
-			rewards: [
-				{
-					count: 2
-					id: "4D8BF7774AD4EF12"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "2705CA681943E14A"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "2705CA681943E14A"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			subtitle: "An upgrade to the Basic Enchanting Infuser, cheaper enchantment cost and more powerful."
 			tasks: [{
 				id: "30D791CB14CAB09D"
@@ -919,7 +883,6 @@
 		}
 		{
 			dependencies: ["19A78AB9B10CA4CF"]
-			description: ["&7Reward: 1x Tropical Fish Spawn Egg \\& &71x 'Luck of the Sea I' Enchantment &7Book"]
 			id: "00000000000000D9"
 			rewards: [
 				{
@@ -962,7 +925,6 @@
 		}
 		{
 			dependencies: ["0000000000001039"]
-			description: ["&7Rewards: 1x BEEtroot \\& 4x BEEtroot Soup."]
 			id: "00000000000000DB"
 			rewards: [
 				{
@@ -1001,7 +963,6 @@
 		}
 		{
 			dependencies: ["00000000000000E1"]
-			description: ["&7Rewards: 3 EXP Levels \\& 2x Carrot \\& &72x Potato"]
 			id: "00000000000000DD"
 			rewards: [
 				{
@@ -1037,7 +998,6 @@
 		}
 		{
 			dependencies: ["19A78AB9B10CA4CF"]
-			description: ["&7Reward: 2 EXP Levels \\& 1x Bee Spawn &7Egg"]
 			id: "00000000000000DF"
 			rewards: [
 				{
@@ -1047,8 +1007,8 @@
 					xp_levels: 2
 				}
 				{
-					id: "0000000000000B93"
-					item: "minecraft:bee_spawn_egg"
+					id: "02C326F1C2BC5923"
+					item: "createaddition:honey_cake"
 					type: "item"
 				}
 			]
@@ -1066,7 +1026,6 @@
 		}
 		{
 			dependencies: ["0000000000000111"]
-			description: ["&7Rewards: 1x Melon Seed, 1x Pumpkin &7Seed, 1x Beetroot Seed \\& 1x Wheat &7Seed"]
 			id: "00000000000000E1"
 			rewards: [
 				{
@@ -1104,7 +1063,6 @@
 		}
 		{
 			dependencies: ["2EDA5A6575CAC4CC"]
-			description: ["&7Reward: 12x Bacon Sandwich"]
 			id: "00000000000000E3"
 			rewards: [{
 				count: 12
@@ -1161,7 +1119,6 @@
 				"00000000000000D9"
 				"0000000000001032"
 			]
-			description: ["&7Reward 1x Fishing Rod"]
 			id: "00000000000000E7"
 			rewards: [{
 				id: "0000000000000B75"
@@ -1188,7 +1145,6 @@
 		}
 		{
 			dependencies: ["00000000000000D9"]
-			description: ["&7Reward: 6x Catfish \\& 2 EXP Levels."]
 			id: "00000000000000E9"
 			rewards: [
 				{
@@ -1317,10 +1273,6 @@
 		}
 		{
 			dependencies: ["1BDB2D01AAC2D888"]
-			description: [
-				""
-				"&7Rewards: Another pet Axolotl \\& 1 EXP Level."
-			]
 			id: "3584CC8CFC5A90A2"
 			rewards: [
 				{
@@ -1347,10 +1299,6 @@
 		}
 		{
 			dependencies: ["00000000000000D9"]
-			description: [
-				""
-				"&7Rewards: 1x Golden Apple \\& 2 EXP Levels."
-			]
 			id: "1BDB2D01AAC2D888"
 			rewards: [
 				{
@@ -1376,10 +1324,6 @@
 			y: 1.5d
 		}
 		{
-			description: [
-				""
-				"&7Reward: 4x Glow Ink Sac"
-			]
 			id: "50C180B314D690EB"
 			rewards: [{
 				count: 4
@@ -1458,7 +1402,6 @@
 		}
 		{
 			dependencies: ["2AD035937D039FFB"]
-			description: ["&7Reward: 2 EXP Levels."]
 			id: "6B1CCE3524A10D79"
 			rewards: [{
 				id: "6173812E8BD67374"
@@ -1569,16 +1512,11 @@
 					id: "05D8594FDBE4E4D0"
 					item: {
 						Count: 1b
-						id: "trophymanager:trophy"
+						id: "trofers:small_pillar"
 						tag: {
-							BaseBlock: "minecraft:air"
-							Name: "Frog Trophy"
-							OffsetY: 0.0d
-							Scale: 1.0d
-							TrophyEntity: {
-								entityType: "minecraft:frog"
+							BlockEntityTag: {
+								Trophy: "trofers:frog"
 							}
-							TrophyType: "entity"
 						}
 					}
 					type: "item"
@@ -1615,12 +1553,6 @@
 					item: "minecraft:frogspawn"
 					type: "item"
 				}
-				{
-					count: 3
-					id: "399A5EAE61D4C778"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
 			]
 			subtitle: "Have all Froglights in your inventory"
 			tasks: [{
@@ -1647,12 +1579,6 @@
 					id: "67DEE66F19DCACA9"
 					type: "xp_levels"
 					xp_levels: 2
-				}
-				{
-					count: 2
-					id: "0A93F7E1B945F3AE"
-					item: "lootbundles:fragment"
-					type: "item"
 				}
 			]
 			subtitle: "Have an Allay deliver items to you"
