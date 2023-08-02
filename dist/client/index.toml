@@ -5607,7 +5607,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "d6c054a4f547e92831b8ef5fe4afea6432269a19fd1a60ba576865faff8a4638"
+hash = "6ec4fcec4795f75ffdb7333316b4a40acb97bd4e5560d0ea437d477358b10d87"
 metafile = true
 
 [[files]]
@@ -6452,7 +6452,7 @@ metafile = true
 
 [[files]]
 file = "mods/packagedexcrafting.pw.toml"
-hash = "9167a123a8573ae2b72807d8174ee76919dcc90d90e064f323f65a897126cfbd"
+hash = "7b33db771d4c28aba23434f5c09df4bc0434243633bd27d0c0f60de6786417aa"
 metafile = true
 
 [[files]]
@@ -7188,6 +7188,11 @@ metafile = true
 [[files]]
 file = "mods/wall-jump-unofficial-arch.pw.toml"
 hash = "fb39281775b35cfbfd03fde15f337110e28b021ad010a836ac954b91f29f7a97"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "6b8677362d29aa238f5b74aca85267251d776f2fb764cf792109cdbea7a5aecc"
 metafile = true
 
 [[files]]

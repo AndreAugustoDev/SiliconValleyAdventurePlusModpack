@@ -23,3 +23,4 @@ prism-lib
 rubidium
 textrues-rubidium-options
 wavey-capes
+rubidium-extra

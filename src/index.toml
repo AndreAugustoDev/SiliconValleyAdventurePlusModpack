@@ -3228,7 +3228,7 @@ metafile = true
 
 [[files]]
 file = "mods/alchemylib.pw.toml"
-hash = "91dde3c792f2fa01c8d5609cb42ea8dade89518805caca8aac157ca3b2d6cb17"
+hash = "955439ec563b809ad1c8d23fa3f65878029060b4461e31f54a6380e11ddd4a81"
 metafile = true
 
 [[files]]
@@ -3313,7 +3313,7 @@ metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
-hash = "e81baa549b913cf7d30a730d18846ff41aa833928328e3e1f2ec0686d815cd47"
+hash = "e06965d8aea5dee2531377f962616b4843f3af7d5bea5b213a0b257f4595af0f"
 metafile = true
 
 [[files]]
@@ -4143,7 +4143,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastsuite.pw.toml"
-hash = "d6c054a4f547e92831b8ef5fe4afea6432269a19fd1a60ba576865faff8a4638"
+hash = "6ec4fcec4795f75ffdb7333316b4a40acb97bd4e5560d0ea437d477358b10d87"
 metafile = true
 
 [[files]]
@@ -4988,7 +4988,7 @@ metafile = true
 
 [[files]]
 file = "mods/packagedexcrafting.pw.toml"
-hash = "9167a123a8573ae2b72807d8174ee76919dcc90d90e064f323f65a897126cfbd"
+hash = "7b33db771d4c28aba23434f5c09df4bc0434243633bd27d0c0f60de6786417aa"
 metafile = true
 
 [[files]]
@@ -5323,7 +5323,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless.pw.toml"
-hash = "5c22bc2733ce2287893c2c5a246f978fdd97687fa0cdcca380e1fd749903565e"
+hash = "268ec7b5fe2f6267a84a68b3f65295ba682ff977f915ff458833df99a8d2c4a3"
 metafile = true
 
 [[files]]
@@ -5724,6 +5724,11 @@ metafile = true
 [[files]]
 file = "mods/wall-jump-unofficial-arch.pw.toml"
 hash = "fb39281775b35cfbfd03fde15f337110e28b021ad010a836ac954b91f29f7a97"
+metafile = true
+
+[[files]]
+file = "mods/wavey-capes.pw.toml"
+hash = "6b8677362d29aa238f5b74aca85267251d776f2fb764cf792109cdbea7a5aecc"
 metafile = true
 
 [[files]]
