@@ -134,7 +134,7 @@ hash = "ec508ba476e7f1beb5123f89ea5d7f7e04474ec925a500aab4e83a4cd0b702e2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/basic_storage.snbt"
-hash = "7165d18af12415e96e2762023c69ba1df9ef5d93ecbe4389fc7d37e7581f9b5a"
+hash = "991d51342d088631613c55779efda484a0d05fb8dbe8ab7d1eda64b493291042"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/bigger_reactors.snbt"
@@ -393,10 +393,6 @@ file = "config/ftbquests/quests/chapters/rftools_wip.snbt"
 hash = "cdbe1e8ed80180652c257193d068b5e1e1e5e3fe428741710a06ba69058f51da"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/rings_of_ascension.snbt"
-hash = "306801b7b2bb2dad54404d7be2a1fc3ce15a6c6283bfc3527a85e597a63f987c"
-
-[[files]]
 file = "config/ftbquests/quests/chapters/roots_classic.snbt"
 hash = "2a2352098a0281339f5f774b5fc76ead53ee76b475d0c9de7f63549ba28a04ee"
 
@@ -414,7 +410,7 @@ hash = "fd2ef7a1f8b13b140941ca90a3b174f102244f90cd8c8c4cc38da40e3ab5527e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/sophisticated_mods.snbt"
-hash = "df7dac4f5fccc96b82de6b8d608e0a3d2e5c74617c4c14504943215845529952"
+hash = "48576de989440589f8f417b43179585b66a998fe4856c618e9f2ba863dd54a84"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/spirit.snbt"
@@ -1602,7 +1598,7 @@ hash = "ec508ba476e7f1beb5123f89ea5d7f7e04474ec925a500aab4e83a4cd0b702e2"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/basic_storage.snbt"
-hash = "7165d18af12415e96e2762023c69ba1df9ef5d93ecbe4389fc7d37e7581f9b5a"
+hash = "991d51342d088631613c55779efda484a0d05fb8dbe8ab7d1eda64b493291042"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/bigger_reactors.snbt"
@@ -1861,10 +1857,6 @@ file = "defaultconfigs/ftbquests/quests/chapters/rftools_wip.snbt"
 hash = "cdbe1e8ed80180652c257193d068b5e1e1e5e3fe428741710a06ba69058f51da"
 
 [[files]]
-file = "defaultconfigs/ftbquests/quests/chapters/rings_of_ascension.snbt"
-hash = "306801b7b2bb2dad54404d7be2a1fc3ce15a6c6283bfc3527a85e597a63f987c"
-
-[[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/roots_classic.snbt"
 hash = "2a2352098a0281339f5f774b5fc76ead53ee76b475d0c9de7f63549ba28a04ee"
 
@@ -1882,7 +1874,7 @@ hash = "fd2ef7a1f8b13b140941ca90a3b174f102244f90cd8c8c4cc38da40e3ab5527e"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/sophisticated_mods.snbt"
-hash = "df7dac4f5fccc96b82de6b8d608e0a3d2e5c74617c4c14504943215845529952"
+hash = "48576de989440589f8f417b43179585b66a998fe4856c618e9f2ba863dd54a84"
 
 [[files]]
 file = "defaultconfigs/ftbquests/quests/chapters/spirit.snbt"
@@ -5220,7 +5212,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "dd4a04b96902294a8bfaa95c810322d6a2117c6edf26a16e3a67ddfca1295c67"
+hash = "911587b346ce501da20f4273e2cb1eba3a57ec99adf7adc8559a1686ce1ff59e"
 metafile = true
 
 [[files]]
@@ -6015,7 +6007,7 @@ metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
-hash = "510a8173f1e4ccb7fe3b907a3ea188816067cf91b26b7e0aa24a8bef1d532830"
+hash = "5fadc44d9a151374fbbff4fa9c044642be386c70143f3fc09fbd7e407c05804a"
 metafile = true
 
 [[files]]
@@ -6455,7 +6447,7 @@ metafile = true
 
 [[files]]
 file = "mods/packagedauto.pw.toml"
-hash = "1b7b728b1407f8f91b5186500aab846641ad0960b88a0491fb06e032dec3f544"
+hash = "223c91fe9df8afcdbdff12e61a9d0c44a25276fdabb43b75959b9c6aeba748f6"
 metafile = true
 
 [[files]]

@@ -297,8 +297,8 @@
 				title: "Metal Barrels"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 0.0d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["3FC2244B7FE7C3A1"]
@@ -317,8 +317,8 @@
 				title: "Metal Barrel Conversion Upgrades"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 1.0d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["37FC7216C7912F45"]
@@ -337,8 +337,8 @@
 				title: "Iron Chest Conversion Upgrades"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 4.0d
+			y: -1.5d
 		}
 		{
 			description: ["Basic chests will only get you so far in this modpack, as there are thousands of unique items, and you will quickly find yourself drowning in a sea of chests to sort. Luckily, there are mods included in this modpack which make sorting your treasures (and junk) much easier."]
@@ -374,8 +374,8 @@
 				type: "checkmark"
 			}]
 			title: "Cloud Storage"
-			x: 8.0d
-			y: -0.5d
+			x: 3.75d
+			y: 0.0d
 		}
 		{
 			dependencies: ["6578C82B120DE0EA"]
@@ -391,8 +391,8 @@
 				item: "cloudstorage:balloon"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -0.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["34A5470646A4CE63"]
@@ -409,8 +409,8 @@
 				item: "cloudstorage:cloud_chest"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -0.5d
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5209737ECC6EC599"]
@@ -439,8 +439,8 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: -0.5d
+			x: 7.0d
+			y: 0.0d
 		}
 		{
 			description: ["&eIron Chests&r adds several tiers of &bChests&r, each holding more than the last."]
@@ -490,193 +490,8 @@
 				title: "Iron Chests"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.0d
-		}
-		{
-			id: "6C31BE098E526EA5"
-			rewards: [{
-				id: "3D7B998D04119C7B"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "A looters choice of storage."
-			tasks: [{
-				id: "3751D5396A7597A8"
-				item: "ironchests:iron_chest"
-				type: "item"
-			}]
-			title: "Bigger Chests"
-			x: 5.5d
-			y: -5.5d
-		}
-		{
-			id: "5253BD48EF0933D3"
-			rewards: [{
-				id: "664DC0ACA1FB9D26"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "May the chests be shining."
-			tasks: [{
-				id: "3D30AEB50BDC4767"
-				item: "ironchests:gold_chest"
-				type: "item"
-			}]
-			title: "Even bigger chests"
-			x: 5.5d
-			y: -4.5d
-		}
-		{
-			id: "1DC5F9F7C1885BA1"
-			rewards: [{
-				id: "068DE77845ADE012"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "51B1D46624893AB3"
-				item: "ironchests:diamond_chest"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -3.5d
-		}
-		{
-			id: "5D1D34E118F98212"
-			rewards: [{
-				id: "0726553A2CEB4002"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "004C0855331897D6"
-				item: "ironchests:obsidian_chest"
-				type: "item"
-			}]
-			x: 5.5d
+			x: 4.0d
 			y: -2.5d
-		}
-		{
-			id: "083B8A3DA9C74EF0"
-			rewards: [{
-				id: "0B9A0CC99582F0A6"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "1BCBAA7D39881B8F"
-				item: "ironchests:netherite_chest"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -1.5d
-		}
-		{
-			description: [
-				"Bronze barrels can used to store and move 32 stacks of one item."
-				""
-				"Amount of stacks allowed increase for each tier of barrel."
-			]
-			id: "4A5B980D6C55E752"
-			rewards: [{
-				id: "5B3AE29D77E04DC4"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Another storage drawer in disguise."
-			tasks: [{
-				id: "72823E5867074DDE"
-				item: "modern_industrialization:bronze_barrel"
-				type: "item"
-			}]
-			x: 7.0d
-			y: -6.5d
-		}
-		{
-			description: [
-				"Bronze Tanks can store up to 4 buckets each."
-				"You can use that to interact with machines and can also be placed in the world."
-				""
-				"TIP: Tanks are stackable if containing the same fluid."
-			]
-			id: "0981091E6F2AC265"
-			rewards: [{
-				id: "0FE4CD83AD3A77A8"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Right-click with buckets or other tanks to transfer fluids."
-			tasks: [{
-				id: "362202D2174C0948"
-				item: "modern_industrialization:bronze_tank"
-				type: "item"
-			}]
-			x: 8.0d
-			y: -6.5d
 		}
 		{
 			description: [
@@ -693,8 +508,8 @@
 				title: "Modern Industrialization"
 				type: "checkmark"
 			}]
-			x: 7.5d
-			y: -8.0d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			description: [
@@ -715,30 +530,6 @@
 			}]
 			x: 0.0d
 			y: -4.5d
-		}
-		{
-			id: "628D570C1E1E2314"
-			rewards: [{
-				id: "1E4101C7E0A4888C"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "4A5E9E582B3981D7"
-				item: "ironchests:copper_chest"
-				type: "item"
-			}]
-			x: 5.5d
-			y: -6.5d
 		}
 		{
 			description: [
@@ -780,8 +571,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 6.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["00000000000003FF"]
@@ -1020,8 +811,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.0d
+			x: 6.0d
+			y: -1.5d
 		}
 		{
 			description: [
