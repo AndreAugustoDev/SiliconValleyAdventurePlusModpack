@@ -1,9 +1,0 @@
-{
-  "type": "lootbags:loot",
-  "name": "Refined Storage Basic Lootbag",
-  "color": "#55ff55",
-  "rarity": "COMMON",
-  "output": {
-    "table": "kubejs:loot_bags/refined_storage/basic_lootbag"
-  }
-}

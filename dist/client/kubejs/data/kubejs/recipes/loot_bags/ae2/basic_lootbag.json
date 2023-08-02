@@ -1,9 +1,0 @@
-{
-  "type": "lootbags:loot",
-  "name": "AE2 Basic Lootbag",
-  "color": "#55ffff",
-  "rarity": "COMMON",
-  "output": {
-    "table": "kubejs:loot_bags/ae2/basic_lootbag"
-  }
-}

@@ -1458,7 +1458,7 @@ hash = "2aa566eb24d01921215448b47f60aeef9432669edfb8acc1ec71d4da39b20f9a"
 
 [[files]]
 file = "config/waystones-common.toml"
-hash = "770b4ecfa68319ba7b1f5f08c7b379d364452d6cbd3edd955fed253117199ccc"
+hash = "779e5ba7670450d41e23eca5def18ca7a7988972b245f8c90a7eb596702ef813"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -2926,7 +2926,7 @@ hash = "2aa566eb24d01921215448b47f60aeef9432669edfb8acc1ec71d4da39b20f9a"
 
 [[files]]
 file = "defaultconfigs/waystones-common.toml"
-hash = "770b4ecfa68319ba7b1f5f08c7b379d364452d6cbd3edd955fed253117199ccc"
+hash = "779e5ba7670450d41e23eca5def18ca7a7988972b245f8c90a7eb596702ef813"
 
 [[files]]
 file = "defaultconfigs/xaerominimap.txt"
@@ -4077,100 +4077,124 @@ file = "kubejs/data/kubejs/forge/biome_modifier/rare_archwood_mix.json"
 hash = "aeb57a35ac5b0fa7958be489ceca18ef2c421bad115a1e6ffd4a00267fa29144"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ad_astra/common.json"
-hash = "5738b5b31db45e4c169b21b7af6565d7fabf4513c0dbfbc01a3cf5093fb79b46"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/book.json"
+hash = "6b0b14fdc283e1fb4df5ae96a7a630f89fba9aad9e2b5b6c1b4328631515c8bc"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ad_astra/epic.json"
-hash = "e955b574e24a9c46874273ebccb97b0bc8c8323d6f3a0b6e5a38944f84e52ebe"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/aboutus.json"
+hash = "e19750292443b41e18ca274e1200947826d4b007d7b76ee04e9ad7b893bee43d"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ad_astra/legendary.json"
-hash = "ad676dc0c52b4d03014db35f9e36be712f974b98636676ea39d2c77aaaa6c96f"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/fe.json"
+hash = "f1acdb40cfac77af9815e6027b8243f62bf3c11921315210f0c1ee496bdcf2c8"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ad_astra/rare.json"
-hash = "de53ea10831da4cbdc871a35d2ce7b0369136cde9bd735b2a423a8a22194c520"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/ftbchunks.json"
+hash = "cf4e0dfbe03a84fe19bfd69ad236de28ee2d572592c8bd858318641a7d020239"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ae2/basic_lootbag.json"
-hash = "df2dbe0c56728531dc0bc23beda746cc9a3e3a81044d7c69cd653f0ecc9bacd4"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/jei.json"
+hash = "cafe4b9a8090a4524439b00d390b6da7b1c157c59e18fd3f301ac1a433c4dd0e"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/ae2/medium_lootbag.json"
-hash = "7b7860e74594847e7465d4a49d54ba77e9bb9fbd7251613f7f018acf75082d68"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/quests.json"
+hash = "793c7985299eec876ca934efbde1a44c2e8930408692348c3aaed27acdade901"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/create/common.json"
-hash = "9540a74021bc1237a0746c4f390510ae753d264151d4430f14dabc4f4e78252b"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/theoneprobe.json"
+hash = "45ab415b866c6bc967e5a524bcb4f03b8ed40ae438abeda01e5cdf890f017ede"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/create/epic.json"
-hash = "3c45b12ebf1cdc52e7bf54e51dad50bd202ef411137fe6072dfad7ed457a86b3"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/categories/tweaks.json"
+hash = "3b075d3690b90bcc78c9afb0a6eec426720d9c6991566934c87f6e1bf1b7c388"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/create/legendary.json"
-hash = "810bac46d0c6cc5c1aeefae8912c42e07018051cdeaf498b677344f5a9821450"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/aboutus/about_credits.json"
+hash = "b7f4ab7b8690d4e8c1ce2fd240f75268832b1ca7d74e977833247f093455049a"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/create/rare.json"
-hash = "f5f81922ec5d1e9adfcfd364b3f1e6b236ea0efd8015d142df9533e27b86d517"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/aboutus/about_discord.json"
+hash = "b427c9e3db571d10ae341b9dd7b4d46ce4cad3fa24e8b3965217bde90b10c317"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/magic/common.json"
-hash = "74605d43cb7fb4758d90a8ae74e6df8415579ebb4bb19b033bc03ab0c70a8d51"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/aboutus/about_twitter.json"
+hash = "9f92f5f0b5cacb360243018fcec186def5e493ae4cac0f7753ff242af6b923dd"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/magic/epic.json"
-hash = "bb5f1a1ec113e82494c679dfa3f82779ced7e95c163f378333d22b5c75b9941d"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/fe/fe_diff.json"
+hash = "70dd7be6f88eb071a9b4ae12e9afde03e8f354a6afeac8fbb6479ebfdc9111f8"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/magic/legendary.json"
-hash = "a9c1a4e0204e8d787040ba0042ebc72ca30f2f5d949d40559fb905d309311c3a"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/fe/fe_intro.json"
+hash = "eff2ff4b779b6eb643db1bf65efcd5e5b6d6ea6fe70a96bd1cdb809c3cee07d7"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/magic/rare.json"
-hash = "1ada7e34c7e09eb77e98657b1ad58fa483ddafc69c9f543af2456d97a33e28ce"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/ftbchunks/ftbchunks_chunkloading.json"
+hash = "51123e74fe86147bd743df1073bcdbdbe10f3a7446f32f1128a4921b7b07cc9e"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/misc/agriculturist.json"
-hash = "f4e3f955615dd332983132aa8a0c052beabe7f59ced7deff1ee3167ead4a75ac"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/ftbchunks/ftbchunks_claiming.json"
+hash = "b5f9166af0e225abf854ca881fbbe133b647f0a5a3fcc53391921cd4ea14bd1c"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/misc/artifacts.json"
-hash = "b69568b89d0ff8b210a967c0d2b1d88b7dc8b0a0bec0efebef6fcb26d8a349b0"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/ftbchunks/ftbchunks_minimap.json"
+hash = "0e534535510059b3180e54ada93c82783a854ed5d922a7776df52e938d6b192d"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/misc/farmers_delight.json"
-hash = "1646a7c2f0ea5503061c30d143833c0f804b23ae3279601370987f23deabf5ab"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/ftbchunks/ftbchunks_waypoints.json"
+hash = "4b6bd85b4c1de19414cd56267ebcaa6e00c96856e23b0cdf3f76edb12f59199f"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/misc/logistics.json"
-hash = "2b3798c0db14571698b6622a713da2500197f7697a072f27456d2eba1e873d54"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/ftbchunks/ftbchunks_worldmap.json"
+hash = "11025d023c36db5b17b27bb5b1af92980363b5830595e9c2f1700da9da86d76a"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/misc/utilities.json"
-hash = "e9d03c20a793ddee527be21ad12b821e75706bf531711a296bad3427111e1575"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/jei/jei_bookmarks.json"
+hash = "8d91f6eb00401346b56db364fa9b7594a7c4a3372e296153e4b9eb8da5cb96f5"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/powah/common.json"
-hash = "b2ea4258d55770ced721b7037810104a1e9996f442956fb36caf26d60bb48335"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/jei/jei_creative.json"
+hash = "5970a566e5a57ae9c8382256f3bd7a079ad7b2bfcf763aef8aa6c5d21aee12c0"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/powah/epic.json"
-hash = "37e117769b88216e0bd2d8e55d4fa7eac2d8d7fdf2ce2facdee1be675f7bc25d"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/jei/jei_intro.json"
+hash = "f8d1450abb6e36928431a7a6d3bd1745105f1355220bcb7a13c182455eec46e3"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/powah/legendary.json"
-hash = "d0c3b38c319fb8aad0b6db71b0e45e4bebaf27070aa1834f620ce5de6c12395b"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/jei/jei_recipes.json"
+hash = "7d8927ba29fce60159c29fad2b85ce0063f015534674ebc4e6aa887585c2013b"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/powah/rare.json"
-hash = "3d13ef985c0bf8ffe17c9e1348e9c7daab8c0dbd39fc27999c9f3af5b22b8c31"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/jei/jei_search.json"
+hash = "50774f7bd992ce8bf380c66a2e359b6389953ec30573510def66bde28b37a7df"
 
 [[files]]
-file = "kubejs/data/kubejs/recipes/loot_bags/refined_storage/basic_lootbag.json"
-hash = "35dffbd33507fafad19b1aca0e4101cb65a9f8108a9fb6ed05ef9d0fd1a26420"
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/quests/quests_intro.json"
+hash = "16399968b8e890e705be9a4c1701368cf2621564a7ad8518832f27ac9693be75"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/top/top_config.json"
+hash = "ff7bb3e35ef4eeb5d07859b316582fcca83d0c9cc34b86adbde55754a2b652d1"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/top/top_intro.json"
+hash = "ff1187565313fa57aa4a3c50a74f51ceffac571dc09bd1ebb013ae2250bacf04"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/tweaks/tweaks_ding.json"
+hash = "57e87fc4480d1a3bb25aacc74801d606cf664abd6ed38de5d337cde69e1c4bca"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/tweaks/tweaks_inv.json"
+hash = "75f7b7087d2038f9f7f36131331c4afc860d9c30df276f8ab3fd6c824538fb00"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/entries/tweaks/tweaks_mouse.json"
+hash = "190504b1c58c35d77785f5e3c5209be9989b9d6d553df2c29e00b4d72d35d5d1"
+
+[[files]]
+file = "kubejs/data/kubejs/patchouli_books/modded_for_dummies/en_us/templates/empty.json"
+hash = "798743e21f81d538a017d6159a59e7d82f86b5acfbaaed5a6e0cc214f9cd3e89"
 
 [[files]]
 file = "kubejs/data/lexicon/advancements/grant_book_on_first_join.json"
@@ -4305,6 +4329,10 @@ file = "kubejs/data/trofers/trofers/twilight_forest.json"
 hash = "8efd05e11976b8ad0a377305beb7c74e9880de3de479ec2ea5f5daabd590754a"
 
 [[files]]
+file = "kubejs/data/trofers/trofers/zoology.json"
+hash = "57ae1945111d00b35e5f7e6b28b24e31ec2cf471393821c43904f36113f1630a"
+
+[[files]]
 file = "kubejs/data/twilightforest/loot_tables/structures/graveyard.json"
 hash = "594a8c51062daf8feef678d537794867f6bc8ba61b4c0d62b053928443f23867"
 
@@ -4370,15 +4398,51 @@ hash = "2b75593c00146a51990e6ad0239a8e18f320fd350a1a584d28a6118c425c8e50"
 
 [[files]]
 file = "kubejs/server_scripts/loot_bags/loot_bag_recipes.js"
-hash = "93724f2b31fbe110346df9bab13ebc9abd89fdbba1474e47a39529c9ea121b8f"
+hash = "5a6a45960fec3b5e70294f7172e3f384206a3769e8e84d830ba1449a246697fe"
 
 [[files]]
-file = "kubejs/server_scripts/loot_bags/loot_tables/ae2_loot_table.js"
-hash = "99e3714379d15337cb1213b7e940479d95449b785a635c7b66affd4b861a2e7e"
+file = "kubejs/server_scripts/loot_bags/loot_tables/misc.js"
+hash = "3c78a65e265ac30c9f19f1d51d7102c20f34b16a4c0ee80bfd7ebdc88ec6d86d"
 
 [[files]]
-file = "kubejs/server_scripts/loot_bags/loot_tables/mystical_agriculture.js"
-hash = "d47ad342ee5c1bf15af52e8ba472cb57910cafac5f8e6601aa6b05f338e19f07"
+file = "kubejs/server_scripts/loot_bags/loot_tables/model.txt"
+hash = "da851fa31f8bd048be6ef123530c408b15e9b82c2a67f6fd5ac3bcf07e3e8d1c"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/ae2.js"
+hash = "433bc3b79b5eb2dcdb1c496fc3dd76086153fbb171db81a329853e20a84fc7e6"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/botania.js"
+hash = "2c1625d5489aea32f3c8bf088c1108735a6a49edf5de42c5a8b59c6cf60c2d92"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/mekanism.js"
+hash = "5b82b15855842c9aa16a1802e115b49c5c435c85b4482dc35a53a7a52845eb59"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/mystical_agriculture.js"
+hash = "126c7d1da932e3761e7248da405c697f692ad6b200544b600f43c5628abd942b"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/natures_aura.js"
+hash = "f2a4cfa65e90f5e7a69df3c3839743da74145cc3136e1c80634aed493ef12036"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/powah.js"
+hash = "87ca640c552a7894091d12390b23bccd299e1423f0cc9a5b08e330188f87b4cc"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/thermal.js"
+hash = "5c12f708a26061d4a9dd2aca28ac9bdfa52e960d17526bb82c4ddb386496872e"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/mods/twilight_forest.js"
+hash = "7ee5a7444946ae9fa641323a1a59c8b8e6343e11405509b16d6bf0f14d01d02b"
+
+[[files]]
+file = "kubejs/server_scripts/loot_bags/loot_tables/tier/mythic.js"
+hash = "9289ab7863c88bec1d25a4be3daf65cb0130ca7f48dd263eaa67a00a8908283d"
 
 [[files]]
 file = "kubejs/server_scripts/mods/ad_astra/ad_astra.js"
@@ -4747,7 +4811,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-nouveau.pw.toml"
-hash = "ce81a557e837d2b48071c03e2ea5401602dd0a06b549d4e1dcbe4231ce114b0f"
+hash = "4a17a2a4332dd908f468e59783d01105e36c616e76855a4b7e7931c6e21e2cbe"
 metafile = true
 
 [[files]]
@@ -4957,7 +5021,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "add44a896b79e0fd75db3cd3445822db8d85393e8814594ee6839ae7a8b5cf9d"
+hash = "1e80b99c00604c49bf15d21611b163110b6123c88bf9a22bc22e9acc0fe75b3b"
 metafile = true
 
 [[files]]
@@ -4968,6 +5032,11 @@ metafile = true
 [[files]]
 file = "mods/chemlib.pw.toml"
 hash = "0b9c7d96f3c8f7684abdc497af19b5ec0cc11e43b382d8179e5f24ba1f2e953e"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "2053b64e0f1507f2a8c485c57530718a614a53f24a4d0e348975b3127a42753f"
 metafile = true
 
 [[files]]
@@ -5107,7 +5176,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
-hash = "5363bd4ee840c95621fb7ff4d7b3763ab9b84dfded287200c312e01485b6095e"
+hash = "dd4a04b96902294a8bfaa95c810322d6a2117c6edf26a16e3a67ddfca1295c67"
 metafile = true
 
 [[files]]
@@ -5261,11 +5330,6 @@ hash = "848ff872278ce3a8ba44a378172a0681e5ffeeb252dd2001f9d0f1f2c064ce7e"
 metafile = true
 
 [[files]]
-file = "mods/dont-clear-chat-history.pw.toml"
-hash = "0580c39bd0cd5f45869c857258e7088f0e5af4a28355f21d74a06d1d7bd38bbf"
-metafile = true
-
-[[files]]
 file = "mods/dramatic-doors.pw.toml"
 hash = "1adef1506aa657b6c901c500101e0e390db771e7371eb7ea951755b607cfcd58"
 metafile = true
@@ -5327,7 +5391,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "bfc81c2ee6206ba88cba0a22a886c656bb1c448ac0178e366f14c5fb152a6068"
+hash = "3da62207ac4f5b0c06d6a7f647b21648ef7646102ea9b0636ca80a1195cdc3d4"
 metafile = true
 
 [[files]]
@@ -5372,7 +5436,7 @@ metafile = true
 
 [[files]]
 file = "mods/entangled.pw.toml"
-hash = "f21424aadd640eec42af49d49bbfa4144feeccacf2a30a46ab6c16f2577e798d"
+hash = "e125e44aeaba0304ca0de833d454a0955e14f39ea182875315c9c90388437e53"
 metafile = true
 
 [[files]]
@@ -5586,6 +5650,11 @@ hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
 metafile = true
 
 [[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "924907f27b6d0ebcb17497d5423c04cda431f0608016f48e372d36089267f4b9"
+metafile = true
+
+[[files]]
 file = "mods/fuelgoeshere.pw.toml"
 hash = "707fa22314bbe97299783f923fe5fb797d26f2a38d9812e1bb0439719cf80020"
 metafile = true
@@ -5702,12 +5771,12 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-crafting.pw.toml"
-hash = "7a0c0517a15b32fbbdb07b73f4aff212847986b7c1a34c84e0ca0098b160958f"
+hash = "1278c2d45c6b2a82c63fbaff5d1f7f82cf9284180d6d6c5de2c70fcaef997164"
 metafile = true
 
 [[files]]
 file = "mods/integrated-dynamics.pw.toml"
-hash = "64872b26bfe1537d10bc4dfd3f8b05c569e7fff8c79f6867983bd7f0e78174f8"
+hash = "03399565fd38ceb1f3c042bdc9059dbb014c8ddeb64b974b84a24b91cdf375b8"
 metafile = true
 
 [[files]]
@@ -5717,7 +5786,7 @@ metafile = true
 
 [[files]]
 file = "mods/integrated-terminals.pw.toml"
-hash = "c0fcbdf5b55d7857b429917462c8d2000eac85e832e9ad3f3f891c8a25716a8e"
+hash = "2898399f7ffb2693e0871e657a69ea415bd82b795587553a605761998050bf29"
 metafile = true
 
 [[files]]
@@ -5762,7 +5831,7 @@ metafile = true
 
 [[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
-hash = "ee2d124b96c99b7ecf9045774c0c3f1d4c65c5a5bd01fdd4575afaf53f912dde"
+hash = "d01377667b4c3aad7ac4854dedc695021b36e4becaad1a796b893d043da8f1af"
 metafile = true
 
 [[files]]
@@ -6067,7 +6136,7 @@ metafile = true
 
 [[files]]
 file = "mods/modonomicon.pw.toml"
-hash = "c100a694146be8999f60d318cacee868fc01c436f9547fc2da3d82a713ee2c61"
+hash = "4827f88de14fe5fb00e5c85c8840ac68b052a74731a88975a8e8851d4a546030"
 metafile = true
 
 [[files]]
@@ -6247,7 +6316,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "b6e7e83575532db434268c767fa247ab9c4539281f18e140f2f41b7182bcc1f5"
+hash = "77d1cdca085d8204172960583079fda4f5a18545d930fdbbcf01bb90c9c8d742"
 metafile = true
 
 [[files]]
@@ -6277,7 +6346,7 @@ metafile = true
 
 [[files]]
 file = "mods/packagedauto.pw.toml"
-hash = "2f35902400605f672b52362fc7f4591aaeb995b19fbf4811abfe78052f65feb9"
+hash = "1b7b728b1407f8f91b5186500aab846641ad0960b88a0491fb06e032dec3f544"
 metafile = true
 
 [[files]]
@@ -6607,7 +6676,7 @@ metafile = true
 
 [[files]]
 file = "mods/seamless.pw.toml"
-hash = "611b3ec477b4ed5ba9208f41b77f49656ec51a12e161bac73933e20c130fae8a"
+hash = "5c22bc2733ce2287893c2c5a246f978fdd97687fa0cdcca380e1fd749903565e"
 metafile = true
 
 [[files]]
@@ -6707,12 +6776,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "10c40a892e38ee9262f6e1d0c2d165acaaf995d9da62a3fad679e626f2ea54ab"
+hash = "b1661fd8e4bc9a49aa8412a549a2bf36f43803eef3fdac4dbab629ab211ba088"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "3fa002285b251f7bde46238c74f08ac0538f50a3f51a085cefc6f49ace058d83"
+hash = "fe63673e3486fc57fb70116089db249ca2d25fea755bd00dd78e4dfba16d7f8c"
 metafile = true
 
 [[files]]
@@ -6812,7 +6881,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "1dead395f5dfb001b5f5dfea9d45d5660dae8c8f45dd67e86c93be249dac346e"
+hash = "239903854f201b23dfdc6cebd117f8d710db8796338ddaa02f42a4663f4e4db3"
 metafile = true
 
 [[files]]
@@ -6942,7 +7011,7 @@ metafile = true
 
 [[files]]
 file = "mods/upgraded-netherite-items.pw.toml"
-hash = "2ccac693ae05a4891eab3fba231bae7df09559c473ae063ebb05084f8d072e10"
+hash = "24864c34ca90cb07e33e430482d93dbb580c9efc7dc5d1213ff8c4f7e61cbdca"
 metafile = true
 
 [[files]]

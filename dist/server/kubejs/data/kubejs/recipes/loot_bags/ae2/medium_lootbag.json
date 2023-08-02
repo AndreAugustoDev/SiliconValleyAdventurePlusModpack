@@ -1,9 +1,0 @@
-{
-  "type": "lootbags:loot",
-  "name": "AE2 Medium Lootbag",
-  "color": "#2cbaa8",
-  "rarity": "UNCOMMON",
-  "output": {
-    "table": "kubejs:loot_bags/ae2/medium_lootbag"
-  }
-}

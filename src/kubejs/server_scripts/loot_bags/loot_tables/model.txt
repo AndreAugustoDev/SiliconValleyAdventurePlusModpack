@@ -1,0 +1,8 @@
+ServerEvents.genericLootTables(event => {
+  event.addGeneric("lootbags:loot_bags//", table => {
+    table.addPool(pool => {
+      pool.rolls = 1.0;
+      
+    });
+  });
+});
