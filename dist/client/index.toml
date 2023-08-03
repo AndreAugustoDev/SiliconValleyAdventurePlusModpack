@@ -5437,7 +5437,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "3da62207ac4f5b0c06d6a7f647b21648ef7646102ea9b0636ca80a1195cdc3d4"
+hash = "fec02c17767612e6e77444226af9f5a6384e0c429f5b7f327a56d95c150baf1a"
 metafile = true
 
 [[files]]
@@ -5587,7 +5587,7 @@ metafile = true
 
 [[files]]
 file = "mods/farmers-delight.pw.toml"
-hash = "8189165b2426b999ed9621cb79aacab2635f3220fac15716a6f43084a0eb0986"
+hash = "7178ff9343de304a0b6a46bb26469b82ae90051f17ea4e5e547bbc86cbf7982f"
 metafile = true
 
 [[files]]
@@ -6412,7 +6412,7 @@ metafile = true
 
 [[files]]
 file = "mods/occultism.pw.toml"
-hash = "77d1cdca085d8204172960583079fda4f5a18545d930fdbbcf01bb90c9c8d742"
+hash = "db0fe31c1030d5a1b8d867404c0b4cbd662a2d547d2d9d08b08c592404fbb1ab"
 metafile = true
 
 [[files]]
@@ -6627,7 +6627,7 @@ metafile = true
 
 [[files]]
 file = "mods/redirectionor.pw.toml"
-hash = "c57c594011bf03207eead003a96ed27701fa189a6078d37f506cb7e8af235c3d"
+hash = "dec3d6027dbb1769d93b8faca4d1e9943809333a3f25cf6409182d8554e6ffe4"
 metafile = true
 
 [[files]]
