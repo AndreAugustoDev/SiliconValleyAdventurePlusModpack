@@ -49,6 +49,10 @@ file = "config/ars_nouveau-common.toml"
 hash = "3f351e7fa1b89f211731351d3c873eec7c78679d776497fea85daa05308f454d"
 
 [[files]]
+file = "config/bcc-common.toml"
+hash = "ef7c2c4ee155fd7f4b2146d972a32a541d9f1ecbb5fdcbfc6542ee3bc7b03489"
+
+[[files]]
 file = "config/beo-common.toml"
 hash = "071a3f81c00606ceac8015cfedeeece64ca65065b5011e4d9af13e64481fd452"
 
@@ -1539,6 +1543,10 @@ hash = "9373941af9ada49b7cf3eef10f8bc5d476bd38b533a6cff985c6ebd8d3609a96"
 [[files]]
 file = "defaultconfigs/ars_nouveau-common.toml"
 hash = "3f351e7fa1b89f211731351d3c873eec7c78679d776497fea85daa05308f454d"
+
+[[files]]
+file = "defaultconfigs/bcc-common.toml"
+hash = "ef7c2c4ee155fd7f4b2146d972a32a541d9f1ecbb5fdcbfc6542ee3bc7b03489"
 
 [[files]]
 file = "defaultconfigs/beo-common.toml"
@@ -5026,6 +5034,11 @@ hash = "a88250ec382bd3aa224e11b803500a56d84b2c103f56834ef7ecb6eab938c24f"
 metafile = true
 
 [[files]]
+file = "mods/better-compatibility-checker.pw.toml"
+hash = "d6e632815eec579cf9763057f706a5a4eae2dd9237601e63b4c32bc57ac90338"
+metafile = true
+
+[[files]]
 file = "mods/better-mods-button.pw.toml"
 hash = "0dfdcfc3005a9f6e4544ae8a362a71868c61f77af2a00db27d1a1c8c2612ecfe"
 metafile = true
@@ -5728,6 +5741,11 @@ metafile = true
 [[files]]
 file = "mods/edivadlib.pw.toml"
 hash = "38d1fd4c49da8da6251c0a481e8f93ff06430f227411d214c66b5a397753e3e8"
+metafile = true
+
+[[files]]
+file = "mods/effortless-building.pw.toml"
+hash = "2b89b3837266d7a7fb026f5322a3f2a364422b17aeb777cd6d0ed05c179894b7"
 metafile = true
 
 [[files]]
@@ -6516,6 +6534,11 @@ hash = "c0c0417ef75c6d3426d726942262c484d915c36668e8110a4e3f2ba610873614"
 metafile = true
 
 [[files]]
+file = "mods/login-protection.pw.toml"
+hash = "56b6d09fb2ccaceb7bf7f5ed03df651733f92f369220336de4ec9cbe002e88f3"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "81cbb0145b5549d6cc1af8cb1dd6252c4d9083ed3d2dc528a95ee91fc24c9a31"
 metafile = true
@@ -6861,6 +6884,11 @@ hash = "f349720f05bacd441290629a2aabb95a8c5f742227037900db022f4e0258f2de"
 metafile = true
 
 [[files]]
+file = "mods/nethers-exoticism.pw.toml"
+hash = "7b613a60660ceda6b0068eaacf1d4ef52cc38e627c890184ad6aeef69c16f002"
+metafile = true
+
+[[files]]
 file = "mods/new-nether-chest.pw.toml"
 hash = "ac9aca54dbd34df5657fa6ee595d9dad29a5aab625a057800f23eefd6301fef6"
 metafile = true
@@ -7063,6 +7091,11 @@ metafile = true
 [[files]]
 file = "mods/powah-rearchitected.pw.toml"
 hash = "a5f1cf2dc6bbda2eec8f4c222d4ed5cd75b73037f1dcaf72e92beb5c37b21569"
+metafile = true
+
+[[files]]
+file = "mods/powered-gear.pw.toml"
+hash = "6a1add54470e87e2dc6888c181b4444d49febb56870d2a6b5788d602bf57d84f"
 metafile = true
 
 [[files]]
@@ -7443,6 +7476,11 @@ metafile = true
 [[files]]
 file = "mods/smidgeon-o-bliss.pw.toml"
 hash = "14af77005274bc314383e8d7d713b07dfba32e1abfb2239030b58cfc229efa70"
+metafile = true
+
+[[files]]
+file = "mods/smooth-chunk-save.pw.toml"
+hash = "f09b8dd9df72e507cbeb70119bd9c1c41cafde5e4806b7205ba82219591187e7"
 metafile = true
 
 [[files]]

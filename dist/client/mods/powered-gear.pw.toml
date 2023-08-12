@@ -1,0 +1,13 @@
+name = "Powered Gear"
+filename = "poweredgear-1.19.2-0.3.0b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/P77EP7f8/versions/Jx3uVid5/poweredgear-1.19.2-0.3.0b.jar"
+hash-format = "sha1"
+hash = "c6c5a7c38ea9ca7d63a021381816bcec3dfecf3d"
+
+[update]
+[update.modrinth]
+mod-id = "P77EP7f8"
+version = "Jx3uVid5"
