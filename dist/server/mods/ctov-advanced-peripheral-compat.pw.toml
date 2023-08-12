@@ -1,0 +1,13 @@
+name = "CTOV - Advanced Peripheral Compat"
+filename = "ctov-advanced-peripheral-compat-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dLYWYSIm/versions/y7m5UC6G/ctov-advanced-peripheral-compat-1.0.jar"
+hash-format = "sha1"
+hash = "9dc65726b12916ca257e011913d2aa92e62f9fee"
+
+[update]
+[update.modrinth]
+mod-id = "dLYWYSIm"
+version = "y7m5UC6G"

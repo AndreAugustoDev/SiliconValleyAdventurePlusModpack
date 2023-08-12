@@ -982,12 +982,9 @@
 			description: ["Grants the Router some amount of energy storage, allowing the router to handle both Item and Energy transfer at once. "]
 			id: "5A7512AA919309E5"
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
-				icon: "kubejs:sorcerers_delight"
-				id: "56004BEDB4624F96"
-				player_command: false
-				title: "Sorcerer's Delight"
-				type: "command"
+				id: "719C4B5A85C09F74"
+				item: "modularrouters:blank_upgrade"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0CF6F9BAA4502A0E"

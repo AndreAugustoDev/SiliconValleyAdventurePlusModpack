@@ -17,103 +17,27 @@
 			}
 			id: "153F0CB735613587"
 			linked_quest: "16C5FCE84691F4C8"
-			x: -6.5d
-			y: 0.5d
+			x: -15.0d
+			y: -1.0d
 		}
 		{
 			id: "53F71BC3DB8AEBB7"
 			linked_quest: "48B93DB363CE1030"
-			x: 9.0d
-			y: -1.5d
+			x: 0.5d
+			y: -1.0d
 		}
 	]
 	quests: [
 		{
-			description: ["If you did not know by now that as you level up you waste more and more experince points when enchanting. So instead of wasting experince why not store it in this handy container!"]
-			icon: "xps:block_xp_obelisk"
-			id: "0CC7532B8B2A8CE1"
-			rewards: [
-				{
-					count: 2
-					id: "3C1123D105BB4F9E"
-					item: "minecraft:experience_bottle"
-					random_bonus: 8
-					type: "item"
-				}
-				{
-					id: "46E6BF668C762009"
-					item: "autoworkstations:iron_auto_experience_orb_vacuum"
-					type: "item"
-				}
-			]
-			subtitle: "Enchanting Efficiency"
-			tasks: [
-				{
-					id: "260A111C1C0494FC"
-					item: "xps:block_xp_obelisk"
-					type: "item"
-				}
-				{
-					id: "4E46640D594FA420"
-					item: "xps:xp_remover"
-					type: "item"
-				}
-			]
-			x: -5.5d
-			y: -5.5d
-		}
-		{
-			description: ["The Dragon anvil works exactly like a normal anvil, but it never breaks, has no level cap, and won't ask you for more than 30 levels of experience."]
-			id: "55B8FA4F61766389"
-			rewards: [
-				{
-					id: "17A8E81556A46C11"
-					item: "minecraft:name_tag"
-					type: "item"
-				}
-				{
-					id: "24E55B49340A00E4"
-					item: {
-						Count: 1b
-						id: "lootbags:loot_bag"
-						tag: {
-							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
-							Name: "Agriculturist Lootbag"
-							Type: "UNCOMMON"
-						}
-					}
-					type: "item"
-				}
-			]
-			subtitle: "Everlasting Longevity!"
-			tasks: [{
-				id: "117A4C4E9825D1D5"
-				item: "dragonloot:dragon_anvil"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -5.5d
-		}
-		{
-			id: "7CE1C59E24D74956"
-			tasks: [{
-				id: "0E443BEF9778E174"
-				title: "Mysterious Enchanting"
-				type: "checkmark"
-			}]
-			x: -7.0d
-			y: -5.5d
-		}
-		{
+			dependencies: ["076E0355A262FC45"]
 			id: "34DEACDC7379FC9C"
 			tasks: [{
 				id: "4A45FCA51F1332CF"
 				title: "Armory"
 				type: "checkmark"
 			}]
-			x: -6.5d
-			y: -1.5d
+			x: -13.0d
+			y: 1.0d
 		}
 		{
 			description: ["Scales are dropped by killing the Ender Dragon."]
@@ -180,8 +104,8 @@
 				}
 			]
 			title: "&5Armory of Dragon"
-			x: 2.0d
-			y: -2.5d
+			x: -5.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -254,8 +178,8 @@
 				}
 			]
 			title: "&6Gilded Netherite"
-			x: -6.5d
-			y: -0.5d
+			x: -15.0d
+			y: 1.0d
 		}
 		{
 			id: "5634A71766CD1F50"
@@ -296,8 +220,8 @@
 				}
 			]
 			title: "&bQuantum Armory"
-			x: -5.5d
-			y: -0.5d
+			x: -11.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -344,18 +268,19 @@
 				}
 			]
 			title: "Modular Armory"
-			x: -8.5d
-			y: -0.5d
+			x: -13.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["076E0355A262FC45"]
 			id: "6FF9412D210ED9A0"
 			tasks: [{
 				id: "2546AAD7CEF0B52E"
 				title: "Tools"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 0.0d
+			x: -7.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -398,8 +323,8 @@
 				}
 			]
 			title: "Basic Tools"
-			x: 3.0d
-			y: -1.5d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -442,8 +367,8 @@
 				}
 			]
 			title: "Advanced Tools"
-			x: 3.0d
-			y: -0.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
 			description: [
@@ -486,8 +411,8 @@
 				}
 			]
 			title: "Industrial Tools"
-			x: 3.0d
-			y: 0.5d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			id: "3E7CEEF327CBF2C9"
@@ -544,8 +469,8 @@
 				}
 			]
 			title: "Mining Drills"
-			x: -3.0d
-			y: -1.5d
+			x: -9.5d
+			y: -1.0d
 		}
 		{
 			description: ["Its mining level on par with diamond made tools. One mined block will cost 100 Energy and it will use 125 Energy on entity hit."]
@@ -570,8 +495,8 @@
 				item: "techreborn:omni_tool"
 				type: "item"
 			}]
-			x: -2.0d
-			y: -0.5d
+			x: -6.5d
+			y: -1.0d
 		}
 		{
 			description: ["Scales are dropped by killing the Ender Dragon."]
@@ -638,8 +563,8 @@
 				}
 			]
 			title: "&5Dragon's Tools"
-			x: -4.5d
-			y: -2.5d
+			x: -11.0d
+			y: 1.0d
 		}
 		{
 			description: ["Craft any hammer to complete quest."]
@@ -671,8 +596,8 @@
 				type: "item"
 			}]
 			title: "Hammers"
-			x: -1.0d
-			y: 2.5d
+			x: -5.5d
+			y: 1.0d
 		}
 		{
 			id: "7F2C5E52F421EFA4"
@@ -703,8 +628,8 @@
 				type: "item"
 			}]
 			title: "Machetes"
-			x: 1.0d
-			y: 2.5d
+			x: -9.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -744,18 +669,19 @@
 				type: "item"
 			}]
 			title: "Scythes"
-			x: 2.0d
-			y: 2.5d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
+			dependencies: ["076E0355A262FC45"]
 			id: "046D949F5D2E8121"
 			tasks: [{
 				id: "30AE5E32E7605A8B"
 				title: "Weaponry"
 				type: "checkmark"
 			}]
-			x: 6.5d
-			y: 0.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			id: "4A54E5FCF8A1DC70"
@@ -786,8 +712,8 @@
 				type: "item"
 			}]
 			title: "&5Dragon's Sword"
-			x: 5.0d
-			y: -2.5d
+			x: 0.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -826,8 +752,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.5d
+			x: -3.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -888,8 +814,8 @@
 				type: "item"
 			}]
 			title: "Paxels"
-			x: 0.0d
-			y: 2.5d
+			x: -5.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -931,8 +857,8 @@
 				type: "item"
 			}]
 			title: "Charms"
-			x: -3.0d
-			y: -0.5d
+			x: -8.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -972,8 +898,8 @@
 				type: "item"
 			}]
 			title: "&6Simply Swords"
-			x: 8.0d
-			y: 2.5d
+			x: -1.5d
+			y: -1.0d
 		}
 		{
 			id: "1ED890593F24F38E"
@@ -1020,8 +946,8 @@
 				type: "item"
 			}]
 			title: "&cAdvanced Netherite"
-			x: -2.0d
-			y: 2.5d
+			x: -9.5d
+			y: 0.0d
 		}
 		{
 			id: "5360AD36130556F1"
@@ -1052,8 +978,8 @@
 				type: "item"
 			}]
 			title: "&cAdvanced Netherite"
-			x: -7.5d
-			y: -0.5d
+			x: -15.0d
+			y: 0.0d
 		}
 		{
 			id: "6FE82B056B9D5278"
@@ -1119,8 +1045,8 @@
 				}
 			]
 			title: "&bArmory of the Warden"
-			x: -5.5d
-			y: -2.5d
+			x: -11.0d
+			y: 0.0d
 		}
 		{
 			id: "4708176A593FED8E"
@@ -1151,8 +1077,8 @@
 				type: "item"
 			}]
 			title: "&bWeaponry of the Warden"
-			x: 7.0d
-			y: -2.5d
+			x: 0.5d
+			y: 0.0d
 		}
 		{
 			id: "288427611306980C"
@@ -1218,258 +1144,8 @@
 				}
 			]
 			title: "&bTools of the Warden"
-			x: 1.0d
-			y: -2.5d
-		}
-		{
-			id: "3EF4008570E39A69"
-			rewards: [{
-				id: "656CDA4B0980A08C"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16103753
-						Loot: "aof:loot_bags/misc/artifacts"
-						Name: "Artifact Lootbag"
-						Type: "LEGENDARY"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "The curse be upon you!"
-			tasks: [{
-				id: "7E189263194E0AEA"
-				item: {
-					Count: 1b
-					id: "minecells:cursed_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: -2.5d
-		}
-		{
-			description: [
-				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
-				""
-				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
-				""
-				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
-			]
-			id: "190AAC2F6972F7F5"
-			rewards: [{
-				id: "391CE9DA0621A374"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
-						Name: "Magic Epic Lootbag"
-						Type: "EPIC"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Made in the Portal to Alfheim."
-			tasks: [
-				{
-					id: "4C6AB6D5042007A3"
-					item: {
-						Count: 1b
-						id: "botania:elementium_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6B4B03CC77C16C6C"
-					item: {
-						Count: 1b
-						id: "botania:elementium_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "34F7E59D5CD9E652"
-					item: {
-						Count: 1b
-						id: "botania:elementium_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "62B5BBA0C6F83BC2"
-					item: {
-						Count: 1b
-						id: "botania:elementium_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&dElementium Armory"
-			x: -7.5d
-			y: -2.5d
-		}
-		{
-			id: "363DB468A1A058A5"
-			rewards: [{
-				id: "5195321048DB671D"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-						Type: "RARE"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Made out of Iron and Mana."
-			tasks: [
-				{
-					id: "41EF839C6CBD1D46"
-					item: {
-						Count: 1b
-						id: "botania:manasteel_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "4BE8D10446EABF59"
-					item: {
-						Count: 1b
-						id: "botania:manasteel_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "1FE1FA43151054D7"
-					item: {
-						Count: 1b
-						id: "botania:manasteel_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "61100CA9FA6B5873"
-					item: {
-						Count: 1b
-						id: "botania:manasteel_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&9Manasteel Armory"
-			x: -8.5d
-			y: -2.5d
-		}
-		{
-			description: [
-				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
-				""
-				"> Passive generation of 1 Mana per tick."
-				""
-				"> 20% decrease of Mana cost on all Mana-using tools and rods."
-				""
-				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
-				""
-				"> Effects of all Wills applied to the worn Terrasteel Helmet."
-			]
-			id: "4E444297FF007085"
-			rewards: [{
-				id: "34F3629BA3CA0B33"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
-						Name: "Magic Legendary Lootbag"
-						Type: "LEGENDARY"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Made via an infusion ritual."
-			tasks: [
-				{
-					id: "4A4F2B1C03958466"
-					item: {
-						Count: 1b
-						id: "botania:terrasteel_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "27B62B714FAEA3BD"
-					item: {
-						Count: 1b
-						id: "botania:terrasteel_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "2DC181F1326B4F52"
-					item: {
-						Count: 1b
-						id: "botania:terrasteel_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5C358EF03BDA9A26"
-					item: {
-						Count: 1b
-						id: "botania:terrasteel_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "&aTerrasteel Armory"
-			x: -6.5d
-			y: -2.5d
+			x: -5.5d
+			y: 0.0d
 		}
 		{
 			id: "5AF64BF5243975AF"
@@ -1504,8 +1180,8 @@
 				}
 			]
 			title: "&aTools of Terra"
-			x: 0.0d
-			y: -2.5d
+			x: -6.5d
+			y: 3.0d
 		}
 		{
 			id: "50C008D3436ABB92"
@@ -1561,8 +1237,8 @@
 				}
 			]
 			title: "&dElementium Tools"
-			x: -1.0d
-			y: -2.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			id: "000BD68B21C41D01"
@@ -1618,98 +1294,8 @@
 				}
 			]
 			title: "&9Manasteel Tools"
-			x: -2.0d
-			y: -2.5d
-		}
-		{
-			id: "32233BEB6AE9E947"
-			rewards: [{
-				id: "74C603B644207D77"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/rare"
-						Name: "Magic Rare Lootbag"
-						Type: "RARE"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "779967E5AD25ADE2"
-				item: {
-					Count: 1b
-					id: "botania:manasteel_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.5d
-		}
-		{
-			id: "4A05E1190A6C5966"
-			rewards: [{
-				id: "7237AA903B3D2F54"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/epic"
-						Name: "Magic Epic Lootbag"
-						Type: "EPIC"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "7361641BBFAB6C03"
-				item: {
-					Count: 1b
-					id: "botania:elementium_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.5d
-		}
-		{
-			id: "2FEEF5A238263435"
-			rewards: [{
-				id: "115CA2540A9DE6DE"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/magic/legendary"
-						Name: "Magic Legendary Lootbag"
-						Type: "LEGENDARY"
-					}
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "01F1DCEA67FE05C3"
-				item: {
-					Count: 1b
-					id: "botania:terra_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.5d
+			x: -8.5d
+			y: 3.0d
 		}
 		{
 			description: ["This tool performs much the same function as the rod of the lands, but also allows you to place blocks in midair for an additional cost."]
@@ -1734,8 +1320,8 @@
 				item: "botania:skydirt_rod"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -4.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
 			description: ["Just like the Rod of the Land, the Rod of the Seas will allow you to use mana to place water source blocks."]
@@ -1760,8 +1346,8 @@
 				item: "botania:water_rod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: 3.5d
+			y: 2.5d
 		}
 		{
 			description: ["The Rod of the Terra Firm is a useful tool for terraforming that allows you to flatten the ground and bring the elevation of the ground closer to your level"]
@@ -1786,8 +1372,8 @@
 				item: "botania:terraform_rod"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -4.5d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -1816,8 +1402,8 @@
 				item: "botania:exchange_rod"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -6.5d
+			x: 5.0d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1846,8 +1432,8 @@
 				item: "botania:cobble_rod"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -7.5d
+			x: 3.5d
+			y: -0.5d
 		}
 		{
 			description: [
@@ -1876,8 +1462,8 @@
 				item: "botania:dirt_rod"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -7.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "271443097B299EA6"
@@ -1886,122 +1472,8 @@
 				title: "Botania Utils"
 				type: "checkmark"
 			}]
-			x: -0.023809523809518396d
-			y: -5.714285714285715d
-		}
-		{
-			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
-			id: "73F332AF6C323A45"
-			subtitle: "Blocks as far as the eye can see!"
-			tasks: [{
-				id: "055E3D0AEAA7FDAF"
-				title: "Block Variations"
-				type: "checkmark"
-			}]
-			x: 6.5d
-			y: -6.5d
-		}
-		{
-			description: [
-				"Reforging increases the luck for getting better item tiers."
-				""
-				"&bLeft Slot: &rTiering Item Material (if non exist, default flint."
-				""
-				"&bMiddle Slot: &rTiering Item"
-				""
-				"&bRight Slot: &rAmethyst Shard"
-				""
-				"Has to be &6fully repaired &rbefore able to be reforged,"
-			]
-			id: "5A8981F961E8F587"
-			rewards: [{
-				count: 2
-				id: "77F993309D9699D9"
-				item: "minecraft:amethyst_shard"
-				type: "item"
-			}]
-			subtitle: "Reforge your gear at the anvil for a better item tier."
-			tasks: [{
-				id: "63100BA3D5F72238"
-				item: "minecraft:anvil"
-				type: "item"
-			}]
-			title: "Reforging"
-			x: -7.0d
-			y: -7.0d
-		}
-		{
-			id: "20590694D4E968E5"
-			rewards: [
-				{
-					count: 2
-					id: "047226F0D8C83CDC"
-					item: {
-						Count: 1b
-						id: "lootbags:loot_bag"
-						tag: {
-							Color: 5889627
-							Loot: "aof:loot_bags/misc/agriculturist"
-							Name: "Agriculturist Lootbag"
-							Type: "UNCOMMON"
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "3C4C0254D3BD20A6"
-					item: "minecraft:amethyst_shard"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "679A82195820DD3C"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-			]
-			subtitle: "Dictionary of Blocks!"
-			tasks: [
-				{
-					id: "7C0C5DFFDA6CF278"
-					item: "chipped:botanist_workbench"
-					type: "item"
-				}
-				{
-					id: "6841E9D9111CD3AC"
-					item: "chipped:glassblower"
-					type: "item"
-				}
-				{
-					id: "149B650D0459938A"
-					item: "chipped:carpenters_table"
-					type: "item"
-				}
-				{
-					id: "069216973C7B2413"
-					item: "chipped:loom_table"
-					type: "item"
-				}
-				{
-					id: "549AE6E4D6A2270E"
-					item: "chipped:mason_table"
-					type: "item"
-				}
-				{
-					id: "5CD6E54374B7569D"
-					item: "chipped:alchemy_bench"
-					type: "item"
-				}
-				{
-					id: "18307F38CFFA64BD"
-					item: "chipped:tinkering_table"
-					type: "item"
-				}
-			]
-			title: "Chipped"
-			x: 7.5d
-			y: -5.5d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -2044,8 +1516,8 @@
 				type: "item"
 			}]
 			title: "Gadgets Against Grind"
-			x: -3.0d
-			y: 1.5d
+			x: -9.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2078,56 +1550,8 @@
 				}
 			]
 			title: "Mining Gadgets"
-			x: 3.0d
-			y: 1.5d
-		}
-		{
-			id: "076B3F5320293FE0"
-			rewards: [
-				{
-					count: 64
-					id: "4BBA79DCA765A8E0"
-					item: "minecraft:crimson_planks"
-					type: "item"
-				}
-				{
-					count: 64
-					id: "27E7FC95DA2B4EBC"
-					item: "minecraft:warped_planks"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0BC0A92230004F22"
-					item: "minecraft:glowstone"
-					type: "item"
-				}
-			]
-			subtitle: "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
-			tasks: [{
-				id: "296ACC0506A2EB75"
-				item: "rechiseled:chisel"
-				type: "item"
-			}]
-			title: "Rechiseled"
-			x: 5.5d
-			y: -5.5d
-		}
-		{
-			id: "211D391784362B95"
-			rewards: [{
-				id: "4BDA8644B2708A9F"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "Picks a random block from your hotbar and places it down."
-			tasks: [{
-				id: "4D3EA229CF840468"
-				item: "trowel:trowel"
-				type: "item"
-			}]
-			x: 6.5d
-			y: -5.0d
+			x: -4.5d
+			y: 2.5d
 		}
 		{
 			description: ["Like, we all believe in the magic of technology; it feels so permanent but, just like that, it's gone."]
@@ -2171,8 +1595,8 @@
 				}
 			]
 			title: "Unstable Armor"
-			x: -6.5d
-			y: 3.5d
+			x: -15.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2213,6 +1637,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Made out of Iron and Mana."
 			tasks: [
 				{
 					id: "6DA6E9094BE842FA"
@@ -2259,9 +1684,9 @@
 					type: "item"
 				}
 			]
-			title: "Manasteel Armor"
-			x: -8.5d
-			y: -3.5d
+			title: "&9Manasteel Armory"
+			x: -14.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2270,6 +1695,14 @@
 				"This can be used to make some better Armor"
 				""
 				"In addition to the effects of &6Manasteel Armor&r, the &bElementium Armor&r also spawns Pixies when you are getting attacked"
+				""
+				"{@pagebreak}"
+				""
+				"If the player is wearing a complete set of Elementium armor, they will gain the Great Fairy's Blessing set bonus:"
+				""
+				"> 10% decrease of the Mana cost on all Mana-using tools and rods,"
+				""
+				"> Pixies spawned by the wearer will inflict a random potion effect for 2 seconds: either Blindness, Wither, Slowness or Weakness."
 			]
 			icon: {
 				Count: 1b
@@ -2304,6 +1737,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "Made in the Portal to Alfheim."
 			tasks: [
 				{
 					id: "73F2D9B65047ED95"
@@ -2350,9 +1784,9 @@
 					type: "item"
 				}
 			]
-			title: "Elementium Armor"
-			x: -7.5d
-			y: -3.5d
+			title: "&dElementium Armory"
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["259284393AC3DFDB"]
@@ -2360,6 +1794,16 @@
 				"As final tier of Armor from &eBotania&r we have the &bTerrasteel Armor Set&r"
 				""
 				"This gives various buffs to the player, which are all located in the tooltip of the Armor"
+				"{@pagebreak}"
+				"If the player is wearing a complete set of Terrasteel armor, they will gain the Will of the Ancients set bonus:"
+				""
+				"> Passive generation of 1 Mana per tick."
+				""
+				"> 20% decrease of Mana cost on all Mana-using tools and rods."
+				""
+				"> Passive regeneration of 2 health every 4 seconds if their hunger bar isn't full."
+				""
+				"> Effects of all Wills applied to the worn Terrasteel Helmet."
 			]
 			hide_dependency_lines: true
 			icon: {
@@ -2388,6 +1832,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "Made via an infusion ritual."
 			tasks: [
 				{
 					id: "347915DF599C6EDC"
@@ -2434,9 +1879,9 @@
 					type: "item"
 				}
 			]
-			title: "Terrasteel Armor"
-			x: -6.5d
-			y: -3.5d
+			title: "&aTerrasteel Armory"
+			x: -13.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2472,8 +1917,8 @@
 				type: "item"
 			}]
 			title: "A sharp long butter knife"
-			x: 4.0d
-			y: 0.5d
+			x: -2.5d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -2488,8 +1933,8 @@
 				item: "unstabletools:unstable_sword"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: -3.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2515,8 +1960,8 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2536,8 +1981,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 3.5d
+			x: -2.5d
+			y: 3.0d
 		}
 		{
 			description: ["A somewhat cheap sword that uses RF instead of durability!"]
@@ -2552,8 +1997,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: -0.5d
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -2610,8 +2055,8 @@
 				}
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: -3.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2645,8 +2090,8 @@
 				}
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["47DF3EC606491CA6"]
@@ -2687,8 +2132,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2898,8 +2343,8 @@
 				}
 			]
 			title: "Force Armor"
-			x: -5.5d
-			y: 2.5d
+			x: -15.0d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -2963,8 +2408,8 @@
 				}
 			]
 			title: "Flux-Infused Armor"
-			x: -4.5d
-			y: -0.5d
+			x: -11.0d
+			y: 2.0d
 		}
 		{
 			description: [
@@ -3073,8 +2518,8 @@
 				}
 			]
 			title: "Vanilla Armor"
-			x: -6.5d
-			y: 1.5d
+			x: -14.0d
+			y: -1.0d
 		}
 		{
 			id: "48393A42961854CA"
@@ -3083,8 +2528,8 @@
 				item: "mekanism:meka_tool"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 0.5d
+			x: -9.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -3392,8 +2837,8 @@
 				}
 			]
 			title: "Generic Armors"
-			x: -7.5d
-			y: 2.5d
+			x: -12.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -3512,8 +2957,8 @@
 				type: "item"
 			}]
 			title: "Modded Swords"
-			x: 4.0d
-			y: 1.5d
+			x: -0.5d
+			y: -1.0d
 		}
 		{
 			id: "3D10C460E2678694"
@@ -3528,8 +2973,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 0.5d
+			x: -3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -3607,8 +3052,8 @@
 					type: "item"
 				}
 			]
-			x: -12.5d
-			y: -1.0d
+			x: -6.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["000000000000045C"]
@@ -3646,8 +3091,8 @@
 				type: "item"
 			}]
 			title: "Vein Miner?"
-			x: -13.5d
-			y: 0.5d
+			x: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -3721,8 +3166,8 @@
 					type: "item"
 				}
 			]
-			x: -11.5d
-			y: 0.0d
+			x: -5.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -3788,8 +3233,8 @@
 					type: "item"
 				}
 			]
-			x: -13.5d
-			y: -1.5d
+			x: -7.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -3802,8 +3247,8 @@
 				type: "checkmark"
 			}]
 			title: "Chainsaw"
-			x: -14.5d
-			y: 2.0d
+			x: -8.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -3828,8 +3273,8 @@
 				}
 				type: "item"
 			}]
-			x: -11.5d
-			y: 1.0d
+			x: -5.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -4163,8 +3608,8 @@
 				}
 			]
 			title: "Spells"
-			x: -13.5d
-			y: 2.5d
+			x: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -4217,8 +3662,8 @@
 				title: "Excavators"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 2.0d
+			x: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -4292,8 +3737,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: 0.0d
+			x: -9.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -4362,8 +3807,8 @@
 				title: "Infinity Tools"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -1.0d
+			x: -8.5d
+			y: -10.0d
 		}
 		{
 			dependencies: ["358FAB3D482C463A"]
@@ -4496,8 +3941,8 @@
 					type: "item"
 				}
 			]
-			x: -15.5d
-			y: 1.0d
+			x: -9.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["000000000000045C"]
@@ -4524,8 +3969,8 @@
 				item: "quark:bottled_cloud"
 				type: "item"
 			}]
-			x: -14.5d
-			y: -2.5d
+			x: -7.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["000000000000045C"]
@@ -4595,8 +4040,8 @@
 				title: "Superior Shields"
 				type: "item"
 			}]
-			x: -12.0d
-			y: -2.5d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -4645,8 +4090,8 @@
 				type: "item"
 			}]
 			title: "Tools and Armor"
-			x: -13.5d
-			y: -3.000000000000001d
+			x: -7.5d
+			y: -4.5d
 		}
 	]
 	title: "Tools and Armory"

@@ -1526,6 +1526,8 @@
 				"The &bCrafting Station&r can &6access adjacent inventories&r, and your items stay inside if you leave them!"
 			]
 			id: "3A26B88CFD6901A5"
+			invisible: true
+			optional: true
 			rewards: [{
 				count: 2
 				id: "6CC6A396FE782553"

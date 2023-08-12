@@ -1,0 +1,13 @@
+name = "Mystical Oak Tree"
+filename = "mysticaloaktree-1.19.2-1.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac62621e27fc85307adb28cdd2099049cce3a313"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4654181
+project-id = 691002

@@ -1,0 +1,3526 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hexerei"
+	group: "1039AC171AB01709"
+	icon: {
+		Count: 1b
+		id: "hexerei:witch_helmet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "386999710FDB8FFE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Learn the arts of Witchcraft as you explore what Hexerei has to offer, from cute friends to flying broomsticks, this mod will leave you feeling like a true Witch."
+				""
+				"Scattered throughout the world you will find village structures built by witch covens around swamps and marshes."
+				""
+				"&e&l! &rIf the chapter doesn't make sense one day, it means it is outdated, kind of."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61413E2A76CA0E22"
+			rewards: [{
+				id: "4116B6C9F7ED6621"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "This is a magic based mod with many Witchery style elements."
+			tasks: [{
+				id: "276962A9CFD8E0AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexerei:herbs"
+					}
+				}
+				title: "Herbs"
+				type: "item"
+			}]
+			x: -1.875d
+			y: -1.425d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			dependency_requirement: "all_started"
+			description: [
+				"Any decent Witch worth their salt will have a Mixing Cauldron.  If you haven't found one in a Witches Village you can craft one with some iron and torches."
+				""
+				"With this &bMixing Cauldron&r You can start making some &6tinctures and concoctions&r."
+				""
+				"Your basic witchcraft cauldron. This will be where you craft most of your items. "
+				""
+				"Use of this block is locked behind completion of a specific Cleric Villager quest. The knowledge required to use cauldrons can instead be unlocked in a quest found above, however the price is steep..."
+				""
+				"&b&lUseage:"
+				"Cauldrons can hold various types of liquid, which can be poured into it directly. Some crafting recipes may also change the liquid stored into a diffent kind, which may be needed for other recipes. Additional materials needed for a crafting recipe can be tossed into the cauldron, or added via the the menu accessed by right-clicking the cauldron. Once the required materials are added, the finished item can be retreived by right-clicking the cauldron to access the crafting menu."
+			]
+			hide: false
+			hide_dependency_lines: false
+			icon: "hexerei:mixing_cauldron"
+			id: "5188CD3E2A42E392"
+			rewards: [
+				{
+					id: "24CA8A44885A6523"
+					item: {
+						Count: 1b
+						id: "hexerei:lava_bottle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3BC73FCA5A5DEE6C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Something's Brewing | Double, double, toil and trouble"
+			tasks: [{
+				id: "41426DEEED16ACA2"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "The Mixing Cauldron"
+			x: -1.9d
+			y: -2.95d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: [
+				"While dancing naked under the moonlight is an attractive option for any witch, there are practical reasons for wearing clothes."
+				""
+				"Firstly, witches garments offter protection from the elements and hostle creatures.  Secondly, they make you look fabulous.  Fashion maketh the witch."
+			]
+			icon: "hexerei:infused_fabric"
+			id: "25366610A6DB0850"
+			rewards: [
+				{
+					count: 4
+					id: "01B3DD9F60640599"
+					item: "hexerei:infused_fabric"
+					type: "item"
+				}
+				{
+					id: "354B097800EE626D"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Making Magical Fabrics"
+			tasks: [{
+				id: "6E107160C65F05E9"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			title: "Fabric Infusion"
+			x: -1.9d
+			y: -4.35d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Start with the basics.  Make a hat and make a statement."]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5A820ECC85890ACB"
+			rewards: [{
+				id: "012C11193F154290"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "It's so simple, the hat goes on the head!"
+			tasks: [{
+				id: "34AA38224AFD68C9"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Witches Hat"
+			x: -1.9d
+			y: -5.85d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Making a robe will keep you warm on those cold nights.  Plus who knows what you could be hiding under there.  Keep 'em guessing!"]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "645261B372A3667C"
+			rewards: [{
+				id: "32D8F09222BF300E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Easy, breezy, beautiful!"
+			tasks: [{
+				id: "5CFD2420C23BD511"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Fancy robes, now with pockets!"
+			x: -0.8d
+			y: -5.9d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: ["Sometimes you need better arch support.  These boots are fashonable, functional, and now come with a left AND a right pair."]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "20426BF95656BD48"
+			rewards: [{
+				id: "032D363E2086020C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Better than ruby slippers!"
+			tasks: [{
+				id: "0C16493683182D22"
+				item: {
+					Count: 1b
+					id: "hexerei:witch_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Boots are made for walking!"
+			x: -3.0d
+			y: -5.85d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: ["The willow tree can be found growing in swamps and marshes."]
+			id: "448518E29D5BE2DE"
+			rewards: [
+				{
+					id: "767EE3F0AF51B9AF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "0D88828E54768C42"
+					item: "hexerei:willow_log"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Why so sad?"
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "7F49063FF9CCEE5E"
+				item: "hexerei:willow_log"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "The mighty Willow Tree!"
+			x: -4.05d
+			y: -2.3d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"You can find mahogany trees in jungles."
+				""
+				"This wood holds magical potential and is used in many fancy items."
+			]
+			icon: "hexerei:mahogany_log"
+			id: "36FA6E6865796BC2"
+			rewards: [
+				{
+					id: "085917FB1FDFDBAF"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "61AECAB051AFFAF3"
+					item: "hexerei:mahogany_log"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Makes really nice flooring."
+			tasks: [{
+				consume_items: false
+				count: 10L
+				id: "5953D4D43ADF5C72"
+				item: "hexerei:mahogany_log"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Fancy Wood"
+			x: 0.2d
+			y: -2.35d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"Breaking long grass might supply you with seeds for sage brush.  Collect some seeds, plant them on tilled soil and grow them up."
+				""
+				"After growing Grass on Grass Blocks with bonemeal, you can &6harvest it for&r &bSage Seeds&r."
+				""
+				"Sage is used in several recipes."
+			]
+			icon: "hexerei:sage_seed"
+			id: "6F09AE74427C4F49"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "22881664ADCBECCB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "0CE5FFB318AF6193"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "525AC7F0DA2431E8"
+					item: "hexerei:sage"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "I think there's a song about sage?"
+			tasks: [{
+				count: 4L
+				id: "0961B7B03180B17D"
+				item: "hexerei:sage_seed"
+				type: "item"
+			}]
+			title: "Sage seeds!"
+			x: -1.9d
+			y: 0.1d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Growing sage in a garden will help with making fine smelling smoke and brews."]
+			icon: "hexerei:sage"
+			id: "3FB4E1D7A8B80DD8"
+			rewards: [{
+				id: "1E1D24B7F1E9120D"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "If only we had a chicken to roast."
+			tasks: [{
+				count: 8L
+				id: "2ECD9893337AF44C"
+				item: "hexerei:sage"
+				type: "item"
+			}]
+			title: "Sage Smells Great!"
+			x: -1.95d
+			y: 2.35d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: [
+				"Belladonna flowers grow where the dead have fallen around swamps and marshes."
+				""
+				"Both the berries and flowers are quite deadly toxins."
+			]
+			id: "51EECCD1D3DB4EF6"
+			rewards: [{
+				id: "4573AED4508C5303"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Beautiful but deadly!"
+			tasks: [
+				{
+					count: 10L
+					id: "298E1A04A8B4BFA8"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "06FD8930E9757E1C"
+					item: "hexerei:belladonna_berries"
+					type: "item"
+				}
+			]
+			title: "Belladonna Flowers"
+			x: -3.1d
+			y: 0.35d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Mandrake flowers and its root can be harvested in swamps and marshes."]
+			id: "53B65B3B86663E8A"
+			rewards: [{
+				id: "4B1DCC9E9F5D12C3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "I hear screaming..."
+			tasks: [
+				{
+					count: 10L
+					id: "49DD1912ED9A9A48"
+					item: "hexerei:mandrake_flowers"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "46B693CAEC9343FD"
+					item: "hexerei:mandrake_root"
+					type: "item"
+				}
+			]
+			title: "Find Mandrake"
+			x: -1.0d
+			y: 1.4d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["Mugwart leaves and flowers can be found growing in marshy areas."]
+			id: "0604D00D3293CFA5"
+			rewards: [{
+				id: "64F322B470102513"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "A little pinch between the cheek and gum."
+			tasks: [
+				{
+					consume_items: false
+					count: 10L
+					id: "27CD35425D0271CD"
+					item: "hexerei:mugwort_leaves"
+					only_from_crafting: false
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "64D8F7C60F92E0E4"
+					item: "hexerei:mugwort_flowers"
+					type: "item"
+				}
+			]
+			title: "Mugwart Leaves"
+			x: -0.65d
+			y: 0.35d
+		}
+		{
+			dependencies: ["6F09AE74427C4F49"]
+			description: ["You can find Yellow Dock flowers growing all around marshlands and swampy areas."]
+			id: "204137522397A650"
+			rewards: [{
+				id: "6F817CF6407505D1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "I think this is a weed..."
+			tasks: [
+				{
+					count: 10L
+					id: "3B1FD61702BEED52"
+					item: "hexerei:yellow_dock_flowers"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4167738FE4760996"
+					item: "hexerei:yellow_dock_leaves"
+					type: "item"
+				}
+			]
+			title: "Yello Dock Flowers"
+			x: -2.85d
+			y: 1.35d
+		}
+		{
+			dependencies: ["3FB4E1D7A8B80DD8"]
+			description: ["Hanging racks are a great way to dry flowers and herbs.  You can hang them from the ceiling."]
+			id: "279A34D099446B47"
+			rewards: [{
+				id: "6B88B6A3A77FE23F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Just hanging around."
+			tasks: [{
+				count: 3L
+				id: "47822C9040140546"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			title: "Drying Rack"
+			x: -1.95d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: [
+				"A blood sigil is used inside a mixing cauldron for various rituals."
+				""
+				"Once you've made one, you can place it at the bottom of your mixing caulron."
+				""
+				"The &bBlood Sigil&r can be placed in the Cauldron, and allows you to &6gather Blood by jumping inside&r."
+			]
+			id: "644055153B3927D8"
+			rewards: [{
+				id: "49B8424DAD2C095B"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:regeneration"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Things just got real. | Pumice Stone"
+			tasks: [{
+				id: "6DF72E73A3B9C365"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: -3.55d
+			y: -4.1d
+		}
+		{
+			dependencies: ["644055153B3927D8"]
+			description: [
+				"If you want real power, you'll have to make some sacrifices."
+				""
+				"Start by jumping up and down inside your mixing cauldron with the Blood Sigil installed."
+				""
+				"Oh, stop crying you big baby!"
+			]
+			id: "5A7087D99A56AF1B"
+			rewards: [{
+				id: "76C67A00696FB65A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "`Tis but a flesh wound!"
+			tasks: [{
+				id: "7F159825B5E2A950"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			title: "Bottle of Blood"
+			x: -4.9d
+			y: -5.1d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: ["Killing animals out in the wilds might yield some animal fat which you can use for other useful items."]
+			icon: "hexerei:animal_fat"
+			id: "17504D612E935F29"
+			rewards: [{
+				id: "05A7C4AFA95A5A1E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Trim the fat...for profit!"
+			tasks: [{
+				consume_items: false
+				count: 6L
+				id: "1552D23FE13342AD"
+				item: "hexerei:animal_fat"
+				only_from_crafting: false
+				type: "item"
+			}]
+			title: "Animal Fat"
+			x: 0.9d
+			y: -4.9d
+		}
+		{
+			dependencies: ["17504D612E935F29"]
+			description: [
+				""
+				"The mixing cauldron can hold more that water.  Filling it with lava will allow you to make stronger items useful for making candles."
+				""
+				"Placing the dipper on the mixing cauldron will allow you to make candles."
+				""
+				"(Hint: Sneak-Right-Click the Dipper on the outside edge of the Mixing Cauldron.)"
+				""
+				"Place on a cauldron filled with tallow to use. Add strings to the dipper by right-clicking with them to begin dipping candles."
+			]
+			id: "23C052EA8F70B8A4"
+			rewards: [{
+				id: "07247EE64CB20013"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Dip, dip, dip."
+			tasks: [{
+				id: "441E886DD51CA0EF"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			title: "Make a Dipper!"
+			x: 2.3d
+			y: -6.2d
+		}
+		{
+			dependencies: ["23C052EA8F70B8A4"]
+			description: [
+				"Creating candles in the dipper attached to a mixing caulron is a great way to light up the night."
+				""
+				"Wow! It's a candle! Can be dyed and used as a decorative block. Light with a flint and steel for light with a limited duration. Can be used to craft candelabras. Multiple candles can be placed together on the same block."
+			]
+			id: "5A6193314267FB5C"
+			rewards: [{
+				id: "4B777FB4A49869E6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Do I smell sandlewood?"
+			tasks: [{
+				count: 3L
+				id: "06DACE54E3313885"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			title: "Create Candles"
+			x: 3.4d
+			y: -7.2d
+		}
+		{
+			dependencies: ["5A6193314267FB5C"]
+			description: [
+				"Candles don't have to be boring."
+				""
+				"Add some color to make the world a little brighter."
+			]
+			id: "11C7965E6063ED65"
+			rewards: [{
+				id: "04CB2E22DC1843AE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "All the colors!"
+			tasks: [
+				{
+					id: "1E3E4BE38597B0A2"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 3949738
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Blue Candle"
+					type: "item"
+				}
+				{
+					id: "06036C88E2C48A4D"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 1908001
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Black Candle"
+					type: "item"
+				}
+				{
+					id: "441561AC867B697C"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 8439583
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Lime Candle"
+					type: "item"
+				}
+				{
+					id: "242670181F0284EF"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 16351261
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Orange Candle"
+					type: "item"
+				}
+				{
+					id: "7B49B3203017867F"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 15961002
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Pink Candle"
+					type: "item"
+				}
+				{
+					id: "14C5277486FD5154"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 8991416
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Purple Candle"
+					type: "item"
+				}
+				{
+					id: "624832BBF487C42A"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 11546150
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Red Candle"
+					type: "item"
+				}
+				{
+					id: "479175E30BD14EFD"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 1481884
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Cyan Candle"
+					type: "item"
+				}
+				{
+					id: "09FAD3F6EC46242F"
+					item: {
+						Count: 1b
+						id: "hexerei:candle"
+						tag: {
+							display: {
+								color: 16701501
+							}
+							effectParticle: { }
+						}
+					}
+					title: "Yellow Candle"
+					type: "item"
+				}
+			]
+			title: "Colorful Candles"
+			x: 5.1d
+			y: -6.4d
+		}
+		{
+			dependencies: ["5A6193314267FB5C"]
+			description: [
+				"You can create a candelabra out of candles, iron and some chain.  They can hang from the ceiling or sit on top of an organ if you're feeling moody."
+				""
+				"A decorative light. Can be lit for a limited time. Can be placed on a solid block or hung from a chain. Automatically connects to above chain blocks."
+			]
+			id: "255F13D72581040B"
+			rewards: [{
+				id: "08F4DF192F7583EE"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "The Phantom would be proud!"
+			tasks: [{
+				id: "3B71E4186CA8F63D"
+				item: "hexerei:candelabra"
+				type: "item"
+			}]
+			title: "Making Candelabras"
+			x: 5.1d
+			y: -8.4d
+		}
+		{
+			dependencies: ["5A820ECC85890ACB"]
+			description: ["You don't want to walk everywhere do you?  Time to make a broom and take to the skies!"]
+			id: "433DEC854BB8B9A5"
+			rewards: [{
+				id: "1EDB4C5CE1CE0974"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Up, up, and away!"
+			tasks: [{
+				id: "0C704B56AFCADD54"
+				item: {
+					Count: 1b
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Fly my pretties!"
+			x: -1.9d
+			y: -8.8d
+		}
+		{
+			dependencies: ["433DEC854BB8B9A5"]
+			description: [
+				"The mahogany broom is an excelent upgrade for the standard issue broom."
+				""
+				"It's more expensive, but you're worth it!"
+			]
+			id: "188E2A7F6516A3D9"
+			rewards: [{
+				id: "11966D7A6BF45B3A"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Not exactly a Nimbus 2000, but it will do."
+			tasks: [{
+				id: "0371D8159A35E486"
+				item: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Mahogany Broom"
+			x: -3.5d
+			y: -9.1d
+		}
+		{
+			dependencies: ["433DEC854BB8B9A5"]
+			description: [
+				"A broom is only as good as its brush.  Making a basic brush is the first start to life on the wind."
+				""
+				"Broom brushes do have a durability and will wear out with use.  Keep an eye on it!"
+			]
+			id: "2C9922F84A45F841"
+			rewards: [{
+				id: "27FE10A2B1D36006"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Quality bristles!"
+			tasks: [{
+				id: "650B6E818E5653CB"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.9d
+			y: -10.3d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: ["The enhanced version of the broom brush has twice the durability for longer flight time."]
+			id: "2F631F39187A7F02"
+			rewards: [{
+				id: "6E942E613B6E7B4C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Fancy, shmancy!"
+			tasks: [{
+				id: "3AFE6CC982C9EEAD"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Enhanced Broom Brush"
+			x: -3.5d
+			y: -10.55d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: [
+				"A satchel bag for your broom will give it an inventory."
+				""
+				"Perfect for bringing home leftovers from the Coven potlucks."
+			]
+			id: "62CCEAB872211A29"
+			rewards: [{
+				id: "550B5F9E94ACCE4B"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Small and slimming!"
+			tasks: [{
+				id: "2F785A0314FAE6BE"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			title: "Small Satchel"
+			x: -1.9d
+			y: -11.55d
+		}
+		{
+			dependencies: ["62CCEAB872211A29"]
+			description: ["Increasing the size of the small satchel is a good idea."]
+			id: "2B1705F3513F4BD5"
+			rewards: [{
+				id: "154B4EE1BAFEA2F6"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Bigger is better."
+			tasks: [{
+				id: "588ECCF7E0DBC2BE"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			title: "Medium Satchel"
+			x: -3.25d
+			y: -11.8d
+		}
+		{
+			dependencies: ["62CCEAB872211A29"]
+			description: ["If you're going to carry all this stuff around, you might as well have more space."]
+			id: "2C34FF3D97D0C9E5"
+			rewards: [{
+				id: "484DBDEE99653C63"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Go big or go home!"
+			tasks: [{
+				id: "04BBD6E8F394EC61"
+				item: "hexerei:large_satchel"
+				type: "item"
+			}]
+			title: "Large Satchel"
+			x: -0.6000000000000001d
+			y: -11.8d
+		}
+		{
+			dependencies: ["5A820ECC85890ACB"]
+			description: [
+				"Being a witch isn't all spells, and hexes.  Sometimes you just want to hit something."
+				""
+				"This hammer will do the trick!"
+			]
+			id: "7C44F0F59896A857"
+			rewards: [{
+				id: "0C4505D9112BAC3E"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Smash that like button!"
+			tasks: [{
+				id: "2E602E2BD9F51680"
+				item: {
+					Count: 1b
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Witch's Warhammer"
+			x: -0.05d
+			y: -7.3d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: ["A coffer is a handy box that besides looking fabulos will hold onto it's inventory when you break it.  It can also be named, and dyed various colors."]
+			id: "2BD19333A6FBF7AB"
+			rewards: [{
+				id: "4E03FF67A668D8B7"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Pack it and take it with you!"
+			tasks: [{
+				id: "761894E3A5451034"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Portable Stuff"
+			x: 1.25d
+			y: -1.6d
+		}
+		{
+			dependencies: ["17504D612E935F29"]
+			description: [
+				"Melting fat in a mixing cauldron might get you some extra tallow impurities."
+				""
+				"Not very useful, but a nice snack in a pinch."
+			]
+			id: "132B8D216842711C"
+			rewards: [
+				{
+					id: "3D997B8449D9559F"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4A67CD159E48B124"
+					item: "hexerei:tallow_impurity"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Impure...but tasty!"
+			tasks: [{
+				id: "755E0B09D60ABA11"
+				item: "hexerei:tallow_impurity"
+				type: "item"
+			}]
+			title: "Tallow Impurity"
+			x: 5.1d
+			y: -4.9d
+		}
+		{
+			dependencies: ["2C9922F84A45F841"]
+			description: [
+				"These gold rings serve no purpose..."
+				""
+				"...except to put those other poor witches in their place when you fly by."
+			]
+			id: "534DAEC3C0ECE682"
+			rewards: [{
+				id: "5E9E67A9DD49A03C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Ring Bling!"
+			tasks: [{
+				id: "2AB7316E0A2800B2"
+				item: "hexerei:gold_rings"
+				type: "item"
+			}]
+			title: "Golden Rings"
+			x: -0.3500000000000001d
+			y: -10.250000000000002d
+		}
+		{
+			dependencies: ["534DAEC3C0ECE682"]
+			description: [
+				"Why stop at golden rings...add some flare to the end of your broom to give it your distinct style."
+				""
+				"You can combine almost any item with the broom chain.  Treat your self!"
+			]
+			id: "0BBAD0505B5A2AF6"
+			rewards: [{
+				id: "7D51857AD484961F"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Is this too much?  Nah..."
+			tasks: [{
+				id: "07FB590D1B9DE3DC"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Broom Chain"
+			x: 1.1500000000000004d
+			y: -10.3d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"Herb jars are a handy and stylish way of storing plants and herbs you might aquire in your adventures."
+				""
+				"Jars can be named on an anvil and will show the contents on the label."
+			]
+			id: "6D7FC44D0F77BA36"
+			rewards: [{
+				id: "6691F238418546B3"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "It's medicinal, I swear!"
+			tasks: [{
+				id: "4EF957893C221C26"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Herb Jars"
+			x: 0.15d
+			y: -0.85d
+		}
+		{
+			dependencies: ["279A34D099446B47"]
+			description: ["Drying sage bundles will give you a potent herb to burn that has benificial effects."]
+			id: "691F9A1EB66FAF54"
+			rewards: [{
+				id: "5429C52E85542215"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Anyone got a lite?"
+			tasks: [{
+				id: "43AA5DAF57ACEF73"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Dried Sage"
+			x: -0.85d
+			y: 3.1d
+		}
+		{
+			dependencies: ["691F9A1EB66FAF54"]
+			description: ["Burning dried sage bundles can have medicinal properties and might even help your glaucoma."]
+			id: "30D2CAE712CE5ACD"
+			rewards: [{
+				id: "233A46694D075796"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "You're not a cop, are you?"
+			tasks: [{
+				id: "2602186920CC41DA"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			title: "Burning Plate"
+			x: 0.4d
+			y: 3.1d
+		}
+		{
+			dependencies: ["3FB4E1D7A8B80DD8"]
+			description: ["Take your grow sage and bundle it up with some string.  Makes for easier drying."]
+			id: "6CA251CAEC888DD4"
+			rewards: [{
+				id: "4F32B426792DA888"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Bundle it up!"
+			tasks: [{
+				id: "0F612494EB49F2B5"
+				item: "hexerei:sage_bundle"
+				type: "item"
+			}]
+			title: "Sage Bundles"
+			x: -3.1d
+			y: 3.05d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: ["One of the witchest tool, is that one! Mixing herbs or seeds may be very useful for a witch!"]
+			id: "5A74A831815E817B"
+			rewards: [{
+				id: "081094B9E40CB1EF"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Mixing Seeds"
+			tasks: [{
+				id: "5AE614E7726932CA"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 1.6d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5A74A831815E817B"]
+			description: ["If you did see it, maybe you could tame it with some seeds. Mix some seeds, and try to give the result to a crow. You may need to try multiple times."]
+			id: "6EB3CB29EF6A24C1"
+			rewards: [{
+				count: 5
+				id: "6F4363CEEA4B0715"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Did you see that crow?"
+			tasks: [{
+				id: "7DC034F5C32C9174"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: 4.2d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6EB3CB29EF6A24C1"]
+			description: ["One crow is very useful, but why don't you breed more crows? Gather two crows, and then give one of them a gold nuget."]
+			id: "27789FAE089599A3"
+			rewards: [{
+				id: "1F6F991BEFF84499"
+				item: "hexerei:crow_spawn_egg"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "More crows"
+			tasks: [{
+				id: "484FC5C2A6ECD8A7"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			title: "Crow Breeding"
+			x: 4.2d
+			y: -1.8d
+		}
+		{
+			dependencies: ["6EB3CB29EF6A24C1"]
+			description: ["With that flute you can give orders to your crows. This may be useful if you want to automate things!"]
+			id: "6C0A248D1FF03898"
+			rewards: [{
+				id: "782A7E10B26AEFB2"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Give them orders!"
+			tasks: [{
+				id: "309E57CD4181BA64"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 6.4d
+			y: -3.5d
+		}
+		{
+			dependencies: ["188E2A7F6516A3D9"]
+			description: ["Selenite Clusters are found in selenite geodes found under jungles and swamps."]
+			id: "2F39EE1D81DDDA1F"
+			rewards: [{
+				id: "0BBFD31654473657"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Break a Selenite Cluster!"
+			tasks: [{
+				id: "673CBF88A4839C13"
+				item: "hexerei:selenite_shard"
+				type: "item"
+			}]
+			x: -5.6d
+			y: -9.1d
+		}
+		{
+			dependencies: ["2F39EE1D81DDDA1F"]
+			description: ["With that tip, your broom will survive to extreme heat situations. But would you?"]
+			id: "70DC743DA23D7CFB"
+			rewards: [
+				{
+					count: 2
+					id: "76D69654C1D33674"
+					item: "lootbundles:loot_bundle"
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "576DC945E440B375"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "A fire resistant broom."
+			tasks: [{
+				id: "01774BD370F377BB"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.4d
+			y: -9.1d
+		}
+		{
+			dependencies: ["188E2A7F6516A3D9"]
+			description: ["Wanted to fly underwater? That broom tip is what you looking for!"]
+			id: "41CF18A45DC909AD"
+			rewards: [{
+				id: "0D53BA49F96B4A28"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Submarine Broom"
+			tasks: [{
+				id: "52FF30172B94159A"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.6d
+			y: -7.8d
+		}
+		{
+			dependencies: ["61413E2A76CA0E22"]
+			description: [
+				"This will help you find swamps and jungles."
+				"Leafs turns green when you are pointing to the biome."
+				""
+				"Helps find swamps and jungles for important witchcraft crafting items. Hold shift while hovering over the item for a detailed description."
+			]
+			id: "2AB9092665EE8A9C"
+			rewards: [{
+				id: "66F39715B8435FF2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Find your way"
+			tasks: [{
+				id: "782C77E3465755D9"
+				item: "hexerei:dowsing_rod"
+				type: "item"
+			}]
+			x: -4.023809523809518d
+			y: -0.9285714285714377d
+		}
+		{
+			dependencies: ["2B1705F3513F4BD5"]
+			description: ["An Enderchest attached to a broom."]
+			id: "138EB63B92765F1C"
+			rewards: [
+				{
+					id: "36F080B7E1B77309"
+					item: "lootbundles:loot_bundle"
+					type: "item"
+				}
+				{
+					id: "0C6F52654D9CBE7A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Ender is good, too."
+			tasks: [{
+				id: "04696ECA7EC3B1C1"
+				item: "hexerei:ender_satchel"
+				type: "item"
+			}]
+			x: -4.2d
+			y: -12.9d
+		}
+		{
+			dependencies: ["5A74A831815E817B"]
+			id: "6F898C1A623D7E61"
+			rewards: [
+				{
+					count: 4
+					id: "5E6C76CC37C2DD0C"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "5ECF10A65046F329"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Create some Wax Blend"
+			tasks: [{
+				id: "33FC2024DE7F979B"
+				item: "hexerei:wax_blend"
+				type: "item"
+			}]
+			x: 2.7d
+			y: -1.9d
+		}
+		{
+			dependencies: ["25366610A6DB0850"]
+			description: [
+				"Can be used to add wax if loaded with Wax Blend and at a cost of one wax per use."
+				""
+				"Along with it being able to be used to wipe off wax at no charge."
+			]
+			id: "40E239F65120AA46"
+			rewards: [{
+				id: "6E28C6177CC5593C"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "diamond"
+			subtitle: "Craft a Waxing Kit"
+			tasks: [{
+				id: "5EA7BFB56BD30870"
+				item: "hexerei:waxing_kit"
+				type: "item"
+			}]
+			x: -0.6d
+			y: -4.4d
+		}
+		{
+			dependencies: ["5188CD3E2A42E392"]
+			description: [
+				"Reading in the book of shadows a bit too hard?"
+				""
+				"The Reading Glasses can be used like a spyglass or worn on your head and toggled with 'z' to zoom in slightly."
+			]
+			id: "4D1E5E3BD139DC7B"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "3D2F72E20A6D0AC7"
+					item: "lootbundles:fragment"
+					type: "item"
+				}
+				{
+					id: "54F59432D3AEDE6A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "diamond"
+			subtitle: "Craft Reading Glasses"
+			tasks: [{
+				id: "7BD680A3BE13C159"
+				item: "hexerei:reading_glasses"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.9d
+		}
+		{
+			dependencies: ["2B1705F3513F4BD5"]
+			description: ["Replaces broken broom brushes with the top-left most brush in the brooms inventory."]
+			id: "32BA7A2D91FF76B4"
+			rewards: [{
+				id: "33F017DAFE8C4FC1"
+				item: "lootbundles:loot_bundle"
+				type: "item"
+			}]
+			shape: "hexagon"
+			subtitle: "Replace broken broom brushes!"
+			tasks: [{
+				id: "32BA3312D5329D44"
+				item: "hexerei:replacer_satchel"
+				type: "item"
+			}]
+			x: -4.6d
+			y: -11.6d
+		}
+		{
+			dependencies: ["5CBE4B1409CA3DB1"]
+			description: ["The vestments of a Witch go beyond mere mundane protection. Wearing them sends a message to other Witches to stand down while also offering hefty protection against the dark arts. "]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "135494AEBA82B7A7"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+					icon: "kubejs:sorcerers_delight"
+					id: "1E0DFFC73941A14F"
+					player_command: false
+					title: "Sorcerer's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "4FB8BBEE3A960D17"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Rags to Witches"
+			tasks: [
+				{
+					id: "4FF2360FE475822C"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6603E2C062B26E0B"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "714A3AD5F90F9916"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Witch's Vestments"
+			x: 9.5d
+			y: -11.5d
+		}
+		{
+			description: [
+				"The Cauldron itself is a time-honored tradition among Witches, used for general cooking, potion making, and more advanced magics alike, it is a versatile tool for any practitioner. "
+				""
+				"Fluids may be piped in through any form of pipe or delivered by hand with buckets or bottles. Similarly, they may be piped out, though in the case of potions it is likely easiest to remove them manually by Right-Clicking with a bottle. "
+				""
+				"Items may also be piped in through any sort of automation, as well as dropped in from above. "
+			]
+			hide_dependency_lines: true
+			id: "48627087020E059F"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "039ACBE8A55777ED"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "3218C1F002704552"
+					player_command: false
+					title: "Rare Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "What a Brew-tiful Sight"
+			tasks: [{
+				id: "714B5D15806E5AE1"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			title: "Getting Started: Cauldron Crafting"
+			x: 8.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5CBE4B1409CA3DB1"]
+			description: ["Sharing a home with trolls will teach a Witch a thing or two, like the value of a heavy object to smash some heads in. Works great for tenderizing steaks too!"]
+			id: "39BB530B6057DA94"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/miners_delight"
+					icon: "kubejs:miners_delight"
+					id: "17FBE554BB08FC90"
+					player_command: false
+					title: "Miner's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "3D780F0BB9395E99"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Payback's a Witch"
+			tasks: [{
+				id: "5B64EBF3D22DECD9"
+				item: {
+					Count: 1b
+					id: "hexerei:warhammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["54FB7C791B5492DF"]
+			description: [
+				"With a fine selection of herbs in hand, and a small garden prepared, the real magic of Witchcraft may begin. "
+				""
+				"When it comes to Herbs and cooking, fresh is most certainly best. But sometimes certain properties only manifest once a plant has been dried. Hang a Drying Rack or two around to get started. "
+				""
+				"Items may be hung manually with a Right-Click and removed again with a Sneak Right-Click. They may also be inserted via Hopper or other automation and the Drying Rack will conveniently prevent them from being pulled off before the process has finished. Each Rack holds up to nine items at a time."
+			]
+			id: "6834E2403EA77413"
+			rewards: [
+				{
+					count: 5
+					id: "4B92E1A0497F65C8"
+					item: {
+						Count: 1b
+						id: "hexerei:herb_jar"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "7C4A5CEF72FA19B0"
+					player_command: false
+					title: "Rare Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "High and Dry"
+			tasks: [{
+				id: "1BA14B4A6E3CE766"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6834E2403EA77413"]
+			description: [
+				"Dried Sage has a number of curative properties, but perhaps more surprising is its ability to ward an area against monster incursions. Perfect for the Witch looking to relax and make a few brews at home without being bothered. "
+				""
+				"Place Dried Sage on the Plate and light it with a Flint and Steel. The area will be filled with gentle smoke that will prevent mobs from spawning. Right-Clicking the Plate with an empty hand will toggle through its various modes, allowing one to disable the cloud visuals entirely if desired."
+				""
+				"Dried Sage may be inserted via Hopper or other automation, and the plate may be lit by a Deployer, allowing the Sage Burning Plate to be fully automated. "
+			]
+			icon: "hexerei:sage"
+			id: "69E94721C3668CCE"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "0BA444C12A4208F7"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "6066E7AA064A4A84"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Turning Over a New Leaf"
+			tasks: [
+				{
+					id: "631BBC361863C126"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DA45AE07AED2CDF"
+					item: "hexerei:sage_burning_plate"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["753F45812A0A4754"]
+			description: [
+				"Far beyond simple light sources, a true Witch knows how to infuse Candles with potent magic, causing nearby plants to Grow rapidly, turn the weather from stormy to clear skies, or even imbue nearby monsters with effects such as Poison or Slowness. "
+				""
+				"Candles have a limited duration and must be periodically replaced. Up to four candles may be placed in a single block space, however, and each one lit individually. "
+				""
+				"Finally, Candles may be dyed by combining them with dyes in a Crafting Table. "
+			]
+			id: "3659D0540E05DE94"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+					icon: "kubejs:alchemists_delight"
+					id: "66F8B950553302ED"
+					player_command: false
+					title: "Alchemist's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "6E805DAF31BF8B2F"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "... And Now You're Mine"
+			tasks: [{
+				id: "699E1CF96C5EEB0F"
+				item: "hexerei:candle"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["48627087020E059F"]
+			description: [
+				"The Dipper is an apparatus that sits atop the Cauldron. With the Cauldron filled with Tallow and up to three String placed in the Dipper, it will set about dipping the string to make Candles all on its own."
+				""
+				"String may be fed into the Dipper by way of Hopper or other automation. Some form of filter will need to be used to prevent extracting the string too early, however."
+				""
+				"Note: When melting items for Tallow, the Cauldron must have water in it. "
+			]
+			id: "753F45812A0A4754"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "6046E95DF2F2CE3C"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "084995A471301D0B"
+					player_command: false
+					title: "Rare Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "I Put a Spell On You ..."
+			tasks: [{
+				id: "317445E703CFA8A5"
+				item: "hexerei:candle_dipper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["5CBE4B1409CA3DB1"]
+			description: [
+				"Easily the most important tool in any Witch’s arsenal, the Broom allows for both fast and precise flight to avoid critters while out harvesting herbs or to simply get up on that roof to safely fix the smoldering hole left by that lightning bolt. "
+				""
+				"Some care and maintenance are required when working with Brooms, as their Brushes will not endure forever. Though, they may be enchanted with Unbreaking to help them last a bit longer. "
+				""
+				"To ride the Broom, Right-Click to place it in the world, then again to hop on. It controls similarly to a boat, though it can change altitude as well. "
+				""
+				"When not riding it, Sneak Right-Click the Broom to access its menu, where upgrades may be installed, or Brushes swapped out.  "
+				""
+				"At the tip, the Broom may be adorned with simple decorations by hanging them from a Broom Chain, or with more functional Tips that allow the Broom to pass through Lava or Water safely. "
+				""
+				"Link the Broom to a Broom Whistle to be able to recall the Broom more easily. The Broom must be relatively nearby for this to work. "
+			]
+			id: "2427E2062E71E3C7"
+			min_width: 300
+			rewards: [
+				{
+					id: "1008549AFC5BA985"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_whistle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "17B9E2556914F03E"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Gonna Take My Broom to the Old Swamp Road"
+			tasks: [{
+				id: "3A2C7E4DF750C249"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Witch's Broom"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2427E2062E71E3C7"]
+			description: ["Brooms may also be equipped with Satchels that come in various sizes and are the perfect place to store spare parts, potions, or anything one might need for longer excursions."]
+			id: "3D0BF6FF68EE43FC"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "126BDC3ABFDCB2E8"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "1C912EEB2ADBC94C"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Gonna Fly Till I Can't No More"
+			tasks: [{
+				id: "7ED27F05A6087868"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:small_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:medium_satchel"
+							}
+							{
+								Count: 1b
+								id: "hexerei:large_satchel"
+							}
+						]
+					}
+				}
+				title: "Satchels"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3D0BF6FF68EE43FC"]
+			description: ["A magical pouch bound to one’s Ender Chest, making it the perfect addition for any forgetful Witches who commonly lose their brooms. At least they won’t lose the contents!"]
+			id: "2AE5ED341C735EB0"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+					icon: "kubejs:sorcerers_delight"
+					id: "102164B44FAAE49A"
+					player_command: false
+					title: "Sorcerer's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "5AE710FB7FB5283B"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "For Better or For Warts"
+			tasks: [{
+				id: "122338C63082ED70"
+				item: "hexerei:ender_satchel"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["3D0BF6FF68EE43FC"]
+			description: ["No simple storage bag, the Replacer Satchel will automatically swap out Brushes as they wear out, allowing one to fly for longer without interruption."]
+			id: "39893761085CE2A3"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+					icon: "kubejs:sorcerers_delight"
+					id: "6A715E8A2FF7A4F5"
+					player_command: false
+					title: "Sorcerer's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "4D9EACBE361B48B3"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "No Rest for the Wicca'd"
+			tasks: [{
+				id: "696814E3084CCD5E"
+				item: "hexerei:replacer_satchel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			description: [
+				"The wise Witch knows the properties of every plant in their domain, and there are none more knowledgeable than those who call the Swamps their home. Locate a swamp and attempt to forage up some samples for a personal herb garden. "
+				""
+				"The ancient practice of Dowsing has been used for everything from finding ground water and gems to gravesites and malign spirits. Hexerei’s Dowsing Rod is perfectly attuned to lead the bearer to nearby Swamps and Jungles, with the leaves changing from vibrant green when pointed the correct way, to dull brown when facing away from the target. "
+				""
+				"A Nature’s Compass is also a viable tool for locating Swamps. And for the less adventurous Witches, a stop a nearby Market Stall is likely sufficient. "
+			]
+			hide_dependency_lines: true
+			icon: "hexerei:herb_drying_rack_full"
+			id: "54FB7C791B5492DF"
+			min_width: 300
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
+					icon: "kubejs:farmers_delight"
+					id: "6CF6DDE26468F7CA"
+					player_command: false
+					title: "Farmer's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/rare"
+					icon: "kubejs:rare_lootbox"
+					id: "0B6657C33AECA812"
+					player_command: false
+					title: "Rare Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Sage Advice"
+			tasks: [
+				{
+					icon: "hexerei:dowsing_rod"
+					id: "6BE2D12FBBC4BD5E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:dowsing_rod"
+								}
+								{
+									Count: 1b
+									id: "naturescompass:naturescompass"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "Locate a Swamp"
+					type: "item"
+				}
+				{
+					id: "3EADCEE6A534FEB9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "hexerei:sage_seed"
+								}
+								{
+									Count: 1b
+									id: "hexerei:mandrake_flower"
+								}
+								{
+									Count: 1b
+									id: "hexerei:mugwort_bush"
+								}
+								{
+									Count: 1b
+									id: "hexerei:yellow_dock_bush"
+								}
+								{
+									Count: 1b
+									id: "hexerei:belladonna_flower"
+								}
+							]
+						}
+					}
+					title: "Herbs"
+					type: "item"
+				}
+			]
+			title: "Getting Started: Herb Lore"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["48627087020E059F"]
+			description: [
+				"Dressing for the part is optional, of course, but style should never be overlooked. "
+				""
+				"Follow along to discover some of the very useful tools in a Witch’s arsenal."
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "hexerei:crow_blank_amulet"
+				tag: { }
+			}
+			id: "5CBE4B1409CA3DB1"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
+					icon: "kubejs:sorcerers_delight"
+					id: "1DAEF5BD5864A7A6"
+					player_command: false
+					title: "Sorcerer's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "01A521B4A99F153C"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "Witch Upon a Star"
+			tasks: [{
+				id: "60016AD4BEE7351E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:mahogany_log"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_log"
+							}
+						]
+					}
+				}
+				title: "Witchy Woods"
+				type: "item"
+			}]
+			title: "Tools and Utility"
+			x: 10.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["48627087020E059F"]
+			description: [
+				"Blood is a powerful magical reagent, and a wise Witch is careful of allowing another magic user access to theirs. "
+				""
+				"To obtain Blood for the purpose of crafting, place a Blood Sigil within the upper left slot of the Cauldron, then hop on in. Each jump will result in a small amount of blood entering the Cauldron. "
+				""
+				"Of course, nowhere is it stated that the blood must be one’s own. Try dropping a villager in to see what happens. Better still, see if the process can be automated…"
+			]
+			icon: "hexerei:blood_sigil"
+			id: "596DF36CE2F66524"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
+					icon: "kubejs:alchemists_delight"
+					id: "7F63F43AC11BCF99"
+					player_command: false
+					title: "Alchemist's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "5EA1F6B798CC3A78"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Life's a Witch and Then You Die"
+			tasks: [
+				{
+					id: "45454E94DC5517DF"
+					item: "hexerei:blood_sigil"
+					type: "item"
+				}
+				{
+					id: "1876BF29217CE460"
+					item: "hexerei:blood_bottle"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["59ACE37EED9E8CF5"]
+			description: [
+				"Witches are often depicted as befriending animals, from cats and mice to snakes and lizards. The Witches of these swamps, however, have a special affinity for the native Crows. "
+				""
+				"Being a particularly intelligent species of bird, Crows are capable of handling numerous tasks on behalf of their Witch friends. Mix up some of their favorite seeds to offer as a gift to befriend. Either toss the Seed Mixture on the ground nearby or offer the seeds by hand. "
+				""
+				"Crows are very social critters, and as such will have no issues with having more of their kind around, tame as many as desired!"
+				""
+				"Once tamed, Sneak Right-Click on them to open a menu where they may be set to a task or equipped with trinkets, hats, or weapons such as a Warhammer!"
+				""
+				"================================================="
+				""
+				"When commanding a murder of crows, a Crow Flute becomes an indispensable tool. Sneak Right-Click the Flute to access the menu. To begin, click the Select button and then proceed by Right-Clicking each Crow to be commanded by the Flute. Consider crafting a new Flute for every set of Crows to be commanded to prevent mix-ups with commands."
+				""
+				"With a Flute, multiple Crows may be selected and commanded to perform their actions, either Harvesting nearby crops, Gathering nearby items, or Pickpocketing nearby Villagers. "
+				""
+				"Flutes are also the only way to direct a Crow to Perch at a specific location. Perching on a Coffer, for instance, allows a Gathering Crow to automatically deposit its items into the Coffer. "
+				""
+				"A note on Pickpocketing: Crows have a fixed list of items they’ll choose from any given profession, and the list is not based on the available trades of that villager. "
+			]
+			id: "02339F3C9A699876"
+			min_width: 300
+			rewards: [
+				{
+					id: "1A3B0AA55642D5F1"
+					item: {
+						Count: 1b
+						id: "hexerei:crow_flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "4AB4040559B83C3E"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "For the Birds"
+			tasks: [{
+				id: "28B0B140426D4A56"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			title: "Crows"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["54FB7C791B5492DF"]
+			description: [
+				"A common sight in apothecaries and kitchens of old, the humble Pestle and Mortar have been used for ages to grind and mix ingredients. "
+				""
+				"Items may be placed in the Pestle and Mortar by hand via Right-Click, and the finished product may be retrieved similarly."
+				""
+				"In addition, items may be piped in via automation and the Pestle and Mortar will hold onto them until finished, only allowing the final product to be extracted."
+			]
+			id: "59ACE37EED9E8CF5"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "1C75F799457CB9FE"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "32CDF56407E67438"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+			]
+			subtitle: "Keeping It Grounded"
+			tasks: [{
+				id: "79AC6121D2D26A35"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["02339F3C9A699876"]
+			description: [
+				"While it also serves as an easily crafted Shulker Box, the Coffer primarily adds utility to Crows in Harvest mode. Depending on how the Crow button in the GUI is toggled, the Crow will either deposit everything it finds, or only deposit items that already exist in the Coffer, allowing it to act as a filter. "
+				""
+				"A Coffer may be quickly picked up with a single Left-Click."
+			]
+			id: "5C2021524CEC2DB4"
+			rewards: [
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
+					icon: "kubejs:scavengers_delight"
+					id: "7F24002EAAA4E329"
+					player_command: false
+					title: "Scavenger's Delight"
+					type: "command"
+				}
+				{
+					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/hexerei/epic"
+					icon: "kubejs:epic_lootbox"
+					id: "7C6758B634970F76"
+					player_command: false
+					title: "Epic Hexerei Loot Box"
+					type: "command"
+				}
+			]
+			subtitle: "Do You Be-leaf in Magic?"
+			tasks: [{
+				id: "2FAB9325EE7E79AF"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"The &6Book of Knowledge&r is Hexerei's guide book."
+				""
+				"Unlike other books however, it &chas no GUI&r. Instead, it has to be placed on an &bAltar&r."
+				""
+				"It would be a good idea to &6bookmark the items page&r, so navigating the Book isn't very quick. "
+			]
+			icon: "hexerei:book_of_shadows_altar"
+			id: "012FA57E9C8FC833"
+			rewards: [
+				{
+					id: "59853D835514CE5C"
+					item: {
+						Count: 1b
+						id: "hexerei:book_of_shadows"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4AC4944BD65C7BB7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make an Altar"
+			tasks: [{
+				id: "6A0533C6E08AA68F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:book_of_shadows_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:willow_altar"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_altar"
+							}
+						]
+					}
+				}
+				title: "Altars"
+				type: "item"
+			}]
+			title: "Altar of shadows"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4451057D4BA76C2C"]
+			description: ["These &bWitchy Trees&r have potent magical power, and can be sifted from leaves."]
+			icon: "hexerei:willow_sapling"
+			id: "549E34CDA26FBB90"
+			rewards: [
+				{
+					id: "44C8182D1CD03A8B"
+					item: "hexerei:witch_hazel_sapling"
+					type: "item"
+				}
+				{
+					id: "2A43F752D9B54336"
+					item: "hexerei:mahogany_sapling"
+					type: "item"
+				}
+				{
+					id: "26D1897D0ACC4623"
+					item: "hexerei:willow_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "Get a Sapling from Hexerei"
+			tasks: [{
+				id: "6831DA3DF78E5624"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_sapling"
+							}
+							{
+								Count: 1b
+								id: "hexerei:witch_hazel_sapling"
+							}
+						]
+					}
+				}
+				title: "Witchy Trees"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["549E34CDA26FBB90"]
+			description: [
+				"The &bCoffer&r is a quaint little block, holding as much as a normal chest."
+				""
+				"They can be dyed and named, and &6keep their contents when broken&r."
+				""
+				"They have a special &6interaction with Crows&r: gathering Crows will take items to Coffers that contain that item if enabled in the Coffer."
+			]
+			id: "124A73FB5F734CCF"
+			rewards: [
+				{
+					id: "692E649D344D6D88"
+					item: "hexerei:mahogany_chest"
+					type: "item"
+				}
+				{
+					id: "35C4961A479EABBA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "30B8906A1E7E62AA"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["691F9A1EB66FAF54"]
+			description: [
+				"Dried Sage Bundles can be burned at the &bSage Burning Plate&r to create a calming aura, &6preventing hostile mobs from spawning nearby&r."
+				""
+				"The cleansing smoke only works in a &648-meter circular radius&r, though outsiders can still wander in. It also &cburns out after an hour&r."
+			]
+			id: "388B3D14F851BE35"
+			rewards: [
+				{
+					count: 8
+					id: "62EEA22ECDB8E775"
+					item: {
+						Count: 1b
+						id: "hexerei:dried_sage_bundle"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "75B12E3893E7CBAE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Sage Burning Plate"
+			tasks: [{
+				id: "6B3155DAEB7DB6B7"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FB4E1D7A8B80DD8"]
+			description: ["The &bDrying Rack&r will allow you to &6dry items&r. Certain magical plants are more potent when dried."]
+			id: "33324BC14CF7BCC5"
+			rewards: [
+				{
+					id: "563C93E271082146"
+					item: "hexerei:candelabra"
+					type: "item"
+				}
+				{
+					id: "6F9F82DDBA8D6F60"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Drying Rack"
+			tasks: [{
+				id: "08CA7B617216D46A"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["378AF0E22829EC3C"]
+			description: [
+				"&bCrows&r are incredibly intelligent animals, able to &6harvest crops, pick up items, pickpocket villagers&r, and more."
+				""
+				"Occasionally crows will find their way to your island over time through the ftbskies:crow event as long as you have it enabled."
+				""
+				"Sneak right-clicking a tamed Crow will let you &6give it orders&r. you can give it a weapon to &6defend you with&r, and a helmet to protect itself with."
+				""
+				"The &bCrow Flute&r allows you to &6control multiple Crows at once&r, as well as &6set a block as the Crows' perch spot&r."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:crow_flute"
+				tag: { }
+			}
+			id: "2C92C960EA1286BF"
+			min_width: 250
+			rewards: [
+				{
+					id: "7FAF0033C843394E"
+					item: {
+						Count: 1b
+						id: "hexerei:crow_flute"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4CB606D8BC866D75"
+					item: "hexerei:crow_ankh_amulet"
+					type: "item"
+				}
+				{
+					id: "530D1E0CD82664B5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Observe a Crow"
+			tasks: [{
+				icon: "botania:cosmetic_googly_eyes"
+				id: "735F32430655301E"
+				observe_type: 5
+				timer: 0L
+				title: "Observe a Crow"
+				to_observe: "hexerei:crow"
+				type: "observation"
+			}]
+			title: "Two Crows!"
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			description: ["The &bPestle and Mortar&r allows you to &6crush and blend items together&r."]
+			id: "378AF0E22829EC3C"
+			rewards: [
+				{
+					count: 8
+					id: "099A6E5D72020AC4"
+					item: "hexerei:seed_mixture"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5BCF43F23292444E"
+					item: "minecraft:bone_meal"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3E6905B057C8F124"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0D1D4EAE090F8444"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make a Pestle and Mortar"
+			tasks: [{
+				id: "7FD2FE90AC13388E"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			description: ["The &bWitch's set&r is &6highly enchantable&r!"]
+			icon: {
+				Count: 1b
+				id: "hexerei:witch_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "16C5FCE84691F4C8"
+			rewards: [
+				{
+					id: "54DA85E2BDCAB37F"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "cyclic:traveler"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6BD2D85C7D3801BE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "41C466B9FD22AD2A"
+					item: "hexerei:large_satchel"
+					type: "item"
+				}
+			]
+			subtitle: "You're a wizard Harry"
+			tasks: [
+				{
+					id: "3E81887E984EA933"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01C65C3B4C9FF448"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E6619DFD2271DE4"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Bit Breezy, Innit?"
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["644055153B3927D8"]
+			description: [
+				"A witch is nothing without their flying broomsticks!"
+				""
+				"There are two types of &bBroom&r. Willow is slower and more precise, and Mahogany is faster."
+				""
+				"You can &6open it by sneak right-clicking&r, allowing you to apply upgrades."
+				""
+				"As you fly you Broom, its &cBroom Brush slowly breaks&r. You should keep an eye on its durability before going on flights."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:mahogany_broom"
+				tag: { }
+			}
+			id: "48B93DB363CE1030"
+			rewards: [
+				{
+					id: "0156FD349CCFEBC1"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_keychain"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "69E3CA31D6C0C5AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Hey, this ain't no Weapon!"
+			tasks: [{
+				id: "4670298B4957DD77"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexerei:willow_broom"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "hexerei:mahogany_broom"
+								tag: { }
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "Taking Flight"
+			x: -5.25d
+			y: -3.75d
+		}
+		{
+			dependencies: ["48B93DB363CE1030"]
+			description: ["You can replace the Broom Brush with an &bEnhanced Broom Brush&r, which lasts longer and &6can be enchanted&r!"]
+			id: "6D1F261748DC8065"
+			rewards: [
+				{
+					id: "3788D5985846CA49"
+					item: {
+						Count: 1b
+						id: "hexerei:broom_netherite_tip"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42E9BF6075307083"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Make an Enchanted Broom Brush"
+			tasks: [{
+				id: "7F21B82F317F3166"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			description: ["Welcome to Hexerei! Through this quest chain, you will learn all that you need to know about practicing witchcraft."]
+			icon: {
+				Count: 1b
+				id: "hexerei:book_of_shadows"
+				tag: { }
+			}
+			id: "758B99AACB978297"
+			rewards: [{
+				id: "4675E9128CFFA4C1"
+				type: "xp"
+				xp: 1
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "27A8151F5396B022"
+				title: "Read"
+				type: "checkmark"
+			}]
+			title: "Welcome to Hexerei"
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["758B99AACB978297"]
+			description: [
+				"Your basic witchcraft cauldron. This will be where you craft most of your items. "
+				""
+				"Use of this block is locked behind completion of a specific Cleric Villager quest. The knowledge required to use cauldrons can instead be unlocked in a quest found above, however the price is steep..."
+				""
+				"&b&lUseage:"
+				"Cauldrons can hold various types of liquid, which can be poured into it directly. Some crafting recipes may also change the liquid stored into a diffent kind, which may be needed for other recipes. Additional materials needed for a crafting recipe can be tossed into the cauldron, or added via the the menu accessed by right-clicking the cauldron. Once the required materials are added, the finished item can be retreived by right-clicking the cauldron to access the crafting menu."
+			]
+			id: "7D2C066D53F03275"
+			rewards: [{
+				id: "50841D6410C37FA7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "3B08C26FD9D9E6C2"
+				item: "hexerei:mixing_cauldron"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["758B99AACB978297"]
+			description: [
+				"Hexerei Cauldrons require knowledge level 2 to use. This can be obtained through a Cleric Villager quest, however those who are having trouble finding this quest or who have failed to complete it can instead purchase the knowledge here, for a price..."
+				"\\nNote: As of right now the book of shadows crashes clients if the client is using shaders."
+			]
+			icon: "minecraft:written_book"
+			id: "6A0035A4A88A4381"
+			rewards: [{
+				command: "/pmmo admin @p add slayer level 2"
+				icon: "minecraft:written_book"
+				id: "0333232AE6BE4B35"
+				player_command: false
+				title: "Cauldron Knowledge Level 2"
+				type: "command"
+			}]
+			size: 1.8d
+			tasks: [
+				{
+					count: 10L
+					id: "03CAA86634BACD2A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "7FAB375F6FC02067"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "161659D5BDBC4C5F"
+					item: "minecraft:golden_apple"
+					type: "item"
+				}
+			]
+			title: "Unlocking the Knowledge of Cauldrons"
+			x: 14.5d
+			y: -5.699999999999999d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: ["A cauldron upgrade, which allows you to add blood to your recipes for items wich require it. Simply place the sigil inside of the cauldron via the sigil slot in the cauldron crafting GUI, then jump inside to create blood. Jumping more will add more blood. Other liquid and materials can be added as usual. Usual recipes which do not require blood can still be crafted while the sigil is in the cauldron."]
+			id: "03B7E08CB2B2362E"
+			rewards: [{
+				id: "761437E88A03A8AF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "2C11E4C768995B1B"
+				item: "hexerei:blood_sigil"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: ["Place 6 animal fat and 2 honeycomb into a cauldron filled with water to produce tallow. Used for the creation of candles. "]
+			id: "3BA3BF3785F2A9EC"
+			rewards: [{
+				id: "64015B1B2A429D3F"
+				item: "minecraft:axolotl_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4AE93959A66AA10D"
+				item: "hexerei:tallow_bucket"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["758B99AACB978297"]
+			description: ["A basic herb. Can be found in swamps and other biomes, or grown from sage seeds which are commonly dropped by grass and plants."]
+			id: "63426BF34D49D775"
+			tasks: [{
+				id: "1EF473CF02DD26D1"
+				item: "hexerei:sage"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63426BF34D49D775"]
+			description: ["Used to dry herbs and herb-based items. Right-click with an item to hang it, and sneak+right-click to remove it."]
+			id: "1CFBAADF7DEF4EB8"
+			size: 1.3d
+			tasks: [{
+				id: "2EF4372341F1F841"
+				item: "hexerei:herb_drying_rack"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1CFBAADF7DEF4EB8"]
+			description: ["Place on an incense plate to burn. Keeps mobs from spawning in a radius. See the edge of the affected zone via a \"smoke ring\" effect that can be seen around the affected area. Can be picked up to pause the burning effect, and started again at a later time. Great for keeping bases safer throughout the night."]
+			id: "48D563E6DA99E3F9"
+			tasks: [{
+				id: "0705929F3C22599C"
+				item: {
+					Count: 1b
+					id: "hexerei:dried_sage_bundle"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["48D563E6DA99E3F9"]
+			description: ["Place dried sage bundles on this plate and light with flint and steel."]
+			id: "5049C85915A199E4"
+			rewards: [{
+				id: "29DA21012C54A1B1"
+				item: "plushies:cat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59D32D1E615FCD65"
+				item: "hexerei:sage_burning_plate"
+				type: "item"
+			}]
+			x: 18.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: ["Fill a lava-filled cauldron with sand to craft. Can store a very large number of one kind of any plant or herb. sneak-click to open storage, or click with a herb or plant to store it. Punch to withdraw, or sneak+punch to withdraw a full stack. Can be labelled in an anvil. Can be picked up like a shulker box and placed back down while still storing items."]
+			id: "37BD6B0893D6BC03"
+			rewards: [{
+				id: "34A2B0CFEB80615A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D8C72601BC320A6"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_jar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: [
+				"Stores items, and displays them visually. Can be picked up along with contents like a shulker box."
+				"Craft with dye to color."
+			]
+			id: "215893DA53A9DEBF"
+			rewards: [{
+				id: "4F33550ECDDA374E"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "0C00E6A5E3FA7E2C"
+				item: {
+					Count: 1b
+					id: "hexerei:coffer"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 13.2d
+			y: 2.1999999999999993d
+		}
+		{
+			dependencies: ["03B7E08CB2B2362E"]
+			description: [
+				"Allows flight! "
+				""
+				"Sneak+right-click to open the broom menu. From here, you can customize your broom and change its settings (hover or land). IMPORTANT: If you fall off of a broom mid-flight and it is in hover mode, it will stay up there! You will have an easier time retrieving brooms in \"land\" mode... unless it lands in water..."
+				""
+				"Brooms are steered similarly to a boat. Right-click to mount, shift+right-click to dismount. Hold space to fly, or sneak to descend."
+				"Punch repeatedly to break and pick-up."
+			]
+			id: "5227F33207D38CFC"
+			rewards: [{
+				id: "3242836206FD9650"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "321F1EAE5B2DDFB0"
+				item: {
+					Count: 1b
+					id: "hexerei:willow_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5227F33207D38CFC"]
+			id: "428171D49BCEF30E"
+			rewards: [{
+				id: "25C27CA0052284C6"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			subtitle: "Faster, more durable, fire resistant."
+			tasks: [{
+				id: "175E4919A3D167BE"
+				item: {
+					Count: 1b
+					id: "hexerei:mahogany_broom"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["03B7E08CB2B2362E"]
+			description: ["Bottled blood. Hold shift while hovering over the item for more detail. Used in some crafting recipes."]
+			id: "4E6B5FEB5F44E947"
+			rewards: [{
+				id: "3E14DA0B826A1DDC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "69FAD767D10404F7"
+				item: "hexerei:blood_bottle"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5227F33207D38CFC"]
+			description: ["Add to the \"Bag\" slot of your broom. Adds storage capacity to your broom."]
+			id: "78FCEF109D9CB599"
+			rewards: [{
+				id: "1ACCA75AE8D08AA4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "24DC8616D09B033C"
+				item: "hexerei:small_satchel"
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78FCEF109D9CB599"]
+			description: ["Further improves storage capacity."]
+			id: "7F5D2E60E4CD5CF5"
+			rewards: [{
+				id: "1E1996E84A37C349"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "341BFCB412F72A7E"
+				item: "hexerei:medium_satchel"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F5D2E60E4CD5CF5"]
+			description: ["Greatly improves storage capacity."]
+			id: "217AD1F73111EF57"
+			rewards: [{
+				id: "6871DF802AD758BC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AD757AEDBB3ACAC"
+				item: "hexerei:large_satchel"
+				type: "item"
+			}]
+			x: 20.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5227F33207D38CFC"]
+			description: ["Decorative rings for your broom. Add them to the \"Decoration\" slot."]
+			id: "6174E85ADB639FA2"
+			rewards: [{
+				id: "5847523E6894FAC7"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "731ACE4E30681DC5"
+				item: "hexerei:gold_rings"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6174E85ADB639FA2"]
+			description: ["Decorative item for your broom. Craft with any item to create a keychain of that item (the item will be consumed!). Add to your broom's \"Decoration\" slot to display a keychain of the chosen item."]
+			id: "6A54AEC72104C48C"
+			rewards: [{
+				id: "73B766D43F0A8AC4"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09614B2230540949"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_keychain"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5227F33207D38CFC"]
+			description: ["Placed in the broom's \"Brush\" slot. Allows the broom to operate. Degrades over time. Can be enchanted to improve durability. "]
+			id: "0C80B91AFB6EB414"
+			rewards: [{
+				id: "1C2A2F374E87E701"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0C1BD7D79C5A73DB"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0C80B91AFB6EB414"]
+			description: ["A more durable broom brush"]
+			id: "0BFAB3BEE1700004"
+			rewards: [{
+				id: "5E8EA8A193E22E08"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C4DFC0CDD9AAC14"
+				item: {
+					Count: 1b
+					id: "hexerei:herb_enhanced_broom_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5227F33207D38CFC"]
+			description: ["Add to the \"Broom Tip\" slot of your broom's menu. Improves water resistance. Loses durability gradually in water. Allows flight in water."]
+			id: "70C162E9A761F649"
+			rewards: [{
+				id: "3CC9954CA71EB8C0"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70FB8A35BEE06BAE"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_waterproof_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["70C162E9A761F649"]
+			description: ["Improves brooms fire-resistance. Allows flight in lava."]
+			id: "1E7E794756D864F1"
+			rewards: [{
+				id: "679C93B32EE52E4A"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7297BE20FBE4E6AA"
+				item: {
+					Count: 1b
+					id: "hexerei:broom_netherite_tip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["63426BF34D49D775"]
+			description: ["Various herbs can be found in swamp biomes. These are required for many witchcraft recipes."]
+			id: "7CB413EE0146CF04"
+			rewards: [{
+				count: 2
+				id: "45737AFEDCC04E4F"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0CC84234811B452A"
+					item: "hexerei:belladonna_flowers"
+					type: "item"
+				}
+				{
+					id: "171360C04C8162BD"
+					item: "hexerei:mandrake_root"
+					type: "item"
+				}
+				{
+					id: "11DAE9A3B2A04786"
+					item: "hexerei:mugwort_flowers"
+					type: "item"
+				}
+				{
+					id: "028CE7DC8B67A275"
+					item: "hexerei:yellow_dock_flowers"
+					type: "item"
+				}
+				{
+					id: "749393FBA7EC95B2"
+					item: "hexerei:mugwort_leaves"
+					type: "item"
+				}
+				{
+					id: "6D04F0C52C4FACCF"
+					item: "hexerei:yellow_dock_leaves"
+					type: "item"
+				}
+			]
+			x: 18.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: ["Used to grind seeds into seed mixture for crow taming."]
+			id: "3B1A6973557F7E3C"
+			rewards: [{
+				id: "2F8E07D7A91CD5BF"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "52204484270771E3"
+				item: "hexerei:pestle_and_mortar"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B1A6973557F7E3C"]
+			description: ["Crafted in a pestle and mortar. Feed to wild crows for a chance to tame them. Crows can be found in most biomes, such as forests and swamps. See the \"Crow Flute\" quest next for a full guide on crow useage."]
+			id: "4EEC8127EDECFC93"
+			rewards: [{
+				id: "09242CB6DDB7B51B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "31B40682E7140C13"
+				item: "hexerei:seed_mixture"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4EEC8127EDECFC93"]
+			description: [
+				"Crows can be tamed by feeding them Seed Mixture. Once tamed, they can be controlled using a Crow Flute."
+				""
+				"Sneak-Right click a crow familair to access its menu. From here, you can change its follow mode, behavior, and equip various decorative items."
+				""
+				"&b&lFollow Mode"
+				"By setting a follow mode, you can change how the crow follows the player. It can follow/perch on the player's shoulder, wander or sit. Set the crow to \"Help\" mode to enable its gathering functions."
+				""
+				"&b&lGathering"
+				"Crows in gather mode will collect nearby items and place them in a nearby coffer. The items types you wish to gether must already be present in the coffer. Crows must be set to perch on a coffer in order to deposit items (see \"Crow Flute\" section)."
+				""
+				"&b&lHarvesting"
+				"Crows in harvest mode will harvest nearby crops. This includes naturally generated crops and some plants (such as Hexerei plants found in swamp biomes). Can be combined with gathering crows to fully automate your farm. Best used with the crow flue (see below)."
+				""
+				"&b&lCrow Flute"
+				"Sneak+right-click while holding the crow flute to access the flute menu. This menu is similar to the crow menu, but can be used to select and command multiple crows, as well as set home points for individual or groups of crows. Choosing the \"Seclect\" option will allow you to right-click crows with the flute to select or de-select them. Switching to \"Perch\" mode will allow you to set a perch location for all currently selected crows. Changing any of the follow/help settings will change those settings for all selected crows at once. Great for directing larger numbers of crows at once, and the only way to set crow perch locations. Right-click with the flute to activate the selected function."
+				""
+				"&b&lThieving"
+				"Crows in theiving mode will steal from nearby villagers, and drop the stolen items at their perch location. Set them to perch on a hopper for easy chest depositing. Steals a variety of items, including emeralds. Crows will fly around after thieving before depositing to evade detection."
+				""
+				"&b&lBreeding"
+				"Multiple tamed crows can be given gold nuggets to breed."
+			]
+			icon: {
+				Count: 1b
+				id: "hexerei:crow_flute"
+				tag: { }
+			}
+			id: "1BBB911894B0070A"
+			rewards: [{
+				id: "57EB6375A9C8A606"
+				item: "plushies:parrot"
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0AEF524248C91795"
+				item: {
+					Count: 1b
+					id: "hexerei:crow_flute"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Crow Taming"
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7D2C066D53F03275"]
+			description: ["Crafted in a cauldron, infused fabric is essential for crafting your witch's uniform."]
+			id: "4321174BCD4E13A9"
+			rewards: [{
+				id: "1BFBD1DE9E4C3CCC"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "22BA0C96D97B6733"
+				item: "hexerei:infused_fabric"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4321174BCD4E13A9"]
+			description: ["The witchs uniform. Slightly stronger than iron armor, and provides a number of useful effects. Allows the player to blend in with witches."]
+			id: "631CBCD0CA912A0C"
+			rewards: [{
+				id: "20638792E0F8E723"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "27FA4D3B634D167E"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B8AFF6CCF8A06D9"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F9B3A46FD031E7A"
+					item: {
+						Count: 1b
+						id: "hexerei:witch_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["631CBCD0CA912A0C"]
+			description: ["A cosmetically upgraded witch's hat."]
+			id: "6256CF4A57FEC937"
+			rewards: [{
+				id: "1AE3D5DC99D59639"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			tasks: [{
+				id: "380BE5CBFFEA6B24"
+				item: {
+					Count: 1b
+					id: "hexerei:mushroom_witch_hat"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+	]
+	subtitle: ["A Witchery Style Magic Mod"]
+	title: "Hexerei"
+}

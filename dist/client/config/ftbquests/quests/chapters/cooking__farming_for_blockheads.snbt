@@ -14,7 +14,7 @@
 	quests: [
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: ["&7> Toaster magically turns bread into toast. &d&kd&b&ks&5&ks &r&7<- magic."]
+			description: ["&aToaster&r magically turns &abread&r into &atoast&r. &d&kd&b&ks&5&ks &r&7<- magic."]
 			id: "35CBBC81CE410903"
 			rewards: [
 				{
@@ -29,7 +29,7 @@
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Toaster"
+			subtitle: "The magic happens here too!"
 			tasks: [{
 				id: "1E38EEC82C5841D7"
 				item: "cookingforblockheads:toaster"
@@ -41,9 +41,11 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"&7> Spice Rack stores spices and ingredients."
+				"&aSpice Rack&r stores spices and ingredients."
 				""
-				"&7> Fruit Basket stores fruit for recipes."
+				"&aFruit Basket&r stores fruit for recipes."
+				""
+				"&aTool Rack&r stores tools for recipes."
 			]
 			id: "52997E6B08DB9C40"
 			rewards: [
@@ -56,17 +58,10 @@
 				{
 					id: "4C7462B80C97B348"
 					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					count: 2
-					id: "388BBA5D39E6132C"
-					item: "lootbundles:fragment"
-					type: "item"
+					xp_levels: 10
 				}
 			]
 			shape: "diamond"
-			subtitle: "Craft a Spice Rack \\& a Fruit Basket"
 			tasks: [
 				{
 					id: "34F2F9C062061387"
@@ -76,6 +71,11 @@
 				{
 					id: "2255635EDD383703"
 					item: "cookingforblockheads:fruit_basket"
+					type: "item"
+				}
+				{
+					id: "7DADA070EF49D6B2"
+					item: "cookingforblockheads:tool_rack"
 					type: "item"
 				}
 			]
@@ -101,6 +101,7 @@
 		}
 		{
 			dependencies: ["251028DFC955D65F"]
+			description: ["The &aChicken Nest&r provides a place where nearby chickens will deposit their &beggs&r. You can pipe from it to allow your &bchickens&r to enjoy  free range life instead of that 1x1 hopper coop."]
 			id: "16FED75C44853ECA"
 			rewards: [{
 				id: "295620B80AC388A3"
@@ -255,7 +256,8 @@
 			y: -1.0d
 		}
 		{
-			description: ["Go ahead. Put a book in a furnace."]
+			dependencies: ["1827DEEA2DF1B144"]
+			description: ["Go ahead. Put a &abook&r in a &afurnace&r."]
 			id: "45F83C2750F70F9B"
 			rewards: [{
 				id: "54B713BDF265A213"
@@ -308,35 +310,51 @@
 		{
 			dependencies: ["58D5BD3106BFD94A"]
 			description: [
-				"This block is part of a multi-block kitchen."
+				"This block is part of a &bmulti-block kitchen&r."
 				""
-				"This will show you every recipe that is available to you with the food you have in your inventory, or stored in the kitchen multi-block."
+				"The &bCooking Table&r will allow you to &6quickly craft foods&r that you have the ingredients for."
 				""
-				"You can finally create a nice kitchen in Minecraft."
+				"This will show you &6every recipe&r that is available to you with the food you have in your inventory, or stored in the &bkitchen multi-block&r."
+				""
+				"&l&eYou can finally create a nice kitchen in Minecraft.&r"
 			]
 			id: "28C9EDBF6607E180"
 			rewards: [
-				{
-					count: 8
-					id: "145863D45AAB585A"
-					item: "minecraft:bread"
-					type: "item"
-				}
 				{
 					id: "1AD9A5DFAF726359"
 					type: "xp"
 					xp: 100
 				}
+				{
+					id: "1643F0381D59BA59"
+					item: "farmersdelight:beetroot_crate"
+					type: "item"
+				}
+				{
+					id: "26B7E7912C2B46D3"
+					item: "farmersdelight:carrot_crate"
+					type: "item"
+				}
+				{
+					id: "5D82591F99FBCAF0"
+					item: "farmersdelight:potato_crate"
+					type: "item"
+				}
+				{
+					id: "1B1D3BC864CB7A4B"
+					item: "farmersdelight:tomato_crate"
+					type: "item"
+				}
 			]
 			shape: "octagon"
 			size: 1.5d
-			subtitle: "Betty White was born before Sliced Bread"
+			subtitle: "Where the magic happens"
 			tasks: [{
 				id: "552C067A28FB8869"
 				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
-			title: "THE BEST THING SINCE SLICED BREAD"
+			title: "The Heart of the Kitchen"
 			x: 0.0d
 			y: 2.0d
 		}
@@ -374,9 +392,12 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"Stores items in the multi-block kitchen. Stack them on top of each other!"
+				"&6Stores items&r in the multi-block kitchen. &6Stack them on top of each other!&r"
 				""
-				"You can also shift-right click on it to open then door, and you can just right click items right in."
+				"The &bFridge&r is another storage location, but has two &6very useful upgrades&r."
+				"&o&eTheir functions are in their tooltip.&r"
+				""
+				"You can also &6Shift-Right click&r on it to open then door, and you can just &6Right click&r items right in."
 			]
 			id: "66815AB6FDACCAB7"
 			rewards: [
@@ -391,6 +412,11 @@
 					item: "croptopia:vanilla_ice_cream"
 					type: "item"
 				}
+				{
+					id: "7E754C3AEF8E6DD2"
+					item: "cookingforblockheads:preservation_chamber"
+					type: "item"
+				}
 			]
 			shape: "diamond"
 			subtitle: "You'll open it, close it, then open it again, just because you're bored."
@@ -400,13 +426,13 @@
 				item: "cookingforblockheads:fridge"
 				type: "item"
 			}]
-			title: "The Fridge"
+			title: "Ice Is Nice!"
 			x: -1.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["66815AB6FDACCAB7"]
-			description: ["Provides Ice and Snow recipes!"]
+			description: ["Provides &bIce&r and &bSnow recipes&r!"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
@@ -435,20 +461,31 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block produces milk over time, and enables milk recipes for the kitchen multi-block."
+				"This block produces &bmilk&r over time, and enables &bmilk recipes&r for the &bkitchen multi-block&r."
 				""
-				"To get a cow in the jar, place the jar in a hole. Lure the cow to fall in said hole above the jar, then drop an anvil on it."
+				"You can squish a &bCow&r into a &aMilk Jar&r using an &aanvil&r and &bgravity&r."
+				"Now &6your kitchen can produce&r all the &bmilk&r you'll need."
 				""
-				"I have no clue what this glass is made of, but it's stronger than my relationship with Chicken."
-				""
-				"&e! &7Place a Jar under a Cow, then drop an anvil ontop of it, letting it fall onto the Jar \\& Cow."
+				"I have no clue what this &aglass&r is made of, but it's stronger than my relationship with &bChicken&r."
 			]
 			id: "47764EFC822E462A"
-			rewards: [{
-				id: "2390EE9B8E964CCA"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					id: "2390EE9B8E964CCA"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "1CF494A30463BD82"
+					item: "cookingforblockheads:toaster"
+					type: "item"
+				}
+				{
+					id: "1647339C4A36FF96"
+					item: "industrialforegoing:fluid_transporter_type"
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			subtitle: "Phenomenal Milking Powers....Itty bitty living space."
 			tasks: [{
@@ -456,7 +493,7 @@
 				item: "cookingforblockheads:cow_jar"
 				type: "item"
 			}]
-			title: "A Cow in a Jar"
+			title: "Got Milk?"
 			x: -1.0d
 			y: 2.5d
 		}
@@ -464,6 +501,7 @@
 			dependencies: ["7CB3FCD789747EF5"]
 			description: ["Allows you to attach power to the Stove."]
 			id: "1515B32545F51266"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -483,13 +521,20 @@
 				item: "cookingforblockheads:heating_unit"
 				type: "item"
 			}]
-			title: "Heating Upgrade"
 			x: 1.5d
 			y: 2.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			description: ["This block enables smelting recipes in your kitchen multi-block!"]
+			description: [
+				"This block enables &bsmelting recipes&r in your kitchen multi-block!"
+				""
+				"An &aOven&r will allow you to &6quickly cook foods&r, and works from the &aCooking Table&r!"
+				""
+				"If you add a &aHeating Unit&r, you can power the &aOven&r with &6FE&r instead of &bfurnace fuel&r."
+				""
+				"&eInstall Upgrades by right-clicking them on their block.&r"
+			]
 			id: "7CB3FCD789747EF5"
 			rewards: [
 				{
@@ -518,21 +563,21 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This block stores items for cooking."
+				"&aKitchen Counter&r provide the &aCooking Table&r &6extra storage&r for your &bcooking items&r, so you don't have to hold everything in your inventory."
 				""
-				"You can also place other kitchen multi-block items on it, like toasters and a Cow in a Jar."
+				"You can also &6place other kitchen multi-block items on it&r, like &aToasters&r and a &aCow in a Jar&r."
 			]
 			id: "37CA6F9F0226F10E"
 			rewards: [
 				{
-					id: "45C4177C120927FF"
-					item: "cookingforblockheads:counter"
-					type: "item"
-				}
-				{
 					id: "0B13ECD292D7D073"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "4356EEE1B4E685AC"
+					item: "cookingforblockheads:tool_rack"
+					type: "item"
 				}
 			]
 			shape: "diamond"
@@ -550,9 +595,9 @@
 		{
 			dependencies: ["28C9EDBF6607E180"]
 			description: [
-				"This works just like the kitchen counter, except in the air."
+				"This works just like the &aKitchen Counter&r, except in the air."
 				""
-				"And you can't put things on top of it."
+				"&eAnd you can't put things on top of it.&r"
 			]
 			id: "58495CFBF4F20CE9"
 			rewards: [
@@ -578,175 +623,6 @@
 			title: "Even More Storage"
 			x: -0.5d
 			y: 3.0d
-		}
-		{
-			description: [
-				"The &bCooking Table&r will allow you to &6quickly craft foods&r that you have the ingredients for."
-				""
-				"The &bHay Nest&r provides a place where nearby chickens will deposit their eggs. You can pipe from it to allow your chickens to enjoy  free range life instead of that 1x1 hopper coop."
-			]
-			id: "3053871C8AEE692C"
-			rewards: [
-				{
-					id: "583D5C07D409E0AC"
-					item: "quark:beetroot_crate"
-					type: "item"
-				}
-				{
-					id: "46BF09486C6B4A7A"
-					item: "quark:carrot_crate"
-					type: "item"
-				}
-				{
-					id: "285AB65A55F0B613"
-					item: "quark:potato_crate"
-					type: "item"
-				}
-				{
-					id: "4EA6E93B01EA7C7F"
-					item: "quark:apple_crate"
-					type: "item"
-				}
-				{
-					id: "5F27C64F78E0F288"
-					item: "incubation:hay_nest"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Where the magic happens"
-			tasks: [{
-				id: "37D0DC6BEB830C62"
-				item: "cookingforblockheads:cooking_table"
-				type: "item"
-			}]
-			title: "The Heart of the Kitchen"
-			x: 3.0d
-			y: 3.0d
-		}
-		{
-			description: ["The &bFridge&r is another storage location, but has two &6very useful upgrades&r. Their functions are in their tooltip."]
-			id: "5E34FE9AA13204C7"
-			rewards: [
-				{
-					id: "699FF142776ECE16"
-					item: "cookingforblockheads:ice_unit"
-					type: "item"
-				}
-				{
-					id: "0DCD29E3F7BFAC04"
-					item: "cookingforblockheads:preservation_chamber"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Ice is Nice!"
-			tasks: [{
-				id: "0477934320683DE9"
-				item: "cookingforblockheads:fridge"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			description: ["You can squish a &bCow&r into a &6Milk Jar&r using an anvil and gravity. Now your kitchen can produce all the milk you'll need."]
-			id: "2BE8A577F5F51E6A"
-			rewards: [
-				{
-					id: "7755A5E7548CDF68"
-					item: "cookingforblockheads:toaster"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "55FA33A075FAA641"
-					item: "industrialforegoing:fluid_transporter_type"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "Udderly Delicious"
-			tasks: [{
-				id: "6275D0F72F622B16"
-				item: "cookingforblockheads:cow_jar"
-				type: "item"
-			}]
-			title: "Got Milk?"
-			x: -1.5d
-			y: 3.5d
-		}
-		{
-			description: ["&bKitchen Counters and Cabinets&r provide the Cooking Table with &6extra storage&r, so you don't have to hold everything in your inventory."]
-			icon: "cookingforblockheads:counter"
-			id: "5818087FB67710CE"
-			rewards: [
-				{
-					id: "19DC5B52B7B37A62"
-					item: "cookingforblockheads:tool_rack"
-					type: "item"
-				}
-				{
-					id: "06555C4F8ED57210"
-					item: "quark:berry_sack"
-					type: "item"
-				}
-				{
-					id: "2E91465985B8B6DD"
-					item: "farmersdelight:hot_cocoa"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "I should have known."
-			tasks: [
-				{
-					id: "2DED26C0914AEB3D"
-					item: "cookingforblockheads:counter"
-					type: "item"
-				}
-				{
-					id: "6DEB3F3BD15C5AB4"
-					item: "cookingforblockheads:cabinet"
-					type: "item"
-				}
-			]
-			title: "You Blockhead!"
-			x: 1.0d
-			y: 0.0d
-		}
-		{
-			description: [
-				"An &bOven&r will allow you to &6quickly cook foods&r, and works from the Cooking Table!"
-				""
-				"If you add a &6Heating Unit&r, you can power the Oven with FE instead of furnace fuel."
-				""
-				"&oInstall Upgrades by right-clicking them on their block."
-			]
-			id: "43EF07FC00CAE761"
-			rewards: [
-				{
-					id: "5BC3C51A1CE464D4"
-					item: "cookingforblockheads:heating_unit"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "12ED1270DCE0891D"
-					item: "minecraft:coal"
-					type: "item"
-				}
-			]
-			shape: "rsquare"
-			subtitle: "No soggy bottoms here"
-			tasks: [{
-				id: "62A275B4E27270F9"
-				item: "cookingforblockheads:oven"
-				type: "item"
-			}]
-			title: "Lets get baked!"
-			x: 2.0d
-			y: 1.0d
 		}
 	]
 	subtitle: ["A fully functional kitchen!"]

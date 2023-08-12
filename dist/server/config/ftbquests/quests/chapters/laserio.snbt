@@ -5,7 +5,7 @@
 	group: "0815C5D80307ECDF"
 	icon: "laserio:laser_node"
 	id: "0042BD2208B770D5"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [
 		{

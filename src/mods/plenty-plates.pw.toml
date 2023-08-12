@@ -1,0 +1,13 @@
+name = "Plenty Plates"
+filename = "PlentyPlates-v4.0.0-1.19.2-Forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VmcdxJxh/versions/YDH4B7Nk/PlentyPlates-v4.0.0-1.19.2-Forge.jar"
+hash-format = "sha1"
+hash = "d4b4a0858eabaa36d46e25e144e9179b3727638c"
+
+[update]
+[update.modrinth]
+mod-id = "VmcdxJxh"
+version = "YDH4B7Nk"

@@ -1,0 +1,647 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mob_farming"
+	group: "6614EE2378B8AFB9"
+	icon: "mob_grinding_utils:saw_upgrade_smite"
+	id: "1F1A55A65AC66618"
+	order_index: 6
+	quest_links: [
+		{
+			id: "5F01B3F87F571895"
+			linked_quest: "7B51359966DAAEC3"
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "08D98BDE7D97802C"
+			linked_quest: "2B4D33AB5B6C845D"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			id: "6300027E168E6607"
+			linked_quest: "6EDBA28D38CD410B"
+			x: -7.0d
+			y: -4.5d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0A36DA3E53D4F472"]
+			description: [
+				"There are 3 &bFan Upgrades&r for the &eMob Grinding Utils &6Fans&r"
+				""
+				"You probably wanna check them all out!"
+			]
+			id: "395AD12DBA5698CD"
+			tasks: [{
+				id: "7DAE1FD122D1D438"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mob_grinding_utils:fan_upgrade_speed"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:fan_upgrade_height"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:fan_upgrade_width"
+							}
+						]
+					}
+				}
+				title: "Fan Upgrades"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"&eMob Grinding Utils&r offers some amazing upgradable &bFans&r"
+				""
+				"They push &6Mobs&r away if powered with a Redstone Signal"
+				""
+				"Right click to open its GUI and insert the Upgrades or toggle the &6Range View&r"
+			]
+			id: "0A36DA3E53D4F472"
+			subtitle: "I'm your biggest Fan!"
+			tasks: [{
+				id: "2008F343A49A8F86"
+				item: "mob_grinding_utils:fan"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"&eCyclic&r also offers a &bFan&r"
+				""
+				"These aren't as powerful, but look very aesthetic"
+				""
+				"Power them with a Redstone Signal to turn them on!"
+			]
+			id: "3504B1091E9BCC59"
+			subtitle: "Such a Pushover"
+			tasks: [{
+				id: "6BD04075E63A761D"
+				item: "cyclic:fan"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["&eCyclic's&r Iron Spikes, can be toggled with a &cRedstone Signal&r"]
+			id: "30963ED5F913C335"
+			tasks: [{
+				id: "76C92CB48487F0E7"
+				item: "cyclic:spikes_iron"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["30963ED5F913C335"]
+			description: [
+				"&eCyclic's&r Spikes can be upgraded to 3 variants:"
+				""
+				"&aCursed&r - Curses the Mob on Contact"
+				""
+				"&bDiamond&r - Do increased Damage"
+				""
+				"&cFlame&r - Apply Flame Damage on Contact"
+			]
+			hide: true
+			id: "365C27D3BBC9E4D6"
+			tasks: [{
+				id: "79333761B7ED4D47"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "cyclic:spikes_curse"
+							}
+							{
+								Count: 1b
+								id: "cyclic:spikes_diamond"
+							}
+							{
+								Count: 1b
+								id: "cyclic:spikes_fire"
+							}
+						]
+					}
+				}
+				title: "Upgraded Spikes"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["&e Mob Grinding Utils&r provides these &bIron Spikes&r which drops Mob Loot and EXP"]
+			id: "72DA57347668FF2C"
+			rewards: [{
+				id: "1DCE9F0EB9A0B47E"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			subtitle: "Ouch! They hurt!"
+			tasks: [{
+				id: "44C4C2B23DCD1C72"
+				item: "mob_grinding_utils:spikes"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["72DA57347668FF2C"]
+			description: [
+				"The &bMob Masher&r is one of best ways of killing &6Mobs&r in a Mobfarm"
+				""
+				"This Block is upgradable with various &6Upgrades&r and counts as &6Player Kill&r"
+				""
+				"Power the block with a &cRedstone Signal&r and it will start Spinning"
+				""
+				"Just be cautious not to get killed by it!"
+			]
+			id: "3CB33D9CC25B43FC"
+			rewards: [{
+				id: "71E3945411BF6E66"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F317FFBEF2A421D"
+				item: "mob_grinding_utils:saw"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3CB33D9CC25B43FC"]
+			description: [
+				"These are the various &bUpgrades&r for the &6Mob Masher&r:"
+				""
+				"&5Artopods&r - Additional Damage to Spiders"
+				""
+				"&6Beheading&r - Increase the drop chance of Mob Heads"
+				""
+				"&cFire&r - Apply Fire Aspect Damage to the Mobs"
+				""
+				"&9Looting &r- Increase the Drops you get, similar to the Looting Enchant"
+				""
+				"&eSharpness&r - Increase the Overall Damage"
+				""
+				"&dSmite&r -  Additional Damage to Undead Mobs"
+			]
+			id: "1A25BBB721CD5730"
+			rewards: [{
+				count: 2
+				id: "164406677918D2D5"
+				item: "mob_grinding_utils:saw_upgrade_looting"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A28A2E3B811600E"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_arthropod"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_beheading"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_fire"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_looting"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_sharpness"
+							}
+							{
+								Count: 1b
+								id: "mob_grinding_utils:saw_upgrade_smite"
+							}
+						]
+					}
+				}
+				title: "Mob Masher Upgrade"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B6ABAE103CD3AFD"]
+			description: [
+				"Instead of pushing the mobs, you can also use these &bVector Plates&r"
+				""
+				"&eDark Utilities&r offers these Plates, to directly move the &6Mobs&r that step on them"
+				""
+				"These &6Mobs&r also spawn on the &bVector Plates&r, respecting the block underneath"
+			]
+			id: "695BCE6253C2554F"
+			subtitle: "Moving in the right direction"
+			tasks: [{
+				id: "6011333DA22AD965"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "darkutils:vector_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:vector_plate_fast"
+							}
+							{
+								Count: 1b
+								id: "darkutils:vector_plate_extreme"
+							}
+							{
+								Count: 1b
+								id: "darkutils:vector_plate_ultra"
+							}
+						]
+					}
+				}
+				title: "Vector Plates"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"The &bVacuum Hopper&r will vacuum all your items in a certain radius"
+				""
+				"Inside the GUI you can select which sides are used for outputting &6Items&r and &aEXP&r"
+				""
+				"This can also be upgraded to increase its range!"
+			]
+			id: "73BDABE9CA713999"
+			rewards: [{
+				id: "4427CDBAB5BD4EF0"
+				item: "mob_grinding_utils:absorption_upgrade"
+				type: "item"
+			}]
+			subtitle: "It Aint Gonna Suck Itself"
+			tasks: [{
+				id: "253BEB3CFEF2E672"
+				item: "mob_grinding_utils:absorption_hopper"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			description: [
+				"Need a good way to store your EXP?"
+				""
+				"Don't worry, the &bExperience Obelisk&r is just the block for you"
+				""
+				"In its internal storage, it can store up to &aMAXINT&r (&a2,147,483,647&r) EXP"
+				""
+				"The &bExperience Obelisk&r can &6store experience&r, absorb nearby xp orbs, and &6give and take it from the player&r."
+			]
+			id: "30145D5771D06E02"
+			rewards: [{
+				id: "603E28F331DD720A"
+				item: "experienceobelisk:raw_experience_bucket"
+				type: "item"
+			}]
+			subtitle: "Why can't i hold all this EXP!?"
+			tasks: [{
+				id: "294020F5CE0A3ABC"
+				item: {
+					Count: 1b
+					id: "experienceobelisk:experience_obelisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B6ABAE103CD3AFD"]
+			description: [
+				"Be Careful around these Plates!"
+				""
+				"&eDark Utilities&r offers you a few &bDamaging Plates&r that can be used inside your &6Mobfarm&r"
+				""
+				""
+				"&bDamage Plate&r - Damages the Entities"
+				""
+				"&dMaim Plate&r - Reduces the Entities Max Health"
+				""
+				"&ePlayer Damage Plate&r - Damages the Entities with Player Damage"
+				""
+				"&cFlame Plate&r - Damages the Entities with Fire Damage"
+			]
+			id: "2E5EDE04FD98ED56"
+			subtitle: "Stepping up your plate"
+			tasks: [{
+				id: "7AA223A3F1669C45"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "darkutils:damage_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:damage_plate_maim"
+							}
+							{
+								Count: 1b
+								id: "darkutils:damage_plate_player"
+							}
+							{
+								Count: 1b
+								id: "darkutils:flame_plate"
+							}
+						]
+					}
+				}
+				title: "Damaging Plates"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["26CA02C35D61800B"]
+			description: [
+				"&bDreadfull Dirt&r can be used to have a &6Mobfarm&r on Steroids!"
+				""
+				"Don't let it get exposed to Sunlight, else it might burn up!"
+				""
+				"&bDreadfull Dirt&r can also be used in the &6Nether&r to get Blazes and Witherskeletons to spawn everywhere in the &6Nether&r"
+			]
+			icon: "mob_grinding_utils:dreadful_dirt"
+			id: "641EF045C705FB1B"
+			rewards: [
+				{
+					count: 16
+					id: "6E02063D75011A8A"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6272F7F82BEC61B5"
+					item: "mob_grinding_utils:solid_xp_baby"
+					type: "item"
+				}
+			]
+			subtitle: "Quite Dreaded"
+			tasks: [
+				{
+					id: "6B05CABA5FC076AC"
+					item: "mob_grinding_utils:gm_chicken_feed_cursed"
+					type: "item"
+				}
+				{
+					id: "7000E0B3D54C9C44"
+					item: "mob_grinding_utils:rotten_egg"
+					type: "item"
+				}
+			]
+			title: "Hostile Mobfarm"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1268C68B1E673E53"]
+			description: [
+				"Using this pretty &bGolden Egg&r on any vanilla &6Dirt&r type will turn it into some &bDelightful Dirt&r"
+				""
+				"This Sparkling Dirt will spawn passive mobs in a rapid rate!"
+				""
+				"You can bonemeal it to grow tall grass which will temporarily disable the mob spawning."
+			]
+			icon: "mob_grinding_utils:delightful_dirt"
+			id: "56113049826526FF"
+			rewards: [{
+				count: 64
+				id: "7F679CD51A3DA6C7"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			subtitle: "Delighted!"
+			tasks: [
+				{
+					id: "31405DBC770F380F"
+					item: "mob_grinding_utils:nutritious_chicken_feed"
+					type: "item"
+				}
+				{
+					id: "1971008DCEF214D7"
+					item: "mob_grinding_utils:golden_egg"
+					type: "item"
+				}
+			]
+			title: "Passive Mobfarm"
+			x: -6.0d
+			y: 0.5d
+		}
+		{
+			description: [
+				"Solidifying &aEXP&r with the &bXP Solidifier&r makes storing it alot easier"
+				""
+				"This will turn all your fluid &aEXP&r into small little Jellies that can be consumed"
+			]
+			id: "01E516C595D54F79"
+			rewards: [{
+				id: "6E01405D8A03EB92"
+				item: "mob_grinding_utils:solid_xp_mould_baby"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14EAE047C3E00E44"
+				item: "mob_grinding_utils:xpsolidifier"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			hide: true
+			id: "1268C68B1E673E53"
+			tasks: [{
+				id: "4E44FDBF68C60A2A"
+				item: "mob_grinding_utils:golden_egg"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			id: "26CA02C35D61800B"
+			tasks: [{
+				id: "4879210B1B19A47B"
+				item: "mob_grinding_utils:rotten_egg"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5617A9CA903D2281"]
+			id: "40042FCDD254AC39"
+			tasks: [{
+				id: "19BF1CD6E36BCCE3"
+				item: "mob_grinding_utils:xp_tap"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			hide: true
+			id: "5617A9CA903D2281"
+			tasks: [{
+				id: "5D4B10F202449233"
+				item: "mob_grinding_utils:tank_sink"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			hide: true
+			id: "3403C9F4AFEA70D4"
+			tasks: [{
+				id: "73714736922673B8"
+				item: "mob_grinding_utils:tank"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			hide: true
+			id: "5881DD8529399AFC"
+			tasks: [{
+				id: "3B5752BC01D68C79"
+				item: "cyclic:conveyor"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			hide: true
+			id: "3B6ABAE103CD3AFD"
+			tasks: [{
+				id: "3E8F6CBB5DEF853D"
+				item: "darkutils:blank_plate"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3B6ABAE103CD3AFD"]
+			id: "70819AA7ADC49239"
+			subtitle: "Giving effects"
+			tasks: [{
+				id: "53BFEA2FA277D83C"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "darkutils:slowness_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:fatigue_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:darkness_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:hunger_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:weakness_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:poison_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:wither_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:alert_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:levitation_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:slowfall_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:omen_plate"
+							}
+							{
+								Count: 1b
+								id: "darkutils:frost_plate"
+							}
+						]
+					}
+				}
+				title: "Effect Plates"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: "Mob Farming"
+}

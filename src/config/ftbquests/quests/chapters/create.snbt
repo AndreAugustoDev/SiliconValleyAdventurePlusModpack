@@ -1,14 +1,1096 @@
 {
-	always_invisible: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "create"
 	group: "0815C5D80307ECDF"
-	icon: "create:large_cogwheel"
-	id: "100C477F4E63F20A"
-	order_index: 3
-	quest_links: [ ]
+	icon: "create:mechanical_arm"
+	id: "5811BFDF9E484981"
+	order_index: 2
+	quest_links: [
+		{
+			id: "215BC2D8DA082C5B"
+			linked_quest: "4451057D4BA76C2C"
+			x: -3.0d
+			y: 11.5d
+		}
+		{
+			id: "72707FA8EDDCADE9"
+			linked_quest: "703631B507075DC1"
+			x: 2.5d
+			y: 5.0d
+		}
+	]
 	quests: [
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: ["The &aWrench&r can be used to &6configure&r &9Create's&r &6machines&r."]
+			id: "511DD53713406575"
+			rewards: [{
+				id: "6DD793EEBBED087C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Why does every mod have a wrench?"
+			tasks: [{
+				id: "75A99982ED1EA91D"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: [
+				"These two are interchangable once you craft the other."
+				"&o&eThat's a good way to cheat this quest actually. Why did I tell you that?&r"
+				""
+				"The &aSpeedometer&r will show you the speed of the currently connected gear."
+				""
+				"The &aStressometer&r will show you how stressed the system is when you connect it."
+			]
+			id: "624B52BE855CF703"
+			rewards: [
+				{
+					count: 8
+					id: "3C92A0C3F95854DC"
+					item: "create:builders_tea"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63AD7FD405944249"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
+							Type: "COMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "How Fast? How Stressed?"
+			tasks: [
+				{
+					id: "6274F7DCF4A79756"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "2B91B823C4B0491B"
+					item: "create:stressometer"
+					type: "item"
+				}
+			]
+			title: "Measuring Tools"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: ["Crafting &bBlueprints &rcan be used to craft a &bTemplate &ryou placed on the blueprint without placing the items on the crafting Menu. Convenient while you still don't have an ME system."]
+			id: "2AFA49C5659C94F8"
+			rewards: [
+				{
+					id: "23286979E10F6999"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1DDC4E3B445257FF"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
+							Type: "COMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "It's not the endgame autocrafting, but it's close enough"
+			tasks: [{
+				id: "418FE5A825CCB147"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"01259B270DA05B25"
+				"48EA6D9923E38B71"
+			]
+			id: "527B53BB9C9A0D1C"
+			rewards: [{
+				id: "2D9024597762EC72"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Programmable Gearshift"
+			tasks: [{
+				id: "3A6BB402FC70037F"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["67CE448FA832692A"]
+			description: [
+				"It is not always practical to chain hundreds of cogs to achieve the exact right speed. Enter, the Rotation Speed Controller. Place a Large Cogwheel in the top slot and power it. "
+				""
+				"The Controller will automatically adjust to any RPM on its two output shafts. Set the speed with the scroll-wheel. "
+			]
+			id: "18A589CC0F81F038"
+			rewards: [{
+				count: 4
+				id: "69E4AC1C529FDB32"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			subtitle: "The fast and the furious"
+			tasks: [{
+				id: "39125E2551F0473A"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			description: [
+				"When two &aCrushing Wheels&r rotate into each other, they &6crush what passes through&r."
+				""
+				"&aCrushing Wheels&r are the big brother to the &aMillstone&r used until now."
+				""
+				"In general, they do a better job, producing more per input than the &aMillstone&r would."
+				""
+				"Their harder surface is also capable of dealing with materials that the &aMillstone&r cannot."
+				""
+				"Setting up a pair of &aCrushing Wheels&r will require a little bit of clever thinking as both wheels &emust be rotated in opposite directions&r with the tops rotating inwards towards the point where the two wheels meet."
+				""
+				"&6Place the wheels&r with a &esingle block gap&r between them."
+				"Items may be either &edropped in the top&r or &einserted in a more controlled manner&r by funneling them into the ‘block’ space where the two wheels meet."
+				""
+				"&aCrushing Wheels&r may also be &eplaced horizontally&r, allowing them to interface nicely with a &aBelt&r system."
+			]
+			id: "591563982414C96D"
+			min_width: 300
+			rewards: [
+				{
+					count: 16
+					id: "08DEE5CA24BB5C4D"
+					item: "minecraft:copper_ore"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "36A4FF7A76D0CBD4"
+					item: "create:zinc_ore"
+					type: "item"
+				}
+				{
+					id: "7470D6BDB2DD769A"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Told ya, you need 21."
+			tasks: [{
+				count: 2L
+				id: "0F1616D9FFA85EDD"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000000000000D00"]
+			id: "67CE448FA832692A"
+			rewards: [{
+				id: "59E64FFE6EFE09C2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "357E032E895E7510"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			id: "03A9D8346C52AA2C"
+			rewards: [
+				{
+					count: 32
+					id: "00A8373D4D35C0B8"
+					item: "minecraft:poisonous_potato"
+					type: "item"
+				}
+				{
+					id: "3901D5A420576077"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/epic"
+							Name: "Create Epic Lootbag"
+							Type: "EPIC"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "When you have too many crops"
+			tasks: [{
+				id: "171641F6600EC441"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["6ABAB2A5689F2695"]
+			id: "2985444DE5ABB5A5"
+			rewards: [{
+				id: "575B52C987AC7222"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A bethesda staple"
+			tasks: [{
+				id: "494AEF60DD62281A"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6ABAB2A5689F2695"]
+			id: "654DC5DBC9201FBE"
+			rewards: [{
+				id: "167AE13096FAE1D7"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "378CBD18668E1B73"
+				item: "create:chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6ABAB2A5689F2695"]
+			id: "570CA3CD0D896230"
+			rewards: [{
+				id: "57E821B12459BBDB"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1CF55C47026EF25D"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6ABAB2A5689F2695"]
+			description: [
+				"Stayed out too late par-tea-ing like it's 1773? Need a little more tranquili-tea in your life?"
+				""
+				"Try some &aBuilder's Tea&r! It doesn't take too long to prepare."
+			]
+			id: "37330BDC53451D14"
+			rewards: [{
+				id: "0403C09973EF08E3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "It's tea time"
+			tasks: [{
+				id: "735486F36BD795C3"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"6ABAB2A5689F2695"
+				"3162D0E1ACEE2D5D"
+			]
+			description: [
+				"What do you mean that’s not hot enough? Well, let them eat cake!"
+				""
+				"When a recipe calls for Super-Heating, a &aBlaze Cake&r is in order to fuel the &aBlaze Burner&r. "
+			]
+			id: "6AF4AB0374F397E6"
+			rewards: [{
+				count: 4
+				id: "3BF86A5870083B68"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			subtitle: "Not for human consumption"
+			tasks: [{
+				id: "7AD9FA6044222875"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"389DABF1432A747D"
+				"5A52C168F41833E2"
+				"13F0C7468498A718"
+			]
+			id: "0EF98BA0F698951A"
+			rewards: [{
+				id: "6F580D1F490D2212"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Come with me and you'll be in a world of pure imagination"
+			tasks: [{
+				id: "1AF838CDD9E9B36C"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			description: [
+				"The &aWand of Symmetry&r will place down a mirror wherever you &6R-Click&r it."
+				"&eEverything you place&r on one side of the mirror, will be copied to the other side."
+				""
+				"You can also &6Shift + R-Click&r to access some settings."
+			]
+			id: "333A5294EA4F4944"
+			rewards: [{
+				id: "439BBCD76A257219"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "A builder's favorite"
+			tasks: [{
+				id: "4CF962AB7943C158"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			id: "05E920CF3BD43FC6"
+			rewards: [{
+				id: "6F0CA1CB40339EA2"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/epic"
+						Name: "Create Epic Lootbag"
+						Type: "EPIC"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Also try Terraria!"
+			tasks: [{
+				id: "6886E9FB38FC363D"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["01259B270DA05B25"]
+			id: "371D645B149A2E36"
+			rewards: [
+				{
+					id: "681CDBE5E160CC80"
+					item: "minecraft:name_tag"
+					type: "item"
+				}
+				{
+					id: "1EAD846295A6E758"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/common"
+							Name: "Create Common Lootbag"
+							Type: "COMMON"
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "711D6F812404ECB8"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			dependency_requirement: "one_completed"
+			id: "324A32F85A95B658"
+			rewards: [{
+				id: "6B196118BBDDB8FA"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Wheat Seeds away"
+			tasks: [
+				{
+					id: "100B2DCB7CD6C455"
+					item: {
+						Count: 1b
+						id: "create:filter"
+						tag: {
+							Items: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "298A23CB6BCE3275"
+					item: {
+						Count: 1b
+						id: "create:attribute_filter"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			id: "5E17BD671E9BEB5B"
+			rewards: [{
+				id: "3CE19B99F7E1F288"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7BA850D5A017F5A8"
+					item: "create:powered_latch"
+					type: "item"
+				}
+				{
+					id: "07AD7FEB87BF41DF"
+					item: "create:powered_toggle_latch"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0A350142075F5FC8"]
+			id: "4070B38A98387DA1"
+			rewards: [{
+				id: "317E449D09B0A531"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "258E4C69FC71067C"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4070B38A98387DA1"]
+			id: "1CA398C195517551"
+			rewards: [{
+				id: "6A0F8621A189759C"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "37D4B6FC20747FAB"
+					item: "create:pulse_repeater"
+					type: "item"
+				}
+				{
+					id: "789C7A82603F8DF1"
+					item: "create:pulse_extender"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5E17BD671E9BEB5B"]
+			id: "0A350142075F5FC8"
+			rewards: [{
+				count: 2
+				id: "58831C4873F7A42E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0F7B5D23E83C4C8C"
+				item: "create:analog_lever"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AFA49C5659C94F8"]
+			description: ["> You can use items from a nearby placed toolbox without opening it."]
+			id: "3F89A5E9BF484A60"
+			rewards: [{
+				count: 2
+				id: "2F024B9278C814CF"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "The poor man's shulker box"
+			tasks: [{
+				id: "7ECE7137CB80BB36"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:toolboxes"
+					}
+				}
+				title: "Any #create:toolboxes"
+				type: "item"
+			}]
+			title: "Toolboxes"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			id: "4482160B14C40777"
+			rewards: [{
+				count: 2
+				id: "475CB6BBE2254CCC"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Voyage au centre de la Terre"
+			tasks: [
+				{
+					id: "2721582C052343E1"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FD576D1B9442B12"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "314976D5CD5B3ADD"
+					item: {
+						Count: 1b
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48EA6D9923E38B71"]
+			id: "22ABB41C70D74A5F"
+			rewards: [{
+				id: "1C786904BBBB6F0E"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/common"
+						Name: "Create Common Lootbag"
+						Type: "COMMON"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "641F6E4CED6FB5DC"
+				item: "create:display_link"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"22ABB41C70D74A5F"
+				"01259B270DA05B25"
+			]
+			description: ["> Create Planes next update?"]
+			id: "7BF18D6D44DBCED6"
+			rewards: [{
+				id: "63A7DD6EFB600BC3"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "This looks like the Flight information display system"
+			tasks: [{
+				id: "4F13246919A2B6DF"
+				item: "create:display_board"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1CA398C195517551"]
+			id: "58D023C7F2AD421C"
+			rewards: [{
+				id: "53D16E2241F0BD54"
+				item: {
+					Count: 1b
+					id: "lootbags:loot_bag"
+					tag: {
+						Color: 15576960
+						Loot: "aof:loot_bags/create/rare"
+						Name: "Create Rare Lootbag"
+						Type: "RARE"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "1DB3FA8EA2E95BEE"
+					item: "create:stockpile_switch"
+					type: "item"
+				}
+				{
+					id: "7E118B6DEA380E1F"
+					item: "create:content_observer"
+					type: "item"
+				}
+				{
+					id: "1CD731F9EDD2C4A6"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"02BA0ACF4FB7DD33"
+				"1DA6B8B2DCC97809"
+			]
+			id: "551F3ACEE626830A"
+			rewards: [
+				{
+					count: 64
+					id: "02B4529C59249460"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "171ACD486F3F96C0"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 15576960
+							Loot: "aof:loot_bags/create/rare"
+							Name: "Create Rare Lootbag"
+							Type: "RARE"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "This is why the creeper blew up your chests"
+			tasks: [{
+				id: "43168C6D8B02F900"
+				item: "create:haunted_bell"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"0000000000000D00"
+				"0000000000000D04"
+				"654DC5DBC9201FBE"
+				"775B58963B64B0A5"
+				"0000000000000D0F"
+				"0000000000000D13"
+				"6F230D05DB07F932"
+				"0000000000000D15"
+				"6ABAB2A5689F2695"
+				"0000000000000D17"
+				"37476D4C70355E26"
+				"0E1A7B31FEA9E19E"
+				"511DD53713406575"
+				"3F343F3851C92BEC"
+				"4194397DFD0199C2"
+				"0000000000000D2B"
+				"1D8493F8CE66912A"
+				"3162D0E1ACEE2D5D"
+				"0000000000000D33"
+				"05E920CF3BD43FC6"
+				"13F0C7468498A718"
+				"4482160B14C40777"
+				"389DABF1432A747D"
+				"45CBD91076EAD50D"
+				"22ABB41C70D74A5F"
+				"0000000000000C40"
+				"0000000000000D42"
+				"703631B507075DC1"
+				"527B53BB9C9A0D1C"
+				"769B30912D04DB49"
+				"3F89A5E9BF484A60"
+				"0000000000000D49"
+				"5A581A8DF6CCC352"
+				"06857A2765D59D23"
+				"67CE448FA832692A"
+				"6A689A7721191B5F"
+				"2AFA49C5659C94F8"
+				"1CA398C195517551"
+				"4070B38A98387DA1"
+				"41BB8D61C4A3521A"
+				"0FED7EE802D73DB1"
+				"3542632905883686"
+				"7460212212607C47"
+				"286B9D8843E3B768"
+				"558794D1FBA2EB9D"
+				"11AA1D5728BA4A36"
+				"66163D5A64ACFD94"
+				"362BFE408C26C338"
+				"570CA3CD0D896230"
+				"5B54E008C558007F"
+				"6DD54ABB7D00AB13"
+				"324A32F85A95B658"
+				"01259B270DA05B25"
+				"495B0CC178B4CFA9"
+				"1005B330D85C2CF9"
+				"7BF18D6D44DBCED6"
+				"62D9A1A16024C3CD"
+				"4D2B0565E58E6B54"
+				"00B7541DE352DE63"
+				"60003C690223FFD1"
+				"3CF841CC60F2625A"
+				"01A1760361968E94"
+				"721DC5457B0783FE"
+				"333A5294EA4F4944"
+				"5E288F7C8A292ED8"
+				"58D023C7F2AD421C"
+				"0FEC8B6C5EBF0D99"
+				"4451057D4BA76C2C"
+				"624B52BE855CF703"
+				"5E17BD671E9BEB5B"
+				"78656C89EEE80DB5"
+				"3F2C1A81C17D2D67"
+				"0000000000000CBA"
+				"69CEBD422EEF3ED9"
+				"467D1EB30C521A20"
+				"0000000000000CBD"
+				"37330BDC53451D14"
+				"5A52C168F41833E2"
+				"4489511C5ED1C785"
+				"2985444DE5ABB5A5"
+				"4316ED497808CD9D"
+				"0C00D5B177ACD0D6"
+				"0000000000000CCE"
+				"18A589CC0F81F038"
+				"0000000000000CD0"
+				"1DA6B8B2DCC97809"
+				"0000000000000CD6"
+				"07E46080771947A5"
+				"0EF98BA0F698951A"
+				"23207B5FED4E67EA"
+				"28D17B54F4DE4D86"
+				"0A350142075F5FC8"
+				"7021CE8F299413DB"
+				"48EA6D9923E38B71"
+				"6AF4AB0374F397E6"
+				"03A9D8346C52AA2C"
+				"371D645B149A2E36"
+				"3B097B6DD670A5FA"
+				"02BA0ACF4FB7DD33"
+				"591563982414C96D"
+				"1399353353A576FA"
+				"6305EF196599FC7C"
+				"072824227DABE858"
+				"0000000000000CFC"
+				"551F3ACEE626830A"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "trofers:medium_pillar"
+				tag: {
+					BlockEntityTag: {
+						Trophy: "trofers:create"
+					}
+				}
+			}
+			id: "1D2457909D7F8C17"
+			rewards: [{
+				id: "264E15A6379D9F97"
+				item: {
+					Count: 1b
+					id: "trofers:medium_pillar"
+					tag: {
+						BlockEntityTag: {
+							Trophy: "trofers:create"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 4.0d
+			subtitle: "Complete all quests to obtain the trophy!"
+			tasks: [{
+				id: "1D99A86B5CA32704"
+				title: "&6Create 100%"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
 		{
 			description: [
 				"&5&lWelcome To Create!"
@@ -16,497 +1098,1902 @@
 				"Create is an immersive tech mod, bringing realism into Minecraft on a whole new level!"
 				""
 				"If you have doubts about any blocks or items, hold W to ponder and see an amazing 3D in-game wiki!"
+				""
+				"At its core, Create follows the same primary purpose as Vanilla Redstone: Give the player items to enable fanciful creations. "
+				""
+				"What sort of creations, you ask? Well, just about anything. Make rideable trains, tunnel bores, massive functional windmills, or even a working Rubik’s Cube!"
+				""
+				"Your imagination is the limit. "
+				""
+				"Naturally, with so much ground to cover, these quests will not be exhaustive. Instead, the goal will be to introduce basic concepts of Create to give you a solid footing to begin experimenting on your own. "
 			]
-			id: "57A7A5C79389A96A"
+			icon: "create:wrench"
+			id: "0000000000000C40"
+			min_width: 250
+			shape: "gear"
+			size: 2.0d
+			subtitle: "The Sky Isn't The Limit "
+			tasks: [{
+				id: "677F54EC5742470A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:raw_materials/zinc"
+					}
+				}
+				title: "Any #forge:raw_materials/zinc"
+				type: "item"
+			}]
+			title: "Create"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: [
+				"As with many systems, power is required. For Create, this generally means making something spin. There are, of course, multiple ways to do this, but let’s go over some basics briefly. "
+				""
+				"First, there are Generators and Consumers. Naturally, Generators will make things spin, while Consumers operate with the Rotation provided. But not all Generators and Consumers are equal. "
+				""
+				"Each Generator is capable of outputting a given number of Stress Units which are divided up among all connected Consumers. If the consumers need more SU than is being output, then the entire system will grind to a halt. "
+				""
+				"The faster a Consumer is operating, the higher its impact and the more SU it uses. "
+				""
+				"To get an idea of how many SU are being generated or consumed, wear a pair of Engineer’s Goggles while looking at a block. "
+				""
+				"As a final note, while Create has no in game guidebook, it does have a Ponder system which shows how everything works through short in game animated sequences. Hover over most items and press the Ponder key shown in the tooltip to view them.  "
+			]
+			hide_dependency_lines: false
+			icon: "create:goggles"
+			id: "0000000000000CBA"
+			min_width: 300
+			rewards: [{
+				id: "117AC6761461C097"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
-			size: 1.5d
+			subtitle: "Some Assembly Required"
 			tasks: [{
-				icon: "create:wrench"
-				id: "695A0E0BC4B78AEC"
-				title: "Create"
-				type: "checkmark"
-			}]
-			x: -10.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["57A7A5C79389A96A"]
-			description: ["This will be the main ingredient for most of this mod's items and blocks."]
-			id: "0F16498769DFB3B0"
-			rewards: [{
-				count: 32
-				id: "50217BC8953EBD3E"
-				item: "minecraft:andesite"
-				type: "item"
-			}]
-			tasks: [{
-				count: 32L
-				id: "5D2B9139C49F5ABA"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["&n&5Shafts&r transfer rotational power without changing the speed of the gears."]
-			id: "5B36DE3826F26963"
-			tasks: [{
-				count: 16L
-				id: "2F89C6C2CD322B51"
-				item: "create:shaft"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: [
-				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
-				""
-				"Doubling speed will also double the stress in the system."
-			]
-			id: "3E5E0C768038CDF4"
-			rewards: [{
-				count: 8
-				id: "76537C95327D603D"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "68F2BD699AADA753"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -5.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: [
-				"The &n&5Cogwheel&r transfers rotational power but also doubles or halves speed."
-				""
-				"Doubling speed will also double the stress in the system."
-			]
-			id: "23A9617F183C4EB1"
-			rewards: [{
-				count: 8
-				id: "01DCE2A5A57DAEC5"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			tasks: [{
-				count: 8L
-				id: "3E2A4428BDE92738"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["23A9617F183C4EB1"]
-			description: [
-				"The &n&5Waterwheel&r is one of the most basic ways of generating rotational force. You can hook up multiple wheels by placing them next to each other."
-				""
-				"The speed it's rotating at is measured by how many flowing water blocks are touching the wheel."
-			]
-			id: "1AC0B7934F275EDE"
-			rewards: [{
-				id: "5118928E884676B3"
-				item: "create:water_wheel"
-				type: "item"
-			}]
-			tasks: [{
-				count: 3L
-				id: "35709DE2871F0CED"
-				item: "create:water_wheel"
-				type: "item"
-			}]
-			x: -10.5d
-			y: -7.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Encased Fan&r is used to pull/push items and entities if you spin it. The arrow will show you the direction it's facing and the rotation direction will determine if it pushes or pulls."]
-			id: "1E9B2D814F50A265"
-			tasks: [{
-				id: "1A4B96C7C821174E"
-				item: "create:encased_fan"
-				type: "item"
-			}]
-			x: -3.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Gearbox&r can rotate the direction of the rotation in any direction by 90 degrees."]
-			id: "4285510271B5223D"
-			tasks: [{
-				id: "1840DB80F48921E2"
-				item: "create:gearbox"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Clutch&r will stop any rotation if a redstone signal is applied."]
-			id: "2BB3DB19D5EFC7E2"
-			tasks: [{
-				id: "54F14BE619292D1D"
-				item: "create:clutch"
-				type: "item"
-			}]
-			x: -4.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Gearshift&r will reverse the direction of rotation if a redstone signal is applied."]
-			id: "67A46ED73E488CEE"
-			tasks: [{
-				id: "0CE491535E6FA50B"
-				item: "create:gearshift"
-				type: "item"
-			}]
-			x: -5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
-			id: "7F8E50FA436DB4E6"
-			tasks: [{
-				id: "1674E46511507301"
-				item: "create:encased_chain_drive"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 5.5d
-		}
-		{
-			dependencies: ["7F8E50FA436DB4E6"]
-			description: [
-				"The &n&5Adjustable Chain Drive&r works similar to the normal Chain Drive when it has no redstone signal."
-				""
-				"When you apply a redstone signal and it is the block receiving the rotational force, it will double the speed for the connected Chain Drives."
-				""
-				"When you apply a redstone signal and it is not the block receiving the rotational force, it will half the speed for the connected Chain Drives."
-			]
-			id: "54EC1C7FC1DA9107"
-			tasks: [{
-				id: "115F81D0A661F71F"
-				item: "create:adjustable_chain_gearshift"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Press&r can be used to create metal plates or blocks."]
-			id: "2D41B04C75FA02BC"
-			tasks: [{
-				id: "52136CB29F02E923"
-				item: "create:mechanical_press"
-				type: "item"
-			}]
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["2D41B04C75FA02BC"]
-			description: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
-			id: "5DC892BA79EB52EC"
-			tasks: [{
-				id: "057EDA1FF37AE35E"
-				item: "create:mechanical_mixer"
+				id: "7BC4BA5631C46DB8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 1b
+								id: "create:brass_casing"
+							}
+							{
+								Count: 1b
+								id: "create:copper_casing"
+							}
+						]
+					}
+				}
+				title: "Getting Started: Rotational Power"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["The &n&5Basin&r is used for recipes, mainly including the &n&5Mechanical Press&r and the &n&5Mechanical Mixer&r."]
-			id: "75CBB5BD8C1DFEA1"
-			tasks: [{
-				id: "56DBF4356117F26A"
-				item: "create:basin"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2D41B04C75FA02BC"]
+			dependencies: ["0000000000000D33"]
 			description: [
-				"To get the &n&5Blaze Burner&r, you need to make an Empty Blaze Burner and R-Click it on a Blaze."
+				"While the &awater wheel&r is useful, you need &9water&r to move it. What if you're in the &cNether&r? Use &cLava&r? Actualy I haven't checked that- &o&eWhat do you mean &cMagma Wheel &eadvancement?&r"
 				""
-				"This is used under a Basin to heat it or super-heat it for different recipes."
+				"What I mean is that you can use &bwindmills&r instead!"
+				""
+				"&bWindmill's&r rotational force increases the more &asails&r you attach, but you must start with 8."
+				""
+				"Yes, you &6can attach&r 8 &asails&r to just one side. But that looks ugly."
+				""
+				"Combine with &aRadial Chassis&r to create a very powerful &bwindmill&r that has &6high stress capacity&r."
+				""
+				"Perhaps the first multi part contraption to be made is the &bWindmill&r. This is a &6High SU&r generator capable of operating at high &6RPMs&r. Generating more &6SU&r and &6higher speed&r is merely a function of adding more &aSails&r or &aWool Blocks&r to the structure."
+				"{@pagebreak}"
+				"Where to begin? Place down the &aWindmill Bearing&r. The sticky looking green side is where the rest of the structure will be built. Power will come out the opposite end. Note that they may be built in any orientation."
+				""
+				"Next, attach the &aRadial Chassis&r to the sticky side of the bearing. The &aRadial Chassis&r here acts as the axle for the windmill and the blades will extend from it. "
+				"The &bChassis&r can be made sticky by &6Right-Clicking&r with a &aSlime Ball&r (does not consume the slime) and most &bany decorative block&r may be attached out to the connection limit of the &bWindmill&r. "
+				""
+				"To view the current connective radius of the &bChassis&r, hold your &awrench&r and look at the &bchassis&r. The highlighted blocks will be part of the structure. The radius may be adjusted with your &6scroll-wheel&r."
+				""
+				"Note that glue is only needed for connecting blocks that aren't captured by a &bChassis&r, for instance if blocks extend in front of the wind mill. &aGlue&r is not needed at all if &asails&r are attached directly to the &bChassis&r, but then, where’s the fun of that? &eMake it Pretty!&r "
 			]
-			id: "1B182A30604655E2"
-			tasks: [{
-				id: "50FED4EED98A8648"
-				item: "create:blaze_burner"
+			icon: "create:white_sail"
+			id: "0000000000000CBD"
+			min_width: 300
+			rewards: [{
+				id: "0000000000000CC0"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Super Glue"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Mechanical Piston&r is similar to the Piston, it can push blocks, but you can add as many Extension Poles as you wish."]
-			id: "45EC31812FB9934D"
-			tasks: [{
-				id: "7C7AF9238D06CB36"
-				item: "create:mechanical_piston"
-				type: "item"
-			}]
-			x: -7.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["The Speedometer will show you the speed of the currently connected gear."]
-			id: "29917E6196649F5D"
-			tasks: [{
-				id: "6A5BBAA13F1730F2"
-				item: "create:speedometer"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["4F95F00ED78FBAB9"]
-			description: ["The Stressometer will show you how stressed the system is when you connect it."]
-			id: "48BE7DAC5082044D"
-			tasks: [{
-				id: "10CB6FCDDD3E38D4"
-				item: "create:stressometer"
-				type: "item"
-			}]
-			x: -10.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: [
-				"The &n&5Cart Assembler&r can be placed on tracks. Anything you build on top of it will be picked up by a Minecart if the Assembler has a redstone signal."
-				""
-				"The blocks must be glued together and any blocks requiring rotational force will automatically be working."
-				""
-				"To \"unmount\" the blocks from the Minecart, simply turn off the redstone signal and let the Minecart ride through."
+			subtitle: "Batteries Not Included"
+			tasks: [
+				{
+					id: "0000000000000CBE"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "0000000000000CBF"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					count: 32L
+					icon: "create:white_sail"
+					id: "0000000000000CC1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:white_sail"
+								}
+								{
+									Count: 1b
+									id: "create:sail_frame"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "forge:wool"
+									}
+								}
+							]
+						}
+					}
+					title: "Sails"
+					type: "item"
+				}
 			]
-			id: "09936F8FCEA72C5C"
-			tasks: [{
-				id: "15BA4109324B4A44"
-				item: "create:cart_assembler"
-				type: "item"
-			}]
-			x: -13.0d
-			y: -3.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["The &n&5Linear Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line without the need for glue."]
-			id: "51EA6B1452883AB2"
-			tasks: [{
-				id: "4A80AC1DE4002191"
-				item: "create:linear_chassis"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["The &n&5Radial Chassis&r can be used similar to the &n&5Super Glue&r. It will connect blocks in a line, on the sides, without the need for glue."]
-			id: "459BA85E48B343AE"
-			tasks: [{
-				id: "3598B8EDD5834F92"
-				item: "create:radial_chassis"
-				type: "item"
-			}]
-			x: -11.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["Combine with &n&5Radial Chassis&r to create a very powerful windmill that has high stress capacity."]
-			id: "76CBFA38D021AC95"
-			tasks: [{
-				id: "3652E21F6AD6D33F"
-				item: "create:white_sail"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Drill&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."]
-			id: "3029E1E133B91ED8"
-			tasks: [{
-				id: "072131C19C185896"
-				item: "create:mechanical_drill"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Saw&r will harvest trees in front of it. It can also be used as a Sawmill. If it has a connected inventory, the items will be stored in it."]
-			id: "72DCE154E1714890"
-			tasks: [{
-				id: "36C1D75275CE2AAB"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			x: -8.0d
+			title: "Windmill"
+			x: 2.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Deployer&r can be used to either place items/blocks or to use items like Swords."]
-			id: "3314FBC4FEAE1D08"
-			tasks: [{
-				id: "79D2F12337D1F637"
-				item: "create:deployer"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Harvester&r will harvest any crops it goes over. If it has a connected inventory, the items will be stored in it."]
-			id: "4C31649D721F76B5"
-			tasks: [{
-				id: "1357FF84B9B133C4"
-				item: "create:mechanical_harvester"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Plough&r will destroy any non-solid block, turn dirt into farmland and launch entities without doing damage. If it has a connected inventory, the items will be stored in it."]
-			id: "0759CA52EECF3B49"
-			tasks: [{
-				id: "7B9B459AAB9F6483"
-				item: "create:mechanical_plough"
-				type: "item"
-			}]
-			x: -8.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["57A7A5C79389A96A"]
-			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
-			id: "17885C2DE986F1BD"
-			tasks: [{
-				id: "0341E5F9B7361D1F"
-				item: "create:andesite_casing"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 0.5d
-		}
-		{
-			dependencies: ["2D41B04C75FA02BC"]
-			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
-			id: "3F663416E824720C"
-			tasks: [{
-				id: "7FE62F264B4FA5DE"
-				item: "create:copper_casing"
-				type: "item"
-			}]
-			x: 0.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["The &n&5Funnel&r can import or export items from connected inventories."]
-			id: "47A6769B6BF1A46D"
-			tasks: [{
-				id: "5CB1191F8F7BBAA4"
-				item: "create:andesite_funnel"
-				type: "item"
-			}]
-			x: -8.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["0F16498769DFB3B0"]
-			description: ["The &n&5Tunnels&r can be placed on belts and they will filter items that pass through them. You can link multiple tunnels by placing them next to each other."]
-			id: "7C8CDD259495A31A"
-			tasks: [{
-				id: "07162DA2FD7B0E05"
-				item: "create:andesite_tunnel"
-				type: "item"
-			}]
-			x: -12.5d
-			y: -2.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Depot&r is used to store items, mainly for the Spout."]
-			id: "7F0D59EC1573FDC0"
-			tasks: [{
-				id: "7EFB9500BBDD745C"
-				item: "create:depot"
-				type: "item"
-			}]
-			x: -5.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["2D41B04C75FA02BC"]
-			description: ["The &n&5Chute&r is used to insert/extract from inventories, or to place/take items from a belt."]
-			id: "3D2A03EB2B91E9C1"
-			tasks: [{
-				id: "105F8859D59964C4"
-				item: "create:chute"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["57A7A5C79389A96A"]
+			dependencies: ["0000000000000C40"]
 			description: [
-				"These goggles will allow you to see your contrations in more detail."
+				"Tired of unsightly holes in your base? Shivering from drafty shaft seals? Look no further. "
 				""
-				"It will show things as rotation speed and stress."
+				"Right-Click a Casing onto a Shaft or Cog to cover it. Perfect for those times when the shaft is passing through walls or floors. "
+				""
+				"Covering a Cog will also prevent its shaft from connecting to any adjacent blocks unless wrenched. Existing connections are not disabled when a Casing is applied."
+				""
+				"They also look great under Mechanical Belts."
 			]
-			id: "4F95F00ED78FBAB9"
+			hide_dependency_lines: false
+			id: "0000000000000CCE"
+			subtitle: "That's Below the Belt"
 			tasks: [{
-				id: "6989058FD488CE64"
-				item: "create:goggles"
+				count: 4L
+				id: "0000000000000CCF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:brass_casing"
+							}
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+						]
+					}
+				}
 				type: "item"
 			}]
-			x: -10.5d
+			title: "Casings"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: [
+				"That’s a long run of shaft you’ve got there. Seems a little unsupported, no?"
+				""
+				"Brackets may be attached to Shafts or Cogs and are entirely decorative. They sure do make things look nicer though!"
+			]
+			hide_dependency_lines: false
+			id: "0000000000000CD0"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000D77"
+				player_command: false
+				title: "Rare Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Brace Yourselves"
+			tasks: [
+				{
+					count: 4L
+					id: "0000000000000CD1"
+					item: "create:wooden_bracket"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6AD42D0ECD0BDBD8"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+			]
+			title: "Brackets"
+			x: -1.5d
 			y: 2.5d
 		}
 		{
-			dependencies: ["57A7A5C79389A96A"]
+			dependencies: ["1005B330D85C2CF9"]
+			description: [
+				"Just because our windmill is running a little slowly doesn’t mean everything else needs to. The rotational speed of a system can be stepped up (or down) by way of simple gear ratios. "
+				""
+				"For instance, assume your power is turning a small cogwheel. Connecting the teeth to a large cogwheel’s teeth will result in the shaft of the larger cogwheel rotating at half the speed of the drive shaft."
+				""
+				"Similarly, a large cogwheel that is interlocked with the teeth of a small cogwheel will cause that cogwheel’s shaft to rotate at twice the speed. "
+				""
+				"These effects may be chained but bear in mind that the faster the consumers in this system run, the higher the SU cost. "
+				""
+				"Additionally, two large cogwheels can be interlocked perpendicularly to allow a shaft to change directions. Useful for going around corners or bringing power down from high above."
+			]
+			id: "0000000000000CD6"
+			min_width: 250
+			rewards: [
+				{
+					count: 2
+					id: "6FFA650B903A5E9E"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "29D7503B0A8F0679"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "Do you know how to gear up and gear down?"
+			tasks: [
+				{
+					count: 4L
+					id: "0000000000000CD7"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "48C68E5C0B154689"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheels"
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"&bMillstones&r have been used for ages, representing some of our oldest technology still in use."
+				""
+				"They’re far more efficient than grinding things by hand."
+				""
+				"&9Create’s&r &aMillstone&r is an excellent early way to stretch materials a little further. "
+			]
+			hide_dependency_lines: false
+			id: "0000000000000CFC"
+			rewards: [
+				{
+					id: "31847B7455EB814F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "665B333CBC79AD29"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			subtitle: "You Know What Really Grinds My Gears?"
+			tasks: [{
+				id: "0000000000000CFD"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["01259B270DA05B25"]
+			description: [
+				"Useful for both &6Crafting&r and other &6Automation pursuits&r, the &aDeployer&r will find it’s way into many creations."
+				""
+				"An item may be inserted into the &aDeployer&r by &aBelt&r, &aFunnel&r, &aHopper&r, or most any other item transport method."
+				""
+				"When powered, it will continuously attempt to &6Right-Click&r the held item on any entity in front of it, be it item or mob. "
+				""
+				"&6Right-Clicking&r the hand with a &aWrench&r will switch the &aDeployer&r into &6Left-Click&r mode, allowing it to attack mobs with a weapon, or otherwise interact with things that need to be &6Left-Clicked&r."
+			]
+			hide_dependency_lines: false
+			icon: "create:brass_hand"
+			id: "0000000000000D00"
+			rewards: [{
+				id: "3F0D133E619F4259"
+				item: {
+					Count: 1b
+					id: "create:sand_paper"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Getting Down to Brass Tacks"
+			tasks: [{
+				id: "0000000000000D01"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: ["With some basic power and logistics under our belts, it’s time we get our hands dirty and get down to business. Create offers several new crafting mechanics that are important to understand to work with the mod. "]
+			hide_dependency_lines: false
+			icon: "create:whisk"
+			id: "0000000000000D04"
+			rewards: [{
+				id: "35A74335D76A34ED"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "Just a Little Something I Whipped Up"
+			tasks: [{
+				id: "74699E3BBDD7CF8B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 1b
+								id: "create:brass_casing"
+							}
+							{
+								Count: 1b
+								id: "create:copper_casing"
+							}
+						]
+					}
+				}
+				title: "Getting Started: Material Processing"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4489511C5ED1C785"]
+			description: [
+				"Just as moving items isn’t free, so to does it require some rotational force to pump and work with fluids."
+				""
+				"The Mechanical Pump accepts power from a cog, pressurizing a section of pipe to cause fluid to flow in one direction or the other, depending on the direction of rotation. "
+				""
+				"The block has a handy little directional indicator to help visualize the flow. A single pump can pressurize a large section of pipe, so be sure to spread them out. "
+			]
+			icon: "create:mechanical_pump"
+			id: "0000000000000D0F"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/rare"
+				icon: "kubejs:rare_lootbox"
+				id: "0000000000000D84"
+				player_command: false
+				title: "Rare Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Archimedean Screw"
+			tasks: [
+				{
+					id: "0000000000000D10"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "4AA6E10AD83F435A"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4489511C5ED1C785"]
+			description: ["Fluid valves may be opened and closed by applying some rotational force, for example with a Valve Handle. "]
+			icon: "create:fluid_valve"
+			id: "0000000000000D13"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000D86"
+				player_command: false
+				title: "Epic Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Shut The Front Door"
+			tasks: [
+				{
+					id: "0000000000000D14"
+					item: "create:fluid_valve"
+					type: "item"
+				}
+				{
+					id: "0000000000000D19"
+					item: "create:copper_valve_handle"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4489511C5ED1C785"
+				"1DA6B8B2DCC97809"
+			]
+			description: ["Doing the impossible is just another Tuesday in modded. Smart Fluid Pipes act as a fluid filter, either controlling what is allowed to be pulled from a connected tank, or what is allowed to continue down the line. "]
+			id: "0000000000000D15"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
+				icon: "kubejs:legendary_lootbox"
+				id: "0000000000000D5A"
+				player_command: false
+				title: "Legendary Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Reverse Osmosis Filter"
+			tasks: [{
+				id: "0000000000000D16"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4316ED497808CD9D"]
+			description: [
+				"Fluid Tanks are a thematic multi-block tank for all your fluid storing needs. "
+				""
+				"While they can't be interacted with by the player directly, needing pipes to insert and extract fluids, they merge with adjacent tanks to form large multi-blocks for bulk storage."
+				"They can have a 1x1, 2x2, or 3x3 base and extend as high as you like. "
+			]
+			id: "0000000000000D17"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000D89"
+				player_command: false
+				title: "Epic Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Unfathomably Deep"
+			tasks: [{
+				count: 4L
+				id: "0000000000000D18"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: [
+				"Modular Contraptions are build-it-yourself multiblock structures with nearly endless possibilities. "
+				""
+				"They can either be fixed in place and run using rotational power, or they can be attached to a minecart and run for free, requiring only powered rails to keep the cart moving. "
+				""
+				"The following are some of the specialized blocks that may be used for these contraptions."
+			]
+			hide_dependency_lines: false
+			icon: {
+				Count: 1b
+				id: "create:minecart_contraption"
+				tag: {
+					Contraption: {
+						Actors: [ ]
+						Anchor: {
+							X: 108
+							Y: 84
+							Z: -93
+						}
+						Blocks: [
+							{
+								Block: {
+									Name: "create:minecart_anchor"
+									Properties: {
+										axis: "z"
+									}
+								}
+								Pos: {
+									X: 0
+									Y: 0
+									Z: 0
+								}
+							}
+							{
+								Block: {
+									Name: "minecraft:spruce_planks"
+								}
+								Pos: {
+									X: 0
+									Y: 1
+									Z: 0
+								}
+							}
+						]
+						BoundsFront: [
+							0.0f
+							0.0f
+							0.0f
+							1.0f
+							2.0f
+							1.0f
+						]
+						FluidStorage: [ ]
+						Passengers: [ ]
+						RotationMode: "ROTATE"
+						Seats: [ ]
+						Stalled: 0b
+						Storage: [ ]
+						SubContraptions: [ ]
+						Superglue: [ ]
+						Type: "mounted"
+					}
+					display: { }
+				}
+			}
+			id: "0000000000000D2B"
+			rewards: [{
+				id: "0000000000000D65"
+				item: "minecraft:minecart"
+				title: "Minecart"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "10A1593A5F3B4532"
+				item: "create:wrench"
+				type: "item"
+			}]
+			title: "Modular Contraptions"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			dependency_requirement: "one_completed"
+			description: [
+				"Chassis blocks serve to form a base for larger creations. "
+				""
+				"Linear chassis connect to one another along the darker edge and will automatically be treated as a ‘whole’ piece that other parts may be glued to. "
+				"They will also capture a line of blocks attached to the lighter side if glue is placed on the chassis itself. "
+				""
+				"Similarly, Radial chassis can capture blocks in a circular plane so long as they all touch and the one in contact with the light face of the chassis has been glued in place."
+				""
+				"This results in the ability to build very large contraptions with very little glue. However, they are not required. Instead, blocks may simply be glued together to form a larger piece in an irregular shape."
+				""
+				"Worry not, once the contraption is formed, the glue marks will become invisible, allowing for very aesthetic builds."
+				""
+				"Use your scroll wheel while holding a wrench and looking at the chassis to configure its capture range. "
+				""
+				"Note: A slime ball may be used infinitely to set glue marks on Chassis blocks themselves. Right-Click with the slime ball to apply to one side. Double Right-Click to apply to all sides."
+			]
+			id: "0000000000000D33"
+			min_width: 300
+			tasks: [
+				{
+					id: "0000000000000D34"
+					item: "create:radial_chassis"
+					type: "item"
+				}
+				{
+					id: "0000000000000D35"
+					item: "create:linear_chassis"
+					type: "item"
+				}
+			]
+			title: "Chassis"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["60003C690223FFD1"]
+			description: [
+				"&9Create&r &bcontraptions&r are treated as &bentities&r, thus you can't open any inventory you attached to them."
+				""
+				"In many cases, the tools that can be attached to a moving contraption will also automatically pick up the items they’re harvesting, so long as there is ample storage on the device. "
+				""
+				"Simply &6gluing&r a &bchest&r in place is sufficient for providing that &bstorage place&r, but getting items out again is another matter. This is where the &aPortable Storage Interface&r comes in."
+				""
+				"The &aPortable Interface&r works in pairs. You need to have &eone placed in the world&r and &eanother one on a moving entity&r, like a &aMinecart&r."
+				"Whenever the two line up, aka, when the contraption moves close, the contraption will pause to allow items to pass through. Once the flow has stopped, it will move on."
+				"To prevent this pause, or interrupt it early, a &bredstone signal&r can be supplied to the fixed position &binterface&r."
+				""
+				"What's left is to move the items out of the &bInterface&r, that's where the &bFunnels&r, and &bChutes&r come in."
+			]
+			id: "0000000000000D42"
+			min_width: 400
+			rewards: [{
+				id: "284C58E3E069723F"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Plug and Play"
+			tasks: [
+				{
+					id: "0000000000000D43"
+					item: "create:portable_fluid_interface"
+					type: "item"
+				}
+				{
+					id: "0000000000000D44"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					id: "3584467653F3C39B"
+					item: "createaddition:portable_energy_interface"
+					type: "item"
+				}
+			]
+			title: "Portable Interfaces"
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4316ED497808CD9D"]
+			dependency_requirement: "one_completed"
+			description: [
+				"With a Hose Pulley, fluids may be pumped into or out of the world. Create massive lakes or drain them dry to let your factory grow!"
+				""
+				"Very large bodies, such as oceans or massive lava lakes in the Nether will be considered Bottomless, so if you wish to drain something like an Ocean Monument, it may still be necessary to build some retaining walls to break things up."
+				""
+				"Note, the Hose Pulley does not pump by itself. Lower the hose into the fluid body set up a Mechanical Pump to do the work for you. "
+			]
+			id: "0000000000000D49"
+			min_width: 250
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "0000000000000D88"
+				player_command: false
+				title: "Epic Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Well, There's an Upside and a Downside"
+			tasks: [{
+				id: "0000000000000D4A"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: [
+				"&9Create&r has a &bset of tools&r dedicated to &6saving schematics of structures&r and replicating them."
+				""
+				"The &aSchematic and Quill&r will allow you to &6save a schematic&r of an existing structure."
+				""
+				"This saved schematic will allow you to build the structure somewhere else."
+				""
+				"1) &6Right-Click&r to select the two opposite corners of the structure you want to save."
+				"2) Point at a face of the selected area and &6Ctrl-Scroll&r to adjust that side."
+				"3) &6Right-Click&r to name and save the schematic."
+				""
+				"The &9Create&r GitHub has a wiki page with examples of saving schematics:"
+				""
+				"{\"text\":\"Saving a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Saving-a-Schematic\"}}"
+			]
+			hide_dependency_lines: false
+			id: "5A581A8DF6CCC352"
+			min_width: 250
+			shape: "hexagon"
+			subtitle: "I know you're doing it from a creative world first"
+			tasks: [{
+				id: "188710CC3F5AE8D2"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5A581A8DF6CCC352"]
+			description: [
+				"To place your &bsaved structures&r, you need to create a &bSchematic&r on the &aSchematic Table&r."
+				""
+				"Choose the &bschematic&r you want to create by mousing over the box in the middle of the GUI and scrolling."
+				"Place an &aEmpty Schematic&r into the left slot on the table and click the checkmark to print it. &eThis uploads it to the server and can take a while for very large schematics&r."
+				"You can close the table while this process completes and come back later."
+				"Pressing the “&6Open Folder&r” button will open the &bschematic folder&r in your instance, and pressing “&6Refresh&r” will update the list of available schematics."
+				""
+				"&bSchematic&r in hand, you can place it in-world by &6right clicking&r."
+				"An on-screen HUD provides options for adjusting the schematic - moving, rotating, or flipping. &6Shift-Right clicking&r the &bschematic&r will also allow you edit placement and rotation/mirroring."
+				""
+				"You can use it to copy buildings or to share them with others!"
+				"You can use this as a building guide, but there are better uses for it..."
+				""
+				"Schematics for common multiblocks are included by default."
+				"You can use the \"&6Open Folder&r\" button to relocate any schematics you aren’t using and then refresh the list."
+				""
+				"The &9Create&r GitHub has a wiki with examples of loading schematics:"
+				""
+				"{\"text\":\"Loading a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Loading-a-Schematic\"}}"
+			]
+			id: "3542632905883686"
+			min_width: 460
+			rewards: [{
+				id: "1CC172C5323EADC6"
+				item: "create:empty_schematic"
+				title: "Empty Schematic"
+				type: "item"
+			}]
+			subtitle: "Filing for Building Permits"
+			tasks: [{
+				id: "2816C6E8336001CD"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "Placing Schematics"
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3542632905883686"]
+			description: [
+				"The &aSchematicannon&r is how you're going to build your structures."
+				"It uses &agunpowder&r as a propellent, and will take blocks from adjacent inventories."
+				""
+				"Take your freshly placed schematic and load it into the &aSchematicannon&r."
+				"Load &agunpowder&r in the top left - &ethe cannon will use one for each 400 blocks&r."
+				"Hit the Play button in the middle of the interface to begin placing blocks!"
+				""
+				"By default the cannon will pause if it doesn't have the block required, and it will replace any blocks in the way, but will protect tile entities (think chests and similar)."
+				"&eReplaced blocks don't drop and are lost&r - &4the cannon IS NOT a quarry tool!&r"
+				"These settings can be controlled by clicking the button in the bottom left."
+				""
+				"The cannon isn't very fast, but &eit's possible to split the workload between multiple cannons&r, and &aTime in a Bottle&r works wonders on it!"
+				""
+				"The &9Create&r GitHub has a wiki with examples of printing schematics:"
+				""
+				"{\"text\":\"Printing a Schematic\",\"color\":\"blue\",\"underlined\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/Creators-of-Create/Create/wiki/Printing-a-Schematic\"}}"
+			]
+			id: "6305EF196599FC7C"
+			min_width: 400
+			rewards: [{
+				count: 16
+				id: "123B498A6DDBFD23"
+				item: "minecraft:gunpowder"
+				title: "Gunpowder"
+				type: "item"
+			}]
+			subtitle: "It's like litematica, but with a cannon"
+			tasks: [{
+				id: "5C7274B5040C6D7D"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "Printing Schematics"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6ABAB2A5689F2695"]
+			dependency_requirement: "one_completed"
+			description: [
+				"The Item drain is useful for draining fluids from any fluid-containing items, like buckets or bottles. It's also quite handy for getting fluids out of a Basin."
+				""
+				"It has small internal tank, from which fluids can be accessed by pipes."
+			]
+			id: "28D17B54F4DE4D86"
+			min_width: 225
+			rewards: [{
+				id: "721F19B0EEEA841A"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			subtitle: "Bless the Drains Down in Africa"
+			tasks: [{
+				id: "251340C776442923"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000D17"]
+			description: [
+				"With a source of heat, water, and an enclosed space, a Steam Engine can be manufactured to produce enormous amounts of SU. "
+				""
+				"A basic Boiler setup requires four Fluid Tanks placed in a square and at least one Steam Engine attached. Filling the tanks with water and providing a source of heat below it will get things moving. Click a Shaft against the Steam Engine to get power out of the system"
+				""
+				"Boilers may be heated passively by any campfire or magma block, however by actively heating them with a Blaze Burner, they reach much higher temperatures and therefore produce more SU. Either way, they’ll need a constant supply of Water, with more used per operation as the number of Engines increases."
+			]
+			icon: "create:steam_engine"
+			id: "5B54E008C558007F"
+			min_width: 250
+			rewards: [{
+				id: "766A6943FD89D2FA"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			subtitle: "A Newcomen on the Block"
+			tasks: [
+				{
+					id: "7D00F9504A3F354F"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "08AF7D88052EAA26"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0000000000000D00"]
+			description: [
+				"Be it simple Transportation of goods or people, or powering a moving quarry, Trains offer an elegant solution. "
+				""
+				"Trains are large mobile contraptions that may be automated by way of Train Stations, Train Schedules, and Train Signals. They’ll move through un-loaded chunks, making long-distance transport of materials feasible; only the Station needs to be loaded. Drills and other machines will not function in un-loaded chunks, however."
+				""
+				"Building trains begins with the Train Station. Due to the complexity of this feature, watching the Ponder for each of the various pieces of Train equipment is highly recommended."
+			]
+			icon: "create:track"
+			id: "62D9A1A16024C3CD"
+			min_width: 250
+			subtitle: "Watch Your Step"
+			tasks: [
+				{
+					count: 16L
+					id: "6EB910AAB970DD49"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "46ED06FFF6481B08"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "51F37EEA49A25A12"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "5B5472A962BB6A24"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "56049761F5B3F1A8"
+					item: "create:track_signal"
+					type: "item"
+				}
+				{
+					id: "6FFC0519083164C7"
+					item: "create:track_observer"
+					type: "item"
+				}
+			]
+			title: "Trains"
+			x: 10.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: ["Half the joy of Create is seeing things move, and its logistics options do not disappoint. From Belts that render their contents, to Pipes showing fluids flowing through them, Create offers ways of moving around most anything. "]
+			hide_dependency_lines: false
+			id: "45CBD91076EAD50D"
+			rewards: [{
+				id: "3E683C2840922319"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			subtitle: "From Here to There, Funny Things Were Everywhere"
+			tasks: [{
+				id: "4C69D9C9883B2747"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 1b
+								id: "create:brass_casing"
+							}
+							{
+								Count: 1b
+								id: "create:copper_casing"
+							}
+						]
+					}
+				}
+				title: "Getting Started: Logistics and Storage"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: [
+				"Like the shipping crates they replicate, Item Vaults can hold an enormous number of items per block. They don’t allow manual interaction, however, so items must be inserted or extracted via automation."
+				""
+				"Vaults may be combined to form a multi-block storage container. The base must remain square and can be expanded up to 3x3, while the length can be up to 3x the diameter for a maximum size of 3x3x9. "
+			]
+			hide_dependency_lines: false
+			id: "0FEC8B6C5EBF0D99"
+			subtitle: "Hoarder's Dream"
+			tasks: [{
+				id: "6EC36FA1B3FEB0D3"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			description: [
+				"These simple &aElectric Motors&r make an &bexcellent&r and &bcompact&r source of &6SU&r. "
+				""
+				"Provide power from any source of &6FE&r to get them spun up and set their operating speed on the back."
+				""
+				"Spinning faster allows them to provide more &6SU&r, but at an increasing &6FE&r cost."
+				""
+				"For high &6SU&r, low speed applications, be sure to pair them with a &aRotation Speed Controller&r."
+			]
+			id: "6A689A7721191B5F"
+			rewards: [
+				{
+					id: "0DE0AF613762F0CD"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "1C6517B9EC9DADAF"
+					item: "create:clutch"
+					type: "item"
+				}
+			]
+			subtitle: "Getting Wired Up"
+			tasks: [{
+				id: "1C58028FCB2E6601"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["3162D0E1ACEE2D5D"]
+			description: [
+				"Who knew a Blaze could get thirsty? They’re certainly not interested in Water, but other combustible fluids seem to hit the spot just fine. "
+				""
+				"Giving the Blaze a Straw allows them to accept liquid fuels instead. These will never burn as hot as a Blaze Cake, but they can make an excellent alternative to Coal for regular heating operations."
+			]
+			id: "37476D4C70355E26"
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/epic"
+				icon: "kubejs:epic_lootbox"
+				id: "618ED2BF01169851"
+				player_command: false
+				title: "Epic Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "A Quantum of Solace "
+			tasks: [{
+				id: "775FCD3643073FEC"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0000000000000D04"]
+			description: ["The Rolling Mill is well suited for rolling out some clean rods or extruding wires suitable for electronics use. These may be used manually, or inline with conveyor belts as part of a larger factory.  "]
+			hide_dependency_lines: true
+			id: "286B9D8843E3B768"
+			subtitle: "Keep them ingots rollin'"
+			tasks: [{
+				id: "4F39C95F04932DE3"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0000000000000D04"]
+			description: [
+				"A high-powered electrical device capable of charging objects wirelessly by induced currents, the Tesla Coil can be quite useful in any factory."
+				""
+				"When placed above a Belt or Depot and provided sufficient power, the Tesla coil will impart a charge into items on the Belt or Depot. This works not only with crafting recipes, but also for charging equipment like tools and batteries. "
+				""
+				"The Coil may be deployed for more destructive purposes as well by placing it and providing a Redstone Signal in addition to the power. In this mode, it will damage nearby entities"
+			]
+			hide_dependency_lines: true
+			id: "467D1EB30C521A20"
+			min_width: 300
+			rewards: [{
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/create/legendary"
+				icon: "kubejs:legendary_lootbox"
+				id: "3A6CBAD9FE3C2776"
+				player_command: false
+				title: "Legendary Create Loot Box"
+				type: "command"
+			}]
+			subtitle: "Assault and Battery"
+			tasks: [{
+				id: "352DB990B46388DA"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"5E41363F9AE243F3"
+				"4194397DFD0199C2"
+			]
+			description: [
+				"Working on the same principles as &aElectric Motors&r, &aAlternators&r effectively just operate in reverse."
+				""
+				"The &aAlternator&r converts &6rotational energy&r into &6RF/FE&r!"
+				""
+				"By spinning the shaft, a current is induced in the coils which may be used to power devices. "
+				""
+				"The faster these are spun, the more &6SU&r they’ll use and &6FE&r they’ll produce. "
+			]
+			id: "6DD54ABB7D00AB13"
+			rewards: [
+				{
+					count: 8
+					id: "13AD4822061695C7"
+					item: "thermal:energy_duct"
+					type: "item"
+				}
+				{
+					id: "43AACD712E3C614A"
+					item: "create:rotation_speed_controller"
+					type: "item"
+				}
+			]
+			subtitle: "Spin Me Right Round"
+			tasks: [{
+				id: "2B0A556EDC61B3F1"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4194397DFD0199C2"]
+			description: [
+				"The machines from &eCreate: Ender Transmission&r allow you to &6transmit items, fluids, and energy over a distance&r."
+				""
+				"Craft two of any, and set them to the same channel to connect them!"
+			]
+			icon: "createendertransmission:energy_transmitter"
+			id: "1D8493F8CE66912A"
+			subtitle: "Make something from Create Ender Expansion"
+			tasks: [{
+				id: "4677F2B9141F58A0"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "createendertransmission:fluid_transmitter"
+							}
+							{
+								Count: 1b
+								id: "createendertransmission:item_transmitter"
+							}
+							{
+								Count: 1b
+								id: "createendertransmission:energy_transmitter"
+							}
+						]
+					}
+				}
+				title: "Wireless Stress"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: [
+				"5A52C168F41833E2"
+				"389DABF1432A747D"
+				"13F0C7468498A718"
+			]
+			description: [
+				"When high temperatures are required, there’s nothing quite like the scorching heat of the &cNether&r."
+				"Why not bring it home with you?"
+				""
+				"Some mixing recipes need to be &6heated&r. This is done using a &aBlaze Burner&r."
+				""
+				"The &aBlaze Burner&r &6accepts furnace fuel&r to become heated."
+				""
+				"To become &6over-heated&r, you will have to feed it &aBlaze Cakes&r!"
+				""
+				"To get the &aBlaze Burner&r, you need to make an &aEmpty Blaze Burner&r and &6R-Click&r it on a &bBlaze&r or &aBlaze Spawner&r."
+				""
+				"This is used under a &aBasin&r to heat it or super-heat it for different recipes."
+			]
+			icon: "create:blaze_burner"
+			id: "3162D0E1ACEE2D5D"
+			rewards: [
+				{
+					count: 4
+					id: "11B4A47A9C6AA691"
+					item: "quark:blaze_lantern"
+					type: "item"
+				}
+				{
+					id: "740B9A48B3926CA4"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54C4BFC9BDE624AB"
+					item: "create:blaze_cake"
+					type: "item"
+				}
+			]
+			subtitle: "Overheating"
+			tasks: [{
+				id: "2DE88EA675B63449"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"Similar to &aWindmill Bearings&r, &aMechanical Bearings&r may be used to build &6rotating contraptions&r."
+				""
+				"The &aMechanical Bearing&r is the foundation of most &9Create&r &6contraptions&r, which are basically &6freeform moving multiblocks&r."
+				""
+				"When &6rotational force&r is applied, it will &6rotate the connected contraption&r. This enables certain blocks, like &aHarvesters&r, &aCutters&r, and &aDeployers&r to work!"
+				""
+				"You can attach more blocks using &aGlue&r, and use &aChassis&r to make the contraption larger."
+				"&eMake sure to check the Ponders&r!"
+				""
+				"For instance, a long sweeping armed contraption could be built that swings through a tree farm, cutting down all the trees it encounters. "
+			]
+			id: "6F230D05DB07F932"
+			min_width: 250
+			rewards: [{
+				id: "357E038F28328CA1"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "Bearing the burden"
+			tasks: [{
+				id: "1D185D945D61DB04"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0000000000000C40"]
+			description: [
+				"This will be the main ingredient for most of this mod's items and blocks."
+				""
+				"When you start mining, grab as much andesite as possible and don't forget to grab some zinc too."
+				""
+				"Smelt down your Zinc or Iron, turn them to Ingots, and Craft them to Andesite Alloys"
+				""
+				"Andesite Alloys are used in a lot of recipes in Create, there's a way to get more for less materials, but that's for later."
+			]
+			id: "721DC5457B0783FE"
+			rewards: [{
+				count: 32
+				id: "3004301B98C9D252"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "Alliterations Ahoy"
+			tasks: [{
+				count: 32L
+				id: "462BC326B39F035A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Create: Getting Started"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: [
+				"&n&5Shafts&r transfer rotational power without changing the speed of the gears."
+				""
+				"Making a pretty windmill is probably not the only reason you’re here. Most likely, you’d like this thing to actually do something useful, but it’s way up there and we’re way down here… "
+				""
+				"As it happens, conveying rotational force is quite simple. Shafts can be used to convey power linearly while cogs may be used to change direction and speed. "
+			]
+			id: "1005B330D85C2CF9"
+			rewards: [{
+				id: "22C5069337AC2CCF"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "The most basic way of transfering rotational force in a straight line"
+			tasks: [{
+				count: 16L
+				id: "550DED4114BC827E"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "Rotational Transfer"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"An integral part of any factory, the &aEncased Fan&r may be used both for &6crafting operations&r and for &6moving items or mobs&r."
+				""
+				"To use the &bfan&r for crafting, it must be set up to blow through &cLava&r, &9Water&r, &6Fire&r, or &bSoul Fire&r."
+				"Items dropped in the &bstream of air&r on the far side will be &6smelted&r, &6washed&r, &6smoked&r, or &6haunted&r, respectively."
+				""
+				"The &bair stream&r can pass through certain blocks like &aIron Bars&r and &aTrap Doors&r, allowing safe containment of your &cLava&r and &9Water&r."
+				""
+				"Of special note, the &bFan&r can be used to process items directly on a &aDepot&r or &aBelt&r, however the items on a &abelt&r do not stop moving while they are being processed."
+				""
+				"To make efficient use of a &bfan and belt setup&r, make it blow across the length of the belt."
+				"Faster spin speeds mean the &bair stream&r blows farther. This also &6allows the fan to process multiple stacks at once&r. "
+			]
+			id: "02BA0ACF4FB7DD33"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "11283A17AACF9C12"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "I'm a Big Fan"
+			tasks: [{
+				id: "4658A5168DB280BD"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"Slightly more costly than a pair of &bcogs&r, &aGearboxes&r serve the same purpose as perpendicular &bcogs&r, to change the direction of a shaft line. "
+				""
+				"The &aGearbox&r can rotate the direction of the rotation in &eany direction by 90 degrees&r."
+				""
+				"However, they have a slight advantage in that they can be used to split power off in two directions."
+				""
+				"They also &ehave a vertical variant&r to get a shaft line running up or down. "
+			]
+			id: "11AA1D5728BA4A36"
+			rewards: [{
+				count: 2
+				id: "1B1E74FF901B53E8"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			subtitle: "If you want your rotation mirrored or angled"
+			tasks: [
+				{
+					id: "7DA1010FDB6E3B30"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "2C65A9D8BE87AF9F"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"Quite the simple device, really."
+				"A &aClutch&r disengages power on a shaft line, making for a simple &aon&r/&coff&r switch if a &bredstone signal&r is applied. "
+				""
+				"It could useful for more &badvanced contraptions&r that need precise timing, as well."
+			]
+			id: "7460212212607C47"
+			rewards: [{
+				id: "7760E1769F80D122"
+				item: "minecraft:lever"
+				type: "item"
+			}]
+			subtitle: "Going to Have to Stop You Right There"
+			tasks: [{
+				id: "7BDAF8194292FEA7"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 1.9999999999999978d
+			y: 11.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"Need to reverse direction? Then the &aGearshift&r is what you’re looking for. "
+				""
+				"Applying a &aRedstone&r&b signal&r to the block will cause the output side to &estart spinning in the opposite direction&r relative to the drive side. "
+			]
+			id: "775B58963B64B0A5"
+			rewards: [
+				{
+					id: "3DB6BF0451082260"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "58D502283B2AC03D"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			subtitle: "Time to Switch Things Up"
+			tasks: [{
+				id: "6A8F5D296B3ACF25"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: 0.9999999999999978d
+			y: 11.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"&aEncased Chain Drives&r may be used much like &abelts&r, connecting perpendicular shafts together."
+				""
+				"They may also be used to &6change the direction of power&r by placing multiple of them in-line and rotating them 90-degrees from one another."
+				""
+				"They will relay the rotation sideways."
+			]
+			id: "1399353353A576FA"
+			rewards: [{
+				count: 4
+				id: "5AD70488FD873288"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Working on the Chain Gang"
+			tasks: [{
+				id: "5C03CC7E11DED710"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: -2.220446049250313E-15d
+			y: 11.5d
+		}
+		{
+			dependencies: ["1399353353A576FA"]
+			description: [
+				"Slightly finer control than messing with gear ratios, an &aAdjustable Chain Gearshift&r uses a &bRedstone signal&r to set the &evariable speed&r, up to twice the &einput speed&r. "
+				""
+				"Consider using an &aAnalogue Lever&r to easily set a &efixed speed&r. "
+				""
+				"The &aAdjustable Chain Drive&r works similar to the normal &aChain Drive&r when it has no &bredstone signal&r."
+				""
+				"When you apply a &bredstone signal&r and it is the block receiving the &6rotational force&r, it will double the speed for the connected &aChain Drives&r."
+				""
+				"When you apply a &bredstone signal&r and it is not the block receiving the rotational force, it will half the speed for the connected &aChain Drives&r."
+			]
+			id: "0C00D5B177ACD0D6"
+			min_width: 200
+			rewards: [{
+				id: "5A184EC75616739B"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			subtitle: "Shifting Into Higher Gear"
+			tasks: [{
+				id: "62827D0F07558679"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: -2.220446049250313E-15d
+			y: 12.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"The &aMechanical Press&r is a great way to flatten things in need of smashing. It will also compact materials when combined with a &aBasin&r, making &bIngots&r from &bNuggets&r, for example."
+				""
+				"For &bPlates&r, the &aPress&r can be installed over a &aBelt&r, &aDepot&r, or any other block."
+				""
+				"If placed over a &aBelt&r, it will automatically cause the &aBelt&r to pause while the &aPress&r is operating. "
+				""
+				"When over a &aDepot&r, it will similarly work as soon as it detects an item below that needs pressing."
+				""
+				"While over any other block, however, a &bredstone signal&r is required to make it start. "
+			]
+			id: "5A52C168F41833E2"
+			rewards: [{
+				count: 4
+				id: "4C8E2069D031B3C8"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "Boil 'em, Mash 'em, Stick 'em in a Stew"
+			tasks: [{
+				id: "76F8AC532D35B3D2"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"769B30912D04DB49"
+				"0000000000000CD6"
+			]
+			description: [
+				"The &aMechanical Mixer&r can be used combined with the &aBasin&r to craft."
+				""
+				"This is used for automating &bshapeless recipes&r, as well as a handful of unique ones."
+				""
+				"The &aMechanical Mixer&r helps blend both solids and liquids into more useful forms, from &6brewing potions&r, &6making tea&r, or &6making advanced alloys&r, the mixer does it all."
+				""
+				"A &aBasin&r below the &bMixer&r is required."
+				""
+				"Note that some recipes &erequire heat&r, this is provided by way of a &aBlaze Burner&r."
+				""
+				"If a &aDepot&r or &aItem Drain&r is placed adjacent and one block down from the &aBasin&r, recipes will automatically be output."
+				"A small spout will appear on the &aBasin&r when the &aDepot&r or &aItem Drain&r is placed correctly. "
+				""
+				"By the way, did you gear up the speed?"
+				"Because &aMixers&r need a certain speed to work."
+			]
+			id: "389DABF1432A747D"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "066409CF79BA932F"
+					item: "create:cinder_flour"
+					type: "item"
+				}
+				{
+					id: "2CEED185ED7CC49E"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+			]
+			subtitle: "There's Been a Mix-Up, Officer"
+			tasks: [{
+				id: "380A025B7376739B"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: ["The &aBasin&r is used for recipes, mainly including the &aMechanical Press&r and the &aMechanical Mixer&r."]
+			id: "13F0C7468498A718"
+			tasks: [{
+				id: "296CAA934589643D"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"When it comes to moving contraptions, &aMechanical Pistons&r can be a great early start. "
+				""
+				"The &aMechanical Piston&r is similar to the &aPiston&r, it can push blocks, but you can add as many &aExtension Poles&r as you wish."
+				""
+				"As a simple example of where one might use these, imagine a long field of crops. A &aMechanical Piston&r could be used to &6push a harvesting contraption back and forth over the field periodically to gather crops&r. "
+			]
+			id: "00B7541DE352DE63"
+			rewards: [{
+				count: 2
+				id: "2145D166063C5AB0"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			subtitle: "Engineering Outreach Program"
+			tasks: [{
+				id: "2BD645C8A21AF252"
+				item: "create:mechanical_piston"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: [
+				"&aCart Assemblers&r are used to build a contraption destined to ride a &aMinecart&r and can be placed on &btracks&r."
+				""
+				"The contraption should be built on top of the &aAssembler&r and anything you build on top of it will be picked up by a &aMinecart&r if the &aAssembler&r has a &bredstone signal&r."
+				"Once prepared, giving the assembler a &bredstone signal&r &6will convert all connected blocks into one entity&r. "
+				""
+				"The blocks &6must be glued together&r and &eany blocks requiring rotational force will automatically be working&r."
+				""
+				"To \"&6unmount&r\" the blocks from the &aMinecart&r, simply turn off the &bredstone signal&r and let the &aMinecart&r ride through."
+				"The entire cart can then be picked up by using a &bwrench&r on it, allowing for easy transport of the device. "
+				""
+				"A great example of a &amine cart-based contraption&r would be a &btunnel bore mining machine&r."
+				"It could be set up to lay down its own track in front of it and pull up track behind it."
+				"&eIt could even build its own bridges to avoid ravines!&r"
+			]
+			id: "06857A2765D59D23"
+			min_width: 300
+			subtitle: "What? How is that Powered?"
+			tasks: [{
+				id: "1A7679E70C1B22FF"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: ["Mobile or Stationary, the &aMechanical Drill&r serves as a capable mining apparatus. "]
+			id: "66163D5A64ACFD94"
+			rewards: [{
+				id: "329AE2E97E666B51"
+				item: {
+					Count: 1b
+					id: "mining_helmet:mining_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Nothing to See Here, Just a Boring Machine"
+			tasks: [{
+				id: "0EA74930215BB176"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"From &6Chopping Trees&r to &6Carving Stone&r, this &aSaw&r has seen it all. "
+				""
+				"When stationary and powered, it can serve both for &6cutting logs to planks&r and for &eany stonecutter recipe&r."
+				""
+				"&bStonecutter recipes&r will give a random output unless a filter is set on the &aSaw&r itself."
+				""
+				"When attached to a &bmoving machine&r, it will &6chop whole trees&r in one swoop. Handy for a &bsimple tree farm&r. "
+			]
+			id: "23207B5FED4E67EA"
+			rewards: [
+				{
+					count: 4
+					id: "35331BA1D6257771"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1633ADAC85593929"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+			]
+			subtitle: "Cutting Edge Technology"
+			tasks: [{
+				id: "546F860AFE6C4220"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: ["A smart &aHarvester&r that &6gently harvests&r &eonly mature crops&r. "]
+			id: "07E46080771947A5"
+			rewards: [
+				{
+					count: 4
+					id: "1BB5C1A78FECFD93"
+					item: "minecraft:potato"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5DB9FC15AF438FDB"
+					item: "minecraft:carrot"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "57022721390A4DBA"
+					item: "minecraft:beetroot"
+					type: "item"
+				}
+			]
+			subtitle: "Outstanding In Its Field"
+			tasks: [{
+				id: "7203C45E25B6F7AE"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"&6Ploughing Fields&r is hard work. Make a machine to do it for you!"
+				""
+				"The &aMechanical Plow&r is useful for more than &6simple farm maintenance&r, however, and can make a great addition to a &bmoving minecart machine&r for pulling up extra track behind it."
+			]
+			id: "69CEBD422EEF3ED9"
+			rewards: [
+				{
+					count: 2
+					id: "6B6D6E735526AE49"
+					item: "farmingforblockheads:green_fertilizer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2D7710CFF8192182"
+					item: "farmingforblockheads:red_fertilizer"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "63D003A1C36D8A65"
+					item: "farmingforblockheads:yellow_fertilizer"
+					type: "item"
+				}
+			]
+			subtitle: "A Groundbreaking Innovation"
+			tasks: [{
+				id: "29E700490BE1C6F9"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			id: "769B30912D04DB49"
+			tasks: [{
+				id: "588DE0CC8C1B5B02"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			id: "4316ED497808CD9D"
+			subtitle: "The start of your fluid journey"
+			tasks: [{
+				id: "42CCA6E6BB96E6AA"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: [
+				"&aFunnels&r serve both to &6push into and pull from&r inventories. "
+				""
+				"A &afunnel&r attached to a &bchest&r, for instance, can extract from the &bchest&r and dump onto an adjacent &aBelt&r line."
+				"Similarly, a &abelt&r feeding into a &afunnel&r will push items into the attached inventory."
+			]
+			id: "3B097B6DD670A5FA"
+			rewards: [{
+				id: "54928E2706C8EDF4"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			subtitle: "Your Omnidirectional Hopper"
+			tasks: [{
+				id: "495B85D8E5FAEEA2"
+				item: "create:andesite_funnel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["721DC5457B0783FE"]
+			description: [
+				"Far from simple covers for your &aMechanical Belts&r, &aTunnels&r serve a useful purpose in splitting items. "
+				""
+				"As a stack of items passes through an &aAndesite Tunnel&r, it will automatically take one item from the stack and place it onto adjacent &abelts&r or &adepots&r. "
+			]
+			id: "41BB8D61C4A3521A"
+			rewards: [{
+				count: 4
+				id: "1FF51F6EEBC628F8"
+				item: "create:andesite_bars"
+				type: "item"
+			}]
+			subtitle: "Make belts look pretty"
+			tasks: [{
+				id: "0A6E4B697C31BF27"
+				item: "create:andesite_tunnel"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["769B30912D04DB49"]
+			description: [
+				"The &n&5Depot&r is used to store items, mainly for the Spout."
+				""
+				"===="
+				""
+				"A simple item buffer. "
+				""
+				"Depots will hold a single stack of items, but they will also interact with Encased Fan Washing, Blasting, Smoking, and Haunting recipes, as well as the Plate Press. "
+			]
+			id: "7021CE8F299413DB"
+			subtitle: "Buffer Allocation Failed"
+			tasks: [{
+				id: "090DD847DD661A12"
+				item: "create:depot"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: [
+				"The &n&5Chute&r is used to insert/extract from inventories, or to place/take items from a belt."
+				""
+				"=========="
+				""
+				" The chute is a simple yet fast way to convey items downwards. Simply drop them in the top and they’ll come out the bottom. "
+				""
+				"The advantage that chutes offer over simply dropping an item in the world is that they can move items at a 45-degree angle and multiple chutes can converge into a single chute, allowing better control of where the item ends up."
+				""
+				"Chutes may also be used to convey items upwards. If a chute has an encased fan set up directly on top of it, it can be used to pull items off a Belt. Of course, getting that item out requires some way of extracting from the chute, such as a Funnel."
+				""
+				"sssssssssss"
+				""
+				"The &bChute&r works much like a Hopper, but will drop item entities instead."
+				""
+				"==========="
+				"> Chutes drags items from an inventory, or interface downards, unless there's an encased fan blowing upwards"
+			]
+			id: "60003C690223FFD1"
+			subtitle: "Learning To Take Things in Slide"
+			tasks: [{
+				id: "5318CF605F20AC4A"
+				item: "create:chute"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: ["While wearing &aEngineer's Goggles&r, you can &6see a machine's kinetic information&r, like how many &6Rotation Speed&r and &6Stress Units&r it's using."]
+			id: "072824227DABE858"
+			rewards: [
+				{
+					count: 2
+					id: "686265C1D36B7858"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "34463AADE6A246E2"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			subtitle: "I See You!"
+			tasks: [{
+				id: "4BAC3FD0921E0960"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
 			description: [
 				"You can create this by making Rose Crystals and Sand Paper."
 				""
 				"You can either hold the crystals in your off-hand, or throw them on the ground and then R-Click while holding Sand Paper."
 			]
-			id: "610DEC4FC4FBB63E"
+			id: "01259B270DA05B25"
 			rewards: [{
-				id: "43C2760F8FDD84CA"
+				id: "00562AB7097EF10B"
 				item: {
 					Count: 1b
 					id: "create:sand_paper"
@@ -517,175 +3004,161 @@
 				type: "item"
 			}]
 			tasks: [{
-				count: 8L
-				id: "3BC40DF423178031"
+				id: "09D0196131E6E2C7"
 				item: "create:polished_rose_quartz"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.5d
+			x: 6.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["1C2309DB4B890E71"]
-			description: ["The &n&5Blaze Cake&r is used to Super-Heat the Blaze Burner for crafting the Chromatic Compound."]
-			id: "4C77ABCD41383F32"
-			tasks: [{
-				id: "2E9A4E9BFFC10819"
-				item: "create:blaze_cake"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
+			dependencies: ["769B30912D04DB49"]
 			description: ["The &n&5Gantry Carriage&r can be attached to Gantry Shafts and if the Shaft is rotating, it will move the Carriage along it."]
-			id: "75B14A09FE39EDDA"
-			tasks: [{
-				id: "7DA78C3A582368E2"
-				item: "create:gantry_carriage"
-				type: "item"
-			}]
-			x: -3.0d
-			y: 1.0d
+			id: "5E288F7C8A292ED8"
+			tasks: [
+				{
+					id: "2396192FDED4F54D"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "412EF3B497513928"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: 8.5d
 		}
 		{
-			dependencies: ["7F0D59EC1573FDC0"]
+			dependencies: ["7021CE8F299413DB"]
 			description: ["The &n&5Weighted Ejector&r can launch items or entities to a selected location."]
-			id: "4EA4EDD5A7923F98"
+			id: "0E1A7B31FEA9E19E"
+			subtitle: "Do you want your items to fly?"
 			tasks: [{
-				id: "34313AA5D327317C"
+				id: "674E91C13DB636C1"
 				item: "create:weighted_ejector"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -1.5d
+			x: 0.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["3D2A03EB2B91E9C1"]
-			description: ["The &n&5Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size and filters."]
-			id: "7EEEEDD5FF31ACD3"
+			dependencies: [
+				"1DA6B8B2DCC97809"
+				"60003C690223FFD1"
+			]
+			description: ["&aSmart Chute&r is the same as the &aChute&r but with &eadditional functionalities&r, such as &6stack size&r and &6filters&r."]
+			id: "01A1760361968E94"
+			rewards: [{
+				count: 4
+				id: "394602AFA57F1347"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			subtitle: "I choose what I suck and blow"
 			tasks: [{
-				id: "37EE09651ED58F6F"
+				id: "09878CDCCFAFA294"
 				item: "create:smart_chute"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 3.5d
+			y: 9.0d
 		}
 		{
-			dependencies: ["57A7A5C79389A96A"]
+			dependencies: ["769B30912D04DB49"]
 			description: [
-				"The Schematic Table will read and write structures to/from your schematics."
+				"Need a &bLift&r? "
 				""
-				"You can use it to copy buildings or to share them with others!"
+				"Build your own with a &aRope Pulley&r by attaching your own platform. "
+				""
+				"Use a &aGearshift&r to reverse direction with ease."
+				""
+				"The &aRope Pulley&r can move blocks up or down, they can be glued together."
 			]
-			id: "0CF69DBA9573A7B3"
-			rewards: [{
-				id: "35DCC6CB7C472F17"
-				item: "create:schematic_and_quill"
-				type: "item"
-			}]
+			id: "3F343F3851C92BEC"
+			subtitle: "It Has It's Ups and Downs"
 			tasks: [{
-				id: "0FB1E9BD14FE8EF8"
-				item: "create:schematic_table"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["0CF69DBA9573A7B3"]
-			description: ["The Cannon will build the structures from Schematics, taking materials from nearby chests and using gunpowder as fuel."]
-			id: "7D67058592EE5958"
-			tasks: [{
-				id: "5D989C876E9B8AA5"
-				item: "create:schematicannon"
-				type: "item"
-			}]
-			x: -13.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["17885C2DE986F1BD"]
-			description: ["The &n&5Rope Pulley&r can move blocks up or down, they can be glued together."]
-			id: "24E658BA47367A44"
-			tasks: [{
-				id: "0674C07C7DE332A9"
+				id: "55E1DA7F371C4569"
 				item: "create:rope_pulley"
 				type: "item"
 			}]
-			x: -6.0d
-			y: -1.0d
+			x: -1.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["3F663416E824720C"]
-			description: ["The &n&5Spout&r is used to fill items with liquid. It is best to use a Depot under it to hold the items."]
-			id: "1C2309DB4B890E71"
+			dependencies: ["4316ED497808CD9D"]
+			description: [
+				"The &aSpout&r will &6fill items below it with fluid&r, if they are in a &aDepot&r or &aBelt&r."
+				""
+				"For example, to make &aBuckets of Water&r, fill &bpotion bottles&r, or &6make delicious tea&r!"
+			]
+			id: "6ABAB2A5689F2695"
+			subtitle: "Spouting Off Nonsense"
 			tasks: [{
-				id: "6772D04457414991"
+				id: "7EE9A64516ED30A0"
 				item: "create:spout"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 0.5d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["3F663416E824720C"]
-			description: ["The &n&5Hose Pulley&r is a pump that can extract liquids or place liquids in the world."]
-			id: "77382D4114E901CB"
+			dependencies: ["4316ED497808CD9D"]
+			id: "4489511C5ED1C785"
 			tasks: [{
-				id: "739701B00C0F8A7B"
-				item: "create:hose_pulley"
+				id: "3771A6F4CCAD4A63"
+				item: "create:fluid_pipe"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.5d
+			x: 10.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["45EC31812FB9934D"]
-			id: "1265C49FE7032C4F"
+			dependencies: ["00B7541DE352DE63"]
+			id: "0FED7EE802D73DB1"
 			tasks: [{
-				id: "64C79C55EB1CC9F2"
+				id: "564344C95955575C"
 				item: "create:sticky_mechanical_piston"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -1.5d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["45EC31812FB9934D"]
-			id: "47897D827C50629D"
+			dependencies: ["00B7541DE352DE63"]
+			id: "558794D1FBA2EB9D"
 			tasks: [{
-				id: "473DA14538E1B94C"
+				id: "5193365C772D2996"
 				item: "create:piston_extension_pole"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
-			dependencies: ["3F663416E824720C"]
+			dependencies: ["4316ED497808CD9D"]
 			description: [
 				"The &n&5Portable Interface&r works in pairs. You need to have one placed in the world and another one on a moving entity, like a Minecart."
 				""
 				"When the two interfaces are facing each other, they will link and transfer liquids between each other."
 			]
-			id: "71B1B53A03A16296"
+			id: "362BFE408C26C338"
 			tasks: [{
-				id: "339D26EDFBB54047"
+				id: "2E65C230C02C4842"
 				item: "create:portable_fluid_interface"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -0.5d
+			x: 11.0d
+			y: 7.5d
 		}
 		{
-			dependencies: ["2D41B04C75FA02BC"]
+			dependencies: ["5A52C168F41833E2"]
 			description: ["&n&5Super Glue&r can be used to attach blocks to each other to move them with pistons or other means."]
-			id: "1F58AA51814C7568"
+			id: "3CF841CC60F2625A"
 			tasks: [{
-				id: "1A9BC10CDDA9FCF2"
+				id: "448A505C407CC1DE"
 				item: {
 					Count: 1b
 					id: "create:super_glue"
@@ -695,25 +3168,208 @@
 				}
 				type: "item"
 			}]
-			x: -2.5d
-			y: -1.0d
+			x: 6.5d
+			y: 7.0d
 		}
 		{
-			dependencies: ["0F16498769DFB3B0"]
+			dependencies: ["721DC5457B0783FE"]
 			description: [
 				"&n&5Belts&r can be placed between two &n&5Shafts&r to transfer mobs/items or to simply transfer rotational energy from one point to another."
 				""
 				"The &n&5Shafts&r must be at either 45, 90 or 180 degrees from each other."
+				""
+				"======"
+				""
+				"As with many things in Create, the Mechanical Belt is a multi-purpose item."
+				""
+				"Its primary purpose is item transportation and can carry items along horizontally, as well as up and down 45-degree slopes. "
+				""
+				"However, it can also convey power from one shaft to another. This can be an excellent way to power multiple parallel shafts while maintaining the direction of rotation. "
+				""
+				"A single belt can stretch up to 20 blocks and each block space could conceivably attach it to another shaft line if necessary. "
+				""
+				"To attach them to a Shaft, simply place two Shafts and then Right-Click each with the belt in hand. Right-Click a Shaft into an existing Belt to add a connection."
 			]
-			id: "13AEBC331F29BC3D"
+			id: "4D2B0565E58E6B54"
+			subtitle: "You're On a Roll Now"
 			tasks: [{
 				count: 4L
-				id: "4D2A907287515990"
+				id: "7E4788BC79D12306"
 				item: "create:belt_connector"
 				type: "item"
 			}]
-			x: -12.5d
-			y: -4.0d
+			title: "Just like in the factories"
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1DA6B8B2DCC97809"]
+			description: ["&n&5Casings&r are used as a crafting ingredient for most blocks."]
+			id: "48EA6D9923E38B71"
+			subtitle: "The start of Brass Age"
+			tasks: [{
+				id: "23E40F6D58658887"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"4194397DFD0199C2"
+				"67CE448FA832692A"
+			]
+			description: [
+				"&bMechanical Arms&r can move items with much more precision than Mechanical Belts."
+				"====="
+				"The &n&5Arm&r is a machine that can take items from a Depot or a Belt and place them into a different Depot, Belt or Crafter."
+				""
+				"To select input/output hold the Arm in your hand and R-Click the blocks you want to assign."
+				""
+				"To deselect a block, L-Click it with the Arm in your hand."
+				""
+				"==========="
+				""
+				"Mechanical Arms serve as advanced short range item transport. They may be linked to multiple points at once for both extraction and insertion operations"
+				""
+				"Linking is done prior to placing the Arm, simply Right-Click it onto permitted inventory types, such as Depots, Funnels, or Belts. Right-Click again to toggle between input and output modes."
+				""
+				"The Mechanical Arm can reach up to four blocks away in total. "
+			]
+			id: "3F2C1A81C17D2D67"
+			rewards: [{
+				count: 4
+				id: "256A693629D6D145"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			subtitle: "Number 5 is Alive"
+			tasks: [{
+				id: "3EC06DE78E520CC9"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1DA6B8B2DCC97809"]
+			description: [
+				"&aBrass Tunnels&r work a bit differently than &aAndesite Tunnels&r."
+				"Rather than splitting onto adjacent &bbelts&r, a line of &bTunnels&r can be formed along &bmultiple parallel belts&r."
+				""
+				"As items pass into one tunnel, they’ll be evenly split among all connected &btunnels&r on the other side."
+			]
+			id: "78656C89EEE80DB5"
+			rewards: [{
+				count: 4
+				id: "21AD24144F21CAED"
+				item: "create:brass_bars"
+				type: "item"
+			}]
+			subtitle: "Use with filter to create separate belt lines of items from a single line"
+			tasks: [{
+				id: "688E14A6938EBEF7"
+				item: "create:brass_tunnel"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1DA6B8B2DCC97809"
+				"01259B270DA05B25"
+				"48EA6D9923E38B71"
+				"467D1EB30C521A20"
+			]
+			description: [
+				"The &n&5Crafters&r can be connected to each other to form a huge in-world crafting table."
+				""
+				"The arrows on the Crafters must eventually converge on the same Crafter to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
+				"=="
+				"&bMechanical Crafters&r can autocraft recipes, including some that are larger than 3x3."
+				"===="
+				"For those times when a simple 3x3 grid simply isn’t good enough, there’s the Mechanical Crafter. Or, Crafters, to be precise. These interlocking blocks connect to form a large crafting interface. Each block accepting a single item for the craft."
+				""
+				"Several advanced items may only be crafted this way."
+				""
+				"Take note when placing the crafters themselves as there will be an arrow pointing towards the block that was clicked to place it. This arrow indicates which way items will travel as the crafters work and all arrows must connect to a single crafter."
+				""
+				"For example, placing the first crafter on the ground will make the arrow point down, this would be the output. A crafter to the side of the first would need to be placed against the side so that its arrow points into the first, making a channel. "
+				""
+				"Crafter Slot Covers can be used to disable a given slot, which is required for any craft that has empty spaces in it. For instance, when crafting a chest with a 3x3 grid of Mechanical Crafters, the middle slot must be covered. "
+				""
+				"Items may be inserted with hoppers, belts and funnels, mechanical arms and more. Experiment to see what you can come up with!"
+			]
+			id: "4194397DFD0199C2"
+			rewards: [{
+				count: 21
+				id: "405FB235FE15269A"
+				item: "create:crafter_slot_cover"
+				type: "item"
+			}]
+			subtitle: "Trust me, you'll want 21."
+			tasks: [{
+				id: "65C6E83AF17405E0"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["5A52C168F41833E2"]
+			description: ["&aBrass&r is a flexible alloy, and is the basis for many of &9Create&r's more advanced machines."]
+			id: "1DA6B8B2DCC97809"
+			rewards: [{
+				count: 2
+				id: "3D3F036EFAFA4649"
+				item: "supplementaries:brass_lantern"
+				type: "item"
+			}]
+			tasks: [{
+				icon: "create:brass_ingot"
+				id: "07896B715ED0E04F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any Brass Ingot"
+				type: "item"
+			}]
+			title: "Brass"
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1DA6B8B2DCC97809"]
+			description: ["The &aBrass Funnel&r works like the &bAndesite version&r, but &6can be filtered&r!"]
+			id: "495B0CC178B4CFA9"
+			rewards: [
+				{
+					id: "4F5F9C0AB180529B"
+					item: "create:filter"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "42C8DA9DE219A8F7"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1C5B4D14826937BB"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.5d
 		}
 	]
 	title: "Create"

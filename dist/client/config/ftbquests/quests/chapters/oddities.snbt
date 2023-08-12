@@ -32,43 +32,8 @@
 				type: "item"
 			}]
 			title: "Craft a &3Trading Station"
-			x: -3.0d
-			y: -9.0d
-		}
-		{
-			id: "461958821F94D6F8"
-			rewards: [{
-				count: 8
-				id: "6099B2E26A33A8C1"
-				item: "culturaldelights:cucumber_seeds"
-				type: "item"
-			}]
-			subtitle: "Lessens the effects of seasons when placed above crops."
-			tasks: [{
-				id: "3BC5379E4BF3E5C5"
-				item: "seasons:greenhouse_glass"
-				type: "item"
-			}]
-			title: "Craft &2Greenhouse Glass"
-			x: 0.0d
-			y: -4.0d
-		}
-		{
-			id: "12965C7AB98FA9C6"
-			rewards: [{
-				id: "4FD53411FE953111"
-				type: "xp_levels"
-				xp_levels: 10
-			}]
-			subtitle: "A totem that prevents you from dying in the void, teleporting you to a safe place. Can be equipped in the Trinket slot."
-			tasks: [{
-				id: "266B22E4299C23A6"
-				item: "voidtotem:totem_of_void_undying"
-				type: "item"
-			}]
-			title: "Craft a &9Totem of Void Undying"
-			x: -1.0d
-			y: -2.0d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			id: "69A55664BC35DC41"
@@ -90,23 +55,6 @@
 			title: "Make a &eStraw Golem"
 			x: 1.0d
 			y: -7.0d
-		}
-		{
-			id: "0B23AB3C41A686EA"
-			rewards: [{
-				id: "0FAF1947C5D1B541"
-				item: "farmersdelight:noodle_soup"
-				type: "item"
-			}]
-			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
-			tasks: [{
-				id: "435BC24FB0CA106A"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			title: "Craft a &bDiamond Magnum Torch"
-			x: -1.0d
-			y: -3.0d
 		}
 		{
 			id: "024898B93AB09569"
@@ -145,25 +93,7 @@
 				type: "item"
 			}]
 			title: "Craft a &6Target Dummy"
-			x: 0.0d
-			y: -3.0d
-		}
-		{
-			id: "0FE658EB75F6C66A"
-			rewards: [{
-				count: 3
-				id: "0CCDDBCCB5233AAC"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
-			subtitle: "Calms nearby &6piglins&r."
-			tasks: [{
-				id: "4765BDEC3CB0CD80"
-				item: "adventurez:piglin_flag_block"
-				type: "item"
-			}]
-			title: "Craft a &6Piglin Flag"
-			x: 2.0d
+			x: 1.0d
 			y: -4.0d
 		}
 		{
@@ -180,8 +110,8 @@
 				type: "item"
 			}]
 			title: "Craft a &bHardening Catalyst"
-			x: -2.0d
-			y: -3.0d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			id: "06270F36EC449E11"
@@ -236,7 +166,7 @@
 			}]
 			title: "Craft a &8Grindstone"
 			x: 3.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			id: "65920CA327682C42"
@@ -253,25 +183,7 @@
 			}]
 			title: "Obtain &2XP Dust"
 			x: 2.0d
-			y: -3.0d
-		}
-		{
-			id: "788E198E48FCF3FD"
-			rewards: [{
-				count: 16
-				id: "6FC3CB80AA9531E0"
-				item: "betterend:umbrella_tree_planks"
-				type: "item"
-			}]
-			subtitle: "Allows for wooden planks to be turned into a variety of other wooden items. Works with some modded planks."
-			tasks: [{
-				id: "67BE44F22823B3C7"
-				item: "charm:woodcutter"
-				type: "item"
-			}]
-			title: "Craft a &cWoodcutter"
-			x: 1.0d
-			y: -4.0d
+			y: -8.0d
 		}
 		{
 			id: "147D9946619AAD0E"
@@ -293,8 +205,8 @@
 				type: "item"
 			}]
 			title: "Craft &5Druid Boots"
-			x: 1.0d
-			y: -2.0d
+			x: 0.0d
+			y: -7.0d
 		}
 		{
 			id: "07EE7789B880D2B8"
@@ -316,8 +228,8 @@
 				type: "item"
 			}]
 			title: "Craft an &9Ender Pouch"
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			id: "4FB5786C1574EF9F"
@@ -339,8 +251,8 @@
 				type: "item"
 			}]
 			title: "Craft a &6Death Protection Poppet"
-			x: 0.0d
-			y: -2.0d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			id: "56CFF1EB3641D051"
@@ -364,8 +276,8 @@
 				type: "item"
 			}]
 			title: "Craft a &2Charm"
-			x: -2.0d
-			y: -2.0d
+			x: 0.0d
+			y: -5.0d
 		}
 		{
 			id: "76FF463436665FB9"
@@ -388,32 +300,8 @@
 				type: "item"
 			}]
 			title: "Craft a &9Sleeping Bag"
-			x: -3.0d
-			y: -8.0d
-		}
-		{
-			id: "126A979F765226E8"
-			rewards: [{
-				id: "792F3483706A6252"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			subtitle: "Smaller item storage. Comes in many colors."
-			tasks: [{
-				id: "4CC956A565168243"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "c:bundles"
-					}
-				}
-				title: "Any #c:bundles"
-				type: "item"
-			}]
-			title: "Craft a &f&lBundle"
-			x: 2.0d
-			y: -1.0d
+			x: -2.0d
+			y: -7.0d
 		}
 		{
 			id: "6BD202DA3CB4D5D7"
@@ -437,8 +325,8 @@
 				type: "item"
 			}]
 			title: "Craft a &6Feeding Trough"
-			x: -2.0d
-			y: -1.0d
+			x: 1.0d
+			y: -8.0d
 		}
 		{
 			id: "1325EB37EACF5E77"
@@ -454,8 +342,8 @@
 				type: "item"
 			}]
 			title: "Craft a &6Monocle"
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			id: "48E0307FF4899E24"
@@ -507,8 +395,8 @@
 				type: "item"
 			}]
 			title: "Craft a &6Frayed Backpack"
-			x: 3.0d
-			y: -1.0d
+			x: 2.0d
+			y: -7.0d
 		}
 		{
 			id: "29C16D81E2051509"
@@ -604,7 +492,7 @@
 			}]
 			title: "Craft a &9Sawmill"
 			x: 1.0d
-			y: -10.0d
+			y: -11.0d
 		}
 		{
 			id: "461DDFA55A384675"
@@ -714,7 +602,7 @@
 				type: "item"
 			}]
 			title: "Craft an &eElevator"
-			x: 1.0d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
@@ -740,29 +628,6 @@
 			y: -10.0d
 		}
 		{
-			id: "5C797A855DD3A665"
-			rewards: [{
-				id: "320AB3B627C0A946"
-				item: {
-					Count: 1b
-					id: "bountiful:decree"
-					tag: {
-						"bountiful:decree_data": "{}"
-					}
-				}
-				type: "item"
-			}]
-			subtitle: "Bounties have varying levels of rewards. You can craft decrees to get new bounties."
-			tasks: [{
-				id: "6836555BDE4256E6"
-				item: "bountiful:bountyboard"
-				type: "item"
-			}]
-			title: "Craft a &6Bounty Board"
-			x: 0.0d
-			y: -9.0d
-		}
-		{
 			id: "0A9E44CE37CA44CF"
 			rewards: [{
 				count: 3
@@ -778,7 +643,7 @@
 			}]
 			title: "Craft a &6Bartering Station"
 			x: 1.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			id: "5F42E6D8CBC3D4C3"
@@ -888,23 +753,6 @@
 				type: "item"
 			}]
 			title: "Craft a &f&lHammock"
-			x: -2.0d
-			y: -8.0d
-		}
-		{
-			id: "1A62F56F716CAD3E"
-			rewards: [{
-				id: "7264AB02A8CA2842"
-				item: "farmersdelight:noodle_soup"
-				type: "item"
-			}]
-			subtitle: "One of three Magnum torch variants. Prevents monster spawns in a 2048 block radius."
-			tasks: [{
-				id: "0B2A40219CB722F9"
-				item: "magnumtorch:diamond_magnum_torch"
-				type: "item"
-			}]
-			title: "Craft a &bDiamond Magnum Torch"
 			x: -1.0d
 			y: -8.0d
 		}
@@ -924,7 +772,7 @@
 			}]
 			title: "Craft an &5Altar"
 			x: 1.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			id: "01341DA14974A33D"
@@ -965,7 +813,7 @@
 				type: "item"
 			}]
 			title: "Craft a &f&lSleeping Bag"
-			x: -2.0d
+			x: -1.0d
 			y: -7.0d
 		}
 		{
@@ -983,7 +831,7 @@
 			}]
 			title: "Craft a &9Totem of Void Undying"
 			x: 0.0d
-			y: -7.0d
+			y: -9.0d
 		}
 		{
 			id: "22135D7A4301D684"
@@ -1029,7 +877,7 @@
 				type: "item"
 			}]
 			title: "Craft an &6XP Conduit"
-			x: 5.0d
+			x: 4.0d
 			y: -8.0d
 		}
 		{
@@ -1053,8 +901,8 @@
 				type: "item"
 			}]
 			title: "Craft an &bXP Saver"
-			x: 5.0d
-			y: -6.5d
+			x: 4.0d
+			y: -7.0d
 		}
 		{
 			id: "456BAEAE5342F543"
@@ -1167,8 +1015,8 @@
 				type: "item"
 			}]
 			title: "Craft a &cWoodcutter"
-			x: 3.0d
-			y: -6.0d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			id: "558F90FE86AAA764"
@@ -1245,8 +1093,8 @@
 				type: "item"
 			}]
 			title: "Craft a &5Charged Ender Pearl"
-			x: 3.0d
-			y: -5.0d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			hide: true
@@ -1262,8 +1110,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -7.8d
+			x: 5.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["011492F08BD65AF1"]
@@ -1279,8 +1127,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -7.8d
+			x: 6.0d
+			y: -8.0d
 		}
 		{
 			hide: true
@@ -1290,8 +1138,8 @@
 				item: "cyclic:hopper_fluid"
 				type: "item"
 			}]
-			x: 7.5d
-			y: -8.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			hide: true
@@ -1301,8 +1149,8 @@
 				item: "kibe:igniter"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -7.8d
+			x: 4.0d
+			y: -9.0d
 		}
 		{
 			hide: true
@@ -1312,8 +1160,8 @@
 				item: "kibe:breaker"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -7.8d
+			x: 6.0d
+			y: -9.0d
 		}
 		{
 			hide: true
@@ -1323,8 +1171,8 @@
 				item: "kibe:placer"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -7.8d
+			x: 5.0d
+			y: -9.0d
 		}
 		{
 			hide: true
@@ -1335,33 +1183,11 @@
 			}]
 			tasks: [{
 				id: "3F1926023CA49E3C"
-				item: "kibe:chunk_loader"
+				item: "createendertransmission:chunk_loader"
 				type: "item"
 			}]
-			x: 8.5d
-			y: -8.5d
-		}
-		{
-			hide: true
-			id: "658A4C1864BB4D55"
-			tasks: [{
-				id: "0DC459588C24107C"
-				item: "kibe:redstone_timer"
-				type: "item"
-			}]
-			x: 11.5d
-			y: -7.8d
-		}
-		{
-			hide: true
-			id: "02E24E07FA8D598F"
-			tasks: [{
-				id: "73C6F7E05CAAC220"
-				item: "kibe:white_elevator"
-				type: "item"
-			}]
-			x: 15.5d
-			y: -9.3d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			hide: true
@@ -1371,8 +1197,8 @@
 				item: "torchmaster:megatorch"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -10.0d
+			x: 4.0d
+			y: -6.0d
 		}
 		{
 			hide: true
@@ -1382,7 +1208,7 @@
 				item: "moblassos:golden_lasso"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.0d
 			y: -11.0d
 		}
 		{
@@ -1393,7 +1219,7 @@
 				item: "moblassos:hostile_lasso"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -11.0d
 		}
 		{
@@ -1407,7 +1233,7 @@
 				item: "moblassos:diamond_lasso"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 5.5d
 			y: -10.0d
 		}
 		{
@@ -1415,55 +1241,55 @@
 			id: "310CBAE2775DE883"
 			tasks: [{
 				id: "57C23D2A8A14372D"
-				item: "kibe:cobblestone_generator_mk1"
+				item: "cobblefordays:tier_1"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -6.3d
+			x: 6.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["310CBAE2775DE883"]
 			id: "0D070BAE82F3E487"
 			tasks: [{
 				id: "5E8D6C907BB3B0EB"
-				item: "kibe:cobblestone_generator_mk2"
+				item: "cobblefordays:tier_2"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -5.8d
+			x: 5.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0D070BAE82F3E487"]
 			id: "1461191942BDDE82"
 			tasks: [{
 				id: "1985D962EF125F1D"
-				item: "kibe:cobblestone_generator_mk3"
+				item: "cobblefordays:tier_3"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -5.3d
+			x: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["1461191942BDDE82"]
 			id: "522E41079CECEF9B"
 			tasks: [{
 				id: "6D28A459DC9AB4B6"
-				item: "kibe:cobblestone_generator_mk4"
+				item: "cobblefordays:tier_4"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -4.8d
+			x: 5.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["522E41079CECEF9B"]
 			id: "461A1057FE7055C7"
 			tasks: [{
 				id: "178640D80E49B073"
-				item: "kibe:cobblestone_generator_mk5"
+				item: "cobblefordays:tier_5"
 				type: "item"
 			}]
-			x: 11.5d
-			y: -4.3d
+			x: 6.0d
+			y: -5.0d
 		}
 		{
 			hide: true
@@ -1473,8 +1299,8 @@
 				item: "kibe:basalt_generator_mk1"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -6.3d
+			x: 7.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3FCBDB3CA885D77A"]
@@ -1484,8 +1310,8 @@
 				item: "kibe:basalt_generator_mk2"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -5.8d
+			x: 8.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4C1F8C0D28C9E02D"]
@@ -1495,8 +1321,8 @@
 				item: "kibe:basalt_generator_mk3"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -5.3d
+			x: 7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["180846BE04EC6E65"]
@@ -1506,8 +1332,8 @@
 				item: "kibe:basalt_generator_mk4"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -4.8d
+			x: 8.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["20D13A617578A02F"]
@@ -1517,8 +1343,8 @@
 				item: "kibe:basalt_generator_mk5"
 				type: "item"
 			}]
-			x: 12.5d
-			y: -4.3d
+			x: 7.0d
+			y: -5.0d
 		}
 		{
 			hide: true
@@ -1528,8 +1354,8 @@
 				item: "blast:bomb"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -6.3d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0C017C44EC06B3BC"]
@@ -1539,8 +1365,8 @@
 				item: "blast:golden_bomb"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -5.3d
+			x: 5.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["232879D7165EB42C"]
@@ -1562,8 +1388,8 @@
 				item: "blast:diamond_bomb"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -4.3d
+			x: 5.0d
+			y: -1.5d
 		}
 		{
 			hide: true
@@ -1573,8 +1399,8 @@
 				item: "blast:stripminer"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -5.8d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["079B3A945869CBAA"]
@@ -1584,8 +1410,8 @@
 				item: "blast:cold_digger"
 				type: "item"
 			}]
-			x: 18.5d
-			y: -4.8d
+			x: 7.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C017C44EC06B3BC"]
@@ -1595,8 +1421,8 @@
 				item: "blast:frost_bomb"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -5.8d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["15FD788DA47A5C38"]
@@ -1606,8 +1432,8 @@
 				item: "blast:amethyst_bomb"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -4.8d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0C017C44EC06B3BC"]
@@ -1617,8 +1443,8 @@
 				item: "blast:naval_mine"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -5.8d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1EB7E918A79A90C8"]
@@ -1628,8 +1454,8 @@
 				item: "blast:confetti_bomb"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -4.8d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["5736B9D6873B9002"]
@@ -1639,8 +1465,8 @@
 				item: "blast:dirt_bomb"
 				type: "item"
 			}]
-			x: 15.5d
-			y: -3.8d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2A033F2FD7FACB2B"]
@@ -1650,8 +1476,8 @@
 				item: "blast:pearl_bomb"
 				type: "item"
 			}]
-			x: 16.5d
-			y: -3.3d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0702D34064D6F039"]
@@ -1661,52 +1487,8 @@
 				item: "blast:slime_bomb"
 				type: "item"
 			}]
-			x: 17.5d
-			y: -3.8d
-		}
-		{
-			dependencies: ["02E24E07FA8D598F"]
-			id: "57FD654B10D8794A"
-			tasks: [{
-				id: "20CDF184D32E766C"
-				item: "quartzelv:quartz_elevator"
-				type: "item"
-			}]
-			x: 16.5d
-			y: -9.3d
-		}
-		{
-			dependencies: ["57FD654B10D8794A"]
-			id: "2797A1BB1B63615C"
-			tasks: [{
-				id: "07B04C3FA6F734D2"
-				item: "bosses_of_mass_destruction:levitation_block"
-				type: "item"
-			}]
-			x: 17.5d
-			y: -9.3d
-		}
-		{
-			hide: true
-			id: "65770B9D543F2DA4"
-			tasks: [{
-				id: "2A001F09A2B3F9B2"
-				item: "mob_catcher:mob_catcher"
-				type: "item"
-			}]
-			x: 8.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["65770B9D543F2DA4"]
-			id: "7C8CE349A4DFA896"
-			tasks: [{
-				id: "369332FB97097461"
-				item: "mob_catcher:mob_catcher_hostile"
-				type: "item"
-			}]
-			x: 9.5d
-			y: -11.0d
+			x: 6.0d
+			y: -1.0d
 		}
 		{
 			hide: true
@@ -1722,8 +1504,8 @@
 				}
 				type: "item"
 			}]
-			x: 15.5d
-			y: -10.5d
+			x: 7.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["7ED80E23D474D265"]
@@ -1739,8 +1521,8 @@
 				}
 				type: "item"
 			}]
-			x: 16.5d
-			y: -10.5d
+			x: 7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4814F4879410D9B5"]
@@ -1756,8 +1538,8 @@
 				}
 				type: "item"
 			}]
-			x: 17.5d
-			y: -10.5d
+			x: 7.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2189767E9CECC6F6"]
@@ -1773,8 +1555,8 @@
 				}
 				type: "item"
 			}]
-			x: 18.5d
-			y: -10.5d
+			x: 7.0d
+			y: -8.0d
 		}
 		{
 			hide: true
@@ -1785,7 +1567,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -3.0d
+			y: -5.0d
 		}
 		{
 			hide: true
@@ -1796,7 +1578,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			hide: true
@@ -1816,19 +1598,19 @@
 				}
 				type: "item"
 			}]
-			x: 6.5d
-			y: -8.5d
+			x: 3.0d
+			y: -3.0d
 		}
 		{
 			hide: true
 			id: "0DFA97DD1050FBBE"
 			tasks: [{
 				id: "1A7DFFBC17E84F64"
-				item: "heartytrinkets:canister_belt"
+				item: "bhc:heart_amulet"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -2.8d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0DFA97DD1050FBBE"]
@@ -1836,23 +1618,23 @@
 			id: "42CF952E2E03C5BA"
 			tasks: [{
 				id: "191FFE179428EDCE"
-				item: "heartytrinkets:red_heart_canister"
+				item: "bhc:red_heart_canister"
 				type: "item"
 			}]
-			x: 9.0d
-			y: -2.8d
+			x: -1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["42CF952E2E03C5BA"]
-			description: ["Kill the Wither to obtain Orange Hearts!"]
+			description: ["Kill the Wither to obtain Yellow Hearts!"]
 			id: "080A364E2B378866"
 			tasks: [{
 				id: "7A86074B4B4D7F08"
-				item: "heartytrinkets:orange_heart_canister"
+				item: "bhc:yellow_heart_canister"
 				type: "item"
 			}]
-			x: 10.0d
-			y: -2.8d
+			x: 0.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["080A364E2B378866"]
@@ -1860,11 +1642,11 @@
 			id: "165AF8207FC38EC5"
 			tasks: [{
 				id: "26708F4E304CC0FF"
-				item: "heartytrinkets:green_heart_canister"
+				item: "bhc:green_heart_canister"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -2.8d
+			x: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["165AF8207FC38EC5"]
@@ -1872,11 +1654,11 @@
 			id: "62AD919A3ED451D6"
 			tasks: [{
 				id: "35E3F242D3F8D697"
-				item: "heartytrinkets:blue_heart_canister"
+				item: "bhc:blue_heart_canister"
 				type: "item"
 			}]
-			x: 12.0d
-			y: -2.8d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			description: ["Use this item to respawn your fallen Pets when Sleeping"]
@@ -1887,8 +1669,8 @@
 				item: "respawnablepets:etheric_gem"
 				type: "item"
 			}]
-			x: 7.0d
-			y: -7.5d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["26695012CDC18506"]
@@ -1898,7 +1680,7 @@
 				item: "moblassos:aqua_lasso"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 4.5d
 			y: -10.0d
 		}
 		{
@@ -1909,8 +1691,81 @@
 				item: "moblassos:emerald_lasso"
 				type: "item"
 			}]
-			x: 5.0d
+			x: 4.0d
 			y: -11.0d
+		}
+		{
+			id: "710E5F883A209020"
+			tasks: [{
+				id: "0ED100A38BEEC3ED"
+				item: {
+					Count: 1b
+					id: "enderchests:ender_bag"
+					tag: {
+						code: "000"
+						open: 0b
+						owner: "all"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			hide: true
+			id: "0125EE93671F040C"
+			tasks: [{
+				id: "339E9AC5D44AAD72"
+				item: "kibe:obsidian_sand"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0125EE93671F040C"]
+			id: "55883EF2E3BBE1C1"
+			tasks: [{
+				id: "2E7E81FB62EE93B6"
+				item: "kibe:wither_proof_sand"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55883EF2E3BBE1C1"]
+			id: "69A24311221CF697"
+			tasks: [{
+				id: "2E4E6772F9CD3F2F"
+				item: "mysticalagriculture:witherproof_glass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A939BE79E6C92E0"]
+			id: "0077D2E8BAAB27A0"
+			tasks: [{
+				id: "0B0EE4CB9D54DD1C"
+				item: "industrialforegoing:wither_builder"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			hide: true
+			id: "6A939BE79E6C92E0"
+			tasks: [{
+				id: "55AEF196FCCBAC7B"
+				item: "mysticalagriculture:witherproof_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 	title: "&7Miscellaneous"

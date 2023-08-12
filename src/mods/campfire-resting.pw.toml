@@ -1,0 +1,13 @@
+name = "Campfire Resting"
+filename = "Campfire_Resting1.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d54365f31b09cfea33d250685f496b2db2580f3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4668493
+project-id = 815483

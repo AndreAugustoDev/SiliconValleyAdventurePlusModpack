@@ -5,7 +5,7 @@
 	group: "1039AC171AB01709"
 	icon: "elementalcraft:purecrystal"
 	id: "4351A2B2F092D7AF"
-	order_index: 12
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

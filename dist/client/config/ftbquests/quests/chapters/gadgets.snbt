@@ -9,7 +9,7 @@
 		tag: { }
 	}
 	id: "1A4F10DE5B83BC2A"
-	order_index: 14
+	order_index: 13
 	quest_links: [ ]
 	quests: [
 		{
@@ -685,10 +685,10 @@
 			hide_dependency_lines: true
 			id: "31CB830D5B0EF30E"
 			rewards: [{
-				count: 5
-				id: "2DEB35027B40F9FE"
-				item: "lootbundles:loot_bundle"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "40136655CB33877C"
+				table_id: 487623848494439020L
+				type: "random"
 			}]
 			shape: "hexagon"
 			size: 2.5d

@@ -5,11 +5,11 @@
 	group: "0815C5D80307ECDF"
 	icon: "industrialforegoing:common_black_hole_unit"
 	id: "193F91842D2ED7D9"
-	order_index: 6
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["Welcome to &aIndustrial Foregoing&f!"]
+			description: ["&9Industrial Foregoing&r provides a wide range of machines to automate various farming related tasks. From growing plants and breeding animals, to duplicating mobs and drilling for resources."]
 			icon: {
 				Count: 1b
 				id: "patchouli:guide_book"
@@ -50,15 +50,18 @@
 				id: "1997E42FA9EA414C"
 				type: "checkmark"
 			}]
+			title: "Welcome to &aIndustrial Foregoing&f!"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
 			description: [
-				"Extracts latex from logs."
+				"The &aFluid Extractor&r slowly &6drains the fluids from blocks placed in front of it&r, such as logs. Power is optional but will speed up the machine dramatically."
 				""
-				"Check JEI for acceptable logs and latex amounts."
+				"This is the primary source of &aLatex&r used to make &aRubber&r, a vital resource used throughout the mod."
+				""
+				"Check &dEMI&r for acceptable &blogs and latex amounts&r."
 			]
 			id: "0EC2053B191C55C6"
 			rewards: [{
@@ -71,11 +74,12 @@
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["55820773BDD5319D"]
+			description: ["A &aPity Machine Frame&r used in almost every &9IF&r machine."]
 			id: "6E616DB197387C86"
 			rewards: [{
 				id: "31C7A99204AFBBF7"
@@ -88,11 +92,16 @@
 				item: "industrialforegoing:machine_frame_pity"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
+			description: [
+				"A low-tiered generator that produces a low amount of FE at a pretty slow rate."
+				""
+				"&o(Can store up to 100,000 FE internally.)"
+			]
 			id: "33532408B21A5378"
 			optional: true
 			rewards: [{
@@ -106,8 +115,8 @@
 				item: "industrialforegoing:pitiful_generator"
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["321FA7348E532F4E"]
@@ -122,8 +131,8 @@
 				item: "industrialforegoing:latex_processing_unit"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6E616DB197387C86"]
@@ -156,7 +165,7 @@
 			]
 			title: "Item \\& Fluid Transport"
 			x: 1.5d
-			y: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0EC2053B191C55C6"]
@@ -235,8 +244,8 @@
 				item: "industrialforegoing:latex_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.0d
+			x: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6FF04DD735346BED"]
@@ -251,11 +260,16 @@
 				item: "industrialforegoing:dryrubber"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0EA9E52B67B533DF"]
+			description: [
+				"&aPlastic&r is a critical resource for many endeavors in &9Industrial Foregoing&r."
+				""
+				"Processing it down from &aLatex&r will take some time, however, so setting up some &ebasic automation&r is going to be helpful in the long run. "
+			]
 			id: "690CFF61CE787D43"
 			rewards: [{
 				count: 5
@@ -269,8 +283,8 @@
 				item: "industrialforegoing:plastic"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 0.0d
+			x: 0.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["690CFF61CE787D43"]
@@ -1640,43 +1654,6 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["1ABAC3F1FBB01AA9"]
-			description: ["The Fluid Extractor slowly drains the fluids from blocks placed in front of it, such as logs. Power is optional but will speed up the machine dramatically. This is the primary source of Latex used to make Rubber, a vital resource used throughout the mod. "]
-			id: "000000000000004B"
-			rewards: [{
-				count: 32
-				id: "0000000000000628"
-				item: "minecraft:acacia_log"
-				title: "Acacia Log"
-				type: "item"
-			}]
-			subtitle: "A Matter of Time"
-			tasks: [{
-				id: "000000000000004C"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "industrialforegoing:fluid_extractor"
-							}
-							{
-								Count: 1b
-								id: "thermal:device_tree_extractor"
-							}
-						]
-					}
-				}
-				title: "Fluid Extractor"
-				type: "item"
-			}]
-			x: 28.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["000000000000004B"]
 			description: ["By providing water, latex, and some energy, the Latex Processing Unit can reduce liquid latex down into Tiny Dry Rubber, which may then be processed further into Plastic."]
 			id: "000000000000004F"
 			rewards: [{
@@ -2618,27 +2595,6 @@
 			}]
 			x: 30.5d
 			y: 4.0d
-		}
-		{
-			dependencies: ["000000000000004A"]
-			description: ["Plastic is a critical resource for many endeavors in Industrial Foregoing. Processing it down from Latex will take some time, however, so setting up some basic automation is going to be helpful in the long run. "]
-			icon: "industrialforegoing:plastic"
-			id: "1ABAC3F1FBB01AA9"
-			rewards: [{
-				count: 8
-				id: "09CE215EADB18D6A"
-				item: "minecraft:acacia_sapling"
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "6EBED7E976CA0FB3"
-				item: "industrialforegoing:machine_frame_pity"
-				type: "item"
-			}]
-			title: "Getting Started: Latex Processing"
-			x: 28.5d
-			y: 0.0d
 		}
 		{
 			dependencies: ["000000000000004A"]

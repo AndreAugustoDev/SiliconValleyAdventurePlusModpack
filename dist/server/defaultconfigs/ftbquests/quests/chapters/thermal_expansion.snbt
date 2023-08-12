@@ -5,7 +5,7 @@
 	group: "0815C5D80307ECDF"
 	icon: "thermal_extra:upgrade_augment"
 	id: "6846D35C627A7491"
-	order_index: 7
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

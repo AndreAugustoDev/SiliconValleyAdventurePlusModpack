@@ -1,0 +1,13 @@
+name = "CreeperHost Presents Chickens"
+filename = "chickensmod-1.19.2-1.0.32.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5b36c768ee07b1f0447da44f2ee87308a7c05e6a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4519845
+project-id = 620563

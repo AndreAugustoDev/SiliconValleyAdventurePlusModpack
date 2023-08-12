@@ -22,25 +22,30 @@
 		{
 			id: "5584DE65020A502A"
 			linked_quest: "65B474E06E52C196"
-			x: 1.5d
-			y: -2.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			id: "4063F0E2A671ADE7"
 			linked_quest: "0682DC1F2417DAEB"
-			x: -1.0d
-			y: -1.0d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			id: "718E0700BA5D248A"
 			linked_quest: "31FF51CECF71BD12"
-			x: -1.0d
-			y: -3.0d
+			x: -2.0d
+			y: -2.0d
 		}
 	]
 	quests: [
 		{
-			hide_dependency_lines: true
+			dependencies: ["00000000000003FF"]
+			description: [
+				"&aDimensional Chests&r and &aDimensional Tanks&r works across &bdimensions&r to transport &bitems&r and &bfluids&r."
+				""
+				"You can &6configure a frequency&r to access the corresponding inventory in &eany dimension&r."
+			]
 			id: "472CE719FAFBB92F"
 			rewards: [
 				{
@@ -74,8 +79,8 @@
 				}
 			]
 			title: "Dimensional Storage"
-			x: 2.0d
-			y: -1.0d
+			x: -2.0d
+			y: 2.0d
 		}
 		{
 			description: ["Vanilla Stuff"]
@@ -100,7 +105,7 @@
 			]
 			title: "Vanilla"
 			x: -2.0d
-			y: -0.5d
+			y: -3.0d
 		}
 		{
 			hide_dependency_lines: true
@@ -134,7 +139,7 @@
 			]
 			title: "Mekanism Storage"
 			x: 2.0d
-			y: -3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6B639160FD560CC1"]
@@ -151,7 +156,7 @@
 				type: "checkmark"
 			}]
 			title: "QIO Drive Array"
-			x: 2.5d
+			x: 3.0d
 			y: -2.0d
 		}
 		{
@@ -169,8 +174,8 @@
 				type: "item"
 			}]
 			title: "Vanilla+"
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			description: ["Go to the &aRefined Storage&f quest chapter for more on this mod."]
@@ -182,8 +187,8 @@
 				type: "item"
 			}]
 			title: "Refined Storage"
-			x: -1.0d
-			y: -4.0d
+			x: 1.0d
+			y: -3.0d
 		}
 		{
 			description: ["Go to the &aApplied Energistics 2&f quest chapter for more on this mod."]
@@ -195,152 +200,11 @@
 				type: "item"
 			}]
 			title: "Applied Energistics 2"
-			x: 1.0d
-			y: -4.0d
-		}
-		{
-			description: [
-				"All &bEnder Chests&r of the same &6frequency&r share an inventory, which can be accessed manually or automatically."
-				""
-				"Use &6dyes&r on the three notches on the top to set the frequency. Using a Diamond on the latch will move it to your own network."
-				""
-				"A W/W/W on your network is only connected to other W/W/Ws on your network, not W/W/Ws on the global network or on other players' networks."
-			]
-			id: "7D5D211C0C3A017A"
-			min_width: 250
-			rewards: [{
-				id: "1E45A1C69BCC9296"
-				item: "enderstorage:ender_chest"
-				type: "item"
-			}]
-			subtitle: "Older than Vanilla's"
-			tasks: [{
-				id: "57BA8F509231EF1E"
-				item: "enderstorage:ender_chest"
-				type: "item"
-			}]
-			x: -2.5d
-			y: -2.0d
-		}
-		{
-			description: [
-				"All &bEnder Tanks&r of the same &6frequency&r share a tank."
-				""
-				"Use &6dyes&r on the three notches on the top to set the frequency. Using a Diamond on the latch will move it to your own network."
-			]
-			id: "497323BE8FD3B825"
-			rewards: [{
-				id: "755C38FF136A38A4"
-				item: "enderstorage:ender_tank"
-				type: "item"
-			}]
-			subtitle: "Liquiportation"
-			tasks: [{
-				id: "363238A5385410D0"
-				item: "enderstorage:ender_tank"
-				type: "item"
-			}]
-			x: -2.5d
+			x: 0.0d
 			y: -3.0d
 		}
 		{
-			description: [
-				"&eMetal Barrels&r add several tiers of, well, metal Barrels. Storing in Barrels is nice as they &6do not need open space above&r to open."
-				""
-				"Higher tier Barrels can store more items. Metal Barrels have the same storage space as the Iron Chest of the same material, as well."
-			]
-			icon: "metalbarrels:copper_barrel"
-			id: "3FC2244B7FE7C3A1"
-			subtitle: "Larger on the interior"
-			tasks: [{
-				id: "3E0F044B4025B08D"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "metalbarrels:copper_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:iron_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:gold_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:diamond_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:obsidian_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:silver_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:crystal_barrel"
-							}
-							{
-								Count: 1b
-								id: "metalbarrels:netherite_barrel"
-							}
-						]
-					}
-				}
-				title: "Metal Barrels"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -2.5d
-		}
-		{
-			dependencies: ["3FC2244B7FE7C3A1"]
-			description: ["These &bConversion Upgrades&r can be used to &6upgrade a Barrel's tier&r."]
-			icon: "metalbarrels:wood_to_crystal"
-			id: "289CC416E3FC99B6"
-			tasks: [{
-				id: "323B1F127BEBE359"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "barrel.*_to_"
-					}
-				}
-				title: "Metal Barrel Conversion Upgrades"
-				type: "item"
-			}]
-			x: 5.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["37FC7216C7912F45"]
-			description: ["These &bConversion Upgrades&r can be used to &6upgrade a Chest's tier&r."]
-			icon: "ironchest:wood_to_iron_chest_upgrade"
-			id: "06D50A7ECF5CF824"
-			tasks: [{
-				id: "48F7DA3CBDBCBF40"
-				item: {
-					Count: 1b
-					id: "itemfilters:id_regex"
-					tag: {
-						value: "ironchest.*upgrade"
-					}
-				}
-				title: "Iron Chest Conversion Upgrades"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -1.5d
-		}
-		{
+			dependencies: ["00000000000003FF"]
 			description: ["Basic chests will only get you so far in this modpack, as there are thousands of unique items, and you will quickly find yourself drowning in a sea of chests to sort. Luckily, there are mods included in this modpack which make sorting your treasures (and junk) much easier."]
 			id: "4D1B105EE54EDEAF"
 			rewards: [{
@@ -353,11 +217,14 @@
 				item: "minecraft:chest"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 2.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["4D1B105EE54EDEAF"]
+			dependencies: [
+				"4D1B105EE54EDEAF"
+				"00000000000003FF"
+			]
 			description: ["Cloud Storage can take some time to acquire the required materials, however it offers a very flexible storage system. Want one large storage network? Several smaller ones? Several large, seperate networks? Cloud storage can do it all - just be sure you aren't afraid of heights!"]
 			icon: "cloudstorage:cloud_chest"
 			id: "6578C82B120DE0EA"
@@ -367,15 +234,14 @@
 				item: "cloudstorage:guide_book"
 				type: "item"
 			}]
-			size: 1.5d
 			tasks: [{
 				id: "7F2BD0E1BBFBF5C1"
 				title: "Read"
 				type: "checkmark"
 			}]
 			title: "Cloud Storage"
-			x: 3.75d
-			y: 0.0d
+			x: 2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["6578C82B120DE0EA"]
@@ -391,8 +257,8 @@
 				item: "cloudstorage:balloon"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.0d
+			x: 3.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["34A5470646A4CE63"]
@@ -409,8 +275,8 @@
 				item: "cloudstorage:cloud_chest"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5209737ECC6EC599"]
@@ -439,59 +305,8 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			description: ["&eIron Chests&r adds several tiers of &bChests&r, each holding more than the last."]
-			icon: "ironchest:iron_chest"
-			id: "37FC7216C7912F45"
-			rewards: [{
-				count: 2
-				id: "200C29ED9B6FCE60"
-				item: "ironchest:wood_to_iron_chest_upgrade"
-				type: "item"
-			}]
-			subtitle: "Bigger on the inside"
-			tasks: [{
-				id: "0723D12D3E358858"
-				item: {
-					Count: 1b
-					id: "itemfilters:or"
-					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "ironchest:copper_chest"
-							}
-							{
-								Count: 1b
-								id: "ironchest:iron_chest"
-							}
-							{
-								Count: 1b
-								id: "ironchest:gold_chest"
-							}
-							{
-								Count: 1b
-								id: "ironchest:diamond_chest"
-							}
-							{
-								Count: 1b
-								id: "ironchest:crystal_chest"
-							}
-							{
-								Count: 1b
-								id: "ironchest:obsidian_chest"
-							}
-						]
-					}
-				}
-				title: "Iron Chests"
-				type: "item"
-			}]
 			x: 4.0d
-			y: -2.5d
+			y: 1.0d
 		}
 		{
 			description: [
@@ -508,57 +323,23 @@
 				title: "Modern Industrialization"
 				type: "checkmark"
 			}]
-			x: 3.0d
+			x: 2.0d
 			y: -3.0d
 		}
 		{
-			description: [
-				"Backpacks for increased inventory"
-				""
-				"Chests for mass storage"
-				""
-				"Barrels for buffers in automation or so you can access its inventory in tight spots."
-				""
-				"Danks for automatic portable storage and dynamic inventory block placement."
-			]
-			id: "50C1B805B85C0EE1"
-			subtitle: "Learn about the basics of storage."
-			tasks: [{
-				id: "20B5836B8EF717D6"
-				title: "Basic Storage"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -4.5d
-		}
-		{
+			dependencies: ["00000000000003FF"]
 			description: [
 				"The &bPocket Dimension Backpack&r is a technological marvel. It creates a portable hole into another dimension to store your things."
 				""
 				"In essence, it's a &6double chest you can wear&r on your back. Access it with &6control+e&r."
 			]
 			id: "71A249AB64458769"
-			rewards: [
-				{
-					id: "2785E41FDC91F101"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 9
-							}
-						}
-						id: "cyclic:crafting_bag"
-					}
-					type: "item"
-				}
-				{
-					id: "57FB4E07471762AB"
-					item: "statues:mooshroom_soup"
-					type: "item"
-				}
-			]
+			rewards: [{
+				count: 2
+				id: "0CA49872A5D7C848"
+				item: "technobauble:flux_crystal"
+				type: "item"
+			}]
 			subtitle: "It's Bigger on the Inside!"
 			tasks: [{
 				id: "2F0832CA61A7381C"
@@ -571,22 +352,28 @@
 				}
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.5d
+			x: -2.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["00000000000003FF"]
 			description: [
-				"Color coded ender storage."
+				"&bChests&r and &bTanks&r that work across &bdimensions&r."
 				""
-				"Chests that work across dimensions."
+				"All &bEnder Chests&r of the same &6frequency&r share an inventory, which can be accessed manually or automatically."
 				""
-				"Can be color coded for security! (Right click on the block with the desired dye)."
+				"All &bEnder Tanks&r of the same &6frequency&r share a tank."
 				""
-				"*Note: If someone else uses your color combination, they can get the contents!"
+				"Use &6dyes&r on the three notches on the top to set the frequency."
+				""
+				"If someone else uses your color combination, they can get the contents!"
+				""
+				"Using a &aDiamond&r on the latch will move it to your own network, making it private so only you can access it."
+				""
+				"&eA W/W/W on your network is only connected to other W/W/Ws on your network, not W/W/Ws on the global network or on other players' networks.&r"
 			]
-			hide_dependency_lines: true
 			id: "13BD76F021286C41"
+			min_width: 300
 			rewards: [
 				{
 					id: "4816672622D82D9A"
@@ -625,6 +412,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "&dColor coded ender storage."
 			tasks: [
 				{
 					id: "7208567893B0A680"
@@ -652,13 +440,12 @@
 				}
 			]
 			title: "Ender Storage"
-			x: -1.5d
-			y: -2.0d
+			x: -2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["00000000000003FF"]
 			description: ["A way to destroy unwanted items, liquid, and power."]
-			hide_dependency_lines: true
 			id: "6DA4D5F38099949C"
 			rewards: [
 				{
@@ -691,10 +478,11 @@
 				}
 			]
 			title: "Trash Cans"
-			x: 0.0d
-			y: -3.5d
+			x: -1.0d
+			y: -3.0d
 		}
 		{
+			dependencies: ["00000000000003FF"]
 			description: [
 				"Looking to create virtual storage using &9Refined Storage&r or &9Applied Energistics 2&r?"
 				""
@@ -742,12 +530,11 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00000000000003FF"]
 			description: ["The &bEnchantment Library&r can &6store tons of Enchanted Books&r, and retrieve the enchantments individually in &6any level&r."]
-			hide_dependency_lines: true
 			id: "68B87680E9AC44E5"
 			rewards: [
 				{
@@ -768,51 +555,8 @@
 				item: "apotheosis:library"
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.0d
-		}
-		{
-			description: [
-				"The &bPocket Dimension Backpack&r is a technological marvel. It creates a portable hole into another dimension to store your things."
-				""
-				"In essence, it's a &6double chest you can wear&r on your back. Access it with &6control+e&r."
-			]
-			id: "5F379E1FE83029A7"
-			rewards: [
-				{
-					id: "019EE862130E6211"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Items: [ ]
-								Size: 9
-							}
-						}
-						id: "cyclic:crafting_bag"
-					}
-					type: "item"
-				}
-				{
-					id: "7F79622224121D67"
-					item: "statues:mooshroom_soup"
-					type: "item"
-				}
-			]
-			subtitle: "It's Bigger on the Inside!"
-			tasks: [{
-				id: "750F2D521093E99B"
-				item: {
-					Count: 1b
-					id: "technobauble:backpack"
-					tag: {
-						Inventory: [ ]
-					}
-				}
-				type: "item"
-			}]
-			x: 6.0d
-			y: -1.5d
+			x: 2.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -834,6 +578,14 @@
 				"● $containers/energy"
 				"● $containers/gas"
 				"● $containers/liquid"
+				"{@pagebreak}"
+				"Backpacks for increased inventory"
+				""
+				"Chests for mass storage"
+				""
+				"Barrels for buffers in automation or so you can access its inventory in tight spots."
+				""
+				"Danks for automatic portable storage and dynamic inventory block placement."
 			]
 			icon: "minecraft:chest"
 			id: "00000000000003FF"
@@ -845,6 +597,7 @@
 			}]
 			shape: "gear"
 			size: 2.0d
+			subtitle: "Learn about the basics of storage."
 			tasks: [{
 				id: "0000000000000400"
 				title: "Storage"
@@ -852,10 +605,13 @@
 			}]
 			title: "Storage"
 			x: 0.0d
-			y: -2.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["0000000000000400"]
+			dependencies: [
+				"0000000000000400"
+				"00000000000003FF"
+			]
 			description: ["Forgot where you left your precious diorite? Mouse over some in your inventory or JEI and press Y to locate it in nearby inventories. "]
 			icon: "naturesaura:range_visualizer"
 			id: "01BF5707AD226BDF"
@@ -864,11 +620,14 @@
 				type: "checkmark"
 			}]
 			title: "Find Me"
-			x: 1.0d
-			y: 0.0d
+			x: 2.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["0000000000000400"]
+			dependencies: [
+				"0000000000000400"
+				"00000000000003FF"
+			]
 			description: [
 				"Looking for a handy place to store your hammer at the forge? Tired of rummaging through chest after chest for that gear press? Place them in world instead!"
 				""
@@ -877,20 +636,17 @@
 			icon: "create:brass_hand"
 			id: "146A00EABB0BAD60"
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-				icon: "kubejs:farmers_delight"
-				id: "2D1E55B5A92B9F94"
-				player_command: false
-				title: "Farmer's Delight"
-				type: "command"
+				id: "6E0069CA35CBE3C4"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "000000000000040E"
 				type: "checkmark"
 			}]
 			title: "Plonk"
-			x: -1.0d
-			y: 0.0d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -914,7 +670,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0AD2769DC173D26D"]
@@ -928,14 +684,6 @@
 			icon: "compactmachines:machine_tiny"
 			id: "3787A109AABC8921"
 			min_width: 250
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "3E2CA8D755178794"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
 			subtitle: "One, cut a hole in a box"
 			tasks: [{
 				icon: "compactmachines:machine_small"
@@ -976,7 +724,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3787A109AABC8921"]
@@ -988,14 +736,6 @@
 				"Of course, many other options exist for getting stuff in and out as well."
 			]
 			id: "5511E0236BA3BDCA"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "526E10A2F22FF97C"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
 			subtitle: "Two, stick your junk in that box"
 			tasks: [{
 				id: "2D8BF6B60DE16FC8"
@@ -1038,7 +778,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1051,14 +791,6 @@
 			]
 			id: "662DA1135F00D6B6"
 			min_width: 300
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "44BA68CC5061BD0A"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
 			subtitle: "Wouldn't you think my collection's complete?"
 			tasks: [{
 				id: "0B58FB5EED4BBC33"
@@ -1066,8 +798,8 @@
 				type: "item"
 			}]
 			title: "Dimensional Storage"
-			x: 0.0d
-			y: 0.5d
+			x: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0000000000000400"]
@@ -1115,7 +847,7 @@
 				type: "item"
 			}]
 			title: "Applied Energetics 2"
-			x: 2.0d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -1131,7 +863,6 @@
 				""
 				"To bind a block to the Entangled Block, Sneak Right-Click the target block with the Entangled Binder. Then simply Right-Click a placed Entangled Block. The target block will render inside of the Entangled Block when properly bound. "
 			]
-			hide_dependency_lines: true
 			icon: {
 				Count: 1b
 				id: "entangled:block"
@@ -1140,12 +871,9 @@
 			id: "0FB7A6E25F2D548C"
 			min_width: 300
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
-				icon: "kubejs:sorcerers_delight"
-				id: "54930DB1BCAFFAFC"
-				player_command: false
-				title: "Sorcerer's Delight"
-				type: "command"
+				id: "650E34D0E784739F"
+				type: "xp"
+				xp: 10
 			}]
 			subtitle: "Trading Places"
 			tasks: [
@@ -1168,8 +896,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: 1.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["00000000000003FF"]
@@ -1198,14 +926,6 @@
 			}
 			id: "025C09686412AB3D"
 			min_width: 250
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "683A154EC6984812"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
-			}]
 			tasks: [
 				{
 					icon: {
@@ -1261,7 +981,7 @@
 			]
 			title: "Nomadic Tents"
 			x: -3.5d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -1301,7 +1021,7 @@
 				type: "checkmark"
 			}]
 			x: -3.5d
-			y: 2.0d
+			y: 0.0d
 		}
 	]
 	title: "Storage"

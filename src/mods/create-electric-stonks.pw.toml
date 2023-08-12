@@ -3,11 +3,11 @@ filename = "create-electric-stonks-1.19.2-1.2.5.jar"
 side = "both"
 
 [download]
+url = "https://cdn.modrinth.com/data/zQkTIKk3/versions/aliEyHkK/create-electric-stonks-1.19.2-1.2.5.jar"
 hash-format = "sha1"
 hash = "b20f6cf5253074ac5c1ac2bb2d7c1ed5d864320b"
-mode = "metadata:curseforge"
 
 [update]
-[update.curseforge]
-file-id = 4606683
-project-id = 709112
+[update.modrinth]
+mod-id = "zQkTIKk3"
+version = "aliEyHkK"

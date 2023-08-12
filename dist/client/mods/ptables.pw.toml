@@ -1,0 +1,13 @@
+name = "Portable Tables"
+filename = "portabletables-forge-1.19.2-2.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/n7CI2ifG/versions/2ApZtT1a/portabletables-forge-1.19.2-2.3.jar"
+hash-format = "sha1"
+hash = "868963779a13e971a40369ce5bac37bd4c93a0f9"
+
+[update]
+[update.modrinth]
+mod-id = "n7CI2ifG"
+version = "2ApZtT1a"

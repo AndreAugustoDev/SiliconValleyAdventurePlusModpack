@@ -116,21 +116,17 @@
 				"The Mystical Dagger is used to break Dragon Heads down to Dragon Scales."
 				""
 				"When killing mobs with it with a test tube in your inventory, it will also collect blood."
+				""
+				"{@pagebreak}"
+				"Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "
+				"Hint: Look for those shipyards from Dungeons Arise, I heard rumor the runners a head hunters. "
 			]
 			id: "09CCC797BF15ADFC"
-			rewards: [
-				{
-					count: 2
-					id: "2C512ADAEFB4975C"
-					item: "forbidden_arcanus:arcane_gold_ingot"
-					type: "item"
-				}
-				{
-					id: "26033F1665B5FFD2"
-					type: "xp"
-					xp: 100
-				}
-			]
+			rewards: [{
+				id: "26033F1665B5FFD2"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "3CCC73D361A4A5D6"
 				item: {
@@ -884,7 +880,7 @@
 			description: [
 				"The Dragon Scale can be made into a Golden and Aquatic Dragon Scales."
 				""
-				"These are mainly used to craft &dTyr Armor&r. It is also needed in the ATM Star recipe."
+				"These are mainly used to craft &dTyr Armor&r."
 			]
 			id: "744A01000E086CC9"
 			rewards: [
@@ -901,6 +897,7 @@
 					xp: 100
 				}
 			]
+			subtitle: "Expensive variants of dragon scales"
 			tasks: [
 				{
 					id: "332B4C94EE4AAB00"
@@ -912,7 +909,13 @@
 					item: "forbidden_arcanus:aquatic_dragon_scale"
 					type: "item"
 				}
+				{
+					id: "680F941E09CEA22E"
+					item: "forbidden_arcanus:silver_dragon_scale"
+					type: "item"
+				}
 			]
+			title: "Fancy Scales"
 			x: 4.5d
 			y: 7.0d
 		}
@@ -1087,30 +1090,6 @@
 			title: "&5Tyr Armor"
 			x: 4.5d
 			y: 8.5d
-		}
-		{
-			dependencies: ["24261D6C5C5A6CB4"]
-			description: [
-				"To create the &6ATM Star&r, you'll need several items from Forbidden and Arcanus."
-				""
-				"You'll need a Dark Soul, a Golden Dragon Scale, and an Arcane Dragon Egg."
-			]
-			id: "64504CF324723E1B"
-			rewards: [{
-				id: "6AFDDB9BED9DCE31"
-				type: "xp"
-				xp: 100
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			tasks: [{
-				icon: "allthetweaks:dragon_soul"
-				id: "697942E4A47F91C5"
-				title: "Dragon Soul"
-				type: "checkmark"
-			}]
-			x: 9.5d
-			y: 7.0d
 		}
 		{
 			dependencies: ["744A01000E086CC9"]
@@ -1325,11 +1304,13 @@
 					xp: 100
 				}
 			]
+			subtitle: "Anjelica grew up to be a dark mage. "
 			tasks: [{
 				id: "0FCB0911BA208C40"
 				item: "forbidden_arcanus:dark_matter"
 				type: "item"
 			}]
+			title: "Dark Matter for Babies"
 			x: -8.5d
 			y: 7.5d
 		}
@@ -1398,7 +1379,11 @@
 		}
 		{
 			dependencies: ["0C6719D81DE5A614"]
-			description: ["Souls are gathered by creating a &9Soul Extractor&r, and then using it on Soul Sand."]
+			description: [
+				"&bSouls&r are gathered by creating a &aSoul Extractor&r, and then using it on &aSoul Sand&r."
+				""
+				"Leaves you with &aSoulless Sand&r, which makes some interesting sandstone blocks for decoration. "
+			]
 			icon: "forbidden_arcanus:soul"
 			id: "788A3685A7D07E75"
 			rewards: [
@@ -1439,8 +1424,13 @@
 					item: "forbidden_arcanus:soul"
 					type: "item"
 				}
+				{
+					id: "74BD00761979DEF7"
+					item: "forbidden_arcanus:soulless_sand"
+					type: "item"
+				}
 			]
-			title: "&dSouls"
+			title: "&dGhostbusters!"
 			x: 4.0d
 			y: 3.5d
 		}
@@ -1591,6 +1581,7 @@
 			]
 			shape: "square"
 			size: 1.5d
+			subtitle: "Eternally yours, or is it."
 			tasks: [{
 				id: "662F567369FBB0AD"
 				item: {
@@ -1863,8 +1854,8 @@
 				}
 			]
 			title: "Forbidden and Arcanus - Plant Hunt"
-			x: -11.0d
-			y: 9.5d
+			x: -6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["03436DE1D931968A"]
@@ -1912,48 +1903,10 @@
 				}
 			]
 			title: "Orespawn? "
-			x: -11.0d
-			y: 10.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
-			dependencies: ["00E478AA3D7C64E3"]
-			description: ["Mundabitur dust, corrupti dust, arcane crystal dust. Very important dust, yes. "]
-			id: "201A4714F2CBE385"
-			rewards: [
-				{
-					id: "580613A50D523FF9"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "753D18FD05DA64FB"
-					item: "tombstone:dust_of_vanishing"
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "2E3BE288E645ED08"
-					item: "forbidden_arcanus:arcane_crystal_dust"
-					type: "item"
-				}
-				{
-					id: "0AB9A9B70F8D9270"
-					item: "forbidden_arcanus:mundabitur_dust"
-					type: "item"
-				}
-				{
-					id: "6929E383F8E0384F"
-					item: "forbidden_arcanus:corrupti_dust"
-					type: "item"
-				}
-			]
-			title: "Dusting the Shelves"
-			x: -10.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["201A4714F2CBE385"]
 			description: ["You need mundabitur dust and gold to make arcane gold. This is required in many recipes. You can combine it with that yellow orchid from earlier to get golden orchid seeds. On harvest, that gives you arcane gold nuggets. "]
 			id: "2B299C8A04D83DE1"
 			rewards: [
@@ -1974,8 +1927,8 @@
 				item: "forbidden_arcanus:arcane_gold_ingot"
 				type: "item"
 			}]
-			x: -10.0d
-			y: 11.0d
+			x: -5.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2B299C8A04D83DE1"]
@@ -1999,8 +1952,8 @@
 					type: "item"
 				}
 			]
-			x: -11.0d
-			y: 11.5d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["2196B532B3253599"]
@@ -2026,138 +1979,10 @@
 				}
 			]
 			title: "The nether ain't got nothing on me!"
-			x: -12.5d
-			y: 11.5d
+			x: -7.5d
+			y: 8.5d
 		}
 		{
-			dependencies: ["2B299C8A04D83DE1"]
-			description: ["Smelt edelwood logs for dark matter. This is needed in other recipes. "]
-			id: "62F928485451ED41"
-			rewards: [{
-				id: "30850630AA05D298"
-				type: "xp"
-				xp: 100
-			}]
-			subtitle: "Anjelica grew up to be a dark mage. "
-			tasks: [{
-				id: "1618BD2E61BEE9DF"
-				item: "forbidden_arcanus:dark_matter"
-				type: "item"
-			}]
-			title: "Dark Matter for Babies"
-			x: -9.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["62F928485451ED41"]
-			description: [
-				"Dragon scales are crafted by using a mystical dagger with a dragon head for three scales. Craft a mystical dagger, and get scales. "
-				"Hint: Look for those shipyards from Dungeons Arise, I heard rumor the runners a head hunters. "
-			]
-			icon: {
-				Count: 1b
-				id: "forbidden_arcanus:mystical_dagger"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "05C41CD3BEAA832D"
-			tasks: [
-				{
-					count: 3L
-					id: "4A0ABD6B1DCC50C8"
-					item: "forbidden_arcanus:dragon_scale"
-					type: "item"
-				}
-				{
-					id: "25F2A57E70C38CD9"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:mystical_dagger"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "7682A7D07FFEAFFA"
-					item: "minecraft:dragon_head"
-					type: "item"
-				}
-			]
-			title: "Scales?"
-			x: -9.0d
-			y: 11.0d
-		}
-		{
-			dependencies: ["05C41CD3BEAA832D"]
-			description: ["Expensive variants of dragon scales. Used in armor recipes, and in the ATM star."]
-			icon: "forbidden_arcanus:golden_dragon_scale"
-			id: "2DAFF12AF12935C4"
-			tasks: [
-				{
-					id: "73752D7CD4333F9E"
-					item: "forbidden_arcanus:golden_dragon_scale"
-					type: "item"
-				}
-				{
-					id: "47F03D136AC32499"
-					item: "forbidden_arcanus:silver_dragon_scale"
-					type: "item"
-				}
-				{
-					id: "6428FC9D71C0106C"
-					item: "forbidden_arcanus:aquatic_dragon_scale"
-					type: "item"
-				}
-			]
-			title: "Fancy Scales"
-			x: -9.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["03436DE1D931968A"]
-			description: ["Craft a soul extractor and get yourself some soul sand. This is how you obtain those white floaty souls, pull them out of the soul sand with your soul extractor. Leaves you with soulless sand, which makes some interesting sandstone blocks for decoration. "]
-			icon: "forbidden_arcanus:soul"
-			id: "154E50E00D92C5DE"
-			rewards: [{
-				id: "1F5305A5D602302B"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [
-				{
-					id: "13ED479073A8BB02"
-					item: "forbidden_arcanus:soul"
-					type: "item"
-				}
-				{
-					id: "7DEA71BA57D30318"
-					item: {
-						Count: 1b
-						id: "forbidden_arcanus:soul_extractor"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "5979C0D0409EF596"
-					item: "forbidden_arcanus:soulless_sand"
-					type: "item"
-				}
-			]
-			title: "Ghostbusters!"
-			x: -8.0d
-			y: 10.0d
-		}
-		{
-			dependencies: [
-				"201A4714F2CBE385"
-				"154E50E00D92C5DE"
-			]
 			description: ["    Corrupti dust + soul = dark soul! You will need some of these for the ATM star crafting."]
 			icon: "forbidden_arcanus:dark_soul"
 			id: "04593E5D11CCE455"
@@ -2173,8 +1998,8 @@
 				type: "item"
 			}]
 			title: "Dark Souls 4"
-			x: -8.0d
-			y: 11.0d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["2196B532B3253599"]
@@ -2217,8 +2042,8 @@
 				}
 			]
 			title: "Death Star"
-			x: -8.0d
-			y: 12.0d
+			x: -5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: [
@@ -2260,8 +2085,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.5d
-			y: 11.0d
+			x: -4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["223E5A67A7A4CB7B"]
@@ -2293,29 +2118,8 @@
 					type: "item"
 				}
 			]
-			x: -10.5d
-			y: 13.0d
-		}
-		{
-			description: ["The recipe isn't so easy anymore. What will you pay to have an indestructible item now?"]
-			id: "719656BB522E5EE6"
-			rewards: [{
-				id: "5EA07C3014A04EAB"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "Eternally yours, or is it."
-			tasks: [{
-				id: "7DA62EE94D9B8E22"
-				item: {
-					Count: 1b
-					id: "forbidden_arcanus:eternal_stella"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -12.0d
-			y: 12.5d
+			x: -6.5d
+			y: 9.5d
 		}
 	]
 	subtitle: ["Few steps short of human transmutation."]

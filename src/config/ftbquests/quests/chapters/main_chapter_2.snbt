@@ -708,11 +708,6 @@
 					type: "item"
 				}
 				{
-					id: "29D36D2FB7E37DDA"
-					item: "tconstruct:blaze_head"
-					type: "item"
-				}
-				{
 					id: "25CF96AC9640F17E"
 					type: "xp"
 					xp: 10
@@ -1408,6 +1403,11 @@
 			hide: true
 			hide_dependency_lines: true
 			id: "373C124C8054C038"
+			rewards: [{
+				id: "3232F79A35BFCC66"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "diamond"
 			subtitle: "How many Hidden Quests are there?"
 			tasks: [{

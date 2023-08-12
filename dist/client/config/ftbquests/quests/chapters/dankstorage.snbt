@@ -37,10 +37,9 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "58B6B889045C7458"
-					item: "lootbundles:fragment"
-					type: "item"
+					id: "0817CB7F744DC558"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "hexagon"
@@ -58,9 +57,9 @@
 			description: ["This Dank have 18 slots and can store 1024 items."]
 			id: "0000000000000B20"
 			rewards: [{
-				id: "0000000000000B2D"
-				item: "lootbundles:loot_bundle"
-				type: "item"
+				id: "1D5B2C10934105DB"
+				type: "xp"
+				xp: 20
 			}]
 			shape: "hexagon"
 			subtitle: "Tier 2"
@@ -76,18 +75,11 @@
 			dependencies: ["0000000000000B20"]
 			description: ["This Dank have 27 slots and can store 4096 items."]
 			id: "0000000000000B22"
-			rewards: [
-				{
-					id: "0000000000000B2E"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "00753DF1ACCED9ED"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "00753DF1ACCED9ED"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
 			shape: "hexagon"
 			subtitle: "Tier 3"
 			tasks: [{
@@ -102,18 +94,11 @@
 			dependencies: ["0000000000000B22"]
 			description: ["This Dank have 36 slots and can store 16384 items."]
 			id: "0000000000000B24"
-			rewards: [
-				{
-					id: "0000000000000B2F"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "7980FE14EF6DE4CC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "7980FE14EF6DE4CC"
+				type: "xp_levels"
+				xp_levels: 40
+			}]
 			shape: "hexagon"
 			subtitle: "Tier 4"
 			tasks: [{
@@ -128,18 +113,11 @@
 			dependencies: ["0000000000000B24"]
 			description: ["This Dank have 45 slots and can store 65536 items."]
 			id: "0000000000000B26"
-			rewards: [
-				{
-					id: "0000000000000B30"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "5648D11308C28F8A"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "5648D11308C28F8A"
+				type: "xp_levels"
+				xp_levels: 50
+			}]
 			shape: "hexagon"
 			subtitle: "Tier 5"
 			tasks: [{
@@ -154,18 +132,11 @@
 			dependencies: ["0000000000000B26"]
 			description: ["This Dank have 54 slots and can store 262144 items."]
 			id: "0000000000000B28"
-			rewards: [
-				{
-					id: "0000000000000B31"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "56398F14FCF0A3E7"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "56398F14FCF0A3E7"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
 			shape: "hexagon"
 			subtitle: "Tier 6"
 			tasks: [{
@@ -180,19 +151,11 @@
 			dependencies: ["0000000000000B28"]
 			description: ["This Dank have 81 slots and can store almost infinite items."]
 			id: "0000000000000B2A"
-			rewards: [
-				{
-					count: 3
-					id: "0000000000000B32"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "567B37111FDF7F06"
-					type: "xp_levels"
-					xp_levels: 8
-				}
-			]
+			rewards: [{
+				id: "567B37111FDF7F06"
+				type: "xp_levels"
+				xp_levels: 70
+			}]
 			shape: "diamond"
 			size: 1.5d
 			subtitle: "Tier 7 - Max"

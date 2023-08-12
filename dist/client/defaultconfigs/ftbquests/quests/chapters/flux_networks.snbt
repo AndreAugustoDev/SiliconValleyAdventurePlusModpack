@@ -5,7 +5,7 @@
 	group: "0815C5D80307ECDF"
 	icon: "fluxnetworks:flux_core"
 	id: "39A1378A391F6BBE"
-	order_index: 10
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{

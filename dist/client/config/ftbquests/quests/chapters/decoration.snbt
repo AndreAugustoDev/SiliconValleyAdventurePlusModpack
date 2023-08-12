@@ -26,23 +26,6 @@
 			y: 0.5d
 		}
 		{
-			id: "15B6C3CA61531CCD"
-			rewards: [{
-				id: "1C4B2F4B321A43F9"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
-			subtitle: "One of three craftable &7wind chimes&r."
-			tasks: [{
-				id: "2B3B7372B9B40152"
-				item: "windchimes:iron_chime"
-				type: "item"
-			}]
-			title: "Craft &7Iron Wind Chimes"
-			x: -3.0d
-			y: 1.0d
-		}
-		{
 			id: "731AF96597BF5309"
 			rewards: [{
 				count: 3
@@ -65,7 +48,7 @@
 			}]
 			title: "Craft a &cDramatic Door"
 			x: -1.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			id: "4BBAB429C5402A23"
@@ -88,8 +71,8 @@
 				type: "item"
 			}]
 			title: "Craft a &cCushion"
-			x: -3.0d
-			y: 2.0d
+			x: -2.5d
+			y: 2.5d
 		}
 		{
 			id: "561981E823C64CF5"
@@ -123,7 +106,7 @@
 				type: "item"
 			}]
 			title: "Craft a &8&lDragon Plushie"
-			x: -2.0d
+			x: -1.5d
 			y: 2.5d
 		}
 		{
@@ -140,8 +123,8 @@
 				type: "item"
 			}]
 			title: "Craft &7Iron Wind Chimes"
-			x: -1.0d
-			y: 2.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -333,6 +316,139 @@
 			]
 			x: -2.0d
 			y: 7.5d
+		}
+		{
+			description: ["There are plenty of options of blocks to build with, with options from not only Chisel, Chipped and Chisels n Bits, but also from Blockus, Architect's Palette, and other cool mods!"]
+			id: "73F332AF6C323A45"
+			subtitle: "Blocks as far as the eye can see!"
+			tasks: [{
+				id: "055E3D0AEAA7FDAF"
+				title: "Block Variations"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			id: "20590694D4E968E5"
+			rewards: [
+				{
+					count: 2
+					id: "047226F0D8C83CDC"
+					item: {
+						Count: 1b
+						id: "lootbags:loot_bag"
+						tag: {
+							Color: 5889627
+							Loot: "aof:loot_bags/misc/agriculturist"
+							Name: "Agriculturist Lootbag"
+							Type: "UNCOMMON"
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "3C4C0254D3BD20A6"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "679A82195820DD3C"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+			]
+			subtitle: "Dictionary of Blocks!"
+			tasks: [
+				{
+					id: "7C0C5DFFDA6CF278"
+					item: "chipped:botanist_workbench"
+					type: "item"
+				}
+				{
+					id: "6841E9D9111CD3AC"
+					item: "chipped:glassblower"
+					type: "item"
+				}
+				{
+					id: "149B650D0459938A"
+					item: "chipped:carpenters_table"
+					type: "item"
+				}
+				{
+					id: "069216973C7B2413"
+					item: "chipped:loom_table"
+					type: "item"
+				}
+				{
+					id: "549AE6E4D6A2270E"
+					item: "chipped:mason_table"
+					type: "item"
+				}
+				{
+					id: "5CD6E54374B7569D"
+					item: "chipped:alchemy_bench"
+					type: "item"
+				}
+				{
+					id: "18307F38CFFA64BD"
+					item: "chipped:tinkering_table"
+					type: "item"
+				}
+			]
+			title: "Chipped"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "076B3F5320293FE0"
+			rewards: [
+				{
+					count: 64
+					id: "4BBA79DCA765A8E0"
+					item: "minecraft:crimson_planks"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "27E7FC95DA2B4EBC"
+					item: "minecraft:warped_planks"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0BC0A92230004F22"
+					item: "minecraft:glowstone"
+					type: "item"
+				}
+			]
+			subtitle: "Rechiseled adds over 300+ decorative variants of vanilla blocks!"
+			tasks: [{
+				id: "296ACC0506A2EB75"
+				item: "rechiseled:chisel"
+				type: "item"
+			}]
+			title: "Rechiseled"
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			id: "211D391784362B95"
+			rewards: [{
+				id: "4BDA8644B2708A9F"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "Picks a random block from your hotbar and places it down."
+			tasks: [{
+				id: "4D3EA229CF840468"
+				item: "trowel:trowel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "&9Decoration"

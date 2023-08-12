@@ -1341,22 +1341,24 @@
 		{
 			dependencies: ["0000000000000773"]
 			description: [
-				"Place the Rack next to a Workbench and a Hammer on the Rack, and you'll have access to its hammer tier you use the Workbench."
+				"Tetra crafting can become a bit of a mess, with &6needing multiple tools&r to perform various functions all &6in your inventory&r at the same time."
 				""
-				"This works for all Tetra tools."
+				"By placing a &aRack&r near your &aWorkbench,&r you can have the &btool-crafting tools&r there instead!"
 				""
-				"Note: It still uses durability."
+				"Place a &aHammer&r on the &aRack,&r and you'll have access to its hammer tier you use the &aWorkbench.&r"
+				""
+				"This works for all &9Tetra&r tools."
+				""
+				"&eIt still uses durability.&r"
 			]
 			id: "000000000000093D"
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "0000000000000CA7"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
+				id: "0B1BD5F56F9B3DEC"
+				item: "minecraft:iron_ingot"
+				type: "item"
 			}]
 			shape: "diamond"
+			subtitle: "Rackem up!"
 			tasks: [{
 				id: "000000000000093E"
 				item: "tetra:rack"
@@ -1575,21 +1577,35 @@
 		{
 			dependencies: ["0000000000000775"]
 			description: [
-				"Tetra tools can be enchanted. You enchant them by placing an Enchanted Book in an Enchant slot, much like how you upgrade a part."
+				"Tetra tools can be &6enchanted&r, either in the &bEnchanting Table&r or by installing an &aEnchanted Book&r onto a tool part."
 				""
-				"The Tool's Magic Capacity determines how many/how powerful enchants the tool can have. "
+				"The &bTool's Magic Capacity&r determines how many/how powerful &benchants&r the tool can have. "
 				""
-				"Warning: If you use more Magic Capacity than the tool has, bad things may happen."
+				"Different parts have different &6magic capacity&r - it's best to &cavoid exceeding it&r, as it can have adverse effects..."
 			]
 			id: "0000000000000A3B"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_sorcerers_delight"
-				icon: "kubejs:sorcerers_delight"
-				id: "0000000000000A3D"
-				player_command: false
-				title: "Sorcerer's Delight"
-				type: "command"
-			}]
+			rewards: [
+				{
+					id: "6208750A416E1DA0"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "58B39C7784CD3726"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:efficiency"
+								lvl: 5s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Enchanting with Tetra"
 			tasks: [{
 				id: "3EC1C04A30A56748"
 				item: "minecraft:enchanting_table"
@@ -1954,28 +1970,6 @@
 			y: -19.5d
 		}
 		{
-			dependencies: ["0C168C37CABC6E6D"]
-			description: [
-				"Tetra crafting can become a bit of a mess, with &6needing multiple tools&r to perform various functions all &6in your inventory&r at the same time."
-				""
-				"By placing a &bRack&r near your Workbench, you can have the tool-crafting tools there instead!"
-			]
-			id: "7660A510D6F907CF"
-			rewards: [{
-				id: "6398B08017214F6A"
-				item: "sophisticatedbackpacks:everlasting_upgrade"
-				type: "item"
-			}]
-			subtitle: "Rackem up!"
-			tasks: [{
-				id: "1355D3C2933A6E8F"
-				item: "tetra:rack"
-				type: "item"
-			}]
-			x: 4.0d
-			y: -18.0d
-		}
-		{
 			dependencies: ["37DEE4FAA1C55F2A"]
 			description: [
 				"&bChopping Tools&r are needed in many recipes."
@@ -2049,44 +2043,6 @@
 			}]
 			title: "Diamond Shortblade"
 			x: 7.0d
-			y: -21.0d
-		}
-		{
-			dependencies: ["0C168C37CABC6E6D"]
-			description: [
-				"Tetra tools can be &6enchanted&r, either in the &bEnchanting Table&r or by installing an Enchanted Book onto a tool part."
-				""
-				"Different parts have different &6magic capacity&r - it's best to &cavoid exceeding it&r, as it can have adverse effects..."
-			]
-			id: "65EEF0E9EC1C20B7"
-			rewards: [
-				{
-					id: "18A3E37CCB68BDDF"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:efficiency"
-								lvl: 5s
-							}]
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "6F198DA50FE744F6"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Enchanting with Tetra"
-			tasks: [{
-				id: "3C6D43DB2151F417"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			x: 4.0d
 			y: -21.0d
 		}
 		{

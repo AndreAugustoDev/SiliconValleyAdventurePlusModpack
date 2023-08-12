@@ -298,7 +298,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["40D4576678C9A2C3"]
 			description: [
 				"The &bManasteel Mesh&r has the ability to extract &6even rarer materials&r that the Andesite Mesh cannot."
 				""
@@ -932,6 +931,7 @@
 			dependencies: [
 				"68115FDA0BB81547"
 				"6402F85B8830A258"
+				"769B30912D04DB49"
 			]
 			description: [
 				"&bSifters&r will allow you to run materials such as Gravel, Sand, and Dust through &6Meshes&r to find materials."
@@ -1218,36 +1218,39 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["7AF13186F9106ACA"]
+			dependencies: [
+				"7AF13186F9106ACA"
+				"1005B330D85C2CF9"
+			]
 			description: [
-				"The Hand Crank quickly consumes hunger, and it's not very engaging either! Let's move on to something more efficient."
+				"The &aHand Crank&r quickly consumes hunger, and it's not very engaging either! Let's move on to something more efficient."
 				""
-				"&bWater Wheels&r produce rotational force from flowing water. Eventually you'll be able to make better sources, but that's later."
+				"&bWater Wheels&r is one of the most basic ways of generating &6rotational force&r, using the flowing water. Eventually you'll be able to make better sources, but that's later."
+				"You can hook up multiple &bWater Wheels&r by placing them next to each other."
 				""
-				"TIP: You can also place waterwheels horizontally and let water flow around them. This can be a very easy and efficient method to power many sifters at once."
+				"The &aWater Wheel&r, while considerably simpler to set up than a &bWindmill&r, also produces far fewer &6SU&r and operates at a much lower speed. "
+				""
+				"It is useful for applications where small size is more important than speed. For instance, when making a fancy door to your base. "
+				""
+				"To get it going, simply allow water to flow past it."
+				""
+				"You can also place &bwater wheels&r horizontally and let water flow around them. This can be a very easy and efficient method to power many &bsifters&r at once."
 			]
 			id: "703631B507075DC1"
 			rewards: [
 				{
-					count: 3
 					id: "28F991AA91A833E5"
 					item: "create:water_wheel"
 					type: "item"
 				}
 				{
-					count: 8
+					count: 4
 					id: "749373028B393581"
 					item: "create:shaft"
 					type: "item"
 				}
-				{
-					count: 2
-					id: "625A2A185E3A6EDC"
-					item: "nethersdelight:hoglin_ear"
-					type: "item"
-				}
 			]
-			subtitle: "Water you doing step wheel"
+			subtitle: "No more hand cranking"
 			tasks: [{
 				id: "4D107489DFC1A49F"
 				item: "create:water_wheel"

@@ -24,8 +24,8 @@
 				item: "croptopia:cooking_pot"
 				type: "item"
 			}]
-			x: 1.0269562977782698E-15d
-			y: 3.4999999999999813d
+			x: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
@@ -38,8 +38,8 @@
 				item: "croptopia:frying_pan"
 				type: "item"
 			}]
-			x: 3.0000000000000133d
-			y: 3.4999999999999813d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["5909DA5B9FAA0986"]
@@ -62,8 +62,8 @@
 				}
 			]
 			title: "Burgers"
-			x: 4.000000000000018d
-			y: 2.499999999999977d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5909DA5B9FAA0986"]
@@ -91,8 +91,8 @@
 				}
 			]
 			title: "Pizzas"
-			x: 2.000000000000009d
-			y: 4.499999999999984d
+			x: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -123,8 +123,8 @@
 				}
 			]
 			title: "Pies"
-			x: 1.5000000000000067d
-			y: 3.4999999999999813d
+			x: 1.5000000000000089d
+			y: 3.0000000000000044d
 		}
 		{
 			dependencies: ["5909DA5B9FAA0986"]
@@ -134,8 +134,8 @@
 				item: "croptopia:tortilla"
 				type: "item"
 			}]
-			x: 4.000000000000018d
-			y: 4.499999999999984d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5A0CC89B5976889C"]
@@ -172,8 +172,8 @@
 					type: "item"
 				}
 			]
-			x: 3.0000000000000133d
-			y: 4.999999999999984d
+			x: 3.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -204,8 +204,8 @@
 				}
 			]
 			title: "That's a healthy meal"
-			x: 4.500000000000018d
-			y: 3.4999999999999813d
+			x: 4.0d
+			y: -1.0d
 		}
 		{
 			dependencies: ["5909DA5B9FAA0986"]
@@ -238,8 +238,8 @@
 				}
 			]
 			title: "Roasted"
-			x: 3.0000000000000133d
-			y: 1.999999999999975d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79FAB4514365A883"]
@@ -278,8 +278,8 @@
 				}
 			]
 			title: "Ice Crime"
-			x: -1.5000000000000024d
-			y: 3.4999999999999813d
+			x: -1.5000000000000002d
+			y: 3.0000000000000044d
 		}
 		{
 			dependencies: ["79FAB4514365A883"]
@@ -332,8 +332,8 @@
 				}
 			]
 			title: "That's my jam"
-			x: 1.0000000000000044d
-			y: 4.499999999999984d
+			x: 1.0000000000000067d
+			y: 4.000000000000007d
 		}
 		{
 			dependencies: ["79FAB4514365A883"]
@@ -351,8 +351,8 @@
 				}
 			]
 			title: "Fries"
-			x: 1.0000000000000044d
-			y: 2.499999999999977d
+			x: 1.0000000000000067d
+			y: 2.0d
 		}
 		{
 			dependencies: ["79FAB4514365A883"]
@@ -362,8 +362,8 @@
 				item: "croptopia:butter"
 				type: "item"
 			}]
-			x: -1.0000000000000024d
-			y: 4.499999999999984d
+			x: -1.0000000000000002d
+			y: 4.000000000000007d
 		}
 		{
 			dependencies: ["0F2777199D918181"]
@@ -391,8 +391,8 @@
 				}
 			]
 			title: "Fatty, sweet desserts..."
-			x: 1.0269562977782698E-15d
-			y: 4.999999999999984d
+			x: 3.1086244689504383E-15d
+			y: 4.500000000000007d
 		}
 		{
 			dependencies: [
@@ -419,8 +419,8 @@
 				item: "croptopia:chocolate_milkshake"
 				type: "item"
 			}]
-			x: -2.000000000000002d
-			y: 4.499999999999984d
+			x: -2.0d
+			y: 4.000000000000007d
 		}
 		{
 			dependencies: ["29DADC10D2308B2E"]
@@ -444,8 +444,8 @@
 				item: "croptopia:snicker_doodle"
 				type: "item"
 			}]
-			x: -2.000000000000002d
-			y: -2.000000000000041d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["29DADC10D2308B2E"]
@@ -519,8 +519,8 @@
 				item: "croptopia:fruit_cake"
 				type: "item"
 			}]
-			x: 2.000000000000009d
-			y: -2.000000000000041d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			description: ["Complete your kitchen to expand your culinary skills"]
@@ -545,7 +545,14 @@
 			subtitle: "Complete your kitchen. Feed the world."
 			tasks: [{
 				id: "3F6702D6B49D7BA9"
-				item: "croptopia:guide"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "croptopia"
+					}
+				}
+				title: "Croptopia"
 				type: "item"
 			}]
 			title: "Master Chef: Croptopia Edition"
@@ -554,6 +561,7 @@
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "3277A89378B6D52B"
 			rewards: [{
 				id: "1CCE2762441CD03A"
@@ -579,6 +587,7 @@
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "643E23B7AD7A6863"
 			rewards: [{
 				id: "374466B550E696C6"
@@ -599,11 +608,12 @@
 				item: "croptopia:pepper"
 				type: "item"
 			}]
-			x: 1.5000000000000067d
-			y: -1.0000000000000364d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "6C1DE22E0E2EBE84"
 			rewards: [{
 				id: "65BF93A7F6948C01"
@@ -626,11 +636,12 @@
 				item: "croptopia:food_press"
 				type: "item"
 			}]
-			x: -3.000000000000002d
-			y: 3.4999999999999813d
+			x: -3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "29DADC10D2308B2E"
 			rewards: [{
 				id: "2EC786E13BA091A7"
@@ -683,11 +694,12 @@
 				item: "croptopia:olive_oil"
 				type: "item"
 			}]
-			x: -3.000000000000002d
-			y: 1.999999999999975d
+			x: -4.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "7D220360845B3061"
 			rewards: [{
 				id: "74E3F500D9766172"
@@ -733,8 +745,8 @@
 				item: "croptopia:coffee"
 				type: "item"
 			}]
-			x: -3.000000000000002d
-			y: 4.999999999999984d
+			x: -4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79FAB4514365A883"]
@@ -758,11 +770,12 @@
 				item: "croptopia:noodle"
 				type: "item"
 			}]
-			x: -1.0000000000000024d
-			y: 2.499999999999977d
+			x: -1.0000000000000002d
+			y: 2.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "532B579050FCF665"
 			rewards: [{
 				id: "168D9EAC2A7EC4D4"
@@ -783,8 +796,8 @@
 				item: "croptopia:greenonion"
 				type: "item"
 			}]
-			x: -1.5000000000000024d
-			y: -1.0000000000000364d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -811,8 +824,8 @@
 				item: "croptopia:fried_chicken"
 				type: "item"
 			}]
-			x: -3.500000000000002d
-			y: 0.9999999999999705d
+			x: -3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -839,11 +852,12 @@
 				item: "croptopia:chicken_and_noodles"
 				type: "item"
 			}]
-			x: -2.500000000000002d
-			y: 0.9999999999999705d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "2DEACB9493C491BB"
 			rewards: [{
 				id: "24F48C1C335F53AF"
@@ -865,11 +879,12 @@
 				item: "minecraft:cooked_chicken"
 				type: "item"
 			}]
-			x: -3.000000000000002d
-			y: -3.300137940698278E-14d
+			x: -2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "6491E686F47C9A2B"
 			rewards: [{
 				id: "48E62D0A2FA408BB"
@@ -891,8 +906,8 @@
 				item: "minecraft:cooked_beef"
 				type: "item"
 			}]
-			x: 4.500000000000018d
-			y: 1.4999999999999727d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["6491E686F47C9A2B"]
@@ -916,8 +931,8 @@
 				item: "croptopia:beef_stew"
 				type: "item"
 			}]
-			x: 5.500000000000018d
-			y: 1.999999999999975d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["6491E686F47C9A2B"]
@@ -941,11 +956,12 @@
 				item: "croptopia:beef_stir_fry"
 				type: "item"
 			}]
-			x: 5.500000000000018d
-			y: 0.9999999999999705d
+			x: 4.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
+			hide: true
 			id: "75A6E279852D6BE1"
 			rewards: [{
 				id: "2B4704576E16675F"
@@ -967,8 +983,8 @@
 				item: "minecraft:cooked_porkchop"
 				type: "item"
 			}]
-			x: 3.0000000000000133d
-			y: -3.300137940698278E-14d
+			x: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["75A6E279852D6BE1"]
@@ -992,8 +1008,8 @@
 				item: "croptopia:pork_and_beans"
 				type: "item"
 			}]
-			x: 3.0000000000000133d
-			y: -1.0000000000000364d
+			x: 1.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["75A6E279852D6BE1"]
@@ -1017,8 +1033,8 @@
 				item: "croptopia:blt"
 				type: "item"
 			}]
-			x: 4.000000000000018d
-			y: -0.5000000000000347d
+			x: 2.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["75A6E279852D6BE1"]
@@ -1042,8 +1058,8 @@
 				item: "croptopia:ham_sandwich"
 				type: "item"
 			}]
-			x: 4.000000000000018d
-			y: 0.4999999999999688d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2DEACB9493C491BB"]
@@ -1067,8 +1083,8 @@
 				item: "croptopia:lemon_chicken"
 				type: "item"
 			}]
-			x: -4.000000000000002d
-			y: -3.300137940698278E-14d
+			x: -2.5d
+			y: -3.0d
 		}
 	]
 	title: "Croptopia"

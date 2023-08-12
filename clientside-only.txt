@@ -16,7 +16,6 @@ held-item-tooltips
 leave-my-bars-alone
 legendary-tooltips
 memory-usage-screen
-mindful-darkness
 modernworldcreation
 overflowing-bars
 prism-lib
@@ -24,3 +23,7 @@ rubidium
 textrues-rubidium-options
 wavey-capes
 rubidium-extra
+tiny-item-animations
+dark-mode-everywhere
+dynamic-fps-reforged
+exit-confirmation

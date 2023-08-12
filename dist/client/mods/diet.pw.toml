@@ -1,0 +1,13 @@
+name = "Diet (Fabric/Forge/Quilt)"
+filename = "diet-forge-2.0.0+1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6dc9809ed822fad0bacaae7afe191184c2d68452"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4634770
+project-id = 443570

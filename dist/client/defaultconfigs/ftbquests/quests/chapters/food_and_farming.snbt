@@ -15,8 +15,8 @@
 			image: "minecraft:textures/item/cake.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 0.5d
-			y: -3.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			click: ""
@@ -27,8 +27,8 @@
 			image: "minecraft:textures/item/wheat.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 1.5102040816326507d
-			y: -3.0714285714285765d
+			x: 1.0d
+			y: -3.5d
 		}
 		{
 			click: ""
@@ -39,8 +39,8 @@
 			image: "minecraft:textures/item/wheat.png"
 			rotation: -90.0d
 			width: 1.0d
-			x: -0.5d
-			y: -3.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			click: ""
@@ -51,8 +51,8 @@
 			image: "minecraft:textures/item/wheat_seeds.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 0.48979591836734215d
-			y: -2.5d
+			x: 0.0d
+			y: -3.0d
 		}
 		{
 			click: ""
@@ -63,8 +63,8 @@
 			image: "minecraft:textures/block/birch_sapling.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 9.0d
-			y: 4.0d
+			x: 4.0d
+			y: 3.0d
 		}
 		{
 			click: ""
@@ -99,7 +99,7 @@
 			image: "minecraft:textures/item/cooked_chicken.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 3.5d
 			y: 1.0d
 		}
 		{
@@ -111,7 +111,7 @@
 			image: "minecraft:textures/item/cooked_porkchop.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 4.5d
+			x: 3.5d
 			y: -1.0d
 		}
 		{
@@ -124,7 +124,7 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: -4.0d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			click: ""
@@ -135,8 +135,8 @@
 			image: "kubejs:textures/quests/food_and_farming.png"
 			rotation: 0.0d
 			width: 12.0d
-			x: 0.5d
-			y: -5.5d
+			x: 0.0d
+			y: -6.0d
 		}
 	]
 	order_index: 0
@@ -145,17 +145,15 @@
 			id: "6FC42A7981C9C221"
 			linked_quest: "00000000000015DB"
 			shape: "diamond"
-			size: 1.25d
-			x: -1.5d
-			y: 4.0d
+			x: -1.0d
+			y: 2.5d
 		}
 		{
 			id: "1EDB5B4E14FB50AE"
 			linked_quest: "45F83C2750F70F9B"
 			shape: "diamond"
-			size: 1.25d
-			x: 0.5d
-			y: 4.0d
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	quests: [
@@ -165,7 +163,7 @@
 				""
 				"Here, you'll find different ways for you to grow and make food!"
 			]
-			icon: "minecraft:emerald"
+			icon: "minecraft:wheat"
 			id: "1827DEEA2DF1B144"
 			rewards: [
 				{
@@ -179,15 +177,15 @@
 					type: "item"
 				}
 			]
-			shape: "square"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			subtitle: "Getting Started"
 			tasks: [{
 				id: "07603A90CCCB3627"
 				title: "Food and Farming"
 				type: "checkmark"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -219,65 +217,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["18EADBAFC932F864"]
-			description: ["Let's gather some pieces of wool!"]
-			icon: "minecraft:white_wool"
-			id: "3EA883C0BB7BD38F"
-			rewards: [
-				{
-					id: "59024F65DCEB9DAA"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-				{
-					id: "1609AC17930BA465"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "Whose fleece was....rainbow?"
-			tasks: [{
-				count: 3L
-				icon: "minecraft:white_wool"
-				id: "7F08D4E77359BF4A"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:wool"
-					}
-				}
-				title: "Any #minecraft:wool"
-				type: "item"
-			}]
-			title: "Mary had a Little Lamb"
-			x: 7.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["2E9C035EEE7E5C34"]
-			id: "18EADBAFC932F864"
-			rewards: [{
-				id: "68AA10BF3AA0408A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "3A9869856B3E9D54"
-				item: {
-					Count: 1b
-					id: "minecraft:shears"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "It's Clippin' Time"
-			x: 5.5d
-			y: 0.0d
-		}
-		{
+			dependencies: ["1827DEEA2DF1B144"]
 			description: [
 				"We're not here to sing, we're here to start a farm."
 				""
@@ -298,14 +238,13 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.25d
 			subtitle: "\"Old MacDonald Had A Farm\" was actually made for an Opera show."
 			tasks: [{
 				id: "33F002BBF566E12F"
 				title: "Farm Hand"
 				type: "checkmark"
 			}]
-			x: 2.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -331,15 +270,16 @@
 				type: "item"
 			}]
 			title: "But....Cows can't be sheared..."
-			x: 6.0d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
-			dependencies: ["3EA883C0BB7BD38F"]
+			dependencies: ["13635FDBEE715232"]
 			description: [
-				"Markets provide you with a villager than can sell you anything, if you have the right amount of emeralds."
+				"The &bMarket&r will allow you to &6buy most seeds&r, if you have the right amount of &aemeralds&r."
 				""
-				"Spoiler: It's usually just 1 Emerald per item. BUT THEY HAVE EVERYTHING."
+				"Spoiler: It's usually just &l1 &aEmerald&r&r per item."
+				"&6BUT THEY HAVE EVERYTHING&r."
 			]
 			id: "1F114EB0AAB86DB4"
 			rewards: [
@@ -362,8 +302,7 @@
 				item: "farmingforblockheads:market"
 				type: "item"
 			}]
-			title: "AllTheFarm7"
-			x: 9.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -386,7 +325,7 @@
 				type: "item"
 			}]
 			title: "We're doing this the old fashioned way."
-			x: 4.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -417,7 +356,7 @@
 				type: "item"
 			}]
 			title: "Find a cow. Milk the cow. Profit."
-			x: 7.5d
+			x: 7.0d
 			y: -1.0d
 		}
 		{
@@ -451,7 +390,7 @@
 				type: "item"
 			}]
 			title: "I'm not gonna make an Egg pun."
-			x: 6.0d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -485,10 +424,11 @@
 				}
 			]
 			title: "The Chickens Must Go"
-			x: 7.5d
+			x: 7.0d
 			y: 1.0d
 		}
 		{
+			dependencies: ["1827DEEA2DF1B144"]
 			icon: {
 				Count: 1b
 				id: "minecraft:wooden_hoe"
@@ -511,14 +451,13 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.25d
 			subtitle: "Just wait until you get machines for this."
 			tasks: [{
 				id: "78772A2785AE9DD2"
 				title: "The Planter"
 				type: "checkmark"
 			}]
-			x: -1.5749999999999997d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -713,8 +652,8 @@
 				}
 			]
 			title: "Auto Fishing!"
-			x: -2.5d
-			y: 5.0d
+			x: -1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -775,6 +714,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["1827DEEA2DF1B144"]
 			description: [
 				"These little pots can hold dirt and a sapling. Over time, the sapling will grow and can be harvested for items."
 				""
@@ -794,7 +734,6 @@
 				}
 			]
 			shape: "diamond"
-			size: 1.5d
 			subtitle: "TINY FARMS, HUGE OUTPUTS"
 			tasks: [{
 				id: "5799AA816722352D"
@@ -802,8 +741,8 @@
 				type: "item"
 			}]
 			title: "Tree Harvesting"
-			x: 2.5d
-			y: 4.0d
+			x: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["6A78CF3396654D01"]
@@ -822,8 +761,8 @@
 				type: "checkmark"
 			}]
 			title: "Efficiency Upgrade"
-			x: 7.5d
-			y: 4.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["6A78CF3396654D01"]
@@ -842,8 +781,8 @@
 				type: "checkmark"
 			}]
 			title: "Silk Touch Upgrade"
-			x: 7.0d
-			y: 3.5d
+			x: 2.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["6A78CF3396654D01"]
@@ -861,7 +800,7 @@
 				type: "checkmark"
 			}]
 			title: "Fortune Upgrade"
-			x: 7.0d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -885,8 +824,8 @@
 				type: "item"
 			}]
 			title: "Auto-Harvesting"
-			x: 5.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3EE9BBAA3CC677D9"]
@@ -903,8 +842,8 @@
 				type: "item"
 			}]
 			title: "Auto-Output Upgrade"
-			x: 4.0d
-			y: 5.0d
+			x: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3EE9BBAA3CC677D9"]
@@ -929,8 +868,8 @@
 				type: "item"
 			}]
 			title: "Fruit Upgrade"
-			x: 4.0d
-			y: 3.0d
+			x: 2.5d
+			y: 2.5d
 		}
 		{
 			description: [
@@ -973,14 +912,15 @@
 				type: "item"
 			}]
 			title: "Chop Chop"
-			x: 8.005952380952365d
-			y: 11.0d
+			x: 11.0d
+			y: 2.0d
 		}
 		{
+			dependencies: ["2E9C035EEE7E5C34"]
 			description: ["&bShears&r are useful for harvesting Grass and Leaves, which can be put to use in the Composter or the Sifter."]
 			icon: {
 				Count: 1b
-				id: "cyclic:shears_flint"
+				id: "minecraft:shears"
 				tag: {
 					Damage: 0
 				}
@@ -998,39 +938,31 @@
 					item: "farmersdelight:vegetable_soup"
 					type: "item"
 				}
+				{
+					id: "49D63639733379C0"
+					type: "xp"
+					xp: 10
+				}
 			]
 			subtitle: "Shears for food and fun"
 			tasks: [{
 				id: "7AE03AE4335F69ED"
 				item: {
 					Count: 1b
-					id: "itemfilters:or"
+					id: "itemfilters:tag"
 					tag: {
-						items: [
-							{
-								Count: 1b
-								id: "cyclic:shears_flint"
-								tag: {
-									Damage: 0
-								}
-							}
-							{
-								Count: 1b
-								id: "minecraft:shears"
-								tag: {
-									Damage: 0
-								}
-							}
-						]
+						value: "forge:shears"
 					}
 				}
 				title: "Shears"
 				type: "item"
 			}]
-			x: 7.005952380952365d
-			y: 8.5d
+			title: "It's Clippin' Time"
+			x: 5.0d
+			y: 0.0d
 		}
 		{
+			dependencies: ["1827DEEA2DF1B144"]
 			description: [
 				"There doesn't seem to be any animals nearby, nor anywhere for them to spawn. You should probably &6give them somewhere to&r."
 				""
@@ -1040,7 +972,6 @@
 				""
 				"Finally, you can use the &eSpirits&r mod to force specific mobs to spawn."
 			]
-			icon: "statues:pig_statue"
 			id: "48C01F1AF6F0E6C3"
 			min_width: 275
 			rewards: [
@@ -1085,11 +1016,18 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.25d
 			subtitle: "Animal farm"
 			tasks: [
 				{
-					icon: "statues:pig_statue"
+					icon: {
+						Count: 1b
+						id: "trofers:large_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:pig"
+							}
+						}
+					}
 					id: "544F43C465758EAE"
 					observe_type: 5
 					timer: 0L
@@ -1098,7 +1036,15 @@
 					type: "observation"
 				}
 				{
-					icon: "statues:cow_statue"
+					icon: {
+						Count: 1b
+						id: "trofers:large_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:cow"
+							}
+						}
+					}
 					id: "58BA2CDE23C90AFC"
 					observe_type: 5
 					timer: 0L
@@ -1107,7 +1053,15 @@
 					type: "observation"
 				}
 				{
-					icon: "statues:sheep_statue_white"
+					icon: {
+						Count: 1b
+						id: "trofers:large_plate"
+						tag: {
+							BlockEntityTag: {
+								Trophy: "trofers:sheep"
+							}
+						}
+					}
 					id: "39EEF41EFDA8452C"
 					observe_type: 5
 					timer: 0L
@@ -1117,10 +1071,11 @@
 				}
 			]
 			title: "E I E I O"
-			x: 5.505952380952365d
-			y: 9.5d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["1827DEEA2DF1B144"]
 			description: [
 				"You can fairly easily craft a rudimentary &bBeehive&r, which is alright for housing whatever Bees you can attract."
 				""
@@ -1154,7 +1109,6 @@
 				}
 			]
 			shape: "hexagon"
-			size: 1.25d
 			subtitle: "Buzzin and Beeing"
 			tasks: [{
 				id: "5D7D5ADE212057A1"
@@ -1162,8 +1116,8 @@
 				type: "item"
 			}]
 			title: "Busy Busy Bees"
-			x: 5.5d
-			y: 11.130952380952365d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1193,8 +1147,8 @@
 				type: "item"
 			}]
 			title: "Rice is Nice!"
-			x: 7.505952380952365d
-			y: 10.0d
+			x: 10.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1227,13 +1181,13 @@
 				item: "farmersdelight:minced_beef"
 				type: "item"
 			}]
-			x: 8.505952380952365d
-			y: 12.0d
+			x: 11.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["12CA64E217BE66C5"]
 			description: ["You can shear Sheep for &bWool&r, which is useful for several recipes."]
-			icon: "minecraft:pink_wool"
+			icon: "earthtojavamobs:rainbow_wool"
 			id: "13635FDBEE715232"
 			rewards: [
 				{
@@ -1248,46 +1202,22 @@
 					type: "item"
 				}
 			]
-			subtitle: "Favorable Floof"
+			subtitle: "Whose fleece was... rainbow?"
 			tasks: [{
 				id: "0F1DD696BC6E47C3"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
-						value: "forge:wool"
+						value: "minecraft:wool"
 					}
 				}
 				title: "Wool"
 				type: "item"
 			}]
-			x: 8.505952380952365d
-			y: 8.5d
-		}
-		{
-			dependencies: ["13635FDBEE715232"]
-			description: ["The &bMarket&r will allow you to &6buy most seeds&r."]
-			id: "7E0D03CC88893072"
-			rewards: [
-				{
-					id: "472493B96E653358"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-				{
-					id: "1D97E72A35C68116"
-					type: "xp"
-					xp: 10
-				}
-			]
-			subtitle: "This little piggie..."
-			tasks: [{
-				id: "44720097257BDE5F"
-				item: "farmingforblockheads:market"
-				type: "item"
-			}]
-			x: 10.005952380952365d
-			y: 8.5d
+			title: "Mary had a Little Lamb"
+			x: 6.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -1337,8 +1267,8 @@
 				title: "Hoes"
 				type: "item"
 			}]
-			x: 11.505952380952365d
-			y: 8.5d
+			x: 13.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["3DF1A7356E7509D8"]
@@ -1369,8 +1299,8 @@
 				type: "item"
 			}]
 			title: "Wheat and other crops"
-			x: 13.005952380952365d
-			y: 8.5d
+			x: 14.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["50EFB401A48753F2"]
@@ -1394,8 +1324,8 @@
 				item: "farmersdelight:stove"
 				type: "item"
 			}]
-			x: 11.505952380952365d
-			y: 10.0d
+			x: 13.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["50EFB401A48753F2"]
@@ -1431,8 +1361,8 @@
 				item: "farmersdelight:cooking_pot"
 				type: "item"
 			}]
-			x: 13.005952380952365d
-			y: 10.0d
+			x: 14.5d
+			y: 4.0d
 		}
 		{
 			description: [
@@ -1462,8 +1392,8 @@
 				type: "item"
 			}]
 			title: "Master Chef"
-			x: 10.005952380952365d
-			y: 10.0d
+			x: 13.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1492,8 +1422,8 @@
 				type: "item"
 			}]
 			title: "Makin Bacon"
-			x: 9.005952380952365d
-			y: 11.0d
+			x: 12.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1522,8 +1452,8 @@
 				item: "farmersdelight:chicken_cuts"
 				type: "item"
 			}]
-			x: 7.505952380952365d
-			y: 12.0d
+			x: 10.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1564,8 +1494,8 @@
 				title: "Fish Slices"
 				type: "item"
 			}]
-			x: 8.505952380952365d
-			y: 10.0d
+			x: 11.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4B2D10549BFDBAA8"]
@@ -1593,8 +1523,8 @@
 				item: "farmersdelight:mutton_chops"
 				type: "item"
 			}]
-			x: 7.005952380952365d
-			y: 11.0d
+			x: 10.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["13635FDBEE715232"]
@@ -1631,8 +1561,8 @@
 				type: "item"
 			}]
 			title: "For in this sleep..."
-			x: 8.505952380952365d
-			y: 7.0d
+			x: 8.5d
+			y: -1.5d
 		}
 		{
 			hide: true
@@ -1642,8 +1572,8 @@
 				item: "croparia:elematilius"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 7.5d
+			x: -7.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7905BFCF3A5CCFE2"]
@@ -1653,8 +1583,8 @@
 				item: "croparia:croparia"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 7.5d
+			x: -6.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2718B4748C4B0497"]
@@ -1664,8 +1594,8 @@
 				item: "croparia:croparia2"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["2D7B577ACE6802B5"]
@@ -1675,8 +1605,8 @@
 				item: "croparia:croparia3"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 7.5d
+			x: -4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["715CB2C2F1F476E3"]
@@ -1686,8 +1616,8 @@
 				item: "croparia:croparia4"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 7.5d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["265CE4F5E0D54A5A"]
@@ -1697,8 +1627,8 @@
 				item: "croparia:croparia5"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 7.5d
+			x: -2.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4793A3243BEE2DC1"]
@@ -1708,8 +1638,8 @@
 				item: "croparia:croparia6"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: -1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5E1047740C47EB2E"]
@@ -1719,8 +1649,8 @@
 				item: "croparia:croparia7"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 7.5d
+			x: -0.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7905BFCF3A5CCFE2"]
@@ -1730,8 +1660,8 @@
 				item: "plantinajar:plant_jar"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 6.5d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["7905BFCF3A5CCFE2"]
@@ -1741,8 +1671,8 @@
 				item: "botanypots:white_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 8.5d
+			x: -7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2CCCC00DC2A05F33"]
@@ -1752,8 +1682,8 @@
 				item: "botanypots:white_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 9.5d
+			x: -7.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["2CCCC00DC2A05F33"]
@@ -1763,8 +1693,8 @@
 				item: "botanypotstiers:elite_white_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 8.5d
+			x: -6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["054075E51CCA480C"]
@@ -1774,8 +1704,8 @@
 				item: "botanypotstiers:ultra_white_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 9.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["3D287EA0D2F96D05"]
@@ -1785,8 +1715,8 @@
 				item: "botanypotstiers:creative_white_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["2D181DEFA4351C41"]
@@ -1796,8 +1726,8 @@
 				item: "botanypotstiers:elite_white_terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 9.5d
+			x: -6.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["46A7B168CF6B4A3A"]
@@ -1807,8 +1737,8 @@
 				item: "botanypotstiers:ultra_white_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 8.5d
+			x: -5.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5BEB7814CC735E95"]
@@ -1818,8 +1748,8 @@
 				item: "botanypotstiers:creative_white_terracotta_botany_pot"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 9.5d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["68213B32C7BFE139"]
@@ -1845,8 +1775,8 @@
 				title: "Chocolatier"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 14.5d
+			x: -10.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -1891,8 +1821,8 @@
 				type: "item"
 			}]
 			title: "Chocolates"
-			x: -5.5d
-			y: 13.0d
+			x: -15.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -1937,8 +1867,8 @@
 				type: "item"
 			}]
 			title: "Caramel Chocolates"
-			x: -3.5d
-			y: 13.5d
+			x: -13.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -1983,8 +1913,8 @@
 				type: "item"
 			}]
 			title: "Praline Chocolates"
-			x: -3.5d
-			y: 15.5d
+			x: -13.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2028,8 +1958,8 @@
 				title: "Strawberry Cream Chocolates"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 13.0d
+			x: -14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2073,8 +2003,8 @@
 				title: "Cookies and Cream Chocolates"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 13.5d
+			x: -16.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2118,8 +2048,8 @@
 				title: "Mixed Nuts Chocolates"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 16.0d
+			x: -14.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2163,8 +2093,8 @@
 				title: "Coconut Chocolates"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 15.5d
+			x: -16.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2209,8 +2139,8 @@
 				type: "item"
 			}]
 			title: "Peanut Butter Chocolates"
-			x: -5.5d
-			y: 16.0d
+			x: -15.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2234,8 +2164,8 @@
 				item: "cacao:golden_chocolate"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 16.0d
+			x: -10.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["14232EC9A68EA81F"]
@@ -2279,8 +2209,8 @@
 				title: "Chocolate covered Apples"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 14.5d
+			x: -17.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2304,8 +2234,8 @@
 				item: "croptopia:chocolate"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 15.5d
+			x: -11.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2329,8 +2259,8 @@
 				item: "cacao:silicon_mold"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 14.5d
+			x: -15.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4F297154AC9975DE"]
@@ -2354,8 +2284,8 @@
 				item: "cacao:manual_food_grinder"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: -11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["766ED2D94E9B68D8"]
@@ -2379,8 +2309,8 @@
 				item: "cacao:filter_cloth"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 12.0d
+			x: -12.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["69A2425C77C5ED94"]
@@ -2404,8 +2334,8 @@
 				item: "cacao:cacao_nibs"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 11.5d
+			x: -15.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["6F7C48824D22FD8A"]
@@ -2429,8 +2359,8 @@
 				item: "cacao:cacao_mass_bucket"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.5d
+			x: -14.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["0C7E4C11315D4E3E"]
@@ -2454,8 +2384,8 @@
 				item: "cacao:cacao_mass_bottle"
 				type: "item"
 			}]
-			x: -7.0d
-			y: 12.0d
+			x: -17.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["22108D5335DFF265"]
@@ -2479,8 +2409,8 @@
 				item: "cacao:cacao_butter_bottle"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 13.0d
+			x: -18.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6B74004F5A77C4CA"]
@@ -2505,12 +2435,11 @@
 				item: "cacao:nutella"
 				type: "item"
 			}]
-			x: -2.0d
-			y: 16.5d
+			x: -12.0d
+			y: 5.5d
 		}
 		{
 			id: "410FB4729B618584"
-			invisible: true
 			rewards: [{
 				id: "618D3D6691206E76"
 				item: {
@@ -2531,8 +2460,8 @@
 				title: "Vinery"
 				type: "checkmark"
 			}]
-			x: 7.0d
-			y: 14.5d
+			x: 7.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["410FB4729B618584"]
@@ -2569,8 +2498,8 @@
 				type: "item"
 			}]
 			title: "Grapes"
-			x: 5.5d
-			y: 16.0d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["47A3FB7F90B01FAA"]
@@ -2596,8 +2525,8 @@
 				item: "vinery:grapevine_pot"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 17.5d
+			x: 5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["4FD91B87D0A73D36"]
@@ -2638,8 +2567,8 @@
 				}
 			]
 			title: "Grapejuices"
-			x: 4.5d
-			y: 19.0d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["410FB4729B618584"]
@@ -2669,8 +2598,8 @@
 				item: "vinery:fermentation_barrel"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 19.0d
+			x: 7.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["295F800520044C23"]
@@ -2695,8 +2624,8 @@
 				item: "vinery:wine_press"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 17.5d
+			x: 9.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["410FB4729B618584"]
@@ -2722,8 +2651,8 @@
 				type: "item"
 			}]
 			title: "Apples"
-			x: 8.5d
-			y: 16.0d
+			x: 9.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["498C5FC0C852D17C"]
@@ -2752,8 +2681,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.5d
-			y: 19.0d
+			x: 10.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2781,8 +2710,8 @@
 				}
 				type: "item"
 			}]
-			x: 9.0d
-			y: 21.0d
+			x: 9.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2810,8 +2739,8 @@
 				}
 				type: "item"
 			}]
-			x: 8.0d
-			y: 21.0d
+			x: 8.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2839,8 +2768,8 @@
 				}
 				type: "item"
 			}]
-			x: 10.0d
-			y: 21.0d
+			x: 10.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2892,8 +2821,8 @@
 				type: "item"
 			}]
 			title: "Red Wine"
-			x: 4.0d
-			y: 21.0d
+			x: 4.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2921,8 +2850,8 @@
 				}
 				type: "item"
 			}]
-			x: 5.0d
-			y: 21.0d
+			x: 5.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2D36A0323AAF2D5C"]
@@ -2966,8 +2895,8 @@
 				type: "item"
 			}]
 			title: "White Wine"
-			x: 6.0d
-			y: 21.0d
+			x: 6.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["410FB4729B618584"]
@@ -2992,8 +2921,8 @@
 				item: "vinery:wine_box"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 18.5d
+			x: 6.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["410FB4729B618584"]
@@ -3034,8 +2963,8 @@
 				type: "item"
 			}]
 			title: "Wine Bottle Storage"
-			x: 8.0d
-			y: 18.5d
+			x: 8.5d
+			y: 6.5d
 		}
 	]
 	title: "Food and Farming"

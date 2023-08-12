@@ -24,24 +24,11 @@
 				"The &eScanner&f can be &erecharged&f in any charger block that is compatible with the &eRF/FE&r."
 			]
 			id: "1F4CA7190AB1313E"
-			rewards: [
-				{
-					id: "37DC2929613DFBF6"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "21082378E2C7D663"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "26E6B591DC9070FB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "26E6B591DC9070FB"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			shape: "gear"
 			size: 1.25d
 			subtitle: "Great for finding ores!"
@@ -88,12 +75,6 @@
 			id: "66A578A49FFF23B0"
 			rewards: [
 				{
-					count: 2
-					id: "31576249D057DE53"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
 					id: "1E10BCFEEC10DDA0"
 					item: {
 						Count: 1b
@@ -129,12 +110,6 @@
 			id: "36D3E47673BCFBCB"
 			rewards: [
 				{
-					count: 2
-					id: "6F25926EB65494F8"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
 					icon: "cyclic:dice"
 					id: "009D44D0A75C4524"
 					table_id: 1732703149170432381L
@@ -160,12 +135,6 @@
 			dependencies: ["42C1F3A6287AF9D2"]
 			id: "050996257370D6C7"
 			rewards: [
-				{
-					count: 2
-					id: "4F1FEF9AD4FE4EC9"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
 				{
 					icon: "cyclic:dice"
 					id: "4BC54D41FD6C3764"
@@ -193,12 +162,6 @@
 			id: "60E0C6D01A6BD3E8"
 			rewards: [
 				{
-					count: 2
-					id: "4CB33E6642A0220B"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
 					icon: "cyclic:dice"
 					id: "029F663B58FCC247"
 					table_id: 4952134539114808543L
@@ -224,12 +187,6 @@
 			dependencies: ["42C1F3A6287AF9D2"]
 			id: "157ADCE73F659BBA"
 			rewards: [
-				{
-					count: 2
-					id: "733C5974C4A15C88"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
 				{
 					icon: "cyclic:dice"
 					id: "157B63723850C5AA"
@@ -257,12 +214,6 @@
 			id: "17C1DF5188D0A6BE"
 			rewards: [
 				{
-					count: 2
-					id: "7F0DA91F2536D136"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
 					icon: "cyclic:dice"
 					id: "13967E0EE0359BDD"
 					table_id: 404520863957454494L
@@ -289,12 +240,6 @@
 			id: "14E411794F3AAE89"
 			rewards: [
 				{
-					count: 2
-					id: "17B5DBAFDE64BEA4"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
 					id: "1C283C7AA9138589"
 					type: "xp_levels"
 					xp_levels: 1
@@ -319,12 +264,6 @@
 			dependencies: ["42C1F3A6287AF9D2"]
 			id: "5BFC81EDFFFE8C26"
 			rewards: [
-				{
-					count: 2
-					id: "238A56687D0E4169"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
 				{
 					id: "64A2FE8473126C81"
 					type: "xp_levels"

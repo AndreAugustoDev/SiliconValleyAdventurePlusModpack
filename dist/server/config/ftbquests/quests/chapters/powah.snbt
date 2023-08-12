@@ -359,7 +359,7 @@
 			dev: false
 			height: 0.9d
 			hover: [ ]
-			image: "atm:textures/questpics/powah/text/storage_text.png"
+			image: "kubejs:textures/quests/powah/text/storage_text.png"
 			rotation: 0.0d
 			width: 2.3019230769230767d
 			x: -2.5d
@@ -371,7 +371,7 @@
 			dev: false
 			height: 0.8d
 			hover: [ ]
-			image: "atm:textures/questpics/powah/text/generation_text.png"
+			image: "kubejs:textures/quests/powah/text/generation_text.png"
 			rotation: 0.0d
 			width: 3.3600000000000003d
 			x: 5.5d
@@ -383,7 +383,7 @@
 			dev: false
 			height: 0.75d
 			hover: [ ]
-			image: "atm:textures/questpics/powah/text/useful_items_text.png"
+			image: "kubejs:textures/quests/powah/text/useful_items_text.png"
 			rotation: 0.0d
 			width: 3.908823529411765d
 			x: -6.5d
@@ -395,7 +395,7 @@
 			dev: false
 			height: 0.75d
 			hover: [ ]
-			image: "atm:textures/questpics/powah/text/transfer_text.png"
+			image: "kubejs:textures/quests/powah/text/transfer_text.png"
 			rotation: 0.0d
 			width: 2.6029411764705883d
 			x: 1.5d
@@ -462,7 +462,7 @@
 			y: 18.5d
 		}
 	]
-	order_index: 9
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

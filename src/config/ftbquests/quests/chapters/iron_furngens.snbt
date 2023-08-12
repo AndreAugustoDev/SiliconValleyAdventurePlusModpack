@@ -13,26 +13,18 @@
 		}
 	}
 	id: "38776B03328BEF2C"
-	order_index: 15
+	order_index: 14
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["3E9F5A571D66D654"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "4F0520A262ABF5FC"
-			rewards: [
-				{
-					count: 2
-					id: "62066941FEC9287D"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "49873478B076B520"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "49873478B076B520"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Iron Furnace."
 			tasks: [{
 				id: "0E099001B3A37382"
@@ -46,19 +38,11 @@
 			dependencies: ["4F0520A262ABF5FC"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "4FFA0E75873C9E43"
-			rewards: [
-				{
-					count: 4
-					id: "7AE9D0619349E723"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "133B875F8D500A4B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "133B875F8D500A4B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Golden Furnace."
 			tasks: [{
 				id: "6F78BB3F9719FC59"
@@ -72,19 +56,11 @@
 			dependencies: ["4FFA0E75873C9E43"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "1BD55248A4A2F746"
-			rewards: [
-				{
-					count: 4
-					id: "21080575B13207BB"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "4191F296A98314DC"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "4191F296A98314DC"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Diamond Furnace."
 			tasks: [{
 				id: "4B91053AA9CDA2BA"
@@ -98,18 +74,11 @@
 			dependencies: ["1BD55248A4A2F746"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "4F90B661FCAD7F06"
-			rewards: [
-				{
-					id: "5219F8143FABBA9C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "3D08677A8DBF9DC8"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "3D08677A8DBF9DC8"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Emerald Furnace."
 			tasks: [{
 				id: "47C17E03F4EE9717"
@@ -123,18 +92,11 @@
 			dependencies: ["4F90B661FCAD7F06"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "7F7D391EFBC3F4B0"
-			rewards: [
-				{
-					id: "4CEE6FD99B3F23E0"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "0FFB2BCDDDD75ADE"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "0FFB2BCDDDD75ADE"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Obsidian Furnace."
 			tasks: [{
 				id: "7806C4C145241240"
@@ -148,19 +110,11 @@
 			dependencies: ["4FFA0E75873C9E43"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "0BD51D1C1A6C9DDA"
-			rewards: [
-				{
-					count: 4
-					id: "7943DC6218B1F81F"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "33FA57D99F09DE98"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "33FA57D99F09DE98"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Crystal Furnace."
 			tasks: [{
 				id: "6DCDA864CF9A8137"
@@ -174,18 +128,11 @@
 			dependencies: ["7F7D391EFBC3F4B0"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "3B2DC7721D6091A9"
-			rewards: [
-				{
-					id: "26699550A56C238C"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "1BFA1C2F7BF8E674"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "1BFA1C2F7BF8E674"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Netherite Furnace."
 			tasks: [{
 				id: "06294D72835F86EC"
@@ -200,19 +147,11 @@
 			dependency_requirement: "one_completed"
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "15108C34082629CB"
-			rewards: [
-				{
-					count: 2
-					id: "57B14036C4C0C772"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "23B4BC0CB81146AE"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "23B4BC0CB81146AE"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Silver Furnace."
 			tasks: [{
 				id: "3E0655443D5D5973"
@@ -233,19 +172,11 @@
 				"10,000 RF/Tick Generated when active."
 			]
 			id: "137684A683529061"
-			rewards: [
-				{
-					count: 2
-					id: "7F5A02618CA0CCEB"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "43504778BA8FCF55"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "43504778BA8FCF55"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Rainbow Furnace."
 			tasks: [{
 				id: "4E4DFFB53095AC55"
@@ -275,18 +206,11 @@
 			]
 			description: ["Used for crafting a Rainbow Furnace."]
 			id: "37C09CF1535831C8"
-			rewards: [
-				{
-					id: "5FEE2BF66C814CA5"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "66FD085BB337D756"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "66FD085BB337D756"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Rainbow Plating.."
 			tasks: [{
 				id: "1E4C268BC783B72B"
@@ -300,18 +224,11 @@
 			dependencies: ["3B2DC7721D6091A9"]
 			description: ["Used for crafting a Rainbow furnace and linker."]
 			id: "7DFA2A821AF89EC8"
-			rewards: [
-				{
-					id: "46F739881D225838"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "71E1F22CC90933EB"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "71E1F22CC90933EB"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Rainbow Core."
 			tasks: [{
 				id: "4A9DAA5E569E7CF0"
@@ -323,19 +240,11 @@
 		}
 		{
 			id: "60C1E3DDCE80E06A"
-			rewards: [
-				{
-					count: 2
-					id: "1386C0B7B4AB1A95"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "6DE5D41D5F3A2838"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "6DE5D41D5F3A2838"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Iron Furnace Upgrade."
 			tasks: [{
 				id: "07D5F85E6528ABB2"
@@ -348,19 +257,11 @@
 		{
 			dependencies: ["60C1E3DDCE80E06A"]
 			id: "4F7575CDE3E3C210"
-			rewards: [
-				{
-					count: 2
-					id: "027E02C5AE03706C"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "2D958B9AC9F6F22E"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "2D958B9AC9F6F22E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Gold Furnace Upgrade."
 			tasks: [{
 				id: "281E6E2715EC38C9"
@@ -373,19 +274,11 @@
 		{
 			dependencies: ["4F7575CDE3E3C210"]
 			id: "1E837BD89E89B4ED"
-			rewards: [
-				{
-					count: 6
-					id: "2986A9E6A9146383"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "060F3B7292C84B83"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "060F3B7292C84B83"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Diamond Furnace Upgrade."
 			tasks: [{
 				id: "44A42D1221FD6428"
@@ -398,19 +291,11 @@
 		{
 			dependencies: ["1E837BD89E89B4ED"]
 			id: "14DD40D301573E45"
-			rewards: [
-				{
-					count: 6
-					id: "4CAF86D80CAEEC5F"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "7DCC0BB0AD294BB0"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "7DCC0BB0AD294BB0"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Emerald Furnace Upgrade."
 			tasks: [{
 				id: "49D19237FE55BC89"
@@ -423,18 +308,11 @@
 		{
 			dependencies: ["14DD40D301573E45"]
 			id: "2BD6033A5CA7AAD9"
-			rewards: [
-				{
-					id: "350731ACF1071348"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "32EF78778BACB60A"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "32EF78778BACB60A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Obsidian Furnace Upgrade."
 			tasks: [{
 				id: "4E83449D3FF7351B"
@@ -447,18 +325,11 @@
 		{
 			dependencies: ["14DD40D301573E45"]
 			id: "423D21AB00898F01"
-			rewards: [
-				{
-					id: "4D6BE45A0B0B6ECC"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "7C2B5EF6663951E2"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "7C2B5EF6663951E2"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Crystal Furnace Upgrade."
 			tasks: [{
 				id: "525CAAB886F1750E"
@@ -471,18 +342,11 @@
 		{
 			dependencies: ["2BD6033A5CA7AAD9"]
 			id: "2138C31FDB99FF44"
-			rewards: [
-				{
-					id: "6CC158CAFF5D93FE"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "7D38071A39575743"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "7D38071A39575743"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Netherite Furnace Upgrade."
 			tasks: [{
 				id: "2E5FB5EBA4F0DB68"
@@ -494,19 +358,11 @@
 		}
 		{
 			id: "6D42455659F8ED48"
-			rewards: [
-				{
-					count: 2
-					id: "126FB4FF702FE356"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "31B2EC4B2141CFDF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "31B2EC4B2141CFDF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Copper Furnace Upgrade."
 			tasks: [{
 				id: "36C5C3D8F24C2999"
@@ -519,19 +375,11 @@
 		{
 			dependencies: ["6D42455659F8ED48"]
 			id: "205E8750366E846C"
-			rewards: [
-				{
-					count: 2
-					id: "4733DF90746E955C"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "56CA81D0B83F036A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "56CA81D0B83F036A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Silver Furnace Upgrade."
 			tasks: [{
 				id: "2A0CB14CBE4EB034"
@@ -544,18 +392,11 @@
 		{
 			dependencies: ["423D21AB00898F01"]
 			id: "54A9FC48C8CCE281"
-			rewards: [
-				{
-					id: "402CC4F0CD0CCC56"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "32340EABB8012E56"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "32340EABB8012E56"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Obsidian Furnace Upgrade."
 			tasks: [{
 				id: "1E9C479379848C62"
@@ -568,19 +409,11 @@
 		{
 			dependencies: ["205E8750366E846C"]
 			id: "340F34EB836270F9"
-			rewards: [
-				{
-					count: 3
-					id: "0F21BFF269A200C1"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "5C3609516D6047A2"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "5C3609516D6047A2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Gold Furnace Upgrade."
 			tasks: [{
 				id: "234140609FFF623B"
@@ -594,18 +427,11 @@
 			dependencies: ["7DFA2A821AF89EC8"]
 			description: ["Used to link your other furnaces to the Rainbow furnace."]
 			id: "5967711CE9092DDA"
-			rewards: [
-				{
-					id: "65B5F8CFAD58E732"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "60F8178947DADC02"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "60F8178947DADC02"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			subtitle: "Craft a Rainbow Linker."
 			tasks: [{
 				id: "6C044A9891CABA27"
@@ -619,19 +445,11 @@
 			description: ["Provide this block with forge energy and it will power any recievers that are linked."]
 			id: "64FCC61BED04CC5F"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "0E1CF840BD593630"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "398948CAFFBB1569"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "398948CAFFBB1569"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Wireless Heat Transmitter."
 			tasks: [{
 				id: "4ABFEAB88829723F"
@@ -645,19 +463,11 @@
 			description: ["Place in a fuel slot of a furnace. Iron or above only."]
 			id: "0DF561617A0633C8"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "73B26A9DA3F8D62A"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "171AABF3EF02F9E1"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "171AABF3EF02F9E1"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Wireless Heat Receiver."
 			tasks: [{
 				id: "1384363877767767"
@@ -671,19 +481,11 @@
 			description: ["Halves the cook time for blasting recipes. Can only do blasting recipes."]
 			id: "3CF176559C2B5DB7"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "2CA52B8341BFE69E"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "220176100C0D3D99"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "220176100C0D3D99"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Blasting Augment."
 			tasks: [{
 				id: "0F35BA4AEDC5FB2E"
@@ -697,19 +499,11 @@
 			description: ["Halves the cook time for smoking recipes. Can only do smoking recipes."]
 			id: "3F33F9E4F02D1555"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "185CBC5F052CCA69"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "2039162A901C841B"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "2039162A901C841B"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Smoking Augment."
 			tasks: [{
 				id: "2D047E115F4373A3"
@@ -723,19 +517,11 @@
 			description: ["Halves all smelting recipes cook time. Uses double the amount of fuel."]
 			id: "782B46D96C1FF2AE"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "2A38965F4BE7A7F2"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "0B4AB4D3164F04B6"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "0B4AB4D3164F04B6"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Speed Augment."
 			tasks: [{
 				id: "0375C6093E43FC7D"
@@ -749,19 +535,11 @@
 			description: ["Fuel heats up the furnace twice as fast. All cooking recipes are 1/4 slower."]
 			id: "0085D3A2C64140D7"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "4DF26CAF7BEB635D"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "534613DB9992EC0E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "534613DB9992EC0E"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Fuel Efficiency Augment."
 			tasks: [{
 				id: "5DEAA92F98DDBAAB"
@@ -775,19 +553,11 @@
 			description: ["Right click to copy settings. Shift right click to paste settings."]
 			id: "52DE931C5F538795"
 			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "3DD557D7398A0E84"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "108C7182B72225C0"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "108C7182B72225C0"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Furnace Setting Linker."
 			tasks: [{
 				id: "3F4064075BDE5425"
@@ -801,19 +571,11 @@
 			description: ["Wrap up a furnace and gift it to a friend!"]
 			id: "28E8EE057F9B18C4"
 			optional: true
-			rewards: [
-				{
-					count: 6
-					id: "1B3AD78C4A71BF82"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "0E9E08E865EA3A06"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "0E9E08E865EA3A06"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Furnace Wrapping Paper."
 			tasks: [{
 				id: "2A26FDFD6BCA8C7E"
@@ -890,17 +652,17 @@
 			hide_dependency_lines: true
 			id: "1A309D767DB6A1BE"
 			rewards: [{
-				count: 10
-				id: "7BD3FF3B1295595A"
-				item: "lootbundles:loot_bundle"
-				type: "item"
+				exclude_from_claim_all: true
+				id: "22095FD1135A4C55"
+				table_id: 4196188979167302596L
+				type: "random"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 3.0d
 			subtitle: "Complete all quests in this chapter."
 			tasks: [{
 				id: "4D1079C9790EB767"
-				title: "Completionist"
+				title: "Iron Galore 100%"
 				type: "checkmark"
 			}]
 			x: 6.0d
@@ -910,19 +672,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 16 FE/t"]
 			id: "6B02ADFDCB591081"
-			rewards: [
-				{
-					count: 2
-					id: "556B7E74267167D6"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "2CE56E7DB4FAEF7A"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "2CE56E7DB4FAEF7A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "gear"
 			subtitle: "Craft a Iron Generator."
 			tasks: [{
@@ -937,19 +691,11 @@
 			dependencies: ["6B02ADFDCB591081"]
 			description: ["Generates: 32 FE/t"]
 			id: "39DC7BE83562B702"
-			rewards: [
-				{
-					count: 4
-					id: "7AA33FC326927391"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "651433138B55329B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "651433138B55329B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Gold Generator."
 			tasks: [{
 				id: "02A032D39F23D7AA"
@@ -963,19 +709,11 @@
 			dependencies: ["39DC7BE83562B702"]
 			description: ["Generates: 64 FE/t"]
 			id: "528152A216435873"
-			rewards: [
-				{
-					count: 5
-					id: "1FF12C6F06CDD57C"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "449FB31405F26A0A"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "449FB31405F26A0A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Diamond Generator."
 			tasks: [{
 				id: "18E9BF87E0701FEC"
@@ -989,19 +727,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 128 FE/t"]
 			id: "60609881A437CC02"
-			rewards: [
-				{
-					count: 5
-					id: "0DD7D603DE56872A"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "49AD77BACAB49B83"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "49AD77BACAB49B83"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Obsidian Generator."
 			tasks: [{
 				id: "2DBA6686F0331854"
@@ -1015,18 +745,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 256 FE/t"]
 			id: "6B47E65169B35A95"
-			rewards: [
-				{
-					id: "1E67FBC86D51F343"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "4C4967B8837E45CA"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "4C4967B8837E45CA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Netherite Generator."
 			tasks: [{
@@ -1041,19 +764,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 32 FE/t"]
 			id: "4417677A9AE5AB6D"
-			rewards: [
-				{
-					count: 5
-					id: "6E7DB74723CB0C07"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "632096B4AB7C64E8"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "632096B4AB7C64E8"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Bronze Generator."
 			tasks: [{
@@ -1068,19 +783,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 8 FE/t"]
 			id: "3665DE5C21F41C1D"
-			rewards: [
-				{
-					count: 2
-					id: "1A7DC5E29B7FC306"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "14261977E755B115"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "14261977E755B115"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "pentagon"
 			subtitle: "Craft a Copper Generator."
 			tasks: [{
@@ -1095,19 +802,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 16 FE/t"]
 			id: "5442BC1A46D9139B"
-			rewards: [
-				{
-					count: 3
-					id: "606CA822FDC618F9"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "667B54D7AE8B87E9"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "667B54D7AE8B87E9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Lead Generator."
 			tasks: [{
 				id: "7A0C48D128B7EDE9"
@@ -1121,19 +820,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 25 FE/t"]
 			id: "0C78558EADDDDFF6"
-			rewards: [
-				{
-					count: 2
-					id: "10464107C94D4861"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "1AF1A0DA8BF43C24"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "1AF1A0DA8BF43C24"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Osmium Generator."
 			tasks: [{
 				id: "52DD57605CD8F564"
@@ -1147,18 +838,11 @@
 			dependencies: ["60609881A437CC02"]
 			description: ["Generates: 192 FE/t"]
 			id: "380FEABFAB32EE41"
-			rewards: [
-				{
-					id: "0925AC462B92D54F"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "018BBE85DC72403B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "018BBE85DC72403B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Refined Obsidian Generator."
 			tasks: [{
 				id: "3A4A5F59BA267526"
@@ -1172,19 +856,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 75 FE/t"]
 			id: "2E01F283C80F1CD5"
-			rewards: [
-				{
-					count: 6
-					id: "39EA73149BF08F41"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "593000818F2A2DA1"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "593000818F2A2DA1"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Steel Generator."
 			tasks: [{
@@ -1199,19 +875,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 12 FE/t"]
 			id: "50722E995DC2B1F0"
-			rewards: [
-				{
-					count: 3
-					id: "64EEAFDCC173379B"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "0A90B0D01979B6EF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "0A90B0D01979B6EF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Tin Generator."
 			tasks: [{
 				id: "21ABE0AAD9466DB1"
@@ -1225,19 +893,11 @@
 			dependencies: ["732CBAF3CF4F53E4"]
 			description: ["Generates: 24 FE/t"]
 			id: "21BC98D34E8EE9A9"
-			rewards: [
-				{
-					count: 3
-					id: "51C2F8BDAED00FF8"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "5F3D467DFD2873B2"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "5F3D467DFD2873B2"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			subtitle: "Craft a Quartz Enriched Generator."
 			tasks: [{
 				id: "586981EDCD9C197B"
@@ -1251,18 +911,11 @@
 			dependencies: ["6B47E65169B35A95"]
 			description: ["Generates: 512 FE/t"]
 			id: "6F5172484B4CC539"
-			rewards: [
-				{
-					id: "3AB6CA4516731F16"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "2A2E18FBA689A860"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "2A2E18FBA689A860"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "pentagon"
 			subtitle: "Craft an Enderium Generator."
 			tasks: [{
@@ -1277,18 +930,11 @@
 			dependencies: ["0000000000000100"]
 			description: ["Generates: 4 FE/t"]
 			id: "154BC8E0B9DF5E69"
-			rewards: [
-				{
-					id: "13C4F72E26A54443"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "36ECEB33BE165852"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "36ECEB33BE165852"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Netherrack Generator."
 			tasks: [{
 				id: "00670E55809345F8"
@@ -1302,18 +948,11 @@
 			dependencies: ["0000000000000100"]
 			description: ["Generates: 24 FE/t"]
 			id: "44C03D28EC991C52"
-			rewards: [
-				{
-					id: "6EAE2D71CADFB04B"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "70D821870BE60F37"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "70D821870BE60F37"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Certus Generator."
 			tasks: [{
 				id: "52BD3C41F78AF6E0"
@@ -1327,19 +966,11 @@
 			dependencies: ["0000000000000100"]
 			description: ["Improved Speed and Fuel Efficiency."]
 			id: "3E9F5A571D66D654"
-			rewards: [
-				{
-					count: 2
-					id: "6594DC5F9BF06AA6"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "0F3E34EB7B7A1681"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "0F3E34EB7B7A1681"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			subtitle: "Craft a Copper Furnace."
 			tasks: [{
 				id: "2A39FD98727A3F72"
@@ -1353,19 +984,11 @@
 			dependencies: ["0000000000000100"]
 			description: ["Generates: 2 FE/t"]
 			id: "732CBAF3CF4F53E4"
-			rewards: [
-				{
-					count: 3
-					id: "0F1E37B5AFC0E0E5"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "04C93383049E154C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "04C93383049E154C"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			subtitle: "Craft a Stone Generator."
 			tasks: [{
 				id: "15B34121CBBF6E70"
@@ -1379,19 +1002,11 @@
 			dependencies: ["60609881A437CC02"]
 			description: ["Generates: 96 FE/t"]
 			id: "09F6F6F590672FA5"
-			rewards: [
-				{
-					count: 6
-					id: "6A8679492A3D37FD"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "7DA28AB36B21FFE6"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "7DA28AB36B21FFE6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Magmatic Generator."
 			tasks: [{
@@ -1406,18 +1021,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 128 FE/t"]
 			id: "069A45D3A500442F"
-			rewards: [
-				{
-					id: "0B69256CE34AB65A"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "6C3517D5A2F2026B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "6C3517D5A2F2026B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			subtitle: "Craft an Emerald Generator."
 			tasks: [{
@@ -1432,19 +1040,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 96 FE/t"]
 			id: "48D02F6A571290F6"
-			rewards: [
-				{
-					count: 6
-					id: "631A410F74187BA7"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "05BE31915801902E"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "05BE31915801902E"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Honey Generator."
 			tasks: [{
@@ -1459,19 +1059,11 @@
 			dependencies: ["528152A216435873"]
 			description: ["Generates: 250 FE/t"]
 			id: "10FD9CCB9C940722"
-			rewards: [
-				{
-					count: 6
-					id: "3CEFE5928BE77421"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "1123062A2A65E7E1"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-			]
+			rewards: [{
+				id: "1123062A2A65E7E1"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
 			shape: "hexagon"
 			subtitle: "Craft an Oil Generator."
 			tasks: [{
@@ -1486,19 +1078,11 @@
 			dependencies: ["6F5172484B4CC539"]
 			description: ["Generates: 1024 FE/t"]
 			id: "0E6CD6B162FD458A"
-			rewards: [
-				{
-					count: 2
-					id: "5E13BDABD45EA69E"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "2952560BBAC19D4E"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
+			rewards: [{
+				id: "2952560BBAC19D4E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			shape: "gear"
 			subtitle: "Craft a Netherstar Generator."
 			tasks: [{
@@ -1513,18 +1097,11 @@
 			dependencies: ["60609881A437CC02"]
 			description: ["Generates: 40 FE/t"]
 			id: "4FAF1346D2691DEE"
-			rewards: [
-				{
-					id: "14E8B12E5682FEA5"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "367198B039A102BD"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "367198B039A102BD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "hexagon"
 			subtitle: "Craft an Ender Generator."
 			tasks: [{
@@ -1539,19 +1116,11 @@
 			dependencies: ["39DC7BE83562B702"]
 			description: ["Generates: 64 FE/t"]
 			id: "1D9469319129041E"
-			rewards: [
-				{
-					count: 5
-					id: "583B9B124ABBF6B0"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "3CB5C13C6670BD69"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
+			rewards: [{
+				id: "3CB5C13C6670BD69"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
 			shape: "hexagon"
 			subtitle: "Craft a Culinary Generator."
 			tasks: [{
@@ -1570,18 +1139,11 @@
 				"(Burns Enchanted Books.)"
 			]
 			id: "345AF271EC703382"
-			rewards: [
-				{
-					id: "2CAD16F7EC1FC0DC"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "772927D68F7AF3B4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "772927D68F7AF3B4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "hexagon"
 			subtitle: "Craft an Enchantment Generator."
 			tasks: [{
@@ -1600,18 +1162,11 @@
 				"(Burns Dragon's Breath.)"
 			]
 			id: "3DC829721312769B"
-			rewards: [
-				{
-					id: "58D18AE1DB8BAF04"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					id: "31CDA8071305B907"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-			]
+			rewards: [{
+				id: "31CDA8071305B907"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			shape: "hexagon"
 			subtitle: "Craft an Halitosis Generator."
 			tasks: [{
@@ -1626,11 +1181,6 @@
 			dependencies: ["1D9469319129041E"]
 			description: ["Generates: 8 FE/t"]
 			id: "1BB88AC15E5756E4"
-			rewards: [{
-				id: "052CF5F0E425071F"
-				item: "lootbundles:loot_bundle"
-				type: "item"
-			}]
 			shape: "pentagon"
 			subtitle: "Craft a Potion Generator."
 			tasks: [{

@@ -5,7 +5,7 @@
 	group: "0815C5D80307ECDF"
 	icon: "rftoolsbase:machine_frame"
 	id: "4325A59B610EFDC5"
-	order_index: 13
+	order_index: 12
 	quest_links: [ ]
 	quests: [
 		{

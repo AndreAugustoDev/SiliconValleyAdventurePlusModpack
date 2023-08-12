@@ -10,7 +10,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["33FF06F93A9B4510"]
 			description: [
 				"&bCorporea Sparks&r are the first part of &6Corporea networks&r, which allow you to &6request items from connected inventories&r. Networks can only handle &6active requests&r, nothing is done passively, nor can it ever &oadd&r items to the network."
 				""

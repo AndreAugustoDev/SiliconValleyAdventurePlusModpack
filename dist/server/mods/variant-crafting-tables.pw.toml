@@ -1,0 +1,13 @@
+name = "Variant Crafting Tables [Forge]"
+filename = "VariantCraftingTables-1.19.2-1.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c207542f23f85c70c50252852509e9d83059d749"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4548277
+project-id = 565095

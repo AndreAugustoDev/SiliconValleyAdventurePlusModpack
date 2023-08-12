@@ -68,20 +68,13 @@
 				"For a reward, once this quest is done, everyone on your team can pick a pigment that they feel best suites them. This changes the color of your personal casting particles as well as some other things. :)"
 			]
 			id: "74FE53E15362843D"
-			rewards: [
-				{
-					id: "492B9A0BCE536E35"
-					item: "lootbundles:loot_bundle"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "5C81EE1A3F0BBFAC"
-					table_id: 1515775824222171011L
-					title: "x1 Free Pigment of choosing! Express yourself!"
-					type: "choice"
-				}
-			]
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C81EE1A3F0BBFAC"
+				table_id: 1515775824222171011L
+				title: "x1 Free Pigment of choosing! Express yourself!"
+				type: "choice"
+			}]
 			subtitle: "Craft yourself a Magical Staff, the method of drawing out patterns!"
 			tasks: [{
 				id: "059F78F9693A8C19"

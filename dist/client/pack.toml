@@ -1,4 +1,4 @@
-name = "Silicon Valley Adventure"
+name = "Silicon Valley Adventure PLUS"
 author = "André Augusto"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,11 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "fe4311dccbe327ce8f6feabb4ef6f6ef0b7c6aff0d36aa29ea12c4198cd2eea1"
+hash = "d4218be767337ffdcabf854162e8967e3532db46544266436e16ab27d16a92d3"
 
 [versions]
 forge = "43.2.21"
 minecraft = "1.19.2"
+
+[options]
+acceptable-game-versions = ["1.19", "1.19.2"]

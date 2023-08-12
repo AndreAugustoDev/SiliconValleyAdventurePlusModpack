@@ -1,0 +1,13 @@
+name = "Better Treasure Map"
+filename = "treasuredistance-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d6dcd18e7516e1f227b98aa37f41e947d5d9f118"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4661607
+project-id = 873563

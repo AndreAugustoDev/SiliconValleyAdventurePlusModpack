@@ -1,0 +1,13 @@
+name = "Useless Sword"
+filename = "useless-sword-1.19.2-V1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d18705dea9dc2da31bd6efe286786a110ff0a019"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4022070
+project-id = 348157

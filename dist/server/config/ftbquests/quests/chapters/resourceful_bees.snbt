@@ -5204,7 +5204,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: [
 				"Bee Nests are the most basic housing method for bees. While they lack an inventory, they can be upgraded in-world with Hive Upgrades which grants you more control over the population and production of your Bees."
 				""
@@ -5270,7 +5269,6 @@
 			y: 8.5d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: [
 				"Tier 1 Bees spawn naturally in the world, and are the “building bees” for all other kinds of bees."
 				""
@@ -5293,7 +5291,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: [
 				"While Bee Breeding is as simple as providing the necessary breeding items to the Bees, to become a seasoned apiarist you should learn how to encourage mutations in your Bees at a genetic level."
 				""
@@ -5381,7 +5378,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: [
 				"Both Vanilla and Modded Bees can be found bumbling around in their preferred biomes and dimensions."
 				""
@@ -5458,7 +5454,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: ["Combs are a byproduct of beekeeping,  which can be harvested from Bee Hives and Bee Nests. It can be processed at a later date in the Centrifuge for Honey, Wax, and a plethora of other Resources."]
 			id: "46C586ABAC944844"
 			rewards: [
@@ -5501,7 +5496,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["0000000000000A97"]
 			description: [
 				"This is an entry-level type of Centrifuge that allows the player to manually turn Honeycombs into their byproducts. Sneak + Right Click the machine to process."
 				""
@@ -6048,7 +6042,6 @@
 			y: 8.341836734693878d
 		}
 		{
-			dependencies: ["0000000000000A94"]
 			description: ["Right-click a Bee with an Empty Bee Jar, and it'll be caught inside."]
 			id: "24D88FC1C6DCE052"
 			rewards: [{
@@ -6123,7 +6116,6 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["0000000000000A97"]
 			description: ["Some combs are NOT processed in the Centrifuge - or are best used elsewhere. When in doubt, check JEI."]
 			icon: "resourcefulbees:mana_honeycomb"
 			id: "1DFA48325FD10EE9"

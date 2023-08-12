@@ -1,13 +1,13 @@
 name = "FTB Industrial Contraptions (Forge)"
-filename = "ftb-industrial-contraptions-1900.1.7-build.212.jar"
+filename = "ftb-industrial-contraptions-1900.1.7-build.221.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "56e42e6ecddc72805011f8cd6c4c9f66767a9ce7"
+hash = "77cbbaecabe5852a3878c577e2b30cb4fe6065fd"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 3907201
+file-id = 4392862
 project-id = 539097

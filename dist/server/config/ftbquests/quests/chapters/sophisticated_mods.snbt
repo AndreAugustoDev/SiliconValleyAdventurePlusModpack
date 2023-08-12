@@ -520,7 +520,7 @@
 			rewards: [{
 				id: "13DE4101C9B57527"
 				type: "xp_levels"
-				xp_levels: 1
+				xp_levels: 10
 			}]
 			tasks: [{
 				id: "4A78B06D33803BFD"
@@ -534,18 +534,11 @@
 			dependencies: ["710A3219749271BF"]
 			description: ["Changes a vanilla storage to a sophisticated storage version."]
 			id: "0D0D010940D2FE2A"
-			rewards: [
-				{
-					id: "3BFE2CA305827F3A"
-					item: "lootbundles:fragment"
-					type: "item"
-				}
-				{
-					id: "7B7D56329A13DD06"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "7B7D56329A13DD06"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
 			tasks: [{
 				id: "556F4731E9A5EC01"
 				item: "sophisticatedstorage:basic_tier_upgrade"
@@ -591,47 +584,52 @@
 		{
 			dependencies: [
 				"158164D5AA9F32C9"
+				"1CFC2F757BE1EAED"
+				"761DDF68550B29F6"
 				"1A739D36D5E3B1AD"
 				"701148CB22F39025"
+				"11A59FBD489A8212"
 				"48C0DB387FFFF715"
+				"7A2750B42C409347"
+				"4456B727425889BE"
+				"7FF9B8952933C348"
 				"5C9DEFC028C9408D"
+				"1EA5B62723352A2C"
+				"34D64A9028568A0B"
+				"05F36C8E743FBDEF"
+				"6134B27E86B97D5C"
 				"62DF89C3FF76D05A"
 				"12B92A3846742DC1"
 				"3F946CAEE4DDCFD2"
+				"6D434CB450053044"
 				"72E2F80597E42934"
 				"710A3219749271BF"
-				"38B014017412A9EA"
-				"7B0AFE310E9AD4EB"
-				"15CD4BFDC56E9510"
-				"0000000000000951"
-				"31FF51CECF71BD12"
-				"1CEC846AEA934646"
-				"21895E08936989BD"
-				"0F024EF4C3BCBD29"
-				"6BF7A5AB79F6D4CE"
-				"12E2F947665B5D9A"
-				"6B0ED84AEFFE15D4"
-				"3FBD5396797F112D"
-				"1CFC2F757BE1EAED"
-				"761DDF68550B29F6"
-				"11A59FBD489A8212"
-				"7A2750B42C409347"
-				"4456B727425889BE"
-				"1EA5B62723352A2C"
-				"05F36C8E743FBDEF"
-				"6134B27E86B97D5C"
-				"6D434CB450053044"
 				"2FC15D3916DBF4E4"
 				"1F8CD1A0144B4FAE"
+				"38B014017412A9EA"
+				"7B0AFE310E9AD4EB"
+				"0A8ED7DEE8C494D8"
+				"15CD4BFDC56E9510"
 				"6A2B2C5E2ADCE366"
 				"503B1A17248C9070"
 				"037415D5B965E214"
 				"53F861876B991C36"
+				"0000000000000951"
+				"4B14D99CD209E2D0"
+				"31FF51CECF71BD12"
+				"1CEC846AEA934646"
+				"5A54B88355563F52"
+				"21895E08936989BD"
 				"7C07D6A33F7ADB02"
 				"7EFBFF5D0DA018E7"
+				"0F024EF4C3BCBD29"
+				"6BF7A5AB79F6D4CE"
+				"12E2F947665B5D9A"
 				"057C0597DE1D5A11"
 				"137090962A587556"
+				"6B0ED84AEFFE15D4"
 				"1EE0D879BEFE8797"
+				"3FBD5396797F112D"
 				"50D051B9CD6372F1"
 				"0D0D010940D2FE2A"
 			]
@@ -867,12 +865,9 @@
 			]
 			id: "11A59FBD489A8212"
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/scavengers_delight"
-				icon: "kubejs:scavengers_delight"
-				id: "7BF2A0DA41927B29"
-				player_command: false
-				title: "Scavenger's Delight"
-				type: "command"
+				id: "736914917BECDAF8"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "0697F99860277935"
@@ -1481,12 +1476,9 @@
 			description: ["Add some extra features to your storage, like the ability to smelt, craft, or use a stonecutter without leaving the interface. "]
 			id: "3F946CAEE4DDCFD2"
 			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-				icon: "kubejs:farmers_delight"
-				id: "6D9CB4B5D250FD85"
-				player_command: false
-				title: "Farmer's Delight"
-				type: "command"
+				id: "3BF00CFBFDC86A1A"
+				type: "xp"
+				xp: 10
 			}]
 			tasks: [{
 				id: "31018F129D832B9C"
@@ -1527,6 +1519,11 @@
 		{
 			dependencies: ["1F8CD1A0144B4FAE"]
 			id: "1CFC2F757BE1EAED"
+			rewards: [{
+				id: "25267D739B097F33"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "7179AAE8B49AF244"
 				item: {
@@ -1614,6 +1611,13 @@
 				"&eNo more vanilla double-chest rooms!&r"
 				"&eNo more inventory without space!&r"
 			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedstorage:iron_chest"
+				tag: {
+					woodType: "oak"
+				}
+			}
 			id: "31FF51CECF71BD12"
 			rewards: [{
 				id: "2F09DA60336BB263"

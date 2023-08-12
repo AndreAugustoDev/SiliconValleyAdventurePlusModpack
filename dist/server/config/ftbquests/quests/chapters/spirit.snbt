@@ -124,7 +124,10 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["4DCAFBE2471538E1"]
+			dependencies: [
+				"4DCAFBE2471538E1"
+				"025ECC6F5458ABB7"
+			]
 			description: [
 				"Spirit being a mod about souls, having a receptacle for souls is fairly important. By killing mobs, you can store souls in one of 3 kinds of crystals; Soul Crystal Shard, the Crude Soul Crystal, and the Soul Crystal."
 				""
@@ -133,6 +136,11 @@
 				"The Crude Soul crystal can store a large amount of any kind of soul. While its useful for storing a large amount of souls, it unfortunately is unable to retain a specific kind of soul. This can be useful for storing large amounts of 'Crude' Souls for recipes or for ammo with the Soul Steel Bow."
 				""
 				"Lastly is the Soul Crystal. It can store the most of all the crystals, and can only store a souls of 1 kind of mob. This crystal is the most powerful of the crystal varieties, allowing you to harness the souls in the crystal to perform special abilities and to create a powerful mob spawner."
+				""
+				"{@pagebreak}"
+				"The Soul Crystal itself is used to store mob souls, with each crystal holding a single type of mob. "
+				""
+				"Filling the Crystal requires killing mobs with it in one’s inventory. Special weapons must be used as well; either Soul Steel tools or weapons enchanted with Soul Reaper will do nicely. "
 			]
 			id: "5A48AB6285838A58"
 			rewards: [{
@@ -200,6 +208,15 @@
 				"The Crystal Pedestal is a key tool for managing the souls in your soul crystal. By placing the soul crystal onto the pedestal, you are able to collect the souls from mobs that a player kills nearby it. This allows you to collect souls with other people! Note however, that the range is only around 4 blocks in each direction."
 				""
 				"By placing a soul crystal, you can also move souls off of one crystal onto another. Souls will always move from the players hand onto the pedestal. Note though, you can only combine souls of the same kind if you use the Soul Crystal, and souls transferred onto a Crude Soul Crystal lose their specificity."
+				""
+				"{@pagebreak}"
+				"Crystal Pedestals may be used to help automate filling Soul Crystals. "
+				""
+				"Place one in a mob farm and provide it with a Soul Crystal. Any time a mob of the correct type is killed by an appropriate weapon within six blocks of it, the souls will be transferred into the Soul Crystal. "
+				""
+				"Modular Routers with Activator Modules, Create Deployers, and PneumaticCraft Drones are all capable of wielding such a weapon. Just be sure to drop it in Soul Fire every now and then to repair it!"
+				""
+				"Crystal Pedestals may also be used to combine two Soul Crystals with like souls stored in them. Place one on the Pedestal, then Right-Click it with the other to transfer into the Crystal on the Pedestal."
 			]
 			id: "68224BA2D42CF05B"
 			rewards: [{
@@ -226,8 +243,18 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["68224BA2D42CF05B"]
+			dependencies: [
+				"68224BA2D42CF05B"
+				"1175EB3DD0105811"
+			]
 			description: [
+				"Soul Pedestals may be used to display mob souls for a more macabre sort of decoration. Right-Click with a Soul Crystal to display the contained mob."
+				""
+				"Soul Crystal Shards and Soul Crystals will display an actual mob entity, while Crude Soul Crystals will only display a generic, though very cute, Crude Soul. "
+				""
+				"Any displayed soul may be converted to a Crude Soul by Right-Clicking with a Soul Steel Wand. "
+				""
+				"{@pagebreak}"
 				"Some recipes in Spirit involve creating a ritual to perform Soul Transmutation. By setting up these pedestals in this EXACT setup, you can use souls and items to craft mobs and even other souls."
 				"{image:spirit:textures/quests/diagram.png width:160 height:100 align:1}"
 				""
@@ -269,8 +296,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 5.5d
+			x: -3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -538,23 +565,6 @@
 			}]
 			x: 6.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["3C0EA955C527A549"]
-			description: [
-				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
-				""
-				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
-			]
-			id: "7DE1D577EA0AD29D"
-			subtitle: "Soul of Steel"
-			tasks: [{
-				id: "26741D7D412D6965"
-				title: "Tools"
-				type: "checkmark"
-			}]
-			x: -3.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["3C0EA955C527A549"]
@@ -967,7 +977,6 @@
 		{
 			dependencies: [
 				"4CAE3462163AC4F6"
-				"7DE1D577EA0AD29D"
 				"7A7C4913FD80D16E"
 				"2D52E62B1D6E4CD4"
 				"6EA97C351B54704C"
@@ -1022,7 +1031,7 @@
 				}
 				type: "item"
 			}]
-			shape: "hexagon"
+			shape: "gear"
 			size: 4.0d
 			subtitle: "Complete all quests to obtain the trophy!"
 			tasks: [{
@@ -1031,14 +1040,19 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
-				"57BF53D313AF25D1"
 				"3C0EA955C527A549"
+				"5A48AB6285838A58"
 			]
 			description: [
+				"Soul Steel Tools are quite special in their abilities. Pressing the keybind listed on your tool, you can empower your tool, which consumes a soul from a soul crystal when a tool action is performed to perform a special ability."
+				""
+				"Soul Steel tools have low durability, but do not require any materials to repair, instead your tool will repair itself when thrown into soul fire."
+				""
+				"{@pagebreak}"
 				"In addition to harvesting extra souls when used to kill mobs, Soul Steel tools may also be empowered with the souls contained within a Soul Crystal. They may also be repaired by dropping them in Soul Fire. "
 				""
 				"The weapon will automatically pull from a Soul Crystal in one’s inventory when empowered, applying extra damage or special effects on hit. Be warned; this does consume souls from the Soul Crystal. "
@@ -1192,7 +1206,7 @@
 				title: "Soul Steel Tools"
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.0d
 			y: 4.5d
 		}
 		{
@@ -1242,73 +1256,6 @@
 		}
 		{
 			dependencies: ["025ECC6F5458ABB7"]
-			description: [
-				"The Soul Crystal itself is used to store mob souls, with each crystal holding a single type of mob. "
-				""
-				"Filling the Crystal requires killing mobs with it in one’s inventory. Special weapons must be used as well; either Soul Steel tools or weapons enchanted with Soul Reaper will do nicely. "
-			]
-			id: "57BF53D313AF25D1"
-			rewards: [
-				{
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/alchemists_delight"
-					icon: "kubejs:alchemists_delight"
-					id: "0B4C2A547E498C69"
-					player_command: false
-					title: "Alchemist's Delight"
-					type: "command"
-				}
-				{
-					id: "31D364F981134C22"
-					item: {
-						Count: 1b
-						id: "lootbags:loot_bag"
-						tag: {
-							Color: 16747259
-							Loot: "aof:loot_bags/magic/rare"
-							Name: "Magic Rare Lootbag"
-							Type: "RARE"
-						}
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "67ECB1C64AFC1CD4"
-				item: "spirit:soul_crystal"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.5d
-		}
-		{
-			description: [
-				"Crystal Pedestals may be used to help automate filling Soul Crystals. "
-				""
-				"Place one in a mob farm and provide it with a Soul Crystal. Any time a mob of the correct type is killed by an appropriate weapon within six blocks of it, the souls will be transferred into the Soul Crystal. "
-				""
-				"Modular Routers with Activator Modules, Create Deployers, and PneumaticCraft Drones are all capable of wielding such a weapon. Just be sure to drop it in Soul Fire every now and then to repair it!"
-				""
-				"Crystal Pedestals may also be used to combine two Soul Crystals with like souls stored in them. Place one on the Pedestal, then Right-Click it with the other to transfer into the Crystal on the Pedestal."
-			]
-			id: "72404755AE801AD0"
-			rewards: [{
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/sorcerers_delight"
-				icon: "kubejs:sorcerers_delight"
-				id: "6E37FF75A1558B1B"
-				player_command: false
-				title: "Sorcerer's Delight"
-				type: "command"
-			}]
-			tasks: [{
-				id: "2248DAC6DBF9E42F"
-				item: "spirit:crystal_pedestal"
-				type: "item"
-			}]
-			x: -1.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["025ECC6F5458ABB7"]
 			description: ["Pedestals are decorative blocks used to display items. Right-Click an item onto it to display. "]
 			id: "1175EB3DD0105811"
 			rewards: [{
@@ -1324,41 +1271,8 @@
 				item: "spirit:pedestal"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 6.5d
-		}
-		{
-			dependencies: ["025ECC6F5458ABB7"]
-			description: [
-				"Soul Pedestals may be used to display mob souls for a more macabre sort of decoration. Right-Click with a Soul Crystal to display the contained mob."
-				""
-				"Soul Crystal Shards and Soul Crystals will display an actual mob entity, while Crude Soul Crystals will only display a generic, though very cute, Crude Soul. "
-				""
-				"Any displayed soul may be converted to a Crude Soul by Right-Clicking with a Soul Steel Wand. "
-			]
-			id: "193FD67844E7D2CD"
-			rewards: [
-				{
-					id: "2D7722107B0E6B0C"
-					item: "spirit:soul_steel_wand"
-					type: "item"
-				}
-				{
-					command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:loot_boxes/farmers_delight"
-					icon: "kubejs:farmers_delight"
-					id: "77FCCB80FEB9BBB5"
-					player_command: false
-					title: "Farmer's Delight"
-					type: "command"
-				}
-			]
-			tasks: [{
-				id: "30B7F99C2453450E"
-				item: "spirit:soul_pedestal"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 4.5d
+			x: -2.0d
+			y: 3.5d
 		}
 	]
 	title: "Spirit"

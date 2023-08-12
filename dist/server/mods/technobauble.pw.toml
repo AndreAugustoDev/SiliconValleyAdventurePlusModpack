@@ -1,0 +1,13 @@
+name = "Technobauble"
+filename = "technobauble-0.7.0.4-mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "60b754a3dd1c5e50e8b2b61a0b7bbefff90520ca"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4100723
+project-id = 492052

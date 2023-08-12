@@ -1,0 +1,13 @@
+name = "Blaze Gear"
+filename = "blazegear-1.19.2-1.3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "915770c5c839c9055fb5acb91e914b117b360920"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3970604
+project-id = 418589

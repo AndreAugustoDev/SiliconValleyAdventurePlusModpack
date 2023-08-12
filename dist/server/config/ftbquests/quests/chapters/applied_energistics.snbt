@@ -2791,20 +2791,6 @@
 				"Its important to note, that without a ME Network this block does nothing. Its only useful when combined with a way to input, and output items, and requires 2 AE/t power to function, and additional power for each Storage Cell stored inside it."
 			]
 			id: "19FBAF9A70549BF5"
-			rewards: [{
-				id: "7E9F4AA168E58A8E"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "A block designed to do one thing, store Storage Cells."
 			tasks: [{
 				id: "04A70F331336A1D5"
@@ -2817,20 +2803,6 @@
 		{
 			dependencies: ["19FBAF9A70549BF5"]
 			id: "3988E16DAA388261"
-			rewards: [{
-				id: "75CE478D2B8FB8D3"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Upgraded version of the ME Terminal which has an integrated crafting grid with access to a ME Network's Networked Storage."
 			tasks: [{
 				id: "0FCC6C4E3FB97D07"
@@ -2855,20 +2827,6 @@
 				"You configure the connections by using the Memory Card; First Shift+Right Click the input to save it on your memory card, then simply right-click the different outputs to store the input onto the outputs."
 			]
 			id: "1286F9F4255B9A38"
-			rewards: [{
-				id: "7EDBD50C41804FD8"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "A versatile configurable system to move items / redstone / power / and fluids from one location to another though an existing ME Network without storage."
 			tasks: [{
 				id: "5723EBB3D22A39E7"
@@ -2886,20 +2844,6 @@
 				"The 1k Storage Cell uses 8 bytes of data to store a single type."
 			]
 			id: "215EF29F7DD6B37C"
-			rewards: [{
-				id: "3862AF9AC3809275"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Lowest Tier Storage Cell, which can contain 1,024 bytes of storage."
 			tasks: [{
 				id: "3FDDED57431181C3"
@@ -2921,20 +2865,6 @@
 				"The 4k Storage Cell uses 32 bytes of data to store a single type."
 			]
 			id: "5AB8DB04F4DA2F40"
-			rewards: [{
-				id: "7871D12FA7E70681"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Low Tier Storage Cell, which can contain 4,096 bytes of storage."
 			tasks: [{
 				id: "2E155470D8151510"
@@ -2956,20 +2886,6 @@
 				"The 16k Storage Cell uses 128 bytes of data to store a single type."
 			]
 			id: "2A358437484E61CF"
-			rewards: [{
-				id: "5D2F3FC017AB8F28"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Middle Tier Storage Cell, which can contain 16,384 bytes of storage."
 			tasks: [{
 				id: "0950907AA16E55FA"
@@ -2991,20 +2907,6 @@
 				"The 64k Storage Cell uses 512 bytes of data to store a single type."
 			]
 			id: "451C8D5D92F1BAED"
-			rewards: [{
-				id: "1A6F41E491B21E42"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "Highest Tier Storage Cell, which can contain 65,536 bytes of storage."
 			tasks: [{
 				id: "7FAF15C54C21DDF8"
@@ -3033,20 +2935,6 @@
 				"To select between modes, click the button to the right of the interface; when it shows a standard crafting table, it will create Crafting Patterns, and when it shows a furnace, it will create Processing Patterns."
 			]
 			id: "34550EB511DF1DBC"
-			rewards: [{
-				id: "7C6A62A9D5588C0E"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "A specialized version of the ME Crafting Terminal designed to encode Blank Pattern into Crafting Pattern or Processing Pattern."
 			tasks: [{
 				id: "2A1935843BEBBF9F"
@@ -3064,20 +2952,6 @@
 				"Can be upgraded into a ME Crafting Terminal."
 			]
 			id: "4555AD508D9C6CEB"
-			rewards: [{
-				id: "26F52C51601BD009"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "A HID which gives you access to items stored in your ME Network. This will also include items accessible through ME Storage Bus."
 			tasks: [{
 				id: "2FEE9FBD8CE4FE03"
@@ -3092,18 +2966,9 @@
 			description: ["It is the base for crafting the other functional components of a crafting CPU."]
 			id: "159C31FE32578AD2"
 			rewards: [{
-				id: "30BE24275F44F396"
-				item: {
-					Count: 1b
-					id: "lootbags:loot_bag"
-					tag: {
-						Color: 16747259
-						Loot: "aof:loot_bags/misc/logistics"
-						Name: "Logistics & Storage Lootbag"
-						Type: "UNCOMMON"
-					}
-				}
-				type: "item"
+				id: "0B9E54976AB8CAD0"
+				type: "xp"
+				xp: 10
 			}]
 			subtitle: "This particular block provides the CPU with no additional features, but can be used as a \"filler\" block."
 			tasks: [{

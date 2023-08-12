@@ -1,0 +1,13 @@
+name = "MES - Moog's End Structures"
+filename = "mes-1.1-1.19.2-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "27de9773a540dcd7db81e20d5580ac7ad1920903"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4666330
+project-id = 892382

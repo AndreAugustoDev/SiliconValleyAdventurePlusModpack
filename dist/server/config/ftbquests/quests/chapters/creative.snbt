@@ -13,7 +13,7 @@
 			dev: false
 			height: 4.0d
 			hover: [ ]
-			image: "atm:textures/questpics/creative.png"
+			image: "kubejs:textures/quests/creative.png"
 			rotation: 0.0d
 			width: 16.0d
 			x: 0.0d
