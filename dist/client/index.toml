@@ -5686,11 +5686,6 @@ hash = "1adef1506aa657b6c901c500101e0e390db771e7371eb7ea951755b607cfcd58"
 metafile = true
 
 [[files]]
-file = "mods/dynamic-fps-reforged.pw.toml"
-hash = "ccb980e628b4231aa00efeddc74dc88f1902b6826e012bd866cca8f0983274c4"
-metafile = true
-
-[[files]]
 file = "mods/earth2java.pw.toml"
 hash = "b6800ca6424af193d08a5bee142b0b9964bdf31cad081a8ff87bc1718396e621"
 metafile = true

@@ -25,5 +25,4 @@ wavey-capes
 rubidium-extra
 tiny-item-animations
 dark-mode-everywhere
-dynamic-fps-reforged
 exit-confirmation
