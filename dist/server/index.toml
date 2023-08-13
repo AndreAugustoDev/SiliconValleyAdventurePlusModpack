@@ -4821,7 +4821,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "2b9110a630393ecd0cfe096ac8799d2bb3ee00743ca927a2e610e6f71be359a9"
+hash = "0483debb252f63301ceec8fc7bc3e07709d820ef80ed131eee0944c046cb398a"
 metafile = true
 
 [[files]]
@@ -6432,11 +6432,6 @@ metafile = true
 [[files]]
 file = "mods/lodestone.pw.toml"
 hash = "c0c0417ef75c6d3426d726942262c484d915c36668e8110a4e3f2ba610873614"
-metafile = true
-
-[[files]]
-file = "mods/login-protection.pw.toml"
-hash = "56b6d09fb2ccaceb7bf7f5ed03df651733f92f369220336de4ec9cbe002e88f3"
 metafile = true
 
 [[files]]
