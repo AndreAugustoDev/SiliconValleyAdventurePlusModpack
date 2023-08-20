@@ -26,3 +26,5 @@ rubidium-extra
 tiny-item-animations
 dark-mode-everywhere
 exit-confirmation
+screenshot-viewer
+server-country-flags
