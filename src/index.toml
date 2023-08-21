@@ -3573,7 +3573,7 @@ metafile = true
 
 [[files]]
 file = "mods/biggerreactors.pw.toml"
-hash = "56e12d552626e9733a7b78ab481f5f71d7052e33641a9c26341c2f10cd2b1146"
+hash = "26ebc53f6c8a139cc37ccc10cddfde94038a52160a0de67b2252d0744ed99cf6"
 metafile = true
 
 [[files]]
@@ -5959,11 +5959,6 @@ metafile = true
 [[files]]
 file = "mods/stoneworks.pw.toml"
 hash = "fa859006d662af858ecc1466fb84709e1e888f9fa83287b9efa4a21dee9b06c7"
-metafile = true
-
-[[files]]
-file = "mods/storage-racks.pw.toml"
-hash = "75b81ca4f1d5eb3d891d98c0c03e8163a68356313393b212b5dfc3535c305890"
 metafile = true
 
 [[files]]

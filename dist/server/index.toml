@@ -7328,11 +7328,6 @@ hash = "fa859006d662af858ecc1466fb84709e1e888f9fa83287b9efa4a21dee9b06c7"
 metafile = true
 
 [[files]]
-file = "mods/storage-racks.pw.toml"
-hash = "75b81ca4f1d5eb3d891d98c0c03e8163a68356313393b212b5dfc3535c305890"
-metafile = true
-
-[[files]]
 file = "mods/structory-towers.pw.toml"
 hash = "0dce7ce32df160cc032fee249f8b85f8d1ed21f8ab0903531c3c8ba5fd19eccc"
 metafile = true
