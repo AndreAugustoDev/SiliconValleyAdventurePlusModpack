@@ -5073,7 +5073,7 @@ metafile = true
 
 [[files]]
 file = "mods/biggerreactors.pw.toml"
-hash = "56e12d552626e9733a7b78ab481f5f71d7052e33641a9c26341c2f10cd2b1146"
+hash = "26ebc53f6c8a139cc37ccc10cddfde94038a52160a0de67b2252d0744ed99cf6"
 metafile = true
 
 [[files]]
@@ -6189,11 +6189,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "632cc987bec151520dd5636f1152c7b7af67403a5957adfdcc6d3c2e4d39ac79"
-metafile = true
-
-[[files]]
-file = "mods/immersive-weathering-forge.pw.toml"
-hash = "43000658ab251000bf0674498d3e52dc2758b71cd644c8607ab4f2ba1e32436d"
 metafile = true
 
 [[files]]
