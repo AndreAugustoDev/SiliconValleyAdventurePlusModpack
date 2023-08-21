@@ -1,13 +1,13 @@
 name = "CTOV - Iron's Spells 'n Spellbooks compat"
-filename = "ctov-irons-spells-n-spellbooks-compat-1.0.jar"
+filename = "ctov-irons-spells-n-spellbooks-compat-1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/B8XiXauo/versions/gnZEvQCX/ctov-irons-spells-n-spellbooks-compat-1.0.jar"
+url = "https://cdn.modrinth.com/data/B8XiXauo/versions/so5OXcDA/ctov-irons-spells-n-spellbooks-compat-1.1.jar"
 hash-format = "sha1"
-hash = "5baf962d0cbbdbe6edd54c6db2c6d4d9eb82de87"
+hash = "b144bc0bae3a2727bada57d22479bd56ea650104"
 
 [update]
 [update.modrinth]
 mod-id = "B8XiXauo"
-version = "gnZEvQCX"
+version = "so5OXcDA"

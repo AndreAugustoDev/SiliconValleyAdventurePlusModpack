@@ -1,13 +1,13 @@
 name = "Smidgeon O' Bliss (food compat/integration for Create, Farmer's Delight, etc.)"
-filename = "SmidgeonOBliss-1.19.2-1.2.4.jar"
+filename = "SmidgeonOBliss-1.19.2-1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7cca9d41746302561937368b22d85e680a9bf329"
+hash = "565ad373624d54caecaa0e75c97b9cf1a13961b4"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4657276
+file-id = 4702321
 project-id = 842043
