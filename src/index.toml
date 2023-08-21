@@ -4692,6 +4692,11 @@ hash = "632cc987bec151520dd5636f1152c7b7af67403a5957adfdcc6d3c2e4d39ac79"
 metafile = true
 
 [[files]]
+file = "mods/immersive-weathering-forge.pw.toml"
+hash = "43000658ab251000bf0674498d3e52dc2758b71cd644c8607ab4f2ba1e32436d"
+metafile = true
+
+[[files]]
 file = "mods/industrial-foregoing.pw.toml"
 hash = "03eda3cb7e6a184e591d5853b12125a8b26634363ebfd00f069f177bbe190421"
 metafile = true

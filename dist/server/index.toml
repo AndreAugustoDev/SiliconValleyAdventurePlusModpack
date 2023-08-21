@@ -5593,6 +5593,11 @@ hash = "d6c697bcdae1ccd5ce538db59329bfae414cb99ac0eb2eae8d289c939584875b"
 metafile = true
 
 [[files]]
+file = "mods/default-options.pw.toml"
+hash = "3c3db423d76d506a075a7b55a33b7bed658141002de9edc337ed496b1620d857"
+metafile = true
+
+[[files]]
 file = "mods/delightful.pw.toml"
 hash = "b97731a574e39e3d5b968f31eda09411c55d423377c46a49bd0a8ddebebf61b4"
 metafile = true
@@ -6100,6 +6105,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-engineering.pw.toml"
 hash = "632cc987bec151520dd5636f1152c7b7af67403a5957adfdcc6d3c2e4d39ac79"
+metafile = true
+
+[[files]]
+file = "mods/immersive-weathering-forge.pw.toml"
+hash = "43000658ab251000bf0674498d3e52dc2758b71cd644c8607ab4f2ba1e32436d"
 metafile = true
 
 [[files]]
